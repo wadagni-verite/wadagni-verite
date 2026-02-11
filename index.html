@@ -1,4 +1,103 @@
-d var(--gold);
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romuald Wadagni : L'Épreuve de la Vérité</title>
+    <meta name="description" content="Site pour la transparence - Élections Bénin 2026. Découvrez la vérité sur l'affaire de fraude documentaire soumise à la Cour Constitutionnelle.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --navy: #0a1f44;
+            --blue: #1e3a8a;
+            --gold: #d4af37;
+            --red: #dc2626;
+            --green: #059669;
+            --gray: #6b7280;
+            --light-gray: #f3f4f6;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #ffffff;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header/Hero */
+        .hero {
+            background: linear-gradient(135deg, var(--navy) 0%, var(--blue) 100%);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><rect width="100" height="100" fill="none"/><path d="M0 0 L100 100 M100 0 L0 100" stroke="rgba(255,255,255,0.03)" stroke-width="2"/></svg>');
+            opacity: 0.1;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            line-height: 1.2;
+        }
+
+        .hero-subtitle {
+            font-size: 1.5rem;
+            font-weight: 300;
+            margin-bottom: 40px;
+            opacity: 0.9;
+        }
+
+        .hero-author {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 40px;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .author-photo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid var(--gold);
             box-shadow: 0 10px 30px rgba(0,0,0,0.3);
         }
 
@@ -37,6 +136,24 @@ d var(--gold);
             font-weight: 600;
             margin-top: 20px;
             font-size: 1.1rem;
+        }
+
+        /* Counter Badge */
+        .counter-badge {
+            display: inline-block;
+            background: var(--gold);
+            color: var(--navy);
+            padding: 15px 30px;
+            border-radius: 30px;
+            font-weight: 700;
+            margin-top: 20px;
+            font-size: 1.3rem;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
         }
 
         /* Introduction */
@@ -288,6 +405,14 @@ d var(--gold);
             line-height: 1.6;
         }
 
+        .doc-card img {
+            max-width: 150px;
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
         .btn {
             display: inline-block;
             padding: 12px 30px;
@@ -305,6 +430,7 @@ d var(--gold);
 
         .btn-secondary {
             background: var(--gold);
+            color: var(--navy);
         }
 
         .btn-secondary:hover {
@@ -348,6 +474,7 @@ d var(--gold);
             text-decoration: none;
             transition: transform 0.3s ease;
             font-size: 1.1rem;
+            color: white;
         }
 
         .share-btn:hover {
@@ -356,17 +483,14 @@ d var(--gold);
 
         .btn-whatsapp {
             background: #25D366;
-            color: white;
         }
 
         .btn-facebook {
             background: #1877F2;
-            color: white;
         }
 
         .btn-twitter {
             background: #000000;
-            color: white;
         }
 
         /* Footer */
@@ -438,10 +562,10 @@ d var(--gold);
         <div class="container">
             <div class="hero-content">
                 <h1>Romuald Wadagni :<br>L'Épreuve de la Vérité</h1>
-                <p class="hero-subtitle">Lettre ouverte et pièces justificatives sur une affaire de fraude documentaire</p>
+                <p class="hero-subtitle">Lettre ouverte et pièces justificatives sur une affaire de fraude documentaire soulise à la Cour Constitutionnelle</p>
                 
                 <div class="hero-author">
-                    <img src="gilles-feliho.jpg" alt="Gilles FÉLIHO" class="author-photo">
+                    <img src="gilles-feliho.jpg" alt="Gilles FÉLIHO" class="author-photo" onerror="this.style.display='none'">
                     <div class="author-info">
                         <div class="author-name">Gilles FÉLIHO</div>
                         <div class="author-titles">
@@ -452,6 +576,7 @@ d var(--gold);
                 </div>
                 
                 <div class="date-badge">📅 Publication : 9 février 2026</div>
+                <div class="counter-badge" id="counter">⏰ Chargement...</div>
             </div>
         </div>
     </section>
@@ -460,8 +585,8 @@ d var(--gold);
     <section class="intro">
         <div class="container">
             <h2>L'Affaire qui Révèle les Véritables Valeurs</h2>
-            <p>Le <strong class="highlight">22 mai 2025</strong>, dans sa décision <strong class="highlight">DCC 25-152</strong>, la Cour Constitutionnelle du Bénin, dans sa décision <strong>DCC 25-152 du 22 mai 2025</strong>, a relaté l'existence d'une <strong class="highlight">fraude documentaire</strong> impliquant un certificat d'acquit litigieux délivré le <strong class="highlight">20 octobre 2016</strong>.</p>
-            <p>Depuis <strong>2020</strong>, j'ai porté cette affaire à l'attention de Romuald Wadagni, alors Ministre d'État chargé de l'Économie et des Finances. Malgré des relances répétées et une sommation d'huissier officielle, <strong class="highlight">aucune réponse sérieuse n'a été apportée</strong>.</p>
+            <p>Le <strong class="highlight">22 mai 2025</strong>, dans sa décision <strong class="highlight">DCC 25-152</strong>, la Cour Constitutionnelle du Bénin a confirmé l'existence d'une <strong class="highlight">fraude documentaire</strong> impliquant un certificat d'acquit litigieux délivré le <strong class="highlight">20 octobre 2016</strong>.</p>
+            <p>Depuis <strong>2020</strong>, j'ai porté cette affaire à l'attention de Romuald Wadagni, alors Ministre d'État chargé de l'Économie et des Finances. Malgré des relances répétées et une sommation d'huissier officielle, <strong class="highlight">aucune réponse n'a été apportée</strong>.</p>
             <p>Aujourd'hui candidat à la Présidence, Monsieur Wadagni met en avant des valeurs de <strong>transparence, de probité et de bonne gouvernance</strong>. Comment un tel acte frauduleux a-t-il pu être commis ? Pourquoi garder le silence face aux interpellations citoyennes ? Comment garantir que de tels actes ne se reproduiront pas ?</p>
         </div>
     </section>
@@ -502,7 +627,7 @@ d var(--gold);
                     
                     <div class="comparison-item">
                         <h4>⚠️ Certificat Frauduleux</h4>
-                        <p>Fraude documentaire confirmée par le rappel des faits de la Cour Constitutionnelle (DCC 25-152).</p>
+                        <p>Fraude documentaire résumée dans une décision de la Cour Constitutionnelle (DCC 25-152).</p>
                     </div>
                     
                     <div class="comparison-item">
@@ -546,7 +671,7 @@ d var(--gold);
                 <div class="timeline-item">
                     <div class="timeline-content">
                         <div class="timeline-date">⚖️ 22 Mai 2025</div>
-                        <p class="timeline-text">La Cour Constitutionnelle du Bénin fait état de la fraude documentaire dans sa décision DCC 25-152.</p>
+                        <p class="timeline-text">La Cour Constitutionnelle du Bénin confirme la fraude documentaire dans sa décision DCC 25-152.</p>
                     </div>
                     <div class="timeline-dot"></div>
                 </div>
@@ -565,7 +690,7 @@ d var(--gold);
     <!-- Documents -->
     <section class="documents">
         <div class="container">
-            <h2 style="text-align: center; margin: 40px 0;">📄 Les Documents</h2>
+            <h2>📄 Les Documents</h2>
             <p class="documents-intro">Tous les documents officiels sont disponibles en téléchargement. Les preuves sont établies par la Cour Constitutionnelle.</p>
             
             <div class="docs-grid">
@@ -573,10 +698,7 @@ d var(--gold);
                     <div class="doc-icon">📄</div>
                     <h3>Lettre Ouverte</h3>
                     <p>À M. Romuald Wadagni<br>Candidat à la Présidence de la République du Bénin</p>
-                    <p style="font-size: 0.9rem; color: #6b7280;">📄 Ko - PDF</p>
-                    <a href="Lettre ouverte.pdf" class="btn" target="_blank">
-                        <i class="fas fa-download"></i> Télécharger
-                    </a>
+                    <a href="Lettre ouverte.pdf" class="btn" target="_blank">📥 Télécharger</a>
                 </div>
 
                 <div class="doc-card">
@@ -584,19 +706,17 @@ d var(--gold);
                     <h3>Pièces Justificatives</h3>
                     <p>Dossier complet avec preuves<br>Décision Cour Constitutionnelle + Certificat + Correspondances</p>
                     <p style="font-size: 0.9rem; color: #6b7280;">3.8 Mo - PDF</p>
-                    <a href="pieces-justificatives.pdf.pdf" class="btn" target="_blank">
-                        <i class="fas fa-download"></i> Télécharger
-                    </a>
+                    <a href="pieces-justificatives.pdf.pdf" class="btn" target="_blank">📥 Télécharger</a>
                 </div>
 
                 <div class="doc-card">
+                    <img src="livre-blanchiment.jpg" alt="Livre Blanchiment en Liberté" onerror="this.style.display='none'">
                     <div class="doc-icon">📚</div>
                     <h3>Blanchiment en Liberté</h3>
                     <p>Livre de Gilles Féliho</p>
+                    <img src="logo-eji.jpg" alt="Logo EJI" style="max-width: 100px; margin-top: 10px;" onerror="this.style.display='none'">
                     <p style="font-size: 0.9rem; color: #6b7280;">Disponible sur Amazon</p>
-                    <a href="https://amzn.eu/d/07BcPzaJ" class="btn btn-secondary" target="_blank">
-                        <i class="fas fa-external-link-alt"></i> Acheter
-                    </a>
+                    <a href="https://amzn.eu/d/07BcPzaJ" class="btn btn-secondary" target="_blank">🛒 Acheter</a>
                 </div>
             </div>
         </div>
@@ -604,18 +724,18 @@ d var(--gold);
 
     <!-- Call to Action -->
     <section class="cta">
-        <div class="container" style="background: #fef3e7; text-align: center;">
-            <h2 style="color: #333; margin-bottom: 30px;">📢 Partagez Cette Interpellation</h2>
-            <p style="color: #666; margin-bottom: 40px;">L'intégrité ne se divise pas. Exigeons des comptes.</p>
+        <div class="container">
+            <h2>📢 Partagez Cette Interpellation</h2>
+            <p>L'intégrité ne se divise pas. Exigeons des comptes.</p>
             <div class="share-buttons">
-                <a href="https://wa.me/?text=Romuald%20Wadagni%20%3A%20L%27%C3%89preuve%20de%20la%20V%C3%A9rit%C3%A9%20-%20https%3A%2F%2Fubiquitous-sundae-196fa2.netlify.app" class="btn share-btn btn-whatsapp" style="background: #25D366;">
-                    <i class="fab fa-whatsapp"></i> Partager sur WhatsApp
+                <a href="https://wa.me/?text=🔴%20Romuald%20Wadagni%20%3A%20L'Épreuve%20de%20la%20Vérité%0A%0ADécouvrez%20la%20vérité%20sur%20l'affaire%20de%20fraude%20documentaire%20confirmée%20par%20la%20Cour%20Constitutionnelle.%0A%0A👉%20https://ubiquitous-sundae-196fa2.netlify.app%0A%0A%23Bénin2026%20%23Transparence%20%23Wadagni" class="share-btn btn-whatsapp" target="_blank">
+                    💬 Partager sur WhatsApp
                 </a>
-                <a href="https://www.facebook.com/sharer/sharer.php?u=https://ubiquitous-sundae-196fa2.netlify.app" class="btn share-btn btn-facebook" style="background: #1877F2;">
-                    <i class="fab fa-facebook"></i> Partager sur Facebook
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https://ubiquitous-sundae-196fa2.netlify.app" class="share-btn btn-facebook" target="_blank">
+                    📘 Partager sur Facebook
                 </a>
-                <a href="https://twitter.com/intent/tweet?text=Romuald%20Wadagni%20%3A%20L%27%C3%89preuve%20de%20la%20V%C3%A9rit%C3%A9&url=https://ubiquitous-sundae-196fa2.netlify.app" class="btn share-btn btn-twitter" style="background: #000000;">
-                    <i class="fab fa-x-twitter"></i> Partager sur X
+                <a href="https://twitter.com/intent/tweet?text=Romuald%20Wadagni%20%3A%20L%27Épreuve%20de%20la%20Vérité&url=https://ubiquitous-sundae-196fa2.netlify.app&hashtags=Bénin2026,Transparence,Wadagni" class="share-btn btn-twitter" target="_blank">
+                    🐦 Partager sur X
                 </a>
             </div>
         </div>
@@ -629,5 +749,52 @@ d var(--gold);
             <p>Créé avec ❤️ pour la démocratie béninoise</p>
         </div>
     </footer>
+
+    <script>
+        // Compteur de jours depuis le 20 octobre 2016
+        function updateCounter() {
+            const fraudDate = new Date('2016-10-20');
+            const today = new Date();
+            const diffTime = Math.abs(today - fraudDate);
+            const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+            
+            const counterElement = document.getElementById('counter');
+            if (counterElement) {
+                counterElement.textContent = `⏰ ${diffDays} jours depuis la fraude documentaire`;
+            }
+        }
+
+        // Mettre à jour le compteur au chargement de la page
+        updateCounter();
+
+        // Animation au scroll
+        function revealOnScroll() {
+            const elements = document.querySelectorAll('.timeline-item, .doc-card, .comparison-column');
+            
+            elements.forEach(element => {
+                const elementTop = element.getBoundingClientRect().top;
+                const elementVisible = 150;
+                
+                if (elementTop < window.innerHeight - elementVisible) {
+                    element.style.opacity = '1';
+                    element.style.transform = 'translateY(0)';
+                }
+            });
+        }
+
+        // Initialiser les éléments
+        document.addEventListener('DOMContentLoaded', function() {
+            const elements = document.querySelectorAll('.timeline-item, .doc-card, .comparison-column');
+            elements.forEach(element => {
+                element.style.opacity = '0';
+                element.style.transform = 'translateY(20px)';
+                element.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            });
+            
+            revealOnScroll();
+        });
+
+        window.addEventListener('scroll', revealOnScroll);
+    </script>
 </body>
 </html>
