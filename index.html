@@ -258,6 +258,345 @@
             line-height: 1.6;
         }
 
+        /* SECTION AFFAIRE FELIHO - Styles spécifiques */
+        .affaire-feliho {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 80px 20px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .affaire-feliho::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -10%;
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(220, 38, 38, 0.05) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .affaire-feliho .section-header {
+            text-align: center;
+            margin-bottom: 50px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .affaire-feliho .section-header h2 {
+            font-size: 2.8rem;
+            color: var(--navy);
+            margin-bottom: 15px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .affaire-feliho .section-header .subtitle {
+            font-size: 1.4rem;
+            color: var(--red);
+            font-style: italic;
+            font-weight: 500;
+        }
+
+        .affaire-feliho .section-header .divider {
+            width: 100px;
+            height: 4px;
+            background: var(--red);
+            margin: 20px auto;
+        }
+
+        .context-box {
+            background: white;
+            padding: 35px;
+            border-radius: 12px;
+            margin-bottom: 40px;
+            border-left: 5px solid var(--red);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            position: relative;
+            z-index: 1;
+        }
+
+        .context-box h3 {
+            color: var(--red);
+            font-size: 1.4rem;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .context-box p {
+            color: #455a64;
+            line-height: 1.8;
+            font-size: 1.1rem;
+        }
+
+        .infographie-container {
+            text-align: center;
+            margin: 50px 0;
+            position: relative;
+            z-index: 1;
+        }
+
+        .infographie-wrapper {
+            background: white;
+            padding: 25px;
+            border-radius: 16px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+            display: inline-block;
+            max-width: 100%;
+            transition: transform 0.3s ease;
+        }
+
+        .infographie-wrapper:hover {
+            transform: translateY(-5px);
+        }
+
+        .infographie-wrapper img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            display: block;
+        }
+
+        .infographie-caption {
+            margin-top: 20px;
+            color: #78909c;
+            font-size: 0.95rem;
+            font-style: italic;
+        }
+
+        .details-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin: 50px 0;
+            position: relative;
+            z-index: 1;
+        }
+
+        .detail-card {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            border-top: 4px solid;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .detail-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+        }
+
+        .detail-card.fraud {
+            border-color: var(--red);
+        }
+
+        .detail-card.legal {
+            border-color: var(--blue);
+        }
+
+        .detail-card h4 {
+            font-size: 1.3rem;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .detail-card.fraud h4 {
+            color: var(--red);
+        }
+
+        .detail-card.legal h4 {
+            color: var(--blue);
+        }
+
+        .detail-card ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .detail-card li {
+            padding: 12px 0;
+            border-bottom: 1px solid #e0e0e0;
+            color: #455a64;
+            line-height: 1.7;
+            position: relative;
+            padding-left: 25px;
+        }
+
+        .detail-card li:last-child {
+            border-bottom: none;
+        }
+
+        .detail-card li::before {
+            content: '▸';
+            position: absolute;
+            left: 0;
+            color: var(--gold);
+            font-weight: bold;
+        }
+
+        .detail-card li strong {
+            color: var(--navy);
+        }
+
+        .comparatif-table {
+            background: white;
+            padding: 40px;
+            border-radius: 16px;
+            margin: 50px 0;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            position: relative;
+            z-index: 1;
+            overflow-x: auto;
+        }
+
+        .comparatif-table h3 {
+            text-align: center;
+            color: var(--navy);
+            font-size: 1.8rem;
+            margin-bottom: 30px;
+            font-family: 'Merriweather', serif;
+        }
+
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .data-table th {
+            background: var(--navy);
+            color: white;
+            padding: 18px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 1rem;
+        }
+
+        .data-table th.falsifie {
+            background: var(--red);
+        }
+
+        .data-table th.reel {
+            background: var(--green);
+        }
+
+        .data-table td {
+            padding: 16px;
+            border: 1px solid #e0e0e0;
+            color: #455a64;
+        }
+
+        .data-table tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+
+        .data-table td strong {
+            color: var(--navy);
+        }
+
+        .data-table .tag-faux {
+            color: var(--red);
+            font-weight: 700;
+        }
+
+        .data-table .tag-vrai {
+            color: var(--green);
+            font-weight: 700;
+        }
+
+        .challenge-box {
+            background: linear-gradient(135deg, var(--red) 0%, #b71c1c 100%);
+            color: white;
+            padding: 50px;
+            border-radius: 16px;
+            margin: 50px 0;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+            box-shadow: 0 10px 40px rgba(220, 38, 38, 0.3);
+        }
+
+        .challenge-box h3 {
+            font-size: 2.2rem;
+            margin-bottom: 25px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 800;
+        }
+
+        .challenge-box p {
+            font-size: 1.2rem;
+            line-height: 1.9;
+            max-width: 900px;
+            margin: 0 auto;
+            opacity: 0.95;
+        }
+
+        .challenge-box .highlight-white {
+            background: rgba(255,255,255,0.2);
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+
+        .challenge-quote {
+            margin-top: 30px;
+            padding-top: 30px;
+            border-top: 2px solid rgba(255,255,255,0.3);
+            font-size: 1.3rem;
+            font-style: italic;
+            font-weight: 500;
+        }
+
+        .hashtags-bar {
+            text-align: center;
+            margin-top: 40px;
+            padding: 30px;
+            background: rgba(255,255,255,0.7);
+            border-radius: 12px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hashtags-bar p {
+            color: var(--navy);
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .hashtag-list {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .hashtag {
+            padding: 10px 22px;
+            border-radius: 25px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: white;
+            transition: transform 0.3s ease;
+        }
+
+        .hashtag:hover {
+            transform: scale(1.05);
+        }
+
+        .hashtag:nth-child(1) { background: var(--navy); }
+        .hashtag:nth-child(2) { background: var(--red); }
+        .hashtag:nth-child(3) { background: var(--green); }
+        .hashtag:nth-child(4) { background: var(--gold); color: var(--navy); }
+
         /* Timeline */
         .timeline {
             padding: 80px 20px;
@@ -554,6 +893,30 @@
                 flex-direction: column;
                 align-items: stretch;
             }
+
+            .affaire-feliho .section-header h2 {
+                font-size: 2rem;
+            }
+
+            .details-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .comparatif-table {
+                padding: 20px;
+            }
+
+            .data-table {
+                font-size: 0.9rem;
+            }
+
+            .challenge-box {
+                padding: 30px 20px;
+            }
+
+            .challenge-box h3 {
+                font-size: 1.6rem;
+            }
         }
     </style>
 </head>
@@ -633,10 +996,122 @@
                     
                     <div class="comparison-item">
                         <h4>📜 Non-Respect du Code de procédure Pénale</h4>
-                        <p>L'article 39 du CPP impose à toute autorité constituée qui, dans l’exercice de ses fonctions, a connaissance d’un crime ou d’un délit, l’obligation d’en aviser sans délai le procureur de la République.</p>
+                        <p>L'article 39 du CPP impose à toute autorité constituée qui, dans l'exercice de ses fonctions, a connaissance d'un crime ou d'un délit, l'obligation d'en aviser sans délai le procureur de la République.</p>
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- SECTION AFFAIRE FELIHO VS WADAGNI - Intégrée ici -->
+    <section class="affaire-feliho" id="affaire-feliho">
+        <div class="container">
+            
+            <!-- En-tête -->
+            <div class="section-header">
+                <h2>Affaire Feliho vs Wadagni</h2>
+                <div class="divider"></div>
+                <p class="subtitle">"Entre Slogans de Campagne et Réalité de Fraude"</p>
+            </div>
+
+            <!-- Contexte -->
+            <div class="context-box">
+                <h3>⚖️ Contexte de l'Affaire</h3>
+                <p>Le dossier <strong>Gilles Sixte Feliho</strong> contre <strong>Romuald Wadagni</strong> illustre une confrontation 
+                entre un citoyen exigeant la reddition de comptes et une administration financière qui, bien qu'informée 
+                de potentielles <strong>fraudes graves</strong>, semble s'être retranchée derrière des réponses de forme.</p>
+            </div>
+
+            <!-- L'infographie -->
+            <div class="infographie-container">
+                <div class="infographie-wrapper">
+                    <img src="affaire-feliho-wadagni.jpg" 
+                         alt="Infographie détaillant l'affaire Feliho vs Wadagni : certificat successoral falsifié en 2016, sous-estimation des biens immobiliers de plus de 1000%, faux intellectuel avéré, violation de l'obligation de dénoncer les délits, manquement au code d'éthique, et défi de la cohérence politique" 
+                         loading="lazy">
+                    <p class="infographie-caption">Document synthétique récapitulant les éléments de fraude et les obligations légales non respectées</p>
+                </div>
+            </div>
+
+            <!-- Points clés en grille -->
+            <div class="details-grid">
+                
+                <!-- Preuves de fraude -->
+                <div class="detail-card fraud">
+                    <h4>🚨 Preuves de la Fraude Administrative</h4>
+                    <ul>
+                        <li><strong>Certificat successoral falsifié (2016)</strong> : usage frauduleux de l'identité de l'héritier et date de décès erronée de 6 ans (10 juin 2016 au lieu du 3 décembre 2010)</li>
+                        <li><strong>Sous-estimation massive des biens</strong> : évaluation immobilière sciemment minorée à 138 300 000 FCFA pour porter préjudice aux droits de succession (sous-estimation de plus de 1000%)</li>
+                        <li><strong>"Faux intellectuel" avéré</strong> : attribution d'un mandat de représentation au notaire Maître Félix A. Balley sans le consentement de l'intéressé</li>
+                    </ul>
+                </div>
+
+                <!-- Obligations trahies -->
+                <div class="detail-card legal">
+                    <h4>⚠️ Obligations Légales et Éthiques Trahies</h4>
+                    <ul>
+                        <li><strong>Violation de l'obligation de dénoncer</strong> : non-respect de l'article 39 du Code de procédure pénale face à des délits connus dans l'exercice des fonctions ministérielles</li>
+                        <li><strong>Manquement grave au code d'éthique</strong> : atteinte à la probité, la transparence et la redevabilité exigées des agents publics, symbolisées par les trois piliers brisés</li>
+                        <li><strong>Déni de justice administratif</strong> : silence de l'administration malgré les relances répétées depuis 2020 et la sommation d'huissier</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Tableau comparatif -->
+            <div class="comparatif-table">
+                <h3>📊 Comparatif : Mentions Falsifiées vs. Faits Réels</h3>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Élément</th>
+                            <th class="falsifie">Mention dans l'acte (2016)</th>
+                            <th class="reel">Réalité des faits</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Date de décès</strong></td>
+                            <td class="tag-faux">10 juin 2016</td>
+                            <td class="tag-vrai">3 décembre 2010</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Mandat notarial</strong></td>
+                            <td class="tag-faux">Maître Félix A. Balley</td>
+                            <td class="tag-vrai">Aucun mandat accordé</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Valeur immobilière</strong></td>
+                            <td class="tag-faux">138 300 000 FCFA</td>
+                            <td class="tag-vrai">Sous-estimée de plus de 1000%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Le défi politique -->
+            <div class="challenge-box">
+                <h3>🎯 Le Défi de la Cohérence Politique</h3>
+                <p>L'issue de cette affaire, désormais portée devant le <span class="highlight-white">Médiateur de la République</span> 
+                et l'<span class="highlight-white">opinion publique</span>, interroge directement l'<strong>intégrité</strong> de la gestion 
+                administrative sous le mandat ministériel de <strong>Romuald Wadagni</strong> et sa capacité à incarner 
+                les valeurs de l'<strong>État de droit</strong> qu'il promeut dans sa campagne présidentielle.</p>
+                
+                <div class="challenge-quote">
+                    "Peut-on solliciter la magistrature suprême sans assumer ses responsabilités ministérielles passées ?"
+                </div>
+            </div>
+
+            <!-- Hashtags -->
+            <div class="hashtags-bar">
+                <p>📢 Transparence et Justice : Exigeons des réponses !</p>
+                <div class="hashtag-list">
+                    <span class="hashtag">#WadagniGate</span>
+                    <span class="hashtag">#JusticePourFeliho</span>
+                    <span class="hashtag">#BeninGate</span>
+                    <span class="hashtag">#Elections2026</span>
+                </div>
+            </div>
+
         </div>
     </section>
 
@@ -770,7 +1245,7 @@
 
         // Animation au scroll
         function revealOnScroll() {
-            const elements = document.querySelectorAll('.timeline-item, .doc-card, .comparison-column');
+            const elements = document.querySelectorAll('.timeline-item, .doc-card, .comparison-column, .detail-card, .infographie-wrapper, .challenge-box');
             
             elements.forEach(element => {
                 const elementTop = element.getBoundingClientRect().top;
@@ -785,7 +1260,7 @@
 
         // Initialiser les éléments
         document.addEventListener('DOMContentLoaded', function() {
-            const elements = document.querySelectorAll('.timeline-item, .doc-card, .comparison-column');
+            const elements = document.querySelectorAll('.timeline-item, .doc-card, .comparison-column, .detail-card, .infographie-wrapper, .challenge-box');
             elements.forEach(element => {
                 element.style.opacity = '0';
                 element.style.transform = 'translateY(20px)';
