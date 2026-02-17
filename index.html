@@ -12,15 +12,25 @@
             --accent-gold: #d4af37;
             --accent-red: #dc2626;
             --light-bg: #f8fafc;
+            --white: #ffffff;
         }
 
-        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; margin: 0; background: var(--light-bg); }
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; margin: 0; background: var(--light-bg); scroll-behavior: smooth; }
         .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
 
-        /* --- 1. Hero & Auteur --- */
+        /* --- NAVIGATION --- */
+        .navbar {
+            position: fixed; top: 0; width: 100%; background: var(--primary-navy);
+            color: white; z-index: 1000; padding: 15px 0; box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+        .nav-container { display: flex; justify-content: space-between; align-items: center; }
+        .nav-links { display: flex; gap: 20px; list-style: none; margin: 0; padding: 0; }
+        .nav-links a { color: white; text-decoration: none; font-weight: 600; font-size: 0.9rem; }
+
+        /* --- HERO --- */
         .hero { 
             background: linear-gradient(135deg, var(--primary-navy) 0%, var(--primary-blue) 100%); 
-            color: white; padding: 60px 0; text-align: center; 
+            color: white; padding: 100px 0 60px; text-align: center; 
         }
         .hero h1 { font-size: 2.5rem; font-weight: 800; margin-bottom: 25px; }
 
@@ -31,120 +41,160 @@
             border: 1px solid rgba(255, 255, 255, 0.2);
         }
         .author-photo { width: 80px; height: 80px; border-radius: 50%; border: 2px solid var(--accent-gold); object-fit: cover; }
-        .author-info { text-align: left; }
-        .author-name { font-size: 1.2rem; font-weight: 700; }
-        .author-titles { font-size: 0.9rem; opacity: 0.8; }
 
-        /* --- 2. Comparaison : Promesses vs Réalité --- */
+        /* --- INFOGRAPHIE --- */
+        .infographic-box {
+            margin: 40px auto; padding: 15px; background: white;
+            border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); text-align: center;
+        }
+        .infographic-box img { max-width: 100%; border-radius: 10px; }
+
+        /* --- COMPARAISON --- */
         .comparison-grid { 
             display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); 
             gap: 30px; margin-top: 40px; 
         }
         .card-strategic { background: white; padding: 30px; border-radius: 20px; box-shadow: 0 10px 15px rgba(0,0,0,0.05); }
-        
         .card-promises { border-top: 6px solid var(--primary-blue); }
         .card-reality { border-top: 6px solid var(--accent-red); background: #fffafb; }
 
-        .strategic-item { margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #eee; }
-        .strategic-label { font-weight: 800; display: block; margin-bottom: 5px; }
-        
-        /* --- 3. Documents --- */
+        /* --- TIMELINE --- */
+        .timeline { padding: 50px 0; background: #f1f5f9; }
+        .timeline-item { border-left: 4px solid var(--accent-gold); padding-left: 20px; margin-bottom: 30px; position: relative; }
+        .timeline-date { font-weight: 800; color: var(--primary-navy); }
+
+        /* --- DOCUMENTS --- */
         .documents-grid { 
             display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
             gap: 25px; margin-top: 30px; 
         }
         .document-card { 
             background: white; border: 1px solid #e2e8f0; border-radius: 15px; 
-            padding: 25px; text-align: center; transition: transform 0.3s;
+            padding: 25px; text-align: center; transition: 0.3s;
         }
-        .document-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
         .btn-download { 
             display: inline-block; background: var(--primary-navy); color: white; 
             padding: 10px 20px; border-radius: 8px; text-decoration: none; margin-top: 15px;
         }
+
+        /* --- SHARE BUTTONS --- */
+        .share-section { text-align: center; padding: 50px 0; background: var(--primary-navy); color: white; }
+        .social-buttons { display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; margin-top: 20px; }
+        .share-btn { padding: 10px 20px; border-radius: 5px; color: white; text-decoration: none; font-weight: bold; }
+        .whatsapp { background: #25D366; }
+        .facebook { background: #1877F2; }
+
+        /* --- FOOTER --- */
+        .footer { background: #0a1120; color: #94a3b8; padding: 40px 0; font-size: 0.8rem; text-align: center; }
     </style>
 </head>
 <body>
 
-    <section class="hero">
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div style="font-weight: 800; color: var(--accent-gold);">WADAGNI VERITÉ</div>
+            <ul class="nav-links">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#preuves">Preuves</a></li>
+                <li><a href="#documents">Documents</a></li>
+                <li><a href="#partager">Partager</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="accueil" class="hero">
         <div class="container">
             <h1>Romuald Wadagni : L'Épreuve de la Vérité</h1>
-            <p>Lettre ouverte et pièces justificatives sur une affaire de fraude documentaire</p>
-            
+            <p>Rétablissement des faits sur une affaire de fraude documentaire et immobilière.</p>
             <div class="hero-author">
                 <img src="gilles-feliho.jpg" alt="Gilles FÉLIHO" class="author-photo">
-                <div class="author-info">
-                    <div class="author-name">Gilles FÉLIHO</div>
-                    <div class="author-titles">Auteur & Président ONG Éthique Juridique</div>
+                <div style="text-align: left;">
+                    <div style="font-weight: 700;">Gilles FÉLIHO</div>
+                    <div style="font-size: 0.8rem; opacity: 0.8;">Auteur & Président d'ONG</div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="container" style="padding: 50px 0;">
-        <h2 style="text-align: center;">Promesses vs Réalité</h2>
+    <section class="container">
+        <div class="infographic-box">
+            <img src="image.png" alt="Analyse comparative Wadagni vs Feliho">
+        </div>
+
+        <h2 style="text-align: center;" id="preuves">Promesses vs Réalité</h2>
         <div class="comparison-grid">
             <div class="card-strategic card-promises">
-                <h3>✨ Les Promesses du Candidat</h3>
-                <div class="strategic-item">
-                    <span class="strategic-label">🔎 Transparence</span>
-                    <p>"Un gouvernement ouvert et transparent envers les citoyens."</p>
-                </div>
-                <div class="strategic-item">
-                    <span class="strategic-label">⚖️ Probité</span>
-                    <p>"L'intégrité absolue dans la gestion des affaires publiques."</p>
-                </div>
+                <h3>✨ Les Promesses</h3>
+                <p><strong>Probité :</strong> "L'intégrité absolue dans la gestion."</p>
+                <p><strong>Transparence :</strong> "Un gouvernement ouvert."</p>
             </div>
-
             <div class="card-strategic card-reality">
-                <h3>📜 La Réalité des Faits</h3>
-                <div class="strategic-item">
-                    <span class="strategic-label">🚫 Refus de Répondre</span>
-                    <p>Silence total depuis 2020 malgré les interpellations citoyennes.</p>
-                </div>
-                <div class="strategic-item">
-                    <span class="strategic-label">⚠️ Certificat Frauduleux</span>
-                    <p>Fraude documentaire confirmée par la Cour Constitutionnelle (DCC 25-152).</p>
-                </div>
+                <h3>📜 La Réalité</h3>
+                <p><strong>Fraude :</strong> Certificat falsifié pour l'acquisition d'un domaine de 1500m².</p>
+                <p><strong>Silence :</strong> Aucune réponse aux interpellations depuis 4 ans.</p>
             </div>
         </div>
     </section>
 
-    <!-- Section Documents Fusionnée -->
-    <section class="container" style="padding-bottom: 80px;">
+    <section class="timeline" id="timeline">
+        <div class="container">
+            <h2 style="text-align: center;">Chronologie de l'Affaire</h2>
+            <div class="timeline-item">
+                <div class="timeline-date">2020</div>
+                <p>Découverte de la fraude sur l'acte notarié de Monsieur Wadagni.</p>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">Février 2025</div>
+                <p>Décision DCC 25-152 de la Cour Constitutionnelle confirmant la violation de la loi.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="documents" class="container" style="padding: 60px 0;">
         <h2 style="text-align: center; font-family: 'Merriweather', serif; color: var(--primary-navy);">📄 Les Documents</h2>
-        <p style="text-align: center; color: #666; margin-bottom: 40px;">Tous les documents officiels sont disponibles en téléchargement. Les preuves sont établies par la Cour Constitutionnelle.</p>
+        <p style="text-align: center; color: #666; margin-bottom: 40px;">Documents officiels et preuves établies par la Cour Constitutionnelle.</p>
         
         <div class="documents-grid">
-            <!-- Carte 1 : Lettre Ouverte -->
             <div class="document-card">
                 <div style="font-size: 3rem; margin-bottom: 15px;">📄</div>
                 <h3 style="color: var(--primary-navy);">Lettre Ouverte</h3>
-                <p style="font-size: 0.9rem; color: #555;">À M. Romuald Wadagni<br>Candidat à la Présidence de la République du Bénin</p>
-                <p style="font-style: italic; font-size: 0.8rem; color: #999;">Ko - PDF</p>
-                <a href="Lettre ouverte.pdf" class="btn-download" style="background-color: #2b4b8c;">Télécharger</a>
+                <p style="font-size: 0.9rem; color: #555;">À M. Romuald Wadagni<br>Candidat à la Présidence du Bénin</p>
+                <a href="Lettre ouverte.pdf" class="btn-download">Télécharger</a>
             </div>
 
-            <!-- Carte 2 : Pièces Justificatives -->
             <div class="document-card">
                 <div style="font-size: 3rem; margin-bottom: 15px;">📁</div>
                 <h3 style="color: var(--primary-navy);">Pièces Justificatives</h3>
-                <p style="font-size: 0.9rem; color: #555;">Dossier complet avec preuves<br>Décision Cour Constitutionnelle + Certificat + Correspondances</p>
-                <p style="font-style: italic; font-size: 0.8rem; color: #999;">3.8 Mo - PDF</p>
-                <a href="pieces-justificatives.pdf.pdf" class="btn-download" style="background-color: #2b4b8c;">Télécharger</a>
+                <p style="font-size: 0.9rem; color: #555;">Dossier complet (DCC 25-152)<br>3.8 Mo - PDF</p>
+                <a href="pieces-justificatives.pdf" class="btn-download">Consulter</a>
             </div>
 
-            <!-- Carte 3 : Livre -->
             <div class="document-card" style="border-bottom: 6px solid var(--accent-gold);">
                 <div style="font-size: 3rem; margin-bottom: 15px;">📚</div>
                 <h3 style="color: var(--primary-navy);">Blanchiment en Liberté</h3>
-                <p style="font-size: 0.9rem; color: #555;">Livre de Gilles Féliho<br><br>Disponible sur Amazon</p>
-                <!-- Remplacez le # par le lien Amazon réel -->
-                <a href="#" class="btn-download" style="background-color: var(--accent-gold); color: #000; font-weight: bold;">Acheter</a>
+                <p style="font-size: 0.9rem; color: #555;">Livre de Gilles Féliho<br>Disponible sur Amazon</p>
+                <a href="#" class="btn-download" style="background-color: var(--accent-gold); color: #000;">Acheter</a>
             </div>
         </div>
     </section>
 
+    <section id="partager" class="share-section">
+        <div class="container">
+            <h2>Partagez cette vérité</h2>
+            <p>Ne laissez pas la fraude rester dans l'ombre. Partagez ce dossier.</p>
+            <div class="social-buttons">
+                <a href="https://wa.me/?text=Découvrez toute la vérité sur l'affaire Wadagni" class="share-btn whatsapp">WhatsApp</a>
+                <a href="#" class="share-btn facebook">Facebook</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p><strong>Mentions Légales :</strong> Ce site est une initiative citoyenne basée sur la Décision DCC 25-152 de la Cour Constitutionnelle du Bénin.</p>
+            <p>© 2026 Gilles Féliho - Tous droits réservés.</p>
+        </div>
+    </footer>
+
 </body>
 </html>
-```
