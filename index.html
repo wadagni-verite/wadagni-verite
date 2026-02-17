@@ -2,199 +2,1224 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <link rel="canonical" href="https://wadagni2026-verite.com/" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wadagni 2026 : La Vérité</title>
-    
+    <title>Romuald Wadagni : L'Épreuve de la Vérité</title>
+    <meta name="description" content="Site pour la transparence - Élections Bénin 2026. Découvrez la vérité sur l'affaire de fraude documentaire soumise à la Cour Constitutionnelle.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         :root {
-            --primary-navy: #0a1f44;
-            --primary-blue: #1e3a8a;
-            --accent-gold: #d4af37;
-            --accent-red: #dc2626;
-            --light-bg: #f8fafc;
-            --white: #ffffff;
+            --navy: #0a1f44;
+            --blue: #1e3a8a;
+            --gold: #d4af37;
+            --red: #dc2626;
+            --green: #059669;
+            --gray: #6b7280;
+            --light-gray: #f3f4f6;
         }
 
-        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; margin: 0; background: var(--light-bg); scroll-behavior: smooth; }
-        .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
-
-        /* --- NAVIGATION --- */
-        .navbar {
-            position: fixed; top: 0; width: 100%; background: var(--primary-navy);
-            color: white; z-index: 1000; padding: 15px 0; box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #ffffff;
         }
-        .nav-container { display: flex; justify-content: space-between; align-items: center; }
-        .nav-links { display: flex; gap: 20px; list-style: none; margin: 0; padding: 0; }
-        .nav-links a { color: white; text-decoration: none; font-weight: 600; font-size: 0.9rem; }
 
-        /* --- HERO --- */
-        .hero { 
-            background: linear-gradient(135deg, var(--primary-navy) 0%, var(--primary-blue) 100%); 
-            color: white; padding: 100px 0 60px; text-align: center; 
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
         }
-        .hero h1 { font-size: 2.5rem; font-weight: 800; margin-bottom: 25px; }
+
+        /* Header/Hero */
+        .hero {
+            background: linear-gradient(135deg, var(--navy) 0%, var(--blue) 100%);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><rect width="100" height="100" fill="none"/><path d="M0 0 L100 100 M100 0 L0 100" stroke="rgba(255,255,255,0.03)" stroke-width="2"/></svg>');
+            opacity: 0.1;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            line-height: 1.2;
+        }
+
+        .hero-subtitle {
+            font-size: 1.5rem;
+            font-weight: 300;
+            margin-bottom: 40px;
+            opacity: 0.9;
+        }
 
         .hero-author {
-            display: flex; align-items: center; justify-content: center; gap: 20px;
-            background: rgba(255, 255, 255, 0.1); border-radius: 50px; 
-            padding: 10px 25px; margin: 20px auto; max-width: fit-content;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 40px;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 16px;
             border: 1px solid rgba(255, 255, 255, 0.2);
         }
-        .author-photo { width: 80px; height: 80px; border-radius: 50%; border: 2px solid var(--accent-gold); object-fit: cover; }
 
-        /* --- INFOGRAPHIE --- */
-        .infographic-box {
-            margin: 40px auto; padding: 15px; background: white;
-            border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); text-align: center;
-        }
-        .infographic-box img { max-width: 100%; border-radius: 10px; }
-
-        /* --- COMPARAISON --- */
-        .comparison-grid { 
-            display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); 
-            gap: 30px; margin-top: 40px; 
-        }
-        .card-strategic { background: white; padding: 30px; border-radius: 20px; box-shadow: 0 10px 15px rgba(0,0,0,0.05); }
-        .card-promises { border-top: 6px solid var(--primary-blue); }
-        .card-reality { border-top: 6px solid var(--accent-red); background: #fffafb; }
-
-        /* --- TIMELINE --- */
-        .timeline { padding: 50px 0; background: #f1f5f9; }
-        .timeline-item { border-left: 4px solid var(--accent-gold); padding-left: 20px; margin-bottom: 30px; position: relative; }
-        .timeline-date { font-weight: 800; color: var(--primary-navy); }
-
-        /* --- DOCUMENTS --- */
-        .documents-grid { 
-            display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
-            gap: 25px; margin-top: 30px; 
-        }
-        .document-card { 
-            background: white; border: 1px solid #e2e8f0; border-radius: 15px; 
-            padding: 25px; text-align: center; transition: 0.3s;
-        }
-        .btn-download { 
-            display: inline-block; background: var(--primary-navy); color: white; 
-            padding: 10px 20px; border-radius: 8px; text-decoration: none; margin-top: 15px;
+        .author-photo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid var(--gold);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
         }
 
-        /* --- SHARE BUTTONS --- */
-        .share-section { text-align: center; padding: 50px 0; background: var(--primary-navy); color: white; }
-        .social-buttons { display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; margin-top: 20px; }
-        .share-btn { padding: 10px 20px; border-radius: 5px; color: white; text-decoration: none; font-weight: bold; }
-        .whatsapp { background: #25D366; }
-        .facebook { background: #1877F2; }
+        .author-info {
+            text-align: left;
+        }
 
-        /* --- FOOTER --- */
-        .footer { background: #0a1120; color: #94a3b8; padding: 40px 0; font-size: 0.8rem; text-align: center; }
+        .author-name {
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: white;
+        }
+
+        .author-titles {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            font-size: 1rem;
+        }
+
+        .author-title {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+
+        /* Date Badge */
+        .date-badge {
+            display: inline-block;
+            background: var(--red);
+            color: white;
+            padding: 10px 25px;
+            border-radius: 30px;
+            font-weight: 600;
+            margin-top: 20px;
+            font-size: 1.1rem;
+        }
+
+        /* Counter Badge */
+        .counter-badge {
+            display: inline-block;
+            background: var(--gold);
+            color: var(--navy);
+            padding: 15px 30px;
+            border-radius: 30px;
+            font-weight: 700;
+            margin-top: 20px;
+            font-size: 1.3rem;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+
+        /* Introduction */
+        .intro {
+            background: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .intro h2 {
+            font-size: 2.5rem;
+            color: var(--navy);
+            margin-bottom: 30px;
+            font-family: 'Merriweather', serif;
+        }
+
+        .intro p {
+            font-size: 1.25rem;
+            color: var(--gray);
+            max-width: 900px;
+            margin: 0 auto 30px;
+            line-height: 1.8;
+        }
+
+        .intro .highlight {
+            color: var(--red);
+            font-weight: 600;
+        }
+
+        /* Promesses vs Réalité */
+        .comparison {
+            background: var(--light-gray);
+            padding: 80px 20px;
+        }
+
+        .comparison h2 {
+            font-size: 2.5rem;
+            text-align: center;
+            color: var(--navy);
+            margin-bottom: 50px;
+            font-family: 'Merriweather', serif;
+        }
+
+        .comparison-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .comparison-column {
+            background: white;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+
+        .comparison-column h3 {
+            font-size: 1.75rem;
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid;
+        }
+
+        .promises h3 {
+            color: var(--green);
+            border-color: var(--green);
+        }
+
+        .reality h3 {
+            color: var(--red);
+            border-color: var(--red);
+        }
+
+        .comparison-item {
+            margin-bottom: 25px;
+            padding: 20px;
+            background: var(--light-gray);
+            border-radius: 10px;
+            border-left: 4px solid;
+        }
+
+        .promises .comparison-item {
+            border-color: var(--green);
+        }
+
+        .reality .comparison-item {
+            border-color: var(--red);
+        }
+
+        .comparison-item h4 {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .comparison-item p {
+            color: var(--gray);
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        /* SECTION AFFAIRE FELIHO - Styles spécifiques */
+        .affaire-feliho {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 80px 20px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .affaire-feliho::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -10%;
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(220, 38, 38, 0.05) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .affaire-feliho .section-header {
+            text-align: center;
+            margin-bottom: 50px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .affaire-feliho .section-header h2 {
+            font-size: 2.8rem;
+            color: var(--navy);
+            margin-bottom: 15px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .affaire-feliho .section-header .subtitle {
+            font-size: 1.4rem;
+            color: var(--red);
+            font-style: italic;
+            font-weight: 500;
+        }
+
+        .affaire-feliho .section-header .divider {
+            width: 100px;
+            height: 4px;
+            background: var(--red);
+            margin: 20px auto;
+        }
+
+        .context-box {
+            background: white;
+            padding: 35px;
+            border-radius: 12px;
+            margin-bottom: 40px;
+            border-left: 5px solid var(--red);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            position: relative;
+            z-index: 1;
+        }
+
+        .context-box h3 {
+            color: var(--red);
+            font-size: 1.4rem;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .context-box p {
+            color: #455a64;
+            line-height: 1.8;
+            font-size: 1.1rem;
+        }
+
+        .infographie-container {
+            text-align: center;
+            margin: 50px 0;
+            position: relative;
+            z-index: 1;
+        }
+
+        .infographie-wrapper {
+            background: white;
+            padding: 25px;
+            border-radius: 16px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+            display: inline-block;
+            max-width: 100%;
+            transition: transform 0.3s ease;
+        }
+
+        .infographie-wrapper:hover {
+            transform: translateY(-5px);
+        }
+
+        .infographie-wrapper img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            display: block;
+        }
+
+        .infographie-caption {
+            margin-top: 20px;
+            color: #78909c;
+            font-size: 0.95rem;
+            font-style: italic;
+        }
+
+        .details-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin: 50px 0;
+            position: relative;
+            z-index: 1;
+        }
+
+        .detail-card {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            border-top: 4px solid;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .detail-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+        }
+
+        .detail-card.fraud {
+            border-color: var(--red);
+        }
+
+        .detail-card.legal {
+            border-color: var(--blue);
+        }
+
+        .detail-card h4 {
+            font-size: 1.3rem;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .detail-card.fraud h4 {
+            color: var(--red);
+        }
+
+        .detail-card.legal h4 {
+            color: var(--blue);
+        }
+
+        .detail-card ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .detail-card li {
+            padding: 12px 0;
+            border-bottom: 1px solid #e0e0e0;
+            color: #455a64;
+            line-height: 1.7;
+            position: relative;
+            padding-left: 25px;
+        }
+
+        .detail-card li:last-child {
+            border-bottom: none;
+        }
+
+        .detail-card li::before {
+            content: '▸';
+            position: absolute;
+            left: 0;
+            color: var(--gold);
+            font-weight: bold;
+        }
+
+        .detail-card li strong {
+            color: var(--navy);
+        }
+
+        .comparatif-table {
+            background: white;
+            padding: 40px;
+            border-radius: 16px;
+            margin: 50px 0;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            position: relative;
+            z-index: 1;
+            overflow-x: auto;
+        }
+
+        .comparatif-table h3 {
+            text-align: center;
+            color: var(--navy);
+            font-size: 1.8rem;
+            margin-bottom: 30px;
+            font-family: 'Merriweather', serif;
+        }
+
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .data-table th {
+            background: var(--navy);
+            color: white;
+            padding: 18px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 1rem;
+        }
+
+        .data-table th.falsifie {
+            background: var(--red);
+        }
+
+        .data-table th.reel {
+            background: var(--green);
+        }
+
+        .data-table td {
+            padding: 16px;
+            border: 1px solid #e0e0e0;
+            color: #455a64;
+        }
+
+        .data-table tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+
+        .data-table td strong {
+            color: var(--navy);
+        }
+
+        .data-table .tag-faux {
+            color: var(--red);
+            font-weight: 700;
+        }
+
+        .data-table .tag-vrai {
+            color: var(--green);
+            font-weight: 700;
+        }
+
+        .challenge-box {
+            background: linear-gradient(135deg, var(--red) 0%, #b71c1c 100%);
+            color: white;
+            padding: 50px;
+            border-radius: 16px;
+            margin: 50px 0;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+            box-shadow: 0 10px 40px rgba(220, 38, 38, 0.3);
+        }
+
+        .challenge-box h3 {
+            font-size: 2.2rem;
+            margin-bottom: 25px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 800;
+        }
+
+        .challenge-box p {
+            font-size: 1.2rem;
+            line-height: 1.9;
+            max-width: 900px;
+            margin: 0 auto;
+            opacity: 0.95;
+        }
+
+        .challenge-box .highlight-white {
+            background: rgba(255,255,255,0.2);
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+
+        .challenge-quote {
+            margin-top: 30px;
+            padding-top: 30px;
+            border-top: 2px solid rgba(255,255,255,0.3);
+            font-size: 1.3rem;
+            font-style: italic;
+            font-weight: 500;
+        }
+
+        .hashtags-bar {
+            text-align: center;
+            margin-top: 40px;
+            padding: 30px;
+            background: rgba(255,255,255,0.7);
+            border-radius: 12px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hashtags-bar p {
+            color: var(--navy);
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .hashtag-list {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .hashtag {
+            padding: 10px 22px;
+            border-radius: 25px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: white;
+            transition: transform 0.3s ease;
+        }
+
+        .hashtag:hover {
+            transform: scale(1.05);
+        }
+
+        .hashtag:nth-child(1) { background: var(--navy); }
+        .hashtag:nth-child(2) { background: var(--red); }
+        .hashtag:nth-child(3) { background: var(--green); }
+        .hashtag:nth-child(4) { background: var(--gold); color: var(--navy); }
+
+        /* Timeline */
+        .timeline {
+            padding: 80px 20px;
+            background: white;
+        }
+
+        .timeline h2 {
+            font-size: 2.5rem;
+            text-align: center;
+            color: var(--navy);
+            margin-bottom: 60px;
+            font-family: 'Merriweather', serif;
+        }
+
+        .timeline-container {
+            max-width: 900px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .timeline-container::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 4px;
+            height: 100%;
+            background: var(--blue);
+        }
+
+        .timeline-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 50px;
+            position: relative;
+        }
+
+        .timeline-item:nth-child(odd) .timeline-content {
+            margin-right: auto;
+            margin-left: 0;
+            text-align: right;
+        }
+
+        .timeline-item:nth-child(even) .timeline-content {
+            margin-left: auto;
+            margin-right: 0;
+            text-align: left;
+        }
+
+        .timeline-content {
+            width: 45%;
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border: 2px solid var(--light-gray);
+        }
+
+        .timeline-date {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--navy);
+            margin-bottom: 10px;
+        }
+
+        .timeline-text {
+            color: var(--gray);
+            line-height: 1.6;
+        }
+
+        .timeline-dot {
+            width: 20px;
+            height: 20px;
+            background: var(--gold);
+            border-radius: 50%;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            border: 4px solid white;
+            box-shadow: 0 0 0 4px var(--blue);
+            z-index: 1;
+        }
+
+        /* Documents Section */
+        .documents {
+            background: var(--light-gray);
+            padding: 80px 20px;
+        }
+
+        .documents h2 {
+            font-size: 2.5rem;
+            text-align: center;
+            color: var(--navy);
+            margin-bottom: 20px;
+            font-family: 'Merriweather', serif;
+        }
+
+        .documents-intro {
+            text-align: center;
+            font-size: 1.2rem;
+            color: var(--gray);
+            margin-bottom: 50px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .docs-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .doc-card {
+            background: white;
+            padding: 35px;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .doc-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+        }
+
+        .doc-icon {
+            font-size: 4rem;
+            margin-bottom: 20px;
+        }
+
+        .doc-card h3 {
+            font-size: 1.5rem;
+            color: var(--navy);
+            margin-bottom: 15px;
+        }
+
+        .doc-card p {
+            color: var(--gray);
+            margin-bottom: 25px;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        .doc-card img {
+            max-width: 150px;
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background: var(--blue);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: background 0.3s ease;
+        }
+
+        .btn:hover {
+            background: var(--navy);
+        }
+
+        .btn-secondary {
+            background: var(--gold);
+            color: var(--navy);
+        }
+
+        .btn-secondary:hover {
+            background: #b8932e;
+        }
+
+        /* Call to Action */
+        .cta {
+            background: linear-gradient(135deg, var(--navy) 0%, var(--blue) 100%);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        .cta h2 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            font-family: 'Merriweather', serif;
+        }
+
+        .cta p {
+            font-size: 1.3rem;
+            margin-bottom: 40px;
+            opacity: 0.9;
+        }
+
+        .share-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .share-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 15px 35px;
+            border-radius: 8px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: transform 0.3s ease;
+            font-size: 1.1rem;
+            color: white;
+        }
+
+        .share-btn:hover {
+            transform: scale(1.05);
+        }
+
+        .btn-whatsapp {
+            background: #25D366;
+        }
+
+        .btn-facebook {
+            background: #1877F2;
+        }
+
+        .btn-twitter {
+            background: #000000;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--navy);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }
+
+        footer p {
+            opacity: 0.8;
+            margin-bottom: 10px;
+        }
+        
+        footer a {
+            color: var(--gold);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero-subtitle {
+                font-size: 1.1rem;
+            }
+
+            .hero-author {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .author-info {
+                text-align: center;
+            }
+
+            .comparison-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .timeline-container::before {
+                left: 20px;
+            }
+
+            .timeline-item {
+                flex-direction: column;
+                align-items: flex-start;
+                padding-left: 50px;
+            }
+
+            .timeline-content {
+                width: 100%;
+                text-align: left !important;
+                margin: 0 !important;
+            }
+
+            .timeline-dot {
+                left: 20px;
+            }
+
+            .share-buttons {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .affaire-feliho .section-header h2 {
+                font-size: 2rem;
+            }
+
+            .details-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .comparatif-table {
+                padding: 20px;
+            }
+
+            .data-table {
+                font-size: 0.9rem;
+            }
+
+            .challenge-box {
+                padding: 30px 20px;
+            }
+
+            .challenge-box h3 {
+                font-size: 1.6rem;
+            }
+        }
     </style>
 </head>
 <body>
-
-    <nav class="navbar">
-        <div class="container nav-container">
-            <div style="font-weight: 800; color: var(--accent-gold);">WADAGNI VERITÉ</div>
-            <ul class="nav-links">
-                <li><a href="#accueil">Accueil</a></li>
-                <li><a href="#preuves">Preuves</a></li>
-                <li><a href="#documents">Documents</a></li>
-                <li><a href="#partager">Partager</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <section id="accueil" class="hero">
+    <section class="hero">
         <div class="container">
-            <h1>Romuald Wadagni : L'Épreuve de la Vérité</h1>
-            <p>Rétablissement des faits sur une affaire de fraude documentaire et immobilière.</p>
-            <div class="hero-author">
-                <img src="gilles-feliho.jpg" alt="Gilles FÉLIHO" class="author-photo">
-                <div style="text-align: left;">
-                    <div style="font-weight: 700;">Gilles FÉLIHO</div>
-                    <div style="font-size: 0.8rem; opacity: 0.8;">Auteur & Président d'ONG</div>
+            <div class="hero-content">
+                <h1>Romuald Wadagni :<br>L'Épreuve de la Vérité</h1>
+                <p class="hero-subtitle">Lettre ouverte et pièces justificatives sur une affaire de fraude documentaire soumise à la Cour Constitutionnelle</p>
+                
+                <div class="hero-author">
+                    <img src="gilles-feliho.jpg" alt="Gilles FÉLIHO" class="author-photo" onerror="this.style.display='none'">
+                    <div class="author-info">
+                        <div class="author-name">Gilles FÉLIHO</div>
+                        <div class="author-titles">
+                            <span class="author-title">📚 Auteur - "Blanchiment en liberté"</span>
+                            <span class="author-title">⚖️ Président - ONG Ethique Juridique 2.0 Internationale</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="date-badge">📅 Publication : 9 février 2026</div>
+                <div class="counter-badge" id="counter">⏰ Chargement...</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="intro">
+        <div class="container">
+            <h2>L'Affaire qui Révèle les Véritables Valeurs</h2>
+            <p>Le <strong class="highlight">22 mai 2025</strong>, dans sa décision <strong class="highlight">DCC 25-152</strong>, la Cour Constitutionnelle du Bénin a confirmé l'existence d'une <strong class="highlight">fraude documentaire</strong> impliquant un certificat d'acquit litigieux délivré le <strong class="highlight">20 octobre 2016</strong>.</p>
+            <p>Depuis <strong>2020</strong>, j'ai porté cette affaire à l'attention de Romuald Wadagni, alors Ministre d'État chargé de l'Économie et des Finances. Malgré des relances répétées et une sommation d'huissier officielle, <strong class="highlight">aucune réponse sérieuse n'a été apportée</strong>.</p>
+            <p>Aujourd'hui candidat à la Présidence, Monsieur Wadagni met en avant des valeurs de <strong>transparence, de probité et de bonne gouvernance</strong>. Comment un tel acte frauduleux a-t-1 pu être commis ? Pourquoi garder le silence face aux interpellations citoyennes ? Comment garantir que de tels actes ne se reproduiront pas ?</p>
+        </div>
+    </section>
+
+    <section class="comparison">
+        <div class="container">
+            <h2>Promesses vs Réalité</h2>
+            <div class="comparison-grid">
+                <div class="comparison-column promises">
+                    <h3>✨ Les Promesses du Candidat</h3>
+                    
+                    <div class="comparison-item">
+                        <h4>🔎 Transparence</h4>
+                        <p>"Un gouvernement ouvert et transparent envers les citoyens."</p>
+                    </div>
+                    
+                    <div class="comparison-item">
+                        <h4>⚖️ Probité</h4>
+                        <p>"L'intégrité absolue dans la gestion des affaires publiques."</p>
+                    </div>
+                    
+                    <div class="comparison-item">
+                        <h4>🎯 Nouvelle Génération</h4>
+                        <p>"Une rupture avec les pratiques du passé."</p>
+                    </div>
+                </div>
+
+                <div class="comparison-column reality">
+                    <h3>📋 La Réalité des Faits</h3>
+                    
+                    <div class="comparison-item">
+                        <h4>🚫 Refus de Répondre</h4>
+                        <p>Silence total depuis 2020 malgré les interpellations citoyennes et une sommation d'huissier.</p>
+                    </div>
+                    
+                    <div class="comparison-item">
+                        <h4>⚠️ Certificat Frauduleux</h4>
+                        <p>Fraude documentaire résumée dans une décision de la Cour Constitutionnelle (DCC 25-152).</p>
+                    </div>
+                    
+                    <div class="comparison-item">
+                        <h4>📜 Non-Respect du Code de procédure Pénale</h4>
+                        <p>L'article 39 du CPP impose à toute autorité constituée qui, dans l'exercice de ses fonctions, a connaissance d'un crime ou d'un délit, l'obligation d'en aviser sans délai le procureur de la République.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="container">
-        <div class="infographic-box">
-            <img src="image.png" alt="Analyse comparative Wadagni vs Feliho">
-        </div>
-
-        <h2 style="text-align: center;" id="preuves">Promesses vs Réalité</h2>
-        <div class="comparison-grid">
-            <div class="card-strategic card-promises">
-                <h3>✨ Les Promesses</h3>
-                <p><strong>Probité :</strong> "L'intégrité absolue dans la gestion."</p>
-                <p><strong>Transparence :</strong> "Un gouvernement ouvert."</p>
-            </div>
-            <div class="card-strategic card-reality">
-                <h3>📜 La Réalité</h3>
-                <p><strong>Fraude :</strong> Certificat falsifié pour l'acquisition d'un domaine de 1500m².</p>
-                <p><strong>Silence :</strong> Aucune réponse aux interpellations depuis 4 ans.</p>
-            </div>
-        </div>
-    </section>
-
-    <section class="timeline" id="timeline">
+    <section class="affaire-feliho" id="affaire-feliho">
         <div class="container">
-            <h2 style="text-align: center;">Chronologie de l'Affaire</h2>
-            <div class="timeline-item">
-                <div class="timeline-date">2020</div>
-                <p>Découverte de la fraude sur l'acte notarié de Monsieur Wadagni.</p>
+            
+            <div class="section-header">
+                <h2>Affaire Feliho vs Wadagni</h2>
+                <div class="divider"></div>
+                <p class="subtitle">"Entre Slogans de Campagne et Réalité de Fraude"</p>
             </div>
-            <div class="timeline-item">
-                <div class="timeline-date">Février 2025</div>
-                <p>Décision DCC 25-152 de la Cour Constitutionnelle confirmant la violation de la loi.</p>
+
+            <div class="context-box">
+                <h3>⚖️ Contexte de l'Affaire</h3>
+                <p>Le dossier <strong>Gilles Sixte Feliho</strong> contre <strong>Romuald Wadagni</strong> illustre une confrontation 
+                entre un citoyen exigeant la reddition de comptes et une administration financière qui, bien qu'informée 
+                de potentielles <strong>fraudes graves</strong>, semble s'être retranchée derrière des réponses de forme.</p>
             </div>
+
+            <div class="infographie-container">
+                <div class="infographie-wrapper">
+                    <img src="affaire-feliho-wadagni.png.png" 
+                         alt="Infographie détaillant l'affaire Feliho vs Wadagni" 
+                         loading="lazy">
+                    <p class="infographie-caption">Document synthétique récapitulant les éléments de fraude et les obligations légales non respectées</p>
+                </div>
+            </div>
+
+            <div class="details-grid">
+                
+                <div class="detail-card fraud">
+                    <h4>🚨 Preuves de la Fraude Administrative</h4>
+                    <ul>
+                        <li><strong>Certificat successoral falsifié (2016)</strong> : usage frauduleux de l'identité de l'héritier et date de décès erronée de 6 ans.</li>
+                        <li><strong>Sous-estimation massive des biens</strong> : évaluation immobilière sciemment minorée à 138 300 000 FCFA.</li>
+                        <li><strong>"Faux intellectuel" avéré</strong> : attribution d'un mandat de représentation au notaire sans le consentement de l'intéressé.</li>
+                    </ul>
+                </div>
+
+                <div class="detail-card legal">
+                    <h4>⚠️ Obligations Légales et Éthiques Trahies</h4>
+                    <ul>
+                        <li><strong>Violation de l'obligation de dénoncer</strong> : non-respect de l'article 39 du Code de procédure pénale.</li>
+                        <li><strong>Manquement grave au code d'éthique</strong> : atteinte à la probité exigée des agents publics.</li>
+                        <li><strong>Déni de justice administratif</strong> : silence de l'administration malgré la sommation d'huissier.</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="comparatif-table">
+                <h3>📊 Comparatif : Mentions Falsifiées vs. Faits Réels</h3>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Élément</th>
+                            <th class="falsifie">Mention dans l'acte (2016)</th>
+                            <th class="reel">Réalité des faits</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Date de décès</strong></td>
+                            <td class="tag-faux">10 juin 2016</td>
+                            <td class="tag-vrai">3 décembre 2010</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Mandat notarial</strong></td>
+                            <td class="tag-faux">Maître Félix A. Balley</td>
+                            <td class="tag-vrai">Aucun mandat accordé</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Valeur immobilière</strong></td>
+                            <td class="tag-faux">138 300 000 FCFA</td>
+                            <td class="tag-vrai">Sous-estimée de plus de 1000%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="challenge-box">
+                <h3>🎯 Le Défi de la Cohérence Politique</h3>
+                <p>L'issue de cette affaire interroge directement l'<strong>intégrité</strong> de la gestion 
+                administrative sous le mandat de <strong>Romuald Wadagni</strong> et sa capacité à incarner 
+                l'<strong>État de droit</strong>.</p>
+                
+                <div class="challenge-quote">
+                    "Peut-on solliciter la magistrature suprême sans assumer ses responsabilités ministérielles passées ?"
+                </div>
+            </div>
+
+            <div class="hashtags-bar">
+                <p>📢 Transparence et Justice : Exigeons des réponses !</p>
+                <div class="hashtag-list">
+                    <span class="hashtag">#WadagniGate</span>
+                    <span class="hashtag">#JusticePourFeliho</span>
+                    <span class="hashtag">#BeninGate</span>
+                    <span class="hashtag">#Elections2026</span>
+                </div>
+            </div>
+
         </div>
     </section>
 
-    <section id="documents" class="container" style="padding: 60px 0;">
-        <h2 style="text-align: center; font-family: 'Merriweather', serif; color: var(--primary-navy);">📄 Les Documents</h2>
-        <p style="text-align: center; color: #666; margin-bottom: 40px;">Documents officiels et preuves établies par la Cour Constitutionnelle.</p>
-        
-        <div class="documents-grid">
-            <div class="document-card">
-                <div style="font-size: 3rem; margin-bottom: 15px;">📄</div>
-                <h3 style="color: var(--primary-navy);">Lettre Ouverte</h3>
-                <p style="font-size: 0.9rem; color: #555;">À M. Romuald Wadagni<br>Candidat à la Présidence du Bénin</p>
-                <a href="Lettre ouverte.pdf" class="btn-download">Télécharger</a>
-            </div>
-
-            <div class="document-card">
-                <div style="font-size: 3rem; margin-bottom: 15px;">📁</div>
-                <h3 style="color: var(--primary-navy);">Pièces Justificatives</h3>
-                <p style="font-size: 0.9rem; color: #555;">Dossier complet (DCC 25-152)<br>3.8 Mo - PDF</p>
-                <a href="pieces-justificatives.pdf" class="btn-download">Consulter</a>
-            </div>
-
-            <div class="document-card" style="border-bottom: 6px solid var(--accent-gold);">
-                <div style="font-size: 3rem; margin-bottom: 15px;">📚</div>
-                <h3 style="color: var(--primary-navy);">Blanchiment en Liberté</h3>
-                <p style="font-size: 0.9rem; color: #555;">Livre de Gilles Féliho<br>Disponible sur Amazon</p>
-                <a href="#" class="btn-download" style="background-color: var(--accent-gold); color: #000;">Acheter</a>
-            </div>
-        </div>
-    </section>
-
-    <section id="partager" class="share-section">
+    <section class="timeline">
         <div class="container">
-            <h2>Partagez cette vérité</h2>
-            <p>Ne laissez pas la fraude rester dans l'ombre. Partagez ce dossier.</p>
-            <div class="social-buttons">
-                <a href="https://wa.me/?text=Découvrez toute la vérité sur l'affaire Wadagni" class="share-btn whatsapp">WhatsApp</a>
-                <a href="#" class="share-btn facebook">Facebook</a>
+            <h2>Chronologie de l'Affaire</h2>
+            <div class="timeline-container">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">📅 20 Octobre 2016</div>
+                        <p class="timeline-text">Délivrance du certificat d'acquit litigieux.</p>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">🔔 2020</div>
+                        <p class="timeline-text">Première alerte adressée à Romuald Wadagni.</p>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">⚖️ 22 Mai 2025</div>
+                        <p class="timeline-text">Confirmation de la fraude par la Cour Constitutionnelle (DCC 25-152).</p>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
             </div>
         </div>
     </section>
 
-    <footer class="footer">
+    <section class="documents">
         <div class="container">
-            <p><strong>Mentions Légales :</strong> Ce site est une initiative citoyenne basée sur la Décision DCC 25-152 de la Cour Constitutionnelle du Bénin.</p>
-            <p>© 2026 Gilles Féliho - Tous droits réservés.</p>
+            <h2>📄 Les Documents</h2>
+            <div class="docs-grid">
+                <div class="doc-card">
+                    <div class="doc-icon">📄</div>
+                    <h3>Lettre Ouverte</h3>
+                    <a href="Lettre ouverte.pdf" class="btn" target="_blank">📥 Télécharger</a>
+                </div>
+
+                <div class="doc-card">
+                    <div class="doc-icon">📂</div>
+                    <h3>Pièces Justificatives</h3>
+                    <a href="pieces-justificatives.pdf.pdf" class="btn" target="_blank">📥 Télécharger</a>
+                </div>
+
+                <div class="doc-card">
+                    <img src="livre-blanchiment.jpg" alt="Livre Blanchiment en Liberté" onerror="this.style.display='none'">
+                    <div class="doc-icon">📚</div>
+                    <h3>Acheter le Livre</h3>
+                    <a href="https://amzn.eu/d/07BcPzaJ" class="btn btn-secondary" target="_blank">🛒 Amazon</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2>📢 Partagez Cette Interpellation</h2>
+            <div class="share-buttons">
+                <a href="https://wa.me/?text=🔴%20Romuald%20Wadagni%20%3A%20L'Épreuve%20de%20la%20Vérité%20👉%20https://wadagni2026-verite.com" class="share-btn btn-whatsapp" target="_blank">💬 WhatsApp</a>
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https://wadagni2026-verite.com" class="share-btn btn-facebook" target="_blank">📘 Facebook</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Gilles FÉLIHO - Ethique Juridique 2.0 Internationale</p>
+            <p>Site pour la transparence - Élections Bénin 2026</p>
+            <p><a href="mentions-legales.html">Mentions Légales</a></p>
         </div>
     </footer>
+
+    <script>
+        function updateCounter() {
+            const fraudDate = new Date('2016-10-20');
+            const today = new Date();
+            const diffTime = Math.abs(today - fraudDate);
+            const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+            const counterElement = document.getElementById('counter');
+            if (counterElement) {
+                counterElement.textContent = `⏰ ${diffDays} jours depuis la fraude documentaire`;
+            }
+        }
+        updateCounter();
+
+        function revealOnScroll() {
+            const elements = document.querySelectorAll('.timeline-item, .doc-card, .comparison-column, .detail-card, .infographie-wrapper, .challenge-box');
+            elements.forEach(element => {
+                const elementTop = element.getBoundingClientRect().top;
+                if (elementTop < window.innerHeight - 150) {
+                    element.style.opacity = '1';
+                    element.style.transform = 'translateY(0)';
+                }
+            });
+        }
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            const elements = document.querySelectorAll('.timeline-item, .doc-card, .comparison-column, .detail-card, .infographie-wrapper, .challenge-box');
+            elements.forEach(element => {
+                element.style.opacity = '0';
+                element.style.transform = 'translateY(20px)';
+                element.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            });
+            revealOnScroll();
+        });
+        window.addEventListener('scroll', revealOnScroll);
+    </script>
 
 </body>
 </html>
