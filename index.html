@@ -2,6 +2,34 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    
+    <!-- Canonique dynamique - s'adapte à l'URL actuelle -->
+    <script>
+        // Normalise l'URL : force HTTPS, supprime www, supprime slash final sauf racine
+        let canonicalUrl = window.location.href
+            .replace(/^http:/, 'https:')           // Force HTTPS
+            .replace(/^https:\/\/www\./, 'https://') // Supprime www
+            .replace(/\/$/, '')                     // Supprime slash final
+            .split('?')[0]                          // Supprime paramètres
+            .split('#')[0];                         // Supprime ancres
+        
+        // Remet le slash pour la racine si vide
+        if (canonicalUrl === 'https://wadagni2026-verite.com') {
+            canonicalUrl = 'https://wadagni2026-verite.com/';
+        }
+        
+        document.write('<link rel="canonical" href="' + canonicalUrl + '" />');
+    </script>
+    <noscript>
+        <!-- Fallback si JS désactivé -->
+        <link rel="canonical" href="https://wadagni2026-verite.com/" />
+    </noscript>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romuald Wadagni : L'Épreuve de la Vérité</title>
+    <!-- ... reste du head ... -->
+</head>
+
     <script>
 document.write('<link rel="canonical" href="' + window.location.href.split('?')[0].split('#')[0] + '" />');
 </script>
