@@ -1,0 +1,10 @@
+# Configuration GitHub Pages
+url: "https://wadagni2026-verite.com"
+baseurl: ""
+
+# Forcer le type MIME du sitemap
+defaults:
+  - scope:
+      path: "sitemap.xml"
+    values:
+      layout: null
