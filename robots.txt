@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://wadagni2026-verite.com/sitemap.xml
+Sitemap: https://wadagni2026-verite.com/sitemap.html
