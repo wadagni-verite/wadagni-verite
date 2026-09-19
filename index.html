@@ -700,6 +700,19 @@ document.write('<link rel="canonical" href="' + window.location.href.split('?')[
             line-height: 1.6;
         }
 
+        .timeline-text a {
+            color: var(--blue);
+            font-weight: 600;
+            text-decoration: none;
+            white-space: nowrap;
+            border-bottom: 1px solid var(--gold);
+        }
+
+        .timeline-text a:hover {
+            color: var(--navy);
+            border-bottom-color: var(--navy);
+        }
+
         .timeline-dot {
             width: 20px;
             height: 20px;
@@ -743,6 +756,64 @@ document.write('<link rel="canonical" href="' + window.location.href.split('?')[
             gap: 30px;
             max-width: 1100px;
             margin: 0 auto;
+        }
+
+        /* Document mis en avant */
+        .doc-featured {
+            display: flex;
+            align-items: flex-start;
+            gap: 30px;
+            background: white;
+            border-left: 6px solid var(--gold);
+            border-radius: 16px;
+            padding: 35px 40px;
+            max-width: 1100px;
+            margin: 0 auto 30px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .doc-featured:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+        }
+
+        .doc-featured-icon {
+            font-size: 3.5rem;
+            line-height: 1;
+            flex-shrink: 0;
+        }
+
+        .doc-featured-tag {
+            display: inline-block;
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--navy);
+            background: var(--gold);
+            padding: 5px 12px;
+            border-radius: 4px;
+            margin-bottom: 14px;
+        }
+
+        .doc-featured h3 {
+            font-size: 1.5rem;
+            color: var(--navy);
+            margin-bottom: 12px;
+            line-height: 1.3;
+        }
+
+        .doc-featured p {
+            color: var(--gray);
+            font-size: 0.97rem;
+            margin-bottom: 25px;
+        }
+
+        .doc-featured-actions {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
         }
 
         .doc-card {
@@ -912,6 +983,21 @@ document.write('<link rel="canonical" href="' + window.location.href.split('?')[
 
             .comparison-grid {
                 grid-template-columns: 1fr;
+            }
+
+            .doc-featured {
+                flex-direction: column;
+                gap: 18px;
+                padding: 28px 24px;
+            }
+
+            .doc-featured h3 {
+                font-size: 1.25rem;
+            }
+
+            .doc-featured-actions .btn {
+                width: 100%;
+                text-align: center;
             }
 
             .timeline-container::before {
@@ -1168,6 +1254,14 @@ document.write('<link rel="canonical" href="' + window.location.href.split('?')[
 
                 <div class="timeline-item">
                     <div class="timeline-content">
+                        <div class="timeline-date">🔎 19 Mars 2025</div>
+                        <p class="timeline-text">Audition du notaire BALLEY par la Brigade Criminelle de Cotonou (réquisition n° 60/2025) : les contradictions du dossier restent non résolues. <a href="analyse-audition-balley-bac.html">Lire l'analyse →</a></p>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-content">
                         <div class="timeline-date">⚖️ 22 Mai 2025</div>
                         <p class="timeline-text">Confirmation de la fraude par la Cour Constitutionnelle (DCC 25-152).</p>
                     </div>
@@ -1180,6 +1274,25 @@ document.write('<link rel="canonical" href="' + window.location.href.split('?')[
     <section class="documents">
         <div class="container">
             <h2>📄 Les Documents</h2>
+
+            <article class="doc-featured">
+                <div class="doc-featured-icon">🔎</div>
+                <div class="doc-featured-body">
+                    <span class="doc-featured-tag">Analyse · Audition du 19 mars 2025</span>
+                    <h3>Audition du notaire BALLEY par la Brigade Criminelle de Cotonou</h3>
+                    <p>
+                        Analyse probatoire du PV d'audition (réquisition n° 60/2025) : six contradictions
+                        matérielles jamais tranchées par une pièce-source, le mécanisme qui substitue le récit
+                        à la preuve, et six actions d'enquête à engager pour remonter à la pièce mère du
+                        dossier.
+                    </p>
+                    <div class="doc-featured-actions">
+                        <a href="analyse-audition-balley-bac.html" class="btn">📖 Lire l'analyse</a>
+                        <a href="analyse-audition-balley-bac.pdf" class="btn btn-secondary" target="_blank">📥 Télécharger le PDF</a>
+                    </div>
+                </div>
+            </article>
+
             <div class="docs-grid">
                 <div class="doc-card">
                     <div class="doc-icon">📄</div>
@@ -1255,7 +1368,7 @@ document.write('<link rel="canonical" href="' + window.location.href.split('?')[
         updateCounter();
 
         function revealOnScroll() {
-            const elements = document.querySelectorAll('.timeline-item, .doc-card, .comparison-column, .detail-card, .infographie-wrapper, .challenge-box');
+            const elements = document.querySelectorAll('.timeline-item, .doc-card, .doc-featured, .comparison-column, .detail-card, .infographie-wrapper, .challenge-box');
             elements.forEach(element => {
                 const elementTop = element.getBoundingClientRect().top;
                 if (elementTop < window.innerHeight - 150) {
@@ -1266,7 +1379,7 @@ document.write('<link rel="canonical" href="' + window.location.href.split('?')[
         }
         
         document.addEventListener('DOMContentLoaded', function() {
-            const elements = document.querySelectorAll('.timeline-item, .doc-card, .comparison-column, .detail-card, .infographie-wrapper, .challenge-box');
+            const elements = document.querySelectorAll('.timeline-item, .doc-card, .doc-featured, .comparison-column, .detail-card, .infographie-wrapper, .challenge-box');
             elements.forEach(element => {
                 element.style.opacity = '0';
                 element.style.transform = 'translateY(20px)';
