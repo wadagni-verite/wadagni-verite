@@ -60,3 +60,6 @@ Ajout d'une scène « Les valeurs ne tiennent pas » : lettre AIB du 5/10/2011 (
 
 ## Révision v7
 Le communiqué du 3 avril 2013 est désormais cité comme publié dans le journal La Nation. Tableau d'accueil : mention « plus de 1000 % » remplacée par le montant du jugement.
+
+## Révision v8 (110 s)
+La décision DCC 25-152 et les scènes « portée » et « appel » sont retirées. Nouvelle fin : scène « Qui est Me BALLEY dans cette succession ? » (dépositaire du testament, administrateur provisoire, liquidatrice, mandataire : non) puis conclusion (aucun lien juridique ; certificat obtenu « en qualité de mandataire » ; dysfonctionnement très grave ; toujours impuni) et appel final avec l'adresse du site.
