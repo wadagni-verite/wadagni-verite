@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><title>Motion design — wadagni2026-verite.com</title>
+<style>
+:root{--navy:#0a1f44;--blue:#1e3a8a;--gold:#d4af37;--red:#dc2626;--green:#059669;--ink:#f8fafc;--mute:#94a3b8}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1280px;height:720px;overflow:hidden;background:#050d1f;font-family:'DejaVu Sans','Inter',sans-serif;color:var(--ink)}
+#stage{position:relative;width:1280px;height:720px;background:radial-gradient(ellipse at 30% 20%,#12306b 0%,#0a1f44 45%,#050d1f 100%)}
+.scene{position:absolute;inset:0;opacity:0}
+.el{position:absolute;opacity:0}
+.big{font-size:64px;font-weight:800;line-height:1.15}
+.mid{font-size:40px;font-weight:700;line-height:1.25}
+.small{font-size:24px;color:var(--mute)}
+.gold{color:var(--gold)}.red{color:var(--red)}.green{color:var(--green)}
+.card{font-size:27px;line-height:1.35;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.18);border-radius:16px;padding:22px 26px}
+.doc{background:#f4f1e8;color:#222;border-radius:6px;box-shadow:0 20px 60px rgba(0,0,0,.6)}
+.bar{background:#2b2b2b;height:16px;border-radius:2px;margin:12px 0}
+.hl{background:rgba(220,38,38,.22);outline:3px solid var(--red);padding:8px 10px;border-radius:4px;font-size:20px;font-weight:700}
+#sub{position:absolute;left:90px;right:90px;bottom:34px;text-align:center;font-size:27px;line-height:1.35;background:rgba(0,0,0,.55);padding:10px 20px;border-radius:10px;opacity:0}
+#bar{position:absolute;left:0;bottom:0;height:5px;background:var(--gold)}
+.tag{position:absolute;left:60px;top:34px;font-size:20px;color:var(--gold);letter-spacing:.12em;text-transform:uppercase}
+</style></head><body><div id="stage">
+
+<!-- S1 0-11 -->
+<div class="scene" data-s="0" data-e="11">
+ <div class="tag el" data-in="0.2">Certificat d'acquit de droit · 20 octobre 2016</div>
+ <div class="doc el" data-in="0.5" style="left:60px;top:100px;width:540px;height:350px;padding:30px">
+  <div style="font-weight:800;font-size:20px">CERTIFICAT D'ACQUIT DE DROIT</div>
+  <div style="font-size:14px;color:#555;margin-top:4px">Ministère de l'Économie et des Finances · Service de l'Enregistrement</div>
+  <div class="bar" style="width:90%"></div>
+  <div class="hl el" data-in="2.6" style="position:relative;margin:12px 0;font-size:18px">« décédé à COTONOU, le dix juin deux mil seize »</div>
+  <div class="hl el" data-in="5" style="position:relative;margin:12px 0;font-size:18px">« Maître Félix A. BALLEY, agissant en qualité de mandataire… »</div>
+  <div class="hl el" data-in="7.4" style="position:relative;margin:12px 0;font-size:18px">« CENT TRENTE HUIT MILLIONS TROIS CENT MILLE (138.300.000) »</div>
+ </div>
+ <div class="big el" data-in="1.2" style="left:650px;top:110px;width:590px;font-size:38px">Un décès daté de juin 2016… pour un homme <span class="red">mort en décembre 2010</span>.</div>
+ <div class="big el" data-in="4.2" style="left:650px;top:260px;width:590px;font-size:38px">Un notaire « mandataire » d'un héritier qui <span class="red">ne l'a jamais mandaté</span>.</div>
+ <div class="big el" data-in="6.8" style="left:650px;top:400px;width:590px;font-size:38px">Un patrimoine <span class="red">très minoré</span>.</div>
+</div>
+
+<!-- S2a 11-31 -->
+<div class="scene" data-s="11" data-e="31">
+ <div class="tag el" data-in="0.2">Les faits, pièces à l'appui</div>
+ <div class="el card" data-in="0.6" style="left:90px;top:95px;width:1100px;font-size:25px"><span class="gold" style="font-weight:800">3 déc. 2010</span> — Décès de Jean Florentin FÉLIHO <span style="color:#94a3b8">(déclaration de décès, CNHU-HKM)</span></div>
+ <div class="el card" data-in="3.6" style="left:90px;top:180px;width:1100px;font-size:25px"><span class="gold" style="font-weight:800">2012 – 2013</span> — Me CRINOT nommé administrateur (arrêt 28/12), « seul habilité » (journal La Nation, communiqué du 3/4/2013). <b>Me BALLEY n'y figure pas</b></div>
+ <div class="el card" data-in="8.6" style="left:90px;top:285px;width:1100px;font-size:25px"><span class="gold" style="font-weight:800">31 oct. 2014</span> — Jugement n° 114/14, Tribunal de Cotonou : décès le 3 décembre 2010 ; 39 immeubles estimés à <b>567 990 000 FCFA</b>. <b>Me BALLEY n'y figure pas</b></div>
+ <div class="el card" data-in="14" style="left:90px;top:405px;width:1100px;font-size:25px"><span class="gold" style="font-weight:800">20 oct. 2016</span> — Certificat d'acquit de droit (Direction générale des impôts) : Me BALLEY « mandataire » ; 7 immeubles, 138 300 000 FCFA</div>
+</div>
+
+<!-- S2b 31-50 -->
+<div class="scene" data-s="31" data-e="50">
+ <div class="tag el" data-in="0.2">Le certificat contre les pièces officielles</div>
+ <div class="el" data-in="0.5" style="left:90px;top:85px;width:1100px;display:flex;gap:20px;font-size:23px;font-weight:800"><div style="flex:1;color:var(--red)">LE CERTIFICAT</div><div style="flex:1;color:var(--green)">LES PIÈCES OFFICIELLES</div></div>
+ <div class="el card" data-in="1.2" style="left:90px;top:125px;width:1100px;display:flex;gap:20px;font-size:24px"><div style="flex:1"><b>Décès :</b> 10 juin 2016</div><div style="flex:1"><b>3 décembre 2010</b> — déclaration de décès et jugement du 31/10/2014</div></div>
+ <div class="el card" data-in="8" style="left:90px;top:235px;width:1100px;display:flex;gap:20px;font-size:24px"><div style="flex:1"><b>Me BALLEY</b>, « mandataire » de Gilles FÉLIHO</div><div style="flex:1"><b>Aucun mandat produit.</b> Le 7 sept. 2023, Me BALLEY refuse les copies : M. FÉLIHO « n'est pas partie » à ses actes</div></div>
+</div>
+
+<!-- S2c 50-64 -->
+<div class="scene" data-s="50" data-e="64">
+ <div class="tag el" data-in="0.2">Les valeurs ne tiennent pas</div>
+ <div class="el" data-in="0.4" style="left:90px;top:85px;width:1100px;display:flex;gap:20px;font-size:23px;font-weight:800"><div style="flex:1;color:var(--red)">LE CERTIFICAT</div><div style="flex:1;color:var(--green)">LES PIÈCES</div></div>
+ <div class="el card" data-in="0.9" style="left:90px;top:125px;width:1100px;display:flex;gap:20px;font-size:24px"><div style="flex:1"><b>7 immeubles :</b> 138 300 000 FCFA</div><div style="flex:1"><b>Jugement 2014 :</b> 39 immeubles (France et Bénin), 567 990 000 FCFA</div></div>
+ <div class="el card" data-in="5.5" style="left:90px;top:245px;width:1100px;display:flex;gap:20px;font-size:24px"><div style="flex:1"><b>Camp Guézo (TF 739, lot 240) :</b> déclaré 65 000 000 FCFA</div><div style="flex:1"><b>Siège de la banque AIB</b> (« 240 Zone Résidentielle ») : loyer de 2 × 30 M FCFA pour 2011 <span style="color:#94a3b8">(lettre AIB du 5/10/2011)</span></div></div>
+ <div class="el card" data-in="9.5" style="left:90px;top:405px;width:1100px;display:flex;gap:20px;font-size:24px"><div style="flex:1"><b>Agla (TF 2222) :</b> absent du certificat</div><div style="flex:1">Listé dans le communiqué de la succession publié par le journal La Nation (3 avril 2013)</div></div>
+</div>
+
+<!-- S3 64-84 : qui est Me BALLEY ? -->
+<div class="scene" data-s="64" data-e="84">
+ <div class="tag el" data-in="0.2">Qui est Me BALLEY dans cette succession ?</div>
+ <div class="el" data-in="0.4" style="left:90px;top:85px;width:1100px;display:flex;gap:16px;font-size:21px;font-weight:800"><div style="flex:1.1;color:var(--gold)">RÔLE</div><div style="flex:2;color:var(--green)">DÉSIGNÉ PAR LES PIÈCES</div><div style="flex:.9;color:var(--red)">ME BALLEY ?</div></div>
+  <div class="el card" data-in="1" style="left:90px;top:118px;width:1100px;display:flex;gap:16px;font-size:21px;align-items:center;padding:14px 24px"><div style="flex:1.1"><b>Dépositaire du testament</b></div><div style="flex:2">Me Irène ADJAGBA ISCHOLA <span style="color:#94a3b8">(jugement du 31/10/2014)</span></div><div style="flex:.9;color:var(--red);font-weight:800">Pas Me BALLEY</div></div>
+ <div class="el card" data-in="3.5" style="left:90px;top:203px;width:1100px;display:flex;gap:16px;font-size:21px;align-items:center;padding:14px 24px"><div style="flex:1.1"><b>Administrateur provisoire</b></div><div style="flex:2">Me Lazare CRINOT <span style="color:#94a3b8">(arrêt n° 28/12, Cour d'appel, 30/08/2012)</span></div><div style="flex:.9;color:var(--red);font-weight:800">Pas Me BALLEY</div></div>
+ <div class="el card" data-in="6" style="left:90px;top:288px;width:1100px;display:flex;gap:16px;font-size:21px;align-items:center;padding:14px 24px"><div style="flex:1.1"><b>Reprise du cabinet de Me CRINOT (décédé)</b></div><div style="flex:2">Le notaire qui a repris le cabinet après son décès</div><div style="flex:.9;color:var(--red);font-weight:800">Pas Me BALLEY</div></div>
+ <div class="el card" data-in="8.5" style="left:90px;top:373px;width:1100px;display:flex;gap:16px;font-size:21px;align-items:center;padding:14px 24px"><div style="flex:1.1"><b>Liquidateur</b></div><div style="flex:2"><b>Me BALLEY</b> absent de l'ordonnance 842/2013 et du jugement de 2014</div><div style="flex:.9;color:var(--red);font-weight:800">Pas Me BALLEY</div></div>
+ <div class="el card" data-in="11" style="left:90px;top:458px;width:1100px;display:flex;gap:16px;font-size:21px;align-items:center;padding:14px 24px"><div style="flex:1.1"><b>Mandataire de Gilles FÉLIHO</b></div><div style="flex:2">Aucun mandat donné à <b>Me BALLEY</b>, aucun produit <span style="color:#94a3b8">(lettre du 07/09/2023)</span></div><div style="flex:.9;color:var(--red);font-weight:800">Pas Me BALLEY</div></div>
+</div>
+
+<!-- S4 84-98 : conclusion -->
+<div class="scene" data-s="84" data-e="98" style="background:linear-gradient(135deg,#3b0a0a 0%,#0a1f44 70%)">
+ <div class="big el" data-in="0.5" style="left:90px;top:90px;width:1100px;font-size:50px"><span class="red">Aucun lien juridique prouvé</span> avec la succession.</div>
+ <div class="mid el" data-in="3.5" style="left:90px;top:250px;width:1100px;font-size:36px">Pourtant, Me BALLEY obtient de l'administration béninoise, <span class="gold">« en qualité de mandataire »</span>, un certificat d'acquit de droit <span class="red">frauduleux</span>.</div>
+ <div class="big el" data-in="8" style="left:90px;top:430px;width:1100px;font-size:46px">Un dysfonctionnement <span class="gold">très grave</span>.</div>
+ <div class="big el" data-in="10.5" style="left:90px;top:510px;width:1100px;font-size:46px"><span class="red">Toujours impuni.</span></div>
+</div>
+
+<!-- S5 98-118 : portée -->
+<div class="scene" data-s="98" data-e="118">
+ <div class="tag el" data-in="0.2">La portée</div>
+ <div class="el" data-in="0.5" style="left:330px;top:30px"><svg width="1280" height="720" style="transform:scale(.5);transform-origin:0 0;display:block">
+  <g stroke="#d4af37" stroke-width="4" fill="none" stroke-dasharray="10 10" opacity=".9">
+   <path d="M330 340 Q 520 160 760 190"/><path d="M330 340 Q 640 330 960 330"/><path d="M330 340 Q 560 520 820 500"/>
+  </g>
+  <circle cx="330" cy="340" r="58" fill="#059669"/><text x="330" y="334" fill="#fff" font-size="24" font-weight="800" text-anchor="middle">Bénin</text><text x="330" y="362" fill="#fff" font-size="20" text-anchor="middle">(intérieur)</text>
+  <g fill="#1e3a8a" stroke="#d4af37" stroke-width="3"><circle cx="760" cy="190" r="42"/><circle cx="960" cy="330" r="42"/><circle cx="820" cy="500" r="42"/></g>
+  <text x="760" y="262" fill="#e2e8f0" font-size="26" font-weight="700" text-anchor="middle">Diaspora</text>
+  <text x="960" y="402" fill="#e2e8f0" font-size="26" font-weight="700" text-anchor="middle">Afro-descendants</text>
+  <text x="820" y="572" fill="#e2e8f0" font-size="26" font-weight="700" text-anchor="middle">Nouveaux venus</text>
+ </svg></div>
+ <div class="mid el" data-in="2" style="left:60px;top:325px;width:1160px;font-size:29px">Cette arnaque s'applique à d'autres Béninois, <span class="gold">de l'intérieur et de la diaspora</span>, et aux <span class="gold">nouveaux venus</span> : les afro-descendants, <span class="red">cibles privilégiées</span>.</div>
+ <div class="mid el" data-in="10" style="left:60px;top:440px;width:1160px;font-size:27px">D'où l'importance d'une <span class="gold">sensibilisation de tout un chacun</span> et la nécessité d'une <span class="gold">réponse exemplaire</span>, dont l'absence est ici dénoncée.</div>
+</div>
+
+<!-- S6 118-127 : appel -->
+<div class="scene" data-s="118" data-e="127">
+ <div class="big el" data-in="0.4" style="left:0;top:170px;width:1280px;text-align:center;font-size:52px"><span class="gold">Sensibiliser.</span> Exiger des comptes.</div>
+ <div class="big el" data-in="1.6" style="left:0;top:290px;width:1280px;text-align:center;font-size:56px"><span class="gold">wadagni2026-verite.com</span></div>
+ <div class="mid el" data-in="2.6" style="left:0;top:390px;width:1280px;text-align:center;font-size:30px">Sources et pièces justificatives</div>
+ <div class="mid el" data-in="3.8" style="left:0;top:460px;width:1280px;text-align:center;font-size:28px;color:#cbd5e1">#JusticePourFeliho · L'intégrité ne se divise pas</div>
+ <div class="small el" data-in="5" style="left:0;top:530px;width:1280px;text-align:center">Éthique Juridique 2.0 Internationale</div>
+</div>
+
+<div id="sub"></div><div id="bar"></div>
+</div>
+<script>
+const DUR=127;
+// Sous-titres = voix-off (script v2). Même source pour le .vtt.
+const CUES=[
+[0.5,10.5,"Un décès daté de juin 2016, pour un homme mort en décembre 2010. Un notaire « mandataire » d'un héritier qui ne l'a jamais mandaté. Un patrimoine très minoré. Le tout sur un certificat établi par l'administration des Finances."],
+[11.5,20.5,"Jean Florentin Féliho meurt le 3 décembre 2010. Me Crinot est nommé administrateur de la succession, et le communiqué de la succession, publié dans le journal La Nation (3 avril 2013), le dit seul habilité. Me Balley n'y figure nulle part."],
+[21,30.5,"Le 31 octobre 2014, le Tribunal de Cotonou juge cette succession : décès le 3 décembre 2010, 39 immeubles estimés à 567 990 000 francs CFA. Me Balley n'y figure pas non plus."],
+[31.5,41,"Le 20 octobre 2016, le certificat d'acquit de droit indique un décès le 10 juin 2016. Or un jugement de 2014 statue déjà sur cette succession : le décès ne peut pas dater de 2016."],
+[41.5,49.5,"Il présente Me Balley comme mandataire de Gilles Féliho. Aucun mandat n'a été donné ni produit. Le 7 septembre 2023, Me Balley écrit lui-même que Gilles Féliho n'est pas partie à ses actes."],
+[50.5,57,"Le certificat déclare 7 immeubles pour 138 millions de francs CFA. Le jugement de 2014 en compte 39, pour 568 millions."],
+[57.5,63.5,"L'immeuble de Camp Guézo, lot 240, est déclaré pour 65 millions. Or la banque AIB, installée au 240 zone résidentielle, en payait 60 millions de loyer pour la seule année 2011. Et le titre foncier d'Agla n° 2222, cité au communiqué publié dans La Nation, est absent du certificat."],
+[64.5,74,"Qui est Me Balley dans cette succession ? Le testament a été déposé chez Me Adjagba Ischola. L'administrateur provisoire, nommé par la Cour d'appel de Cotonou, est Me Crinot. Après son décès, un autre notaire a repris son cabinet : ce n'est pas Me Balley."],
+[74.5,83.5,"Me Balley est absent de l'ordonnance sur la liquidation, comme du jugement de 2014. Gilles Féliho ne lui a donné aucun mandat, et aucun n'a jamais été produit."],
+[84.5,92,"Me Balley n'est ni le dépositaire du testament, ni l'administrateur provisoire, ni le liquidateur, ni le mandataire de Gilles Féliho. Aucun lien juridique n'est prouvé entre lui et cette succession. Pourtant, il obtient de l'administration béninoise, en qualité de mandataire, un certificat d'acquit de droit frauduleux."],
+[92.5,99.5,"C'est un dysfonctionnement très grave. Et à ce jour, il reste impuni."],
+[98.5,107.5,"La portée de cette arnaque : elle est applicable non seulement à d'autres Béninois de l'intérieur et de la diaspora, mais aussi aux nouveaux venus."],
+[108,117.5,"Je pense aux afro-descendants, cibles privilégiées de cette arnaque. D'où l'importance d'une sensibilisation de tout un chacun, et la nécessité d'une réponse exemplaire, dont l'absence est ici dénoncée."],
+[118.5,126,"Sensibiliser. Exiger des comptes. Les pièces sont en ligne : wadagni2026-verite.com"]
+];
+const ease=x=>1-Math.pow(1-x,3), clamp=x=>Math.max(0,Math.min(1,x));
+const scenes=[...document.querySelectorAll('.scene')], sub=document.getElementById('sub'), bar=document.getElementById('bar');
+function seek(t){
+  scenes.forEach(s=>{
+    const a=+s.dataset.s,b=+s.dataset.e, inside=t>=a&&t<b;
+    s.style.opacity=inside?Math.min(clamp((t-a)/.5),clamp((b-t)/.5)):0;
+    if(!inside) return;
+    s.querySelectorAll('.el').forEach(e=>{
+      const p=ease(clamp((t-a-(+e.dataset.in))/.6));
+      e.style.opacity=p; e.style.transform=`translateY(${(1-p)*24}px)`;
+    });
+  });
+  const c=CUES.find(c=>t>=c[0]&&t<c[1]);
+  sub.textContent=c?c[2]:''; sub.style.opacity=c?1:0;
+  bar.style.width=(t/DUR*1280)+'px';
+}
+window.seek=seek; window.CUES=CUES; window.DUR=DUR; seek(0);
+
+const NEWSC=[[0, 11, 0.0, 14.736], [11, 31, 14.736, 46.096000000000004], [31, 50, 46.096000000000004, 70.67733333333334], [50, 64, 70.67733333333334, 100.44266666666667], [64, 84, 100.44266666666667, 125.07200000000002], [84, 98, 125.07200000000002, 148.16000000000003], [98, 118, 148.16000000000003, 168.24533333333335], [118, 127, 168.24533333333335, 176.11333333333332]], NEWCUES=[[0.7, 9.766666666666666, "Un décès daté de juin 2016, pour un homme mort en décembre 2010. Un notaire « mandataire » d'un héritier qui ne l'a jamais mandaté. Un patrimoine très minoré."], [10.166666666666666, 13.835999999999999, "Le tout sur un certificat établi par l'administration des Finances."], [15.436, 18.422666666666668, "Jean Florentin Féliho meurt le 3 décembre 2010."], [18.822666666666667, 28.422666666666665, "Me Crinot est nommé administrateur de la succession, et le communiqué de la succession, publié dans le journal La Nation (3 avril 2013), le dit seul habilité."], [28.822666666666667, 30.337333333333333, "Me Balley n'y figure nulle part."], [30.737333333333332, 43.21733333333333, "Le 31 octobre 2014, le Tribunal de Cotonou juge cette succession : décès le 3 décembre 2010, 39 immeubles estimés à 567 990 000 francs CFA."], [43.617333333333335, 45.196, "Me Balley n'y figure pas non plus."], [46.79600000000001, 52.32133333333334, "Le 20 octobre 2016, le certificat d'acquit de droit indique un décès le 10 juin 2016."], [52.72133333333334, 58.82266666666668, "Or un jugement de 2014 statue déjà sur cette succession : le décès ne peut pas dater de 2016."], [59.222666666666676, 63.98000000000001, "Il présente Me Balley comme mandataire de Gilles Féliho. Aucun mandat n'a été donné ni produit."], [64.38000000000001, 69.77733333333335, "Le 7 septembre 2023, Me Balley écrit lui-même que Gilles Féliho n'est pas partie à ses actes."], [71.37733333333334, 79.932, "Le certificat déclare 7 immeubles pour 138 millions de francs CFA. Le jugement de 2014 en compte 39, pour 568 millions."], [80.33200000000001, 84.748, "L'immeuble de Camp Guézo, lot 240, est déclaré pour 65 millions."], [85.14800000000001, 92.46533333333335, "Or la banque AIB, installée au 240 zone résidentielle, en payait 60 millions de loyer pour la seule année 2011."], [92.86533333333334, 99.54266666666668, "Et le titre foncier d'Agla n° 2222, cité au communiqué publié dans La Nation, est absent du certificat."], [101.14266666666667, 105.94266666666667, "Qui est Me Balley dans cette succession ? Le testament a été déposé chez Me Adjagba Ischola."], [106.34266666666667, 114.876, "L'administrateur provisoire, nommé par la Cour d'appel de Cotonou, est Me Crinot. Après son décès, un autre notaire a repris son cabinet : ce n'est pas Me Balley."], [115.27600000000001, 124.17200000000001, "Me Balley est absent de l'ordonnance sur la liquidation, comme du jugement de 2014. Gilles Féliho ne lui a donné aucun mandat, et aucun n'a jamais été produit."], [125.77200000000002, 132.96133333333336, "Me Balley n'est ni le dépositaire du testament, ni l'administrateur provisoire, ni le liquidateur, ni le mandataire de Gilles Féliho."], [133.36133333333336, 136.54000000000002, "Aucun lien juridique n'est prouvé entre lui et cette succession."], [136.94000000000003, 143.16933333333336, "Pourtant, il obtient de l'administration béninoise, en qualité de mandataire, un certificat d'acquit de droit frauduleux."], [143.56933333333336, 147.26000000000002, "C'est un dysfonctionnement très grave. Et à ce jour, il reste impuni."], [148.86, 155.94266666666667, "La portée de cette arnaque : elle est applicable non seulement à d'autres Béninois de l'intérieur et de la diaspora, mais aussi aux nouveaux venus."], [156.34266666666667, 159.71333333333334, "Je pense aux afro-descendants, cibles privilégiées de cette arnaque."], [160.11333333333334, 167.34533333333334, "D'où l'importance d'une sensibilisation de tout un chacun, et la nécessité d'une réponse exemplaire, dont l'absence est ici dénoncée."], [168.94533333333334, 174.51333333333335, "Sensibiliser. Exiger des comptes. Les pièces sont en ligne : wadagni2026-verite.com"]], NEWDUR=176.11333333333332;
+const _seekOld=window.seek;
+window.seek=function(t){
+  let tau=0; for(const [o0,o1,n0,n1] of NEWSC){ if(t>=n0&&t<n1){tau=o0+(t-n0)/(n1-n0)*(o1-o0);break;} if(t>=n1) tau=o1; }
+  _seekOld(tau);
+  const c=NEWCUES.find(c=>t>=c[0]&&t<c[1]+0.3), sub=document.getElementById('sub'), bar=document.getElementById('bar');
+  sub.textContent=c?c[2]:''; sub.style.opacity=c?1:0; bar.style.width=(t/NEWDUR*1280)+'px';
+};
+window.DUR=NEWDUR; window.CUES=NEWCUES.map(c=>[c[0],c[1],c[2]]); seek(0);
+</script></body></html>
