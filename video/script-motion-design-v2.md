@@ -54,3 +54,6 @@ Sources lues : certificat d'acquit de droit du 20/10/2016 (Direction générale 
 
 ## Révision v5 (114 s) — pièces complémentaires
 Ajout d'une scène « Les valeurs ne tiennent pas » : lettre AIB du 5/10/2011 (2 tranches de 30 M FCFA de loyer pour 2011, immeuble de Camp Guézo = TF 739, déclaré 65 M dans le certificat) ; titre foncier d'Agla n° 2222 cité au communiqué du 3/4/2013 et absent du certificat (sans lien avec l'écrit manuscrit d'Agla.pdf, qui vise un seul lot) (qui liste les TF 739, 3325, 2601, 786, 123, 158, 1402). L'écrit manuscrit du 12/07/2007 (Agla.pdf) n'est pas chiffré lisiblement : non utilisé à l'écran.
+
+## Révision v6 (114 s) — siège AIB = lot 240 (cachet de la lettre AIB : « 240 Zone Résidentielle » ; certificat, TF 739 : « zone résidentielle, lot 240, Camp Guézo »)
+Ajout d'une scène « Les valeurs ne tiennent pas » : lettre AIB du 5/10/2011 (2 tranches de 30 M FCFA de loyer pour 2011, immeuble de Camp Guézo = TF 739, déclaré 65 M dans le certificat) ; titre foncier d'Agla n° 2222 cité au communiqué du 3/4/2013 et absent du certificat (sans lien avec l'écrit manuscrit d'Agla.pdf, qui vise un seul lot) (qui liste les TF 739, 3325, 2601, 786, 123, 158, 1402). L'écrit manuscrit du 12/07/2007 (Agla.pdf) n'est pas chiffré lisiblement : non utilisé à l'écran.
