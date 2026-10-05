@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><title>Motion design — wadagni2026-verite.com</title>
+<style>
+:root{--navy:#0a1f44;--blue:#1e3a8a;--gold:#d4af37;--red:#dc2626;--green:#059669;--ink:#f8fafc;--mute:#94a3b8}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1280px;height:720px;overflow:hidden;background:#050d1f;font-family:'DejaVu Sans','Inter',sans-serif;color:var(--ink)}
+#stage{position:relative;width:1280px;height:720px;background:radial-gradient(ellipse at 30% 20%,#12306b 0%,#0a1f44 45%,#050d1f 100%)}
+.scene{position:absolute;inset:0;opacity:0}
+.el{position:absolute;opacity:0}
+.big{font-size:64px;font-weight:800;line-height:1.15}
+.mid{font-size:40px;font-weight:700;line-height:1.25}
+.small{font-size:24px;color:var(--mute)}
+.gold{color:var(--gold)}.red{color:var(--red)}.green{color:var(--green)}
+.card{font-size:27px;line-height:1.35;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.18);border-radius:16px;padding:22px 26px}
+.doc{background:#f4f1e8;color:#222;border-radius:6px;box-shadow:0 20px 60px rgba(0,0,0,.6)}
+.bar{background:#2b2b2b;height:16px;border-radius:2px;margin:12px 0}
+.hl{background:rgba(220,38,38,.22);outline:3px solid var(--red);padding:8px 10px;border-radius:4px;font-size:20px;font-weight:700}
+#sub{position:absolute;left:90px;right:90px;bottom:34px;text-align:center;font-size:27px;line-height:1.35;background:rgba(0,0,0,.55);padding:10px 20px;border-radius:10px;opacity:0}
+#bar{position:absolute;left:0;bottom:0;height:5px;background:var(--gold)}
+.tag{position:absolute;left:60px;top:34px;font-size:20px;color:var(--gold);letter-spacing:.12em;text-transform:uppercase}
+</style></head><body><div id="stage">
+
+<!-- S1 0-12 -->
+<div class="scene" data-s="0" data-e="12">
+ <div class="tag el" data-in="0.2">Un certificat contesté</div>
+ <div class="doc el" data-in="0.5" style="left:90px;top:110px;width:520px;height:440px;padding:34px">
+  <div style="font-weight:800;font-size:22px">CERTIFICAT D'ACQUIT DE DROIT</div>
+  <div style="font-size:15px;color:#555;margin-top:4px">20 octobre 2016 — extrait cité</div>
+  <div class="bar" style="width:90%"></div><div class="bar" style="width:70%"></div><div class="bar" style="width:84%"></div>
+  <div class="hl el" data-in="3.2" style="position:relative;margin-top:20px">« Maître Félix A. BALLEY, agissant en qualité de mandataire… Monsieur Gilles Sixte FELIHO »</div>
+  <div class="bar" style="width:80%;margin-top:22px"></div><div class="bar" style="width:60%"></div>
+ </div>
+ <div class="big el" data-in="1.6" style="left:680px;top:150px;width:540px">Un notaire présenté comme <span class="gold">mandataire</span>.</div>
+ <div class="mid el" data-in="5.2" style="left:680px;top:340px;width:540px">Un héritier qui affirme<br>n'avoir <span class="red">donné aucun mandat</span>.</div>
+ <div class="small el" data-in="8" style="left:680px;top:500px;width:540px">Contesté depuis 2020 · pièces en ligne</div>
+</div>
+
+<!-- S2 12-42 -->
+<div class="scene" data-s="12" data-e="42">
+ <div class="tag el" data-in="0.2">Les faits</div>
+ <div style="position:absolute;left:150px;top:175px;width:6px;height:0;background:var(--gold)" class="line"></div>
+ <div class="el card" data-in="1" style="left:90px;top:120px;width:1100px"><span class="gold" style="font-weight:800">30 août 2012</span> — La Cour d'appel de Cotonou nomme <b>Me Lazare CRINOT</b> administrateur (décision n° 28/12)</div>
+ <div class="el card" data-in="8" style="left:90px;top:245px;width:1100px"><span class="gold" style="font-weight:800">3 avril 2013</span> — Communiqué public de la succession : <b>Me Félix A. BALLEY n'y est mentionné nulle part</b></div>
+ <div class="el card" data-in="15" style="left:90px;top:370px;width:1100px"><span class="gold" style="font-weight:800">20 octobre 2016</span> — Délivrance du certificat d'acquit de droit, Me BALLEY y agissant « en qualité de mandataire »</div>
+ <div class="el mid red" data-in="19" style="left:90px;top:495px;width:1100px">Aucun mandat donné — <span style="color:#fff">selon M. Féliho</span></div>
+ <div class="el small" data-in="23" style="left:90px;top:550px;width:1100px;font-size:22px">Mentions contestées : date de décès · évaluation des biens · qualité de mandataire</div>
+</div>
+
+<!-- S3 42-58 -->
+<div class="scene" data-s="42" data-e="58">
+ <div class="tag el" data-in="0.2">Cour constitutionnelle du Bénin</div>
+ <div class="big el" data-in="0.6" style="left:90px;top:120px;width:1100px">DCC 25-152 <span class="gold">— 22 mai 2025</span></div>
+ <div class="doc el" data-in="3" style="left:90px;top:260px;width:1100px;padding:34px 40px;font-family:'DejaVu Serif',serif">
+  <div style="font-size:20px;color:#555">EN CONSÉQUENCE,</div>
+  <div style="font-size:46px;font-weight:800;margin-top:6px">Est incompétente.</div>
+ </div>
+ <div class="mid el" data-in="7" style="left:90px;top:470px;width:1100px">Faits <span class="gold">ni écartés</span>, <span class="gold">ni infirmés</span>.</div>
+ <div class="small el" data-in="10" style="left:90px;top:540px;width:1100px;font-size:26px">Il revient aux juridictions ordinaires d'en connaître.</div>
+</div>
+
+<!-- S4 58-78 -->
+<div class="scene" data-s="58" data-e="78">
+ <div class="tag el" data-in="0.2">La portée</div>
+ <div class="el" data-in="0.6" style="left:0;top:0"><svg width="1280" height="720" style="transform:scale(.72);transform-origin:0 0;display:block">
+  <g stroke="#d4af37" stroke-width="3" fill="none" stroke-dasharray="8 8" opacity=".9">
+   <path d="M330 340 Q 520 160 760 190"/><path d="M330 340 Q 600 330 930 330"/><path d="M330 340 Q 560 520 800 500"/><path d="M330 340 Q 420 120 1000 140"/>
+  </g>
+  <circle cx="330" cy="340" r="46" fill="#059669"/><text x="330" y="346" fill="#fff" font-size="22" font-weight="800" text-anchor="middle">Bénin</text>
+  <g fill="#1e3a8a" stroke="#d4af37" stroke-width="2">
+   <circle cx="760" cy="190" r="34"/><circle cx="930" cy="330" r="34"/><circle cx="800" cy="500" r="34"/><circle cx="1000" cy="140" r="34"/></g>
+  <text x="760" y="250" fill="#cbd5e1" font-size="20" text-anchor="middle">Europe</text><text x="930" y="390" fill="#cbd5e1" font-size="20" text-anchor="middle">Amériques</text>
+  <text x="800" y="560" fill="#cbd5e1" font-size="20" text-anchor="middle">Afrique</text><text x="1000" y="200" fill="#cbd5e1" font-size="20" text-anchor="middle">Diaspora</text>
+ </svg></div>
+ <div class="mid el" data-in="3" style="left:60px;top:440px;width:1160px">Tout héritier éloigné peut être concerné — <span class="gold">au Bénin comme dans la diaspora</span>.</div>
+ <div class="mid el" data-in="9" style="left:60px;top:530px;width:1160px;font-size:32px">Vérifiez <span class="gold">qui agit en votre nom</span> dans une succession.</div>
+</div>
+
+<!-- S5 78-100 -->
+<div class="scene" data-s="78" data-e="100" style="background:linear-gradient(135deg,#1e3a8a,#0a1f44)">
+ <div class="tag el" data-in="0.2">Depuis 2020</div>
+ <div class="mid el" data-in="0.8" style="left:90px;top:130px;width:1100px">Des explications demandées.<br>Des réponses qui renvoient vers les juridictions.</div>
+ <div class="big el" data-in="7" style="left:90px;top:330px;width:1100px;font-size:58px"><span class="gold">Sensibiliser.</span> Exiger des comptes.</div>
+ <div class="big el" data-in="12" style="left:90px;top:470px;width:1100px;font-size:44px">L'intégrité ne se divise pas.</div>
+</div>
+
+<!-- S6 100-112 -->
+<div class="scene" data-s="100" data-e="112">
+ <div class="big el" data-in="0.4" style="left:0;top:210px;width:1280px;text-align:center;font-size:58px"><span class="gold">wadagni2026-verite.com</span></div>
+ <div class="mid el" data-in="2" style="left:0;top:330px;width:1280px;text-align:center;font-size:32px">Sources et pièces justificatives</div>
+ <div class="mid el" data-in="4" style="left:0;top:420px;width:1280px;text-align:center;font-size:30px;color:#cbd5e1">#JusticePourFeliho</div>
+ <div class="small el" data-in="5" style="left:0;top:500px;width:1280px;text-align:center">Éthique Juridique 2.0 Internationale</div>
+</div>
+
+<div id="sub"></div><div id="bar"></div>
+</div>
+<script>
+const DUR=112;
+// Sous-titres = voix-off (script v2). Même source pour le .vtt.
+const CUES=[
+[0.5,11.5,"Un certificat d'acquit de droit. Un notaire présenté comme mandataire. Un héritier qui affirme ne lui avoir donné aucun mandat."],
+[12.5,23,"Selon le communiqué de la succession du 3 avril 2013, l'administrateur est Me Crinot. Me Balley n'y figure pas."],
+[23.5,34,"Le 20 octobre 2016, un certificat d'acquit de droit est pourtant délivré, Me Balley y agissant en qualité de mandataire de Gilles Féliho."],
+[34.5,41.5,"Celui-ci affirme n'avoir donné aucun mandat. Il conteste aussi la date de décès et l'évaluation des biens."],
+[42.5,50,"Le 22 mai 2025, dans sa décision DCC 25-152, la Cour constitutionnelle est saisie de ces faits. Elle se déclare incompétente."],
+[50.5,57.5,"Elle ne les écarte pas. Elle ne les infirme pas. C'est aux juridictions ordinaires d'en connaître."],
+[58.5,67,"Ce type de situation peut toucher tout héritier éloigné : au Bénin comme dans la diaspora."],
+[67.5,77,"Savoir qui agit en votre nom dans une succession est un droit à exercer."],
+[78.5,90,"Depuis 2020, M. Féliho demande des explications. Les réponses reçues renvoient vers les juridictions."],
+[90.5,99,"Il demande que les faits soient examinés."],
+[100.5,108,"Les pièces sont en ligne : wadagni2026-verite.com"]
+];
+const ease=x=>1-Math.pow(1-x,3), clamp=x=>Math.max(0,Math.min(1,x));
+const scenes=[...document.querySelectorAll('.scene')], sub=document.getElementById('sub'), bar=document.getElementById('bar');
+function seek(t){
+  scenes.forEach(s=>{
+    const a=+s.dataset.s,b=+s.dataset.e, inside=t>=a&&t<b;
+    s.style.opacity=inside?Math.min(clamp((t-a)/.5),clamp((b-t)/.5)):0;
+    if(!inside) return;
+    s.querySelectorAll('.el').forEach(e=>{
+      const p=ease(clamp((t-a-(+e.dataset.in))/.6));
+      e.style.opacity=p; e.style.transform=`translateY(${(1-p)*24}px)`;
+    });
+  });
+  const c=CUES.find(c=>t>=c[0]&&t<c[1]);
+  sub.textContent=c?c[2]:''; sub.style.opacity=c?1:0;
+  bar.style.width=(t/DUR*1280)+'px';
+}
+window.seek=seek; window.CUES=CUES; window.DUR=DUR; seek(0);
+</script></body></html>

@@ -40,3 +40,8 @@ Voix-off : « Les pièces sont en ligne : wadagni2026-verite.com »
 - Flouter les données de tiers sur les pièces affichées.
 - Héberger hors dépôt (CDN / hébergeur vidéo), `preload="none"`, image d'affiche, sous-titres .vtt, balises Open Graph.
 - Corriger de même « Lettre ouverte.pdf » (mention « a confirmé… la réalité des faits »).
+
+## Fichiers produits
+- `video/motion-design.mp4` — 1280×720, 24 i/s, 112 s, sous-titres incrustés, piste audio muette (la voix-off reste à enregistrer : texte = sous-titres de chaque scène).
+- `video/motion-design.fr.vtt` — sous-titres synchronisés.
+- `video/motion.html` + `video/render.js` — source de l'animation et script de rendu (`NODE_PATH=<playwright> node render.js`).
