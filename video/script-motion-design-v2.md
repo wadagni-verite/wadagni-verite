@@ -51,3 +51,6 @@ Le texte des sous-titres/voix-off est désormais dans `video/motion.html` (table
 
 ## Révision v4 (116 s) — pièces vérifiées
 Sources lues : certificat d'acquit de droit du 20/10/2016 (Direction générale des impôts, service de l'enregistrement : décès « dix juin deux mil seize », Me BALLEY « mandataire », 7 immeubles, 138 300 000 FCFA) ; déclaration de décès CNHU-HKM (décès le 3 décembre 2010) ; jugement n° 114/14 du 31/10/2014 (décès le 3 décembre 2010 ; 39 immeubles France et Bénin estimés à 567 990 000 FCFA ; Me BALLEY non mentionné) ; lettre de Me BALLEY du 7/9/2023 (« actes auxquels il n'est pas partie ») ; sommation du 5/9/2024 (certificat « en date du 20 octobre 2016 »). Phrase sur l'Agent judiciaire supprimée.
+
+## Révision v5 (114 s) — pièces complémentaires
+Ajout d'une scène « Les valeurs ne tiennent pas » : lettre AIB du 5/10/2011 (2 tranches de 30 M FCFA de loyer pour 2011, immeuble de Camp Guézo = TF 739, déclaré 65 M dans le certificat) ; titre foncier d'Agla n° 2222 cité au communiqué du 3/4/2013 et absent du certificat (sans lien avec l'écrit manuscrit d'Agla.pdf, qui vise un seul lot) (qui liste les TF 739, 3325, 2601, 786, 123, 158, 1402). L'écrit manuscrit du 12/07/2007 (Agla.pdf) n'est pas chiffré lisiblement : non utilisé à l'écran.
