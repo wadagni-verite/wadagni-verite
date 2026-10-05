@@ -45,3 +45,6 @@ Voix-off : « Les pièces sont en ligne : wadagni2026-verite.com »
 - `video/motion-design.mp4` — 1280×720, 24 i/s, 112 s, sous-titres incrustés, piste audio muette (la voix-off reste à enregistrer : texte = sous-titres de chaque scène).
 - `video/motion-design.fr.vtt` — sous-titres synchronisés.
 - `video/motion.html` + `video/render.js` — source de l'animation et script de rendu (`NODE_PATH=<playwright> node render.js`).
+
+## Révision v3 (116 s) — affirmations fondées sur les pièces
+Le texte des sous-titres/voix-off est désormais dans `video/motion.html` (tableau `CUES`) et reprend la transcription de la page d'accueil. Changements : scène 1 et nouvelle scène « Le certificat contre les pièces officielles » (date de décès 10 juin 2016 / acte de décès 3 décembre 2010 ; mandat jamais donné ni produit, y compris devant la BAC le 19 mars 2025 ; valeurs sans rapport avec le jugement) ; scène 3 : DCC 25-152 incompétente, faits ni écartés ni infirmés, observations de l'État limitées à l'incompétence et aux diligences ; scène 5 : art. 39 CPP.
