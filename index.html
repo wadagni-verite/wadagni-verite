@@ -38,6 +38,11 @@ document.write('<link rel="canonical" href="' + window.location.href.split('?')[
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Romuald Wadagni : L'Épreuve de la Vérité</title>
     <meta name="description" content="Site pour la transparence - Élections Bénin 2026. Découvrez la vérité sur l'affaire de fraude documentaire soumise à la Cour Constitutionnelle.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Romuald Wadagni : L'Épreuve de la Vérité">
+    <meta property="og:image" content="https://wadagni2026-verite.com/video/poster.jpg">
+    <meta property="og:video" content="https://wadagni2026-verite.com/video/motion-design.mp4">
+    <meta property="og:video:type" content="video/mp4">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
@@ -190,6 +195,16 @@ document.write('<link rel="canonical" href="' + window.location.href.split('?')[
         }
 
         /* Introduction */
+        /* Vidéo */
+        .video-section { padding: 50px 20px; background: var(--light-gray); text-align: center; }
+        .video-section h2 { color: var(--navy); font-size: 2rem; margin-bottom: 8px; }
+        .video-section .video-sub { color: var(--gray); margin-bottom: 24px; }
+        .video-wrap { max-width: 900px; margin: 0 auto; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.25); background: #050d1f; }
+        .video-wrap video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; }
+        .video-transcript { max-width: 900px; margin: 20px auto 0; text-align: left; color: #333; }
+        .video-transcript summary { cursor: pointer; font-weight: 600; color: var(--blue); }
+        .video-transcript p { margin-top: 10px; font-size: 0.95rem; }
+        .video-link { display: inline-block; margin-top: 12px; color: var(--blue); font-weight: 600; text-decoration: none; }
         .intro {
             background: white;
             padding: 60px 20px;
@@ -1083,6 +1098,30 @@ document.write('<link rel="canonical" href="' + window.location.href.split('?')[
             <p>Le <strong class="highlight">22 mai 2025</strong>, dans sa décision <strong class="highlight">DCC 25-152</strong>, la Cour Constitutionnelle du Bénin, saisie des faits relatifs à une <strong class="highlight">fraude documentaire</strong> impliquant un certificat d'acquit litigieux délivré le <strong class="highlight">20 octobre 2016</strong>, s'est déclarée incompétente. Elle ne les a ni écartés ni infirmés : il revient aux juridictions ordinaires d'en connaître.</p>
             <p>Depuis <strong>2020</strong>, j'ai porté cette affaire à l'attention de Romuald Wadagni, alors Ministre d'État chargé de l'Économie et des Finances. Malgré des relances répétées et une sommation d'huissier officielle, <strong class="highlight">aucune réponse sérieuse n'a été apportée</strong>.</p>
             <p>Aujourd'hui candidat à la Présidence, Monsieur Wadagni met en avant des valeurs de <strong>transparence, de probité et de bonne gouvernance</strong>. Comment un tel acte frauduleux a-t-il pu être commis ? Pourquoi garder le silence face aux interpellations citoyennes ? Comment garantir que de tels actes ne se reproduiront pas ?</p>
+        </div>
+    </section>
+
+    <section class="video-section" id="video">
+        <div class="container">
+            <h2>🎬 L'affaire en 2 minutes</h2>
+            <p class="video-sub">Les faits, la décision DCC 25-152 et les pièces, en images (sous-titres en français).</p>
+            <div class="video-wrap">
+                <video controls preload="none" playsinline poster="video/poster.jpg" aria-label="Motion design : l'affaire du certificat d'acquit de droit">
+                    <source src="video/motion-design.mp4" type="video/mp4">
+                    <track kind="subtitles" src="video/motion-design.fr.vtt" srclang="fr" label="Français">
+                    Votre navigateur ne lit pas cette vidéo. <a href="video/motion-design.mp4">Télécharger le MP4</a>.
+                </video>
+            </div>
+            <a class="video-link" href="video/motion-design.mp4" download>📥 Télécharger la vidéo</a>
+            <details class="video-transcript">
+                <summary>Lire la transcription</summary>
+                <p>Un certificat d'acquit de droit. Un notaire présenté comme mandataire. Un héritier qui affirme ne lui avoir donné aucun mandat.</p>
+                <p>Selon le communiqué de la succession du 3 avril 2013, l'administrateur est Me Crinot. Me Balley n'y figure pas. Le 20 octobre 2016, un certificat d'acquit de droit est pourtant délivré, Me Balley y agissant en qualité de mandataire de Gilles Féliho. Celui-ci affirme n'avoir donné aucun mandat. Il conteste aussi la date de décès et l'évaluation des biens.</p>
+                <p>Le 22 mai 2025, dans sa décision DCC 25-152, la Cour constitutionnelle est saisie de ces faits. Elle se déclare incompétente. Elle ne les écarte pas. Elle ne les infirme pas. C'est aux juridictions ordinaires d'en connaître.</p>
+                <p>Ce type de situation peut toucher tout héritier éloigné : au Bénin comme dans la diaspora. Savoir qui agit en votre nom dans une succession est un droit à exercer.</p>
+                <p>Depuis 2020, M. Féliho demande des explications. Les réponses reçues renvoient vers les juridictions. Il demande que les faits soient examinés.</p>
+                <p>Les pièces sont en ligne : wadagni2026-verite.com</p>
+            </details>
         </div>
     </section>
 
