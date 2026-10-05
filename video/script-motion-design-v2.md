@@ -48,3 +48,6 @@ Voix-off : « Les pièces sont en ligne : wadagni2026-verite.com »
 
 ## Révision v3 (116 s) — affirmations fondées sur les pièces
 Le texte des sous-titres/voix-off est désormais dans `video/motion.html` (tableau `CUES`) et reprend la transcription de la page d'accueil. Changements : scène 1 et nouvelle scène « Le certificat contre les pièces officielles » (date de décès 10 juin 2016 / acte de décès 3 décembre 2010 ; mandat jamais donné ni produit, y compris devant la BAC le 19 mars 2025 ; valeurs sans rapport avec le jugement) ; scène 3 : DCC 25-152 incompétente, faits ni écartés ni infirmés, observations de l'État limitées à l'incompétence et aux diligences ; scène 5 : art. 39 CPP.
+
+## Révision v4 (116 s) — pièces vérifiées
+Sources lues : certificat d'acquit de droit du 20/10/2016 (Direction générale des impôts, service de l'enregistrement : décès « dix juin deux mil seize », Me BALLEY « mandataire », 7 immeubles, 138 300 000 FCFA) ; déclaration de décès CNHU-HKM (décès le 3 décembre 2010) ; jugement n° 114/14 du 31/10/2014 (décès le 3 décembre 2010 ; 39 immeubles France et Bénin estimés à 567 990 000 FCFA ; Me BALLEY non mentionné) ; lettre de Me BALLEY du 7/9/2023 (« actes auxquels il n'est pas partie ») ; sommation du 5/9/2024 (certificat « en date du 20 octobre 2016 »). Phrase sur l'Agent judiciaire supprimée.
