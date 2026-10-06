@@ -54,3 +54,12 @@ Chaîne éprouvée sur la vidéo « Le certificat contre les pièces officielles
 
 ## Fait à ne pas refaire
 - La page d'accueil a été alignée sur la vidéo (transcription, mention du jugement du 31/10/2014 à la place de « 1000 % », La Nation pour le communiqué). La lettre ouverte (PDF) contient encore l'ancienne formulation sur la Cour constitutionnelle : version corrigée à poser dans le dépôt sur autorisation.
+
+## Plusieurs vidéos : un dossier par vidéo (convention actuelle)
+- `video/<nom>/` contient `motion.html`, `build_voix.py`, `render-voix.js`, `motion-voix.html` (généré), `<nom>-voix.mp4`, `<nom>-voix.fr.vtt`, `poster.jpg`. Exemples : `video/jugement/` (page du jugement 114/14), `video/balley/` (page d'analyse « absence de lien »). Pour une nouvelle vidéo : copier `build_voix.py` et `render-voix.js` d'un dossier existant, remplacer le nom des fichiers de sortie, écrire `motion.html`.
+- **Format des CUES** : `[début, fin, "sous-titre affiché", "texte lu (facultatif)"]`. Écrire **« Maître »** (jamais « Me ») dans le texte lu : `build_voix.py` refuse « Me » dans le texte lu. Dans le sous-titre, « Me » reste affiché.
+- **Sous-titres ≤ 170 caractères par cue** (3 lignes maximum) : au-delà, le sous-titre à 4 lignes remonte sur les cartes et l'image. Découper en plusieurs cues ; les débuts de cues doivent tomber dans la fenêtre `data-s`/`data-e` de leur scène (c'est ce qui rattache cue et scène).
+- **Images de pièces** dans une vidéo : chemin relatif depuis `video/<nom>/` (ex. `../../communique-succession-feliho-2013.png`). Recadrer l'image sur la zone utile (conteneur `overflow:hidden` + `<img>` positionnée) et surligner par des cadres `.el` ; un scan basse résolution reste peu lisible, donc doubler par une carte de texte avec la citation.
+- **Intégration dans une page d'analyse** : `<section class="video-block container" id="video">` juste après le `</header>` (ou avant `<main>`), CSS `.video-block` dans le `<style>` de la page, lecteur `<video controls preload="none" playsinline poster=…>`, `<track kind="subtitles">` non défaut, lien de téléchargement, `<details>` avec la transcription (sous-titres regroupés par scène), balises `og:video` / `og:video:type`.
+- **Rendu d'images de contrôle sans voix** : depuis `video/<nom>/`, `ONLY=7,30,62 NODE_PATH=… node ../render.js` (écrit `still-*.png` et `motion-design.fr.vtt` dans le dossier : les supprimer).
+- Me Crinot est décédé : ne pas proposer « entendre Me Crinot » ; la page d'analyse le recommande encore, ne pas le reprendre dans les vidéos.
