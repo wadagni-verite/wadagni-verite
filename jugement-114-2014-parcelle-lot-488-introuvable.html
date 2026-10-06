@@ -613,6 +613,12 @@
         table.contrad th { background: var(--navy); color: #fff; text-align: left; padding: 10px 12px; font-size: 0.8rem; }
         table.contrad td { vertical-align: top; padding: 10px 12px; border-top: 1px solid #e5e7eb; background: #fff; }
         table.contrad td:first-child { width: 14%; }
+        .alerte { display: inline-block; margin-top: 8px; background: #fee2e2; color: #991b1b; border-left: 4px solid var(--red); border-radius: 0 6px 6px 0; padding: 6px 10px; font-weight: 600; }
+        .alerte a { color: #7f1d1d; }
+        .loi-penale { background: #fff5f5; border: 3px solid var(--red); border-radius: 14px; padding: 28px 32px; margin: 10px 0 40px; box-shadow: 0 6px 24px rgba(220,38,38,0.15); }
+        .loi-penale .loi-label { display: block; font-size: 0.8rem; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; color: var(--red); margin-bottom: 14px; }
+        .loi-penale blockquote { font-family: 'Merriweather', serif; font-size: 1.15rem; line-height: 1.8; color: var(--navy); font-style: italic; }
+        @media (max-width: 768px) { .loi-penale { padding: 20px; } .loi-penale blockquote { font-size: 1rem; } }
         .note-prudence { font-size: 0.88rem; color: var(--gray); border-top: 1px solid #e5e7eb; margin-top: 40px; padding-top: 18px; }
     </style>
 </head>
@@ -743,7 +749,7 @@
                         <tr>
                             <td><strong>Où est l'original ?</strong></td>
                             <td>Le président du tribunal écrit : « nous avons ordonné son <strong>retour au Notaire</strong> pour être déposé au rang de ses minutes » (<a href="pieces/pv-lecture-testament-2012-p3.pdf" target="_blank" rel="noopener">PV, p. 3</a>).</td>
-                            <td>La notaire indique que l'original a été <strong>repris le 8 mai 2012 par Lise Féliho épouse Ainadou et par Albin Féliho</strong>, décharges manuscrites à l'appui (<a href="pieces/courriel-etude-adjagba-p2.pdf" target="_blank" rel="noopener">courriel, p. 2</a> et <a href="pieces/courriel-etude-adjagba-p3.pdf" target="_blank" rel="noopener">p. 3</a>). Selon les héritiers, il aurait été « remis à Maître Lazare Crinot » (<a href="pieces/jugement-2014-p3-crinot-testament.pdf" target="_blank" rel="noopener">jugement, p. 3</a>). Parmi les pièces publiées ici, aucune ne mentionne la copie certifiée conforme prévue par l'article 81.</td>
+                            <td>La notaire indique que l'original a été <strong>repris le 8 mai 2012 par Lise Féliho épouse Ainadou et par Albin Féliho</strong>, décharges manuscrites à l'appui (<a href="pieces/courriel-etude-adjagba-p2.pdf" target="_blank" rel="noopener">courriel, p. 2</a> et <a href="pieces/courriel-etude-adjagba-p3.pdf" target="_blank" rel="noopener">p. 3</a>). Selon les héritiers, il aurait été « remis à Maître Lazare Crinot » (<a href="pieces/jugement-2014-p3-crinot-testament.pdf" target="_blank" rel="noopener">jugement, p. 3</a>). <span class="alerte">Or Maître Crinot n'a été nommé administrateur que par l'arrêt n° 28/12 du <strong>30 août 2012</strong> (<a href="communique-succession-feliho-2013.png" target="_blank" rel="noopener">communiqué publié dans La Nation, 3 avril 2013</a> ; <a href="pieces/jugement-2014-p3-crinot-testament.pdf" target="_blank" rel="noopener">jugement, p. 3</a>), soit <strong>plus de quatre mois après le retrait du testament</strong>, le 24 avril 2012.</span> Parmi les pièces publiées ici, aucune ne mentionne la copie certifiée conforme prévue par l'article 81.</td>
                         </tr>
                         <tr>
                             <td><strong>D'où vient le testament ?</strong></td>
@@ -832,6 +838,15 @@
                 <strong>dont Gilles Féliho est propriétaire</strong>.
                 <a class="piece-link" href="pieces/lettre-notaire-gangnito-a-me-fade-2007-09-19.pdf" target="_blank" rel="noopener">📄 Lire la lettre</a>
             </p>
+        </section>
+
+        <section class="chapter" id="article-303">
+            <aside class="loi-penale" aria-label="Article 303 du code pénal béninois">
+                <span class="loi-label">Sur les dispositions de l'article 303 du code pénal béninois</span>
+                <blockquote>
+                    « Est puni de la réclusion criminelle à perpétuité tout fonctionnaire ou officier public qui, en rédigeant des actes de son ministère, en a frauduleusement dénaturé la substance ou les circonstances, soit en écrivant des conventions autres que celles qui auraient été tracées ou dictées par les parties, soit en constatant comme vrais des faits faux ou comme avérés des faits qui ne l'étaient pas. »
+                </blockquote>
+            </aside>
         </section>
 
         <section class="chapter" id="conflit-interets">
