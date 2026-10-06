@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><title>Motion design — wadagni2026-verite.com</title>
+<style>
+:root{--navy:#0a1f44;--blue:#1e3a8a;--gold:#d4af37;--red:#dc2626;--green:#059669;--ink:#f8fafc;--mute:#94a3b8}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1280px;height:720px;overflow:hidden;background:#050d1f;font-family:'DejaVu Sans','Inter',sans-serif;color:var(--ink)}
+#stage{position:relative;width:1280px;height:720px;background:radial-gradient(ellipse at 30% 20%,#12306b 0%,#0a1f44 45%,#050d1f 100%)}
+.scene{position:absolute;inset:0;opacity:0}
+.el{position:absolute;opacity:0}
+.big{font-size:64px;font-weight:800;line-height:1.15}
+.mid{font-size:40px;font-weight:700;line-height:1.25}
+.small{font-size:24px;color:var(--mute)}
+.gold{color:var(--gold)}.red{color:var(--red)}.green{color:var(--green)}
+.card{font-size:27px;line-height:1.35;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.18);border-radius:16px;padding:22px 26px}
+.doc{background:#f4f1e8;color:#222;border-radius:6px;box-shadow:0 20px 60px rgba(0,0,0,.6)}
+.bar{background:#2b2b2b;height:16px;border-radius:2px;margin:12px 0}
+.hl{background:rgba(220,38,38,.22);outline:3px solid var(--red);padding:8px 10px;border-radius:4px;font-size:20px;font-weight:700}
+#sub{position:absolute;left:90px;right:90px;bottom:34px;text-align:center;font-size:27px;line-height:1.35;background:rgba(0,0,0,.55);padding:10px 20px;border-radius:10px;opacity:0}
+#bar{position:absolute;left:0;bottom:0;height:5px;background:var(--gold)}
+.tag{position:absolute;left:60px;top:34px;font-size:20px;color:var(--gold);letter-spacing:.12em;text-transform:uppercase}
+</style></head><body><div id="stage">
+
+<!-- S1 0-10 : accroche -->
+<div class="scene" data-s="0" data-e="10">
+ <div class="tag el" data-in="0.2">Jugement n° 114/14 · Tribunal de Cotonou · 31 octobre 2014</div>
+ <div class="big el" data-in="0.8" style="left:90px;top:130px;width:1100px;font-size:46px">Le tribunal constate que Gilles FÉLIHO <span class="gold">a disposé d'une parcelle</span>.</div>
+ <div class="big el" data-in="3.4" style="left:90px;top:290px;width:1100px;font-size:50px">Cette parcelle est <span class="red">introuvable</span>.</div>
+ <div class="mid el" data-in="6" style="left:90px;top:420px;width:1100px;font-size:36px">Et l'avocat qui plaidait contre lui avait été <span class="gold">son mandataire</span>.</div>
+</div>
+
+<!-- S2 10-28 : le jugement -->
+<div class="scene" data-s="10" data-e="28">
+ <div class="tag el" data-in="0.2">Le jugement</div>
+ <div class="el card" data-in="0.6" style="left:90px;top:90px;width:1100px;font-size:24px"><span class="gold" style="font-weight:800">31 oct. 2014</span> — Jugement n° 114/14/3ème CH-EP, Tribunal de première instance de première classe de Cotonou<br><b>Présidente : <span class="gold">Olivia Aubierge HUNGBO KPLOCA</span></b></div>
+ <div class="el card" data-in="5.5" style="left:90px;top:205px;width:1100px;font-size:24px">Selon les autres héritiers, Gilles FÉLIHO a commencé à exécuter le testament <b>« en vendant la parcelle bâtie du lot 488 »</b> <span style="color:#94a3b8">(jugement, p. 4)</span></div>
+ <div class="doc el" data-in="10" style="left:90px;top:350px;width:560px;padding:0;overflow:hidden"><img src="img/dispositif.jpg" style="display:block;width:560px"></div>
+ <div class="small el" data-in="10.4" style="left:90px;top:480px;width:560px;font-size:18px">Dispositif du jugement, p. 8</div>
+ <div class="mid el" data-in="11.5" style="left:690px;top:350px;width:500px;font-size:27px">Le tribunal <span class="red">« constate »</span> qu'il a exécuté le testament, et déclare sa demande d'annulation <span class="gold">irrecevable</span>.</div>
+</div>
+
+<!-- S3 28-46 : le bien -->
+<div class="scene" data-s="28" data-e="46">
+ <div class="tag el" data-in="0.2">Le bien · parcelle B du lot 488, Gbégamey</div>
+ <div class="el card" data-in="0.5" style="left:90px;top:80px;width:1100px;font-size:22px">Procès-verbal de compulsion · huissier <b>Me Marin Jean D. C. GOUNADON</b> · <span class="gold">19 et 21 décembre 2017</span> · à la demande de Gilles FÉLIHO</div>
+ <div class="doc el" data-in="4" style="left:90px;top:185px;width:520px;padding:0;overflow:hidden"><img src="img/mairie.jpg" style="display:block;width:520px"></div>
+ <div class="el" data-in="4.4" style="left:90px;top:325px;width:520px;font-size:21px"><b class="gold">Mairie de Cotonou</b> · 23 février 2018<br>Superficie : <span class="red" style="font-weight:800">« néant »</span></div>
+ <div class="doc el" data-in="9.5" style="left:670px;top:185px;width:520px;padding:0;overflow:hidden"><img src="img/ign.jpg" style="display:block;width:520px"></div>
+ <div class="el" data-in="9.9" style="left:670px;top:325px;width:520px;font-size:21px"><b class="gold">Institut Géographique National</b><br><span class="red" style="font-weight:800">« ne dispose d'aucun document »</span> afférent à la parcelle B du lot 488</div>
+ <div class="big el" data-in="13" style="left:90px;top:440px;width:1100px;font-size:40px">Aucune trace du bien <span class="red">dans les deux institutions interrogées</span>.</div>
+</div>
+
+<!-- S4 46-66 : l'acte -->
+<div class="scene" data-s="46" data-e="66">
+ <div class="tag el" data-in="0.2">L'acte de disposition</div>
+ <div class="el card" data-in="0.5" style="left:90px;top:90px;width:470px;font-size:24px"><b>Le jugement ne cite :</b>
+  <div class="el" data-in="1.5" style="position:relative;opacity:0;margin-top:6px"><span class="red">✗</span> aucun acte de vente</div>
+  <div class="el" data-in="2.3" style="position:relative;opacity:0"><span class="red">✗</span> aucun notaire</div>
+  <div class="el" data-in="3.1" style="position:relative;opacity:0"><span class="red">✗</span> aucun acquéreur</div>
+  <div class="el" data-in="3.9" style="position:relative;opacity:0"><span class="red">✗</span> aucune date</div>
+  <div class="el" data-in="4.7" style="position:relative;opacity:0"><span class="red">✗</span> aucun prix de vente</div></div>
+ <div class="doc el" data-in="9" style="left:600px;top:90px;width:590px;padding:0;overflow:hidden"><img src="img/lettre-2007.jpg" style="display:block;width:590px"></div>
+ <div class="el" data-in="9.4" style="left:600px;top:260px;width:590px;font-size:20px"><b class="gold">Lettre de la notaire Denise EHOUZOU GANGNITO · 19 septembre 2007</b><br>Parcelle « B » du <b>lot 923</b>, Cotonou Gbégamey, au profit de Gilles Sixte FÉLIHO, dont il est propriétaire</div>
+ <div class="mid el" data-in="12.5" style="left:90px;top:430px;width:1100px;font-size:32px">La seule pièce sur un terrain de Gbégamey date de 2007, <span class="gold">avant le décès</span> (3 décembre 2010).</div>
+</div>
+
+<!-- S5 66-84 : conflit d'intérêts -->
+<div class="scene" data-s="66" data-e="84">
+ <div class="tag el" data-in="0.2">Le conflit d'intérêts de Me Victorien FADE</div>
+ <div class="el" data-in="0.4" style="left:90px;top:85px;width:1100px;display:flex;gap:30px;font-size:23px;font-weight:800"><div style="flex:1;color:var(--gold)">2007 · SON MANDATAIRE</div><div style="flex:1;color:var(--red)">2014 · SON ADVERSAIRE</div></div>
+ <div class="el card" data-in="1" style="left:90px;top:125px;width:530px;font-size:23px">La notaire écrit à <b>Me Victorien FADE</b>, « dont vous êtes le mandataire » : adjudication au profit de Gilles Sixte FÉLIHO <span style="color:#94a3b8">(lettre du 19/09/2007)</span></div>
+ <div class="el card" data-in="7" style="left:660px;top:125px;width:530px;font-size:23px">Le même <b>Me Victorien Olatoundji FADE</b> assiste les héritiers et Me CRINOT, <b>contre Gilles FÉLIHO</b> <span style="color:#94a3b8">(jugement du 31/10/2014, p. 1)</span></div>
+ <div class="doc el" data-in="8" style="left:660px;top:330px;width:530px;padding:0;overflow:hidden"><img src="img/fade-2014.jpg" style="display:block;width:530px"></div>
+ <div class="big el" data-in="11" style="left:90px;top:330px;width:540px;font-size:44px">Un avocat contre son ancien mandant :<br><span class="red">conflit d'intérêts</span>.</div>
+</div>
+
+<!-- S6 84-96 : conclusion -->
+<div class="scene" data-s="84" data-e="96" style="background:linear-gradient(135deg,#3b0a0a 0%,#0a1f44 70%)">
+ <div class="big el" data-in="0.4" style="left:90px;top:50px;width:1100px;font-size:42px">Une juge : <span class="gold">Olivia Hungbo Kploca</span>.</div>
+ <div class="big el" data-in="1.8" style="left:90px;top:125px;width:1100px;font-size:42px">Un terrain <span class="red">introuvable</span>.</div>
+ <div class="big el" data-in="3.2" style="left:90px;top:200px;width:1100px;font-size:42px">Un acte de vente <span class="red">jamais produit</span>.</div>
+ <div class="big el" data-in="4.6" style="left:90px;top:275px;width:1100px;font-size:42px">Un avocat en <span class="red">conflit d'intérêts</span>.</div>
+ <div class="big el" data-in="6.6" style="left:0;top:385px;width:1280px;text-align:center;font-size:48px"><span class="gold">Sensibiliser.</span> Exiger des comptes.</div>
+ <div class="big el" data-in="7.6" style="left:0;top:465px;width:1280px;text-align:center;font-size:42px"><span class="gold">wadagni2026-verite.com</span></div>
+</div>
+
+<div id="sub"></div><div id="bar"></div>
+</div>
+<script>
+const DUR=96;
+// CUES = [début, fin, sous-titre, (texte lu par la voix si différent)]
+const CUES=[
+[0.5,9.5,"Un jugement du Tribunal de Cotonou constate que Gilles Féliho a disposé d'une parcelle. Mais cette parcelle est introuvable : ni la Mairie ni l'IGN n'en ont trace. Et l'avocat qui plaidait contre lui avait été son mandataire.","Un jugement du Tribunal de Cotonou constate que Gilles Féliho a disposé d'une parcelle. Mais cette parcelle est introuvable : ni la Mairie ni l'I G N n'en ont trace. Et l'avocat qui plaidait contre lui avait été son mandataire."],
+[10.5,16,"Jugement n° 114/14 du 31 octobre 2014, 3ème chambre du Tribunal de Cotonou, présidée par la juge Olivia Aubierge Hungbo Kploca.","Jugement numéro cent quatorze barre quatorze du 31 octobre 2014, troisième chambre du Tribunal de Cotonou, présidée par la juge Olivia Aubierge Hungbo Kploca."],
+[16.5,27,"Les autres héritiers affirment que Gilles Féliho a commencé à exécuter le testament en vendant la parcelle bâtie du lot 488. Le tribunal constate qu'il a exécuté les dispositions testamentaires de manière volontaire, et déclare sa demande d'annulation irrecevable.","Les autres héritiers affirment que Gilles Féliho a commencé à exécuter le testament en vendant la parcelle bâtie du lot quatre cent quatre-vingt-huit. Le tribunal constate qu'il a exécuté les dispositions testamentaires de manière volontaire, et déclare sa demande d'annulation irrecevable."],
+[28.5,37,"Le 19 puis le 21 décembre 2017, l'huissier Marin Jean Gounadon interroge, à la demande de Gilles Féliho, la Mairie de Cotonou et l'Institut Géographique National sur la parcelle B du lot 488 de Gbégamey.","Le 19 puis le 21 décembre 2017, l'huissier Marin Jean Gounadon interroge, à la demande de Gilles Féliho, la Mairie de Cotonou et l'Institut Géographique National sur la parcelle B du lot quatre cent quatre-vingt-huit de Gbégamey."],
+[37.5,45,"La Mairie, le 23 février 2018 : superficie, néant. L'IGN : elle ne dispose d'aucun document afférent à cette parcelle.","La Mairie, le 23 février 2018 : superficie, néant. L'I G N : elle ne dispose d'aucun document afférent à cette parcelle."],
+[46.5,55,"Quel acte de disposition ? Le jugement ne cite ni acte de vente, ni notaire, ni acquéreur, ni date, ni prix de vente."],
+[55.5,65,"La seule pièce du dossier sur un terrain de Gbégamey date de 2007, avant le décès de Jean Florentin Féliho. C'est la lettre du 19 septembre 2007 de la notaire Denise Ehouzou Gangnito : elle vise la parcelle B du lot 923, dont Gilles Féliho est propriétaire.","La seule pièce du dossier sur un terrain de Gbégamey date de 2007, avant le décès de Jean Florentin Féliho. C'est la lettre du 19 septembre 2007 de la notaire Denise Ehouzou Gangnito : elle vise la parcelle B du lot neuf cent vingt-trois, dont Gilles Féliho est propriétaire."],
+[66.5,73,"Cette lettre est adressée à Maître Victorien Fade, que la notaire désigne comme le mandataire de Gilles Féliho."],
+[73.5,83,"En 2014, le même Maître Victorien Olatoundji Fade figure en tête du jugement comme avocat des autres héritiers, contre Gilles Féliho. Un avocat qui plaide contre son ancien mandant : un conflit d'intérêts."],
+[84.5,95,"Une juge. Un terrain introuvable. Un acte de vente jamais produit. Un avocat en conflit d'intérêts. Sensibiliser. Exiger des comptes. Les pièces sont en ligne : wadagni2026-verite.com"]
+];
+const ease=x=>1-Math.pow(1-x,3), clamp=x=>Math.max(0,Math.min(1,x));
+const scenes=[...document.querySelectorAll('.scene')], sub=document.getElementById('sub'), bar=document.getElementById('bar');
+function seek(t){
+  scenes.forEach(s=>{
+    const a=+s.dataset.s,b=+s.dataset.e, inside=t>=a&&t<b;
+    s.style.opacity=inside?Math.min(clamp((t-a)/.5),clamp((b-t)/.5)):0;
+    if(!inside) return;
+    s.querySelectorAll('.el').forEach(e=>{
+      const p=ease(clamp((t-a-(+e.dataset.in))/.6));
+      e.style.opacity=p; e.style.transform=`translateY(${(1-p)*24}px)`;
+    });
+  });
+  const c=CUES.find(c=>t>=c[0]&&t<c[1]);
+  sub.textContent=c?c[2]:''; sub.style.opacity=c?1:0;
+  bar.style.width=(t/DUR*1280)+'px';
+}
+window.seek=seek; window.CUES=CUES; window.DUR=DUR; seek(0);
+</script></body></html>
