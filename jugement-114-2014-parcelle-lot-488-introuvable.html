@@ -604,6 +604,15 @@
         .video-block details { margin-top: 14px; }
         .video-block summary { cursor: pointer; font-weight: 600; color: var(--blue); }
         .video-block details p { margin-top: 10px; font-size: 0.95rem; }
+        details.curieux { background: #f8fafc; border: 1px solid #e5e7eb; border-left: 5px solid var(--gold); border-radius: 0 10px 10px 0; padding: 14px 20px; margin: 18px 0; }
+        details.curieux summary { cursor: pointer; font-weight: 600; color: var(--blue); }
+        details.curieux p, details.curieux ul { margin-top: 12px; font-size: 0.95rem; }
+        details.curieux ul { padding-left: 22px; }
+        details.curieux li { margin-bottom: 8px; }
+        table.contrad { width: 100%; border-collapse: collapse; font-size: 0.88rem; min-width: 640px; }
+        table.contrad th { background: var(--navy); color: #fff; text-align: left; padding: 10px 12px; font-size: 0.8rem; }
+        table.contrad td { vertical-align: top; padding: 10px 12px; border-top: 1px solid #e5e7eb; background: #fff; }
+        table.contrad td:first-child { width: 14%; }
         .note-prudence { font-size: 0.88rem; color: var(--gray); border-top: 1px solid #e5e7eb; margin-top: 40px; padding-top: 18px; }
     </style>
 </head>
@@ -701,7 +710,74 @@
             <h2>Ce que le jugement retient</h2>
             <p>
                 Le 31 octobre 2014, le Tribunal de Cotonou statue sur la succession de Jean Florentin Féliho (décédé le
-                3 décembre 2010). Gilles Féliho demandait l'annulation du testament olographe. Les autres héritiers
+                3 décembre 2010). Gilles Féliho demandait l'annulation du testament olographe.
+            </p>
+            <details class="curieux">
+                <summary>Pour les plus curieux : le fondement de la demande d'annulation et les contradictions entre les pièces</summary>
+                <p><strong>a) Les textes invoqués par Gilles Féliho</strong> — loi n° 2002-015 du 30 décembre 2002 portant statut du notariat en République du Bénin (<a href="pieces/loi-2002-015-statut-du-notariat.pdf" target="_blank" rel="noopener">texte intégral</a>) :</p>
+                <ul>
+                    <li><strong>Article 75</strong> (<a href="pieces/loi-2002-015-art-75.pdf" target="_blank" rel="noopener">page 11</a>) : « Tout acte fait en contravention aux dispositions des articles 52, 55, 56, 59, 62, 63 et 74 ci-dessus et 81, 83 ci-après de la présente loi, est nul s'il n'est revêtu de la signature de toutes les parties. »</li>
+                    <li><strong>Article 81</strong> (<a href="pieces/loi-2002-015-art-81.pdf" target="_blank" rel="noopener">page 12</a>) : « Les notaires ne peuvent se dessaisir d'aucune minute sauf dans les cas prévus par la loi ou en vertu d'un jugement. Avant de s'en dessaisir, ils en dressent et signent une copie sur laquelle il est fait mention de sa conformité avec l'original par le président du tribunal de première instance du lieu de leur établissement. Cette copie est substituée à la minute. Elle en tient lieu jusqu'à sa réintégration. »</li>
+                </ul>
+                <p><strong>b) Les pièces</strong> :</p>
+                <ul>
+                    <li>le <a href="pieces/courriel-etude-adjagba-testament-2013-11-21.pdf" target="_blank" rel="noopener">courriel de l'étude de Maître Irène Adjagba Ichola à Gilles Féliho, du 21 novembre 2013</a> (3 pages, avec deux décharges manuscrites) ;</li>
+                    <li>le <a href="pieces/pv-lecture-testament-2012.pdf" target="_blank" rel="noopener">procès-verbal n° 010/2011 de lecture du testament olographe</a>, Tribunal de Cotonou, 24 avril, 8 et 22 mai 2012 (5 pages).</li>
+                    <li>la <a href="pieces/lettre-gilles-feliho-2012-05-05-et-annexes.pdf" target="_blank" rel="noopener">lettre de Gilles Féliho à Maître Djogbénou du 5 mai 2012, avec ses annexes</a> (13 pages) : convocation du 20 mars 2012, compte rendu de l'audience du 24 avril 2012 par son conseil, et courriels échangés entre cohéritiers en février 2011.</li>
+                </ul>
+                <p><strong>c) Les contradictions entre ces pièces et le jugement</strong> : chaque citation renvoie à la page du document dont elle est tirée. Cliquez pour la vérifier.</p>
+                <div class="table-wrap">
+                <table class="contrad">
+                    <thead><tr><th>Point</th><th>Ce que disent les uns</th><th>Ce que dit la pièce qui contredit</th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Ouverture ou lecture ?</strong></td>
+                            <td>La notaire écrit : « Après son <em>ouverture</em> par le Tribunal de Première Instance de Cotonou le 24 avril 2012 » (<a href="pieces/courriel-etude-adjagba-p1.pdf" target="_blank" rel="noopener">courriel, p. 1</a>). Selon le compte rendu de l'audience du 24 avril 2012 par le conseil de Gilles Féliho, il avait été annoncé qu'il s'agissait d'« une audience d'ouverture de testament » (<a href="pieces/annexes-2012-p3.pdf" target="_blank" rel="noopener">p. 3</a> de la lettre du 5 mai 2012). La requête du 30 janvier 2012, déposée par Maître Victorien O. Fade, visait des fins « d'<em>ouverture</em> et de lecture du testament » (<a href="pieces/pv-lecture-testament-2012-p1.pdf" target="_blank" rel="noopener">PV, p. 1</a>).</td>
+                            <td>Le PV du tribunal est formel : « Il s'agit d'une <strong>lecture</strong> de testament et <strong>non d'une ouverture</strong> » (<a href="pieces/pv-lecture-testament-2012-p2.pdf" target="_blank" rel="noopener">PV, p. 2</a>). Le jugement parle de « sa lecture par le juge » (<a href="pieces/jugement-2014-p3-crinot-testament.pdf" target="_blank" rel="noopener">jugement, p. 3</a>).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Date du procès-verbal</strong></td>
+                            <td>L'en-tête du PV porte « PV n° 010/<strong>2011</strong> du <strong>21 avril 2011</strong> » (<a href="pieces/pv-lecture-testament-2012-p1.pdf" target="_blank" rel="noopener">PV, p. 1</a>).</td>
+                            <td>Le corps du même PV est daté « l'an deux mil douze » : 24 avril, 8 et 22 mai, et vise une requête du 30 janvier 2012. Le jugement dit qu'il a été dressé « le <strong>21 avril 2012</strong> », soit avant la lecture du 24 avril (<a href="pieces/jugement-2014-p3-crinot-testament.pdf" target="_blank" rel="noopener">jugement, p. 3</a>), puis le date des « 24 avril, 08 et 22 mai 2012 » (<a href="pieces/jugement-2014-p5-lecture-pv.pdf" target="_blank" rel="noopener">p. 5</a>).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Où est l'original ?</strong></td>
+                            <td>Le président du tribunal écrit : « nous avons ordonné son <strong>retour au Notaire</strong> pour être déposé au rang de ses minutes » (<a href="pieces/pv-lecture-testament-2012-p3.pdf" target="_blank" rel="noopener">PV, p. 3</a>).</td>
+                            <td>La notaire indique que l'original a été <strong>repris le 8 mai 2012 par Lise Féliho épouse Ainadou et par Albin Féliho</strong>, décharges manuscrites à l'appui (<a href="pieces/courriel-etude-adjagba-p2.pdf" target="_blank" rel="noopener">courriel, p. 2</a> et <a href="pieces/courriel-etude-adjagba-p3.pdf" target="_blank" rel="noopener">p. 3</a>). Selon les héritiers, il aurait été « remis à Maître Lazare Crinot » (<a href="pieces/jugement-2014-p3-crinot-testament.pdf" target="_blank" rel="noopener">jugement, p. 3</a>). Parmi les pièces publiées ici, aucune ne mentionne la copie certifiée conforme prévue par l'article 81.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>D'où vient le testament ?</strong></td>
+                            <td>Février 2011, courriels entre cohéritiers (<a href="pieces/lettre-gilles-feliho-2012-05-05-et-annexes.pdf" target="_blank" rel="noopener">annexes de la lettre du 5 mai 2012</a>) : Albin Féliho viendra avec « le dernier testament manuscrit que détient maman » (<a href="pieces/annexes-2012-p7.pdf" target="_blank" rel="noopener">p. 7</a>). Florentin Lin Feliho : Albin, Lise et leur mère ont essayé de joindre tous les notaires du Bénin, et « il semblerait, qu'aucun notaire ne soit en possession du testament de Papa » (<a href="pieces/annexes-2012-p8.pdf" target="_blank" rel="noopener">p. 8</a>) ; puis « le testament a été <strong>trouvé dans les affaires de papa</strong> » (<a href="pieces/annexes-2012-p10.pdf" target="_blank" rel="noopener">p. 10</a>). Honorine Feliho écrit à Gilles : « J'ai fait envoyer le testament à chacun » (<a href="pieces/annexes-2012-p12.pdf" target="_blank" rel="noopener">p. 12</a>).</td>
+                            <td>Le 24 avril 2012, Albin et Lise Féliho déclarent au tribunal que le testament était « laissé en dépôt chez Maître Irène ICHOLLA ADJAGBA et n'a été retiré que ce jour pour les besoins de la cause » (<a href="pieces/pv-lecture-testament-2012-p2.pdf" target="_blank" rel="noopener">PV, p. 2</a>). La notaire écrit que le défunt « m'a effectivement remis de son vivant, son testament olographe pour sa conservation » (<a href="pieces/courriel-etude-adjagba-p1.pdf" target="_blank" rel="noopener">courriel, p. 1</a>).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Qui a remis l'original, et à qui ?</strong></td>
+                            <td>Le PV écrit : « nous avons ordonné son retour au Notaire » (<a href="pieces/pv-lecture-testament-2012-p3.pdf" target="_blank" rel="noopener">PV, p. 3</a>).</td>
+                            <td>Selon le compte rendu du conseil de Gilles Féliho, le juge « l'a ensuite remis aux héritiers Lise et Albin Feliho pour retour au notaire », malgré l'opposition de Maître Djogbénou, qui demandait sa conservation au greffe (<a href="pieces/annexes-2012-p3.pdf" target="_blank" rel="noopener">compte rendu, p. 3</a>).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Le testament paraphé par le juge</strong></td>
+                            <td>Le juge a « coté et paraphé le document testamentaire » (<a href="pieces/pv-lecture-testament-2012-p3.pdf" target="_blank" rel="noopener">PV, p. 3</a>) ; « Le juge a paraphé le testament » (<a href="pieces/annexes-2012-p3.pdf" target="_blank" rel="noopener">compte rendu, p. 3</a>).</td>
+                            <td><strong>Cet exemplaire paraphé n'a jamais été produit.</strong> Le 5 mai 2012, Gilles Féliho écrivait à son conseil qu'il n'avait pas « pu y avoir accès » (<a href="pieces/annexes-2012-p5.pdf" target="_blank" rel="noopener">lettre, p. 1</a>).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Date du testament</strong></td>
+                            <td>Le jugement parle d'un « testament olographe incomplet en date du <strong>16 juillet 2009</strong> » (<a href="pieces/jugement-2014-p2-testament-dates.pdf" target="_blank" rel="noopener">jugement, p. 2</a>).</td>
+                            <td>Sur la même page, la demande d'annulation vise le testament « en date du <strong>19 juillet 2009</strong> », date reprise page 5 (<a href="pieces/jugement-2014-p5-lecture-pv.pdf" target="_blank" rel="noopener">jugement, p. 5</a>) et dans le dispositif (<a href="pieces/jugement-2014-p8-dispositif.pdf" target="_blank" rel="noopener">p. 8</a>).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Contestation possible, puis irrecevable</strong></td>
+                            <td>Le tribunal répond en 2012 que les contestations « pourront à tout moment être soulevées par d'autres voies appropriées » (<a href="pieces/pv-lecture-testament-2012-p4.pdf" target="_blank" rel="noopener">PV, p. 4</a>).</td>
+                            <td>En 2014, la demande d'annulation est déclarée irrecevable, au motif que Gilles Féliho aurait exécuté volontairement le testament (<a href="pieces/jugement-2014-p8-dispositif.pdf" target="_blank" rel="noopener">jugement, p. 8</a>).</td>
+                        </tr>
+                    </tbody>
+                </table>
+                </div>
+                <p><strong>En résumé :</strong> ces pièces ne concordent ni sur l'origine du testament, ni sur la nature de l'acte (ouverture ou lecture), ni sur sa date, ni sur le sort de l'original du testament. Surtout, <strong>ces pièces établissent clairement que l'article 81 a été violé</strong> : la notaire reconnaît elle-même que l'original du testament a été repris le 8 mai 2012 par deux héritiers, Lise Féliho épouse Ainadou et Albin Féliho (décharges manuscrites), alors que le tribunal avait ordonné son retour au notaire pour dépôt au rang de ses minutes. Aucun jugement ne l'autorisait à s'en dessaisir au profit d'héritiers, et aucune copie certifiée conforme par le président du tribunal, substituée à la minute comme l'exige l'article 81, n'est produite. Selon l'article 75, un acte fait en contravention à l'article 81 est nul s'il n'est pas revêtu de la signature de toutes les parties.</p>
+                <p>À noter : la requête de janvier 2012 aux fins de lecture du testament est présentée par Maître Victorien O. Fade, conseil de Florentin Lin Eudes Féliho, le même avocat que celui qui assiste les héritiers contre Gilles Féliho en 2014.</p>
+            </details>
+            <p>
+                Les autres héritiers
                 répondent qu'il a lui-même commencé à l'exécuter « en vendant la parcelle bâtie du lot 488 de Cotonou »
                 (<a href="pieces/jugement-2014-p4-p5-vente-lot-488.pdf" target="_blank" rel="noopener">pages 4 et 5</a>).
             </p>
@@ -793,6 +869,9 @@
                     <ul>
                         <li><a href="pieces/pv-compulsion-parcelle-b-lot-488-2017-12.pdf" target="_blank" rel="noopener">Procès-verbal de compulsion (Mairie de Cotonou, IGN)</a></li>
                         <li><a href="pieces/lettre-notaire-gangnito-a-me-fade-2007-09-19.pdf" target="_blank" rel="noopener">Lettre du notaire à Me Fade, 19 septembre 2007</a></li>
+                        <li><a href="pieces/courriel-etude-adjagba-testament-2013-11-21.pdf" target="_blank" rel="noopener">Courriel de l'étude de Maître Adjagba Ichola sur le testament, 21 novembre 2013</a></li>
+                        <li><a href="pieces/pv-lecture-testament-2012.pdf" target="_blank" rel="noopener">Procès-verbal de lecture du testament, 24 avril, 8 et 22 mai 2012</a></li>
+                        <li><a href="pieces/lettre-gilles-feliho-2012-05-05-et-annexes.pdf" target="_blank" rel="noopener">Lettre du 5 mai 2012 de Gilles Féliho à son conseil, avec compte rendu d'audience et courriels de février 2011</a></li>
                     </ul>
                 </div>
             </div>
