@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><title>Motion design — wadagni2026-verite.com</title>
+<style>
+:root{--navy:#0a1f44;--blue:#1e3a8a;--gold:#d4af37;--red:#dc2626;--green:#059669;--ink:#f8fafc;--mute:#94a3b8}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1280px;height:720px;overflow:hidden;background:#050d1f;font-family:'DejaVu Sans','Inter',sans-serif;color:var(--ink)}
+#stage{position:relative;width:1280px;height:720px;background:radial-gradient(ellipse at 30% 20%,#12306b 0%,#0a1f44 45%,#050d1f 100%)}
+.scene{position:absolute;inset:0;opacity:0}
+.el{position:absolute;opacity:0}
+.big{font-size:64px;font-weight:800;line-height:1.15}
+.mid{font-size:40px;font-weight:700;line-height:1.25}
+.small{font-size:24px;color:var(--mute)}
+.gold{color:var(--gold)}.red{color:var(--red)}.green{color:var(--green)}
+.card{font-size:27px;line-height:1.35;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.18);border-radius:16px;padding:22px 26px}
+.doc{background:#f4f1e8;color:#222;border-radius:6px;box-shadow:0 20px 60px rgba(0,0,0,.6)}
+.bar{background:#2b2b2b;height:16px;border-radius:2px;margin:12px 0}
+.hl{background:rgba(220,38,38,.22);outline:3px solid var(--red);padding:8px 10px;border-radius:4px;font-size:20px;font-weight:700}
+#sub{position:absolute;left:90px;right:90px;bottom:34px;text-align:center;font-size:27px;line-height:1.35;background:rgba(0,0,0,.55);padding:10px 20px;border-radius:10px;opacity:0}
+#bar{position:absolute;left:0;bottom:0;height:5px;background:var(--gold)}
+.tag{position:absolute;left:60px;top:34px;font-size:20px;color:var(--gold);letter-spacing:.12em;text-transform:uppercase}
+</style></head><body><div id="stage">
+
+<!-- S1 0-11 : accroche -->
+<div class="scene" data-s="0" data-e="11">
+ <div class="tag el" data-in="0.2">Audition du 19 mars 2025 · Brigade criminelle de Cotonou</div>
+ <div class="big el" data-in="1" style="left:90px;top:140px;width:1100px;font-size:50px">L'audition devait établir les faits.</div>
+ <div class="big el" data-in="4.2" style="left:90px;top:260px;width:1100px;font-size:50px">Elle a laissé <span class="red">un récit prendre la place des pièces</span>.</div>
+ <div class="small el" data-in="7" style="left:90px;top:430px;width:1100px;font-size:24px">PV d'audition de Me BALLEY du 19/03/2025 · réquisition n° 60/2025</div>
+</div>
+
+<!-- S2 11-25 : la question -->
+<div class="scene" data-s="11" data-e="25">
+ <div class="tag el" data-in="0.2">Une disposition immobilière après décès : la question est étroite</div>
+ <div class="el card" data-in="0.8" style="left:90px;top:95px;width:640px;font-size:24px;"><b>1</b> · Où est l'acte ?</div>
+ <div class="el card" data-in="2.4" style="left:90px;top:173px;width:640px;font-size:24px;"><b>2</b> · À quelle date a-t-il été établi ?</div>
+ <div class="el card" data-in="4" style="left:90px;top:251px;width:640px;font-size:24px;"><b>3</b> · Sur quel bien précis ?</div>
+ <div class="el card" data-in="5.6" style="left:90px;top:329px;width:640px;font-size:24px;"><b>4</b> · Au profit de quel acquéreur ?</div>
+ <div class="el card" data-in="7.4" style="left:90px;top:407px;width:640px;font-size:24px;"><b>5</b> · Avec quelle trace d'enregistrement ou de publicité ?</div>
+ <div class="mid el" data-in="9.5" style="left:770px;top:200px;width:440px;font-size:34px">L'audition parle <span class="red">autour</span> de l'acte, <span class="gold">sans le produire</span>.</div>
+</div>
+
+<!-- S3 25-43 : trois constats -->
+<div class="scene" data-s="25" data-e="43">
+ <div class="tag el" data-in="0.2">Trois constats · PV de compulsion C pour la parcelle</div>
+ <div class="el card" data-in="0.8" style="left:60px;top:95px;width:540px;font-size:23px;"><b class="gold">1 · L'acte de disposition après décès</b><br>pièce mère du dossier : <b class="red">fantôme</b></div>
+ <div class="el card" data-in="4" style="left:60px;top:225px;width:540px;font-size:23px;"><b class="gold">2 · Le mandat du notaire</b><br>annoncé, <b class="red">non produit</b></div>
+ <div class="el card" data-in="9" style="left:60px;top:355px;width:540px;font-size:23px;border-color:var(--red)"><b class="gold">3 · La parcelle (lot 488, Gbégamey)</b><br><b class="red">non établie</b> par la Mairie ni par l'IGN</div>
+ <div class="el" data-in="10.5" style="left:640px;top:95px;width:580px;height:145px;overflow:hidden;border-radius:6px;box-shadow:0 20px 60px rgba(0,0,0,.6);background:#fff"><img src="../jugement/img/mairie.jpg" style="width:580px;display:block"></div>
+ <div class="el" data-in="10.9" style="left:640px;top:248px;width:580px;font-size:20px"><b class="gold">Mairie de Cotonou</b> · superficie : <b class="red">« néant »</b></div>
+ <div class="el" data-in="13.5" style="left:640px;top:300px;width:580px;height:145px;overflow:hidden;border-radius:6px;box-shadow:0 20px 60px rgba(0,0,0,.6);background:#fff"><img src="../jugement/img/ign.jpg" style="width:580px;display:block"></div>
+ <div class="el" data-in="13.9" style="left:640px;top:453px;width:580px;font-size:20px"><b class="gold">IGN</b> : <b class="red">« aucun document afférent »</b></div>
+</div>
+
+<!-- S4 43-62 : contradictions -->
+<div class="scene" data-s="43" data-e="62">
+ <div class="tag el" data-in="0.2">Les contradictions non résolues</div>
+ <div class="el card" data-in="0.8" style="left:90px;top:90px;width:530px;font-size:22px;"><b class="gold">Date de décès</b><br><span style="color:#cbd5e1">mentions contradictoires dans le dossier</span></div>
+ <div class="el card" data-in="2.6" style="left:660px;top:90px;width:530px;font-size:22px;"><b class="gold">Valorisation</b><br><span style="color:#cbd5e1">certificat ≠ jugement ≠ écrit manuscrit</span></div>
+ <div class="el card" data-in="4.4" style="left:90px;top:208px;width:530px;font-size:22px;"><b class="gold">Mandat du notaire</b><br><span style="color:#cbd5e1">annoncé, non produit</span></div>
+ <div class="el card" data-in="8.5" style="left:660px;top:208px;width:530px;font-size:22px;"><b class="gold">Origine des montants</b><br><span style="color:#cbd5e1">imputée au défunt, sans pièce-source</span></div>
+ <div class="el card" data-in="10.3" style="left:90px;top:326px;width:530px;font-size:22px;"><b class="gold">Parcelle (lot 488)</b><br><span style="color:#cbd5e1">Mairie « néant » · IGN « aucun document »</span></div>
+ <div class="el card" data-in="12.1" style="left:660px;top:326px;width:530px;font-size:22px;"><b class="gold">Décision de l'APDP</b><br><span style="color:#cbd5e1">invoquée, non produite</span></div>
+ <div class="mid el" data-in="15" style="left:90px;top:440px;width:1100px;font-size:32px">Aucune de ces lignes n'est tranchée par <span class="red">une pièce-source</span>.</div>
+</div>
+
+<!-- S5 62-76 : chaîne -->
+<div class="scene" data-s="62" data-e="76">
+ <div class="tag el" data-in="0.2">Le mécanisme : une chaîne de substitution</div>
+ <div class="el card" data-in="0.8" style="left:70px;top:110px;width:250px;font-size:24px;text-align:center;"><b>Preuve</b></div>
+ <div class="mid el gold" data-in="1.5" style="left:315px;top:128px;width:40px;font-size:36px">→</div>
+ <div class="el card" data-in="2.2" style="left:360px;top:110px;width:250px;font-size:24px;text-align:center;"><b>Récit</b></div>
+ <div class="mid el gold" data-in="2.9" style="left:605px;top:128px;width:40px;font-size:36px">→</div>
+ <div class="el card" data-in="3.6" style="left:650px;top:110px;width:250px;font-size:24px;text-align:center;"><b>Autorité</b></div>
+ <div class="mid el gold" data-in="4.3" style="left:895px;top:128px;width:40px;font-size:36px">→</div>
+ <div class="el card" data-in="5" style="left:940px;top:110px;width:250px;font-size:24px;text-align:center;border-color:var(--red)"><b>Inertie institutionnelle</b></div>
+ <div class="el card" data-in="7" style="left:90px;top:270px;width:1100px;font-size:32px;"><b>On ne produit pas l'acte : on en parle.</b></div>
+ <div class="el card" data-in="9.5" style="left:90px;top:370px;width:1100px;font-size:30px;">On invoque une règle abstraite : <b class="gold">« le système est déclaratif »</b>.</div>
+</div>
+
+<!-- S6 76-100 : sept temps -->
+<div class="scene" data-s="76" data-e="100">
+ <div class="tag el" data-in="0.2">Les sept temps de la démonstration</div>
+ <div class="el card" data-in="1" style="left:60px;top:95px;width:570px;font-size:21px;padding:16px 22px"><b class="gold">1</b> · Déplacer la source de vérité</div>
+ <div class="el card" data-in="3.5" style="left:60px;top:200px;width:570px;font-size:21px;padding:16px 22px"><b class="gold">2</b> · Attribuer au défunt ce qui est déclaré après coup</div>
+ <div class="el card" data-in="6" style="left:60px;top:305px;width:570px;font-size:21px;padding:16px 22px"><b class="gold">3</b> · Recouvrir la contradiction par une banalité procédurale</div>
+ <div class="el card" data-in="11" style="left:60px;top:410px;width:570px;font-size:21px;padding:16px 22px"><b class="gold">4</b> · Substituer la parole de l'opérateur surveillé à celle du contrôleur</div>
+ <div class="el card" data-in="13.5" style="left:660px;top:95px;width:570px;font-size:21px;padding:16px 22px"><b class="gold">5</b> · Sanctuariser le récit par une mention juridictionnelle</div>
+ <div class="el card" data-in="16" style="left:660px;top:200px;width:570px;font-size:21px;padding:16px 22px"><b class="gold">6</b> · Empêcher la remontée à la pièce mère</div>
+ <div class="el card" data-in="20" style="left:660px;top:305px;width:570px;font-size:21px;padding:16px 22px"><b class="gold">7</b> · Transformer la contradiction en bruit de fond</div>
+</div>
+
+<!-- S7 100-112 : formule-clé -->
+<div class="scene" data-s="100" data-e="112" style="background:linear-gradient(135deg,#3b0a0a 0%,#0a1f44 70%)">
+ <div class="tag el" data-in="0.2">Le mécanisme de falsification narrative consiste à</div>
+ <div class="mid el" data-in="1" style="left:90px;top:100px;width:1100px;font-size:34px">faire passer pour <span class="gold">prouvés</span> des faits seulement racontés,</div>
+ <div class="mid el" data-in="3" style="left:90px;top:185px;width:1100px;font-size:34px">pour <span class="gold">anciennes</span> des imputations construites après coup,</div>
+ <div class="mid el" data-in="5" style="left:90px;top:270px;width:1100px;font-size:34px">pour <span class="gold">institutionnelle</span> la parole d'un acteur privé,</div>
+ <div class="mid el" data-in="8" style="left:90px;top:355px;width:1100px;font-size:34px">et pour <span class="red">close</span> une contradiction que l'enquête n'a jamais véritablement ouverte.</div>
+</div>
+
+<!-- S8 112-128 : recommandations -->
+<div class="scene" data-s="112" data-e="128">
+ <div class="tag el" data-in="0.2">Ce que la BAC doit faire</div>
+ <div class="el card" data-in="1" style="left:90px;top:85px;width:1100px;font-size:24px;padding:14px 24px;border-color:var(--gold)"><b class="gold">1</b> · Requérir la production de l'acte de disposition après décès</div>
+ <div class="el card" data-in="3" style="left:90px;top:157px;width:1100px;font-size:24px;padding:14px 24px;border-color:var(--gold)"><b class="gold">2</b> · Entendre l'avocat mentionné</div>
+ <div class="el card" data-in="9" style="left:90px;top:229px;width:1100px;font-size:24px;padding:14px 24px;"><b class="gold">3</b> · Exiger le mandat du notaire au jour de l'acte (2016)</div>
+ <div class="el card" data-in="11" style="left:90px;top:301px;width:1100px;font-size:24px;padding:14px 24px;"><b class="gold">4</b> · Requérir la décision notifiée de l'APDP, si elle existe</div>
+ <div class="el card" data-in="13" style="left:90px;top:373px;width:1100px;font-size:24px;padding:14px 24px;"><b class="gold">5</b> · Confronter dates, valeurs et qualités juridiques</div>
+ <div class="el card" data-in="15" style="left:90px;top:445px;width:1100px;font-size:24px;padding:14px 24px;"><b class="gold">6</b> · Qualifier</div>
+ <div class="small el gold" data-in="6" style="left:660px;top:470px;width:530px;font-size:21px;text-align:right">Les actions 1 et 2 conditionnent toutes les autres.</div>
+</div>
+
+<!-- S9 128-138 : appel -->
+<div class="scene" data-s="128" data-e="138">
+ <div class="big el" data-in="0.4" style="left:0;top:170px;width:1280px;text-align:center;font-size:52px"><span class="gold">Sensibiliser.</span> Exiger des comptes.</div>
+ <div class="big el" data-in="1.6" style="left:0;top:290px;width:1280px;text-align:center;font-size:56px"><span class="gold">wadagni2026-verite.com</span></div>
+ <div class="mid el" data-in="2.6" style="left:0;top:390px;width:1280px;text-align:center;font-size:30px">Analyse complète et pièces justificatives</div>
+ <div class="mid el" data-in="3.8" style="left:0;top:460px;width:1280px;text-align:center;font-size:28px;color:#cbd5e1">#JusticePourFeliho · L'intégrité ne se divise pas</div>
+ <div class="small el" data-in="5" style="left:0;top:530px;width:1280px;text-align:center">Éthique Juridique 2.0 Internationale</div>
+</div>
+
+<div id="sub"></div><div id="bar"></div>
+</div>
+<script>
+const DUR=138;
+// CUES = [début, fin, sous-titre affiché, (texte lu si différent)]. Voix : « Maître » jamais « Me ».
+const CUES=[
+[0.5,10.5,"Le 19 mars 2025, la Brigade criminelle de Cotonou auditionne le notaire Félix Balley. Elle a laissé un récit prendre la place des pièces."],
+[11.5,18,"Pour une disposition immobilière après décès, la question est étroite : où est l'acte ? À quelle date ? Sur quel bien ? Au profit de quel acquéreur ?"],
+[18.5,24,"Quelle trace d'enregistrement ou de publicité ? L'audition parle autour de l'acte, sans le produire."],
+[25.5,34,"Trois constats. L'acte de disposition après décès, pièce mère du dossier, reste fantôme. Le mandat du notaire, annoncé, n'est pas produit."],
+[34.5,42,"Et la parcelle litigieuse, lot 488 à Gbégamey, n'est établie ni par la Mairie, qui indique « superficie : néant », ni par l'IGN, qui n'a « aucun document afférent ».","Et la parcelle litigieuse, lot quatre cent quatre-vingt-huit à Gbégamey, n'est établie ni par la Mairie, qui indique « superficie : néant », ni par l'I G N, qui n'a « aucun document afférent »."],
+[43.5,52,"Les contradictions restent entières : la date de décès ; la valorisation, entre certificat, jugement et écrit manuscrit ; le mandat annoncé, non produit."],
+[52.5,61,"L'origine des montants est imputée au défunt, sans pièce-source. La décision de l'APDP est invoquée, mais non produite.","L'origine des montants est imputée au défunt, sans pièce-source. La décision de l'A P D P est invoquée, mais non produite."],
+[62.5,70,"Le mécanisme est une chaîne : la preuve est remplacée par le récit, le récit par l'autorité, l'autorité par l'inertie institutionnelle."],
+[70.5,75,"On ne produit pas l'acte : on en parle. On invoque une règle abstraite : « le système est déclaratif »."],
+[76.5,86,"Sept temps. Déplacer la source de vérité. Attribuer au défunt ce qui est déclaré après coup. Recouvrir la contradiction par une banalité procédurale."],
+[86.5,96,"Substituer la parole de l'opérateur surveillé à celle du contrôleur. Sanctuariser le récit par une mention juridictionnelle. Empêcher la remontée à la pièce mère."],
+[96.5,99.5,"Enfin, transformer la contradiction en bruit de fond."],
+[100.5,106,"Faire passer pour prouvés des faits seulement racontés, pour anciennes des imputations construites après coup, pour institutionnelle la parole d'un acteur privé."],
+[106.5,111.5,"Puis faire passer pour close une contradiction que l'enquête n'a jamais véritablement ouverte."],
+[112.5,120,"Ce que la BAC doit faire : requérir l'acte de disposition après décès, et entendre l'avocat mentionné. Ces deux actions conditionnent toutes les autres."],
+[120.5,127.5,"Exiger le mandat du notaire au jour de l'acte, requérir la décision de l'APDP si elle existe, confronter dates, valeurs et qualités, puis qualifier.","Exiger le mandat du notaire au jour de l'acte, requérir la décision de l'A P D P si elle existe, confronter dates, valeurs et qualités, puis qualifier."],
+[128.5,137,"Sensibiliser. Exiger des comptes. L'analyse complète et les pièces sont en ligne : wadagni2026-verite.com"]
+];
+const ease=x=>1-Math.pow(1-x,3), clamp=x=>Math.max(0,Math.min(1,x));
+const scenes=[...document.querySelectorAll('.scene')], sub=document.getElementById('sub'), bar=document.getElementById('bar');
+function seek(t){
+  scenes.forEach(s=>{
+    const a=+s.dataset.s,b=+s.dataset.e, inside=t>=a&&t<b;
+    s.style.opacity=inside?Math.min(clamp((t-a)/.5),clamp((b-t)/.5)):0;
+    if(!inside) return;
+    s.querySelectorAll('.el').forEach(e=>{
+      const p=ease(clamp((t-a-(+e.dataset.in))/.6));
+      e.style.opacity=p; e.style.transform=`translateY(${(1-p)*24}px)`;
+    });
+  });
+  const c=CUES.find(c=>t>=c[0]&&t<c[1]);
+  sub.textContent=c?c[2]:''; sub.style.opacity=c?1:0;
+  bar.style.width=(t/DUR*1280)+'px';
+}
+window.seek=seek; window.CUES=CUES; window.DUR=DUR; seek(0);
+</script></body></html>
