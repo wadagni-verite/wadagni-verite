@@ -3,49 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Romuald Wadagni : L'Épreuve de la Vérité</title>
-
-    <!-- Canonique dynamique - s'exécute immédiatement -->
-    <script>
-        (function() {  // ← IIFE : exécution immédiate garantie
-            let canonicalUrl = window.location.href
-                .replace(/^http:/, 'https:')
-                .replace(/^https:\/\/www\./, 'https://')
-                .replace(/\/$/, '')
-                .split('?')[0]
-                .split('#')[0];
-
-            // Remet le slash pour la racine si vide
-            if (canonicalUrl === 'https://wadagni2026-verite.com') {
-                canonicalUrl = 'https://wadagni2026-verite.com/';
-            }
-
-            // Injection immédiate pendant le parsing
-            document.write('<link rel="canonical" href="' + canonicalUrl + '" />');
-        })();  // ← Auto-invocation
-    </script>
-    <noscript>
-        <link rel="canonical" href="https://wadagni2026-verite.com/" />
-    </noscript>
-
-    <!-- ... reste du head ... -->
-</head>
-
-
-    <script>
-document.write('<link rel="canonical" href="' + window.location.href.split('?')[0].split('#')[0] + '" />');
-</script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Romuald Wadagni : L'Épreuve de la Vérité</title>
-    <meta name="description" content="Site pour la transparence - Élections Bénin 2026. Découvrez la vérité sur l'affaire de fraude documentaire soumise à la Cour Constitutionnelle.">
+    <title>Affaire Féliho – Wadagni : le certificat d'acquit en pièces</title>
+    <meta name="description" content="Certificat d'acquit de droit du 20/10/2016 : fausse date de décès, mandat non prouvé. Pièces officielles, DCC 25-152, analyses et vidéo.">
+    <link rel="canonical" href="https://wadagni2026-verite.com/">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Romuald Wadagni : L'Épreuve de la Vérité">
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:site_name" content="Wadagni 2026 Vérité">
+    <meta property="og:url" content="https://wadagni2026-verite.com/">
+    <meta property="og:title" content="Affaire Féliho – Wadagni : le certificat d'acquit en pièces">
+    <meta property="og:description" content="Certificat d'acquit de droit du 20/10/2016 : fausse date de décès, mandat non prouvé. Pièces officielles, DCC 25-152, analyses et vidéo.">
     <meta property="og:image" content="https://wadagni2026-verite.com/video/poster.jpg">
     <meta property="og:video" content="https://wadagni2026-verite.com/video/voix/motion-design-voix.mp4">
     <meta property="og:video:type" content="video/mp4">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Affaire Féliho – Wadagni : le certificat d'acquit en pièces">
+    <meta name="twitter:description" content="Certificat d'acquit de droit du 20/10/2016 : fausse date de décès, mandat non prouvé. Pièces officielles, DCC 25-152, analyses et vidéo.">
+    <meta name="twitter:image" content="https://wadagni2026-verite.com/video/poster.jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://wadagni2026-verite.com/#website",
+        "url": "https://wadagni2026-verite.com/",
+        "name": "Wadagni 2026 Vérité",
+        "inLanguage": "fr",
+        "publisher": {
+          "@id": "https://wadagni2026-verite.com/#organisation"
+        }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://wadagni2026-verite.com/#organisation",
+        "name": "Éthique Juridique 2.0 Internationale",
+        "alternateName": "EJI 2.0 Internationale",
+        "url": "https://eji2.org",
+        "sameAs": [
+          "https://eji2.org"
+        ]
+      },
+      {
+        "@type": "Person",
+        "@id": "https://wadagni2026-verite.com/#feliho",
+        "name": "Gilles Féliho",
+        "alternateName": "Gilles Sixte Féliho",
+        "jobTitle": "Président de l'ONG Éthique Juridique 2.0 Internationale",
+        "url": "https://wadagni2026-verite.com/",
+        "worksFor": {
+          "@id": "https://wadagni2026-verite.com/#organisation"
+        },
+        "sameAs": [
+          "https://amzn.eu/d/07BcPzaJ"
+        ]
+      },
+      {
+        "@type": "VideoObject",
+        "name": "L'affaire du certificat d'acquit de droit en 3 minutes (motion design)",
+        "description": "Motion design avec voix-off : fausse date de décès, mandat non prouvé, valeurs du patrimoine et absence de lien de Me Balley avec la succession, pièces à l'appui.",
+        "thumbnailUrl": "https://wadagni2026-verite.com/video/poster.jpg",
+        "uploadDate": "2026-10-06",
+        "duration": "PT2M56S",
+        "inLanguage": "fr",
+        "contentUrl": "https://wadagni2026-verite.com/video/voix/motion-design-voix.mp4",
+        "embedUrl": "https://wadagni2026-verite.com/#video"
+      }
+    ]
+  }
+]
+    </script>
     <style>
         * {
             margin: 0;
@@ -1073,8 +1103,8 @@ document.write('<link rel="canonical" href="' + window.location.href.split('?')[
     <section class="hero">
         <div class="container">
             <div class="hero-content">
-                <h1>Romuald Wadagni :<br>L'Épreuve de la Vérité</h1>
-                <p class="hero-subtitle">Lettre ouverte et pièces justificatives sur une affaire de fraude documentaire soumise à la Cour Constitutionnelle</p>
+                <h1>Affaire Féliho – Wadagni : le certificat d'acquit de droit contesté</h1>
+                <p class="hero-subtitle">Romuald Wadagni : L'Épreuve de la Vérité — lettre ouverte et pièces justificatives sur une affaire de fraude documentaire soumise à la Cour Constitutionnelle</p>
                 
                 <div class="hero-author">
                     <img src="gilles-feliho.jpg" alt="Gilles FÉLIHO" class="author-photo" onerror="this.style.display='none'">
