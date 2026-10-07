@@ -234,6 +234,10 @@
 
         /* Introduction */
         /* Vidéo */
+        .citation-or { background: linear-gradient(180deg, #06142e 0%, var(--navy) 100%); padding: 56px 20px; text-align: center; border-bottom: 3px solid var(--gold); }
+        .citation-or blockquote { max-width: 860px; margin: 0 auto; position: relative; }
+        .citation-or blockquote::before { content: "\201C"; display: block; font-family: Georgia, 'Times New Roman', serif; font-size: 72px; line-height: .6; color: var(--gold); opacity: .8; margin-bottom: 14px; }
+        .citation-or p { font-family: Georgia, 'Times New Roman', serif; font-style: italic; font-size: clamp(1.25rem, 2.6vw, 1.85rem); line-height: 1.55; color: var(--gold); margin: 0; text-shadow: 0 1px 12px rgba(212,175,55,.25); }
         .video-section { padding: 50px 20px; background: var(--light-gray); text-align: center; }
         .video-section h2 { color: var(--navy); font-size: 2rem; margin-bottom: 8px; }
         .video-section .video-sub { color: var(--gray); margin-bottom: 24px; }
@@ -1129,6 +1133,12 @@
                 <div class="counter-badge" id="counter">⏰ Plus de 3 600 jours depuis la fraude documentaire</div>
             </div>
         </div>
+    </section>
+
+    <section class="citation-or" aria-label="Citation">
+        <blockquote>
+            <p>Quand les citoyens cessent de veiller sur leurs libertés fondamentales et acceptent l'abandon de leurs droits, ils s'affaiblissent et se laissent naturellement plier sous le joug de la tyrannie ou de l'oppression.</p>
+        </blockquote>
     </section>
 
     <section class="intro">
