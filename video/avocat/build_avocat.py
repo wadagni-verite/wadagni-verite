@@ -131,3 +131,12 @@ for a,b,p,v in CUES:
         if 'Félix' in nxt or 'Maître' in nxt or 'Chambre nationale des' in p[max(0,m.start()-24):m.start()+8]: continue
         bad.append((p[max(0,m.start()-30):m.end()+30]))
 print('mentions « notaire » sans nom :',len(bad)); [print('  -',x) for x in bad]
+
+# fenêtres de scènes contiguës (sans chevauchement) pour build_voix.py
+import re as _re
+_s=open('motion.html',encoding='utf-8').read()
+_st=[a for a,b in _re.findall(r'data-s="([\d.]+)" data-e="([\d.]+)"',_s)];_i=[0]
+def _f(m):
+    k=_i[0];_i[0]+=1
+    return f'data-s="{m.group(1)}" data-e="{_st[k+1] if k+1<len(_st) else m.group(2)}"'
+open('motion.html','w',encoding='utf-8').write(_re.sub(r'data-s="([\d.]+)" data-e="([\d.]+)"',_f,_s))
