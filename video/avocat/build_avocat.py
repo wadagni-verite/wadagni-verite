@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import re,json,sys,html
-sys.path.insert(0,'/tmp/gen')
+sys.path.insert(0,'.')
 import importlib, spec_avocat as sp
 from num2words import num2words
 OUT='motion.html'
