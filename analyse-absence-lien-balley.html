@@ -194,6 +194,31 @@
         /* ---------- Corps ---------- */
         main { padding: 20px 0 60px; }
 
+        /* ---------- Démonstration : l'écart entre les textes et les faits ---------- */
+        .ecart { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin: 26px 0; }
+        .ecart > div { border-radius: 12px; padding: 20px 22px; font-size: 0.95rem; }
+        .ecart .exige { background: #eef2ff; border: 1px solid #c7d2fe; border-top: 5px solid var(--blue); }
+        .ecart .reel { background: #fef2f2; border: 1px solid #fecaca; border-top: 5px solid var(--red); }
+        .ecart h4 { margin: 0 0 10px; font-size: .78rem; letter-spacing: .1em; text-transform: uppercase; }
+        .ecart .exige h4 { color: var(--blue); }
+        .ecart .reel h4 { color: var(--red); }
+        .ecart blockquote { margin: 8px 0; padding-left: 14px; border-left: 3px solid var(--gold); font-style: italic; }
+        .ecart .clair { margin-top: 10px; font-weight: 600; color: var(--navy); }
+        .ecart ul { margin: 6px 0 0 18px; padding: 0; }
+        .ecart li { margin: 5px 0; }
+        .gouffre { display: grid; grid-template-columns: 1fr auto 1fr; gap: 14px; align-items: center; margin: 26px 0; }
+        .gouffre .chiffre { text-align: center; border-radius: 12px; padding: 22px 14px; }
+        .gouffre .chiffre b { display: block; font-size: 2.3rem; line-height: 1.1; font-family: Georgia, 'Times New Roman', serif; }
+        .gouffre .chiffre span { font-size: .88rem; }
+        .gouffre .vrai { background: #fef2f2; border: 2px solid var(--red); color: #991b1b; }
+        .gouffre .faux { background: #ecfdf5; border: 2px solid var(--green); color: #065f46; }
+        .gouffre .vs { font-weight: 800; color: var(--gray); font-size: 1.1rem; }
+        .verdict { background: var(--navy); color: #f8fafc; border-left: 6px solid var(--gold); border-radius: 0 12px 12px 0; padding: 20px 24px; margin: 22px 0; }
+        .verdict strong { color: var(--gold); }
+        .serment { background: linear-gradient(180deg,#06142e,var(--navy)); color: var(--gold); border-radius: 14px; text-align: center; padding: 30px 24px; margin: 26px 0; border-bottom: 3px solid var(--gold); }
+        .serment blockquote { margin: 0; font-family: Georgia, 'Times New Roman', serif; font-style: italic; font-size: clamp(1.15rem, 2.4vw, 1.6rem); line-height: 1.5; }
+        .serment cite { display: block; margin-top: 12px; font-style: normal; font-size: .8rem; letter-spacing: .1em; text-transform: uppercase; color: #e8d48a; }
+        @media (max-width: 720px) { .ecart { grid-template-columns: 1fr; } .gouffre { grid-template-columns: 1fr; } .gouffre .vs { text-align: center; } }
         section.chapter { margin-top: 55px; scroll-margin-top: 20px; }
 
         section.chapter > h2 {
@@ -561,10 +586,10 @@
   "@context": "https://schema.org",
   "@type": "VideoObject",
   "name": "Absence de lien successoral entre le défunt et Me Balley : analyse (motion design)",
-  "description": "Motion design avec voix-off : la déclaration du notaire du 19/03/2025, les trois axes qui la contredisent, le communiqué du 3 avril 2013, le PV de lecture du testament et la mise en demeure du 28 mai 2025.",
+  "description": "Motion design avec voix-off : la déclaration du notaire du 19/03/2025, les trois axes qui la contredisent, le communiqué du 3 avril 2013, le PV de lecture du testament, la lettre du notaire du 7 septembre 2023 et la mise en demeure du 28 mai 2025.",
   "thumbnailUrl": "https://wadagni2026-verite.com/video/balley/poster.jpg",
   "uploadDate": "2026-10-07",
-  "duration": "PT2M36S",
+  "duration": "PT2M59S",
   "inLanguage": "fr",
   "contentUrl": "https://wadagni2026-verite.com/video/balley/balley-voix.mp4",
   "embedUrl": "https://www.youtube.com/embed/K5sdfaTy9kc"
@@ -636,14 +661,14 @@
                 <li><a href="#tableau">Tableau probatoire unifié — cinq axes de contradiction</a></li>
                 <li><a href="#annexe">Annexe : le communiqué du 3 avril 2013</a></li>
                 <li><a href="#qualification">Qualification juridique de la fabulation en PV</a></li>
-                <li><a href="#demonstration">Démonstration : un certificat et un comportement contraires aux textes</a></li>
+                <li><a href="#demonstration">Le gouffre entre les textes, le certificat et les obligations de Me BALLEY</a></li>
                 <li><a href="#conclusion">Conclusion et recommandations à la BAC</a></li>
             </ol>
         </nav>
     </div>
 
     <section class="video-block container" id="video">
-        <h2>L'absence de lien de Me Balley en 2 minutes</h2>
+        <h2>L'absence de lien de Me Balley en 3 minutes</h2>
         <p class="video-sub">Motion design avec voix-off : la déclaration du notaire, les trois axes qui la contredisent et le communiqué du 3 avril 2013, pièces à l'appui.</p>
         <video controls preload="none" playsinline poster="video/balley/poster.jpg" aria-label="Motion design : absence de lien successoral entre le défunt et Me Félix A. Balley">
             <source src="video/balley/balley-voix.mp4" type="video/mp4">
@@ -660,7 +685,8 @@
                 <p>Le certificat d'acquit déclare sept immeubles pour 138 millions de francs CFA. Le jugement de 2014 en compte trente-neuf, estimés à 568 millions. L'écrit manuscrit ne contient aucun de ces chiffres.</p>
                 <p>Troisième axe : le communiqué de la succession, publié dans le journal La Nation, daté du 3 avril 2013. Il désigne Me Lazare Crinot, notaire, nommé administrateur par la Cour d'appel de Cotonou, décision n° 28/12 du 30 août 2012. Il est « seul habilité à gérer les biens ». Le testament est produit par des cohéritiers, dans des conditions restées inconnues. Me Balley n'est mentionné nulle part.</p>
                 <p>Le procès-verbal de lecture du testament, établi par le tribunal en 2012, le dit en dépôt chez Me Adjagba Ichola. Me Balley n'y figure pas. Me Balley n'est donc ni le dépositaire du testament, ni l'administrateur de la succession. La qualité de mandataire des héritiers qu'il s'attribue se heurte à l'absence de mandat prouvé. Le canal par lequel il aurait reçu ces évaluations du défunt est introuvable.</p>
-                <p>Le 6 janvier 2025, la Direction générale des impôts indique que le certificat a été sollicité par l'Étude de Me Balley, et le prétend authentique (sic). Elle ne dit rien du prétendu mandat. Le 28 mai 2025, Gilles Féliho met en demeure le Directeur général du Centre de l'enregistrement de produire la preuve écrite du prétendu mandat. Aucune réponse à ce jour.</p>
+                <p>Le 7 septembre 2023, Me Balley écrit que Gilles Féliho n'est pas partie aux actes dont il demande la délivrance (<a href="pieces/lettre-balley-2023-09-07.pdf" target="_blank" rel="noopener">lettre</a>). Or le certificat a été obtenu en qualité de mandataire de Gilles Féliho. Quant à l'exposé de griefs, le notaire estime qu'il ne nécessite « aucune réponse ».</p>
+                <p>Le 6 janvier 2025, la Direction générale des impôts indique que le certificat a été sollicité par l'Étude de Me Balley, et le prétend authentique (sic). Elle ne dit rien du prétendu mandat. Le 28 mai 2025, Gilles Féliho met en demeure le Directeur général du Centre de l'enregistrement de produire la preuve écrite du prétendu mandat (<a href="pieces/contestation-certificat-2025-05-28.pdf" target="_blank" rel="noopener">mise en demeure</a>). Il rappelle que les cinq questions de la sommation sont restées sans réponse. Aucune réponse à ce jour.</p>
                 <p>Une déclaration consignée dans un procès-verbal de police judiciaire, contredite par les pièces. Il reste à confronter le notaire au communiqué, à exiger la pièce-source des évaluations, et à exiger le mandat allégué.</p>
                 <p>Sensibiliser. Exiger des comptes. L'analyse complète et les pièces sont en ligne : wadagni2026-verite.com</p>
         </details>
@@ -945,132 +971,182 @@
             <p>
                 La fabulation prend une gravité particulière parce qu'elle est consignée dans un PV de police
                 judiciaire. Le notaire BALLEY ne s'exprime pas dans un échange privé : il déclare sous le
-                régime de l'enquête. Sa déclaration n'est pas une opinion : <strong>c'est un acte</strong>,
-                dont l'inexactitude est désormais démontrée par trois axes convergents (absence de
-                pièce-source, divergence des valorisations, absence de canal de transmission). La qualification
-                pénale devient possible dès lors qu'il est établi que le notaire savait, ou devait savoir, que
-                l'estimation ne provenait pas du de cujus — ce que le communiqué du 3 avril 2013 et la décision
-                n° 28/12 du 30 août 2012 rendaient aisément vérifiables.
+                régime de l'enq        <section class="chapter" id="demonstration">
+            <h2>7. Le gouffre : ce qu'exigent les textes, ce que dit le certificat, ce qu'a fait Me BALLEY</h2>
+            <p>
+                Le certificat d'acquit de droit date du <strong>20 octobre 2016</strong>. À cette date s'appliquaient l'<strong>ancien Code pénal</strong>
+                (dit « Code Bouvenet », rendu applicable en Afrique occidentale par le décret du 6 mai 1877 et modifié depuis par la législation béninoise),
+                le <strong>Code général des impôts</strong> alors en vigueur et la <strong>loi n° 2002-015 du 30 décembre 2002 portant Statut du notariat</strong>
+                (<a href="pieces/loi-2002-015-statut-du-notariat.pdf" target="_blank" rel="noopener">texte intégral</a>). Les articles du Code pénal sont cités selon
+                la numérotation de l'ancien Code, seule applicable à des faits de 2016. Devant chacun de ces textes, le certificat et le comportement de
+                Me BALLEY se trouvent à l'opposé de ce qui est exigé.
             </p>
 
+            <div class="serment">
+                <blockquote>« Je jure de remplir mes fonctions avec exactitude et probité. »</blockquote>
+                <cite>Serment du notaire — article 33 du Statut du notariat</cite>
+            </div>
+
+            <h3>7.1 Première incohérence : la date de décès et l'article 438 du CGI</h3>
+            <div class="ecart">
+                <div class="exige">
+                    <h4>Ce qu'exige le texte</h4>
+                    <p><strong>Code général des impôts, article 438</strong> :</p>
+                    <blockquote>« Les délais pour l'enregistrement des déclarations que les héritiers, donataires ou légataires auront à passer des biens à eux échus ou transmis par décès, commenceront à courir du jour du décès et seront : de six mois, lorsque le décès sera arrivé au Bénin ; d'un an, lorsque le décès sera arrivé hors du Bénin. »</blockquote>
+                    <p class="clair">En clair : une succession se déclare dans les six mois qui suivent le décès. Passé ce délai, la déclaration est tardive.</p>
+                </div>
+                <div class="reel">
+                    <h4>Ce que montrent les pièces</h4>
+                    <ul>
+                        <li><strong>Décès : 3 décembre 2010</strong> (jugement n° 114/14 du 31 octobre 2014 ; procès-verbal de lecture du testament ; déclaration de décès du CNHU-HKM, Cotonou). Le 6 décembre 2010 est la date de signature du certificat de décès.</li>
+                        <li><strong>Limite légale : 3 juin 2011.</strong></li>
+                        <li><strong>Déclaration enregistrée le 10 août 2016</strong>, répertoire de l'Étude de Me BALLEY, n° 1428 (courrier de la DGI du 6 janvier 2025).</li>
+                        <li><strong>Certificat du 20 octobre 2016 : décès « le 10 juin 2016 ».</strong></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="gouffre">
+                <div class="chiffre vrai"><b>+ 5 ans et 2 mois</b><span>de retard avec la vraie date de décès (3 décembre 2010)</span></div>
+                <div class="vs">contre</div>
+                <div class="chiffre faux"><b>2 mois</b><span>avec la date de décès portée sur le certificat (10 juin 2016) : « dans le délai »</span></div>
+            </div>
+            <p>
+                La date de décès a été modifiée au 10 juin 2016 sur le certificat sollicité par l'Étude de Me BALLEY. Cette modification a un effet précis : elle <strong>fait disparaître
+                la violation de l'article 438</strong>. Une déclaration tardive de plus de cinq ans devient une déclaration apparemment régulière, déposée deux mois après le décès. Elle est
+                en outre incohérente avec les pièces : un jugement du 31 octobre 2014 a déjà statué sur la succession de Jean Florentin FÉLIHO. Un décès en juin 2016 est impossible.
+            </p>
+            <div class="ecart">
+                <div class="exige">
+                    <h4>Ce qu'exige le texte</h4>
+                    <p><strong>Ancien Code pénal, article 153</strong> : il réprime le fait de contrefaire, falsifier ou altérer un certificat délivré par une administration publique pour constater un droit, une identité ou une qualité, ainsi que l'usage d'un tel document falsifié ou dont les mentions sont devenues inexactes.</p>
+                    <p class="clair">En clair : un certificat officiel doit dire vrai sur ce qu'il constate. Une mention inexacte le rend faux.</p>
+                </div>
+                <div class="reel">
+                    <h4>Ce que montre le certificat</h4>
+                    <p>Le certificat d'acquit de droit est délivré par l'administration fiscale pour constater un droit. Il porte une date de décès inexacte de cinq ans et demi, et c'est précisément cette mention qui détermine la régularité de la déclaration. <strong>Le texte exige un document exact ; le certificat est inexact sur son élément décisif.</strong></p>
+                </div>
+            </div>
+
+            <h3>7.2 Deuxième incohérence : la qualité de « mandataire » de Gilles FÉLIHO</h3>
+            <div class="ecart">
+                <div class="exige">
+                    <h4>Ce qu'exige le texte</h4>
+                    <p><strong>Ancien Code pénal, article 154</strong> : il réprime l'obtention d'un document administratif au moyen de fausses déclarations, d'une fausse qualité, de faux renseignements ou de faux certificats ou attestations.</p>
+                    <p><strong>Mandat</strong> (article 1984 du Code civil, cité dans la mise en demeure du 28 mai 2025) : « un acte par lequel une personne donne à une autre le pouvoir de faire quelque chose pour le mandant et en son nom ».</p>
+                    <p class="clair">En clair : on ne peut pas obtenir un certificat de l'administration en se disant le mandataire de quelqu'un qui n'a donné aucun mandat.</p>
+                </div>
+                <div class="reel">
+                    <h4>Ce que montrent les pièces</h4>
+                    <ul>
+                        <li>Le certificat est <strong>« sollicité par l'Étude de Me BALLEY »</strong>, <strong>« en qualité de mandataire »</strong> de Gilles FÉLIHO (courrier de la DGI du 6 janvier 2025).</li>
+                        <li><strong>Gilles FÉLIHO n'a donné aucun mandat.</strong> Aucun mandat n'a été produit, ni devant la Brigade criminelle le 19 mars 2025, ni ailleurs.</li>
+                        <li>Me BALLEY n'apparaît ni dans le procès-verbal de lecture du testament (2012), ni dans le communiqué du 3 avril 2013, qui désigne Me CRINOT comme administrateur.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="callout">
+                <h3>L'incohérence que le notaire a écrite lui-même</h3>
+                <p>
+                    Le 7 septembre 2023, Me BALLEY écrit que les seules demandes de Gilles FÉLIHO portent sur « la compulsion de mon répertoire et la délivrance d'actes
+                    <strong>auxquels il n'est pas partie</strong> » (<a href="pieces/lettre-balley-2023-09-07.pdf" target="_blank" rel="noopener">lettre du 7 septembre 2023</a>).
+                    Gilles FÉLIHO serait donc <strong>étranger aux actes de l'Étude</strong>, alors que le certificat a été obtenu <strong>en son nom</strong>, « en qualité de mandataire ».
+                    Me BALLEY ne peut pas être à la fois le mandataire de Gilles FÉLIHO et le notaire pour qui Gilles FÉLIHO n'est pas partie à ses actes.
+                </p>
+            </div>
+            <div class="ecart">
+                <div class="exige">
+                    <h4>Ce qu'exige le Statut du notariat</h4>
+                    <ul>
+                        <li><strong>Art. 76</strong> : les notaires « tiennent répertoire de tous les actes qu'ils reçoivent ».</li>
+                        <li><strong>Art. 37</strong> : ils sont « tenus de conserver la minute de tous les actes qu'ils reçoivent ».</li>
+                        <li><strong>Art. 61</strong> : « Les procurations sont annexées à l'acte à moins qu'elles ne soient déposées au rang des minutes du notaire rédacteur de l'acte. Dans ce cas, il est fait mention dans l'acte du dépôt de la procuration au rang des minutes. »</li>
+                    </ul>
+                    <p class="clair">En clair : si Me BALLEY a agi sur mandat, la procuration est annexée à l'acte ou dans les minutes de son Étude. Il suffit de la produire.</p>
+                </div>
+                <div class="reel">
+                    <h4>Ce que montrent les pièces</h4>
+                    <ul>
+                        <li>La déclaration figure au répertoire de l'Étude sous le <strong>n° 1428</strong> : l'acte et son éventuelle procuration sont donc <strong>dans les minutes de Me BALLEY</strong>.</li>
+                        <li>Le <strong>28 mai 2025</strong>, Gilles FÉLIHO a <strong>mis en demeure l'administration</strong> (Centre de l'enregistrement et du timbre) de produire « la preuve écrite du mandat » (<a href="pieces/contestation-certificat-2025-05-28.pdf" target="_blank" rel="noopener">mise en demeure</a>), et rappelé que les <strong>cinq questions de la sommation interpellative</strong> sont restées sans réponse.</li>
+                        <li><strong>Aucune réponse à ce jour.</strong> Le mandat n'a jamais été produit.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="verdict">
+                <strong>Le gouffre :</strong> un certificat obtenu « en qualité de mandataire » exige un mandat ; la loi impose au notaire de le conserver dans ses minutes ;
+                Gilles FÉLIHO, mis en demeure de le produire, n'a reçu <strong>aucune réponse</strong>. Obtenu sans mandat établi, le certificat est <strong>contraire à l'article 154</strong>.
+            </div>
+
+            <h3>7.3 Troisième incohérence : l'inscription au répertoire et l'usage du certificat</h3>
+            <div class="ecart">
+                <div class="exige">
+                    <h4>Ce qu'exige le texte</h4>
+                    <ul>
+                        <li><strong>Ancien Code pénal, art. 145</strong> : faux commis par un fonctionnaire ou un officier public dans l'exercice de ses fonctions, notamment par altération d'un acte, supposition de personne ou <strong>inscription frauduleuse dans un registre ou un acte public</strong>.</li>
+                        <li><strong>Art. 146</strong> : l'officier public qui, en rédigeant un acte de son ministère, dénature frauduleusement l'acte ou <strong>constate comme vrais des faits qui sont faux</strong>.</li>
+                        <li><strong>Art. 148</strong> : l'usage conscient d'un acte faux.</li>
+                    </ul>
+                    <p class="clair">En clair : un officier public ne peut ni inscrire dans ses registres un fait faux, ni le constater comme vrai, ni se servir d'un acte qu'il sait faux. Le notaire est un officier public (Statut, art. 1er).</p>
+                </div>
+                <div class="reel">
+                    <h4>Ce que montrent les pièces</h4>
+                    <ul>
+                        <li>La déclaration portant la date du 10 juin 2016 est <strong>inscrite au répertoire de l'Étude</strong> (n° 1428), registre tenu par un officier public.</li>
+                        <li>Elle l'est <strong>près de deux ans après un jugement</strong> (31 octobre 2014) et <strong>plus de trois ans après un communiqué publié</strong> (La Nation, 3 avril 2013) qui établissent la vraie situation de la succession.</li>
+                        <li>Le certificat a ensuite été utilisé : la DGI le tient pour « authentique » et ne dit rien du prétendu mandat.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="verdict">
+                <strong>Le gouffre :</strong> les pièces publiques existaient avant l'inscription. Elles rendent la date du 10 juin 2016 <strong>impossible à soutenir sans ignorer ces pièces</strong>.
+                L'inscription et l'usage relèvent des <strong>articles 145, 146 et 148</strong>.
+            </div>
+
+            <h3>7.4 Quatrième incohérence : les obligations de probité, de loyauté et de transparence que Me BALLEY n'a pas respectées</h3>
+            <div class="ecart">
+                <div class="exige">
+                    <h4>Ce qu'exige le Statut du notariat</h4>
+                    <ul>
+                        <li><strong>Art. 33 (serment)</strong> : « Je jure de remplir mes fonctions avec <strong>exactitude et probité</strong>. »</li>
+                        <li><strong>Art. 1er</strong> : le notaire est « officier public et ministériel », chargé d'<strong>assurer la date</strong> des actes et contrats et d'en conserver le dépôt.</li>
+                        <li><strong>Art. 82</strong> : copie des actes aux personnes « intéressées en nom direct, <strong>héritiers ou ayants droit</strong> ».</li>
+                        <li><strong>Art. 47</strong> : le notaire reste « <strong>disciplinairement et pénalement responsable</strong> des fautes qu'il a commises dans l'accomplissement de son ministère ».</li>
+                    </ul>
+                    <p class="clair">En clair : exactitude des dates, honnêteté sur sa qualité, transparence envers l'héritier, et réponse devant la contradiction.</p>
+                </div>
+                <div class="reel">
+                    <h4>Ce que montrent les pièces</h4>
+                    <ul>
+                        <li><strong>Exactitude :</strong> la date de décès portée sur le certificat est fausse de cinq ans et demi, et c'est le notaire chargé d'assurer la date des actes qui l'a sollicité.</li>
+                        <li><strong>Probité :</strong> il se prévaut d'une qualité de mandataire qu'aucune pièce n'établit, et qu'il contredit lui-même le 7 septembre 2023.</li>
+                        <li><strong>Transparence :</strong> Gilles FÉLIHO, cohéritier, se voit refuser la délivrance des actes (lettre du 7 septembre 2023), alors que le notaire dit agir en son nom.</li>
+                        <li><strong>Réponse à la contradiction :</strong> l'exposé de griefs de la sommation du 4 août 2023 est jugé par Me BALLEY comme « ne nécessitant aucune réponse » ; la mise en demeure du 28 mai 2025 et les cinq questions de la sommation interpellative n'ont reçu <strong>aucune réponse à ce jour</strong>.</li>
+                    </ul>
+                </div>
+            </div>
             <div class="table-wrap">
                 <table class="data-table">
-                    <thead>
-                        <tr>
-                            <th>Fait</th>
-                            <th>Qualification envisageable</th>
-                            <th>Fondement</th>
-                        </tr>
-                    </thead>
+                    <thead><tr><th>Texte</th><th>Conséquence prévue</th></tr></thead>
                     <tbody>
-                        <tr>
-                            <td><strong>Imputer au de cujus une estimation sans pièce-source ni canal de transmission</strong></td>
-                            <td>Fausse déclaration / déclaration mensongère en matière judiciaire</td>
-                            <td><span class="tag tag-source">Code pénal art. 22 et 23</span></td>
-                        </tr>
-                        <tr>
-                            <td><strong>Se prévaloir d'un mandat de « mandataire des héritiers » sans le produire</strong></td>
-                            <td>Usage de qualité non établie — captation d'autorité</td>
-                            <td><span class="tag tag-source">Code pénal art. 303, 304, 305</span></td>
-                        </tr>
-                        <tr>
-                            <td><strong>Consigner en PV une attribution au de cujus contredite par les pièces</strong></td>
-                            <td>Faux témoignage / recel de vérité en enquête</td>
-                            <td><span class="tag tag-source">Code pénal art. 312 al. 2 ; art. 839</span></td>
-                        </tr>
-                        <tr>
-                            <td><strong>Déclaration sciemment inexacte en PV de police judiciaire</strong></td>
-                            <td>Atteinte à la sincérité de l'enquête</td>
-                            <td><span class="tag tag-source">CPP art. 39 ; loi 2006-14 art. 29</span></td>
-                        </tr>
+                        <tr><td><span class="tag tag-source">Statut, art. 112 et 113</span></td><td>Rappel à l'ordre, censure, <strong>suspension</strong> (un an au plus) et <strong>destitution</strong>, prononcée par décret en conseil des ministres.</td></tr>
+                        <tr><td><span class="tag tag-source">Statut, art. 117</span></td><td>Les infractions à la discipline sont poursuivies par le procureur général près la cour d'appel, <strong>alors même qu'il n'y aurait aucune partie plaignante</strong>.</td></tr>
+                        <tr><td><span class="tag tag-source">Statut, art. 8</span></td><td>Le bureau de la Chambre nationale des notaires examine « toutes les réclamations de la part des tiers contre les notaires à l'occasion de l'exercice de leur profession ».</td></tr>
                     </tbody>
                 </table>
+            </div>
+
+            <div class="formule">
+                <span class="formule-label">En résumé</span>
+                <blockquote>
+                    Le texte exige un décès déclaré dans les six mois : le certificat ramène à deux mois un retard de plus de cinq ans.
+                    Le texte exige un mandat : aucun n'a été donné ni produit, et le notaire écrit lui-même que Gilles FÉLIHO n'est pas partie à ses actes.
+                    Le texte exige que la procuration soit dans les minutes : mise en demeure de la produire, aucune réponse.
+                    Le notaire a juré l'exactitude et la probité. Le certificat et son comportement sont contraires aux textes en vigueur.
+                </blockquote>
             </div>
         </section>
 
-        <section class="chapter" id="demonstration">
-            <h2>7. Démonstration : le certificat et le comportement de Me BALLEY sont contraires aux textes en vigueur</h2>
-            <p>
-                Le certificat d'acquit de droit date du <strong>20 octobre 2016</strong>. À cette date s'appliquaient
-                l'<strong>ancien Code pénal</strong> (dit « Code Bouvenet », rendu applicable en Afrique occidentale par le
-                décret du 6 mai 1877 et modifié depuis par la législation béninoise), le <strong>Code général des impôts</strong>
-                alors en vigueur et la <strong>loi n° 2002-015 du 30 décembre 2002 portant Statut du notariat</strong>
-                (<a href="pieces/loi-2002-015-statut-du-notariat.pdf" target="_blank" rel="noopener">texte intégral</a>).
-                Les articles du Code pénal sont cités ci-dessous selon la numérotation de l'ancien Code, seule applicable à des faits de 2016.
-            </p>
-
-            <h3>7.1 Première contradiction : une date de décès qui efface un retard de plus de cinq ans</h3>
-            <div class="table-wrap">
-                <table class="data-table">
-                    <thead><tr><th>Ce que disent les pièces</th><th>Ce que dit le texte</th></tr></thead>
-                    <tbody>
-                        <tr>
-                            <td>
-                                <strong>Décès : 3 décembre 2010</strong> (jugement n° 114/14 du 31 octobre 2014 ; procès-verbal de lecture du testament ; déclaration de décès du CNHU-HKM, Cotonou). Le 6 décembre 2010 est la date de signature du certificat de décès.<br><br>
-                                <strong>Certificat du 20 octobre 2016 : décès le 10 juin 2016.</strong><br><br>
-                                <strong>Déclaration de mutation enregistrée dans le répertoire de l'Étude de Me BALLEY le 10 août 2016, n° 1428</strong> (courrier de la DGI du 6 janvier 2025).
-                            </td>
-                            <td>
-                                <span class="tag tag-source">CGI, art. 438</span><br>
-                                « Les délais pour l'enregistrement des déclarations que les héritiers, donataires ou légataires auront à passer des biens à eux échus ou transmis par décès, commenceront à courir du jour du décès et seront : de six mois, lorsque le décès sera arrivé au Bénin ; d'un an, lorsque le décès sera arrivé hors du Bénin. »
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="callout">
-                <h3>Le calcul</h3>
-                <p>Décès au Bénin le 3 décembre 2010 : le délai de six mois expirait le <strong>3 juin 2011</strong>. Une déclaration enregistrée le 10 août 2016 intervient <strong>plus de cinq ans après l'expiration du délai</strong> (5 ans et 2 mois), en violation de l'article 438.</p>
-                <p>Avec la date du 10 juin 2016 portée sur le certificat, la même déclaration intervient <strong>deux mois après le décès</strong> : exactement dans le délai. La fausse date de décès a pour effet de transformer une déclaration tardive de plus de cinq ans en déclaration apparemment régulière. Elle n'est pas neutre : elle fait disparaître la violation de l'article 438.</p>
-            </div>
-            <p>
-                La mention d'un décès en juin 2016 est de surcroît <strong>impossible</strong> : le jugement du 31 octobre 2014 statue déjà
-                sur la succession de Jean Florentin FÉLIHO. Un certificat délivré par une administration publique pour constater un droit
-                et portant une mention inexacte est contraire à l'<strong>article 153 de l'ancien Code pénal</strong>, qui réprime la falsification
-                ou l'altération d'un tel document et l'usage d'un document dont les mentions sont inexactes.
-            </p>
-
-            <h3>7.2 Deuxième contradiction : un certificat obtenu « en qualité de mandataire » sans mandat</h3>
-            <div class="table-wrap">
-                <table class="data-table">
-                    <thead><tr><th>Ce que disent les pièces</th><th>Ce que dit le texte</th></tr></thead>
-                    <tbody>
-                        <tr>
-                            <td>
-                                Le certificat a été <strong>sollicité par l'Étude de Me BALLEY, « en qualité de mandataire »</strong> (courrier de la DGI du 6 janvier 2025).<br><br>
-                                <strong>Aucun mandat n'a été donné par Gilles FÉLIHO</strong> ; aucun mandat n'a été produit, ni devant la Brigade criminelle le 19 mars 2025, ni en réponse à la mise en demeure du 28 mai 2025 (« Aucune réponse à ce jour »).<br><br>
-                                Me BALLEY écrit lui-même, le 7 septembre 2023, que Gilles FÉLIHO n'est pas partie à ses actes. Il est absent du procès-verbal de lecture du testament (2012) et du communiqué du 3 avril 2013, qui désigne Me CRINOT comme administrateur.
-                            </td>
-                            <td>
-                                <span class="tag tag-source">Ancien Code pénal, art. 154</span><br>
-                                Obtention indue d'un document administratif au moyen de fausses déclarations, d'une <strong>fausse qualité</strong> ou de faux renseignements.<br><br>
-                                <span class="tag tag-source">Loi 2002-015, art. 1er</span><br>
-                                « Les notaires sont des officiers publics et ministériels. »<br><br>
-                                <span class="tag tag-source">Loi 2002-015, art. 61</span><br>
-                                « Les procurations sont annexées à l'acte à moins qu'elles ne soient déposées au rang des minutes du notaire rédacteur de l'acte. Dans ce cas, il est fait mention dans l'acte du dépôt de la procuration au rang des minutes. »
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <p>
-                Un certificat obtenu en se prévalant d'une qualité de mandataire que rien ne vient établir est <strong>contraire à l'article 154</strong>.
-                Un notaire, officier public, qui agit sur procuration est tenu de l'annexer à l'acte ou de la déposer à ses minutes, avec mention :
-                le mandat invoqué devrait donc exister dans les minutes de l'Étude. Il n'a jamais été produit.
-            </p>
-
-            <h3>7.3 Troisième contradiction : une déclaration inscrite au répertoire de l'Étude et un acte faux utilisé</h3>
-            <p>
-                La déclaration de mutation, porteuse de la date du 10 juin 2016, a été enregistrée <strong>dans le répertoire de l'Étude</strong>
-                (n° 1428) : c'est l'inscription, dans un registre public tenu par un officier public, d'un fait contredit par un jugement
-                antérieur de près de deux ans. Elle relève des <strong>articles 145 et 146 de l'ancien Code pénal</strong> : le premier réprime
-                l'inscription frauduleuse dans un registre ou un acte public par un officier public, le second la constatation comme vrais de
-                faits qui sont faux dans un acte de son ministère.
-            </p>
-            <p>
-                Le certificat a ensuite été <strong>utilisé</strong>. Le courrier de la DGI du 6 janvier 2025 le tient pour « authentique » et ne dit rien du
-                prétendu mandat. L'<strong>article 148</strong> réprime l'usage d'un acte faux. Le caractère faux de la date était vérifiable de longue date : le communiqué
-                de la succession du 3 avril 2013 (journal La Nation) et le jugement du 31 octobre 2014 sont des pièces publiques, antérieures au certificat de plus de trois ans pour le communiqué et de près de deux ans pour le jugement.
+es au certificat de plus de trois ans pour le communiqué et de près de deux ans pour le jugement.
             </p>
 
             <h3>7.4 Les conséquences prévues par les textes</h3>
@@ -1175,7 +1251,7 @@
                         <li><strong>Loi n° 2006-14</strong> portant régime des personnes et biens en matière de successions : article 29</li>
                         <li><strong>Ancien Code pénal (Code Bouvenet), en vigueur en 2016</strong> : articles 145, 146, 148, 153, 154</li>
                         <li><strong>Code général des impôts</strong> : article 438 (délai de déclaration des successions)</li>
-                        <li><strong>Loi n° 2002-015 du 30 décembre 2002 portant Statut du notariat</strong> : articles 1er, 8, 47, 61, 112, 113, 117 (<a href="pieces/loi-2002-015-statut-du-notariat.pdf" target="_blank" rel="noopener">PDF</a>)</li>
+                        <li><strong>Loi n° 2002-015 du 30 décembre 2002 portant Statut du notariat</strong> : articles 1er, 8, 33, 37, 47, 61, 76, 82, 112, 113, 117 (<a href="pieces/loi-2002-015-statut-du-notariat.pdf" target="_blank" rel="noopener">PDF</a>)</li>
                     </ul>
                 </div>
             </div>
