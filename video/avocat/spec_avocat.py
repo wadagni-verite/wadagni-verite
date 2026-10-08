@@ -199,8 +199,8 @@ scene("La qualification : textes à vérifier sur le texte officiel",
      card("<b>1.</b> Irrégularité formelle<br><b>2.</b> Faute professionnelle (civile, disciplinaire)<br><b>3.</b> Faux intentionnel (pénal)")),
  cue("Le faux suppose une altération frauduleuse de la vérité, un écrit protégé et une aptitude à causer un préjudice. L'intention du notaire Félix BALLEY, sa connaissance de la fausseté, doit être établie.",
      card("Éléments : altération frauduleuse · écrit protégé · préjudice possible<br><b class='red'>Intention à établir</b>")),
- cue("La thèse soutenue est que le jugement de 2014 et le communiqué de 2013, antérieurs à l'inscription, rendaient la date du dix juin deux mille seize impossible à ignorer.",
-     card("Thèse : le jugement (2014) et le communiqué (2013) rendaient la date de 2016 <b>impossible à ignorer</b>")),
+ cue("La thèse soutenue est que le jugement de 2014 et le communiqué de 2013, antérieurs à l'inscription, établissaient que le décès est survenu le trois décembre deux mille dix. La date du dix juin deux mille seize, portée sur le certificat, est donc fausse.",
+     card("Thèse : le jugement (2014) et le communiqué (2013) établissaient le décès au <b class='gold'>3 décembre 2010</b><br>La date du 10 juin 2016 du certificat est <b class='red'>fausse</b>")),
  cue("Il faut enfin distinguer ce que le notaire Félix BALLEY rapporte comme déclaration d'une partie, de ce qu'il affirme avoir lui-même constaté.",
      card("Déclaration d'une partie<br>≠ constatation personnelle de l'officier public")))
 
