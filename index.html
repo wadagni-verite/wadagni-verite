@@ -248,6 +248,21 @@
         .citation-or blockquote { max-width: 860px; margin: 0 auto; position: relative; }
         .citation-or blockquote::before { content: "\201C"; display: block; font-family: Georgia, 'Times New Roman', serif; font-size: 72px; line-height: .6; color: var(--gold); opacity: .8; margin-bottom: 14px; }
         .citation-or p { font-family: Georgia, 'Times New Roman', serif; font-style: italic; font-size: clamp(1.25rem, 2.6vw, 1.85rem); line-height: 1.55; color: var(--gold); margin: 0; text-shadow: 0 1px 12px rgba(212,175,55,.25); }
+        /* Bordereau des pièces */
+        .bordereau { padding: 50px 20px; background: var(--light-gray); }
+        .bordereau h2 { text-align: center; color: var(--navy); font-size: 1.9rem; margin-bottom: 8px; }
+        .bd-sub { text-align: center; color: var(--gray); max-width: 760px; margin: 0 auto 26px; }
+        .bd-wrap { overflow-x: auto; border-radius: 12px; box-shadow: 0 4px 18px rgba(10,31,68,.08); }
+        .bd-table { width: 100%; min-width: 680px; border-collapse: collapse; background: #fff; font-size: .95rem; }
+        .bd-table th { background: #1c3380; color: #fff; text-align: left; padding: 12px 14px; font-size: .8rem; letter-spacing: .06em; text-transform: uppercase; }
+        .bd-table td { padding: 12px 14px; border-top: 1px solid #e5e7eb; vertical-align: middle; }
+        .bd-num { font-weight: 800; color: #c7171f; font-size: 1.15rem; text-align: center; width: 54px; }
+        .bd-meta { color: var(--gray); white-space: nowrap; font-size: .85rem; }
+        .bd-btn { display: inline-block; background: #1c3380; color: #fff; text-decoration: none; padding: 8px 14px; border-radius: 8px; font-weight: 600; font-size: .85rem; white-space: nowrap; }
+        .bd-btn:hover { background: var(--navy); }
+        .bd-all { text-align: center; margin-top: 22px; }
+        .bd-btn-all { background: var(--gold); color: var(--navy); padding: 12px 22px; font-size: 1rem; }
+        .bd-btn-all:hover { background: #c19b2e; }
         .video-section { padding: 50px 20px; background: var(--light-gray); text-align: center; }
         .video-section h2 { color: var(--navy); font-size: 2rem; margin-bottom: 8px; }
         .video-section .video-sub { color: var(--gray); margin-bottom: 24px; }
@@ -1265,6 +1280,37 @@
             </details>
         </div>
     </section>
+
+    <!-- BORDEREAU:START -->
+    <section class="bordereau" id="bordereau">
+        <div class="container">
+            <h2>Bordereau des pièces</h2>
+            <p class="bd-sub">Plainte déontologique — Notaire Félix A. BALLEY — Succession J. F. FELIHO. 14 pièces numérotées, chacune téléchargeable individuellement et revêtue de son tampon.</p>
+            <div class="bd-wrap">
+                <table class="bd-table">
+                    <thead><tr><th>N°</th><th>Intitulé</th><th>Format</th><th>Téléchargement</th></tr></thead>
+                    <tbody>
+                        <tr><td class="bd-num">1</td><td>Certificat de décès de feu Jean Florentin FELIHO</td><td class="bd-meta">1&nbsp;p. · 70 Ko</td><td><a class="bd-btn" href="pieces/bordereau/piece-01-certificat-deces.pdf" download>📥 Télécharger la pièce n°1</a></td></tr>
+                        <tr><td class="bd-num">2</td><td>PV de Lecture du Testament olographe (24/04/2012)</td><td class="bd-meta">5&nbsp;p. · 469 Ko</td><td><a class="bd-btn" href="pieces/bordereau/piece-02-pv-lecture-testament.pdf" download>📥 Télécharger la pièce n°2</a></td></tr>
+                        <tr><td class="bd-num">3</td><td>Courriel officiel de l&#x27;Étude Irène ADJAGBA ICHOLA</td><td class="bd-meta">3&nbsp;p. · 467 Ko</td><td><a class="bd-btn" href="pieces/bordereau/piece-03-courriel-etude-ichola.pdf" download>📥 Télécharger la pièce n°3</a></td></tr>
+                        <tr><td class="bd-num">4</td><td>Communiqué de l&#x27;Administrateur judiciaire (La Nation)</td><td class="bd-meta">1&nbsp;p. · 487 Ko</td><td><a class="bd-btn" href="pieces/bordereau/piece-04-communique-la-nation.pdf" download>📥 Télécharger la pièce n°4</a></td></tr>
+                        <tr><td class="bd-num">5</td><td>Jugement civil contradictoire n°114/14 du TPI de Cotonou</td><td class="bd-meta">8&nbsp;p. · 3.4 Mo</td><td><a class="bd-btn" href="pieces/bordereau/piece-05-jugement-114-14.pdf" download>📥 Télécharger la pièce n°5</a></td></tr>
+                        <tr><td class="bd-num">6</td><td>Certificat d&#x27;Acquit de Droit frauduleux (20/10/2016)</td><td class="bd-meta">1&nbsp;p. · 48 Ko</td><td><a class="bd-btn" href="pieces/bordereau/piece-06-certificat-acquit-de-droit.pdf" download>📥 Télécharger la pièce n°6</a></td></tr>
+                        <tr><td class="bd-num">7</td><td>Lettre officielle d&#x27;observations de la DGI (06/01/2025)</td><td class="bd-meta">2&nbsp;p. · 715 Ko</td><td><a class="bd-btn" href="pieces/bordereau/piece-07-lettre-dgi.pdf" download>📥 Télécharger la pièce n°7</a></td></tr>
+                        <tr><td class="bd-num">8</td><td>Sommation interpellative et de compulsion d&#x27;huissier</td><td class="bd-meta">2&nbsp;p. · 573 Ko</td><td><a class="bd-btn" href="pieces/bordereau/piece-08-sommation-huissier.pdf" download>📥 Télécharger la pièce n°8</a></td></tr>
+                        <tr><td class="bd-num">9</td><td>Lettre de réponse de Me Félix BALLEY (07/09/2023)</td><td class="bd-meta">1&nbsp;p. · 200 Ko</td><td><a class="bd-btn" href="pieces/bordereau/piece-09-lettre-balley.pdf" download>📥 Télécharger la pièce n°9</a></td></tr>
+                        <tr><td class="bd-num">10</td><td>Procès-verbal de séance de l&#x27;APDP (19/06/2024)</td><td class="bd-meta">3&nbsp;p. · 785 Ko</td><td><a class="bd-btn" href="pieces/bordereau/piece-10-pv-apdp.pdf" download>📥 Télécharger la pièce n°10</a></td></tr>
+                        <tr><td class="bd-num">11</td><td>Audition de témoin de Me BALLEY (Brigade Criminelle)</td><td class="bd-meta">3&nbsp;p. · 1.5 Mo</td><td><a class="bd-btn" href="pieces/bordereau/piece-11-audition-brigade-criminelle.pdf" download>📥 Télécharger la pièce n°11</a></td></tr>
+                        <tr><td class="bd-num">13</td><td>PV de compulsion foncière Mairie de Cotonou &amp; IGN</td><td class="bd-meta">3&nbsp;p. · 205 Ko</td><td><a class="bd-btn" href="pieces/bordereau/piece-13-pv-compulsion-fonciere.pdf" download>📥 Télécharger la pièce n°13</a></td></tr>
+                        <tr><td class="bd-num">14</td><td>Lettre de transmission foncière de 2007 (Lot 923)</td><td class="bd-meta">1&nbsp;p. · 1.6 Mo</td><td><a class="bd-btn" href="pieces/bordereau/piece-14-lettre-transmission-2007.pdf" download>📥 Télécharger la pièce n°14</a></td></tr>
+                        <tr><td class="bd-num">15</td><td>Contestation formelle et mise en demeure à la DGI</td><td class="bd-meta">2&nbsp;p. · 218 Ko</td><td><a class="bd-btn" href="pieces/bordereau/piece-15-contestation-mise-en-demeure.pdf" download>📥 Télécharger la pièce n°15</a></td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="bd-all"><a class="bd-btn bd-btn-all" href="pieces/bordereau/bordereau-pieces-tamponnees.zip" download>📦 Télécharger toutes les pièces (ZIP, 10.0 Mo)</a></p>
+        </div>
+    </section>
+<!-- BORDEREAU:END -->
 
     <section class="comparison">
         <div class="container">
