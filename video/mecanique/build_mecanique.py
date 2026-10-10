@@ -28,10 +28,16 @@ if not EST:
             if cur and len(cur)+1+len(ph)>maxc: o.append(cur); cur=ph
             else: cur=(cur+' '+ph).strip()
         return o+[cur]
+    import hashlib
+    os.makedirs(os.path.join(out,'cache'),exist_ok=True)
+    def synth(p):
+        h=os.path.join(out,'cache',hashlib.md5((p+str(SPEED)).encode()).hexdigest()+'.npy')
+        if os.path.exists(h): return np.load(h)
+        x,_=k.create(p,voice='ff_siwis',speed=SPEED,lang='fr-fr'); np.save(h,x); return x
     for _,_,v in cues:
-        parts=[];
+        parts=[]
         for p in chunk(v):
-            x,sr=k.create(p,voice='ff_siwis',speed=SPEED,lang='fr-fr'); parts.append(x)
+            parts.append(synth(p))
         gap=np.zeros(int(.25*sr),dtype=np.float32)
         w=parts[0]
         for p in parts[1:]: w=np.concatenate([w,gap,p])

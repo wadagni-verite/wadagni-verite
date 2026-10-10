@@ -64,7 +64,7 @@ S('a11','Acte 1 — L\'officier public et l\'intention','bg-iv',
 
 def a12(T):
     c=T['c'];b=''
-    cols=[('Déclaration de décès · CNHU-HKM','P1','3 décembre 2010','Jean Florentin FÉLIHO, décédé à Cotonou',''),
+    cols=[('Certificat de décès · signé le 6 décembre 2010','P1','3 décembre 2010','Jean Florentin FÉLIHO, décédé à Cotonou',''),
           ('PV de lecture du testament · audience du 24 avril 2012','P2','3 décembre 2010','« décédé à Cotonou le 03 décembre 2010 »',''),
           ('Jugement n° 114/14 · 31 octobre 2014','P5','3 décembre 2010','« décédé le 03 décembre 2010 à Cotonou »',''),
           ('Certificat d\'acquit de droit · 20 octobre 2016','P6','10 juin 2016','« décédé à Cotonou le dix juin deux mil seize »','red')]
@@ -75,7 +75,7 @@ def a12(T):
     b+=E('Trois sources indépendantes. <span class="stone">Une seule date.</span><br><span class="red">Une seule contredit les autres.</span>',c[4],60,400,1160,None,'fade',.8,'lg serif center')
     return b
 S('a12','Acte 1 — La connaissance objective','bg-iv',
-  [("Quatre pièces. La déclaration de décès, P1 : décès le 3 décembre 2010.",None),
+  [("Quatre pièces. Le certificat de décès, P1, signé le 6 décembre 2010 : décès le 3 décembre 2010.",None),
    ("Le procès-verbal de lecture du testament, P2, audience du 24 avril 2012 : décédé à Cotonou le 3 décembre 2010.",None),
    ("Le jugement n° 114/14, P5, du 31 octobre 2014 : décédé le 3 décembre 2010.",None),
    ("Le certificat d'acquit de droit, P6, daté du 20 octobre 2016 : décès le 10 juin 2016.",None),
@@ -108,7 +108,7 @@ S('a13','Acte 1 — L\'effet juridique de la fausse date','bg-iv',
    (f"Pour comprendre, il faut remonter le fil des positions successives de {N}.",None)],a13)
 
 # ====================== ACTE 2 ======================
-LAB=[('Mandataire','2016'),('Tiers non partie','2023'),('Décision de justice','2024'),('Exécution partielle','2025')]
+LAB=[('Mandataire','2016'),('Tiers non partie','2023'),('Exécution partielle','2025'),('Décision de justice','2024')]
 def a20(T):
     c=T['c'];b=''
     g=''
@@ -156,7 +156,7 @@ S('a22','Acte 2 — Pignon 2','bg-navy',
 
 def a23(T):
     c=T['c'];ce=T['ce'];T['fx'].append(('click',ce[-1]-.2))
-    b=mech_row(T,2,ce[-1]-.2)+title_gear(T,3,'Décision de justice exécutoire','2024')
+    b=mech_row(T,3,ce[-1]-.2)+title_gear(T,4,'Décision de justice exécutoire','2024')
     b+=pic('apdp-decision.jpg','PV de séance de l\'APDP, 19 juin 2024, p. 3/3 (P10)',c[0]+.3,60,235,700)
     ph='<div style="height:12px;background:#d9d2c0;margin:10px 0;filter:blur(2.5px);border-radius:3px"></div>'*3
     b+=paper('Décision de justice ?','',ph+'<div class="sm stone" style="margin-top:6px">sans numéro · sans juridiction · sans dispositif</div>',c[0]+1.5,830,235,390,None,'')
@@ -164,27 +164,32 @@ def a23(T):
     b+=paper('Jugement n° 114/14 · 31 octobre 2014','P5','<div class="qt" style="font-size:21px">« Constate » · déclare la demande irrecevable.<br><span class="red"><b>Aucun ordre adressé à un notaire.</b></span> Le notaire Félix BALLEY n\'y figure pas.</div>',c[2]+.3,60,400,700,None,'')
     b+=E('Invoquer une décision <span class="gold">ne vaut pas produire un titre.</span>',c[3]+.2,60,525,740,None,'fade',.7,'serif ivc','font-size:30px;font-weight:700')
     return b
-S('a23','Acte 2 — Pignon 3','bg-navy',
-  [(f"Pignon 3 : décision de justice exécutoire, en 2024. Devant l'APDP, le 19 juin, P10, {N} déclare que son action fait suite à une décision de justice devenue exécutoire.","Pignon trois : décision de justice exécutoire, en 2024. Devant l'A P D P, le 19 juin, P10, "+N+" déclare que son action fait suite à une décision de justice devenue exécutoire."),
+S('a23','Acte 2 — Pignon 4','bg-navy',
+  [(f"Pignon 4 : décision de justice exécutoire, en 2024. Devant l'APDP, le 19 juin, P10, {N} déclare que son action fait suite à une décision de justice devenue exécutoire.","Pignon quatre : décision de justice exécutoire, en 2024. Devant l'A P D P, le 19 juin, P10, "+N+" déclare que son action fait suite à une décision de justice devenue exécutoire."),
    (f"Quelle décision ? Que dit son dispositif ? Désigne-t-elle {N} ? Aucune réponse n'est produite.",None),
    (f"Le jugement de 2014, P5, ne mentionne pas {N} et ne lui ordonne rien : il constate et déclare irrecevable.",None),
    ("Invoquer une décision ne vaut pas produire un titre.",None)],a23)
 
 def a24(T):
     c=T['c'];ce=T['ce'];T['fx'].append(('click',ce[-1]-.2))
-    b=mech_row(T,3,ce[-1]-.2)+title_gear(T,4,'Exécution partielle','2025')
+    b=mech_row(T,2,ce[-1]-.2)+title_gear(T,3,'Exécution partielle','2025')
     b+=pic('pv-execution.jpg','PV d\'audition du 19 mars 2025, Brigade criminelle, p. 5/5 (P11)',c[0]+.3,60,235,700)
     b+=pic('pv-dossier.jpg','PV d\'audition du 19 mars 2025, p. 2/5 (P11) : « sauf lui »',c[1]+.3,60,380,700)
     b+=paper('Code des personnes et de la famille','',f'<div class="sm"><b>Art. 940</b> : exécuteur nommé par le testateur<br><span class="red"><b>Aucune désignation produite</b></span></div><div class="sm" style="margin-top:10px"><b>Art. 941</b> : saisine limitée aux <b>meubles</b>, un an et un jour</div>',c[2]+.3,810,235,410,None,'')
-    b+=E('<div class="serif md ivc"><span class="gold">Décès : 2010</span><br><span class="gold">Enregistrement de la déclaration : 2016</span><br><b>Plus de 5 ans et demi après le décès</b></div>',c[3]+.3,810,430,410,None,'fade',.6)
+    b+=E('<div class="serif md ivc"><span class="gold">Décès : 2010</span><br><span class="gold">Enregistrement de la déclaration : 2016</span><br><b>Plus de 5 ans et demi après le décès</b></div>',c[3]+.3,810,430,410,None,'fade',.6,'','',c[4]+.3)
+    b+=paper('Aucun acte de disposition établi','P13 · P14','<div class="sm">Parcelle B du lot 488 : <b>inconnue</b> de la Mairie de Cotonou et de l\'IGN.<br>Pièce de 2007 : lot <b>923</b>, antérieure au décès.</div>',c[4]+.4,810,430,410,None,'red','fade',.6,c[5]+.3)
+    b+=pic('pvc-bail.jpg','Constat d\'huissier du 29 juillet 2022 (P12) : un appartement loué par une société tierce',c[5]+.4,810,430,410)
+    b+=E('<span class="red" style="font-weight:700">Le bail n\'est pas produit.</span>',c[5]+1.6,810,556,410,None,'fade',.5,'serif md')
     return b
-S('a24','Acte 2 — Pignon 4','bg-navy',
-  [(f"Pignon 4 : exécution partielle, en 2025. Le 19 mars, devant la Brigade criminelle, P11, {N} déclare : « dont j'ai été saisi d'une exécution partielle ».","Pignon quatre : exécution partielle, en 2025. Le 19 mars, devant la Brigade criminelle, P11, "+N+" déclare : dont j'ai été saisi d'une exécution partielle."),
+S('a24','Acte 2 — Pignon 3','bg-navy',
+  [(f"Pignon 3 : exécution partielle, en 2025. Le 19 mars, devant la Brigade criminelle, P11, {N} déclare : « dont j'ai été saisi d'une exécution partielle ».","Pignon trois : exécution partielle, en 2025. Le 19 mars, devant la Brigade criminelle, P11, "+N+" déclare : dont j'ai été saisi d'une exécution partielle."),
    ("Il ajoute : « Le dossier m'a été transmis par l'ensemble de la succession sauf lui ».",None),
    (f"Le Code des personnes et de la famille ne connaît qu'un exécuteur désigné par le testateur : article 940. Aucune désignation du notaire Félix BALLEY n'est produite.",None),
-   ("Même un exécuteur n'a qu'une saisine limitée aux meubles, un an et un jour : article 941. Ici, la déclaration date de plus de cinq ans et demi après le décès.",None)],a24)
+   ("Même un exécuteur n'a qu'une saisine limitée aux meubles, un an et un jour : article 941. Ici, la déclaration est enregistrée plus de cinq ans et demi après le décès.",None),
+   ("Les pièces P13 et P14 : la parcelle B du lot 488 est inconnue de la Mairie et de l'IGN, et la pièce de 2007 vise le lot 923. Aucun acte de disposition n'est établi.",None),
+   ("Constat d'huissier du 29 juillet 2022, P12 : un appartement est occupé par la société Vissim, qui déclare le tenir à bail de la société évènementiel. Le bail n'est pas produit.",None)],a24)
 
-DOCS=[('Procuration','doc',230,160),('Acte dont il serait partie','doc',1050,160),('Décision de justice','scales',230,420),('Désignation d\'exécuteur','doc',1050,420)]
+DOCS=[('Procuration','doc',230,160),('Acte dont il serait partie','doc',1050,160),('Désignation d\'exécuteur','doc',230,420),('Décision de justice','scales',1050,420)]
 def a25(T):
     c=T['c'];ce=T['ce'];b=''
     r=''
@@ -207,7 +212,7 @@ def a25(T):
     return b
 S('a25','Acte 2 — La boucle de verrouillage','bg-navy',
   [("Les quatre positions s'enchaînent en un cercle fermé.",None),
-   ("Mandataire, mais aucune procuration. Tiers non partie, mais le certificat le dit représenté. Décision de justice, mais jamais produite. Exécution partielle, mais aucune désignation.",None),
+   ("Mandataire, mais aucune procuration. Tiers non partie, mais le certificat le dit représenté. Exécution partielle, mais aucune désignation. Décision de justice, mais jamais produite.",None),
    ("Chacune écarte le contrôle qui devait vérifier la précédente.",None)],a25)
 
 def a26(T):
@@ -228,8 +233,8 @@ S('a26','Acte 2 — Le refus d\'accès','bg-navy',
 # ====================== ACTE 3 ======================
 def a31(T):
     c=T['c'];b=''
-    tx,ty=500,360
-    papers=[('Déclaration de décès · CNHU-HKM','P1',60,110),('PV de lecture du testament','P2',370,110),('Jugement n° 114/14','P5',680,110)]
+    tx,ty=500,322
+    papers=[('Certificat de décès · P1','P1',60,110),('PV de lecture du testament','P2',370,110),('Jugement n° 114/14','P5',680,110)]
     ln=''
     for i,(ti,p,x,y) in enumerate(papers):
         b+=paper(ti,p,'<div class="date" style="font-size:30px">3 décembre 2010</div>',c[0]+.3+i*.7,x,y,280,None,'','fade',.6)
@@ -239,12 +244,15 @@ def a31(T):
     b+=E('<span class="serif" style="font-size:26px"><b>3 décembre 2010</b></span>',c[1]+.2,tx-120,ty+22,240,None,'fade',.5,'center')
     b+=paper('Certificat d\'acquit de droit · 20 oct. 2016','P6','<div class="date red" style="font-size:30px">10 juin 2016</div>',c[2]+.3,900,230,320,None,'red','r',.7,None,'r')
     b+=svg(wave(900,290,170,c[2]+1.0)+f'<line class="el" data-t="{c[2]+.9:.2f}" data-fn="crack" data-len="420" data-dur=".8" x1="900" y1="300" x2="{tx}" y2="{ty}" stroke="{RED}" stroke-width="4" stroke-dasharray="10 8"/>')
-    b+=E('Ces pièces étaient accessibles avant l\'inscription.<br><span class="red">Il ne s\'agit pas de supposer une intention,</span> mais de constater que la vérification était possible.',c[3],60,455,1160,None,'fade',.8,'md serif center')
+    b+=pic('pv-confirme.jpg','PV d\'audition du 19 mars 2025, p. 2/5 (P11) : le notaire Félix BALLEY invoque le jugement du 31 octobre 2014',c[3]+.3,60,388,520)
+    b+=pic('jug-deces.jpg','Jugement n° 114/14, p. 6 (P5) : décès le 3 décembre 2010',c[3]+1.6,660,388,520)
+    b+=E('Ces pièces étaient accessibles avant l\'inscription.<br><span class="red">Il ne s\'agit pas de supposer une intention,</span> mais de constater que la vérification était possible.',c[4],60,512,1160,None,'fade',.8,'md serif center',"",None)
     return b
 S('a31','Acte 3 — La preuve de l\'intention','bg-iv',
   [("Avant l'inscription au répertoire du 10 août 2016, trois pièces fixaient le décès au 3 décembre 2010 : P1, P2 et P5.",None),
-   ("La déclaration de décès, le procès-verbal de lecture du testament, le jugement : trois actes publics ou judiciaires.",None),
+   ("Le certificat de décès, le procès-verbal de lecture du testament, le jugement : trois actes publics ou judiciaires.",None),
    ("La date du 10 juin 2016 apparaît dans un acte postérieur à ces trois pièces.",None),
+   (f"Le 19 mars 2025, P11, {N} invoque lui-même le jugement du 31 octobre 2014. Ce jugement retient le décès au 3 décembre 2010.",None),
    ("Ces pièces étaient accessibles avant l'inscription. Il ne s'agit pas de supposer une intention, mais de constater que la vérification était possible.",None)],a31)
 
 def a32(T):
@@ -335,7 +343,7 @@ S('a40','Acte 4 — Dix mesures d\'instruction','bg-navy',
    ("Elles sont précises, vérifiables et contradictoires.",None)],a40)
 
 MES=[('bank','DGI : dossier de mutation intégral','Déclarations, annexes, bordereaux, courriers et annotations internes détenus par la DGI.','P6, P7',"Mesure 1 — DGI : l'intégralité du dossier de mutation, avec déclarations, annexes, bordereaux, courriers et annotations internes.","Mesure un : D G I : l'intégralité du dossier de mutation, avec déclarations, annexes, bordereaux, courriers et annotations internes."),
-     ('doc','Procuration : original ou constat d\'absence','L\'original de la procuration, ou la constatation officielle de son absence dans les minutes et annexes.','P6, P8, P9, P15',"Mesure 2 — Procuration : son original, ou la constatation officielle de son absence dans les minutes et annexes.","Mesure deux : procuration : son original, ou la constatation officielle de son absence dans les minutes et annexes."),
+     ('doc','Procuration : original ou constat d\'absence','L\'original de la procuration, ou la constatation officielle de son absence dans les minutes et annexes.','P2, P9, P15',"Mesure 2 — Procuration : son original, ou la constatation officielle de son absence dans les minutes et annexes.","Mesure deux : procuration : son original, ou la constatation officielle de son absence dans les minutes et annexes."),
      ('glass','Expertise des écritures et signatures','Comparer écritures, signatures, dates et mentions : certificat, déclaration, répertoire, pièces transmises à la DGI.','P6, P7',"Mesure 3 — Expertise : comparer écritures, signatures, dates et mentions du certificat, de la déclaration et du répertoire.","Mesure trois : expertise : comparer écritures, signatures, dates et mentions du certificat, de la déclaration et du répertoire."),
      ('finger','Traçabilité : source de la date','Identifier la personne qui a fourni la date du 10 juin 2016.','P6, P7, P11',"Mesure 4 — Traçabilité : identifier la personne qui a fourni la date du 10 juin 2016.","Mesure quatre : traçabilité : identifier la personne qui a fourni la date du 10 juin 2016."),
      ('mic','Auditions : personnel de l\'Étude','Auditionner le personnel de l\'Étude qui a préparé ou transmis la déclaration.','P11',"Mesure 5 — Auditions : le personnel de l'Étude qui a préparé ou transmis la déclaration.","Mesure cinq : auditions : le personnel de l'Étude qui a préparé ou transmis la déclaration."),
@@ -405,3 +413,7 @@ def e2(T):
     b+=E('wadagni2026-verite.com',c[0]+4.2,0,470,1280,None,'fade',.9,'md center gold')
     return b
 S('e2',None,'bg-navy',[("Gilles Sixte Féliho, requérant. Maître Atoun Codjo Narcisse, avocat au barreau du Bénin. Cotonou, le 9 octobre 2026.",None)],e2,minlen=8)
+
+# ordre des pignons : 1 mandataire, 2 tiers non partie, 3 exécution partielle (a24), 4 décision de justice (a23)
+_i23=[i for i,s in enumerate(SC) if s['id']=='a23'][0];_i24=[i for i,s in enumerate(SC) if s['id']=='a24'][0]
+SC[_i23],SC[_i24]=SC[_i24],SC[_i23]
