@@ -15,7 +15,7 @@ for si,sc in enumerate(sp.SC):
         v=voice(vo or sub); assert not re.search(r'\bMe\b',v),v
         cues.append((si,sub,v))
 # audit : "notaire" sans nom
-bad=[sub for _,sub,_ in cues if re.search(r'\bnotaire\b(?! Félix)',sub)]
+bad=[sub for _,sub,_ in cues if '«' not in sub and re.search(r'\bnotaire\b(?! Félix)',sub)]
 print('mentions « notaire » sans nom :',len(bad),bad[:3])
 wavs=[];sr=24000
 if not EST:

@@ -54,15 +54,23 @@ def a11(T):
         y=148+i*128
         b+=E(f'<div style="display:flex;gap:18px;align-items:center;border-left:7px solid {GOLD};padding:6px 0 6px 16px;background:rgba(201,162,39,.12)">{icon(ic,58)}<div><div class="serif" style="font-size:26px;font-weight:700">{art}</div><div class="qt" style="font-size:20px;line-height:1.25">{txt}</div><div class="cap">{src}</div></div></div>',c[1+i],86,y,730,None,'l',.6)
     b+=E(f'<div class="paper gold center" style="padding:14px"><div style="display:flex;justify-content:center">{icon("lock",64,RED)}</div><div class="serif lg" style="margin-top:4px;font-size:30px">Obligation de<br><span class="red">vérification renforcée</span></div></div>',c[4],880,170,340,None,'pop',.7)
-    b+=paper('Arrêt n° 49/CJ-CM · 29 novembre 2019','à vérifier','<div class="sm">Le notaire qui ne met pas à disposition de son client les informations qui l\'éclairent fait encourir nullité à son acte.</div>',c[5]+.3,880,420,340,None,'')
     return b
 S('a11','Acte 1 — L\'officier public et l\'intention','bg-iv',
   [(f"{N[0].upper()+N[1:]} est officier public. Le statut du notariat, loi n° 2002-015 du 30 décembre 2002, lui impose des obligations précises.",None),
    ("Article 1er : il est chargé d'assurer la date des actes et d'en conserver le dépôt.","Article premier : il est chargé d'assurer la date des actes et d'en conserver le dépôt."),
    ("Article 33 : il a juré de remplir ses fonctions avec exactitude et probité.",None),
    ("Article 47 : il est responsable, disciplinairement et pénalement, des fautes commises dans son ministère.",None),
-   ("Cette qualité fonde une obligation de vérification renforcée.",None),
-   ("Un arrêt invoqué, du 29 novembre 2019, à vérifier, rappelle que l'officier public qui ne met pas à disposition les informations qui éclairent son acte en encourt la nullité.","Un arrêt invoqué, numéro quarante-neuf, C J, C M, du 29 novembre 2019, à vérifier, rappelle que l'officier public qui ne met pas à disposition les informations qui éclairent son acte en encourt la nullité.")],a11)
+   ("Cette qualité fonde une obligation de vérification renforcée.",None)],a11)
+
+def a11b(T):
+    c=T['c'];b=''
+    b+=pic('arret-2019.jpg','Cour suprême du Bénin, arrêt n° 49/CJ-CM du 29 novembre 2019 : sommaire',c[0]+.4,60,92,480)
+    b+=paper('Cour suprême du Bénin · arrêt n° 49/CJ-CM · 29 novembre 2019','','<div class="serif" style="font-size:20px;line-height:1.4"><b>ORABANK BENIN</b> c/ <b>DRANIS SARL</b></div><div class="qt" style="margin-top:12px;font-size:25px">« L\'acte authentique fait foi jusqu\'à inscription de faux. Toutefois, le notaire qui ne met pas à la disposition de son client toutes les informations susceptibles de l\'éclairer, fait encourir nullité à son acte. »</div>',c[0]+1.2,600,92,620,None,'gold')
+    b+=E('Si le mandat existait, Gilles FÉLIHO était <span class="red">le client</span> : la communication des actes lui était due.',c[1]+.2,600,430,620,None,'fade',.7,'serif','font-size:26px;font-weight:700')
+    return b
+S('a11b','Acte 1 — L\'obligation d\'information','bg-iv',
+  [("Dans sa décision du 29 novembre 2019, la Cour suprême du Bénin rappelle : « L'acte authentique fait foi jusqu'à inscription de faux. Toutefois, le notaire qui ne met pas à la disposition de son client toutes les informations susceptibles de l'éclairer, fait encourir nullité à son acte. »",None),
+   ("Si le mandat existait, Gilles Féliho était le client : la communication des actes lui était due.",None)],a11b)
 
 def a12(T):
     c=T['c'];b=''
@@ -143,6 +151,20 @@ S('a21','Acte 2 — Pignon 1','bg-navy',
    (f"Gilles Féliho n'a jamais donné mandat au notaire Félix BALLEY et n'a jamais consenti à cette mention.",None),
    ("L'article 61 du statut exige que les procurations soient annexées à l'acte ou déposées au rang des minutes. Aucune procuration n'est produite.",None),
    ("Le 28 mai 2025, P15, la preuve écrite du mandat est demandée à l'administration. Aucune réponse.",None)],a21)
+
+def c4(T):
+    c=T['c'];b=''
+    b+=pic('comm-decision.jpg','Communiqué de la succession, La Nation, 3 avril 2013 (P4)',c[0]+.3,60,100,640)
+    b+=pic('comm-seul.jpg','Communiqué (P4) : mission de l\'administrateur provisoire',c[1]+.3,60,250,640)
+    b+=paper('2013 · Communiqué (P4)','P4','<div class="sm">Maître Lazare CRINOT, administrateur : <b>« seul habilité à gérer les biens »</b><br><span class="red"><b>Le notaire Félix BALLEY n\'y figure pas.</b></span></div>',c[1]+.8,760,100,460,None,'')
+    b+=paper('2016 · Certificat (P6)','P6','<div class="sm">Le notaire Félix BALLEY : <b>« agissant en qualité de mandataire et au nom des héritiers »</b></div>',c[2]+.3,760,290,460,None,'red','fade',.6,None,'r')
+    b+=E('<span class="gold serif" style="font-size:70px;font-weight:700">?</span>',c[2]+1.2,960,398,80,None,'pop',.6)
+    b+=E('Où est le mandat ? <span class="gold">Où est la décision qui l\'autorise ?</span>',c[2]+1.6,60,500,1160,None,'fade',.8,'serif center ivc','font-size:32px;font-weight:700')
+    return b
+S('c4','Acte 2 — Le communiqué de 2013','bg-navy',
+  [("Le 3 avril 2013, un communiqué public, P4, publié dans La Nation, fait connaître la décision numéro 28 barre 12 de la Cour d'appel de Cotonou, qui nomme Maître Lazare Crinot administrateur de la succession.",None),
+   (f"Il précise : « Il est désormais seul habilité à gérer les biens de l'indivision successorale au nom et pour le compte de celle-ci. » {N[0].upper()+N[1:]} n'y figure pas.",None),
+   (f"En 2013, Maître Crinot est seul habilité à gérer les biens. En 2016, {N} agit comme mandataire des héritiers : où est le mandat ? Où est la décision qui l'autorise ?",None)],c4)
 
 def a22(T):
     c=T['c'];ce=T['ce'];T['fx'].append(('click',ce[-1]-.2))
@@ -406,13 +428,13 @@ def p2(T):
     b+=svg(sv)
     b+=E('<span class="cap">Masse du jugement</span>',c[0]+.6,900,178,300,None,'fade',.4)
     b+=E('<span class="cap">Masse déclarée au certificat</span>',c[2]+.6,900,258,300,None,'fade',.4)
-    b+=paper('À établir par l\'enquête','','<div class="sm">Le jugement vise <b>39 immeubles situés en France et au Bénin</b> ; le certificat, <b>7 immeubles</b>. Les périmètres ne sont pas identiques.<br>L\'article 816 forme la masse de <b>tous les biens existant au décès</b> : le préjudice dépend de l\'usage fait de la déclaration.</div>',c[3]+.3,60,350,1160,None,'gold')
+    b+=paper('Titre foncier d\'Agla n° 2222','P4 · P6','<div class="sm">Cité par le communiqué du 3 avril 2013 (P4) : <b>« A Agla, le domaine faisant l\'objet du titre foncier Agla TF n°2222 »</b>.<br><span class="red"><b>Absent du certificat (P6)</b></span> : les titres fonciers déclarés sont 739, 3325, 2601, 786, 123, 158 et 1402.</div><div style="margin-top:8px"><img src="../avocat/img/comm-agla.jpg" style="width:560px;border:2px solid #CDBF9F"></div>',c[3]+.3,60,340,1160,None,'gold')
     return b
 S('p2',TAGP,'bg-iv',
   [("Deuxième préjudice : la base de la réserve héréditaire. Article 813 : la réserve héréditaire globale est de deux tiers de la masse à partager.",None),
-   ("Le jugement de 2014, P5, page 6, retient 39 immeubles situés en France et au Bénin, estimés à 567 990 000 francs. Le certificat, P6, déclare 7 immeubles pour 138 300 000 francs.",None),
-   ("Si la déclaration servait de base, la réserve passerait de 378 660 000 à 92 200 000 francs : un écart de 286 460 000 francs.",None),
-   ("Mais les périmètres ne sont pas identiques, et l'article 816 retient tous les biens existant au décès. Le préjudice dépend de l'usage fait de la déclaration.",None)],p2)
+   ("Le jugement de 2014, P5, page 6, retient 39 immeubles, estimés à 567 990 000 francs. Le certificat, P6, déclare 7 immeubles pour 138 300 000 francs.",None),
+   ("La réserve, deux tiers de la masse, calculée sur la base de la déclaration, passe de 378 660 000 à 92 200 000 francs : un écart de 286 460 000 francs.",None),
+   ("Le communiqué de 2013, P4, désigne le domaine d'Agla, titre foncier numéro 2222. Ce titre ne figure pas au certificat.",None)],p2)
 
 def p3(T):
     c=T['c'];b=''
@@ -430,14 +452,14 @@ def p3(T):
     b+=E('<div class="serif center" style="font-size:24px"><span class="stone">Valeur déclarée (P6)</span> <b>65 000 000 FCFA</b></div>',c[3]+.2,700,540,520,None,'fade',.5)
     b+=E('<div class="serif center" style="font-size:24px"><span class="stone">Loyer 2011 (AIB)</span> <b class="red">60 000 000 FCFA</b></div>',c[3]+1.0,700,570,520,None,'fade',.5)
     b+=E('<span class="red serif" style="font-size:70px;font-weight:700">92 %</span>',c[3]+2.0,1030,330,180,None,'pop',.6)
-    b+=E('Un tel rapport est <span class="red">économiquement invraisemblable</span>. Il appelle une expertise indépendante.',c[4]+.2,60,555,600,None,'fade',.7,'serif','font-size:22px;font-weight:700')
+    b+=E('Un immeuble qui rapporte 60 millions par an ne peut pas valoir 65 millions : <span class="red">une impossibilité économique.</span>',c[4]+.2,60,555,600,None,'fade',.7,'serif','font-size:22px;font-weight:700')
     return b
 S('p3',TAGP+' · l\'indice AIB','bg-iv',
   [("L'indice commercial. La banque AIB, dans sa lettre du 5 octobre 2011, rappelle qu'il avait été convenu de payer les loyers en deux tranches de 30 millions de francs, impôts et taxes compris.",None),
    ("Un chèque de 24 461 751 francs est remis le 1er février 2011. Le 4 août 2011, un virement de 29 060 861 francs est effectué ; il fait ensuite l'objet d'une extourne.",None),
    ("Le certificat, P6, déclare l'immeuble du lot 240, Camp Guézo, pour 65 millions de francs.",None),
-   ("Soixante millions de loyer pour un immeuble déclaré à soixante-cinq millions : un rendement de 92 %. Ce rapport est économiquement invraisemblable.",None),
-   ("Cet écart n'est pas une approximation : il appelle une expertise immobilière indépendante.",None)],p3)
+   ("Un immeuble qui rapporte 60 millions de francs de loyer par an ne peut pas valoir 65 millions au total : c'est une impossibilité économique.",None),
+   ("Ce n'est pas une approximation : cet écart appelle une expertise immobilière indépendante.",None)],p3)
 
 def p4(T):
     c=T['c'];b=''
@@ -460,23 +482,31 @@ S('p4',TAGP+' · la mémoire du défunt','bg-black',
 
 def p5(T):
     c=T['c'];b=''
-    b+=paper('Jurisprudence invoquée · arrêt n° 49/CJ-CM du 29 novembre 2019 · à vérifier','','<div class="qt" style="font-size:21px">« Le notaire qui ne met pas à la disposition de son client toutes les informations susceptibles de l\'éclairer, fait encourir nullité à son acte. »</div>',c[0]+.3,60,92,1160,None,'gold')
+    b+=paper('Cour suprême du Bénin · arrêt n° 49/CJ-CM · 29 novembre 2019','','<div class="qt" style="font-size:21px">« Le notaire qui ne met pas à la disposition de son client toutes les informations susceptibles de l\'éclairer, fait encourir nullité à son acte. »</div>',c[0]+.3,60,92,1160,None,'gold')
     ev=[('20 oct. 2016','Certificat délivré. Gilles FÉLIHO n\'est pas informé par l\'Étude.',''),
-        ('24 mai 2018','Certificat reçu par courriel d\'un office notarial français (P8).',''),
+        ('24 mai 2018','Certificat reçu par courriel de l\'office notarial de Vincennes (P8).',''),
         ('4 août 2023','Sommation de compulsion du répertoire (P8).',''),
         ('7 sept. 2023','Refus : confidentialité, absence d\'ordonnance (P9).','red')]
     for i,(d,tx,cl) in enumerate(ev):
         t=c[1]+.3+i*1.7
         b+=paper(d,'',f'<div class="sm">{tx}</div>',t,60+i*295,250,272,170,cl,'fade',.6)
     b+=E('<span class="red" style="font-weight:700;font-size:26px" class="serif">FERMÉ</span>',c[1]+.3+3*1.7+.7,60+3*295+150,212,120,None,'pop',.5)
-    b+=E('Les actes demandés lui sont refusés : il ne peut ni les consulter, ni vérifier le répertoire, ni agir utilement.',c[2]+.2,60,445,1160,None,'fade',.7,'md serif center','font-size:25px')
-    b+=E('Date de découverte du dol, point de départ éventuel de la prescription (art. 1304 du Code civil, à vérifier) : <span class="red">à établir</span> — mesure n° 12.',c[3]+.2,60,505,1160,None,'fade',.7,'sm center','font-size:21px')
+    b+=E('Les actes demandés lui sont refusés : il ne peut ni les consulter, ni vérifier le répertoire, ni agir utilement.',c[2]+.2,60,470,1160,None,'fade',.7,'md serif center','font-size:25px')
     return b
 S('p5',TAGP+' · l\'entrave','bg-iv',
-  [("Quatrième préjudice : la perte de chance. Un arrêt invoqué, à vérifier, retient que l'officier public qui ne met pas à disposition de son client les informations qui l'éclairent fait encourir nullité à son acte.",None),
-   (f"Chronologie : le 20 octobre 2016, le certificat est délivré. Le 24 mai 2018, Gilles Féliho le reçoit par courriel d'un office notarial français, P8. Le 4 août 2023, sommation, P8. Le 7 septembre 2023, refus de {N}, P9.",None),
-   ("Les actes demandés lui sont refusés : il ne peut ni les consulter, ni vérifier le répertoire, ni agir utilement.",None),
-   ("La date de découverte du dol, point de départ éventuel de la prescription, article 1304 du Code civil, à vérifier, reste à établir : c'est la mesure numéro 12.",None)],p5)
+  [("Quatrième préjudice : la perte de chance. Dans sa décision du 29 novembre 2019, la Cour suprême du Bénin rappelle : « Le notaire qui ne met pas à la disposition de son client toutes les informations susceptibles de l'éclairer, fait encourir nullité à son acte. »",None),
+   (f"Chronologie : le 20 octobre 2016, le certificat est délivré. Le 24 mai 2018, Gilles Féliho le reçoit par courriel de l'office notarial de Vincennes, P8. Le 4 août 2023, sommation, P8. Le 7 septembre 2023, refus de {N}, P9.",None),
+   ("Les actes demandés lui sont refusés : il ne peut ni les consulter, ni vérifier le répertoire, ni agir utilement.",None)],p5)
+
+def p5b(T):
+    c=T['c'];b=''
+    b+=pic('mail-entete.jpg','Courriel du 24 mai 2018 : office notarial de Vincennes (P8)',c[0]+.3,60,110,760)
+    b+=pic('mail-corps.jpg','« Pour faire suite à nos différents échanges, je vous prie de trouver ci-joints, les documents que je viens de recevoir. »',c[0]+1.0,60,190,760)
+    b+=pic('mail-pj.jpg','Pièce jointe : DOCUMENT FELIHO.pdf (2,2 Mo)',c[0]+1.8,60,420,400)
+    b+=paper('Courriel du 24 mai 2018','P8','<div class="sm">Expéditeur : Élisabeth CHYRA, collaboratrice d\'Alexandrine BOISSONNET, notaire, office notarial de Vincennes.<br>Objet : <b>PARTAGE FELIHO</b>.<br>En première page du document joint : <b>le certificat d\'acquit de droit du 20 octobre 2016</b> (P6).</div>',c[0]+2.4,870,150,350,None,'gold')
+    return b
+S('p5b',TAGP+' · le courriel du 24 mai 2018','bg-iv',
+  [("Le 24 mai 2018, l'office notarial de Vincennes transmet à Gilles Féliho le document joint : en première page, le certificat d'acquit de droit du 20 octobre 2016.",None)],p5b,minlen=9)
 
 def p6(T):
     c=T['c'];b='';ce=T['ce']
@@ -502,11 +532,11 @@ S('p6',TAGP+' · l\'effet de cumul','bg-navy',
 def a40(T):
     c=T['c'];b=''
     b+=svg(wave(640,290,420,c[0]+1.0,'#F5F0E8')+seal_svg(640,290,110,c[0],crack_t=c[0]+.3,ring='#8793ad'))
-    b+=E('<span class="gold">13</span> mesures d\'instruction',c[0]+.6,0,450,1280,None,'fade',.9,'xl serif center ivc')
+    b+=E('<span class="gold">12</span> mesures d\'instruction',c[0]+.6,0,450,1280,None,'fade',.9,'xl serif center ivc')
     b+=E('précises · vérifiables · contradictoires',c[1],0,520,1280,None,'fade',.8,'md serif center ivc')
     return b
-S('a40','Acte 4 — Treize mesures d\'instruction','bg-navy',
-  [("Face à ce verrouillage documentaire, treize mesures d'instruction sont sollicitées.",None),
+S('a40','Acte 4 — Douze mesures d\'instruction','bg-navy',
+  [("Face à ce verrouillage documentaire, douze mesures d'instruction sont sollicitées.",None),
    ("Elles sont précises, vérifiables et contradictoires.",None)],a40)
 
 MES=[('bank','DGI : dossier de mutation intégral','Déclarations, annexes, bordereaux, courriers et annotations internes détenus par la DGI.','P6, P7',"Mesure 1 — DGI : l'intégralité du dossier de mutation, avec déclarations, annexes, bordereaux, courriers et annotations internes.","Mesure un : D G I : l'intégralité du dossier de mutation, avec déclarations, annexes, bordereaux, courriers et annotations internes."),
@@ -520,17 +550,16 @@ MES=[('bank','DGI : dossier de mutation intégral','Déclarations, annexes, bord
      ('clock','Confrontation chronologique','Confronter les contestations de Gilles Féliho et les réponses du notaire Félix BALLEY.','P8, P9, P10, P15',"Mesure 9 — Confrontation : la chronologie des contestations de Gilles Féliho et des réponses du notaire Félix BALLEY.","Mesure neuf : confrontation : la chronologie des contestations de Gilles Féliho et des réponses du notaire Félix BALLEY."),
      ('bank','Expertise immobilière indépendante','Lot 240 et titre foncier d\'Agla n° 2222 : valeur, titre et cohérence avec les actes officiels.','P4, P5, P6',"Mesure 10 — Expertise immobilière indépendante : lot 240 et titre foncier d'Agla n° 2222.","Mesure dix : expertise immobilière indépendante : lot 240, et titre foncier d'Agla numéro 2222."),
      ('chart','Loyers : lettre AIB et pièces comptables','Produire la lettre AIB du 5 octobre 2011 et toute pièce comptable établissant les loyers perçus pour le lot 240 (65 millions déclarés, 60 millions de loyer en 2011).','AIB, P6',"Mesure 11 — Loyers : la lettre AIB du 5 octobre 2011 et les pièces comptables des loyers perçus pour le lot 240.","Mesure onze : loyers : la lettre A I B du 5 octobre 2011 et les pièces comptables des loyers perçus pour le lot 240."),
-     ('clock','Prescription : date de découverte','Établir la date de découverte du dol par Gilles Féliho, au vu notamment des pièces P8 et P9.','P8, P9',"Mesure 12 — Prescription : établir la date de découverte du dol par Gilles Féliho, au vu des pièces P8 et P9.","Mesure douze : prescription : établir la date de découverte du dol par Gilles Féliho, au vu des pièces P8 et P9."),
-     ('chart','Rémunération du notaire Félix BALLEY','Vérifier la rémunération perçue (émoluments, honoraires), sa conformité à la pratique, et son poids en pourcentage des valeurs immobilières estimées (138 300 000 FCFA déclarés ; estimations du jugement).','P5, P6, P7',"Mesure 13 — Rémunération : vérifier celle perçue par le notaire Félix BALLEY, sa conformité à la pratique et son poids en pourcentage des valeurs immobilières estimées.","Mesure treize : rémunération : vérifier celle perçue par le notaire Félix BALLEY, sa conformité à la pratique et son poids en pourcentage des valeurs immobilières estimées.")]
+     ('chart','Rémunération du notaire Félix BALLEY','Vérifier la rémunération perçue (émoluments, honoraires), sa conformité à la pratique, et son poids en pourcentage des valeurs immobilières estimées (138 300 000 FCFA déclarés ; estimations du jugement).','P5, P6, P7',"Mesure 12 — Rémunération : vérifier celle perçue par le notaire Félix BALLEY, sa conformité à la pratique et son poids en pourcentage des valeurs immobilières estimées.","Mesure douze : rémunération : vérifier celle perçue par le notaire Félix BALLEY, sa conformité à la pratique et son poids en pourcentage des valeurs immobilières estimées.")]
 def a41(T):
     c=T['c'];ce=T['ce'];b=''
     for i,(ic,short,det,pcs,sub,vo) in enumerate(MES):
-        y=92+i*36
+        y=92+i*39
         b+=E(f'<div style="display:flex;gap:12px;align-items:center;font-family:Liberation Serif,serif;font-size:19px"><span style="display:inline-block;width:30px;height:30px;border-radius:50%;border:2px solid {GOLD};text-align:center;line-height:26px;font-size:17px;color:{GOLD};font-weight:700">{i+1}</span><span class="ivc">{short}</span></div>',T['s']+.3+i*.12,60,y,470,None,'fade',.4,'','',None,'data-o="0.45"')
     for i,(ic,short,det,pcs,sub,vo) in enumerate(MES):
-        y=92+i*36
+        y=92+i*39
         xe=c[i+1] if i+1<len(c) else None
-        b+=E(f'<div style="background:rgba(201,162,39,.25);border-left:6px solid {GOLD};height:33px;border-radius:4px"></div>',c[i]+.1,50,y-3,490,33,'none',.3,'','',xe)
+        b+=E(f'<div style="background:rgba(201,162,39,.25);border-left:6px solid {GOLD};height:36px;border-radius:4px"></div>',c[i]+.1,50,y-4,490,36,'none',.3,'','',xe)
         panel=(f'<div class="paper" style="padding:22px 26px;height:430px"><div style="display:flex;justify-content:space-between;align-items:center"><span class="bd g" style="font-size:20px">Mesure {i+1}</span><span>{"".join(badge(p.strip()) for p in pcs.split(","))}</span></div>'
                f'<div style="display:flex;justify-content:center;margin:26px 0 12px">{icon(ic,96)}</div>'
                f'<div class="serif lg center" style="font-size:32px">{short}</div><div class="md center" style="margin-top:14px;font-size:24px">{det}</div></div>')
@@ -546,17 +575,17 @@ def a42(T):
         g+=gear(x,300,82,s0+.1,dir=1 if i%2==0 else -1,speed=18,fill=RED,stroke=GOLD,hole='#0A1F44',phase=15*(i%2),lock=s0+3.3,lockfill=GOLD,dx=(-200 if x<640 else 200)*(1.0 if abs(x-640)>100 else .5),dxt=s0+3.3)
     b+=svg(g)
     sq=''
-    for i in range(13):
-        x0=70+(i%2)*40;y0=100+i*36
+    for i in range(12):
+        x0=70+(i%2)*40;y0=100+i*39
         tx=560+i*12;ty=470+(0 if i<6 else (-14 if i%2 else 14))
         kf=json.dumps([[s0+.3,x0,y0],[s0+.5+i*.1,x0,y0],[s0+2.0+i*.03,tx,ty]])
         sq+=f'<rect class="el" data-t="{s0+.3:.2f}" data-fn="kfd" data-kf=\'{kf}\' x="0" y="0" width="16" height="16" fill="{GOLD}" data-x="{s0+2.5:.2f}" transform="translate({x0} {y0})"/>'
     b+=svg(sq)
     b+=f'<div class="el" data-t="{s0+2.4:.2f}" data-fn="kfd" data-kf=\'{json.dumps([[s0+2.4,590,430],[s0+3.3,590,255]])}\' style="left:0;top:0;width:100px;height:100px">{icon("key",100,GOLD)}</div>\n'
-    b+=E('<span class="gold">Treize mesures.</span> Une seule finalité :<br>établir la vérité.',c[0]+.1,60,470,1160,None,'fade',.9,'xl serif center ivc')
+    b+=E('<span class="gold">Douze mesures.</span> Une seule finalité :<br>établir la vérité.',c[0]+.1,60,470,1160,None,'fade',.9,'xl serif center ivc')
     T['fx'].append(('click',s0+3.2));T['fx'].append(('unlock',s0+3.5))
     return b
-S('a42','Acte 4 — La clé','bg-navy',[("Treize mesures. Une seule finalité : établir la vérité.",None)],a42,minlen=9,pre=4.0)
+S('a42','Acte 4 — La clé','bg-navy',[("Douze mesures. Une seule finalité : établir la vérité.",None)],a42,minlen=9,pre=4.0)
 
 # ====================== ÉPILOGUE ======================
 def e1(T):
