@@ -407,12 +407,11 @@ S('e1','Épilogue — La foi publique','bg-iv',
 
 def e2(T):
     c=T['c'];b=''
-    b+=E('Gilles Sixte FÉLIHO, <span class="gold">requérant</span>',c[0]+.3,0,170,1280,None,'fade',.9,'lg serif center ivc')
-    b+=E('Me ATOUN Codjo Narcisse<br><span class="md" style="font-weight:400">Avocat au Barreau du Bénin</span>',c[0]+1.6,0,260,1280,None,'fade',.9,'lg serif center ivc')
-    b+=E('Cotonou, le 9 octobre 2026',c[0]+3.0,0,390,1280,None,'fade',.9,'md serif center ivc')
-    b+=E('wadagni2026-verite.com',c[0]+4.2,0,470,1280,None,'fade',.9,'md center gold')
+    b+=E('Gilles Sixte FÉLIHO, <span class="gold">requérant</span>',c[0]+.3,0,230,1280,None,'fade',.9,'xl serif center ivc')
+    b+=E('Cotonou, le 9 octobre 2026',c[0]+1.8,0,350,1280,None,'fade',.9,'md serif center ivc')
+    b+=E('wadagni2026-verite.com',c[0]+3.0,0,430,1280,None,'fade',.9,'md center gold')
     return b
-S('e2',None,'bg-navy',[("Gilles Sixte Féliho, requérant. Maître Atoun Codjo Narcisse, avocat au barreau du Bénin. Cotonou, le 9 octobre 2026.",None)],e2,minlen=8)
+S('e2',None,'bg-navy',[("Gilles Sixte Féliho, requérant. Cotonou, le 9 octobre 2026.",None)],e2,minlen=7)
 
 # ordre des pignons : 1 mandataire, 2 tiers non partie, 3 exécution partielle (a24), 4 décision de justice (a23)
 _i23=[i for i,s in enumerate(SC) if s['id']=='a23'][0];_i24=[i for i,s in enumerate(SC) if s['id']=='a24'][0]
