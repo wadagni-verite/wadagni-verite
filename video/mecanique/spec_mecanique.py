@@ -53,14 +53,16 @@ def a11(T):
     for i,(ic,art,txt,src) in enumerate(rows):
         y=148+i*128
         b+=E(f'<div style="display:flex;gap:18px;align-items:center;border-left:7px solid {GOLD};padding:6px 0 6px 16px;background:rgba(201,162,39,.12)">{icon(ic,58)}<div><div class="serif" style="font-size:26px;font-weight:700">{art}</div><div class="qt" style="font-size:20px;line-height:1.25">{txt}</div><div class="cap">{src}</div></div></div>',c[1+i],86,y,730,None,'l',.6)
-    b+=E(f'<div class="paper gold center" style="padding:24px"><div style="display:flex;justify-content:center">{icon("lock",90,RED)}</div><div class="serif lg" style="margin-top:8px">Obligation de<br><span class="red">vérification renforcée</span></div></div>',c[4],880,170,340,None,'pop',.7)
+    b+=E(f'<div class="paper gold center" style="padding:14px"><div style="display:flex;justify-content:center">{icon("lock",64,RED)}</div><div class="serif lg" style="margin-top:4px;font-size:30px">Obligation de<br><span class="red">vérification renforcée</span></div></div>',c[4],880,170,340,None,'pop',.7)
+    b+=paper('Arrêt n° 49/CJ-CM · 29 novembre 2019','à vérifier','<div class="sm">Le notaire qui ne met pas à disposition de son client les informations qui l\'éclairent fait encourir nullité à son acte.</div>',c[5]+.3,880,420,340,None,'')
     return b
 S('a11','Acte 1 — L\'officier public et l\'intention','bg-iv',
   [(f"{N[0].upper()+N[1:]} est officier public. Le statut du notariat, loi n° 2002-015 du 30 décembre 2002, lui impose des obligations précises.",None),
    ("Article 1er : il est chargé d'assurer la date des actes et d'en conserver le dépôt.","Article premier : il est chargé d'assurer la date des actes et d'en conserver le dépôt."),
    ("Article 33 : il a juré de remplir ses fonctions avec exactitude et probité.",None),
    ("Article 47 : il est responsable, disciplinairement et pénalement, des fautes commises dans son ministère.",None),
-   ("Cette qualité fonde une obligation de vérification renforcée.",None)],a11)
+   ("Cette qualité fonde une obligation de vérification renforcée.",None),
+   ("Un arrêt invoqué, du 29 novembre 2019, à vérifier, rappelle que l'officier public qui ne met pas à disposition les informations qui éclairent son acte en encourt la nullité.","Un arrêt invoqué, numéro quarante-neuf, C J, C M, du 29 novembre 2019, à vérifier, rappelle que l'officier public qui ne met pas à disposition les informations qui éclairent son acte en encourt la nullité.")],a11)
 
 def a12(T):
     c=T['c'];b=''
@@ -98,13 +100,15 @@ def a13(T):
     b+=E('<span class="serif" style="font-size:24px"><b>Date portée au certificat</b> : 10 juin 2016</span>',c[2],90,290,700,None,'fade',.6)
     b+=E('<span class="sm" style="text-align:right;display:block"><b>2 mois</b> : <span style="color:#2e8b57"><b>dans le délai</b></span></span>',c[2]+1.4,x0+W-420,365,420,None,'fade',.6)
     b+=E('La fausse date ne corrige pas une simple erreur :<br><span class="red">elle fait disparaître le retard.</span>',c[3],60,430,980,None,'fade',.8,'lg serif')
-    b+=svg(seal_svg(1160,490,52,c[4],crack_t=c[4]+.5))
+    b+=paper('Loi n° 64-35 · art. 509, § 4','à vérifier','<div class="sm">Le certificat d\'acquit est le préalable des inscriptions foncières.</div>',c[4]+.3,60,530,720,None,'')
+    b+=svg(seal_svg(1160,490,52,c[5],crack_t=c[5]+.5))
     return b
 S('a13','Acte 1 — L\'effet juridique de la fausse date','bg-iv',
   [("L'article 438 du Code général des impôts impose de déclarer la succession dans les six mois du décès, lorsque le décès survient au Bénin.",None),
    ("Avec la vraie date, le 3 décembre 2010, le délai expirait le 3 juin 2011. La déclaration est enregistrée le 10 août 2016 : cinq ans et deux mois de retard.",None),
    ("Avec la date du certificat, le 10 juin 2016, la déclaration paraît faite dans les deux mois. Le retard disparaît.",None),
    ("La fausse date ne corrige pas une simple erreur : elle fait disparaître le retard.",None),
+   ("Selon l'article 509, paragraphe 4, de la loi numéro 64-35, à vérifier, le certificat est le préalable des inscriptions foncières.",None),
    (f"Pour comprendre, il faut remonter le fil des positions successives de {N}.",None)],a13)
 
 # ====================== ACTE 2 ======================
@@ -187,7 +191,7 @@ S('a24','Acte 2 — Pignon 3','bg-navy',
    (f"Le Code des personnes et de la famille ne connaît qu'un exécuteur désigné par le testateur : article 940. Aucune désignation du notaire Félix BALLEY n'est produite.",None),
    ("Même un exécuteur n'a qu'une saisine limitée aux meubles, un an et un jour : article 941. Ici, la déclaration est enregistrée plus de cinq ans et demi après le décès.",None),
    ("Les pièces P13 et P14 : la parcelle B du lot 488 est inconnue de la Mairie et de l'IGN, et la pièce de 2007 vise le lot 923. Aucun acte de disposition n'est établi.",None),
-   ("Constat d'huissier du 29 juillet 2022, P12 : un appartement est occupé par la société Vissim, qui déclare le tenir à bail de la société évènementiel. Le bail n'est pas produit.",None)],a24)
+   ("Constat d'huissier du 29 juillet 2022, P12 : un appartement est occupé par la société Vissim, qui déclare le tenir à bail de la société Évenemenciel. Le bail n'est pas produit.",None)],a24)
 
 DOCS=[('Procuration','doc',230,160),('Acte dont il serait partie','doc',1050,160),('Désignation d\'exécuteur','doc',230,420),('Décision de justice','scales',1050,420)]
 def a25(T):
@@ -223,12 +227,12 @@ def a26(T):
     b+=E(f'<div style="display:flex;justify-content:center">{icon("person",96,"#F5F0E8")}</div>',c[2]+.3,1010,330,100,None,'fade',.5)
     kf=json.dumps([[c[2]+.6,820,380],[c[2]+2.2,950,380],[c[2]+2.8,950,380],[c[2]+3.6,810,380]])
     b+=f'<div class="el" data-t="{c[2]+.6:.2f}" data-fn="kfd" data-kf=\'{kf}\' style="left:0;top:0;width:60px;height:60px">{icon("key",60,GOLD)}</div>\n'
-    b+=E('Le refus de communication se rattache<br>à la question du <span class="gold">prétendu mandat</span>.',c[2]+1.0,60,500,1160,None,'fade',.8,'lg serif center ivc')
+    b+=E('La lettre du 7 septembre 2023 n\'est pas un événement distinct<br>du prétendu mandat : <span class="gold">elle en est le révélateur</span>.',c[2]+1.0,60,500,1160,None,'fade',.8,'lg serif center ivc')
     return b
 S('a26','Acte 2 — Le refus d\'accès','bg-navy',
   [(f"Le refus d'accès s'inscrit dans le même mécanisme. Le 7 septembre 2023, P9, {N} invoque la confidentialité et l'absence d'ordonnance judiciaire.",None),
    ("Or l'article 82 du statut ne requiert une ordonnance que pour les personnes autres que les intéressés en nom direct, les héritiers ou les ayants droit.",None),
-   ("Gilles Féliho est héritier. Le refus de communication se rattache à la question du prétendu mandat.",None)],a26)
+   ("Gilles Féliho est héritier. La lettre du 7 septembre 2023 n'est pas un événement distinct du prétendu mandat : elle en est le révélateur.",None)],a26)
 
 # ====================== ACTE 3 ======================
 def a31(T):
@@ -315,6 +319,7 @@ def a34(T):
           ('146','Constater comme vrais des faits faux, ou comme avérés des faits qui ne l\'étaient pas','P6, P7'),
           ('148','Usage de l\'acte faux','P7, P11'),
           ('153-154','Certificat inexact · document obtenu par fausse qualité (numérotation à vérifier)','P6, P8')]
+    b+=E('<div class="paper gold" style="padding:16px 20px"><div class="serif lg" style="font-size:30px">Ancien code pénal (code Bouvenet), applicable en 2016</div><div class="sm" style="margin-top:8px">Le Code pénal de 2018 n\'est pas rétroactif (art. 6) · textes à vérifier sur le texte officiel</div></div>',c[0]+.3,60,120,1160,None,'fade',.6,'','',c[1]+.2)
     ts=[c[1]+.3,c[1]+1.4,c[2]+.3,c[2]+1.4]
     ln=''
     for i,(a,tx,p) in enumerate(rows):
@@ -326,20 +331,182 @@ def a34(T):
     b+=paper('Ce que la loi exige','','<div class="sm">Altération frauduleuse de la vérité · écrit protégé · préjudice possible</div><div class="lg red" style="margin-top:6px;font-size:32px">L\'intention doit être établie.</div><div class="sm">C\'est l\'objet de l\'enquête sollicitée.</div>',c[3]+.3,60,402,860,None,'red','pop',.6)
     return b
 S('a34','Acte 3 — La qualification pénale','bg-iv',
-  [("Les textes qui suivent sont à vérifier sur le texte officiel de l'ancien code pénal, dit code Bouvenet, applicable en 2016.",None),
+  [("Les textes qui suivent sont à vérifier sur le texte officiel de l'ancien code pénal, dit code Bouvenet, applicable en 2016. Le Code pénal de 2018 n'est pas rétroactif : article 6, à vérifier.",None),
    ("L'article 145 vise le faux commis par un officier public dans une écriture publique. L'article 146 vise le fait de constater comme vrais des faits faux.",None),
    ("L'article 148 vise l'usage de l'acte faux. Les articles 153 et 154, pour le certificat inexact et la fausse qualité, ont une numérotation à vérifier.",None),
    ("Le faux suppose une altération frauduleuse de la vérité, un écrit protégé et un préjudice possible. L'intention doit être établie : c'est l'objet de l'enquête sollicitée.",None)],a34)
+
+# ====================== ACTE 3 bis — LES QUATRE CHEFS DE PRÉJUDICE ======================
+TAGP='Acte 3 bis — Les quatre chefs de préjudice'
+def p0(T):
+    c=T['c'];b=''
+    pos=[(430,210,'Usage<br>du nom'),(850,210,'Préjudice<br>successoral'),(430,430,'Mémoire<br>du défunt'),(850,430,'Perte<br>de chance')]
+    sv=''
+    for i,(x,y,lab) in enumerate(pos):
+        t=c[0]+.3+i*.9
+        sv+=f'<circle class="el" data-t="{t:.2f}" cx="{x}" cy="{y}" r="92" fill="none" stroke="{NAVY}" stroke-width="4"/>'
+        sv+=(f'<g class="el" data-t="{t+.3:.2f}" data-fn="kf" data-kf=\'{json.dumps([[t+.3,x,y,.15],[t+1.3,x,y,1]])}\'><circle r="86" fill="{GOLD}" opacity=".28"/></g>')
+        sv+=f'<line class="el" data-t="{c[1]+.2+i*.3:.2f}" data-fn="crack" data-len="260" data-dur=".9" x1="{x+(-80 if x>640 else 80)}" y1="{y+(70 if y<320 else -70)}" x2="640" y2="320" stroke="{RED}" stroke-width="3"/>'
+        b+=E(f'<div class="serif center" style="font-size:25px;font-weight:700;line-height:1.15;color:{NAVY}">{lab}</div>',t+.2,x-90,y-30,180,None,'fade',.5)
+    b=svg(sv)+b
+    b+=E(icon('person',84,NAVY,3),c[1]+.2,598,278,84,None,'pop',.6)
+    b+=E('Gilles Sixte FÉLIHO',c[1]+.5,500,370,280,None,'fade',.5,'serif center','font-size:21px;font-weight:700')
+    b+=E('Ils ne s\'additionnent pas seulement : <span class="red">ils se renforcent.</span>',c[1]+1.2,60,540,1160,None,'fade',.8,'lg serif center','font-size:32px')
+    return b
+S('p0',TAGP,'bg-iv',
+  [("Quatre chefs de préjudice sont invoqués : l'usage du nom, le préjudice successoral, l'atteinte à la mémoire du défunt et la perte de chance.",None),
+   ("Ils ne s'additionnent pas seulement : ils se renforcent. Chacun suffit à tenir la demande ; ensemble, ils forment un système.",None)],p0)
+
+def p1a(T):
+    c=T['c'];b=''
+    b+=paper('Code des personnes et de la famille · art. 13','','<div class="qt" style="font-size:21px">« L\'usage abusif d\'un nom patronymique et de tous autres éléments d\'identification de la personne engage, s\'il y a préjudice, la responsabilité de l\'auteur de l\'abus. […] Après son décès, ce même droit appartient à sa veuve ou à ses descendants. »</div>',c[0]+.3,60,92,560,None,'gold')
+    b+=pic('cert-deces-mandat.jpg','Certificat d\'acquit de droit, 20 octobre 2016 (P6)',c[1]+.3,660,92,560)
+    b+=E('<div style="border:3px dashed #9a8f73;border-radius:8px;padding:10px 16px;color:#6b6350" class="serif"><b>Signature de Gilles FÉLIHO</b> : aucune · <b>mandat</b> : aucun</div>',c[1]+1.6,660,205,560,None,'fade',.6)
+    cols=[('Juridique','Engagé sans consentement dans une déclaration successorale'),
+          ('Patrimonial','Exposé à des sanctions fiscales à vérifier (art. 509, loi n° 64-35)'),
+          ('Moral','Apparaît associé à une déclaration dont les valeurs sont contestées')]
+    for i,(h,tx) in enumerate(cols):
+        b+=paper(h,'',f'<div class="sm">{tx}</div>',c[2]+.3+i*.8,60+i*400,335,370,None,'red' if False else '','fade',.6)
+    b+=E('Un mandat suppose le consentement du mandant (art. 1984 du Code civil). <span class="red">Aucun mandat n\'a été produit.</span>',c[2]+3.0,60,500,1160,None,'fade',.7,'md serif center')
+    return b
+S('p1a',TAGP,'bg-iv',
+  [("Premier préjudice : l'usage du nom. L'article 13 du Code des personnes et de la famille engage la responsabilité de l'auteur de l'usage abusif d'un nom.",None),
+   ("Le certificat d'acquit, P6, porte la mention : agissant en qualité de mandataire et au nom des héritiers, dont Gilles Sixte Féliho. Aucun mandat n'a été donné.",None),
+   ("Trois dimensions : juridique, engagé sans consentement dans une déclaration successorale ; patrimoniale, exposé à des sanctions à vérifier ; morale, apparaître associé à une déclaration contestée.",None)],p1a)
+
+def p1b(T):
+    c=T['c'];b=''
+    b+=paper('Certificat d\'acquit · 20 octobre 2016','P6','<div class="sm">Gilles FÉLIHO : <b>représenté</b> par un mandataire</div>',c[0]+.3,60,100,500,None,'','l',.7)
+    b+=paper('Lettre du notaire Félix BALLEY · 7 septembre 2023','P9','<div class="sm">Gilles FÉLIHO : <b>« n\'est pas partie »</b> aux actes demandés</div>',c[0]+.8,720,100,500,None,'','r',.7)
+    b+=svg(wave(640,150,140,c[0]+1.5))
+    b+=E('Ces deux écrits ne peuvent pas être vrais ensemble.',c[0]+1.5,60,215,1160,None,'fade',.7,'serif center','font-size:28px;font-weight:700;color:#C0392B')
+    b+=paper('Si le mandat existait','','<div class="sm">Le notaire Félix BALLEY devait à son mandant la communication des actes (art. 82 : l\'héritier la reçoit sans ordonnance).<br><b class="red">Refus : violation.</b></div>',c[1]+.3,60,290,560,None,'')
+    b+=paper('Si le mandat n\'existait pas','','<div class="sm">La mention portée au certificat, « agissant en qualité de mandataire et au nom des héritiers », est <b class="red">fausse</b>.</div>',c[1]+1.2,660,290,560,None,'')
+    b+=E('Dans les deux hypothèses, <span class="red">une faute est identifiée</span> — et le préjudice en découle.',c[2]+.2,60,500,1160,None,'fade',.8,'lg serif center','font-size:32px')
+    return b
+S('p1b',TAGP,'bg-iv',
+  [("La contradiction est irréversible. Le certificat de 2016, P6, présente Gilles Féliho comme représenté. La lettre du 7 septembre 2023, P9, dit qu'il n'est pas partie.",None),
+   (f"Si le mandat existait, {N} devait à son mandant la communication des actes. S'il n'existait pas, la mention portée au certificat est fausse.",None),
+   ("Dans les deux hypothèses, une faute est identifiée, et le préjudice en découle.",None)],p1b)
+
+def p2(T):
+    c=T['c'];b=''
+    rows=[('Nombre d\'immeubles','39','7','− 32 (− 82,05 %)'),
+          ('Valeur','567 990 000 FCFA','138 300 000 FCFA','− 429 690 000 (− 75,65 %)'),
+          ('Réserve (2/3, art. 813)','378 660 000 FCFA','92 200 000 FCFA','− 286 460 000 FCFA')]
+    hd='<div style="display:grid;grid-template-columns:200px 170px 170px 1fr;gap:6px 10px;font-size:19px"><b></b><b class="stone">Jugement · P5</b><b class="stone">Certificat · P6</b><b class="stone">Écart</b></div>'
+    b+=E(f'<div class="paper" style="padding:12px 18px">{hd}</div>',c[1]+.2,60,92,780,None,'fade',.5)
+    for i,(a,x,y,z) in enumerate(rows):
+        t=c[1]+1.0+i*1.1 if i<2 else c[2]+.4
+        b+=E(f'<div class="paper" style="padding:10px 18px"><div style="display:grid;grid-template-columns:200px 170px 170px 1fr;gap:6px 10px;font-size:19px"><b>{a}</b><span>{x}</span><span class="red">{y}</span><b class="red">{z}</b></div></div>',t,60,150+i*66,780,None,'fade',.5)
+    b+=E('<div class="paper" style="padding:12px 16px"><div class="ph"><span>Réserve héréditaire : 2/3 de la masse</span></div></div>',c[0]+.3,880,92,340,None,'fade',.5)
+    W=300
+    sv=f'<rect class="el" data-t="{c[0]+.6:.2f}" x="900" y="150" width="{W}" height="26" fill="#d7ceb8"/><rect class="el" data-t="{c[0]+.6:.2f}" data-fn="grow" data-w="{W*2/3:.1f}" data-dur="1" x="900" y="150" width="0.01" height="26" fill="{NAVY}"/>'
+    sv+=f'<rect class="el" data-t="{c[2]+.6:.2f}" x="900" y="230" width="{W*138.3/567.99:.1f}" height="26" fill="#d7ceb8"/><rect class="el" data-t="{c[2]+.6:.2f}" data-fn="grow" data-w="{W*138.3/567.99*2/3:.1f}" data-dur="1" x="900" y="230" width="0.01" height="26" fill="{RED}"/>'
+    b+=svg(sv)
+    b+=E('<span class="cap">Masse du jugement</span>',c[0]+.6,900,178,300,None,'fade',.4)
+    b+=E('<span class="cap">Masse déclarée au certificat</span>',c[2]+.6,900,258,300,None,'fade',.4)
+    b+=paper('À établir par l\'enquête','','<div class="sm">Le jugement vise <b>39 immeubles situés en France et au Bénin</b> ; le certificat, <b>7 immeubles</b>. Les périmètres ne sont pas identiques.<br>L\'article 816 forme la masse de <b>tous les biens existant au décès</b> : le préjudice dépend de l\'usage fait de la déclaration.</div>',c[3]+.3,60,350,1160,None,'gold')
+    return b
+S('p2',TAGP,'bg-iv',
+  [("Deuxième préjudice : la base de la réserve héréditaire. Article 813 : la réserve héréditaire globale est de deux tiers de la masse à partager.",None),
+   ("Le jugement de 2014, P5, page 6, retient 39 immeubles situés en France et au Bénin, estimés à 567 990 000 francs. Le certificat, P6, déclare 7 immeubles pour 138 300 000 francs.",None),
+   ("Si la déclaration servait de base, la réserve passerait de 378 660 000 à 92 200 000 francs : un écart de 286 460 000 francs.",None),
+   ("Mais les périmètres ne sont pas identiques, et l'article 816 retient tous les biens existant au décès. Le préjudice dépend de l'usage fait de la déclaration.",None)],p2)
+
+def p3(T):
+    c=T['c'];b=''
+    b+=pic('aib-tranches.jpg','Lettre AIB du 5 octobre 2011 : loyers en deux tranches de 30 millions, impôts et taxes compris',c[0]+.3,60,92,600)
+    b+=pic('aib-cheque.jpg','Lettre AIB : chèque de 24 461 751 FCFA (déduction de la TFU), remis le 1er février 2011',c[1]+.3,60,222,600)
+    b+=pic('aib-virement.jpg','Lettre AIB : virement de 29 060 861 FCFA le 4 août 2011, « extourne » le 4 octobre 2011',c[1]+1.8,60,375,600)
+    b+=pic('cert-lot240.jpg','Certificat, P6 : lot 240, Camp Guézo, estimé à 65 millions',c[2]+.3,60,525,600) if False else ''
+    # immeuble
+    bd=(f'<g transform="translate(900 430) scale(.75)" stroke="{NAVY}" stroke-width="4" fill="#fbf7ee">'
+        '<rect x="-130" y="-170" width="260" height="260"/><path d="M-150 -170 L0 -230 L150 -170 Z" fill="#e3dccb"/>'
+        +''.join(f'<rect x="{-100+j*70}" y="{-140+i*70}" width="40" height="44" fill="#cfd8e6" stroke-width="2"/>' for i in range(3) for j in range(3))+'</g>')
+    b+=svg(f'<g class="el" data-t="{c[2]+.2:.2f}">{bd}</g>')
+    b+=E('<span class="serif" style="font-size:22px;font-weight:700">Lot 240 · Camp Guézo</span>',c[2]+.4,760,505,280,None,'fade',.5,'center')
+    b+=pic('cert-lot240.jpg','Certificat, P6 : immeuble du lot 240, Camp Guézo, estimé à 65 millions',c[2]+.5,700,92,520)
+    b+=E('<div class="serif center" style="font-size:24px"><span class="stone">Valeur déclarée (P6)</span> <b>65 000 000 FCFA</b></div>',c[3]+.2,700,540,520,None,'fade',.5)
+    b+=E('<div class="serif center" style="font-size:24px"><span class="stone">Loyer 2011 (AIB)</span> <b class="red">60 000 000 FCFA</b></div>',c[3]+1.0,700,570,520,None,'fade',.5)
+    b+=E('<span class="red serif" style="font-size:70px;font-weight:700">92 %</span>',c[3]+2.0,1030,330,180,None,'pop',.6)
+    b+=E('Un tel rapport est <span class="red">économiquement invraisemblable</span>. Il appelle une expertise indépendante.',c[4]+.2,60,555,600,None,'fade',.7,'serif','font-size:22px;font-weight:700')
+    return b
+S('p3',TAGP+' · l\'indice AIB','bg-iv',
+  [("L'indice commercial. La banque AIB, dans sa lettre du 5 octobre 2011, rappelle qu'il avait été convenu de payer les loyers en deux tranches de 30 millions de francs, impôts et taxes compris.",None),
+   ("Un chèque de 24 461 751 francs est remis le 1er février 2011. Le 4 août 2011, un virement de 29 060 861 francs est effectué ; il fait ensuite l'objet d'une extourne.",None),
+   ("Le certificat, P6, déclare l'immeuble du lot 240, Camp Guézo, pour 65 millions de francs.",None),
+   ("Soixante millions de loyer pour un immeuble déclaré à soixante-cinq millions : un rendement de 92 %. Ce rapport est économiquement invraisemblable.",None),
+   ("Cet écart n'est pas une approximation : il appelle une expertise immobilière indépendante.",None)],p3)
+
+def p4(T):
+    c=T['c'];b=''
+    x0,x1,x2=120,560,1160
+    sv=f'<rect class="el" data-t="{c[1]+.3:.2f}" data-fn="grow" data-w="{x1-x0}" data-dur="1.2" x="{x0}" y="300" width="0.01" height="5" fill="#F5F0E8"/>'
+    sv+=f'<line class="el" data-t="{c[2]+.5:.2f}" data-fn="crack" data-len="{x2-x1}" data-dur="2" x1="{x1}" y1="302" x2="{x2}" y2="302" stroke="{RED}" stroke-width="5" stroke-dasharray="14 10"/>'
+    sv+=f'<circle class="el" data-t="{c[1]+1.4:.2f}" cx="{x1}" cy="302" r="10" fill="#F5F0E8"/><circle class="el" data-t="{c[2]+2.4:.2f}" cx="{x2}" cy="302" r="10" fill="{RED}"/>'
+    b+=svg(sv)
+    b+=paper('Code des personnes et de la famille · art. 13, dernier alinéa','','<div class="qt" style="font-size:22px">« Après son décès, ce même droit appartient à sa veuve ou à ses descendants, même s\'ils portent un autre nom. »</div>',c[0]+.3,60,92,1160,None,'gold')
+    b+=E('<span class="serif ivc" style="font-size:22px"><b>3 décembre 2010</b><br>décès (P1, P2, P5)</span>',c[1]+1.4,x1-120,230,240,None,'fade',.5,'center')
+    b+=E('<span class="serif ivc" style="font-size:22px"><b class="red">10 juin 2016</b><br>date portée au certificat (P6)</span>',c[2]+2.4,x2-250,230,260,None,'fade',.5,'center')
+    b+=E('<span class="serif" style="font-size:34px;font-weight:700;color:#F5F0E8">5 ans et 6 mois <span class="red">de vie en plus</span></span>',c[2]+3.0,x1,330,x2-x1,None,'fade',.8,'center')
+    b+=E('<div class="sm ivc" style="border:2px solid #8793ad;border-radius:8px;padding:10px 16px">L\'indignité successorale (art. 595 et 596) n\'est pas invoquée : elle vise un successible. L\'atteinte est poursuivie sur l\'article 13 et sur la responsabilité civile (art. 1382 du Code civil, à vérifier).</div>',c[3]+.2,60,440,1160,None,'fade',.7)
+    return b
+S('p4',TAGP+' · la mémoire du défunt','bg-black',
+  [("Troisième préjudice : l'atteinte à la mémoire du défunt. Article 13, dernier alinéa : après son décès, ce droit appartient à sa veuve ou à ses descendants.",None),
+   ("Le décès a eu lieu le 3 décembre 2010 : la vie du défunt s'arrête là.",None),
+   ("Le certificat, P6, indique : décédé à Cotonou le dix juin deux mil seize. Cette date prolonge la vie du défunt de cinq ans et six mois.",None),
+   ("L'indignité successorale n'est pas invoquée : elle vise un successible. L'atteinte est poursuivie sur l'article 13 et sur la responsabilité civile.",None)],p4)
+
+def p5(T):
+    c=T['c'];b=''
+    b+=paper('Jurisprudence invoquée · arrêt n° 49/CJ-CM du 29 novembre 2019 · à vérifier','','<div class="qt" style="font-size:21px">« Le notaire qui ne met pas à la disposition de son client toutes les informations susceptibles de l\'éclairer, fait encourir nullité à son acte. »</div>',c[0]+.3,60,92,1160,None,'gold')
+    ev=[('20 oct. 2016','Certificat délivré. Gilles FÉLIHO n\'est pas informé par l\'Étude.',''),
+        ('24 mai 2018','Certificat reçu par courriel d\'un office notarial français (P8).',''),
+        ('4 août 2023','Sommation de compulsion du répertoire (P8).',''),
+        ('7 sept. 2023','Refus : confidentialité, absence d\'ordonnance (P9).','red')]
+    for i,(d,tx,cl) in enumerate(ev):
+        t=c[1]+.3+i*1.7
+        b+=paper(d,'',f'<div class="sm">{tx}</div>',t,60+i*295,250,272,170,cl,'fade',.6)
+    b+=E('<span class="red" style="font-weight:700;font-size:26px" class="serif">FERMÉ</span>',c[1]+.3+3*1.7+.7,60+3*295+150,212,120,None,'pop',.5)
+    b+=E('Les actes demandés lui sont refusés : il ne peut ni les consulter, ni vérifier le répertoire, ni agir utilement.',c[2]+.2,60,445,1160,None,'fade',.7,'md serif center','font-size:25px')
+    b+=E('Date de découverte du dol, point de départ éventuel de la prescription (art. 1304 du Code civil, à vérifier) : <span class="red">à établir</span> — mesure n° 12.',c[3]+.2,60,505,1160,None,'fade',.7,'sm center','font-size:21px')
+    return b
+S('p5',TAGP+' · l\'entrave','bg-iv',
+  [("Quatrième préjudice : la perte de chance. Un arrêt invoqué, à vérifier, retient que l'officier public qui ne met pas à disposition de son client les informations qui l'éclairent fait encourir nullité à son acte.",None),
+   (f"Chronologie : le 20 octobre 2016, le certificat est délivré. Le 24 mai 2018, Gilles Féliho le reçoit par courriel d'un office notarial français, P8. Le 4 août 2023, sommation, P8. Le 7 septembre 2023, refus de {N}, P9.",None),
+   ("Les actes demandés lui sont refusés : il ne peut ni les consulter, ni vérifier le répertoire, ni agir utilement.",None),
+   ("La date de découverte du dol, point de départ éventuel de la prescription, article 1304 du Code civil, à vérifier, reste à établir : c'est la mesure numéro 12.",None)],p5)
+
+def p6(T):
+    c=T['c'];b='';ce=T['ce']
+    pos=[(250,170,'P5','Usage du nom'),(1030,170,'P6','Écart de déclaration'),(250,420,'P9','Entrave'),(1030,420,'AIB','Valeur de l\'immeuble')]
+    sv=''
+    for i,(x,y,p,lab) in enumerate(pos):
+        t=c[0]+.3+i*.5
+        sv+=f'<line class="el" data-t="{t:.2f}" data-fn="crack" data-len="500" data-dur="1.2" x1="{x}" y1="{y}" x2="640" y2="300" stroke="#C9A227" stroke-width="6"/>'
+        b+=E(f'<span class="bd g" style="font-size:22px">{p}</span> <span class="serif ivc" style="font-size:22px">{lab}</span>',t,x-170,y-48,340,None,'fade',.5,'center')
+    sv+=f'<circle class="el" data-t="{c[1]:.2f}" data-fn="kf" data-kf=\'{json.dumps([[c[1],640,300,1],[c[1]+1.5,640,300,.3]])}\' r="46" fill="none" stroke="#C9A227" stroke-width="10"/>'
+    b=svg(sv)+b
+    b+=E('L\'absence de mandat <span class="gold">établit la fausseté de la mention</span>. La fausseté de la mention <span class="gold">caractérise le faux</span>, sous réserve de l\'intention.',c[0]+1.5,60,495,1160,None,'fade',.7,'serif center ivc','font-size:26px;font-weight:700',c[1]+.1)
+    b+=E('Le faux explique l\'écart de déclaration. <span class="gold">Le refus de communiquer a prolongé l\'entrave.</span>',c[1]+.3,60,495,1160,None,'fade',.7,'serif center ivc','font-size:26px;font-weight:700',c[2]-.1)
+    b+=E('Chaque préjudice <span class="gold">renforce les autres</span>.<br>L\'un des quatre suffit à tenir la demande.',c[2],60,480,1160,None,'fade',.9,'serif center ivc','font-size:34px;font-weight:700')
+    return b
+S('p6',TAGP+' · l\'effet de cumul','bg-navy',
+  [("Les quatre chefs de préjudice s'articulent. L'absence de mandat établit la fausseté de la mention portée au certificat. La fausseté de la mention caractérise le faux, sous réserve de l'intention.",None),
+   ("Le faux explique l'écart de déclaration. Le refus de communiquer les actes a prolongé l'entrave.",None),
+   ("Chaque préjudice renforce les autres. L'un des quatre suffit à tenir la demande.",None)],p6)
+
 
 # ====================== ACTE 4 ======================
 def a40(T):
     c=T['c'];b=''
     b+=svg(wave(640,290,420,c[0]+1.0,'#F5F0E8')+seal_svg(640,290,110,c[0],crack_t=c[0]+.3,ring='#8793ad'))
-    b+=E('<span class="gold">10</span> mesures d\'instruction',c[0]+.6,0,450,1280,None,'fade',.9,'xl serif center ivc')
+    b+=E('<span class="gold">12</span> mesures d\'instruction',c[0]+.6,0,450,1280,None,'fade',.9,'xl serif center ivc')
     b+=E('précises · vérifiables · contradictoires',c[1],0,520,1280,None,'fade',.8,'md serif center ivc')
     return b
-S('a40','Acte 4 — Dix mesures d\'instruction','bg-navy',
-  [("Face à ce verrouillage documentaire, dix mesures d'instruction sont sollicitées.",None),
+S('a40','Acte 4 — Douze mesures d\'instruction','bg-navy',
+  [("Face à ce verrouillage documentaire, douze mesures d'instruction sont sollicitées.",None),
    ("Elles sont précises, vérifiables et contradictoires.",None)],a40)
 
 MES=[('bank','DGI : dossier de mutation intégral','Déclarations, annexes, bordereaux, courriers et annotations internes détenus par la DGI.','P6, P7',"Mesure 1 — DGI : l'intégralité du dossier de mutation, avec déclarations, annexes, bordereaux, courriers et annotations internes.","Mesure un : D G I : l'intégralité du dossier de mutation, avec déclarations, annexes, bordereaux, courriers et annotations internes."),
@@ -351,16 +518,18 @@ MES=[('bank','DGI : dossier de mutation intégral','Déclarations, annexes, bord
      ('scales','Accès au jugement de 2014','Vérifier si le notaire Félix BALLEY a eu accès au jugement de 2014, au vu de ses propres déclarations.','P5, P11',"Mesure 7 — Accès au jugement de 2014 : vérifier, au vu de ses propres déclarations, si le notaire Félix BALLEY y a eu accès.","Mesure sept : accès au jugement de 2014 : vérifier, au vu de ses propres déclarations, si le notaire Félix BALLEY y a eu accès."),
      ('chart','Actifs : notes d\'évaluation','Produire toute note interne d\'évaluation ou fiche de collecte des biens.','P5, P6',"Mesure 8 — Actifs : toute note interne d'évaluation ou fiche de collecte des biens.","Mesure huit : actifs : toute note interne d'évaluation ou fiche de collecte des biens."),
      ('clock','Confrontation chronologique','Confronter les contestations de Gilles Féliho et les réponses du notaire Félix BALLEY.','P8, P9, P10, P15',"Mesure 9 — Confrontation : la chronologie des contestations de Gilles Féliho et des réponses du notaire Félix BALLEY.","Mesure neuf : confrontation : la chronologie des contestations de Gilles Féliho et des réponses du notaire Félix BALLEY."),
-     ('bank','Expertise immobilière indépendante','Lot 240 : déclaré 65 millions de francs CFA, loyer de la banque AIB de 60 millions en 2011. Titre foncier d\'Agla n° 2222.','P4, P5, P6',"Mesure 10 — Expertise immobilière indépendante : lot 240 (loyer AIB de 60 millions en 2011) et titre foncier d'Agla n° 2222.","Mesure dix : expertise immobilière indépendante : lot 240, loyer de la banque A I B de 60 millions en 2011, et titre foncier d'Agla numéro 2222.")]
+     ('bank','Expertise immobilière indépendante','Lot 240 et titre foncier d\'Agla n° 2222 : valeur, titre et cohérence avec les actes officiels.','P4, P5, P6',"Mesure 10 — Expertise immobilière indépendante : lot 240 et titre foncier d'Agla n° 2222.","Mesure dix : expertise immobilière indépendante : lot 240, et titre foncier d'Agla numéro 2222."),
+     ('chart','Loyers : lettre AIB et pièces comptables','Produire la lettre AIB du 5 octobre 2011 et toute pièce comptable établissant les loyers perçus pour le lot 240 (65 millions déclarés, 60 millions de loyer en 2011).','AIB, P6',"Mesure 11 — Loyers : la lettre AIB du 5 octobre 2011 et les pièces comptables des loyers perçus pour le lot 240.","Mesure onze : loyers : la lettre A I B du 5 octobre 2011 et les pièces comptables des loyers perçus pour le lot 240."),
+     ('clock','Prescription : date de découverte','Établir la date de découverte du dol par Gilles Féliho, au vu notamment des pièces P8 et P9.','P8, P9',"Mesure 12 — Prescription : établir la date de découverte du dol par Gilles Féliho, au vu des pièces P8 et P9.","Mesure douze : prescription : établir la date de découverte du dol par Gilles Féliho, au vu des pièces P8 et P9.")]
 def a41(T):
     c=T['c'];ce=T['ce'];b=''
     for i,(ic,short,det,pcs,sub,vo) in enumerate(MES):
-        y=96+i*47
-        b+=E(f'<div style="display:flex;gap:12px;align-items:center;font-family:Liberation Serif,serif;font-size:21px"><span style="display:inline-block;width:30px;height:30px;border-radius:50%;border:2px solid {GOLD};text-align:center;line-height:26px;font-size:17px;color:{GOLD};font-weight:700">{i+1}</span><span class="ivc">{short}</span></div>',T['s']+.3+i*.12,60,y,470,None,'fade',.4,'','',None,'data-o="0.45"')
+        y=92+i*39
+        b+=E(f'<div style="display:flex;gap:12px;align-items:center;font-family:Liberation Serif,serif;font-size:19px"><span style="display:inline-block;width:30px;height:30px;border-radius:50%;border:2px solid {GOLD};text-align:center;line-height:26px;font-size:17px;color:{GOLD};font-weight:700">{i+1}</span><span class="ivc">{short}</span></div>',T['s']+.3+i*.12,60,y,470,None,'fade',.4,'','',None,'data-o="0.45"')
     for i,(ic,short,det,pcs,sub,vo) in enumerate(MES):
-        y=96+i*47
+        y=92+i*39
         xe=c[i+1] if i+1<len(c) else None
-        b+=E(f'<div style="background:rgba(201,162,39,.25);border-left:6px solid {GOLD};height:42px;border-radius:4px"></div>',c[i]+.1,50,y-5,490,42,'none',.3,'','',xe)
+        b+=E(f'<div style="background:rgba(201,162,39,.25);border-left:6px solid {GOLD};height:36px;border-radius:4px"></div>',c[i]+.1,50,y-4,490,36,'none',.3,'','',xe)
         panel=(f'<div class="paper" style="padding:22px 26px;height:430px"><div style="display:flex;justify-content:space-between;align-items:center"><span class="bd g" style="font-size:20px">Mesure {i+1}</span><span>{"".join(badge(p.strip()) for p in pcs.split(","))}</span></div>'
                f'<div style="display:flex;justify-content:center;margin:26px 0 12px">{icon(ic,96)}</div>'
                f'<div class="serif lg center" style="font-size:32px">{short}</div><div class="md center" style="margin-top:14px;font-size:24px">{det}</div></div>')
@@ -376,17 +545,17 @@ def a42(T):
         g+=gear(x,300,82,s0+.1,dir=1 if i%2==0 else -1,speed=18,fill=RED,stroke=GOLD,hole='#0A1F44',phase=15*(i%2),lock=s0+3.3,lockfill=GOLD,dx=(-200 if x<640 else 200)*(1.0 if abs(x-640)>100 else .5),dxt=s0+3.3)
     b+=svg(g)
     sq=''
-    for i in range(10):
-        x0=70+(i%2)*40;y0=100+i*47
+    for i in range(12):
+        x0=70+(i%2)*40;y0=100+i*39
         tx=560+i*12;ty=470+(0 if i<6 else (-14 if i%2 else 14))
         kf=json.dumps([[s0+.3,x0,y0],[s0+.5+i*.1,x0,y0],[s0+2.0+i*.03,tx,ty]])
         sq+=f'<rect class="el" data-t="{s0+.3:.2f}" data-fn="kfd" data-kf=\'{kf}\' x="0" y="0" width="16" height="16" fill="{GOLD}" data-x="{s0+2.5:.2f}" transform="translate({x0} {y0})"/>'
     b+=svg(sq)
     b+=f'<div class="el" data-t="{s0+2.4:.2f}" data-fn="kfd" data-kf=\'{json.dumps([[s0+2.4,590,430],[s0+3.3,590,255]])}\' style="left:0;top:0;width:100px;height:100px">{icon("key",100,GOLD)}</div>\n'
-    b+=E('<span class="gold">Dix mesures.</span> Une seule finalité :<br>établir la vérité.',c[0]+.1,60,470,1160,None,'fade',.9,'xl serif center ivc')
+    b+=E('<span class="gold">Douze mesures.</span> Une seule finalité :<br>établir la vérité.',c[0]+.1,60,470,1160,None,'fade',.9,'xl serif center ivc')
     T['fx'].append(('click',s0+3.2));T['fx'].append(('unlock',s0+3.5))
     return b
-S('a42','Acte 4 — La clé','bg-navy',[("Dix mesures. Une seule finalité : établir la vérité.",None)],a42,minlen=9,pre=4.0)
+S('a42','Acte 4 — La clé','bg-navy',[("Douze mesures. Une seule finalité : établir la vérité.",None)],a42,minlen=9,pre=4.0)
 
 # ====================== ÉPILOGUE ======================
 def e1(T):

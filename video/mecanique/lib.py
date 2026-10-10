@@ -22,8 +22,8 @@ svg.el,g.el,path.el,circle.el,rect.el,line.el,polygon.el,text.el{position:static
 .bg-iv .tag{color:#7a6a3a}.bg-navy .tag,.bg-black .tag{color:var(--gold)}
 .serif{font-family:'Liberation Serif','DejaVu Serif',serif}
 .paper{background:var(--paper);border:1px solid #CDBF9F;box-shadow:0 8px 22px rgba(10,31,68,.28);color:var(--navy);font-family:'Liberation Serif','DejaVu Serif',serif;padding:14px 18px}
-.paper.red{border:3px solid var(--red)}
-.paper.gold{border:3px solid var(--gold)}
+.paper.red{border:3px solid var(--red);color:var(--navy)}
+.paper.gold{border:3px solid var(--gold);color:var(--navy)}
 .ph{font-family:'Liberation Sans','DejaVu Sans',sans-serif;font-size:15px;letter-spacing:.06em;text-transform:uppercase;color:var(--stone);display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:8px}
 .bd{display:inline-block;background:var(--navy);color:#F5F0E8;font-family:'Liberation Sans','DejaVu Sans',sans-serif;font-weight:700;font-size:16px;letter-spacing:.04em;padding:2px 9px;border-radius:4px;white-space:nowrap}
 .bd.r{background:var(--red)}.bd.g{background:var(--gold);color:var(--navy)}
@@ -172,6 +172,9 @@ def voice(t):
     for a,b in [('BALLEY','Balley'),('FÉLIHO','Féliho'),('FELIHO','Féliho'),('DMD','D M D'),('DGI','D G I'),('CGI','C G I'),('APDP','A P D P'),('CNHU-HKM','C N H U H K M'),('CNHU','C N H U'),('ATOUN','Atoun'),('ICHOLA','Ichola'),('ADJAGBA','Adjagba'),('CPF','C P F')]:
         v=v.replace(a,b)
     v=re.sub(r'\bMe\b','Maître',v)
+    v=re.sub(r'\b\d{1,3}(?: \d{3})+\b',lambda m:num2words(int(m.group(0).replace(' ','')),lang='fr'),v)
+    v=re.sub(r'(\d+) ?%',lambda m:num2words(int(m.group(1)),lang='fr')+' pour cent',v)
+    v=v.replace('1er','premier').replace('Évenemenciel','évènementiel').replace('AIB','A I B').replace('FCFA','francs CFA')
     v=re.sub(r'\bP(\d{1,2})\b',lambda m:'pièce '+num2words(int(m.group(1)),lang='fr'),v)
     v=re.sub(r'n° (\d+)/(\d+)',lambda m:'numéro '+num2words(int(m.group(1)),lang='fr')+' barre '+num2words(int(m.group(2)),lang='fr'),v)
     v=re.sub(r'\bn° (\d+)',lambda m:'numéro '+num2words(int(m.group(1)),lang='fr'),v)
