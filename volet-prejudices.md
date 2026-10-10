@@ -123,5 +123,6 @@ Chaque préjudice renforce les autres. L'un des quatre suffit à tenir la demand
 - Mesure 10 : expertise immobilière indépendante (lot 240, titre foncier d'Agla n° 2222).
 - Mesure 11 : lettre AIB du 5 octobre 2011 et pièces comptables des loyers perçus pour le lot 240.
 - Mesure 12 : date de découverte du dol (P8, P9).
+- Mesure 13 : rémunération perçue par Maître BALLEY (émoluments, honoraires) : conformité à la pratique et poids en pourcentage des valeurs immobilières estimées (P5, P6, P7).
 
 *Orthographe : la société locataire de l'immeuble visé au constat d'huissier du 29 juillet 2022 (P12) est la société Évenemenciel.*

@@ -502,11 +502,11 @@ S('p6',TAGP+' · l\'effet de cumul','bg-navy',
 def a40(T):
     c=T['c'];b=''
     b+=svg(wave(640,290,420,c[0]+1.0,'#F5F0E8')+seal_svg(640,290,110,c[0],crack_t=c[0]+.3,ring='#8793ad'))
-    b+=E('<span class="gold">12</span> mesures d\'instruction',c[0]+.6,0,450,1280,None,'fade',.9,'xl serif center ivc')
+    b+=E('<span class="gold">13</span> mesures d\'instruction',c[0]+.6,0,450,1280,None,'fade',.9,'xl serif center ivc')
     b+=E('précises · vérifiables · contradictoires',c[1],0,520,1280,None,'fade',.8,'md serif center ivc')
     return b
-S('a40','Acte 4 — Douze mesures d\'instruction','bg-navy',
-  [("Face à ce verrouillage documentaire, douze mesures d'instruction sont sollicitées.",None),
+S('a40','Acte 4 — Treize mesures d\'instruction','bg-navy',
+  [("Face à ce verrouillage documentaire, treize mesures d'instruction sont sollicitées.",None),
    ("Elles sont précises, vérifiables et contradictoires.",None)],a40)
 
 MES=[('bank','DGI : dossier de mutation intégral','Déclarations, annexes, bordereaux, courriers et annotations internes détenus par la DGI.','P6, P7',"Mesure 1 — DGI : l'intégralité du dossier de mutation, avec déclarations, annexes, bordereaux, courriers et annotations internes.","Mesure un : D G I : l'intégralité du dossier de mutation, avec déclarations, annexes, bordereaux, courriers et annotations internes."),
@@ -520,16 +520,17 @@ MES=[('bank','DGI : dossier de mutation intégral','Déclarations, annexes, bord
      ('clock','Confrontation chronologique','Confronter les contestations de Gilles Féliho et les réponses du notaire Félix BALLEY.','P8, P9, P10, P15',"Mesure 9 — Confrontation : la chronologie des contestations de Gilles Féliho et des réponses du notaire Félix BALLEY.","Mesure neuf : confrontation : la chronologie des contestations de Gilles Féliho et des réponses du notaire Félix BALLEY."),
      ('bank','Expertise immobilière indépendante','Lot 240 et titre foncier d\'Agla n° 2222 : valeur, titre et cohérence avec les actes officiels.','P4, P5, P6',"Mesure 10 — Expertise immobilière indépendante : lot 240 et titre foncier d'Agla n° 2222.","Mesure dix : expertise immobilière indépendante : lot 240, et titre foncier d'Agla numéro 2222."),
      ('chart','Loyers : lettre AIB et pièces comptables','Produire la lettre AIB du 5 octobre 2011 et toute pièce comptable établissant les loyers perçus pour le lot 240 (65 millions déclarés, 60 millions de loyer en 2011).','AIB, P6',"Mesure 11 — Loyers : la lettre AIB du 5 octobre 2011 et les pièces comptables des loyers perçus pour le lot 240.","Mesure onze : loyers : la lettre A I B du 5 octobre 2011 et les pièces comptables des loyers perçus pour le lot 240."),
-     ('clock','Prescription : date de découverte','Établir la date de découverte du dol par Gilles Féliho, au vu notamment des pièces P8 et P9.','P8, P9',"Mesure 12 — Prescription : établir la date de découverte du dol par Gilles Féliho, au vu des pièces P8 et P9.","Mesure douze : prescription : établir la date de découverte du dol par Gilles Féliho, au vu des pièces P8 et P9.")]
+     ('clock','Prescription : date de découverte','Établir la date de découverte du dol par Gilles Féliho, au vu notamment des pièces P8 et P9.','P8, P9',"Mesure 12 — Prescription : établir la date de découverte du dol par Gilles Féliho, au vu des pièces P8 et P9.","Mesure douze : prescription : établir la date de découverte du dol par Gilles Féliho, au vu des pièces P8 et P9."),
+     ('chart','Rémunération du notaire Félix BALLEY','Vérifier la rémunération perçue (émoluments, honoraires), sa conformité à la pratique, et son poids en pourcentage des valeurs immobilières estimées (138 300 000 FCFA déclarés ; estimations du jugement).','P5, P6, P7',"Mesure 13 — Rémunération : vérifier celle perçue par le notaire Félix BALLEY, sa conformité à la pratique et son poids en pourcentage des valeurs immobilières estimées.","Mesure treize : rémunération : vérifier celle perçue par le notaire Félix BALLEY, sa conformité à la pratique et son poids en pourcentage des valeurs immobilières estimées.")]
 def a41(T):
     c=T['c'];ce=T['ce'];b=''
     for i,(ic,short,det,pcs,sub,vo) in enumerate(MES):
-        y=92+i*39
+        y=92+i*36
         b+=E(f'<div style="display:flex;gap:12px;align-items:center;font-family:Liberation Serif,serif;font-size:19px"><span style="display:inline-block;width:30px;height:30px;border-radius:50%;border:2px solid {GOLD};text-align:center;line-height:26px;font-size:17px;color:{GOLD};font-weight:700">{i+1}</span><span class="ivc">{short}</span></div>',T['s']+.3+i*.12,60,y,470,None,'fade',.4,'','',None,'data-o="0.45"')
     for i,(ic,short,det,pcs,sub,vo) in enumerate(MES):
-        y=92+i*39
+        y=92+i*36
         xe=c[i+1] if i+1<len(c) else None
-        b+=E(f'<div style="background:rgba(201,162,39,.25);border-left:6px solid {GOLD};height:36px;border-radius:4px"></div>',c[i]+.1,50,y-4,490,36,'none',.3,'','',xe)
+        b+=E(f'<div style="background:rgba(201,162,39,.25);border-left:6px solid {GOLD};height:33px;border-radius:4px"></div>',c[i]+.1,50,y-3,490,33,'none',.3,'','',xe)
         panel=(f'<div class="paper" style="padding:22px 26px;height:430px"><div style="display:flex;justify-content:space-between;align-items:center"><span class="bd g" style="font-size:20px">Mesure {i+1}</span><span>{"".join(badge(p.strip()) for p in pcs.split(","))}</span></div>'
                f'<div style="display:flex;justify-content:center;margin:26px 0 12px">{icon(ic,96)}</div>'
                f'<div class="serif lg center" style="font-size:32px">{short}</div><div class="md center" style="margin-top:14px;font-size:24px">{det}</div></div>')
@@ -545,17 +546,17 @@ def a42(T):
         g+=gear(x,300,82,s0+.1,dir=1 if i%2==0 else -1,speed=18,fill=RED,stroke=GOLD,hole='#0A1F44',phase=15*(i%2),lock=s0+3.3,lockfill=GOLD,dx=(-200 if x<640 else 200)*(1.0 if abs(x-640)>100 else .5),dxt=s0+3.3)
     b+=svg(g)
     sq=''
-    for i in range(12):
-        x0=70+(i%2)*40;y0=100+i*39
+    for i in range(13):
+        x0=70+(i%2)*40;y0=100+i*36
         tx=560+i*12;ty=470+(0 if i<6 else (-14 if i%2 else 14))
         kf=json.dumps([[s0+.3,x0,y0],[s0+.5+i*.1,x0,y0],[s0+2.0+i*.03,tx,ty]])
         sq+=f'<rect class="el" data-t="{s0+.3:.2f}" data-fn="kfd" data-kf=\'{kf}\' x="0" y="0" width="16" height="16" fill="{GOLD}" data-x="{s0+2.5:.2f}" transform="translate({x0} {y0})"/>'
     b+=svg(sq)
     b+=f'<div class="el" data-t="{s0+2.4:.2f}" data-fn="kfd" data-kf=\'{json.dumps([[s0+2.4,590,430],[s0+3.3,590,255]])}\' style="left:0;top:0;width:100px;height:100px">{icon("key",100,GOLD)}</div>\n'
-    b+=E('<span class="gold">Douze mesures.</span> Une seule finalité :<br>établir la vérité.',c[0]+.1,60,470,1160,None,'fade',.9,'xl serif center ivc')
+    b+=E('<span class="gold">Treize mesures.</span> Une seule finalité :<br>établir la vérité.',c[0]+.1,60,470,1160,None,'fade',.9,'xl serif center ivc')
     T['fx'].append(('click',s0+3.2));T['fx'].append(('unlock',s0+3.5))
     return b
-S('a42','Acte 4 — La clé','bg-navy',[("Douze mesures. Une seule finalité : établir la vérité.",None)],a42,minlen=9,pre=4.0)
+S('a42','Acte 4 — La clé','bg-navy',[("Treize mesures. Une seule finalité : établir la vérité.",None)],a42,minlen=9,pre=4.0)
 
 # ====================== ÉPILOGUE ======================
 def e1(T):
