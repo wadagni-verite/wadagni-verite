@@ -620,6 +620,22 @@
         .chrono .ou { display: block; font-weight: 700; color: var(--navy); margin: 2px 0 4px; }
         .chrono p { margin: 4px 0; font-size: 0.95rem; }
         .chrono .ev.cle .ou { color: #991b1b; }
+        .circuit { margin: 26px 0 10px; }
+        .circuit .phase-label { font-size: 0.85rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; color: var(--navy); border-bottom: 2px solid #e5e7eb; padding-bottom: 6px; margin: 26px 0 14px; }
+        .circuit .phase-label span { font-weight: 400; color: var(--gray); text-transform: none; letter-spacing: 0; }
+        .circuit ol { list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px; padding: 0; margin: 0; }
+        .circuit li.etape { background: #fff; border: 1px solid #e5e7eb; border-top: 5px solid var(--navy); border-radius: 12px; padding: 16px 18px 14px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); display: flex; flex-direction: column; }
+        .circuit li.etape.rupture { border-top-color: var(--red); background: #fff7f7; }
+        .circuit li.etape.neutre { border-top-color: var(--gold); }
+        .circuit .etape-date { font-size: 0.78rem; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase; color: var(--blue); }
+        .circuit li.rupture .etape-date { color: #991b1b; }
+        .circuit .etape h3 { font-size: 1.02rem; margin: 4px 0 6px; line-height: 1.35; }
+        .circuit .etape p { font-size: 0.92rem; margin: 4px 0; line-height: 1.55; }
+        .circuit .etape .pieces { margin-top: auto; padding-top: 10px; border-top: 1px dashed #d1d5db; font-size: 0.82rem; color: var(--gray); }
+        .circuit .etape .pieces strong { color: var(--navy); }
+        .circuit .trou { grid-column: 1 / -1; background: #fee2e2; border-left: 5px solid var(--red); border-radius: 0 10px 10px 0; padding: 12px 16px; font-weight: 600; color: #7f1d1d; font-size: 0.95rem; }
+        .circuit .a-verifier { margin-top: 18px; background: var(--light-gray); border-left: 5px solid var(--gold); border-radius: 0 10px 10px 0; padding: 12px 16px; font-size: 0.92rem; }
+        .circuit .dl { margin-top: 12px; font-size: 0.9rem; }
         .verif li { margin-bottom: 8px; }
         .verif { padding-left: 22px; margin: 12px 0; }
     </style>
@@ -675,6 +691,58 @@
                     <h3>Un dépôt chez Maître Crinot</h3>
                     <p>Albin Féliho dépose le testament à l'étude de Maître Crinot. Le statut du notariat pose des conditions précises pour qu'un acte soit placé au rang des minutes : elles se vérifient dans le dossier.</p>
                 </div>
+            </div>
+        </section>
+
+        <section class="chapter" id="circuit">
+            <h2>Le circuit de l'original en un coup d'œil</h2>
+            <p>Chaque étape est rattachée à la pièce qui l'atteste. Ce schéma ne conclut à rien sur la régularité des remises : il montre où l'original se trouve, selon quelle pièce, et où les pièces ne disent rien.</p>
+            <div class="circuit" id="infographie-circuit">
+                <div class="phase-label">Phase 1 · Circulation du document <span>(2011 – 2012)</span></div>
+                <ol>
+                    <li class="etape">
+                        <span class="etape-date">Février 2011</span>
+                        <h3>Trois localisations dans les mêmes échanges</h3>
+                        <p>« Détenu par maman » ; « trouvé dans les affaires de papa » ; « aucun notaire ne soit en possession du testament ».</p>
+                        <p class="pieces"><strong>Pièces :</strong> <a href="pieces/annexes-2012-p7.pdf" target="_blank" rel="noopener">annexes, p. 7</a> ; <a href="pieces/annexes-2012-p8.pdf" target="_blank" rel="noopener">annexes, p. 8</a> ; <a href="pieces/annexes-2012-p10.pdf" target="_blank" rel="noopener">annexes, p. 10</a></p>
+                    </li>
+                    <li class="etape">
+                        <span class="etape-date">24 – 25 avril 2012</span>
+                        <h3>Lecture au tribunal, paraphe, injonction</h3>
+                        <p>Le juge ordonne le « retour au Notaire pour être déposé au rang de ses minutes » et remet l'original à Lise et Albin Féliho « pour retour au notaire ». Selon la notaire, il lui est retourné le 25 avril.</p>
+                        <p class="pieces"><strong>Pièces :</strong> <a href="pieces/pv-lecture-testament-2012-p3.pdf" target="_blank" rel="noopener">PV de lecture, p. 3</a> ; <a href="pieces/annexes-2012-p3.pdf" target="_blank" rel="noopener">compte rendu, p. 3</a> ; <a href="pieces/courriel-etude-adjagba-p1.pdf" target="_blank" rel="noopener">courriel de l’étude, p. 1</a> et <a href="pieces/courriel-etude-adjagba-p2.pdf" target="_blank" rel="noopener">p. 2</a></p>
+                    </li>
+                    <li class="etape rupture">
+                        <span class="etape-date">8 mai 2012</span>
+                        <h3>Reprise par Lise et Albin Féliho</h3>
+                        <p>Selon l'étude, l'original est repris par les deux héritiers, décharge manuscrite à l'appui. Aucune copie visée par le président du tribunal n'est produite (art. 81).</p>
+                        <p class="pieces"><strong>Pièces :</strong> <a href="pieces/courriel-etude-adjagba-p1.pdf" target="_blank" rel="noopener">courriel, p. 1</a> ; <a href="pieces/courriel-etude-adjagba-p3.pdf" target="_blank" rel="noopener">décharge, p. 3</a></p>
+                    </li>
+                    <li class="trou">Aucune pièce ne situe l'original entre le 8 mai 2012 et le 28 novembre 2013 : dix-huit mois.</li>
+                </ol>
+                <div class="phase-label">Phase 2 · Chez Maître Crinot, administrateur provisoire <span>(2012 – 2014)</span></div>
+                <ol>
+                    <li class="etape neutre">
+                        <span class="etape-date">30 août 2012</span>
+                        <h3>Maître Crinot est nommé administrateur provisoire</h3>
+                        <p>Arrêt n° 28/12, sur la demande de Gilles Féliho : près de quatre mois après la reprise du 8 mai.</p>
+                        <p class="pieces"><strong>Pièce :</strong> <a href="pieces/rapport-crinot-extrait-p1.pdf" target="_blank" rel="noopener">rapport Crinot, p. 1</a></p>
+                    </li>
+                    <li class="etape rupture">
+                        <span class="etape-date">28 novembre 2013</span>
+                        <h3>Dépôt par Albin Féliho à l'office de Maître Crinot</h3>
+                        <p>Couverture portant la mention « copie conforme ». Ce dépôt a lieu sept jours après le courriel de l'étude du 21 novembre 2013, qui situe l'original chez Lise et Albin Féliho.</p>
+                        <p class="pieces"><strong>Pièces :</strong> « DOCUMENT FELIHO.pdf », couverture (p. 3) ; <a href="pieces/courriel-etude-adjagba-p1.pdf" target="_blank" rel="noopener">courriel de l’étude, p. 1</a></p>
+                    </li>
+                    <li class="etape rupture">
+                        <span class="etape-date">Rapport Crinot · jugement 114/14</span>
+                        <h3>« Original » et « certifié conforme » dans le même rapport</h3>
+                        <p>Le rapport liste l'« Original du Testament olographe », puis un original « malencontreusement certifié conforme par Maître Irène ADJAGBA-ICHOLA ». Un notaire consulté : une mention « certifié conforme » n'en fait « pas moins une copie ». Le jugement retient, d'après les héritiers, que c'est « l'original » qui a été remis à Maître Crinot.</p>
+                        <p class="pieces"><strong>Pièces :</strong> <a href="pieces/rapport-crinot-extrait-p1.pdf" target="_blank" rel="noopener">rapport Crinot, p. 1</a> et <a href="pieces/rapport-crinot-extrait-p3.pdf" target="_blank" rel="noopener">p. 3</a> ; <a href="pieces/jugement-2014-p3-crinot-testament.pdf" target="_blank" rel="noopener">jugement n° 114/14, p. 3</a></p>
+                    </li>
+                </ol>
+                <p class="a-verifier"><strong>À vérifier dans le dossier de Maître Crinot :</strong> l'acte de dépôt, l'inscription au répertoire, l'exemplaire déposé (original ou copie) et la mention de conformité. Voir <a href="#statut-minutes">les conditions du statut du notariat</a>.</p>
+                <p class="dl"><a href="infographie-circuit-testament.png" download>📥 Télécharger le schéma (PNG)</a></p>
             </div>
         </section>
 
