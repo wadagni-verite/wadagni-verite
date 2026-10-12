@@ -635,6 +635,8 @@
         .circuit .etape .pieces strong { color: var(--navy); }
         .circuit .trou { grid-column: 1 / -1; background: #fee2e2; border-left: 5px solid var(--red); border-radius: 0 10px 10px 0; padding: 12px 16px; font-weight: 600; color: #7f1d1d; font-size: 0.95rem; }
         .circuit .a-verifier { margin-top: 18px; background: var(--light-gray); border-left: 5px solid var(--gold); border-radius: 0 10px 10px 0; padding: 12px 16px; font-size: 0.92rem; }
+        .circuit ol.deux { grid-template-columns: repeat(2, 1fr); }
+        @media (max-width: 700px) { .circuit ol.deux { grid-template-columns: 1fr; } }
         .circuit .dl { margin-top: 12px; font-size: 0.9rem; }
         .circuit .base-jur { background: #fee2e2; border-left: 4px solid var(--red); border-radius: 0 6px 6px 0; padding: 6px 10px; color: #7f1d1d; font-size: 0.88rem; }
         .verif li { margin-bottom: 8px; }
@@ -722,7 +724,7 @@
                     <tr>
                         <td><strong>Certification de conformité</strong></td>
                         <td>L'original est dit « malencontreusement certifié conforme par Maître Irène ADJAGBA-ICHOLA ».</td>
-                        <td>Art. 81 : copie dont la conformité est mentionnée par le président du tribunal de première instance.</td>
+                        <td>Art. 81 (<a href="pieces/loi-2002-015-art-81.pdf" target="_blank" rel="noopener">statut, p. 12</a>) : copie dont la conformité est mentionnée par le président du tribunal de première instance.</td>
                         <td><span class="alerte">Certification notariale, pas de visa présidentiel dans les pièces produites.</span> (<a href="pieces/rapport-crinot-extrait-p3.pdf" target="_blank" rel="noopener">rapport Crinot, p. 3</a> ; <a href="pieces/acte-depot-testament-crinot-2013-11-28.pdf#page=2" target="_blank" rel="noopener">acte de dépôt, p. 2</a>).</td>
                     </tr>
                     <tr>
@@ -771,12 +773,13 @@
                         <span class="etape-date">8 mai 2012</span>
                         <h3>Reprise par Lise et Albin Féliho</h3>
                         <p>Selon l'étude, l'original est repris par les deux héritiers, décharge manuscrite à l'appui. Aucune copie visée par le président du tribunal n'est produite (art. 81).</p>
+                        <p class="base-jur"><strong>Base juridique : aucune décision produite à ce stade.</strong></p>
                         <p class="pieces"><strong>Pièces :</strong> <a href="pieces/courriel-etude-adjagba-p1.pdf" target="_blank" rel="noopener">courriel, p. 1</a> ; <a href="pieces/courriel-etude-adjagba-p3.pdf" target="_blank" rel="noopener">décharge, p. 3</a></p>
                     </li>
                     <li class="trou">Aucune pièce ne situe l'original entre le 8 mai 2012 et le 28 novembre 2013 : dix-huit mois.</li>
                 </ol>
                 <div class="phase-label">Phase 2 · Chez Maître Crinot, administrateur provisoire <span>(2012 – 2014)</span></div>
-                <ol>
+                <ol class="deux">
                     <li class="etape neutre">
                         <span class="etape-date">30 août 2012</span>
                         <h3>Maître Crinot est nommé administrateur provisoire</h3>
@@ -788,7 +791,7 @@
                         <h3>Acte de dépôt reçu par Maître Crinot, à la requête d'Albin Féliho</h3>
                         <p>Albin Féliho agit « au nom et pour le compte de ses cohéritiers, à l'exception de Monsieur Gilles Sixte FELIHO » et fait mettre au rang des minutes de Maître Crinot « l'original », « malencontreusement certifié conforme par Maître Irène ADJAGBA-ICHOLA ». Le procès-verbal de lecture prévoyait le dépôt chez la notaire Adjagba Ichola. Acte enregistré le 5 décembre 2013.</p>
                         <p class="base-jur"><strong>Base juridique : aucune décision produite à ce stade.</strong></p>
-                        <p class="pieces"><strong>Pièces :</strong> <a href="pieces/acte-depot-testament-crinot-2013-11-28.pdf#page=2" target="_blank" rel="noopener">acte de dépôt, p. 2</a> ; <a href="pieces/acte-depot-testament-crinot-2013-11-28.pdf#page=3" target="_blank" rel="noopener">p. 3</a></p>
+                        <p class="pieces"><strong>Pièces :</strong> <a href="pieces/acte-depot-testament-crinot-2013-11-28.pdf#page=2" target="_blank" rel="noopener">acte de dépôt, p. 2</a> ; <a href="pieces/acte-depot-testament-crinot-2013-11-28.pdf#page=3" target="_blank" rel="noopener">p. 3</a> ; <a href="pieces/pv-lecture-testament-2012-p3.pdf" target="_blank" rel="noopener">PV de lecture, p. 3</a> ; <a href="pieces/loi-2002-015-art-81.pdf" target="_blank" rel="noopener">art. 81, statut p. 12</a></p>
                     </li>
                     <li class="etape neutre">
                         <span class="etape-date">30 décembre 2013</span>
@@ -800,10 +803,11 @@
                         <span class="etape-date">Rapport Crinot · jugement 114/14</span>
                         <h3>« Original » et « certifié conforme » dans le même rapport</h3>
                         <p>Le rapport liste l'« Original du Testament olographe », puis un original « malencontreusement certifié conforme par Maître Irène ADJAGBA-ICHOLA », formule reprise par l'acte de dépôt. Un notaire consulté : une mention « certifié conforme » n'en fait « pas moins une copie ». Le jugement retient, d'après les héritiers, que c'est « l'original » qui a été remis à Maître Crinot.</p>
-                        <p class="pieces"><strong>Pièces :</strong> <a href="pieces/rapport-crinot-extrait-p1.pdf" target="_blank" rel="noopener">rapport Crinot, p. 1</a> et <a href="pieces/rapport-crinot-extrait-p3.pdf" target="_blank" rel="noopener">p. 3</a> ; <a href="pieces/jugement-2014-p3-crinot-testament.pdf" target="_blank" rel="noopener">jugement n° 114/14, p. 3</a></p>
+                        <p class="base-jur"><strong>Certification notariale, pas de visa présidentiel dans les pièces produites.</strong></p>
+                        <p class="pieces"><strong>Pièces :</strong> <a href="pieces/rapport-crinot-extrait-p3.pdf" target="_blank" rel="noopener">rapport Crinot, p. 3</a> ; <a href="pieces/acte-depot-testament-crinot-2013-11-28.pdf#page=2" target="_blank" rel="noopener">acte de dépôt, p. 2</a> ; <a href="pieces/jugement-2014-p3-crinot-testament.pdf" target="_blank" rel="noopener">jugement n° 114/14, p. 3</a> ; <a href="pieces/loi-2002-015-art-81.pdf" target="_blank" rel="noopener">art. 81, statut p. 12</a></p>
                     </li>
                 </ol>
-                <p class="a-verifier"><strong>À vérifier :</strong> la minute de l'acte de dépôt et l'exemplaire annexé (original manuscrit ou copie), l'inscription au répertoire de Maître Crinot, et la sortie du testament de l'étude Adjagba Ichola. Voir <a href="#statut-minutes">les conditions du statut du notariat</a>.</p>
+                <p class="a-verifier"><strong>À vérifier :</strong> la minute de l'acte de dépôt et l'exemplaire annexé (original manuscrit ou copie), l'inscription au répertoire de Maître Crinot, et la sortie du testament de l'étude Adjagba Ichola. Voir <a href="#statut-minutes">« L'acte de dépôt au regard du statut du notariat »</a>.</p>
                 <p class="dl"><a href="infographie-circuit-testament.png" download>📥 Télécharger le schéma (PNG)</a></p>
             </div>
         </section>
