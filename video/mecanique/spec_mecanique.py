@@ -141,10 +141,10 @@ def a21(T):
     b=mech_row(T,0,ce[-1]-.2)+title_gear(T,1,'Mandataire','2016')
     b+=pic('cert-deces-mandat.jpg','Certificat d\'acquit de droit, 20 octobre 2016 (P6)',c[0]+.3,60,230,740)
     b+=paper('Mandat donné ?','',f'<div class="lg red" style="font-size:44px">Aucun</div><div class="sm" style="margin-top:6px">Gilles FÉLIHO n\'a jamais donné mandat<br>et n\'a jamais consenti à cette mention.</div>',c[1]+.2,850,230,370,None,'red','pop',.6)
-    b+=pic('art61.jpg','Statut du notariat, art. 61 : procurations annexées ou déposées au rang des minutes',c[2]+.3,60,350,740)
-    b+=E('<div style="border:3px dashed #9aa6bf;border-radius:8px;padding:12px 16px;color:#b8c2d6" class="serif"><div style="font-size:24px;letter-spacing:.1em">PROCURATION</div><div class="sm">aucune signature · aucune date · aucun dépôt</div></div>',c[2]+1.2,850,402,370,None,'fade',.6)
-    b+=paper('Novembre 2013 · acte de dépôt','P16','<div class="sm">Albin Féliho agit au nom de ses cohéritiers,<br><b>« à l\'exception de Monsieur Gilles Sixte FELIHO »</b></div>',c[3]+.3,60,600,590,None,'')
-    b+=paper('Acte de notoriété · 30 décembre 2013','P17','<div class="sm">Établit <b>qui sont les héritiers</b> (dont Gilles).<br><span class="red"><b>Il ne dit pas qui les représente.</b></span></div>',c[3]+1.3,670,600,550,None,'gold')
+    b+=pic('art61.jpg','Statut du notariat, art. 61 : procurations annexées ou déposées au rang des minutes',c[2]+.3,60,350,740,'fade',c[3]+.2)
+    b+=E('<div style="border:3px dashed #9aa6bf;border-radius:8px;padding:12px 16px;color:#b8c2d6" class="serif"><div style="font-size:24px;letter-spacing:.1em">PROCURATION</div><div class="sm">aucune signature · aucune date · aucun dépôt</div></div>',c[2]+1.2,850,402,370,None,'fade',.6,'','',c[3]+.2)
+    b+=paper('Novembre 2013 · acte de dépôt','P16','<div class="sm">Albin Féliho agit au nom de ses cohéritiers,<br><b>« à l\'exception de Monsieur Gilles Sixte FELIHO »</b></div>',c[3]+.3,60,350,600,None,'','fade',.6,c[4]+.2)
+    b+=paper('Acte de notoriété · 30 décembre 2013','P17','<div class="sm">Établit <b>qui sont les héritiers</b> (dont Gilles).<br><span class="red"><b>Il ne dit pas qui les représente.</b></span></div>',c[3]+1.5,60,470,600,None,'gold','fade',.6,c[4]+.2)
     b+=pic('mise-preuve.jpg','Mise en demeure du 28 mai 2025 (P15) — preuve écrite du mandat demandée',c[4]+.3,60,470,740)
     b+=E('<span class="red" style="font-weight:700">Aucune réponse.</span>',c[4]+1.2,850,520,370,None,'pop',.5,'lg serif')
     return b
@@ -204,11 +204,11 @@ def a24(T):
     b=mech_row(T,2,ce[-1]-.2)+title_gear(T,3,'Exécution partielle','2025')
     b+=pic('pv-execution.jpg','PV d\'audition du 19 mars 2025, Brigade criminelle, p. 5/5 (P11)',c[0]+.3,60,235,700)
     b+=pic('pv-dossier.jpg','PV d\'audition du 19 mars 2025, p. 2/5 (P11) : « sauf lui »',c[1]+.3,60,380,700)
-    b+=paper('Code des personnes et de la famille','',f'<div class="sm"><b>Art. 940</b> : exécuteur nommé par le testateur<br><span class="red"><b>Aucun exécuteur désigné</b> : seul un administrateur, Me CRINOT</span></div><div class="sm" style="margin-top:8px"><b>Art. 941</b> : saisine limitée aux <b>meubles</b>, un an et un jour</div><div class="sm" style="margin-top:8px">Testament déposé chez Me CRINOT, 28 nov. 2013 <span class="bd">P16</span></div>',c[2]+.3,810,235,410,None,'')
-    b+=E('<div class="serif md ivc"><span class="gold">Décès : 2010</span><br><span class="gold">Enregistrement de la déclaration : 2016</span><br><b>Plus de 5 ans et demi après le décès</b></div>',c[3]+.3,810,470,410,None,'fade',.6,'','',c[4]+.3)
-    b+=paper('Aucun acte de disposition établi','P13 · P14','<div class="sm">Parcelle B du lot 488 : <b>inconnue</b> de la Mairie de Cotonou et de l\'IGN.<br>Pièce de 2007 : lot <b>923</b>, antérieure au décès.</div>',c[4]+.4,810,470,410,None,'red','fade',.6,c[5]+.3)
-    b+=pic('pvc-bail.jpg','Constat d\'huissier du 29 juillet 2022 (P12) : un appartement loué par une société tierce',c[5]+.4,810,470,410)
-    b+=E('<span class="red" style="font-weight:700">Le bail n\'est pas produit.</span>',c[5]+1.6,810,596,410,None,'fade',.5,'serif md')
+    b+=paper('Code des personnes et de la famille','',f'<div class="sm"><b>Art. 940</b> : exécuteur nommé par le testateur<br><span class="red"><b>Aucun exécuteur désigné</b> : seul un administrateur, Me CRINOT</span></div><div class="sm" style="margin-top:8px"><b>Art. 941</b> : saisine limitée aux <b>meubles</b>, un an et un jour</div><div class="sm" style="margin-top:8px">Testament déposé chez Me CRINOT, 28 nov. 2013 <span class="bd">P16</span></div>',c[2]+.3,810,110,410,None,'')
+    b+=E('<div class="serif md ivc"><span class="gold">Décès : 2010</span><br><span class="gold">Enregistrement de la déclaration : 2016</span><br><b>Plus de 5 ans et demi après le décès</b></div>',c[3]+.3,810,385,410,None,'fade',.6,'','',c[4]+.3)
+    b+=paper('Aucun acte de disposition établi','P13 · P14','<div class="sm">Parcelle B du lot 488 : <b>inconnue</b> de la Mairie de Cotonou et de l\'IGN.<br>Pièce de 2007 : lot <b>923</b>, antérieure au décès.</div>',c[4]+.4,810,385,410,None,'red','fade',.6,c[5]+.3)
+    b+=pic('pvc-bail.jpg','Constat d\'huissier du 29 juillet 2022 (P12) : un appartement loué par une société tierce',c[5]+.4,810,385,410)
+    b+=E('<span class="red" style="font-weight:700">Le bail n\'est pas produit.</span>',c[5]+1.6,810,548,410,None,'fade',.5,'serif md')
     return b
 S('a24','Acte 2 — Pignon 3','bg-navy',
   [(f"Pignon 3 : exécution partielle, en 2025. Le 19 mars, devant la Brigade criminelle, P11, {N} déclare : « dont j'ai été saisi d'une exécution partielle ».","Pignon trois : exécution partielle, en 2025. Le 19 mars, devant la Brigade criminelle, P11, "+N+" déclare : dont j'ai été saisi d'une exécution partielle."),
@@ -252,12 +252,13 @@ def a26(T):
     b+=E(f'<div style="display:flex;justify-content:center">{icon("person",96,"#F5F0E8")}</div>',c[2]+.3,1010,330,100,None,'fade',.5)
     kf=json.dumps([[c[2]+.6,820,380],[c[2]+2.2,950,380],[c[2]+2.8,950,380],[c[2]+3.6,810,380]])
     b+=f'<div class="el" data-t="{c[2]+.6:.2f}" data-fn="kfd" data-kf=\'{kf}\' style="left:0;top:0;width:60px;height:60px">{icon("key",60,GOLD)}</div>\n'
-    b+=E('La lettre du 7 septembre 2023 n\'est pas un événement distinct<br>du prétendu mandat : <span class="gold">elle en est le révélateur</span>.',c[2]+1.0,60,500,1160,None,'fade',.8,'lg serif center ivc')
+    b+=E('La lettre du 7 septembre 2023 n\'est pas un événement distinct<br>du prétendu mandat : <span class="gold">elle en est le révélateur</span>.',c[3]+.2,60,500,1160,None,'fade',.8,'lg serif center ivc')
     return b
 S('a26','Acte 2 — Le refus d\'accès','bg-navy',
   [(f"Le refus d'accès s'inscrit dans le même mécanisme. Le 7 septembre 2023, P9, {N} invoque la confidentialité et l'absence d'ordonnance judiciaire.",None),
    ("Or l'article 82 du statut ne requiert une ordonnance que pour les personnes autres que les intéressés en nom direct, les héritiers ou les ayants droit.",None),
-   ("Gilles Féliho est héritier : l'acte de notoriété de Maître Crinot, P17, le confirme, et cet acte figure dans le fichier que l'Étude a elle-même transmis. La lettre du 7 septembre 2023 n'est pas un événement distinct du prétendu mandat : elle en est le révélateur.",None)],a26)
+   ("Gilles Féliho est héritier : l'acte de notoriété de Maître Crinot, P17, le confirme, et cet acte figure dans le fichier que l'Étude a elle-même transmis.",None),
+   ("La lettre du 7 septembre 2023 n'est pas un événement distinct du prétendu mandat : elle en est le révélateur.",None)],a26)
 
 # ====================== ACTE 3 ======================
 def a31(T):
@@ -276,17 +277,18 @@ def a31(T):
     b+=svg(wave(960,290,170,c[2]+1.0)+f'<line class="el" data-t="{c[2]+.9:.2f}" data-fn="crack" data-len="480" data-dur=".8" x1="960" y1="300" x2="{tx}" y2="{ty}" stroke="{RED}" stroke-width="4" stroke-dasharray="10 8"/>')
     b+=pic('pv-confirme.jpg','PV d\'audition du 19 mars 2025, p. 2/5 (P11) : le notaire Félix BALLEY invoque le jugement du 31 octobre 2014',c[3]+.3,60,388,520,'fade',c[4]+.2)
     b+=pic('jug-deces.jpg','Jugement n° 114/14, p. 6 (P5) : décès le 3 décembre 2010',c[3]+1.6,660,388,520,'fade',c[4]+.2)
-    b+=pic('notoriete-deces.jpg','Acte de notoriété, Me Crinot, 30 décembre 2013 (P17) : décès le 3 décembre 2010',c[4]+.3,60,388,560)
-    b+=pic('extrait-deces-date.jpg','Extrait d\'acte de décès annexé (P18) : « Trois décembre 2010 »',c[4]+1.4,660,388,520)
-    b+=E('Ces pièces figurent dans le fichier de 30 pages que l\'Étude du notaire Félix BALLEY a transmis à Vincennes (P20).<br>La vérification était <span class="red">non seulement possible, mais les pièces étaient dans le dossier.</span>',c[4]+2.4,60,540,1160,None,'fade',.8,'md serif center',"",c[5]+.2)
-    b+=E('Les pièces établissent que le notaire Félix BALLEY<br><span class="red">ne pouvait ignorer la vraie date du décès.</span>',c[5]+.3,60,540,1160,None,'fade',.8,'md serif center',"",None)
+    b+=pic('notoriete-deces.jpg','Acte de notoriété, Me Crinot, 30 décembre 2013 (P17) : décès le 3 décembre 2010',c[4]+.3,60,388,500,'fade',c[5]+.2)
+    b+=pic('extrait-deces-date.jpg','Extrait d\'acte de décès annexé (P18) : « Trois décembre 2010 »',c[4]+1.4,620,388,440,'fade',c[5]+.2)
+    b+=paper('Fichier de 30 pages','P20','<div class="sm">Transmis à l\'office de Vincennes par l\'Étude du notaire Félix BALLEY. Contient <b>P16, P17, P18</b>.</div>',c[4]+2.4,620,462,560,None,'gold','fade',.6,c[5]+.2)
+    b+=E('La vérification était <span class="red">non seulement possible,<br>mais les pièces étaient dans le dossier.</span>',c[4]+3.6,60,610,500,None,'fade',.6,'sm serif',"font-weight:700",c[5]+.2) if False else ''
+    b+=E('Les pièces établissent que le notaire Félix BALLEY<br><span class="red">ne pouvait ignorer la vraie date du décès.</span>',c[5]+.3,60,430,1160,None,'fade',.8,'lg serif center',"",None)
     return b
 S('a31','Acte 3 — La preuve de l\'intention','bg-iv',
   [("Avant l'inscription au répertoire du 10 août 2016, six pièces fixaient le décès au 3 décembre 2010 : P1, P2 et P5, et les actes de Maître Crinot de 2013 : P16, P17 et l'extrait de décès annexé, P18.",None),
    ("Le certificat de décès, le procès-verbal de lecture du testament, le jugement, l'acte de dépôt du testament et l'acte de notoriété : des actes publics, judiciaires ou notariés.",None),
    ("La date du 10 juin 2016 apparaît dans un acte postérieur à ces pièces.",None),
    (f"Le 19 mars 2025, P11, {N} invoque lui-même le jugement du 31 octobre 2014. Ce jugement retient le décès au 3 décembre 2010.",None),
-   ("Ces pièces figurent dans le fichier de trente pages que l'Étude du notaire Félix BALLEY a transmis au notaire de Vincennes, P20. La vérification était non seulement possible, mais les pièces étaient dans le dossier.",None),
+   ("Ces pièces figurent dans le fichier de trente pages que l'Étude du notaire Félix BALLEY a transmis à l'office notarial de Vincennes, P20. La vérification était non seulement possible, mais les pièces étaient dans le dossier.",None),
    ("Les pièces établissent que le notaire Félix BALLEY ne pouvait ignorer la vraie date du décès.",None)],a31)
 
 def a32(T):
@@ -438,7 +440,7 @@ def p2(T):
     b+=E('<span class="cap">Masse déclarée au certificat</span>',c[2]+.6,900,258,300,None,'fade',.4)
     b+=paper('Titre foncier d\'Agla n° 2222','P4 · P6','<div class="sm">Cité par le communiqué du 3 avril 2013 (P4) : <b>« A Agla, le domaine faisant l\'objet du titre foncier Agla TF n°2222 »</b>.<br><span class="red"><b>Absent du certificat (P6)</b></span> : les titres fonciers déclarés sont 739, 3325, 2601, 786, 123, 158 et 1402.</div><div style="margin-top:8px"><img src="../avocat/img/comm-agla.jpg" style="width:560px;border:2px solid #CDBF9F"></div>',c[3]+.3,60,340,1160,None,'gold','fade',.6,c[4]+.2)
     b+=paper('Acte de notoriété · Me Crinot · 30 décembre 2013','P17','<div class="sm">« le domaine sis à Cotonou lieudit Agla, objet du Titre Foncier 2222 »<br><span class="red"><b>Titres 2222 (Agla) et 57 (Abomey) : absents du certificat (P6).</b></span></div><div style="margin-top:8px"><img src="../avocat/img/notoriete-tf.jpg" style="width:600px;border:2px solid #CDBF9F"></div>',c[4]+.3,60,340,1160,None,'gold')
-    b+=E('Anomalie : lot 240, titre foncier <span class="red">739</span> au certificat (P6), <span class="red">729</span> à l\'acte de notoriété (P17).',c[5]+.3,60,640,1160,None,'fade',.7,'serif center','font-size:28px;font-weight:700')
+    b+=E('Anomalie : lot 240, titre foncier <span class="red">739</span> au certificat (P6), <span class="red">729</span> à l\'acte de notoriété (P17).',c[5]+.3,60,556,1160,None,'fade',.7,'serif center','font-size:26px;font-weight:700')
     return b
 S('p2',TAGP,'bg-iv',
   [("Deuxième préjudice : la base de la réserve héréditaire. Article 813 : la réserve héréditaire globale est de deux tiers de la masse à partager.",None),
@@ -516,10 +518,12 @@ def p5b(T):
     b+=pic('mail-corps.jpg','« Pour faire suite à nos différents échanges, je vous prie de trouver ci-joints, les documents que je viens de recevoir. »',c[0]+1.0,60,190,760)
     b+=pic('mail-pj.jpg','Pièce jointe : DOCUMENT FELIHO.pdf (2,2 Mo)',c[0]+1.8,60,420,400)
     b+=paper('Courriel du 24 mai 2018','P8','<div class="sm">Expéditeur : Élisabeth CHYRA, collaboratrice d\'Alexandrine BOISSONNET, notaire, office notarial de Vincennes.<br>Objet : <b>PARTAGE FELIHO</b>.<br>En première page du document joint : <b>le certificat d\'acquit de droit du 20 octobre 2016</b> (P6).</div>',c[0]+2.4,870,150,350,None,'gold')
-    b+=paper('Fichier de 30 pages','P20 · P16 · P17','<div class="sm">Transmis à Vincennes par l\'Étude du notaire Félix BALLEY (demande du 19 mars 2018, relances d\'avril).<br>Contient aussi : <b>l\'acte de dépôt du testament</b> et <b>l\'acte de notoriété</b> de Me Crinot.</div>',c[0]+9.0,870,400,350,None,'gold')
+    b+=paper('Fichier de 30 pages','P20 · P16 · P17','<div class="sm">Transmis à Vincennes par l\'Étude du notaire Félix BALLEY (P20).<br>Contient aussi <b>P16</b> et <b>P17</b>.</div>',c[1]+.4,480,420,370,None,'gold')
     return b
 S('p5b',TAGP+' · le courriel du 24 mai 2018','bg-iv',
-  [("Le 24 mai 2018, l'office notarial de Vincennes transmet à Gilles Féliho le document joint : en première page, le certificat d'acquit de droit du 20 octobre 2016. Ce fichier de trente pages avait été transmis à Vincennes par l'Étude du notaire Félix BALLEY, après la demande du 19 mars 2018 et les relances d'avril, P20. Il contient aussi l'acte de dépôt du testament et l'acte de notoriété de Maître Crinot, P16 et P17.",None)],p5b,minlen=14)
+  [("Le 24 mai 2018, l'office notarial de Vincennes transmet à Gilles Féliho le document joint : en première page, le certificat d'acquit de droit du 20 octobre 2016.",None),
+   ("Ce fichier de trente pages avait été transmis à Vincennes par l'Étude du notaire Félix BALLEY, après la demande du 19 mars 2018 et les relances d'avril, P20.",None),
+   ("Il contient aussi l'acte de dépôt du testament et l'acte de notoriété de Maître Crinot, P16 et P17.",None)],p5b,minlen=9)
 
 def p6(T):
     c=T['c'];b='';ce=T['ce']
