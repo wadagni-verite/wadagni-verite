@@ -4,9 +4,9 @@
 **Requérant :** Gilles Sixte FELIHO, héritier réservataire et légataire
 **Personne mise en cause :** Maître Félix A. BALLEY, notaire
 
-Ce texte peut être utilisé seul (annexe, note de plaidoirie, complément au mémoire en dénonciation, base d'un sous-titrage). Il reprend les quatre chefs de préjudice présentés dans le motion design « La Mécanique de Verrouillage » (Acte 3 bis). Les pièces sont désignées par leur numéro au bordereau du mémoire (P1 à P15) ; la lettre de la banque AIB du 5 octobre 2011, qui n'est pas au bordereau, est désignée « lettre AIB ».
+Ce texte peut être utilisé seul (annexe, note de plaidoirie, complément au mémoire en dénonciation, base d'un sous-titrage). Il reprend les quatre chefs de préjudice présentés dans le motion design « La Mécanique de Verrouillage » (Acte 3 bis). Les pièces sont désignées par leur numéro au bordereau du mémoire (P1 à P22).
 
-Les qualifications pénales sont avancées sous réserve de l'établissement de l'élément intentionnel par l'enquête.
+Selon le requérant, l'accumulation des contradictions et l'absence de correction spontanée caractérisent l'intention.
 
 ---
 
@@ -57,7 +57,7 @@ La réserve, deux tiers de la masse, calculée sur la base de la déclaration, p
 
 ### L'indice commercial AIB
 
-La lettre AIB du 5 octobre 2011 (adressée à la veuve Honorine B. FELIHO) rappelle qu'il avait été convenu de payer les loyers de la banque « en deux tranches (soit 30 millions par tranche y compris les impôts & taxes) », soit 60 millions de FCFA pour 2011. Elle mentionne :
+La lettre AIB du 5 octobre 2011, P19 (adressée à la veuve Honorine B. FELIHO) rappelle qu'il avait été convenu de payer les loyers de la banque « en deux tranches (soit 30 millions par tranche y compris les impôts & taxes) », soit 60 millions de FCFA pour 2011. Elle mentionne :
 
 - un chèque de **24 461 751 FCFA** (déduction faite de la TFU de 5 538 249 FCFA), « remis dans les mains de Madame Lise Lin Nicole FELIHO le 1er février 2011 » ;
 - un virement de **29 060 861 FCFA** le 4 août 2011, sur le compte du Cabinet d'Avocat JFV FELIHO, montant qui « a fait l'objet d'extourne et remis sur le compte particulier du feu FELIHO Jean-Florentin, le 04 octobre 2011 ».
@@ -72,7 +72,7 @@ Le certificat (P6) déclare l'immeuble du lot 240, Camp Guézo (TF 739 de Cotono
 
 **Faits.** Le certificat (P6) indique : « décédé à Cotonou, le dix juin deux mil seize ». Le décès a eu lieu le 3 décembre 2010 (P1, P2, P5). La date portée sur le certificat prolonge la vie du défunt de **cinq ans et six mois**.
 
-**Un décès établi par les actes de Maître CRINOT.** Le 19 mars 2018, Maître BALLEY a accusé réception de la demande du notaire de Vincennes, qui l'a relancé en avril (échange publié : <https://wadagni2026-verite.com/pieces/courriels-vincennes-balley-2018-03-04.pdf>). Le fichier de 30 pages reçu le 24 mai 2018 (P8) comprenait, outre le certificat, l'acte de dépôt du testament du 28 novembre 2013 et l'acte de notoriété du 30 décembre 2013 reçus par Maître Lazare C. CRINOT. L'acte de notoriété fixe le décès « le trois Décembre deux mil dix » ; l'extrait d'acte de décès annexé aux deux actes porte la même date (« Date et lieu du décès : Trois décembre 2010 »). Maître BALLEY étant le seul interlocuteur du notaire de Vincennes, et aucun autre canal n'étant mentionné, ces pièces émanent de son Étude, qui avait pourtant fait mentionner au certificat un décès « le dix juin deux mil seize ». Les actes sont publiés (extraits, coordonnées de particuliers floutées) : <https://wadagni2026-verite.com/analyse-localisation-testament-par-date.html#acte-depot>.
+**Un décès établi par les actes de Maître CRINOT.** Le 19 mars 2018, Maître BALLEY a accusé réception de la demande de l'office notarial de Vincennes, qui l'a relancé en avril (P20). Le fichier de 30 pages reçu le 24 mai 2018 comprenait, outre le certificat, l'acte de dépôt du testament du 28 novembre 2013 (P16) et l'acte de notoriété du 30 décembre 2013 (P17), reçus par Maître Lazare C. CRINOT. L'acte de notoriété fixe le décès « le trois Décembre deux mil dix » ; l'extrait d'acte de décès annexé aux deux actes (P18) porte la même date (« Date et lieu du décès : Trois décembre 2010 »). Maître BALLEY étant le seul interlocuteur de l'office notarial de Vincennes, et aucun autre canal n'étant mentionné, ces pièces émanent de son Étude, qui avait pourtant fait mentionner au certificat un décès « le dix juin deux mil seize » : les pièces établissent qu'il ne pouvait ignorer la vraie date. Les actes sont publiés (extraits, coordonnées de particuliers floutées) : <https://wadagni2026-verite.com/analyse-localisation-testament-par-date.html#acte-depot>.
 
 **Observation de loyauté.** L'indignité successorale (art. 595 et 596 du Code des personnes et de la famille) n'est pas invoquée : elle vise un successible, et Maître BALLEY n'a pas vocation à succéder. L'atteinte est poursuivie sur l'article 13 et sur la responsabilité civile (Code civil, art. 1382).
 
@@ -96,7 +96,7 @@ Les actes demandés lui sont refusés : il ne peut ni les consulter, ni vérifie
 ## Synthèse — l'effet de cumul
 
 - L'absence de mandat établit la fausseté de la mention portée au certificat.
-- La fausseté de la mention caractérise le faux, sous réserve de l'intention.
+- La fausseté de la mention caractérise le faux.
 - Le faux explique l'écart de déclaration.
 - Le refus de communiquer les actes a prolongé l'entrave.
 
@@ -107,7 +107,7 @@ Chaque préjudice renforce les autres. L'un des quatre suffit à tenir la demand
 ## Mesures d'instruction liées à ce volet
 
 - Mesure 10 : expertise immobilière indépendante (lot 240, titre foncier d'Agla n° 2222).
-- Mesure 11 : lettre AIB du 5 octobre 2011 et pièces comptables des loyers perçus pour le lot 240.
+- Mesure 11 : lettre AIB du 5 octobre 2011 (P19) et pièces comptables des loyers perçus pour le lot 240.
 - Mesure 12 : rémunération perçue par Maître BALLEY (émoluments, honoraires) : conformité à la pratique et poids en pourcentage des valeurs immobilières estimées (P5, P6, P7).
 
 *Orthographe : la société locataire de l'immeuble visé au constat d'huissier du 29 juillet 2022 (P12) est la société Évenemenciel.*
