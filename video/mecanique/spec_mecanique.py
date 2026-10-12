@@ -360,13 +360,13 @@ def a34(T):
         b+=E(f'<span class="bd">{p}</span>',ts[i]+.5,1010,y+22,180,None,'fade',.5,'serif')
         ln+=f'<line class="el" data-t="{ts[i]+.4:.2f}" data-fn="crack" data-len="120" data-dur=".6" x1="920" y1="{y+30}" x2="1000" y2="{y+30}" stroke="{GOLD}" stroke-width="3"/>'
     b+=svg(ln)
-    b+=paper('Ce que la loi exige','','<div class="sm">Altération frauduleuse de la vérité · écrit protégé · préjudice possible</div><div class="lg red" style="margin-top:6px;font-size:32px">L\'intention est caractérisée,</div><div class="sm">selon le requérant : contradictions accumulées, aucune correction spontanée.</div>',c[3]+.3,60,402,860,None,'red','pop',.6)
+    b+=paper('Ce que la loi exige','','<div class="sm">Altération frauduleuse de la vérité · écrit protégé · préjudice possible</div><div class="lg red" style="margin-top:6px;font-size:32px">L\'élément intentionnel se déduit</div><div class="sm">de l\'accumulation des contradictions et de l\'absence de rectification spontanée, appréciées conjointement.</div>',c[3]+.3,60,402,860,None,'red','pop',.6)
     return b
 S('a34','Acte 3 — La qualification pénale','bg-iv',
   [("Les textes qui suivent sont à vérifier sur le texte officiel de l'ancien code pénal, dit code Bouvenet, applicable en 2016. Le Code pénal de 2018 n'est pas rétroactif : article 6, à vérifier.",None),
    ("L'article 145 vise le faux commis par un officier public dans une écriture publique. L'article 146 vise le fait de constater comme vrais des faits faux.",None),
    ("L'article 148 vise l'usage de l'acte faux. Les articles 153 et 154, pour le certificat inexact et la fausse qualité, ont une numérotation à vérifier.",None),
-   ("Le faux suppose une altération frauduleuse de la vérité, un écrit protégé et un préjudice possible. Selon le requérant, l'accumulation des contradictions et l'absence de correction spontanée caractérisent l'intention.",None)],a34)
+   ("Le faux suppose une altération frauduleuse de la vérité, un écrit protégé et un préjudice possible. L'élément intentionnel se déduit de l'accumulation des contradictions et de l'absence de rectification spontanée, appréciées conjointement.",None)],a34)
 
 # ====================== ACTE 3 bis — LES QUATRE CHEFS DE PRÉJUDICE ======================
 TAGP='Acte 3 bis — Les quatre chefs de préjudice'

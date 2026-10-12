@@ -6,7 +6,7 @@
 
 Ce texte peut être utilisé seul (annexe, note de plaidoirie, complément au mémoire en dénonciation, base d'un sous-titrage). Il reprend les quatre chefs de préjudice présentés dans le motion design « La Mécanique de Verrouillage » (Acte 3 bis). Les pièces sont désignées par leur numéro au bordereau du mémoire (P1 à P22).
 
-Selon le requérant, l'accumulation des contradictions et l'absence de correction spontanée caractérisent l'intention.
+L'élément intentionnel se déduit de l'accumulation des contradictions et de l'absence de rectification spontanée, appréciées conjointement.
 
 ---
 

@@ -51,7 +51,7 @@ Conséquences : (i) la mention « agissant en qualité de mandataire et au nom d
 
 ## 5. L'intention
 
-Selon le requérant, l'accumulation des contradictions (quatre positions incompatibles : mandataire, tiers non partie, exécution partielle, décision de justice), l'absence de correction spontanée après les contestations et la possession des pièces établissant la vraie date caractérisent l'intention.
+L'élément intentionnel se déduit de l'accumulation des contradictions (quatre positions incompatibles : mandataire, tiers non partie, exécution partielle, décision de justice) et de l'absence de rectification spontanée après les contestations, appréciées conjointement avec la détention des pièces établissant la vraie date.
 
 ## 6. Mesures d'instruction concernées
 
