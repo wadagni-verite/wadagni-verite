@@ -141,15 +141,18 @@ def a21(T):
     b=mech_row(T,0,ce[-1]-.2)+title_gear(T,1,'Mandataire','2016')
     b+=pic('cert-deces-mandat.jpg','Certificat d\'acquit de droit, 20 octobre 2016 (P6)',c[0]+.3,60,230,740)
     b+=paper('Mandat donné ?','',f'<div class="lg red" style="font-size:44px">Aucun</div><div class="sm" style="margin-top:6px">Gilles FÉLIHO n\'a jamais donné mandat<br>et n\'a jamais consenti à cette mention.</div>',c[1]+.2,850,230,370,None,'red','pop',.6)
-    b+=pic('art61.jpg','Statut du notariat, art. 61 : procurations annexées ou déposées au rang des minutes',c[2]+.3,60,350,740)
-    b+=E('<div style="border:3px dashed #9aa6bf;border-radius:8px;padding:12px 16px;color:#b8c2d6" class="serif"><div style="font-size:24px;letter-spacing:.1em">PROCURATION</div><div class="sm">aucune signature · aucune date · aucun dépôt</div></div>',c[2]+1.2,850,402,370,None,'fade',.6)
-    b+=pic('mise-preuve.jpg','Mise en demeure du 28 mai 2025 (P15) — preuve écrite du mandat demandée',c[3]+.3,60,470,740)
-    b+=E('<span class="red" style="font-weight:700">Aucune réponse.</span>',c[3]+1.2,850,520,370,None,'pop',.5,'lg serif')
+    b+=pic('art61.jpg','Statut du notariat, art. 61 : procurations annexées ou déposées au rang des minutes',c[2]+.3,60,350,740,'fade',c[3]+.2)
+    b+=E('<div style="border:3px dashed #9aa6bf;border-radius:8px;padding:12px 16px;color:#b8c2d6" class="serif"><div style="font-size:24px;letter-spacing:.1em">PROCURATION</div><div class="sm">aucune signature · aucune date · aucun dépôt</div></div>',c[2]+1.2,850,402,370,None,'fade',.6,'','',c[3]+.2)
+    b+=paper('Novembre 2013 · acte de dépôt','P16','<div class="sm">Albin Féliho agit au nom de ses cohéritiers,<br><b>« à l\'exception de Monsieur Gilles Sixte FELIHO »</b></div>',c[3]+.3,60,350,600,None,'','fade',.6,c[4]+.2)
+    b+=paper('Acte de notoriété · 30 décembre 2013','P17','<div class="sm">Établit <b>qui sont les héritiers</b> (dont Gilles).<br><span class="red"><b>Il ne dit pas qui les représente.</b></span></div>',c[3]+1.5,60,470,600,None,'gold','fade',.6,c[4]+.2)
+    b+=pic('mise-preuve.jpg','Mise en demeure du 28 mai 2025 (P15) — preuve écrite du mandat demandée',c[4]+.3,60,470,740)
+    b+=E('<span class="red" style="font-weight:700">Aucune réponse.</span>',c[4]+1.2,850,520,370,None,'pop',.5,'lg serif')
     return b
 S('a21','Acte 2 — Pignon 1','bg-navy',
   [("Pignon 1 : mandataire, en 2016. Le certificat d'acquit de droit, P6, indique : agissant en qualité de mandataire et au nom des héritiers suivants, dont Gilles Sixte Féliho.","Pignon un : mandataire, en 2016. Le certificat d'acquit de droit, P6, indique : agissant en qualité de mandataire et au nom des héritiers suivants, dont Gilles Sixte Féliho."),
    (f"Gilles Féliho n'a jamais donné mandat au notaire Félix BALLEY et n'a jamais consenti à cette mention.",None),
    ("L'article 61 du statut exige que les procurations soient annexées à l'acte ou déposées au rang des minutes. Aucune procuration n'est produite.",None),
+   ("En novembre 2013, P16, Albin Féliho agit au nom de ses cohéritiers, à l'exception de Gilles Féliho. L'acte de notoriété, P17, établit qui sont les héritiers : pas qui les représente.",None),
    ("Le 28 mai 2025, P15, la preuve écrite du mandat est demandée à l'administration. Aucune réponse.",None)],a21)
 
 def c4(T):
@@ -201,16 +204,16 @@ def a24(T):
     b=mech_row(T,2,ce[-1]-.2)+title_gear(T,3,'Exécution partielle','2025')
     b+=pic('pv-execution.jpg','PV d\'audition du 19 mars 2025, Brigade criminelle, p. 5/5 (P11)',c[0]+.3,60,235,700)
     b+=pic('pv-dossier.jpg','PV d\'audition du 19 mars 2025, p. 2/5 (P11) : « sauf lui »',c[1]+.3,60,380,700)
-    b+=paper('Code des personnes et de la famille','',f'<div class="sm"><b>Art. 940</b> : exécuteur nommé par le testateur<br><span class="red"><b>Aucune désignation produite</b></span></div><div class="sm" style="margin-top:10px"><b>Art. 941</b> : saisine limitée aux <b>meubles</b>, un an et un jour</div>',c[2]+.3,810,235,410,None,'')
-    b+=E('<div class="serif md ivc"><span class="gold">Décès : 2010</span><br><span class="gold">Enregistrement de la déclaration : 2016</span><br><b>Plus de 5 ans et demi après le décès</b></div>',c[3]+.3,810,430,410,None,'fade',.6,'','',c[4]+.3)
-    b+=paper('Aucun acte de disposition établi','P13 · P14','<div class="sm">Parcelle B du lot 488 : <b>inconnue</b> de la Mairie de Cotonou et de l\'IGN.<br>Pièce de 2007 : lot <b>923</b>, antérieure au décès.</div>',c[4]+.4,810,430,410,None,'red','fade',.6,c[5]+.3)
-    b+=pic('pvc-bail.jpg','Constat d\'huissier du 29 juillet 2022 (P12) : un appartement loué par une société tierce',c[5]+.4,810,430,410)
-    b+=E('<span class="red" style="font-weight:700">Le bail n\'est pas produit.</span>',c[5]+1.6,810,556,410,None,'fade',.5,'serif md')
+    b+=paper('Code des personnes et de la famille','',f'<div class="sm"><b>Art. 940</b> : exécuteur nommé par le testateur<br><span class="red"><b>Aucun exécuteur désigné</b> : seul un administrateur, Me CRINOT</span></div><div class="sm" style="margin-top:8px"><b>Art. 941</b> : saisine limitée aux <b>meubles</b>, un an et un jour</div><div class="sm" style="margin-top:8px">Testament déposé chez Me CRINOT, 28 nov. 2013 <span class="bd">P16</span></div>',c[2]+.3,810,110,410,None,'')
+    b+=E('<div class="serif md ivc"><span class="gold">Décès : 2010</span><br><span class="gold">Enregistrement de la déclaration : 2016</span><br><b>Plus de 5 ans et demi après le décès</b></div>',c[3]+.3,810,385,410,None,'fade',.6,'','',c[4]+.3)
+    b+=paper('Aucun acte de disposition établi','P13 · P14','<div class="sm">Parcelle B du lot 488 : <b>inconnue</b> de la Mairie de Cotonou et de l\'IGN.<br>Pièce de 2007 : lot <b>923</b>, antérieure au décès.</div>',c[4]+.4,810,385,410,None,'red','fade',.6,c[5]+.3)
+    b+=pic('pvc-bail.jpg','Constat d\'huissier du 29 juillet 2022 (P12) : un appartement loué par une société tierce',c[5]+.4,810,385,410)
+    b+=E('<span class="red" style="font-weight:700">Le bail n\'est pas produit.</span>',c[5]+1.6,810,548,410,None,'fade',.5,'serif md')
     return b
 S('a24','Acte 2 — Pignon 3','bg-navy',
   [(f"Pignon 3 : exécution partielle, en 2025. Le 19 mars, devant la Brigade criminelle, P11, {N} déclare : « dont j'ai été saisi d'une exécution partielle ».","Pignon trois : exécution partielle, en 2025. Le 19 mars, devant la Brigade criminelle, P11, "+N+" déclare : dont j'ai été saisi d'une exécution partielle."),
    ("Il ajoute : « Le dossier m'a été transmis par l'ensemble de la succession sauf lui ».",None),
-   (f"Le Code des personnes et de la famille ne connaît qu'un exécuteur désigné par le testateur : article 940. Aucune désignation du notaire Félix BALLEY n'est produite.",None),
+   (f"Le Code des personnes et de la famille ne connaît qu'un exécuteur désigné par le testateur : article 940. Aucune pièce ne désigne d'exécuteur testamentaire : seul un administrateur a été nommé, Maître Crinot. Et le testament a été déposé chez lui le 28 novembre 2013, P16.",None),
    ("Même un exécuteur n'a qu'une saisine limitée aux meubles, un an et un jour : article 941. Ici, la déclaration est enregistrée plus de cinq ans et demi après le décès.",None),
    ("Les pièces P13 et P14 : la parcelle B du lot 488 est inconnue de la Mairie et de l'IGN, et la pièce de 2007 vise le lot 923. Aucun acte de disposition n'est établi.",None),
    ("Constat d'huissier du 29 juillet 2022, P12 : un appartement est occupé par la société Vissim, qui déclare le tenir à bail de la société Évenemenciel. Le bail n'est pas produit.",None)],a24)
@@ -245,41 +248,48 @@ def a26(T):
     c=T['c'];ce=T['ce'];b=''
     b+=pic('balley-lettre.jpg','Lettre du 7 septembre 2023 (P9) : confidentialité, absence d\'ordonnance judiciaire',c[0]+.3,60,130,740)
     b+=pic('art82.jpg','Statut du notariat, art. 82 : l\'ordonnance ne vise pas les intéressés en nom direct, héritiers ou ayants droit',c[1]+.3,60,290,740)
-    b+=paper('Gilles FÉLIHO','','<div class="lg gold" style="font-size:38px">Héritier</div><div class="sm" style="margin-top:6px">Pas d\'ordonnance requise (art. 82)</div>',c[2]+.2,850,130,370,None,'gold','pop',.6)
+    b+=paper('Gilles FÉLIHO','','<div class="lg gold" style="font-size:38px">Héritier</div><div class="sm" style="margin-top:6px">Pas d\'ordonnance requise (art. 82)</div><div class="sm" style="margin-top:6px">Acte de notoriété (P17) : un des cinq héritiers</div>',c[2]+.2,850,130,370,None,'gold','pop',.6)
     b+=E(f'<div style="display:flex;justify-content:center">{icon("person",96,"#F5F0E8")}</div>',c[2]+.3,1010,330,100,None,'fade',.5)
     kf=json.dumps([[c[2]+.6,820,380],[c[2]+2.2,950,380],[c[2]+2.8,950,380],[c[2]+3.6,810,380]])
     b+=f'<div class="el" data-t="{c[2]+.6:.2f}" data-fn="kfd" data-kf=\'{kf}\' style="left:0;top:0;width:60px;height:60px">{icon("key",60,GOLD)}</div>\n'
-    b+=E('La lettre du 7 septembre 2023 n\'est pas un événement distinct<br>du prétendu mandat : <span class="gold">elle en est le révélateur</span>.',c[2]+1.0,60,500,1160,None,'fade',.8,'lg serif center ivc')
+    b+=E('La lettre du 7 septembre 2023 n\'est pas un événement distinct<br>du prétendu mandat : <span class="gold">elle en est le révélateur</span>.',c[3]+.2,60,500,1160,None,'fade',.8,'lg serif center ivc')
     return b
 S('a26','Acte 2 — Le refus d\'accès','bg-navy',
   [(f"Le refus d'accès s'inscrit dans le même mécanisme. Le 7 septembre 2023, P9, {N} invoque la confidentialité et l'absence d'ordonnance judiciaire.",None),
    ("Or l'article 82 du statut ne requiert une ordonnance que pour les personnes autres que les intéressés en nom direct, les héritiers ou les ayants droit.",None),
-   ("Gilles Féliho est héritier. La lettre du 7 septembre 2023 n'est pas un événement distinct du prétendu mandat : elle en est le révélateur.",None)],a26)
+   ("Gilles Féliho est héritier : l'acte de notoriété de Maître Crinot, P17, le confirme, et cet acte figure dans le fichier que l'Étude a elle-même transmis.",None),
+   ("La lettre du 7 septembre 2023 n'est pas un événement distinct du prétendu mandat : elle en est le révélateur.",None)],a26)
 
 # ====================== ACTE 3 ======================
 def a31(T):
     c=T['c'];b=''
-    tx,ty=500,322
-    papers=[('Certificat de décès · P1','P1',60,110),('PV de lecture du testament','P2',370,110),('Jugement n° 114/14','P5',680,110)]
+    tx,ty=480,318
+    papers=[('Certificat de décès','P1',60),('PV de lecture','P2',238),('Jugement 114/14','P5',416),('Acte de dépôt · 28/11/2013','P16',594),('Acte de notoriété · 30/12/2013','P17',772)]
     ln=''
-    for i,(ti,p,x,y) in enumerate(papers):
-        b+=paper(ti,p,'<div class="date" style="font-size:30px">3 décembre 2010</div>',c[0]+.3+i*.7,x,y,280,None,'','fade',.6)
-        ln+=f'<line class="el" data-t="{c[1]+.3+i*.5:.2f}" data-fn="crack" data-len="400" data-dur=".8" x1="{x+140}" y1="{y+112}" x2="{tx}" y2="{ty}" stroke="{NAVY}" stroke-width="3"/>'
-    ln+=f'<circle class="el" data-t="{c[1]+.2:.2f}" cx="{tx}" cy="{ty}" r="14" fill="{NAVY}"/>'
+    for i,(ti,p,x) in enumerate(papers):
+        t=c[0]+.3+i*.55 if i<3 else c[1]+.3+(i-3)*.6
+        b+=paper(ti,p,'<div class="date" style="font-size:21px">3 décembre 2010</div>',t,x,100,166,None,'','fade',.6)
+        ln+=f'<line class="el" data-t="{t+.4:.2f}" data-fn="crack" data-len="360" data-dur=".8" x1="{x+83}" y1="215" x2="{tx}" y2="{ty}" stroke="{NAVY}" stroke-width="3"/>'
+    ln+=f'<circle class="el" data-t="{c[0]+.2:.2f}" cx="{tx}" cy="{ty}" r="14" fill="{NAVY}"/>'
     b+=svg(ln)
-    b+=E('<span class="serif" style="font-size:26px"><b>3 décembre 2010</b></span>',c[1]+.2,tx-120,ty+22,240,None,'fade',.5,'center')
-    b+=paper('Certificat d\'acquit de droit · 20 oct. 2016','P6','<div class="date red" style="font-size:30px">10 juin 2016</div>',c[2]+.3,900,230,320,None,'red','r',.7,None,'r')
-    b+=svg(wave(900,290,170,c[2]+1.0)+f'<line class="el" data-t="{c[2]+.9:.2f}" data-fn="crack" data-len="420" data-dur=".8" x1="900" y1="300" x2="{tx}" y2="{ty}" stroke="{RED}" stroke-width="4" stroke-dasharray="10 8"/>')
-    b+=pic('pv-confirme.jpg','PV d\'audition du 19 mars 2025, p. 2/5 (P11) : le notaire Félix BALLEY invoque le jugement du 31 octobre 2014',c[3]+.3,60,388,520)
-    b+=pic('jug-deces.jpg','Jugement n° 114/14, p. 6 (P5) : décès le 3 décembre 2010',c[3]+1.6,660,388,520)
-    b+=E('Ces pièces étaient accessibles avant l\'inscription.<br><span class="red">Il ne s\'agit pas de supposer une intention,</span> mais de constater que la vérification était possible.',c[4],60,512,1160,None,'fade',.8,'md serif center',"",None)
+    b+=E('<span class="serif" style="font-size:26px"><b>3 décembre 2010</b></span>',c[0]+.2,tx-120,ty+22,240,None,'fade',.5,'center')
+    b+=paper('Certificat d\'acquit de droit · 20 oct. 2016','P6','<div class="date red" style="font-size:30px">10 juin 2016</div>',c[2]+.3,960,230,270,None,'red','r',.7,None,'r')
+    b+=svg(wave(960,290,170,c[2]+1.0)+f'<line class="el" data-t="{c[2]+.9:.2f}" data-fn="crack" data-len="480" data-dur=".8" x1="960" y1="300" x2="{tx}" y2="{ty}" stroke="{RED}" stroke-width="4" stroke-dasharray="10 8"/>')
+    b+=pic('pv-confirme.jpg','PV d\'audition du 19 mars 2025, p. 2/5 (P11) : le notaire Félix BALLEY invoque le jugement du 31 octobre 2014',c[3]+.3,60,388,520,'fade',c[4]+.2)
+    b+=pic('jug-deces.jpg','Jugement n° 114/14, p. 6 (P5) : décès le 3 décembre 2010',c[3]+1.6,660,388,520,'fade',c[4]+.2)
+    b+=pic('notoriete-deces.jpg','Acte de notoriété, Me Crinot, 30 décembre 2013 (P17) : décès le 3 décembre 2010',c[4]+.3,60,388,500,'fade',c[5]+.2)
+    b+=pic('extrait-deces-date.jpg','Extrait d\'acte de décès annexé (P18) : « Trois décembre 2010 »',c[4]+1.4,620,388,440,'fade',c[5]+.2)
+    b+=paper('Fichier de 30 pages','P20','<div class="sm">Transmis à l\'office de Vincennes par l\'Étude du notaire Félix BALLEY. Contient <b>P16, P17, P18</b>.</div>',c[4]+2.4,620,462,560,None,'gold','fade',.6,c[5]+.2)
+    b+=E('La vérification était <span class="red">non seulement possible,<br>mais les pièces étaient dans le dossier.</span>',c[4]+3.6,60,610,500,None,'fade',.6,'sm serif',"font-weight:700",c[5]+.2) if False else ''
+    b+=E('Les pièces établissent que le notaire Félix BALLEY<br><span class="red">ne pouvait ignorer la vraie date du décès.</span>',c[5]+.3,60,430,1160,None,'fade',.8,'lg serif center',"",None)
     return b
 S('a31','Acte 3 — La preuve de l\'intention','bg-iv',
-  [("Avant l'inscription au répertoire du 10 août 2016, trois pièces fixaient le décès au 3 décembre 2010 : P1, P2 et P5.",None),
-   ("Le certificat de décès, le procès-verbal de lecture du testament, le jugement : trois actes publics ou judiciaires.",None),
-   ("La date du 10 juin 2016 apparaît dans un acte postérieur à ces trois pièces.",None),
+  [("Avant l'inscription au répertoire du 10 août 2016, six pièces fixaient le décès au 3 décembre 2010 : P1, P2 et P5, et les actes de Maître Crinot de 2013 : P16, P17 et l'extrait de décès annexé, P18.",None),
+   ("Le certificat de décès, le procès-verbal de lecture du testament, le jugement, l'acte de dépôt du testament et l'acte de notoriété : des actes publics, judiciaires ou notariés.",None),
+   ("La date du 10 juin 2016 apparaît dans un acte postérieur à ces pièces.",None),
    (f"Le 19 mars 2025, P11, {N} invoque lui-même le jugement du 31 octobre 2014. Ce jugement retient le décès au 3 décembre 2010.",None),
-   ("Ces pièces étaient accessibles avant l'inscription. Il ne s'agit pas de supposer une intention, mais de constater que la vérification était possible.",None)],a31)
+   ("Ces pièces figurent dans le fichier de trente pages que l'Étude du notaire Félix BALLEY a transmis à l'office notarial de Vincennes, P20. La vérification était non seulement possible, mais les pièces étaient dans le dossier.",None),
+   ("Les pièces établissent que le notaire Félix BALLEY ne pouvait ignorer la vraie date du décès.",None)],a31)
 
 def a32(T):
     c=T['c'];b=''
@@ -350,13 +360,13 @@ def a34(T):
         b+=E(f'<span class="bd">{p}</span>',ts[i]+.5,1010,y+22,180,None,'fade',.5,'serif')
         ln+=f'<line class="el" data-t="{ts[i]+.4:.2f}" data-fn="crack" data-len="120" data-dur=".6" x1="920" y1="{y+30}" x2="1000" y2="{y+30}" stroke="{GOLD}" stroke-width="3"/>'
     b+=svg(ln)
-    b+=paper('Ce que la loi exige','','<div class="sm">Altération frauduleuse de la vérité · écrit protégé · préjudice possible</div><div class="lg red" style="margin-top:6px;font-size:32px">L\'intention doit être établie.</div><div class="sm">C\'est l\'objet de l\'enquête sollicitée.</div>',c[3]+.3,60,402,860,None,'red','pop',.6)
+    b+=paper('Ce que la loi exige','','<div class="sm">Altération frauduleuse de la vérité · écrit protégé · préjudice possible</div><div class="lg red" style="margin-top:6px;font-size:32px">L\'élément intentionnel se déduit</div><div class="sm">de l\'accumulation des contradictions et de l\'absence de rectification spontanée, appréciées conjointement.</div>',c[3]+.3,60,402,860,None,'red','pop',.6)
     return b
 S('a34','Acte 3 — La qualification pénale','bg-iv',
   [("Les textes qui suivent sont à vérifier sur le texte officiel de l'ancien code pénal, dit code Bouvenet, applicable en 2016. Le Code pénal de 2018 n'est pas rétroactif : article 6, à vérifier.",None),
    ("L'article 145 vise le faux commis par un officier public dans une écriture publique. L'article 146 vise le fait de constater comme vrais des faits faux.",None),
    ("L'article 148 vise l'usage de l'acte faux. Les articles 153 et 154, pour le certificat inexact et la fausse qualité, ont une numérotation à vérifier.",None),
-   ("Le faux suppose une altération frauduleuse de la vérité, un écrit protégé et un préjudice possible. L'intention doit être établie : c'est l'objet de l'enquête sollicitée.",None)],a34)
+   ("Le faux suppose une altération frauduleuse de la vérité, un écrit protégé et un préjudice possible. L'élément intentionnel se déduit de l'accumulation des contradictions et de l'absence de rectification spontanée, appréciées conjointement.",None)],a34)
 
 # ====================== ACTE 3 bis — LES QUATRE CHEFS DE PRÉJUDICE ======================
 TAGP='Acte 3 bis — Les quatre chefs de préjudice'
@@ -428,17 +438,21 @@ def p2(T):
     b+=svg(sv)
     b+=E('<span class="cap">Masse du jugement</span>',c[0]+.6,900,178,300,None,'fade',.4)
     b+=E('<span class="cap">Masse déclarée au certificat</span>',c[2]+.6,900,258,300,None,'fade',.4)
-    b+=paper('Titre foncier d\'Agla n° 2222','P4 · P6','<div class="sm">Cité par le communiqué du 3 avril 2013 (P4) : <b>« A Agla, le domaine faisant l\'objet du titre foncier Agla TF n°2222 »</b>.<br><span class="red"><b>Absent du certificat (P6)</b></span> : les titres fonciers déclarés sont 739, 3325, 2601, 786, 123, 158 et 1402.</div><div style="margin-top:8px"><img src="../avocat/img/comm-agla.jpg" style="width:560px;border:2px solid #CDBF9F"></div>',c[3]+.3,60,340,1160,None,'gold')
+    b+=paper('Titre foncier d\'Agla n° 2222','P4 · P6','<div class="sm">Cité par le communiqué du 3 avril 2013 (P4) : <b>« A Agla, le domaine faisant l\'objet du titre foncier Agla TF n°2222 »</b>.<br><span class="red"><b>Absent du certificat (P6)</b></span> : les titres fonciers déclarés sont 739, 3325, 2601, 786, 123, 158 et 1402.</div><div style="margin-top:8px"><img src="../avocat/img/comm-agla.jpg" style="width:560px;border:2px solid #CDBF9F"></div>',c[3]+.3,60,340,1160,None,'gold','fade',.6,c[4]+.2)
+    b+=paper('Acte de notoriété · Me Crinot · 30 décembre 2013','P17','<div class="sm">« le domaine sis à Cotonou lieudit Agla, objet du Titre Foncier 2222 »<br><span class="red"><b>Titres 2222 (Agla) et 57 (Abomey) : absents du certificat (P6).</b></span></div><div style="margin-top:8px"><img src="../avocat/img/notoriete-tf.jpg" style="width:600px;border:2px solid #CDBF9F"></div>',c[4]+.3,60,340,1160,None,'gold')
+    b+=E('Anomalie : lot 240, titre foncier <span class="red">739</span> au certificat (P6), <span class="red">729</span> à l\'acte de notoriété (P17).',c[5]+.3,60,556,1160,None,'fade',.7,'serif center','font-size:26px;font-weight:700')
     return b
 S('p2',TAGP,'bg-iv',
   [("Deuxième préjudice : la base de la réserve héréditaire. Article 813 : la réserve héréditaire globale est de deux tiers de la masse à partager.",None),
    ("Le jugement de 2014, P5, page 6, retient 39 immeubles, estimés à 567 990 000 francs. Le certificat, P6, déclare 7 immeubles pour 138 300 000 francs.",None),
    ("La réserve, deux tiers de la masse, calculée sur la base de la déclaration, passe de 378 660 000 à 92 200 000 francs : un écart de 286 460 000 francs.",None),
-   ("Le communiqué de 2013, P4, désigne le domaine d'Agla, titre foncier numéro 2222. Ce titre ne figure pas au certificat.",None)],p2)
+   ("Le communiqué de 2013, P4, désigne le domaine d'Agla, titre foncier numéro 2222. Ce titre ne figure pas au certificat.",None),
+   ("L'acte de notoriété de Maître Crinot, P17, mentionne lui aussi le titre d'Agla, numéro 2222, et le titre numéro 57 d'Abomey, absents du certificat.",None),
+   ("Anomalie : le lot 240 porte le titre foncier 739 au certificat, et 729 à l'acte de notoriété.",None)],p2)
 
 def p3(T):
     c=T['c'];b=''
-    b+=pic('aib-tranches.jpg','Lettre AIB du 5 octobre 2011 : loyers en deux tranches de 30 millions, impôts et taxes compris',c[0]+.3,60,92,600)
+    b+=pic('aib-tranches.jpg','Lettre AIB du 5 octobre 2011 (P19) : loyers en deux tranches de 30 millions, impôts et taxes compris',c[0]+.3,60,92,600)
     b+=pic('aib-cheque.jpg','Lettre AIB : chèque de 24 461 751 FCFA (déduction de la TFU), remis le 1er février 2011',c[1]+.3,60,222,600)
     b+=pic('aib-virement.jpg','Lettre AIB : virement de 29 060 861 FCFA le 4 août 2011, « extourne » le 4 octobre 2011',c[1]+1.8,60,375,600)
     b+=pic('cert-lot240.jpg','Certificat, P6 : lot 240, Camp Guézo, estimé à 65 millions',c[2]+.3,60,525,600) if False else ''
@@ -455,7 +469,7 @@ def p3(T):
     b+=E('Un immeuble qui rapporte 60 millions par an ne peut pas valoir 65 millions : <span class="red">une impossibilité économique.</span>',c[4]+.2,60,555,600,None,'fade',.7,'serif','font-size:22px;font-weight:700')
     return b
 S('p3',TAGP+' · l\'indice AIB','bg-iv',
-  [("L'indice commercial. La banque AIB, dans sa lettre du 5 octobre 2011, rappelle qu'il avait été convenu de payer les loyers en deux tranches de 30 millions de francs, impôts et taxes compris.",None),
+  [("L'indice commercial. La banque AIB, dans sa lettre du 5 octobre 2011, P19, rappelle qu'il avait été convenu de payer les loyers en deux tranches de 30 millions de francs, impôts et taxes compris.",None),
    ("Un chèque de 24 461 751 francs est remis le 1er février 2011. Le 4 août 2011, un virement de 29 060 861 francs est effectué ; il fait ensuite l'objet d'une extourne.",None),
    ("Le certificat, P6, déclare l'immeuble du lot 240, Camp Guézo, pour 65 millions de francs.",None),
    ("Un immeuble qui rapporte 60 millions de francs de loyer par an ne peut pas valoir 65 millions au total : c'est une impossibilité économique.",None),
@@ -504,9 +518,12 @@ def p5b(T):
     b+=pic('mail-corps.jpg','« Pour faire suite à nos différents échanges, je vous prie de trouver ci-joints, les documents que je viens de recevoir. »',c[0]+1.0,60,190,760)
     b+=pic('mail-pj.jpg','Pièce jointe : DOCUMENT FELIHO.pdf (2,2 Mo)',c[0]+1.8,60,420,400)
     b+=paper('Courriel du 24 mai 2018','P8','<div class="sm">Expéditeur : Élisabeth CHYRA, collaboratrice d\'Alexandrine BOISSONNET, notaire, office notarial de Vincennes.<br>Objet : <b>PARTAGE FELIHO</b>.<br>En première page du document joint : <b>le certificat d\'acquit de droit du 20 octobre 2016</b> (P6).</div>',c[0]+2.4,870,150,350,None,'gold')
+    b+=paper('Fichier de 30 pages','P20 · P16 · P17','<div class="sm">Transmis à Vincennes par l\'Étude du notaire Félix BALLEY (P20).<br>Contient aussi <b>P16</b> et <b>P17</b>.</div>',c[1]+.4,480,420,370,None,'gold')
     return b
 S('p5b',TAGP+' · le courriel du 24 mai 2018','bg-iv',
-  [("Le 24 mai 2018, l'office notarial de Vincennes transmet à Gilles Féliho le document joint : en première page, le certificat d'acquit de droit du 20 octobre 2016.",None)],p5b,minlen=9)
+  [("Le 24 mai 2018, l'office notarial de Vincennes transmet à Gilles Féliho le document joint : en première page, le certificat d'acquit de droit du 20 octobre 2016.",None),
+   ("Ce fichier de trente pages avait été transmis à Vincennes par l'Étude du notaire Félix BALLEY, après la demande du 19 mars 2018 et les relances d'avril, P20.",None),
+   ("Il contient aussi l'acte de dépôt du testament et l'acte de notoriété de Maître Crinot, P16 et P17.",None)],p5b,minlen=9)
 
 def p6(T):
     c=T['c'];b='';ce=T['ce']
@@ -518,12 +535,12 @@ def p6(T):
         b+=E(f'<span class="bd g" style="font-size:22px">{p}</span> <span class="serif ivc" style="font-size:22px">{lab}</span>',t,x-170,y-48,340,None,'fade',.5,'center')
     sv+=f'<circle class="el" data-t="{c[1]:.2f}" data-fn="kf" data-kf=\'{json.dumps([[c[1],640,300,1],[c[1]+1.5,640,300,.3]])}\' r="46" fill="none" stroke="#C9A227" stroke-width="10"/>'
     b=svg(sv)+b
-    b+=E('L\'absence de mandat <span class="gold">établit la fausseté de la mention</span>. La fausseté de la mention <span class="gold">caractérise le faux</span>, sous réserve de l\'intention.',c[0]+1.5,60,495,1160,None,'fade',.7,'serif center ivc','font-size:26px;font-weight:700',c[1]+.1)
+    b+=E('L\'absence de mandat <span class="gold">établit la fausseté de la mention</span>. La fausseté de la mention <span class="gold">caractérise le faux</span>.',c[0]+1.5,60,495,1160,None,'fade',.7,'serif center ivc','font-size:26px;font-weight:700',c[1]+.1)
     b+=E('Le faux explique l\'écart de déclaration. <span class="gold">Le refus de communiquer a prolongé l\'entrave.</span>',c[1]+.3,60,495,1160,None,'fade',.7,'serif center ivc','font-size:26px;font-weight:700',c[2]-.1)
     b+=E('Chaque préjudice <span class="gold">renforce les autres</span>.<br>L\'un des quatre suffit à tenir la demande.',c[2],60,480,1160,None,'fade',.9,'serif center ivc','font-size:34px;font-weight:700')
     return b
 S('p6',TAGP+' · l\'effet de cumul','bg-navy',
-  [("Les quatre chefs de préjudice s'articulent. L'absence de mandat établit la fausseté de la mention portée au certificat. La fausseté de la mention caractérise le faux, sous réserve de l'intention.",None),
+  [("Les quatre chefs de préjudice s'articulent. L'absence de mandat établit la fausseté de la mention portée au certificat. La fausseté de la mention caractérise le faux.",None),
    ("Le faux explique l'écart de déclaration. Le refus de communiquer les actes a prolongé l'entrave.",None),
    ("Chaque préjudice renforce les autres. L'un des quatre suffit à tenir la demande.",None)],p6)
 
@@ -545,11 +562,11 @@ MES=[('bank','DGI : dossier de mutation intégral','Déclarations, annexes, bord
      ('finger','Traçabilité : source de la date','Identifier la personne qui a fourni la date du 10 juin 2016.','P6, P7, P11',"Mesure 4 — Traçabilité : identifier la personne qui a fourni la date du 10 juin 2016.","Mesure quatre : traçabilité : identifier la personne qui a fourni la date du 10 juin 2016."),
      ('mic','Auditions : personnel de l\'Étude','Auditionner le personnel de l\'Étude qui a préparé ou transmis la déclaration.','P11',"Mesure 5 — Auditions : le personnel de l'Étude qui a préparé ou transmis la déclaration.","Mesure cinq : auditions : le personnel de l'Étude qui a préparé ou transmis la déclaration."),
      ('mail','Échanges électroniques','Rechercher les échanges électroniques entre l\'Étude, les héritiers et la DGI.','P8, P9',"Mesure 6 — Échanges électroniques : entre l'Étude, les héritiers et la DGI.","Mesure six : échanges électroniques : entre l'Étude, les héritiers et la D G I."),
-     ('scales','Accès au jugement de 2014','Vérifier si le notaire Félix BALLEY a eu accès au jugement de 2014, au vu de ses propres déclarations.','P5, P11',"Mesure 7 — Accès au jugement de 2014 : vérifier, au vu de ses propres déclarations, si le notaire Félix BALLEY y a eu accès.","Mesure sept : accès au jugement de 2014 : vérifier, au vu de ses propres déclarations, si le notaire Félix BALLEY y a eu accès."),
+     ('scales','Accès au jugement de 2014 et aux actes de Me Crinot','Vérifier si le notaire Félix BALLEY a eu accès au jugement de 2014 et aux actes de Maître Crinot (P16, P17), au vu de ses propres déclarations.','P5, P11, P16, P17',"Mesure 7 — Accès aux actes : vérifier, au vu de ses propres déclarations, si le notaire Félix BALLEY a eu accès au jugement de 2014 et aux actes de Maître Crinot, P16 et P17.","Mesure sept : accès aux actes : vérifier, au vu de ses propres déclarations, si le notaire Félix BALLEY a eu accès au jugement de 2014 et aux actes de Maître Crinot, P seize et P dix-sept."),
      ('chart','Actifs : notes d\'évaluation','Produire toute note interne d\'évaluation ou fiche de collecte des biens.','P5, P6',"Mesure 8 — Actifs : toute note interne d'évaluation ou fiche de collecte des biens.","Mesure huit : actifs : toute note interne d'évaluation ou fiche de collecte des biens."),
      ('clock','Confrontation chronologique','Confronter les contestations de Gilles Féliho et les réponses du notaire Félix BALLEY.','P8, P9, P10, P15',"Mesure 9 — Confrontation : la chronologie des contestations de Gilles Féliho et des réponses du notaire Félix BALLEY.","Mesure neuf : confrontation : la chronologie des contestations de Gilles Féliho et des réponses du notaire Félix BALLEY."),
      ('bank','Expertise immobilière indépendante','Lot 240 et titre foncier d\'Agla n° 2222 : valeur, titre et cohérence avec les actes officiels.','P4, P5, P6',"Mesure 10 — Expertise immobilière indépendante : lot 240 et titre foncier d'Agla n° 2222.","Mesure dix : expertise immobilière indépendante : lot 240, et titre foncier d'Agla numéro 2222."),
-     ('chart','Loyers : lettre AIB et pièces comptables','Produire la lettre AIB du 5 octobre 2011 et toute pièce comptable établissant les loyers perçus pour le lot 240 (65 millions déclarés, 60 millions de loyer en 2011).','AIB, P6',"Mesure 11 — Loyers : la lettre AIB du 5 octobre 2011 et les pièces comptables des loyers perçus pour le lot 240.","Mesure onze : loyers : la lettre A I B du 5 octobre 2011 et les pièces comptables des loyers perçus pour le lot 240."),
+     ('chart','Loyers : lettre AIB et pièces comptables','Produire la lettre AIB du 5 octobre 2011 et toute pièce comptable établissant les loyers perçus pour le lot 240 (65 millions déclarés, 60 millions de loyer en 2011).','P19, P6',"Mesure 11 — Loyers : la lettre AIB du 5 octobre 2011, P19, et les pièces comptables des loyers perçus pour le lot 240.","Mesure onze : loyers : la lettre A I B du 5 octobre 2011, P dix-neuf, et les pièces comptables des loyers perçus pour le lot 240."),
      ('chart','Rémunération du notaire Félix BALLEY','Vérifier la rémunération perçue (émoluments, honoraires), sa conformité à la pratique, et son poids en pourcentage des valeurs immobilières estimées (138 300 000 FCFA déclarés ; estimations du jugement).','P5, P6, P7',"Mesure 12 — Rémunération : vérifier celle perçue par le notaire Félix BALLEY, sa conformité à la pratique et son poids en pourcentage des valeurs immobilières estimées.","Mesure douze : rémunération : vérifier celle perçue par le notaire Félix BALLEY, sa conformité à la pratique et son poids en pourcentage des valeurs immobilières estimées.")]
 def a41(T):
     c=T['c'];ce=T['ce'];b=''

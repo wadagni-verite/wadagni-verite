@@ -9,7 +9,14 @@ TITRES={1:"Certificat de décès de feu Jean Florentin FELIHO",2:"PV de Lecture 
 9:"Lettre de réponse de Me Félix BALLEY (07/09/2023)",10:"Procès-verbal de séance de l'APDP (19/06/2024)",
 11:"Audition de témoin de Me BALLEY (Brigade Criminelle)",12:"Constat d'huissier avec interpellation (Immeuble VISSIM)",
 13:"PV de compulsion foncière Mairie de Cotonou & IGN",14:"Lettre de transmission foncière de 2007 (Lot 923)",
-15:"Contestation formelle et mise en demeure à la DGI"}
+15:"Contestation formelle et mise en demeure à la DGI",
+16:"Acte de dépôt du testament olographe, office de Me Lazare C. CRINOT (28/11/2013)",
+17:"Acte de notoriété après décès, office de Me Lazare C. CRINOT (30/12/2013), extrait",
+18:"Extrait d'acte de décès annexé aux actes de 2013 (décès du 03/12/2010)",
+19:"Lettre de l'African Investment Bank sur le paiement des loyers (05/10/2011)",
+20:"Échanges avec l'office notarial de Vincennes (19/03 - 19/04/2018)",
+21:"Courriel du cabinet de Me DJOGBENOU annonçant l'arrêt du 30/08/2012",
+22:"Rapport de l'administrateur provisoire Me CRINOT, extrait (pages 1 et 3)"}
 D=os.path.join(ROOT,'pieces','bordereau')
 fich={}
 for f in sorted(glob.glob(os.path.join(D,'piece-*.pdf'))):
