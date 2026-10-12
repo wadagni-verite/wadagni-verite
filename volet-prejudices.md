@@ -72,6 +72,8 @@ Le certificat (P6) déclare l'immeuble du lot 240, Camp Guézo (TF 739 de Cotono
 
 **Faits.** Le certificat (P6) indique : « décédé à Cotonou, le dix juin deux mil seize ». Le décès a eu lieu le 3 décembre 2010 (P1, P2, P5). La date portée sur le certificat prolonge la vie du défunt de **cinq ans et six mois**.
 
+**Un décès établi par les actes de Maître CRINOT.** Le 19 mars 2018, Maître BALLEY a accusé réception de la demande du notaire de Vincennes, qui l'a relancé en avril (échange publié : <https://wadagni2026-verite.com/pieces/courriels-vincennes-balley-2018-03-04.pdf>). Le fichier de 30 pages reçu le 24 mai 2018 (P8) comprenait, outre le certificat, l'acte de dépôt du testament du 28 novembre 2013 et l'acte de notoriété du 30 décembre 2013 reçus par Maître Lazare C. CRINOT. L'acte de notoriété fixe le décès « le trois Décembre deux mil dix » ; l'extrait d'acte de décès annexé aux deux actes porte la même date (« Date et lieu du décès : Trois décembre 2010 »). Maître BALLEY étant le seul interlocuteur du notaire de Vincennes, et aucun autre canal n'étant mentionné, ces pièces émanent de son Étude, qui avait pourtant fait mentionner au certificat un décès « le dix juin deux mil seize ». Les actes sont publiés (extraits, coordonnées de particuliers floutées) : <https://wadagni2026-verite.com/analyse-localisation-testament-par-date.html#acte-depot>.
+
 **Observation de loyauté.** L'indignité successorale (art. 595 et 596 du Code des personnes et de la famille) n'est pas invoquée : elle vise un successible, et Maître BALLEY n'a pas vocation à succéder. L'atteinte est poursuivie sur l'article 13 et sur la responsabilité civile (Code civil, art. 1382).
 
 ---
