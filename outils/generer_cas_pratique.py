@@ -121,10 +121,34 @@ def page(title,m,anon,standalone_site):
 os.makedirs(os.path.join(ROOT,'outils','cas-pratique'),exist_ok=True)
 site=page(TITRE_REAL,REAL,False,True)
 # métadonnées de la page du site
-meta='''<link rel="canonical" href="https://wadagni2026-verite.com/cas-pratique-succession-feliho.html"><meta name="description" content="Cas pratique de droit notarial et successoral (Bénin) fondé sur des pièces publiées : sept questions, pistes de réponse, grille de correction, versions PDF.">'''
+URL="https://wadagni2026-verite.com/cas-pratique-succession-feliho.html"
+IMG="https://wadagni2026-verite.com/synthese-parcours-testament.png"
+DESC="Cas pratique de droit notarial et successoral (Bénin) fondé sur des pièces publiées : dix faits datés, sept questions, pistes de réponse neutres, grille de correction, versions PDF avec noms réels ou anonymisée."
+import json
+ld={"@context":"https://schema.org","@graph":[
+ {"@type":"LearningResource","name":TITRE_REAL,"description":DESC,"inLanguage":"fr","url":URL,"image":IMG,
+  "learningResourceType":"Cas pratique","educationalLevel":"Master (droit notarial, droit des successions)",
+  "audience":{"@type":"EducationalAudience","educationalRole":"student"},"teaches":["Droit notarial","Droit des successions","Statut du notariat (Bénin)"],
+  "datePublished":"2026-10-12","dateModified":"2026-10-12","isAccessibleForFree":True,
+  "author":{"@type":"Person","name":"Gilles Féliho"},"publisher":{"@type":"Organization","name":"Wadagni 2026 Vérité","url":"https://wadagni2026-verite.com/"},
+  "encoding":[{"@type":"MediaObject","name":"Version avec noms réels (PDF)","encodingFormat":"application/pdf","contentUrl":"https://wadagni2026-verite.com/cas-pratique-succession-feliho-noms-reels.pdf"},
+              {"@type":"MediaObject","name":"Version anonymisée (PDF)","encodingFormat":"application/pdf","contentUrl":"https://wadagni2026-verite.com/cas-pratique-succession-anonymisee.pdf"}]},
+ {"@type":"BreadcrumbList","itemListElement":[
+  {"@type":"ListItem","position":1,"name":"Accueil","item":"https://wadagni2026-verite.com/"},
+  {"@type":"ListItem","position":2,"name":"Les documents","item":"https://wadagni2026-verite.com/#documents"},
+  {"@type":"ListItem","position":3,"name":"Cas pratique : la succession Féliho","item":URL}]}]}
+def esc(a): return html.escape(a,quote=True)
+meta=('<meta name="description" content="'+esc(DESC)+'"><meta name="robots" content="index, follow, max-image-preview:large">'
+ '<link rel="canonical" href="'+URL+'">'
+ '<meta property="og:type" content="article"><meta property="og:locale" content="fr_FR"><meta property="og:site_name" content="Wadagni 2026 Vérité">'
+ '<meta property="og:title" content="'+esc(TITRE_REAL)+'"><meta property="og:description" content="'+esc(DESC)+'"><meta property="og:url" content="'+URL+'"><meta property="og:image" content="'+IMG+'">'
+ '<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="'+esc(TITRE_REAL)+'"><meta name="twitter:description" content="'+esc(DESC)+'"><meta name="twitter:image" content="'+IMG+'">'
+ '<meta property="article:published_time" content="2026-10-12">'
+ '<script type="application/ld+json">'+json.dumps(ld,ensure_ascii=False)+'</script>')
 site=site.replace('</title>','</title>'+meta,1)
 dl='<div class="note"><b>Télécharger :</b> <a href="cas-pratique-succession-feliho-noms-reels.pdf" download>version avec les noms réels (PDF)</a> · <a href="cas-pratique-succession-anonymisee.pdf" download>version anonymisée (PDF)</a> · <a href="cas-pratique-correspondance.html">table de correspondance des noms</a></div>'
-site=site.replace('<main class="wrap">','<main class="wrap">'+dl,1)
+img='<figure style="margin:18px 0"><img src="synthese-parcours-testament.png" alt="Synthèse en une page du parcours du testament : chronologie des positions de l\'original, trois récits de février 2011, original et copie certifiée conforme, base légale exigée et produite pour chaque déplacement" style="max-width:100%;height:auto;border:1px solid #d9dde7;border-radius:10px" loading="lazy" width="1561" height="1260"><figcaption style="font-size:.88rem;color:#6b7280">Synthèse du parcours du testament (P1 à P22). <a href="analyse-localisation-testament-par-date.html">Lire l\'analyse complète</a></figcaption></figure>'
+site=site.replace('<main class="wrap">','<main class="wrap">'+dl+img,1)
 open(os.path.join(ROOT,'cas-pratique-succession-feliho.html'),'w',encoding='utf-8').write(site)
 open(os.path.join(ROOT,'outils','cas-pratique','pdf-reel.html'),'w',encoding='utf-8').write(page(TITRE_REAL,REAL,False,False).replace('<details>','<details open>'))
 open(os.path.join(ROOT,'outils','cas-pratique','pdf-anonymise.html'),'w',encoding='utf-8').write(page(TITRE_ANON,ANON,True,False).replace('<details>','<details open>'))
