@@ -21,7 +21,7 @@ Une plainte déontologique est déposée contre un avocat. Plus de trois ans apr
 | 2 avr. 2023 | Le plaignant dépose une plainte déontologique auprès du Bâtonnier contre un avocat, sur le fondement de l'article 56 (alinéas 1 à 3) du Règlement intérieur du Barreau. L'auteur de la plainte qualifie les faits de complicité de faux et d'usage de faux en écriture publique. | Plainte, 4 p. |
 | 20 oct. 2023 | Un avis de réception postal, revêtu du cachet de l'Ordre et d'un cachet postal de cette date, est versé au dossier. | Dossier complet, p. 3 |
 | 20 juin 2024 | Le plaignant relance le Bâtonnier et demande l'état d'avancement du dossier et la suite envisagée, quelle qu'elle soit. | Relance, 1 p. |
-| 17 mars 2025 | Le cabinet du Bâtonnier écrit au Procureur Général, à l'occasion de la convocation de l'avocat par la Brigade criminelle : il invoque l'article 6, alinéa 5, du Règlement n° 05/CM/UEMOA et demande à exercer sa « prérogative de consultation » avant toute audition d'avocat. | Annexe de la réponse de la Brigade criminelle |
+| 17 mars 2025 | Le cabinet du Bâtonnier écrit au Procureur Général, à l'occasion de la convocation de l'avocat par la Brigade criminelle : il invoque l'article 6, alinéa 2 (tel que cité dans la lettre), du Règlement n° 05/CM/UEMOA, affirme que « la cause est déjà en instruction » et demande à exercer sa « prérogative de consultation » avant toute audition d'avocat. La lettre est enregistrée au Parquet Général le 19 mars 2025, jour de l'audition. | [Lettre du 17 mars 2025](/pieces/procedures-benin/lettre-batonnier-procureur-general-2025-03-17.pdf) |
 | 19 mars 2025 | L'avocat convoqué ne comparaît pas ; un notaire, également visé par la plainte du plaignant devant la justice pénale, est entendu comme témoin. | Réponse de la Brigade criminelle |
 | 29 avr. 2025 | La Brigade criminelle rapporte, dans une lettre à la Cour constitutionnelle, que la lettre du Bâtonnier indique que « la cause est déjà en instruction » et que l'avocat « aurait déjà déféré » aux observations demandées. | Réponse n° 269/2025 |
 | 28 mai 2025 | Le plaignant saisit la Cour constitutionnelle contre le Bâtonnier (article 7-1 d) de la Charte africaine des droits de l'homme et des peuples). | Requête n° 1471/331/REC-25 |
@@ -42,9 +42,9 @@ La notion de délai raisonnable, tirée de l'article 7-1 d) de la Charte, s'appl
 Que prouve un courriel ? Que prouve un avis de réception postal revêtu du cachet du destinataire ? À qui incombe la preuve de la saisine ?
 *Piste.* Comparer la force probante des deux modes d'envoi. Examiner l'avis de réception versé au dossier (cachets, date, signataire). Que se passe-t-il lorsque le destinataire ne délivre aucun accusé de réception de la plainte ?
 
-**Question 4 · La consultation préalable du bâtonnier et le « dire rapporté »**
-L'article 6, alinéa 5, du Règlement n° 05/CM/UEMOA permet-il au bâtonnier de demander à être consulté avant l'audition d'un avocat ? Cette prérogative suspend-elle une enquête pénale ? La mention « la cause est déjà en instruction », rapportée par un tiers, prouve-t-elle l'existence d'une instruction ?
-*Piste.* Distinguer les rapports entre autorités (bâtonnier, parquet, police judiciaire) des obligations envers le plaignant. Identifier ce qui est une constatation de l'auteur de la lettre et ce qui est un propos qu'il rapporte. Quelles pièces permettraient de corroborer ou d'infirmer l'énoncé ?
+**Question 4 · La consultation préalable du bâtonnier et la preuve d'une instruction**
+L'article 6, alinéa 2 (tel que cité dans la lettre), du Règlement n° 05/CM/UEMOA permet-il au bâtonnier de demander à être consulté avant l'audition d'un avocat ? Cette prérogative suspend-elle une enquête pénale ? La mention « la cause est déjà en instruction », affirmée dans la lettre sans date ni référence d'un acte, prouve-t-elle l'existence d'une instruction ?
+*Piste.* Distinguer les rapports entre autorités (bâtonnier, parquet, police judiciaire) des obligations envers le plaignant. Identifier ce qui est une constatation de l'auteur de la lettre et ce qui est un propos rapporté par un tiers (ici, la Brigade criminelle qui cite la lettre). Quelles pièces permettraient de corroborer ou d'infirmer l'énoncé ?
 
 **Question 5 · Faute déontologique et infraction pénale**
 La plainte invoque des qualifications pénales (articles 22 et 303 à 305 du Code pénal). Un bâtonnier peut-il en connaître ? L'instance déontologique doit-elle attendre l'issue de la procédure pénale ?
@@ -61,7 +61,7 @@ Un plaignant publie sur internet les pièces d'une procédure qu'il tient pour r
 ### 3. Pièges pédagogiques (sous forme de questions)
 
 - **Le silence d'un ordre professionnel est-il une décision ?** Qu'est-ce qui distingue une décision implicite, un refus et une absence d'acte ?
-- **Une lettre qui dit « la cause est en instruction » prouve-t-elle une instruction ?** Qui l'a écrite, à qui, et qu'en rapporte un tiers ?
+- **Une lettre qui dit « la cause est en instruction » prouve-t-elle une instruction ?** Qui l'a écrite, à qui, quand est-elle parvenue à son destinataire, et que produit-elle à l'appui ?
 - **Un renvoi d'audience est-il une décision ?** Quelle différence avec un jugement au fond ?
 - **Une qualification pénale posée dans une plainte vaut-elle établissement de l'infraction ?** Qui qualifie, et à quel stade ?
 - **Quarante-deux mois sont-ils, en soi, déraisonnables ?** Que faut-il encore examiner ?
@@ -87,7 +87,7 @@ Un plaignant publie sur internet les pièces d'une procédure qu'il tient pour r
 ### Textes de référence
 
 - **Règlement intérieur du Barreau de la République du Bénin** : article 56, alinéas 1 à 3 (devoirs invoqués par la plainte).
-- **Règlement n° 05/CM/UEMOA du 25 septembre 2014** relatif à l'harmonisation des règles régissant la profession d'avocat dans l'espace UEMOA : article 6, alinéa 5.
+- **Règlement n° 05/CM/UEMOA du 25 septembre 2014** relatif à l'harmonisation des règles régissant la profession d'avocat dans l'espace UEMOA : article 6 (l'alinéa invoqué par la lettre est le 2ᵉ ; à vérifier sur le texte).
 - **Charte africaine des droits de l'homme et des peuples** : article 7-1 d) ; article 56, point 5 (à vérifier sur le texte).
 - **Constitution du Bénin** : article 114.
 - **Code pénal béninois** : articles 22 et 303 à 305, tels qu'invoqués par la plainte.

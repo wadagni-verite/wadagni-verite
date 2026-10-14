@@ -16,7 +16,7 @@ OUT = os.path.join(ROOT, 'batonnier-hounkpatin')
 SITE = 'https://wadagni2026-verite.com'
 DATE = '2026-10-14'
 HUB = '/batonnier-hounkpatin/'
-ANCRE_HUB = 'Bâtonnier Angelo Hounkpatin — le dossier des pièces'
+ANCRE_HUB = 'Ancien bâtonnier Angelo Hounkpatin — le dossier des pièces'
 CONTACT = 'contact@eji2.org'
 
 # ---------------------------------------------------------------- corrections (texte d'origine -> texte publié)
@@ -30,7 +30,6 @@ CORRECTIONS = [
     ("Aucune réponse n'est connue du plaignant à ce jour — soit quatorze mois puis vingt-cinq mois après le dépôt.",
      "Aucune réponse n'est connue du plaignant à ce jour : la relance est intervenue quatorze mois après le dépôt, la requête devant la Cour constitutionnelle vingt-cinq mois après, et quarante-deux mois se sont écoulés au 14 octobre 2026.",
      1, "calcul des délais : 2 avr. 2023 -> 14 oct. 2026 = 42 mois"),
-    ('quarante-quatre mois après le dépôt de la plainte', 'quarante-deux mois après le dépôt de la plainte', 1, "calcul : 42 mois et non 44"),
     ("| 19 mars 2025 | Convocation de Me Fade par la Brigade criminelle ; non-comparution | Lettre de relance de la Brigade criminelle |\n"
      "| 17 mars 2025 | Lettre du cabinet du Bâtonnier au Procureur Général, réf. `0082/COA/BAT/AAH/2024/mp` | Transmise à la Brigade criminelle |",
      "| 17 mars 2025 | Lettre du cabinet du Bâtonnier au Procureur Général, réf. `0082/COA/BAT/AAH/2024/mp` | Transmise à la Brigade criminelle |\n"
@@ -49,7 +48,7 @@ CORRECTIONS = [
      "Elle s'appuie sur la décision [**DCC 25-024 du 30 janvier 2025**](https://courconstitutionnelle.bj/fr/decisions/DCC25-024) de la Cour constitutionnelle du Bénin,",
      1, "lien vers le texte de la décision"),
     ("### Les trois faits de ce dossier\n",
-     "### Qui est visé par ce volet ?\n\nCe volet concerne le traitement, par le Bâtonnier en exercice, **Me Angelo Hounkpatin**, de la plainte déontologique déposée contre Me Victorien Olatundji Fade. Me Fade est le mis en cause dans la plainte initiale ; Me Angelo Hounkpatin est le destinataire de cette plainte, et l'autorité dont l'absence de réponse est constatée par les pièces.\n\n### Les trois faits de ce dossier\n",
+     "### Qui est visé par ce volet ?\n\nCe volet concerne le traitement, par le Bâtonnier alors en exercice, **Me Angelo Hounkpatin**, de la plainte déontologique déposée contre Me Victorien Olatundji Fade. Me Fade est le mis en cause dans la plainte initiale ; Me Angelo Hounkpatin est le destinataire de cette plainte, et l'autorité dont l'absence de réponse est constatée par les pièces.\n\n### Les trois faits de ce dossier\n",
      1, "précision demandée : l'affaire dans l'affaire"),
     ("*Empreintes relevées le 14 octobre 2026 sur les fichiers reçus à cette date. Elles attestent de l'identité des fichiers publiés, non de la véracité de leur contenu.*",
      "*Les empreintes du tableau sont celles des fichiers publiés. Lorsque des coordonnées personnelles ont été occultées (rectangles noirs, contenu sous-jacent supprimé), l'empreinte de l'original non occulté est indiquée ci-dessous : son détenteur peut ainsi vérifier qu'il s'agit du même document. Elles attestent de l'identité des fichiers, non de la véracité de leur contenu.*",
@@ -58,9 +57,6 @@ CORRECTIONS = [
     ("Il a été élu le 18 décembre 2021, est entré en fonction le 5 janvier 2023 pour un mandat de trois ans. Selon des sources publiques, un nouveau bâtonnier a été installé le 26 janvier 2026 — information à confirmer auprès de l'Ordre des avocats du Bénin. Le dossier porte sur des actes accomplis pendant son mandat.",
      f"Non. Me Angelo Hounkpatin a été désigné le 18 décembre 2021 ([La Nouvelle Tribune]({LNT21})) et investi le 5 janvier 2023 ([Benin Web TV]({BWTV})). Son successeur, Me Zachari Baba Body, a été installé le 26 janvier 2026 ([La Nouvelle Tribune]({LNT26})). Le dossier porte sur des actes accomplis pendant son mandat.",
      1, "vérifié par recherche : sources publiques citées ; orthographe « Zachari » de la presse"),
-    ("### Ce que la lettre énonce\n",
-     "### Qui a signé la lettre ?\n\nLa signature n'est pas lisible sur la copie disponible : la lettre porte la mention « Le Bâtonnier » sans nom. Une autre pièce du dossier, la Déclaration de l'Ordre des avocats du Bénin du 20 août 2024 (pages 1 et 2 du [dossier complet](/pieces/procedures-benin/plainte-deontologique-fade-dossier-complet-relance-2024-06-20.pdf)), est signée « Le Bâtonnier — Angelo Aimé HOUNKPATIN » et revêtue du cachet de l'Ordre. Me Angelo Hounkpatin exerçait donc la fonction à cette date, comme le 17 mars 2025 (investi le 5 janvier 2023, successeur installé le 26 janvier 2026).\n\n### Ce que la lettre énonce\n",
-     1, "identité du signataire établie par une pièce du dossier"),
     ('reponse@eji2.org', CONTACT, None, "adresse de contact existante du site (à remplacer si un alias reponse@ est créé)"),
     ("Le courriel seul ne constitue pas une preuve de date fiable ; le recommandé seul est lent.",
      "Le courriel seul est plus facile à contester ; le recommandé seul est plus lent.", 1, "formulation moins absolue"),
@@ -81,6 +77,9 @@ PIECES = [
     ('Requête devant la Cour constitutionnelle', '28 mai 2025', 3, 'pieces/procedures-benin/requete-cour-constitutionnelle-2025-05-28.pdf', 'ea75eddae5ab8a2a25918d8a407780f854f35758ed4efb87575379e4ed01d7d1', True, None),
     ('Notification de convocation n° 3081/CC/GEC', '5 août 2025', 1, 'pieces/procedures-benin/convocation-cour-constitutionnelle-recours-1471-331-2025-08-05.pdf', 'ff7ea59bdfa7de4f56449652ca4869fac6e4928a9a8e9b064ded6d69c40ff7cf', True, None),
     ('Réponse n° 269/2025 de la Brigade criminelle et annexes (version allégée)', '29 avr. 2025', 30, 'pieces/procedures-benin/observations-brigade-criminelle-cour-constitutionnelle-2025-allege.pdf', '1e3685fba3d692f8a6b4da201a57cd526bb0d86d84a2494d23b69d1e7857a3d6', True, None),
+    ('Lettre du Bâtonnier au Procureur Général (extrait, p. 25 de la réponse de la Brigade criminelle)', '17 mars 2025', 1, 'pieces/procedures-benin/lettre-batonnier-procureur-general-2025-03-17.pdf', None, False, None),
+    ('Transmission par le Procureur Général à la Brigade criminelle (extrait, p. 24)', '27 mars 2025', 1, 'pieces/procedures-benin/transmission-procureur-general-brigade-2025-03-27.pdf', None, False, None),
+    ('Relance de convocation de Me Fade par la Brigade criminelle (extrait, p. 21)', '25 mars 2025', 1, 'pieces/procedures-benin/relance-convocation-brigade-criminelle-2025-03-25.pdf', None, False, None),
     ('Procès-verbal d\u2019audition n° 2 (pages 1, 2/5 et 5/5)', '19 mars 2025', 3, 'pieces/bac-pv-audition-2-2025-03-19.pdf', 'd3590116e5ad9de9e87f2accdf55426224571efac2ec668b87e969ae3a83f478', True, None),
     ('Jugement n° 114/14/3ᵉ CH-EP', '31 oct. 2014', 8, 'jugement-succession-feliho-2014.pdf', '81f38a3b6459bfe09335ec8b49a0330d5c4d4fc8daca750ad25dd2ea077c5d06', True, None),
     ('Signification du jugement', '9 mars 2015', 3, 'pieces/procedures-benin/plainte-fade-piece-2-signification-jugement-2015-03-09.pdf', '5946ebe64458bd2939af16ebc7ff8d4e08759f1b787a8e0e928b9f761d5fe978', True, None),
@@ -134,12 +133,12 @@ def parse_pages(text):
 
 # titres (<= 60 car.) et descriptions (<= 155 car.) raccourcis par rapport au texte d'origine
 SEO = {
-    '/batonnier-hounkpatin/': ("Angelo Hounkpatin, bâtonnier : le dossier des pièces", "Plainte déontologique du 2 avril 2023 sans réponse connue, lettre du Bâtonnier du 17 mars 2025, recours devant la Cour constitutionnelle : les pièces."),
+    '/batonnier-hounkpatin/': ("Angelo Hounkpatin, ancien bâtonnier : le dossier des pièces", "Plainte déontologique du 2 avril 2023 sans réponse connue, lettre du Bâtonnier du 17 mars 2025, recours devant la Cour constitutionnelle : les pièces."),
     '/batonnier-hounkpatin/plainte-deontologique-fade-2023/': ("Plainte déontologique du 2 avril 2023 : pièce par pièce", None),
     '/batonnier-hounkpatin/lettre-batonnier-procureur-general-17-mars-2025/': (None, "Analyse de la lettre du cabinet du Bâtonnier au Procureur Général du 17 mars 2025 : ce qu'elle énonce, ce que les pièces permettent de vérifier."),
     '/batonnier-hounkpatin/brigade-criminelle-reponse-29-avril-2025/': (None, "La lettre n° 269/2025 de la Brigade criminelle du 29 avril 2025 et ses neuf pièces jointes : chronologie, audition de Me Balley, points en suspens."),
     '/batonnier-hounkpatin/article-7-1-d-cadhp-delai-raisonnable/': ("Article 7-1 d) CADHP : délai raisonnable en déontologie", None),
-    '/batonnier-hounkpatin/questions-frequentes/': ("Questions fréquentes — dossier Bâtonnier Angelo Hounkpatin", None),
+    '/batonnier-hounkpatin/questions-frequentes/': ("Questions fréquentes — ancien bâtonnier Angelo Hounkpatin", None),
     '/batonnier-hounkpatin/sources-et-pieces-verifiables/': ("Sources et pièces vérifiables — Angelo Hounkpatin", None),
     '/batonnier-hounkpatin/recours-contre-le-batonnier-benin-mode-emploi/': ("Plainte contre un avocat au Bénin : mode d'emploi", None),
     '/batonnier-hounkpatin/cas-pratique-plainte-deontologique/': (None, "Cas pratique de déontologie : délai raisonnable, devoir de réponse d'un ordre, preuve de l'envoi, voies de recours. Sept questions, pistes, grille."),
@@ -154,7 +153,7 @@ def sources_table():
             h = sha256(p)
             fich = f"[PDF — {ko(p)}](/{rel})" + (" · coordonnées occultées" if occ else "")
             rows.append(f"| {titre} | {date} | {pages} | {fich} | `{h}` |")
-            if occ:
+            if occ and orig:
                 origines.append((titre, orig))
         elif renvoi:
             rows.append(f"| {titre} | {date} | {pages} | [{renvoi[1]}](/{DOSSIER}) | voir le dossier complet |")
@@ -165,7 +164,8 @@ def sources_table():
         out += '\n\n**Empreintes des originaux non occultés** (fichiers reçus le 14 octobre 2026), pour vérification par leur détenteur :\n\n'
         out += '\n'.join(f"- {t} : `{h}`" for t, h in origines)
         out += ("\n\nLa réponse de la Brigade criminelle (30 pages) est publiée en **version allégée** : les images des pages sont ré-encodées à 120 ppi pour un téléchargement rapide, "
-                "sans changement du contenu ni de la mise en page. L'empreinte de la colonne de droite est celle du fichier allégé ; celle de l'original est donnée dans la liste ci-dessus.")
+                "sans changement du contenu ni de la mise en page. L'empreinte de la colonne de droite est celle du fichier allégé ; celle de l'original est donnée dans la liste ci-dessus. "
+                "Les pièces marquées « extrait » sont des pages isolées de cette même réponse, publiées en pleine résolution pour pouvoir être citées et liées séparément.")
     return out
 
 # ---------------------------------------------------------------- gabarit HTML

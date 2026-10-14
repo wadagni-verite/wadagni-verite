@@ -14,7 +14,7 @@
 **URL :** `/batonnier-hounkpatin/`
 **Title :** Bâtonnier Hounkpatin : le dossier des pièces | EJI 2.0
 **Meta description :** Plainte déontologique du 2 avril 2023 sans réponse, lettre du Bâtonnier au Procureur Général du 17 mars 2025, recours devant la Cour constitutionnelle : les pièces.
-**H1 :** Bâtonnier Angelo Hounkpatin — plainte déontologique Féliho : ce que disent les pièces
+**H1 :** Angelo Hounkpatin, ancien bâtonnier — plainte déontologique Féliho : ce que disent les pièces
 **Balisage :** `Organization` + `Article` (§ 5.1 du plan)
 
 ### Chapô
@@ -142,46 +142,72 @@ Le raisonnement exposé est le suivant : le jugement n° 114/14/3ᵉ CH-EP du 31
 
 ### Chapô
 
-Une lettre d'une page, adressée au Procureur Général près la Cour d'appel de Cotonou et transmise à la Brigade criminelle, y est annexée. Elle porte la référence `0082/COA/BAT/AAH/2024/mp`, la date du 17 mars 2025, et la signature « Le Bâtonnier ». Elle invoque l'article 6 alinéa 5 du Règlement n° 05/CM/UEMOA du 25 septembre 2014 relatif à l'harmonisation des règles régissant la profession d'avocat dans l'espace UEMOA.
+Une lettre d'une page, datée du 17 mars 2025, est adressée au Procureur Général près la Cour d'appel de Cotonou sous l'en-tête « Ordre des avocats du Bénin — Le Bâtonnier ». Elle porte la référence `0082/COA/BAT/AAH/2024/MP`, le cachet de l'Ordre et, sous la signature, la mention « … A. HOUNKPATIN ». Elle affirme que « la cause est déjà en instruction » et que Me Victorien Olatoundji Fade « a déjà déféré » à l'invitation de produire ses observations. La lettre est publiée ici comme pièce autonome : [PDF, 1 page](/pieces/procedures-benin/lettre-batonnier-procureur-general-2025-03-17.pdf). Cette page confronte ces deux affirmations aux autres pièces du dossier.
+
+### Qui a signé la lettre ?
+
+Sous la signature figure la mention dactylographiée « … A. HOUNKPATIN », soulignée (le prénom est en partie recouvert par le cachet), au-dessous de « Le Bâtonnier » et du cachet rond « Ordre des avocats du Bénin — Le Bâtonnier ». La référence de la lettre contient les initiales « AAH », cohérentes avec « Angelo Aimé HOUNKPATIN », nom dont est signée la Déclaration de l'Ordre du 20 août 2024 (pages 1 et 2 du [dossier complet](/pieces/procedures-benin/plainte-deontologique-fade-dossier-complet-relance-2024-06-20.pdf)). Me Angelo Hounkpatin exerçait la fonction à cette date : investi le 5 janvier 2023, son successeur a été installé le 26 janvier 2026.
 
 ### Ce que la lettre énonce
 
-La lettre accuse réception de la correspondance du Procureur Général du 14 mars 2025 (`0456/2025/MYL1/CA C/PG-SP-COT/SA`) lui transmettant une convocation de la Brigade criminelle pour Me Victorien Olatoundji Fade, en vue d'une audition le 19 mars 2025. Elle demande au Procureur Général de permettre au bâtonnier d'exercer sa prérogative de consultation préalable à toute audition d'avocat, afin de poursuivre l'instruction du dossier.
+La lettre accuse réception de la correspondance du Procureur Général du 14 mars 2025 (`0456/2025/MJL/CAC/PG-SP-COT/SA`), qui lui transmettait la convocation de Me Victorien Olatoundji Fade par la Brigade criminelle pour le 19 mars 2025 à 9 heures. Elle poursuit, mot pour mot :
+
+> « J'avise de vous informer que le plaignant m'a déjà saisi de son différend et la cause est déjà en instruction pour avoir déjà invité Maître Victorien Olatoundji FADE à me produire ses observations sur sa plainte et ce à quoi il a déjà déféré. »
+
+Elle invoque ensuite l'article 6, alinéa 2 (tel que cité dans la lettre), du Règlement n° 05/CM/UEMOA du 25 septembre 2014, pour demander au Procureur Général de lui permettre d'exercer sa « prérogative de consultation, préalable à toute audition d'Avocat », puis « de poursuivre l'instruction du dossier ».
 
 ### Ce que la Brigade criminelle en rapporte
 
-Dans sa réponse n° 269/2025 du 29 avril 2025 au greffier en chef de la Cour constitutionnelle, la Brigade criminelle écrit, en propres termes :
+Dans sa réponse n° 269/2025 du 29 avril 2025 au greffier en chef de la Cour constitutionnelle, la Brigade criminelle reprend ce passage :
 
 > « Par ailleurs, suite à la convocation de Maître FADE O. Victorien, avocat à la cour, le Procureur Général a transmis au chef de la Brigade criminelle une correspondance du bâtonnier qui l'avise que le plaignant Gilles sixte FELIHO l'a déjà saisi de son différend et **la cause est déjà en instruction** pour avoir invité Maître FADE Victorien Olatoundji à lui produire ses observations sur sa plainte **et ce à quoi il aurait déjà déféré**. »
 
-### Le rapprochement des pièces
+### Le calendrier, pièce par pièce
 
-| Ce que la lettre, telle que rapportée, laisse entendre | Ce que les pièces établissent |
-|---|---|
-| Le plaignant a saisi le bâtonnier de son différend | Établi : plainte du 2 avril 2023 (pièce du dossier) |
-| « la cause est déjà en instruction » | Aucune décision d'ouverture d'instruction ni aucune notification n'est produite au dossier |
-| Me Fade a été invité à produire ses observations | Non vérifiable en l'état : aucune convocation ni demande d'observations n'est produite |
-| « il aurait déjà déféré » | Aucune observation écrite de Me Fade n'est produite au dossier ; le plaignant n'a reçu aucune notification |
+| Date | Pièce | Ce qu'elle établit |
+|---|---|---|
+| 2 avr. 2023 | [Plainte](/pieces/procedures-benin/plainte-deontologique-fade-2023-04-02.pdf) | Dépôt de la plainte déontologique |
+| 20 oct. 2023 | Avis de réception, [dossier complet](/pieces/procedures-benin/plainte-deontologique-fade-dossier-complet-relance-2024-06-20.pdf), p. 3 | Cachet de l'Ordre et cachet postal de cette date |
+| 20 juin 2024 | [Relance](/pieces/procedures-benin/relance-batonnier-2024-06-20.pdf) | Le plaignant demande l'état d'avancement ; aucune réponse connue |
+| 12 mars 2025 | Convocation, réponse n° 269/2025, p. 19-20 | Me Fade est convoqué par la Brigade criminelle pour le 19 mars 2025 à 9 h |
+| 17 mars 2025 | [Lettre du Bâtonnier](/pieces/procedures-benin/lettre-batonnier-procureur-general-2025-03-17.pdf) | « La cause est déjà en instruction » ; « il a déjà déféré » |
+| 19 mars 2025 | Même lettre, cachet du Parquet Général | Cachet d'arrivée « 19/03/25 » et visa « copie au chef Brigade criminelle » : la lettre est enregistrée le jour fixé pour l'audition |
+| 19 mars 2025 | [Relance de convocation](/pieces/procedures-benin/relance-convocation-brigade-criminelle-2025-03-25.pdf) | La Brigade criminelle écrit que Me Fade « a été convoqué pour le mercredi 19 mars 2025 mais il ne s'est pas présenté » |
+| 27 mars 2025 | [Transmission par le Procureur Général](/pieces/procedures-benin/transmission-procureur-general-brigade-2025-03-27.pdf) | La lettre du Bâtonnier est transmise à la Brigade criminelle (cachet d'arrivée du 27 mars 2025), huit jours après l'audition |
+
+### Le contraste
+
+- **« Déjà en instruction » : depuis quand, et sur quelle trace ?** La plainte date du 2 avril 2023 ; l'Ordre en a accusé réception par un avis du 20 octobre 2023. À la relance du 20 juin 2024, aucune réponse. La lettre du 17 mars 2025, vingt-trois mois après le dépôt, est la première pièce du dossier qui parle d'une « instruction », au moment même où la Brigade criminelle convoque l'avocat. Elle ne donne ni date d'ouverture, ni référence d'acte, ni nom de rapporteur.
+- **« Il a déjà déféré » : à quoi ?** La lettre ne dit ni quand l'avocat a été invité à produire ses observations, ni quand il les a produites, ni ce qu'elles contiennent. Le plaignant, qui a saisi l'Ordre, n'en a reçu ni notification ni copie. Le seul acte de déférence documenté dans le dossier va dans l'autre sens : le 19 mars 2025, deux jours après la lettre, Me Fade ne s'est pas présenté devant la Brigade criminelle.
+- **Une consultation « préalable » qui arrive le jour de l'audition.** La lettre demande d'être consultée avant toute audition. Elle porte le cachet d'arrivée du Parquet Général du 19 mars 2025, jour de l'audition, et n'est transmise à la Brigade criminelle que le 27 mars.
+- **Une référence de 2024.** La référence `0082/COA/BAT/AAH/2024/MP` porte le millésime 2024. Si elle désigne un dossier ouvert en 2024, le plaignant n'en a jamais été informé ; si elle désigne autre chose, la lettre ne l'explique pas.
+
+### Ce que Me Fade pouvait produire
+
+La plainte ne repose pas sur une théorie juridique, mais sur un fait matériel vérifiable. Le jugement n° 114/14/3ᵉ CH-EP du 31 octobre 2014 écrit (pages 5 et 8) que Gilles Sixte Féliho « a même déjà disposé » de la parcelle bâtie du lot 488 de Cotonou, quartier Gbégamey, et qu'il a « exécuté les dispositions testamentaires de manière volontaire ». Or le [procès-verbal de compulsion](/pieces/pv-compulsion-parcelle-b-lot-488-2017-12.pdf) dressé par l'huissier de justice le 19 décembre 2017 consigne que l'Institut Géographique National « ne dispose d'aucun document afférent à la parcelle B du lot 488 » et que la direction des affaires juridiques et du foncier de la mairie de Cotonou « ne trouve pas davantage de trace » d'une telle disposition. La Brigade criminelle a elle-même requis la mairie, le 12 mars 2025, de mettre à sa disposition le registre foncier de cette parcelle (pièces 5 et 6 de la réponse n° 269/2025). Le contenu de la réponse de la mairie n'est pas commenté ici.
+
+Dans ces conditions, une observation écrite adressée au Bâtonnier ne pouvait être satisfaisante qu'à une condition : produire le document, introuvable à l'Institut Géographique National et à la mairie de Cotonou, par lequel Gilles Sixte Féliho aurait disposé de cette parcelle. Aucun document de cette nature n'est produit au dossier. Telle est la lecture du plaignant ; elle repose sur les pièces citées, que chacun peut ouvrir.
 
 ### Les deux lectures possibles
 
-**Lecture du plaignant.** La lettre annonce une instruction en cours et une réponse de l'avocat ; ni l'une ni l'autre ne s'est traduite par un acte connu du plaignant quarante-quatre mois après le dépôt de la plainte.
+**Lecture du plaignant.** La lettre annonce une instruction en cours et une réponse de l'avocat ; ni l'une ni l'autre ne s'est traduite par un acte connu du plaignant quarante-deux mois après le dépôt de la plainte. L'avocat ne s'est pas présenté devant la Brigade criminelle, et l'unique élément matériel du débat, la compulsion des registres, n'a reçu aucune contradiction documentée.
 
-**Lecture que la défense peut opposer.** Le mot « instruction » peut désigner un traitement interne à l'Ordre, sans obligation d'information du plaignant ; « il aurait déjà déféré » viserait les observations de l'avocat à son bâtonnier, et non une réponse adressée au plaignant. Le conditionnel employé dans la lettre de la Brigade criminelle (« qui l'avise que… ») décrit un dire rapporté, non une constatation propre.
+**Lecture que la défense peut opposer.** Le mot « instruction » peut désigner un traitement interne à l'Ordre, sans obligation d'information du plaignant ; « il a déjà déféré » viserait des observations de l'avocat à son bâtonnier, que l'Ordre n'est pas tenu de communiquer ; l'article invoqué ménage une consultation du bâtonnier avant l'audition d'un avocat, sans la subordonner au plaignant.
 
-**Position de cette page.** Les deux lectures sont exposées. La page n'en retient aucune : elle établit la matérialité des énoncés et l'impossibilité, en l'état des pièces produites, de les corroborer. C'est ce que le lecteur peut vérifier lui-même.
+**Ce que la page retient.** Les pièces établissent la date de la plainte, la réception par l'Ordre, la date et les termes de la lettre, son enregistrement au Parquet Général le 19 mars 2025 et la non-comparution rapportée par la Brigade criminelle. Elles n'établissent ni la date d'ouverture de l'instruction, ni l'existence ou le contenu d'observations de l'avocat. Cette absence est un fait documentaire : chacun peut le vérifier en consultant les pièces.
 
 ### Observation documentaire
 
 Le greffier en chef de la Cour constitutionnelle, dans sa lettre n° 3081/CC/GEC, désigne la pièce jointe comme la « Lettre n°268/2025 de la Brigade Criminelle du 29 avril 2025 », tandis que le document lui-même porte le numéro `n°269/2025` sur son en-tête. Cet écart de numérotation est signalé ici comme une observation à vérifier auprès de l'émetteur ; il n'est pas interprété.
 
-### Trois questions vérifiables
+### Quatre questions vérifiables
 
 1. À quelle date la plainte du 2 avril 2023 a-t-elle été enregistrée à l'Ordre, et sous quelle référence ?
 2. Une décision d'ouverture d'instruction a-t-elle été prise, et à quelle date ?
 3. Me Fade a-t-il produit des observations, à quelle date, et par quel acte ?
+4. Que désigne la référence `0082/COA/BAT/AAH/2024/MP`, dont le millésime est 2024 alors que la lettre est datée de 2025 ?
 
-Ces trois questions font l'objet d'une demande écrite à l'Ordre des avocats du Bénin, reproduite sur la page [Comment saisir le Bâtonnier au Bénin](/batonnier-hounkpatin/recours-contre-le-batonnier-benin-mode-emploi/).
+Les trois premières font l'objet d'une demande écrite à l'Ordre des avocats du Bénin, reproduite sur la page [Comment saisir le Bâtonnier au Bénin](/batonnier-hounkpatin/recours-contre-le-batonnier-benin-mode-emploi/).
 
 ### Poursuivre
 
