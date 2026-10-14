@@ -1,0 +1,154 @@
+{
+ "total": 141.78866666666667,
+ "sequences": {
+  "1": [
+   0.0,
+   7.4413333333333345
+  ],
+  "2": [
+   7.4413333333333345,
+   33.814
+  ],
+  "3": [
+   33.814,
+   55.565999999999995
+  ],
+  "4": [
+   55.565999999999995,
+   81.57666666666668
+  ],
+  "5": [
+   81.57666666666668,
+   98.88466666666669
+  ],
+  "6": [
+   98.88466666666669,
+   125.08733333333335
+  ],
+  "7": [
+   125.08733333333335,
+   135.78866666666667
+  ],
+  "8": [
+   135.78866666666667,
+   141.78866666666667
+  ]
+ },
+ "cues": [
+  [
+   1.4,
+   6.541333333333334,
+   "Ce film n'expose pas de conclusions. Il aligne des dates, telles qu'elles figurent dans les pièces produites."
+  ],
+  [
+   8.241333333333335,
+   13.916000000000002,
+   "Le 11 septembre 2023, le procureur spécial près la CRIET saisit la Brigade criminelle."
+  ],
+  [
+   14.266000000000002,
+   18.916666666666668,
+   "Le 4 octobre, l'enquête est ouverte sur la plainte de Gilles Sixte Féliho, contre X."
+  ],
+  [
+   19.26666666666667,
+   24.344,
+   "Deux officiers ministériels y sont nommés : le notaire Félix Balley et l'avocat Victorien Fade."
+  ],
+  [
+   24.694000000000003,
+   33.014,
+   "Le 17 novembre 2023, l'enquêteur informe le mandataire du plaignant qu'il doit en informer le bâtonnier, par le biais du procureur général."
+  ],
+  [
+   34.614,
+   42.486,
+   "Le 3 avril 2024, le chef de la Brigade criminelle retire le dossier à son enquêteur et le met en instance, en l'annotant."
+  ],
+  [
+   42.885999999999996,
+   45.702,
+   "Il décède le 27 octobre 2024."
+  ],
+  [
+   46.102,
+   52.565999999999995,
+   "Le dossier n'est retrouvé qu'en mars 2025, après la notification de la Cour constitutionnelle du 6 mars."
+  ],
+  [
+   56.266,
+   60.105999999999995,
+   "Le 11 mars 2025, la réquisition au service domanial."
+  ],
+  [
+   60.406,
+   62.94466666666666,
+   "Le 12, les convocations et l'ordre de mission."
+  ],
+  [
+   63.24466666666667,
+   67.938,
+   "Le 14, le procureur général transmet au bâtonnier la convocation de l'avocat."
+  ],
+  [
+   68.238,
+   70.49933333333334,
+   "Le 17, le cabinet du bâtonnier répond."
+  ],
+  [
+   70.79933333333334,
+   74.74600000000001,
+   "Le 19, l'audition : l'avocat ne comparaît pas ; le notaire est entendu."
+  ],
+  [
+   75.046,
+   79.37666666666668,
+   "Le 27, la correspondance du bâtonnier est transmise à la Brigade criminelle."
+  ],
+  [
+   82.87666666666668,
+   89.63933333333334,
+   "Le 3 juillet 2025, à Cotonou, le procureur spécial près la CRIET classe la procédure sans suite."
+  ],
+  [
+   90.23933333333335,
+   93.39666666666668,
+   "Motif : il n'a pas estimé opportun d'engager des poursuites."
+  ],
+  [
+   93.99666666666668,
+   96.68466666666669,
+   "La décision est adressée à Gilles Sixte Féliho."
+  ],
+  [
+   99.7846666666667,
+   104.0086666666667,
+   "Le plaignant reçoit cette décision le 26 septembre 2025."
+  ],
+  [
+   104.90866666666669,
+   107.42600000000002,
+   "Quatre-vingt-cinq jours après qu'elle a été rendue."
+  ],
+  [
+   108.32600000000002,
+   113.06200000000003,
+   "La veille, son mandataire l'avait appris en se renseignant à la Brigade criminelle."
+  ],
+  [
+   113.96200000000002,
+   121.08733333333335,
+   "Douze jours après le classement, le 15 juillet 2025, une audience s'était tenue devant la Cour constitutionnelle."
+  ],
+  [
+   125.98733333333335,
+   128.46200000000002,
+   "Les dates sont établies. Leurs causes ne le sont pas."
+  ],
+  [
+   128.96200000000002,
+   134.18866666666668,
+   "Cinq questions seront adressées par écrit aux autorités compétentes. Leurs réponses seront publiées."
+  ]
+ ]
+}

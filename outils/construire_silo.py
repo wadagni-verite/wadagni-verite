@@ -13,6 +13,7 @@ SRC = os.path.join(ROOT, 'outils', 'silo', '02-pages-du-silo-contenu.md')
 SRC10 = os.path.join(ROOT, 'outils', 'silo', '10-cas-pratique-contenu.md')   # volet pédagogique (page 10)
 CAS = '/batonnier-hounkpatin/cas-pratique-plainte-deontologique/'
 SRC11 = os.path.join(ROOT, 'outils', 'silo', '11-lettres-de-demande-contenu.md')   # modèles de lettres (page 11)
+SRC12 = os.path.join(ROOT, 'outils', 'silo', '12-film-classement-contenu.md')   # film (page 12)
 LETTRES = '/batonnier-hounkpatin/lettres-de-demande-de-communication/'
 OUT = os.path.join(ROOT, 'batonnier-hounkpatin')
 SITE = 'https://wadagni2026-verite.com'
@@ -82,6 +83,7 @@ PIECES = [
     ('Lettre du Bâtonnier au Procureur Général (extrait, p. 25 de la réponse de la Brigade criminelle)', '17 mars 2025', 1, 'pieces/procedures-benin/lettre-batonnier-procureur-general-2025-03-17.pdf', None, False, None),
     ('Transmission par le Procureur Général à la Brigade criminelle (extrait, p. 24)', '27 mars 2025', 1, 'pieces/procedures-benin/transmission-procureur-general-brigade-2025-03-27.pdf', None, False, None),
     ('Relance de convocation de Me Fade par la Brigade criminelle (extrait, p. 21)', '25 mars 2025', 1, 'pieces/procedures-benin/relance-convocation-brigade-criminelle-2025-03-25.pdf', None, False, None),
+    ('Avis de classement du Procureur spécial près la CRIET', '3 juil. 2025', 1, 'pieces/avis-de-classement-criet-2025-07-03.pdf', None, False, None),
     ('Procès-verbal d\u2019audition n° 2 (pages 1, 2/5 et 5/5)', '19 mars 2025', 3, 'pieces/bac-pv-audition-2-2025-03-19.pdf', 'd3590116e5ad9de9e87f2accdf55426224571efac2ec668b87e969ae3a83f478', True, None),
     ('Jugement n° 114/14/3ᵉ CH-EP', '31 oct. 2014', 8, 'jugement-succession-feliho-2014.pdf', '81f38a3b6459bfe09335ec8b49a0330d5c4d4fc8daca750ad25dd2ea077c5d06', True, None),
     ('Signification du jugement', '9 mars 2015', 3, 'pieces/procedures-benin/plainte-fade-piece-2-signification-jugement-2015-03-09.pdf', '5946ebe64458bd2939af16ebc7ff8d4e08759f1b787a8e0e928b9f761d5fe978', True, None),
@@ -239,6 +241,17 @@ def jsonld(p, pages, canonical, og, html_body):
                                   "Faux en écriture publique : définition et éléments constitutifs", "Faute déontologique et infraction pénale", "Voies de recours"],
                       "isAccessibleForFree": True, "creator": {"@id": SITE + "/#editeur"}, "datePublished": DATE,
                       "encoding": {"@type": "MediaObject", "contentUrl": SITE + CAS + "cas-pratique-plainte-deontologique.pdf", "encodingFormat": "application/pdf"}})
+    if n == 12:
+        vf = os.path.join(ROOT, 'video', 'classement', 'classement-16-9.mp4')
+        if os.path.exists(vf):
+            import subprocess
+            sec = float(subprocess.check_output(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', vf], text=True))
+            iso = f"PT{int(sec // 60)}M{int(round(sec % 60))}S"
+            graph.append({"@type": "VideoObject", "name": "Décision rendue, décision non reçue — chronologie établie par les pièces",
+                          "description": "Chronologie documentée : saisine de la Brigade criminelle le 11 septembre 2023, mise en instance du dossier le 3 avril 2024, redécouverte en mars 2025, transmissions de mars 2025, classement sans suite du 3 juillet 2025, réception par le plaignant le 26 septembre 2025.",
+                          "uploadDate": DATE, "duration": iso, "inLanguage": "fr",
+                          "contentUrl": SITE + "/video/classement/classement-16-9.mp4", "thumbnailUrl": SITE + "/video/classement/classement-vignette.jpg",
+                          "publisher": {"@id": SITE + "/#editeur"}})
     if n == 6:
         steps = re.findall(r'^### (Étape \d+ — [^\n]+)\n\n(.+?)(?=\n### |\Z)', p['md'], re.M | re.S)
         graph.append({"@type": "HowTo", "name": "Comment saisir le Bâtonnier de l'Ordre des avocats du Bénin puis la Cour constitutionnelle",
@@ -264,6 +277,8 @@ def jsonld(p, pages, canonical, og, html_body):
 
 EXERCICE = (0, 5, 6, 9)   # pages qui renvoient vers le cas pratique
 LETTRES_PAGES = (0, 6, 9)   # pages qui renvoient vers les modèles de lettres
+FILM = '/batonnier-hounkpatin/decision-rendue-decision-non-recue/'
+FILM_PAGES = (0, 2)   # pages qui renvoient vers le film
 
 def render(p, pages):
     url = p['url']; canonical = SITE + url
@@ -277,6 +292,8 @@ def render(p, pages):
         md = md.rstrip() + f"\n\n**Pour s'exercer.** [Cas pratique : le traitement d'une plainte déontologique par un ordre d'avocats]({CAS}) — sept questions, pistes de réponse et grille de correction, en version PDF.\n"
     if p['num'] in LETTRES_PAGES:
         md = md.rstrip() + f"\n\n**Modèles de lettres.** [Quatre lettres de demande de communication]({LETTRES}) : Bâtonnier, Procureur Général, Cour constitutionnelle, Procureur spécial de la CRIET, avec version PDF.\n"
+    if p['num'] in FILM_PAGES:
+        md = md.rstrip() + f"\n\n**Le film.** [Décision rendue, décision non reçue]({FILM}) : les dates de la procédure, de la saisine du 11 septembre 2023 au classement du 3 juillet 2025, sur pièces.\n"
     md = md.replace('<details class="correspondance">', '<details class="correspondance" markdown="1">')
     md = re.sub(r'^### ', '## ', md, flags=re.M)
     exts = ['tables', 'sane_lists', 'md_in_html'] + (['nl2br'] if p['num'] in (10, 11) else [])
@@ -295,9 +312,9 @@ def render(p, pages):
 
 def main():
     os.makedirs(os.path.join(OUT, 'assets'), exist_ok=True)
-    text = open(SRC, encoding='utf-8').read() + '\n' + open(SRC10, encoding='utf-8').read() + '\n' + open(SRC11, encoding='utf-8').read()
+    text = open(SRC, encoding='utf-8').read() + '\n' + open(SRC10, encoding='utf-8').read() + '\n' + open(SRC11, encoding='utf-8').read() + '\n' + open(SRC12, encoding='utf-8').read()
     pages = parse_pages(text)
-    assert len(pages) == 12, len(pages)
+    assert len(pages) == 13, len(pages)
     liste = []
     for p in pages:
         out, slug = render(p, pages)
