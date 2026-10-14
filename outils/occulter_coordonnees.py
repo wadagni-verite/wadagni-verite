@@ -26,7 +26,7 @@ def appliquer(src, dst, par_page_rects, par_page_textes, notice):
     d.save(dst, garbage=4, deflate=True)
     print(f"{os.path.basename(dst)} : {n} zone(s) occultée(s)")
 
-NOTICE = "Coordonnées personnelles occultées (adresse, téléphone, courriel). Contenu inchangé par ailleurs."
+NOTICE = "Coordonnées personnelles et filiation occultées (adresse, téléphone, courriel, naissance, parents). Contenu inchangé par ailleurs."
 
 # Dossier complet (13 p.) : en-têtes de lettres (p. 5, 6, 10), signature de courriel (p. 4), avis de réception (p. 3)
 EN_TETE = (55, 67, 200, 118)   # adresse, code postal, téléphone, courriel du plaignant (lignes 2 à 5 de l'en-tête)
@@ -35,6 +35,6 @@ appliquer(U + 'cef8d167-Plainte_contre_FADE.pdf', ROOT + '/pieces/dossier-corres
            4: [(170, 63, 290, 79), (410, 388, 525, 414), (410, 438, 525, 480)],
            5: [EN_TETE], 6: [EN_TETE], 10: [EN_TETE]}, {}, NOTICE)
 
-# PV d'audition n° 2 (pages 1, 2/5, 5/5) : numéro de téléphone du témoin (page 1)
+# PV d'audition n° 2 (pages 1, 2/5, 5/5) : filiation (date et lieu de naissance, parents) et numéro de téléphone du témoin (page 1)
 appliquer(U + 'f8dbdbab-Audition_BALLEY.pdf', ROOT + '/pieces/bac-pv-audition-2-2025-03-19.pdf',
-          {1: [(445, 630, 556, 657)]}, {}, NOTICE)
+          {1: [(195, 580, 577, 604), (195, 605, 364, 625), (445, 630, 556, 657)]}, {}, NOTICE)
