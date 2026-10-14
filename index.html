@@ -1744,6 +1744,7 @@
                         lettre de l'Ordre au Procureur Général du 17 mars 2025 (« la cause est déjà en instruction »), recours devant la
                         Cour constitutionnelle : les pièces, dans l'ordre, avec leurs empreintes SHA-256, et un cas pratique pour les étudiants en droit.
                     </p>
+                    <p style="font-weight:700;color:var(--navy)" id="counter-plainte">⏰ Plus de 1 290 jours depuis le dépôt de la plainte</p>
                     <div class="doc-featured-actions">
                         <a href="/batonnier-hounkpatin/" class="btn">📖 Lire le dossier</a>
                         <a href="/batonnier-hounkpatin/lettre-batonnier-procureur-general-17-mars-2025/" class="btn btn-secondary">📜 La lettre du 17 mars 2025</a>
@@ -1825,6 +1826,13 @@
             }
         }
         updateCounter();
+
+        (function () {
+            const el = document.getElementById('counter-plainte');
+            if (!el) return;
+            const jours = Math.floor((new Date() - new Date('2023-04-02')) / 86400000);
+            el.textContent = `⏰ ${jours} jours depuis le dépôt de la plainte, sans réponse connue du plaignant`;
+        })();
 
         function revealOnScroll() {
             const elements = document.querySelectorAll('.timeline-item, .doc-card, .doc-featured, .comparison-column, .detail-card, .infographie-wrapper, .challenge-box');
