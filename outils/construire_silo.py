@@ -12,6 +12,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(ROOT, 'outils', 'silo', '02-pages-du-silo-contenu.md')
 SRC10 = os.path.join(ROOT, 'outils', 'silo', '10-cas-pratique-contenu.md')   # volet pédagogique (page 10)
 CAS = '/batonnier-hounkpatin/cas-pratique-plainte-deontologique/'
+SRC11 = os.path.join(ROOT, 'outils', 'silo', '11-lettres-de-demande-contenu.md')   # modèles de lettres (page 11)
+LETTRES = '/batonnier-hounkpatin/lettres-de-demande-de-communication/'
 OUT = os.path.join(ROOT, 'batonnier-hounkpatin')
 SITE = 'https://wadagni2026-verite.com'
 DATE = '2026-10-14'
@@ -141,6 +143,7 @@ SEO = {
     '/batonnier-hounkpatin/questions-frequentes/': ("Questions fréquentes — ancien bâtonnier Angelo Hounkpatin", None),
     '/batonnier-hounkpatin/sources-et-pieces-verifiables/': ("Sources et pièces vérifiables — Angelo Hounkpatin", None),
     '/batonnier-hounkpatin/recours-contre-le-batonnier-benin-mode-emploi/': ("Plainte contre un avocat au Bénin : mode d'emploi", None),
+    '/batonnier-hounkpatin/lettres-de-demande-de-communication/': (None, "Quatre modèles de lettres : Bâtonnier, Procureur Général, Cour constitutionnelle, CRIET. Un objet d'une ligne, des demandes numérotées et vérifiables."),
     '/batonnier-hounkpatin/cas-pratique-plainte-deontologique/': (None, "Cas pratique de déontologie : délai raisonnable, devoir de réponse d'un ordre, preuve de l'envoi, voies de recours. Sept questions, pistes, grille."),
 }
 
@@ -260,6 +263,7 @@ def jsonld(p, pages, canonical, og, html_body):
     return json.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False, indent=2)
 
 EXERCICE = (0, 5, 6, 9)   # pages qui renvoient vers le cas pratique
+LETTRES_PAGES = (0, 6, 9)   # pages qui renvoient vers les modèles de lettres
 
 def render(p, pages):
     url = p['url']; canonical = SITE + url
@@ -271,9 +275,11 @@ def render(p, pages):
     md = md.replace('### Chapô\n\n', '')
     if p['num'] in EXERCICE:
         md = md.rstrip() + f"\n\n**Pour s'exercer.** [Cas pratique : le traitement d'une plainte déontologique par un ordre d'avocats]({CAS}) — sept questions, pistes de réponse et grille de correction, en version PDF.\n"
+    if p['num'] in LETTRES_PAGES:
+        md = md.rstrip() + f"\n\n**Modèles de lettres.** [Quatre lettres de demande de communication]({LETTRES}) : Bâtonnier, Procureur Général, Cour constitutionnelle, Procureur spécial de la CRIET, avec version PDF.\n"
     md = md.replace('<details class="correspondance">', '<details class="correspondance" markdown="1">')
     md = re.sub(r'^### ', '## ', md, flags=re.M)
-    exts = ['tables', 'sane_lists', 'md_in_html'] + (['nl2br'] if p['num'] == 10 else [])
+    exts = ['tables', 'sane_lists', 'md_in_html'] + (['nl2br'] if p['num'] in (10, 11) else [])
     body = markdown.markdown(md, extensions=exts)
     body = body.replace('<table>', '<div class="tw"><table>').replace('</table>', '</table></div>')
     crumbs = f'<nav class="fil" aria-label="Fil d\'Ariane"><a href="/">Accueil</a> › <a href="{HUB}">Dossier Bâtonnier</a>' + ('' if p['num'] == 0 else f' › <span>{html.escape(p["h1"])}</span>') + '</nav>'
@@ -289,9 +295,9 @@ def render(p, pages):
 
 def main():
     os.makedirs(os.path.join(OUT, 'assets'), exist_ok=True)
-    text = open(SRC, encoding='utf-8').read() + '\n' + open(SRC10, encoding='utf-8').read()
+    text = open(SRC, encoding='utf-8').read() + '\n' + open(SRC10, encoding='utf-8').read() + '\n' + open(SRC11, encoding='utf-8').read()
     pages = parse_pages(text)
-    assert len(pages) == 11, len(pages)
+    assert len(pages) == 12, len(pages)
     liste = []
     for p in pages:
         out, slug = render(p, pages)
