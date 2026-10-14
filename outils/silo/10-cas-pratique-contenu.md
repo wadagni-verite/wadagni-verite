@@ -12,7 +12,31 @@ Une plainte déontologique est déposée contre un avocat. Plus de trois ans apr
 
 > **Télécharger :** [la version PDF du cas pratique](/batonnier-hounkpatin/cas-pratique-plainte-deontologique/cas-pratique-plainte-deontologique.pdf) (à imprimer ou à distribuer). Les pièces visées sont publiées sur la page [Sources et pièces vérifiables](/batonnier-hounkpatin/sources-et-pieces-verifiables/).
 
-> **Note.** Ce cas pratique est fondé sur des pièces publiées et sur un dossier dont l'issue n'est pas connue. Il est proposé à des fins pédagogiques. Les étudiants sont invités à former leur propre opinion à partir des seules pièces visées. Les pistes de réponse indiquent la règle et les éléments à examiner ; elles ne concluent pas à la place de l'étudiant.
+> **Note.** Ce cas pratique est fondé sur des pièces publiées et sur un dossier dont l'issue n'est pas connue. Il est proposé à des fins pédagogiques. Les textes qui définissent le faux en écriture publique sont reproduits ci-dessous avant les questions ; les pistes de réponse indiquent la règle et les éléments à examiner.
+
+### Les textes à connaître avant de commencer : le faux en écriture publique
+
+La plainte qualifie les faits de **complicité de faux en écriture publique** et d'**usage de faux en écriture publique**. Deux textes sont à connaître : le Code pénal visé par la plainte (articles 22, 303 et 305) et l'ancien Code pénal, dit Code Bouvenet (articles 145, 146 et 148), applicable aux faits antérieurs au Code pénal de 2018 (voir [l'analyse du certificat d'acquit de droit](/analyse-absence-lien-balley.html#demonstration)).
+
+**Code pénal visé par la plainte (textes tels que reproduits dans la plainte)**
+
+> **Article 303.** « Est puni de la réclusion criminelle à perpétuité tout fonctionnaire ou officier public qui, en rédigeant des actes de son ministère, en a frauduleusement dénaturé la substance ou les circonstances, soit en écrivant des conventions autres que celles qui auraient été tracées ou dictées par les parties, soit en constatant comme vrais des faits faux ou comme avérés des faits qui ne l'étaient pas. »
+>
+> **Article 305.** « Dans tous les cas exprimés au présent paragraphe, celui qui a fait usage des actes faux est puni de la réclusion criminelle à temps de dix ans (10) à vingt (20) ans. »
+>
+> **Article 22.** « Est complice d'un crime ou d'un délit, la personne qui par don, promesse, menace, ordre, abus d'autorité ou de pouvoir aura provoqué une infraction ou donné des instructions pour la commettre. Est également complice la personne qui sciemment, par aide ou assistance, en a facilité la préparation ou la consommation. »
+
+**Ancien Code pénal (Code Bouvenet), tel que résumé dans l'analyse du site**
+
+| Article | Ce qu'il réprime |
+|---|---|
+| 145 | Le faux commis par un fonctionnaire ou un officier public dans l'exercice de ses fonctions, notamment par altération d'un acte, supposition de personne ou inscription frauduleuse dans un registre ou un acte public. |
+| 146 | Le fait, pour l'officier public qui rédige un acte de son ministère, de dénaturer frauduleusement l'acte ou de constater comme vrais des faits qui sont faux. |
+| 148 | L'usage conscient d'un acte faux. |
+
+**Les éléments que les deux textes ont en commun :** un auteur investi d'une fonction publique ou d'un office public ; un acte rédigé dans l'exercice de cette fonction ; la dénaturation frauduleuse de la substance ou des circonstances de l'acte, ou la constatation comme vrais de faits qui ne l'étaient pas ; l'usage de l'acte faux, puni séparément ; la complicité, définie par l'article 22 dans le Code pénal visé par la plainte.
+
+*Les numéros d'articles doivent être vérifiés sur le texte officiel en vigueur au jour des faits.*
 
 ### 1. Les faits
 
@@ -90,7 +114,7 @@ Un plaignant publie sur internet les pièces d'une procédure qu'il tient pour r
 - **Règlement n° 05/CM/UEMOA du 25 septembre 2014** relatif à l'harmonisation des règles régissant la profession d'avocat dans l'espace UEMOA : article 6 (l'alinéa invoqué par la lettre est le 2ᵉ ; à vérifier sur le texte).
 - **Charte africaine des droits de l'homme et des peuples** : article 7-1 d) ; article 56, point 5 (à vérifier sur le texte).
 - **Constitution du Bénin** : article 114.
-- **Code pénal béninois** : articles 22 et 303 à 305, tels qu'invoqués par la plainte.
+- **Code pénal béninois** : articles 22 et 303 à 305, tels qu'invoqués par la plainte ; **ancien Code pénal (Code Bouvenet)** : articles 145, 146 et 148 (voir ci-dessus).
 - **Décision DCC 25-024 du 30 janvier 2025** de la Cour constitutionnelle, invoquée par la requête : [texte](https://courconstitutionnelle.bj/fr/decisions/DCC25-024). La Cour s'y saisit d'office et dit que le Bâtonnier a violé l'article 7 de la Charte africaine à propos de la commission d'office d'avocats.
 
 *Les numéros d'articles et les délais doivent être vérifiés sur le texte en vigueur au jour de la saisine.*

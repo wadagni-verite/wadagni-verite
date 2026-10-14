@@ -233,7 +233,7 @@ def jsonld(p, pages, canonical, og, html_body):
         graph.append({"@type": "LearningResource", "@id": canonical + "#cas-pratique", "name": p['h1'], "description": p['desc'], "inLanguage": "fr",
                       "learningResourceType": "Cas pratique", "educationalUse": "Exercice", "educationalLevel": "Enseignement supérieur (droit, déontologie des professions juridiques)",
                       "teaches": ["Délai raisonnable (article 7-1 d de la Charte africaine)", "Devoir d'information d'un ordre professionnel", "Preuve de l'envoi et de la réception",
-                                  "Faute déontologique et infraction pénale", "Voies de recours"],
+                                  "Faux en écriture publique : définition et éléments constitutifs", "Faute déontologique et infraction pénale", "Voies de recours"],
                       "isAccessibleForFree": True, "creator": {"@id": SITE + "/#editeur"}, "datePublished": DATE,
                       "encoding": {"@type": "MediaObject", "contentUrl": SITE + CAS + "cas-pratique-plainte-deontologique.pdf", "encodingFormat": "application/pdf"}})
     if n == 6:
