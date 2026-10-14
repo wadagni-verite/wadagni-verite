@@ -14,6 +14,7 @@ SRC10 = os.path.join(ROOT, 'outils', 'silo', '10-cas-pratique-contenu.md')   # v
 CAS = '/batonnier-hounkpatin/cas-pratique-plainte-deontologique/'
 SRC11 = os.path.join(ROOT, 'outils', 'silo', '11-lettres-de-demande-contenu.md')   # modèles de lettres (page 11)
 SRC12 = os.path.join(ROOT, 'outils', 'silo', '12-film-classement-contenu.md')   # film (page 12)
+SRC13 = os.path.join(ROOT, 'outils', 'silo', '13-brigade-criminelle-contenu.md')   # Brigade criminelle (page 13, hors du dossier Bâtonnier : /brigade-criminelle/)
 LETTRES = '/batonnier-hounkpatin/lettres-de-demande-de-communication/'
 OUT = os.path.join(ROOT, 'batonnier-hounkpatin')
 SITE = 'https://wadagni2026-verite.com'
@@ -79,10 +80,12 @@ PIECES = [
     ('Relance au Bâtonnier', '20 juin 2024', 1, 'pieces/procedures-benin/relance-batonnier-2024-06-20.pdf', 'b28f60453ce57dbd33ce5401aeb9f40a5064be0aceca6d4002989e36aefc8aea', True, None),
     ('Requête devant la Cour constitutionnelle', '28 mai 2025', 3, 'pieces/procedures-benin/requete-cour-constitutionnelle-2025-05-28.pdf', 'ea75eddae5ab8a2a25918d8a407780f854f35758ed4efb87575379e4ed01d7d1', True, None),
     ('Notification de convocation n° 3081/CC/GEC', '5 août 2025', 1, 'pieces/procedures-benin/convocation-cour-constitutionnelle-recours-1471-331-2025-08-05.pdf', 'ff7ea59bdfa7de4f56449652ca4869fac6e4928a9a8e9b064ded6d69c40ff7cf', True, None),
-    ('Réponse n° 269/2025 de la Brigade criminelle et annexes (version allégée)', '29 avr. 2025', 30, 'pieces/procedures-benin/observations-brigade-criminelle-cour-constitutionnelle-2025-allege.pdf', '1e3685fba3d692f8a6b4da201a57cd526bb0d86d84a2494d23b69d1e7857a3d6', True, None),
+    ('Réponse n° 268/2025 de la Brigade criminelle et annexes (version allégée)', '29 avr. 2025', 30, 'pieces/procedures-benin/observations-brigade-criminelle-cour-constitutionnelle-2025-allege.pdf', '1e3685fba3d692f8a6b4da201a57cd526bb0d86d84a2494d23b69d1e7857a3d6', True, None),
     ('Lettre du Bâtonnier au Procureur Général (extrait, p. 25 de la réponse de la Brigade criminelle)', '17 mars 2025', 1, 'pieces/procedures-benin/lettre-batonnier-procureur-general-2025-03-17.pdf', None, False, None),
     ('Transmission par le Procureur Général à la Brigade criminelle (extrait, p. 24)', '27 mars 2025', 1, 'pieces/procedures-benin/transmission-procureur-general-brigade-2025-03-27.pdf', None, False, None),
     ('Relance de convocation de Me Fade par la Brigade criminelle (extrait, p. 21)', '25 mars 2025', 1, 'pieces/procedures-benin/relance-convocation-brigade-criminelle-2025-03-25.pdf', None, False, None),
+    ('Sommation interpellative n° 048/2024-RY (3 pages)', '3 avr. 2024', 3, 'pieces/procedures-benin/sommation-interpellative-2024-04-03.pdf', 'c3f972315fb5e05e433772bd230b4d8f84c93dfd39053dd4f1cbd4e40d8ac94f', True, None),
+    ('Réplique du plaignant à la Cour constitutionnelle (6 pages)', '2 juin 2025', 6, 'pieces/procedures-benin/replique-brigade-criminelle-cour-constitutionnelle-2025-06-02.pdf', 'cdcc0902fcbb0bcb0aadbe6e0541d6d22638c033050e2ed57cd3bc62a3a9fdcb', True, None),
     ('Avis de classement du Procureur spécial près la CRIET', '3 juil. 2025', 1, 'pieces/avis-de-classement-criet-2025-07-03.pdf', None, False, None),
     ('Procès-verbal d\u2019audition n° 2 (pages 1, 2/5 et 5/5)', '19 mars 2025', 3, 'pieces/bac-pv-audition-2-2025-03-19.pdf', 'd3590116e5ad9de9e87f2accdf55426224571efac2ec668b87e969ae3a83f478', True, None),
     ('Jugement n° 114/14/3ᵉ CH-EP', '31 oct. 2014', 8, 'jugement-succession-feliho-2014.pdf', '81f38a3b6459bfe09335ec8b49a0330d5c4d4fc8daca750ad25dd2ea077c5d06', True, None),
@@ -140,7 +143,7 @@ SEO = {
     '/batonnier-hounkpatin/': ("Angelo Hounkpatin, ancien bâtonnier : le dossier des pièces", "Plainte déontologique du 2 avril 2023 sans réponse connue, lettre du Bâtonnier du 17 mars 2025, recours devant la Cour constitutionnelle : les pièces."),
     '/batonnier-hounkpatin/plainte-deontologique-fade-2023/': ("Plainte déontologique du 2 avril 2023 : pièce par pièce", None),
     '/batonnier-hounkpatin/lettre-batonnier-procureur-general-17-mars-2025/': (None, "Analyse de la lettre du cabinet du Bâtonnier au Procureur Général du 17 mars 2025 : ce qu'elle énonce, ce que les pièces permettent de vérifier."),
-    '/batonnier-hounkpatin/brigade-criminelle-reponse-29-avril-2025/': (None, "La lettre n° 269/2025 de la Brigade criminelle du 29 avril 2025 et ses neuf pièces jointes : chronologie, audition de Me Balley, points en suspens."),
+    '/batonnier-hounkpatin/brigade-criminelle-reponse-29-avril-2025/': (None, "La lettre n° 268/2025 de la Brigade criminelle du 29 avril 2025 et ses neuf pièces jointes : chronologie, audition de Me Balley, points en suspens."),
     '/batonnier-hounkpatin/article-7-1-d-cadhp-delai-raisonnable/': ("Article 7-1 d) CADHP : délai raisonnable en déontologie", None),
     '/batonnier-hounkpatin/questions-frequentes/': ("Questions fréquentes — ancien bâtonnier Angelo Hounkpatin", None),
     '/batonnier-hounkpatin/sources-et-pieces-verifiables/': ("Sources et pièces vérifiables — Angelo Hounkpatin", None),
@@ -241,6 +244,16 @@ def jsonld(p, pages, canonical, og, html_body):
                                   "Faux en écriture publique : définition et éléments constitutifs", "Faute déontologique et infraction pénale", "Voies de recours"],
                       "isAccessibleForFree": True, "creator": {"@id": SITE + "/#editeur"}, "datePublished": DATE,
                       "encoding": {"@type": "MediaObject", "contentUrl": SITE + CAS + "cas-pratique-plainte-deontologique.pdf", "encodingFormat": "application/pdf"}})
+    if n == 13:
+        vf = os.path.join(ROOT, 'video', 'enquete', 'enquete-16-9.mp4')
+        if os.path.exists(vf):
+            import subprocess
+            sec = float(subprocess.check_output(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', vf], text=True))
+            graph.append({"@type": "VideoObject", "name": "L'enquête contre elle-même — les actes et les écrits de la Brigade criminelle de Cotonou",
+                          "description": "Mise en regard, pièce par pièce, des actes de la Brigade criminelle (sommation du 3 avril 2024, réquisition et convocations de mars 2025) et du mémoire signé du commissaire principal Sabi Fulbert Konto le 29 avril 2025.",
+                          "uploadDate": DATE, "duration": f"PT{int(sec // 60)}M{int(round(sec % 60))}S", "inLanguage": "fr",
+                          "contentUrl": SITE + "/video/enquete/enquete-16-9.mp4", "thumbnailUrl": SITE + "/video/enquete/enquete-vignette.jpg",
+                          "publisher": {"@id": SITE + "/#editeur"}})
     if n == 12:
         vf = os.path.join(ROOT, 'video', 'classement', 'classement-16-9.mp4')
         if os.path.exists(vf):
@@ -269,8 +282,8 @@ def jsonld(p, pages, canonical, og, html_body):
     if n == 9:
         qa = re.findall(r'^\*\*([^\n]+\?)\*\*\n(.+?)(?=\n\n\*\*|\n\n###|\Z)', p['md'], re.M | re.S)
         graph.append({"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": strip_md(q), "acceptedAnswer": {"@type": "Answer", "text": strip_md(a)}} for q, a in qa]})
-    crumbs = [("Accueil", SITE + "/"), ("Dossier Bâtonnier", SITE + HUB)]
-    if n != 0:
+    crumbs = [("Accueil", SITE + "/")] + ([("Brigade criminelle", canonical)] if n == 13 else [("Dossier Bâtonnier", SITE + HUB)])
+    if n not in (0, 13):
         crumbs.append((p['h1'], canonical))
     graph.append({"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": c[0], "item": c[1]} for i, c in enumerate(crumbs)]})
     return json.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False, indent=2)
@@ -299,8 +312,12 @@ def render(p, pages):
     exts = ['tables', 'sane_lists', 'md_in_html'] + (['nl2br'] if p['num'] in (10, 11) else [])
     body = markdown.markdown(md, extensions=exts)
     body = body.replace('<table>', '<div class="tw"><table>').replace('</table>', '</table></div>')
-    crumbs = f'<nav class="fil" aria-label="Fil d\'Ariane"><a href="/">Accueil</a> › <a href="{HUB}">Dossier Bâtonnier</a>' + ('' if p['num'] == 0 else f' › <span>{html.escape(p["h1"])}</span>') + '</nav>'
-    retour = '' if p['num'] == 0 else f'<p class="retour">← <a href="{HUB}">{ANCRE_HUB}</a></p>'
+    if p['num'] == 13:
+        crumbs = '<nav class="fil" aria-label="Fil d\'Ariane"><a href="/">Accueil</a> › <span>Brigade criminelle</span></nav>'
+        retour = '<p class="retour">← <a href="/">Retour à l\'accueil</a></p>'
+    else:
+        crumbs = f'<nav class="fil" aria-label="Fil d\'Ariane"><a href="/">Accueil</a> › <a href="{HUB}">Dossier Bâtonnier</a>' + ('' if p['num'] == 0 else f' › <span>{html.escape(p["h1"])}</span>') + '</nav>'
+        retour = '' if p['num'] == 0 else f'<p class="retour">← <a href="{HUB}">{ANCRE_HUB}</a></p>'
     page = head(p, canonical, og)
     page += f'<script type="application/ld+json">\n{jsonld(p, pages, canonical, og, body)}\n</script>\n</head>\n<body>\n'
     page += f'<div class="cadre">{BANDEAU}</div>\n'
@@ -312,13 +329,13 @@ def render(p, pages):
 
 def main():
     os.makedirs(os.path.join(OUT, 'assets'), exist_ok=True)
-    text = open(SRC, encoding='utf-8').read() + '\n' + open(SRC10, encoding='utf-8').read() + '\n' + open(SRC11, encoding='utf-8').read() + '\n' + open(SRC12, encoding='utf-8').read()
+    text = open(SRC, encoding='utf-8').read() + '\n' + open(SRC10, encoding='utf-8').read() + '\n' + open(SRC11, encoding='utf-8').read() + '\n' + open(SRC12, encoding='utf-8').read() + '\n' + open(SRC13, encoding='utf-8').read()
     pages = parse_pages(text)
-    assert len(pages) == 13, len(pages)
+    assert len(pages) == 14, len(pages)
     liste = []
     for p in pages:
         out, slug = render(p, pages)
-        d = OUT if p['num'] == 0 else os.path.join(OUT, slug)
+        d = OUT if p['num'] == 0 else (os.path.join(ROOT, slug) if p['num'] == 13 else os.path.join(OUT, slug))
         os.makedirs(d, exist_ok=True)
         open(os.path.join(d, 'index.html'), 'w', encoding='utf-8').write(out)
         liste.append((p['url'], p['title'], p['desc'], slug, p['h1']))
