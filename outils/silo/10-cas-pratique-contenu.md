@@ -12,7 +12,31 @@ Une plainte déontologique est déposée contre un avocat. Plus de trois ans apr
 
 > **Télécharger :** [la version PDF du cas pratique](/batonnier-hounkpatin/cas-pratique-plainte-deontologique/cas-pratique-plainte-deontologique.pdf) (à imprimer ou à distribuer). Les pièces visées sont publiées sur la page [Sources et pièces vérifiables](/batonnier-hounkpatin/sources-et-pieces-verifiables/).
 
-> **Note.** Ce cas pratique est fondé sur des pièces publiées et sur un dossier dont l'issue n'est pas connue. Il est proposé à des fins pédagogiques. Les étudiants sont invités à former leur propre opinion à partir des seules pièces visées. Les pistes de réponse indiquent la règle et les éléments à examiner ; elles ne concluent pas à la place de l'étudiant.
+> **Note.** Ce cas pratique est fondé sur des pièces publiées et sur un dossier dont l'issue n'est pas connue. Il est proposé à des fins pédagogiques. Les textes qui définissent le faux en écriture publique sont reproduits ci-dessous avant les questions ; les pistes de réponse indiquent la règle et les éléments à examiner.
+
+### Les textes à connaître avant de commencer : le faux en écriture publique
+
+La plainte qualifie les faits de **complicité de faux en écriture publique** et d'**usage de faux en écriture publique**. Deux textes sont à connaître : le Code pénal visé par la plainte (articles 22, 303 et 305) et l'ancien Code pénal, dit Code Bouvenet (articles 145, 146 et 148), applicable aux faits antérieurs au Code pénal de 2018 (voir [l'analyse du certificat d'acquit de droit](/analyse-absence-lien-balley.html#demonstration)).
+
+**Code pénal visé par la plainte (textes tels que reproduits dans la plainte)**
+
+> **Article 303.** « Est puni de la réclusion criminelle à perpétuité tout fonctionnaire ou officier public qui, en rédigeant des actes de son ministère, en a frauduleusement dénaturé la substance ou les circonstances, soit en écrivant des conventions autres que celles qui auraient été tracées ou dictées par les parties, soit en constatant comme vrais des faits faux ou comme avérés des faits qui ne l'étaient pas. »
+>
+> **Article 305.** « Dans tous les cas exprimés au présent paragraphe, celui qui a fait usage des actes faux est puni de la réclusion criminelle à temps de dix ans (10) à vingt (20) ans. »
+>
+> **Article 22.** « Est complice d'un crime ou d'un délit, la personne qui par don, promesse, menace, ordre, abus d'autorité ou de pouvoir aura provoqué une infraction ou donné des instructions pour la commettre. Est également complice la personne qui sciemment, par aide ou assistance, en a facilité la préparation ou la consommation. »
+
+**Ancien Code pénal (Code Bouvenet), tel que résumé dans l'analyse du site**
+
+| Article | Ce qu'il réprime |
+|---|---|
+| 145 | Le faux commis par un fonctionnaire ou un officier public dans l'exercice de ses fonctions, notamment par altération d'un acte, supposition de personne ou inscription frauduleuse dans un registre ou un acte public. |
+| 146 | Le fait, pour l'officier public qui rédige un acte de son ministère, de dénaturer frauduleusement l'acte ou de constater comme vrais des faits qui sont faux. |
+| 148 | L'usage conscient d'un acte faux. |
+
+**Les éléments que les deux textes ont en commun :** un auteur investi d'une fonction publique ou d'un office public ; un acte rédigé dans l'exercice de cette fonction ; la dénaturation frauduleuse de la substance ou des circonstances de l'acte, ou la constatation comme vrais de faits qui ne l'étaient pas ; l'usage de l'acte faux, puni séparément ; la complicité, définie par l'article 22 dans le Code pénal visé par la plainte.
+
+*Les numéros d'articles doivent être vérifiés sur le texte officiel en vigueur au jour des faits.*
 
 ### 1. Les faits
 
@@ -21,7 +45,7 @@ Une plainte déontologique est déposée contre un avocat. Plus de trois ans apr
 | 2 avr. 2023 | Le plaignant dépose une plainte déontologique auprès du Bâtonnier contre un avocat, sur le fondement de l'article 56 (alinéas 1 à 3) du Règlement intérieur du Barreau. L'auteur de la plainte qualifie les faits de complicité de faux et d'usage de faux en écriture publique. | Plainte, 4 p. |
 | 20 oct. 2023 | Un avis de réception postal, revêtu du cachet de l'Ordre et d'un cachet postal de cette date, est versé au dossier. | Dossier complet, p. 3 |
 | 20 juin 2024 | Le plaignant relance le Bâtonnier et demande l'état d'avancement du dossier et la suite envisagée, quelle qu'elle soit. | Relance, 1 p. |
-| 17 mars 2025 | Le cabinet du Bâtonnier écrit au Procureur Général, à l'occasion de la convocation de l'avocat par la Brigade criminelle : il invoque l'article 6, alinéa 5, du Règlement n° 05/CM/UEMOA et demande à exercer sa « prérogative de consultation » avant toute audition d'avocat. | Annexe de la réponse de la Brigade criminelle |
+| 17 mars 2025 | Le cabinet du Bâtonnier écrit au Procureur Général, à l'occasion de la convocation de l'avocat par la Brigade criminelle : il invoque l'article 6, alinéa 2 (tel que cité dans la lettre), du Règlement n° 05/CM/UEMOA, affirme que « la cause est déjà en instruction » et demande à exercer sa « prérogative de consultation » avant toute audition d'avocat. La lettre est enregistrée au Parquet Général le 19 mars 2025, jour de l'audition. | [Lettre du 17 mars 2025](/pieces/procedures-benin/lettre-batonnier-procureur-general-2025-03-17.pdf) |
 | 19 mars 2025 | L'avocat convoqué ne comparaît pas ; un notaire, également visé par la plainte du plaignant devant la justice pénale, est entendu comme témoin. | Réponse de la Brigade criminelle |
 | 29 avr. 2025 | La Brigade criminelle rapporte, dans une lettre à la Cour constitutionnelle, que la lettre du Bâtonnier indique que « la cause est déjà en instruction » et que l'avocat « aurait déjà déféré » aux observations demandées. | Réponse n° 269/2025 |
 | 28 mai 2025 | Le plaignant saisit la Cour constitutionnelle contre le Bâtonnier (article 7-1 d) de la Charte africaine des droits de l'homme et des peuples). | Requête n° 1471/331/REC-25 |
@@ -42,9 +66,9 @@ La notion de délai raisonnable, tirée de l'article 7-1 d) de la Charte, s'appl
 Que prouve un courriel ? Que prouve un avis de réception postal revêtu du cachet du destinataire ? À qui incombe la preuve de la saisine ?
 *Piste.* Comparer la force probante des deux modes d'envoi. Examiner l'avis de réception versé au dossier (cachets, date, signataire). Que se passe-t-il lorsque le destinataire ne délivre aucun accusé de réception de la plainte ?
 
-**Question 4 · La consultation préalable du bâtonnier et le « dire rapporté »**
-L'article 6, alinéa 5, du Règlement n° 05/CM/UEMOA permet-il au bâtonnier de demander à être consulté avant l'audition d'un avocat ? Cette prérogative suspend-elle une enquête pénale ? La mention « la cause est déjà en instruction », rapportée par un tiers, prouve-t-elle l'existence d'une instruction ?
-*Piste.* Distinguer les rapports entre autorités (bâtonnier, parquet, police judiciaire) des obligations envers le plaignant. Identifier ce qui est une constatation de l'auteur de la lettre et ce qui est un propos qu'il rapporte. Quelles pièces permettraient de corroborer ou d'infirmer l'énoncé ?
+**Question 4 · La consultation préalable du bâtonnier et la preuve d'une instruction**
+L'article 6, alinéa 2 (tel que cité dans la lettre), du Règlement n° 05/CM/UEMOA permet-il au bâtonnier de demander à être consulté avant l'audition d'un avocat ? Cette prérogative suspend-elle une enquête pénale ? La mention « la cause est déjà en instruction », affirmée dans la lettre sans date ni référence d'un acte, prouve-t-elle l'existence d'une instruction ?
+*Piste.* Distinguer les rapports entre autorités (bâtonnier, parquet, police judiciaire) des obligations envers le plaignant. Identifier ce qui est une constatation de l'auteur de la lettre et ce qui est un propos rapporté par un tiers (ici, la Brigade criminelle qui cite la lettre). Quelles pièces permettraient de corroborer ou d'infirmer l'énoncé ?
 
 **Question 5 · Faute déontologique et infraction pénale**
 La plainte invoque des qualifications pénales (articles 22 et 303 à 305 du Code pénal). Un bâtonnier peut-il en connaître ? L'instance déontologique doit-elle attendre l'issue de la procédure pénale ?
@@ -61,7 +85,7 @@ Un plaignant publie sur internet les pièces d'une procédure qu'il tient pour r
 ### 3. Pièges pédagogiques (sous forme de questions)
 
 - **Le silence d'un ordre professionnel est-il une décision ?** Qu'est-ce qui distingue une décision implicite, un refus et une absence d'acte ?
-- **Une lettre qui dit « la cause est en instruction » prouve-t-elle une instruction ?** Qui l'a écrite, à qui, et qu'en rapporte un tiers ?
+- **Une lettre qui dit « la cause est en instruction » prouve-t-elle une instruction ?** Qui l'a écrite, à qui, quand est-elle parvenue à son destinataire, et que produit-elle à l'appui ?
 - **Un renvoi d'audience est-il une décision ?** Quelle différence avec un jugement au fond ?
 - **Une qualification pénale posée dans une plainte vaut-elle établissement de l'infraction ?** Qui qualifie, et à quel stade ?
 - **Quarante-deux mois sont-ils, en soi, déraisonnables ?** Que faut-il encore examiner ?
@@ -87,10 +111,10 @@ Un plaignant publie sur internet les pièces d'une procédure qu'il tient pour r
 ### Textes de référence
 
 - **Règlement intérieur du Barreau de la République du Bénin** : article 56, alinéas 1 à 3 (devoirs invoqués par la plainte).
-- **Règlement n° 05/CM/UEMOA du 25 septembre 2014** relatif à l'harmonisation des règles régissant la profession d'avocat dans l'espace UEMOA : article 6, alinéa 5.
+- **Règlement n° 05/CM/UEMOA du 25 septembre 2014** relatif à l'harmonisation des règles régissant la profession d'avocat dans l'espace UEMOA : article 6 (l'alinéa invoqué par la lettre est le 2ᵉ ; à vérifier sur le texte).
 - **Charte africaine des droits de l'homme et des peuples** : article 7-1 d) ; article 56, point 5 (à vérifier sur le texte).
 - **Constitution du Bénin** : article 114.
-- **Code pénal béninois** : articles 22 et 303 à 305, tels qu'invoqués par la plainte.
+- **Code pénal béninois** : articles 22 et 303 à 305, tels qu'invoqués par la plainte ; **ancien Code pénal (Code Bouvenet)** : articles 145, 146 et 148 (voir ci-dessus).
 - **Décision DCC 25-024 du 30 janvier 2025** de la Cour constitutionnelle, invoquée par la requête : [texte](https://courconstitutionnelle.bj/fr/decisions/DCC25-024). La Cour s'y saisit d'office et dit que le Bâtonnier a violé l'article 7 de la Charte africaine à propos de la commission d'office d'avocats.
 
 *Les numéros d'articles et les délais doivent être vérifiés sur le texte en vigueur au jour de la saisine.*
