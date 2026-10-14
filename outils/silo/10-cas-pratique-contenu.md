@@ -91,7 +91,7 @@ Un plaignant publie sur internet les pièces d'une procédure qu'il tient pour r
 - **Charte africaine des droits de l'homme et des peuples** : article 7-1 d) ; article 56, point 5 (à vérifier sur le texte).
 - **Constitution du Bénin** : article 114.
 - **Code pénal béninois** : articles 22 et 303 à 305, tels qu'invoqués par la plainte.
-- **Décision DCC 25-024 du 30 janvier 2025** de la Cour constitutionnelle, invoquée par la requête : [texte](https://courconstitutionnelle.bj/fr/decisions/DCC25-024).
+- **Décision DCC 25-024 du 30 janvier 2025** de la Cour constitutionnelle, invoquée par la requête : [texte](https://courconstitutionnelle.bj/fr/decisions/DCC25-024). La Cour s'y saisit d'office et dit que le Bâtonnier a violé l'article 7 de la Charte africaine à propos de la commission d'office d'avocats ; les faits diffèrent de ceux du cas pratique, dont la question est de savoir si le raisonnement est transposable.
 
 *Les numéros d'articles et les délais doivent être vérifiés sur le texte en vigueur au jour de la saisine.*
 
