@@ -203,7 +203,7 @@ Le greffier en chef de la Cour constitutionnelle, dans sa lettre n° 3081/CC/GEC
 3. Me Fade a-t-il produit des observations, à quelle date, et par quel acte ?
 4. Que désigne la référence `0082/COA/BAT/AAH/2024/MP`, dont le millésime est 2024 alors que la lettre est datée de 2025 ?
 
-Les trois premières font l'objet d'une demande écrite à l'Ordre des avocats du Bénin, reproduite sur la page [Comment saisir le Bâtonnier au Bénin](/batonnier-hounkpatin/recours-contre-le-batonnier-benin-mode-emploi/).
+Les trois premières font l'objet d'une demande écrite à l'Ordre des avocats du Bénin, reproduite sur la page [Modèles de lettres de demande de communication](/batonnier-hounkpatin/lettres-de-demande-de-communication/).
 
 ### Poursuivre
 
