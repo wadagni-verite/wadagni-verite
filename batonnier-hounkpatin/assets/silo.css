@@ -1,0 +1,28 @@
+:root{--navy:#0a1f44;--blue:#1e3a8a;--gold:#d4af37;--red:#b91c1c;--gray:#6b7280;--paper:#fbf7ee;--line:#d9dde7}
+*{box-sizing:border-box}
+body{font-family:'Inter','Liberation Sans',Arial,sans-serif;color:#1f2937;line-height:1.65;margin:0;background:#fff}
+.wrap{max-width:900px;margin:0 auto;padding:0 22px}
+.cadre{background:#fff8e1;border-bottom:1px solid #f0dca8;color:#5b4a12;font-size:.82rem;padding:8px 22px;text-align:center}
+header.h{background:linear-gradient(135deg,var(--navy),var(--blue));color:#fff;padding:34px 0 30px}
+header.h a.site{color:rgba(255,255,255,.8);text-decoration:none;font-size:.92rem;display:block;margin-bottom:12px}
+.kick{display:inline-block;background:var(--gold);color:var(--navy);font-weight:700;font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;padding:5px 12px;border-radius:4px}
+h1{font-family:'Merriweather','Liberation Serif',Georgia,serif;font-size:1.9rem;line-height:1.28;margin:14px 0 0}
+h2{font-family:'Merriweather','Liberation Serif',Georgia,serif;color:var(--navy);font-size:1.3rem;border-bottom:3px solid var(--gold);display:inline-block;margin:38px 0 12px;line-height:1.35}
+h3{color:var(--navy);font-size:1.05rem;margin:22px 0 6px}
+nav.fil{font-size:.85rem;color:var(--gray);margin:18px 0 4px}
+nav.fil a{color:var(--blue);text-decoration:none}
+article p,article li{font-size:1rem}
+article>p:first-child{font-size:1.12rem;color:#374151;margin-top:26px}
+article blockquote{border-left:5px solid var(--gold);background:var(--paper);padding:12px 18px;margin:18px 0;border-radius:0 8px 8px 0}
+article blockquote p{margin:6px 0}
+.tw{overflow-x:auto;margin:14px 0}
+table{width:100%;border-collapse:collapse;font-size:.92rem}
+td,th{padding:9px 11px;border-top:1px solid var(--line);vertical-align:top;text-align:left}
+th{background:var(--navy);color:#fff;font-size:.78rem;letter-spacing:.05em;text-transform:uppercase;border-top:0}
+code{font-family:'DejaVu Sans Mono',Consolas,monospace;font-size:.82em;background:#f3f4f6;padding:1px 5px;border-radius:4px;word-break:break-all}
+a{color:var(--blue)}
+.retour{margin:34px 0 0;font-size:.95rem}
+.droit{border:1px solid var(--line);border-left:5px solid var(--blue);background:#f8fafc;padding:14px 18px;border-radius:0 8px 8px 0;margin:30px 0 0;font-size:.9rem}
+footer{border-top:1px solid var(--line);margin-top:44px;padding:20px 22px;color:var(--gray);font-size:.86rem;text-align:center}
+@media (max-width:600px){h1{font-size:1.55rem}.cadre{font-size:.78rem}}
+@media print{.cadre,.droit{break-inside:avoid}header.h{padding:14px 0}h2{break-after:avoid}}

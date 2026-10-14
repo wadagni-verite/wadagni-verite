@@ -1,0 +1,19 @@
+# Configuration Netlify — en-têtes de sécurité et cache des pièces PDF.
+[build]
+  publish = "."
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "SAMEORIGIN"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    # Ressources externes réellement utilisées par le site : Google Fonts (feuille de style et polices),
+    # lecteur YouTube (iframes), images en https (dont le QR code). Scripts et styles inline conservés (pages existantes).
+    Content-Security-Policy = "default-src 'self'; img-src 'self' https: data:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self' 'unsafe-inline'; media-src 'self'; frame-src https://www.youtube.com https://www.youtube-nocookie.com; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'"
+
+[[headers]]
+  for = "/pieces/*.pdf"
+  [headers.values]
+    Content-Disposition = "inline"
+    Cache-Control = "public, max-age=86400"
