@@ -7,8 +7,12 @@ import os, pymupdf
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BAC = 'pieces/procedures-benin/observations-brigade-criminelle-cour-constitutionnelle-2025-allege.pdf'
 PVC = 'pieces/pv-compulsion-parcelle-b-lot-488-2017-12.pdf'
+JUG = 'jugement-succession-feliho-2014.pdf'
 
 MASQUES = {
+    # Jugement n° 114/14/3e CH-EP, page 1 : adresses des héritiers demandeurs
+    (JUG, 1): [(292, 332, 380, 350), (497, 345, 552, 363), (215, 359, 472, 382), (480, 376, 556, 394),
+               (487, 409, 560, 428), (512, 440, 556, 458), (216, 466, 533, 485)],
     # Réponse de la Brigade criminelle, page 8 : signification du jugement (adresses des héritiers et de l'expéditeur, téléphones et courriels)
     (BAC, 8): [
         (68, 276, 356, 296),     # adresse de Mme Nina Féliho
