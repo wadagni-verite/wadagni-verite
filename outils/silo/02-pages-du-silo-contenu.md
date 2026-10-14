@@ -186,15 +186,11 @@ Dans sa réponse n° 269/2025 du 29 avril 2025 au greffier en chef de la Cour co
 
 La plainte ne repose pas sur une théorie juridique, mais sur un fait matériel vérifiable. Le jugement n° 114/14/3ᵉ CH-EP du 31 octobre 2014 écrit (pages 5 et 8) que Gilles Sixte Féliho « a même déjà disposé » de la parcelle bâtie du lot 488 de Cotonou, quartier Gbégamey, et qu'il a « exécuté les dispositions testamentaires de manière volontaire ». Or le [procès-verbal de compulsion](/pieces/pv-compulsion-parcelle-b-lot-488-2017-12.pdf) dressé par l'huissier de justice le 19 décembre 2017 consigne que l'Institut Géographique National « ne dispose d'aucun document afférent à la parcelle B du lot 488 » et que la direction des affaires juridiques et du foncier de la mairie de Cotonou « ne trouve pas davantage de trace » d'une telle disposition. La Brigade criminelle a elle-même requis la mairie, le 12 mars 2025, de mettre à sa disposition le registre foncier de cette parcelle (pièces 5 et 6 de la réponse n° 269/2025). Le contenu de la réponse de la mairie n'est pas commenté ici.
 
-Dans ces conditions, une observation écrite adressée au Bâtonnier ne pouvait être satisfaisante qu'à une condition : produire le document, introuvable à l'Institut Géographique National et à la mairie de Cotonou, par lequel Gilles Sixte Féliho aurait disposé de cette parcelle. Aucun document de cette nature n'est produit au dossier. Telle est la lecture du plaignant ; elle repose sur les pièces citées, que chacun peut ouvrir.
+Dans ces conditions, une observation écrite adressée au Bâtonnier ne pouvait être satisfaisante qu'à une condition : produire le document, introuvable à l'Institut Géographique National et à la mairie de Cotonou, par lequel Gilles Sixte Féliho aurait disposé de cette parcelle. Aucun document de cette nature n'est produit au dossier.
 
-### Les deux lectures possibles
+### Ce que les pièces établissent
 
-**Lecture du plaignant.** La lettre annonce une instruction en cours et une réponse de l'avocat ; ni l'une ni l'autre ne s'est traduite par un acte connu du plaignant quarante-deux mois après le dépôt de la plainte. L'avocat ne s'est pas présenté devant la Brigade criminelle, et l'unique élément matériel du débat, la compulsion des registres, n'a reçu aucune contradiction documentée.
-
-**Lecture que la défense peut opposer.** Le mot « instruction » peut désigner un traitement interne à l'Ordre, sans obligation d'information du plaignant ; « il a déjà déféré » viserait des observations de l'avocat à son bâtonnier, que l'Ordre n'est pas tenu de communiquer ; l'article invoqué ménage une consultation du bâtonnier avant l'audition d'un avocat, sans la subordonner au plaignant.
-
-**Ce que la page retient.** Les pièces établissent la date de la plainte, la réception par l'Ordre, la date et les termes de la lettre, son enregistrement au Parquet Général le 19 mars 2025 et la non-comparution rapportée par la Brigade criminelle. Elles n'établissent ni la date d'ouverture de l'instruction, ni l'existence ou le contenu d'observations de l'avocat. Cette absence est un fait documentaire : chacun peut le vérifier en consultant les pièces.
+Les pièces établissent la date de la plainte, sa réception par l'Ordre, la date et les termes de la lettre, son enregistrement au Parquet Général le 19 mars 2025 et la non-comparution rapportée par la Brigade criminelle. Elles n'établissent ni la date d'ouverture de l'instruction, ni l'existence ou le contenu d'observations de l'avocat. Cette absence est un fait documentaire : chacun peut le vérifier en consultant les pièces.
 
 ### Observation documentaire
 
