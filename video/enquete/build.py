@@ -80,24 +80,28 @@ SEQ = {
     "En deux mille sept, Maître Fade est le mandataire de Gilles Féliho. En deux mille quatorze, le jugement le désigne comme l'avocat de ses cohéritiers."),
    ("Le jugement vise le lot 488. Cette lettre vise le lot 923. La seule pièce que le plaignant produit sur un bien à Gbégamey date de 2007, avant le décès de son père.",
     "Le jugement vise le lot quatre cent quatre-vingt-huit. Cette lettre vise le lot neuf cent vingt-trois. La seule pièce que le plaignant produit sur un bien à Gbégamey date de deux mille sept, avant le décès de son père.")]),
- 9: dict(speed=1.14, gap=0.3, lead=0.9, tail=1.2, s=[
+ 9: dict(speed=1.12, gap=0.35, lead=0.9, tail=1.4, s=[
    ("Le jugement du 31 octobre 2014 constate que Gilles Féliho a même déjà disposé de l'immeuble, et qu'il a exécuté les dispositions testamentaires de manière volontaire.",
     "Le jugement du trente et un octobre deux mille quatorze constate que Gilles Féliho a même déjà disposé de l'immeuble, et qu'il a exécuté les dispositions testamentaires de manière volontaire."),
-   ("Or un testament ne prend effet qu'au décès de son auteur. Le décès est du 3 décembre 2010.",
-    "Or un testament ne prend effet qu'au décès de son auteur. Le décès est du trois décembre deux mille dix."),
-   ("Un testament daté de juillet 2009 ne peut constater aucun acte postérieur à la mort de son auteur.",
-    "Un testament daté de juillet deux mille neuf ne peut constater aucun acte postérieur à la mort de son auteur."),
+   ("Le juge constate. Il ne dit pas l'avoir lu dans le testament : il constate un fait, sans date, sans acte, sans pièce.",
+    "Le juge constate. Il ne dit pas l'avoir lu dans le testament : il constate un fait, sans date, sans acte, sans pièce."),
+   ("Or le testament est de juillet 2009. Gilles Féliho n'a pu en hériter qu'au décès de son père, le 3 décembre 2010. Un testament est un acte unilatéral qui produit son effet à la mort de son auteur.",
+    "Or le testament est de juillet deux mille neuf. Il ne produit son effet qu'à la mort de son auteur, le trois décembre deux mille dix. Un testament est un acte unilatéral qui produit son effet à la mort de son auteur."),
+   ("Un testament ne peut pas constater un acte postérieur au décès. Il ne peut constater ni une disposition de l'immeuble par le légataire, ni l'exécution volontaire de ses clauses, puisque ces actes sont par nature postérieurs.",
+    "Un testament ne peut pas constater un acte postérieur au décès. Il ne peut constater ni une disposition de l'immeuble par le légataire, ni l'exécution volontaire de ses clauses, puisque ces actes sont par nature postérieurs."),
+   ("On ne peut pas déduire l'exécution des dispositions testamentaires du testament lui-même.", "On ne peut pas déduire l'exécution des dispositions testamentaires du testament lui-même."),
    ("Le mémoire du commissaire principal Konto écrit : « à la lecture du testament, son père a déclaré lui avoir acheté la parcelle ».",
     "Le mémoire du commissaire principal Konto écrit : à la lecture du testament, son père a déclaré lui avoir acheté la parcelle."),
    ("Un achat n'est pas un legs. Une acquisition n'est pas une disposition. Et le testament ne figure pas parmi les pièces jointes au mémoire.",
     "Un achat n'est pas un legs. Une acquisition n'est pas une disposition. Et le testament ne figure pas parmi les pièces jointes au mémoire."),
-   ("Le jugement ne cite ni date, ni acte de disposition. Le mémoire non plus.", "Le jugement ne cite ni date, ni acte de disposition. Le mémoire non plus.")]),
+   ("Faire dire au testament ce qu'un testament ne peut pas dire.", "Faire dire au testament ce qu'un testament ne peut pas dire.")]),
  10: dict(speed=1.14, gap=0.3, lead=0.9, tail=1.2, s=[
    ("Le mémoire écrit que ce jugement, ayant autorité de la chose jugée, est non assorti de recours.", "Le mémoire écrit que ce jugement, ayant autorité de la chose jugée, est non assorti de recours."),
    ("Le jugement dit : en premier ressort. Exécution provisoire. Délai d'appel : un mois.", "Le jugement dit : en premier ressort. Exécution provisoire. Délai d'appel : un mois."),
    ("La Brigade criminelle tranche ainsi une question de droit civil, qui n'est pas la sienne.", "La Brigade criminelle tranche ainsi une question de droit civil, qui n'est pas la sienne."),
    ("Devant la Cour constitutionnelle, le plaignant dénonce une usurpation des prérogatives judiciaires, sans aucune garantie procédurale.",
-    "Devant la Cour constitutionnelle, le plaignant dénonce une usurpation des prérogatives judiciaires, sans aucune garantie procédurale.")]),
+    "Devant la Cour constitutionnelle, le plaignant dénonce une usurpation des prérogatives judiciaires, sans aucune garantie procédurale."),
+   ("Faire dire au testament ce qu'il ne peut pas dire. Faire dire au jugement ce qu'il ne dit pas.", "Faire dire au testament ce qu'il ne peut pas dire. Faire dire au jugement ce qu'il ne dit pas.")]),
  11: dict(speed=1.14, gap=0.3, lead=0.9, tail=1.0, s=[
    ("Interrogé sur les obstacles que poserait le plaignant, le notaire répond : « son objectif principal est de faire échec à l'exécution des dispositions du testament ».",
     "Interrogé sur les obstacles que poserait le plaignant, le notaire répond : son objectif principal est de faire échec à l'exécution des dispositions du testament."),
@@ -108,6 +112,19 @@ SEQ = {
     "En deux mille dix-sept, un huissier consigne que la mairie de Cotonou indique, pour la parcelle B du lot quatre cent quatre-vingt-huit, une superficie : néant."),
    ("Et que l'Institut géographique national ne dispose d'aucun document afférent.", "Et que l'Institut géographique national ne dispose d'aucun document afférent."),
    ("Ce procès-verbal ne figure pas dans le mémoire du commissaire principal Konto.", "Ce procès-verbal ne figure pas dans le mémoire du commissaire principal Konto.")]),
+ 12.5: dict(speed=1.12, gap=0.4, lead=0.9, tail=1.4, s=[
+   ("Le faux en écriture publique : l'article 303 du Code pénal punit de la réclusion criminelle à perpétuité tout fonctionnaire ou officier public qui constate comme vrais des faits faux, ou comme avérés des faits qui ne l'étaient pas.",
+    "Le faux en écriture publique : l'article trois cent trois du Code pénal punit de la réclusion criminelle à perpétuité tout fonctionnaire ou officier public qui constate comme vrais des faits faux, ou comme avérés des faits qui ne l'étaient pas."),
+   ("L'article 305 punit celui qui a fait usage des actes faux. L'article 22 définit la complicité.",
+    "L'article trois cent cinq punit celui qui a fait usage des actes faux. L'article vingt-deux définit la complicité."),
+   ("L'ancien Code pénal, dit Code Bouvenet, vise de même le faux commis par un officier public, la constatation comme vrais de faits qui sont faux, et l'usage conscient d'un acte faux.",
+    "L'ancien Code pénal, dit Code Bouvenet, vise de même le faux commis par un officier public, la constatation comme vrais de faits qui sont faux, et l'usage conscient d'un acte faux."),
+   ("Le jugement constate que Gilles Féliho a même déjà disposé de la parcelle bâtie sise au lot 488 de Cotonou, quartier Gbégamey.",
+    "Le jugement constate que Gilles Féliho a même déjà disposé de la parcelle bâtie sise au lot quatre cent quatre-vingt-huit de Cotonou, quartier Gbégamey."),
+   ("L'enquête ne rapporte ni la preuve de l'existence de cette parcelle, ni la preuve d'un acte de disposition postérieur au décès.",
+    "L'enquête ne rapporte ni la preuve de l'existence de cette parcelle, ni la preuve d'un acte de disposition postérieur au décès."),
+   ("Les neuf pièces jointes au mémoire n'établissent ni l'une ni l'autre. Le procès-verbal de 2017 consigne : superficie, néant.",
+    "Les neuf pièces jointes au mémoire n'établissent ni l'une ni l'autre. Le procès-verbal de deux mille dix-sept consigne : superficie, néant.")]),
  13: dict(speed=1.14, gap=0.3, lead=0.9, tail=1.2, s=[
    ("Cinq cent soixante-trois jours entre la plainte et la notification de la Cour constitutionnelle.", "Cinq cent soixante-trois jours entre la plainte et la notification de la Cour constitutionnelle."),
    ("Cinquante-quatre jours, de cette notification au mémoire du commissaire principal Konto.", "Cinquante-quatre jours, de cette notification au mémoire du commissaire principal Konto."),
@@ -307,14 +324,18 @@ pic('jg5.png', 1000, 340, 840, W(8.5, 3)[0] - 0.3, b, "Même jugement, p. 5 : «
 
 # --- 9 : le jugement, le testament, la disposition « constatée »
 a, b = Q(9)
-text("JUILLET 2009<br><small>testament</small>", 80, 120, 520, W(9, 1)[0] - 0.3, b, 'date3')
-text("3 DÉCEMBRE 2010<br><small>décès</small>", 700, 120, 520, W(9, 1)[0] + 0.4, b, 'date3')
-text("?<br><small>disposition « constatée » : ni date, ni acte</small>", 1300, 120, 540, W(9, 1)[0] + 1.0, b, 'date3 vide')
-el('', W(9, 1)[0] - 0.3, b, 0.5, 'frl2', 'left:80px;top:300px;width:1760px')
-pic('jg5.png', 80, 360, 840, W(9, 0)[0] - 0.3, W(9, 3)[0] - 0.2, "Jugement n° 114/14/3ème CH-EP, p. 5 : « Que Gilles Sixte FELIHO a même déjà disposé de cet immeuble »", find=("a même déjà disposé de cet immeuble",), cls='p9')
-pic('jg8a.png', 1000, 360, 840, W(9, 0)[0] + 3.0, W(9, 3)[0] - 0.2, "Même jugement, dispositif : « Constate que Gilles Sixte FELIHO a exécuté les dispositions testamentaires de manière volontaire »", find=("Constate que Gilles Sixte FELIHO a exécuté les dispositions testamentaires de manière volontaire",), cls='p9')
-pic('m3-achete.png', 1000, 360, 840, W(9, 3)[0] - 0.3, b, "Mémoire du 29 avril 2025, p. 3 — signé Sabi Fulbert Konto", find=("lui avoir acheté la parcelle sise au lot 488",), cls='p9')
-text("Un achat n'est pas un legs.<br>Une acquisition n'est pas une disposition.<br>Le testament n'est pas dans les pièces.", 80, 660, 840, W(9, 4)[0] - 0.2, b, 'bigtext')
+text("JUILLET 2009<br><small>testament</small>", 80, 120, 520, W(9, 2)[0] - 0.3, b, 'date3')
+text("3 DÉCEMBRE 2010<br><small>décès</small>", 700, 120, 520, W(9, 2)[0] + 1.0, b, 'date3')
+text("?<br><small>disposition « constatée » : ni date, ni acte</small>", 1300, 120, 540, W(9, 2)[0] + 2.2, b, 'date3 vide')
+el('', W(9, 2)[0] - 0.3, b, 0.5, 'frl2', 'left:80px;top:300px;width:1760px')
+pic('jg5.png', 80, 360, 840, W(9, 0)[0] - 0.3, W(9, 5)[0] - 0.2, "Jugement n° 114/14/3ème CH-EP, p. 5 : « Que Gilles Sixte FELIHO a même déjà disposé de cet immeuble »", find=("a même déjà disposé de cet immeuble",), cls='p9')
+pic('jg8a.png', 1000, 360, 840, W(9, 0)[0] + 3.0, W(9, 5)[0] - 0.2, "Même jugement, dispositif : « Constate que Gilles Sixte FELIHO a exécuté les dispositions testamentaires de manière volontaire »", find=("Constate que Gilles Sixte FELIHO a exécuté les dispositions testamentaires de manière volontaire",), cls='p9')
+text("Le juge « constate ».<br>Il ne dit pas l'avoir lu dans le testament.", 80, 700, 840, W(9, 1)[0] - 0.2, W(9, 3)[0] - 0.3, 'bigtext')
+text("Un testament ne peut pas constater<br>un acte postérieur au décès.", 80, 690, 1760, W(9, 3)[0] - 0.2, W(9, 5)[0] - 0.2, 'bigtext ocretext')
+text("On ne peut déduire l'exécution des dispositions testamentaires<br>du testament lui-même.", 80, 840, 1760, W(9, 4)[0] - 0.2, W(9, 5)[0] - 0.2, 'quote wide')
+pic('m3-achete.png', 1000, 360, 840, W(9, 5)[0] - 0.3, b, "Mémoire du 29 avril 2025, p. 3 — signé Sabi Fulbert Konto", find=("lui avoir acheté la parcelle sise au lot 488",), cls='p9')
+text("Un achat n'est pas un legs.<br>Une acquisition n'est pas une disposition.<br>Le testament n'est pas dans les pièces.", 80, 660, 840, W(9, 6)[0] - 0.2, W(9, 7)[0] - 0.2, 'bigtext')
+text("Faire dire au testament<br>ce qu'un testament ne peut pas dire.", 80, 660, 1760, W(9, 7)[0] - 0.2, b, 'bigtext ocretext')
 
 # --- 10 : « non assorti de recours » et l'usurpation
 a, b = Q(10)
@@ -323,6 +344,8 @@ pic('jg8a.png', 80, 150, 840, W(10, 1)[0] - 0.3, b, "Jugement du 31 octobre 2014
 pic('jg8b.png', 80, 600, 840, W(10, 1)[0] + 0.6, b, "Même dispositif : « Ordonne l'exécution provisoire » ; « Délai d'appel : 01 mois »", find=("Ordonne l'exécution provisoire", "Délai d'appel : 01 mois"), cls='p10')
 pic('m4-chose.png', 1000, 150, 840, W(10, 0)[0] - 0.3, b, "Mémoire du 29 avril 2025, p. 4 — signé Sabi Fulbert Konto", find=("autorité de la chose jugée est non assorti de recours",), cls='p10')
 text("« Une usurpation des prérogatives judiciaires, sans aucune garantie procédurale »<br><span class='cap2'>Réplique du plaignant à la Cour constitutionnelle, 2 juin 2025</span>", 1000, 640, 840, W(10, 3)[0] - 0.3, b, 'quote ocrebox')
+
+text("Faire dire au testament ce qu'il ne peut pas dire.<br>Faire dire au jugement ce qu'il ne dit pas.", 1000, 830, 840, W(10, 4)[0] - 0.2, b, 'quote ocretext')
 
 # --- 11 : l'intention prêtée
 a, b = Q(11)
@@ -336,6 +359,17 @@ heads(a + 0.2, b, 'CE QUI EXISTE AU DOSSIER', 'CE QUI N\'Y FIGURE PAS')
 pic('pc2c.png', 80, 150, 840, W(12, 0)[0] - 0.3, b, "Procès-verbal de compulsion du 19 décembre 2017, p. 2 — Mairie de Cotonou : « SUPERFICIE : néant »", hl=((14, 24, 36, 11),), cls='p12')
 pic('pc3c.png', 80, 580, 840, W(12, 1)[0] - 0.3, b, "Même procès-verbal, p. 3 — IGN : « L'IGN ne dispose d'aucun document afférent à la parcelle B »", hl=((8, 44, 86, 38),), cls='p12')
 el('<div class="vide">non mentionné dans le mémoire du 29 avril 2025</div>', W(12, 2)[0] - 0.3, b, 0.6, '', 'left:1000px;top:260px;width:840px;height:480px')
+
+# --- 12.5 : la loi, le jugement, ce que l'enquête ne rapporte pas
+a, b = Q(12.5)
+heads(a + 0.2, b, 'CE QUE LA LOI DÉFINIT', 'CE QUE LE DOSSIER RAPPORTE')
+text("<b>Code pénal, art. 303</b> : « Est puni de la réclusion criminelle à perpétuité tout fonctionnaire ou officier public qui, en rédigeant des actes de son ministère, en a frauduleusement dénaturé la substance ou les circonstances, […] soit en constatant comme vrais des faits faux ou comme avérés des faits qui ne l'étaient pas. »", 80, 150, 840, W(12.5, 0)[0] - 0.2, b, 'quote wide')
+text("<b>Art. 305</b> : « celui qui a fait usage des actes faux est puni de la réclusion criminelle à temps de dix ans (10) à vingt (20) ans ». <b>Art. 22</b> : la complicité.", 80, 520, 840, W(12.5, 1)[0] - 0.2, b, 'quote wide')
+text("<b>Ancien Code pénal (Code Bouvenet), art. 145, 146 et 148</b> : faux commis par un officier public ; constatation comme vrais de faits qui sont faux ; usage conscient d'un acte faux.<br><span class='cap2'>Articles à vérifier sur le texte officiel.</span>", 80, 700, 840, W(12.5, 2)[0] - 0.2, b, 'quote wide')
+text("<b>Jugement n° 114/14/3ème CH-EP</b> : « Qu'il a été légué à Gilles Sixte FELIHO, une part successorale dont fait partie la parcelle bâtie sise au lot 488 de Cotonou, quartier Gbégamey ; Que Gilles Sixte FELIHO a même déjà disposé de cet immeuble »", 1000, 150, 840, W(12.5, 3)[0] - 0.2, b, 'quote wide')
+el('<div class="vide2">Preuve de l\'existence de la parcelle<br><b>non rapportée par l\'enquête</b></div>', W(12.5, 4)[0] - 0.2, b, 0.5, '', 'left:1000px;top:440px;width:840px')
+el('<div class="vide2">Preuve d\'un acte de disposition postérieur au décès<br><b>non rapportée par l\'enquête</b></div>', W(12.5, 4)[0] + 1.4, b, 0.5, '', 'left:1000px;top:600px;width:840px')
+text("Neuf pièces jointes au mémoire du 29 avril 2025 : aucune n'établit l'une ou l'autre. Procès-verbal de compulsion de 2017 : « SUPERFICIE : néant ».", 1000, 780, 840, W(12.5, 5)[0] - 0.2, b, 'ctext small')
 
 # --- 13 : les durées et le classement
 a, b = Q(13)
@@ -398,6 +432,7 @@ html,body{width:1920px;height:1080px;overflow:hidden;background:#050d1f;font-fam
 .date3{font-family:'DejaVu Serif',serif;font-size:44px;font-weight:700;text-align:center;line-height:1.2}.date3 small{font-size:24px;font-weight:400;color:var(--mute);font-family:'DejaVu Sans'}
 .date3.vide{border:4px dashed rgba(199,210,254,.6);padding:10px;font-size:90px;color:var(--gold)}.date3.vide small{color:#cbd5e1}
 .frl2{height:3px;background:#c7d2fe}
+.ocretext{color:#d4af37}\n.vide2{border:4px dashed rgba(199,210,254,.6);color:#e2e8f0;font-size:30px;text-align:center;padding:22px;line-height:1.4}.vide2 b{color:#d4af37}
 .bigtext{font-family:'DejaVu Serif',serif;font-size:42px;line-height:1.3;font-weight:700}
 .quest{font-family:'DejaVu Serif',serif;font-size:40px;line-height:1.25}
 .url{font-size:64px;text-align:center;font-family:'DejaVu Serif',serif;color:#fff}.finsmall{font-size:30px;text-align:center;color:var(--mute)}

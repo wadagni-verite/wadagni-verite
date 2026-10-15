@@ -58,11 +58,12 @@ Votre navigateur ne lit pas cette vidéo.
 - *Ce qui a été demandé.* La sommation exige les convocations de six personnes : Maître Victorien Olatundji Fade, avocat ; Lise, Albin, Florentin-Lin et Nina Féliho ; Olivia Aubierge Hungbo épouse Kploca, magistrate ; « et toute autre personne que l'enquête révélera ».
 - *Ce qui a été fait.* Deux convocations sont produites, n° 141 (Maître Fade) et n° 142 (Maître Balley, qui n'est pas dans la liste), datées du 12 mars 2025 pour le 19 mars à 9 h. Aucune convocation n'est produite pour les quatre autres personnes. Le 25 mars 2025, le commissaire principal Sabi Fulbert Konto écrit que Maître Fade « a été convoqué pour le mercredi 19 mars 2025 mais il ne s'est pas présenté ».
 
-**6. Un jugement qui « constate » une disposition postérieure au décès, sans date ni acte**
+**6. Un jugement qui « constate » une disposition postérieure au décès, un testament qui ne peut pas la prouver**
 
-- *Ce qu'écrit le jugement* ([pièce](/jugement-succession-feliho-2014.pdf), p. 5 et dispositif) : « Que Gilles Sixte FELIHO a même déjà disposé de cet immeuble » ; « Constate que Gilles Sixte FELIHO a exécuté les dispositions testamentaires de manière volontaire ».
-- *Ce que cela suppose.* Un testament ne prend effet qu'au décès de son auteur, ici le 3 décembre 2010. Le testament est daté de juillet 2009. Il ne peut constater ni une disposition, ni une exécution, nécessairement postérieures. Le jugement ne cite aucune date et aucun acte de disposition.
+- *Ce qu'écrit le jugement* ([pièce](/jugement-succession-feliho-2014.pdf), p. 5 et dispositif) : « Que Gilles Sixte FELIHO a même déjà disposé de cet immeuble » ; « Constate que Gilles Sixte FELIHO a exécuté les dispositions testamentaires de manière volontaire ». **Le juge constate : il ne dit pas l'avoir lu dans le testament.** Il énonce un fait, sans date, sans acte, sans pièce.
+- *Ce qu'un testament peut établir.* **Un testament ne peut pas constater un acte postérieur au décès.** C'est un acte unilatéral qui produit son effet à la mort de son auteur : il ne peut constater ni une disposition de l'immeuble par le légataire, ni l'exécution volontaire de ses clauses, puisque ces actes sont par nature postérieurs. **On ne peut pas déduire l'exécution des dispositions testamentaires du testament lui-même.** Le testament est daté de juillet 2009 ; le décès est du 3 décembre 2010.
 - *Ce qu'écrit le mémoire* (p. 3) : « à la lecture du testament […] son père a déclaré : lui avoir acheté la parcelle sise au lot 488 ». Un achat n'est pas un legs ; une acquisition n'est pas une disposition. Le testament ne figure pas parmi les neuf pièces jointes au mémoire.
+- *Ce que les pièces établissent.* Faire dire au testament ce qu'un testament ne peut pas dire ; faire dire au jugement ce qu'il ne dit pas (point 7).
 
 **7. « Non assorti de recours »**
 
@@ -74,17 +75,23 @@ Votre navigateur ne lit pas cette vidéo.
 
 - Interrogé sur les obstacles que poserait le plaignant, le notaire répond (procès-verbal, p. 2) : « son objectif principal est de faire échec à l'exécution des dispositions du testament laissé par leur feu père ». Le mémoire (p. 3) rapporte cette déclaration. Aucun acte d'enquête n'est cité à son appui.
 
-**9. Le procès-verbal de compulsion de 2017, qui n'est pas discuté**
+**9. Ce que la loi définit, ce que l'enquête ne rapporte pas**
+
+- *Ce que la loi définit.* Code pénal, art. 303 : « Est puni de la réclusion criminelle à perpétuité tout fonctionnaire ou officier public qui, en rédigeant des actes de son ministère, en a frauduleusement dénaturé la substance ou les circonstances, […] soit en constatant comme vrais des faits faux ou comme avérés des faits qui ne l'étaient pas. » Art. 305 : « celui qui a fait usage des actes faux est puni de la réclusion criminelle à temps de dix ans (10) à vingt (20) ans ». Art. 22 : la complicité. Ancien Code pénal (Code Bouvenet), art. 145, 146 et 148 : faux commis par un officier public ; constatation comme vrais de faits qui sont faux ; usage conscient d'un acte faux (articles à vérifier sur le texte officiel).
+- *Ce que constate le jugement.* « Qu'il a été légué à Gilles Sixte FELIHO, une part successorale dont fait partie la parcelle bâtie sise au lot 488 de Cotonou, quartier Gbégamey ; Que Gilles Sixte FELIHO a même déjà disposé de cet immeuble ».
+- *Ce que l'enquête rapporte.* Elle ne rapporte ni la preuve de l'existence de cette parcelle, ni la preuve d'un acte de disposition postérieur au décès. Les neuf pièces jointes au mémoire du 29 avril 2025 n'établissent ni l'une ni l'autre ; le procès-verbal de compulsion de 2017 consigne « SUPERFICIE : néant ».
+
+**10. Le procès-verbal de compulsion de 2017, qui n'est pas discuté**
 
 - Le [procès-verbal de compulsion du 19 décembre 2017](/pieces/pv-compulsion-parcelle-b-lot-488-2017-12.pdf) consigne : Mairie de Cotonou, « SUPERFICIE : néant » ; Institut géographique national : « ne dispose d'aucun document afférent à la parcelle B du lot 488 ». Il ne figure pas dans le mémoire du 29 avril 2025.
 
-**10. Maître Fade, mandataire de Gilles Féliho en 2007, avocat de ses cohéritiers en 2014**
+**11. Maître Fade, mandataire de Gilles Féliho en 2007, avocat de ses cohéritiers en 2014**
 
 - *Ce qu'écrit le notaire* (lettre de Me Denise Ehouzou Gangnito, [19 septembre 2007](/pieces/lettre-notaire-gangnito-a-me-fade-2007-09-19.pdf)) : « Suite à l'adjudication des installations ou constructions existant sur la parcelle « B » du lot 923 du lotissement de COTONOU GBEGAMEY au profit de Monsieur Gilles Sixte FELIHO, dont vous êtes le mandataire, je vous transmets les pièces ci-après ». Elle est adressée à Maître Victorien Fade.
 - *Ce que dit le jugement* (p. 1) : les héritiers demandeurs sont « tous assistés de Maître Victorien Olatoundji FADE, Avocat à la cour ». Il vise la « parcelle bâtie sise au lot 488 de Cotonou, quartier Gbégamey » (p. 5).
 - *Ce que les pièces établissent.* En 2007, avant le décès de Jean Florentin Féliho, Maître Fade est le mandataire de Gilles Féliho pour une parcelle de Gbégamey, le lot 923. Le jugement de 2014 vise le lot 488. La seule pièce produite par le plaignant sur un bien à Gbégamey est cette lettre de 2007.
 
-**11. Lise Féliho, en 2007 : « ta maison », « le notaire », « la main levée »**
+**12. Lise Féliho, en 2007 : « ta maison », « le notaire », « la main levée »**
 
 - *Ce qu'écrit Lise Féliho* (courriel du 6 août 2007, [pièce](/pieces/courriel-lise-gilles-feliho-2007-08-07.pdf), p. 2) : « Il faudra prévoir écrire au notaire pour dder la main levée, mais également en tant que new propriétaire les documents légaux. » Elle y décrit aussi les locataires, les loyers perçus et les cautions de « ta maison », et écrit au sujet du notaire : « je voulais confier ça à FADE et tu as refusé ».
 - *Ce qu'écrit Gilles Féliho* (7 août 2007, p. 1) : « Concernant le titre de propriété de la maison. J'ai effectivement dit que je m'en chargeais […] je vais m'occuper de ce volet. »
