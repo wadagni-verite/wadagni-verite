@@ -22,6 +22,8 @@ CIBLES = [
     'pieces/procedures-benin/lettre-conseil-ministre-justice-2026-01-05.pdf',
     'pieces/procedures-benin/reponse-ministre-justice-2026-01-14.pdf',
     'pieces/procedures-benin/attestation-appel-jugement-114-14-2014-11-17.pdf',
+    'pieces/procedures-benin/plainte-partie-civile-doyen-juges-instruction-cotonou-2025-09-29.pdf',
+    'pieces/procedures-benin/recepisse-tresor-plainte-3000-fcfa-2025-09-29.pdf',
 ]
 # lignes écartées du calque de texte : courriels et numéros de téléphone (même d'institutions), pour qu'aucune coordonnée
 # ne soit indexée par les moteurs de recherche, y compris lorsqu'elle est lisible sur l'image d'origine

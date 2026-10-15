@@ -16,11 +16,12 @@ SRC11 = os.path.join(ROOT, 'outils', 'silo', '11-lettres-de-demande-contenu.md')
 SRC12 = os.path.join(ROOT, 'outils', 'silo', '12-film-classement-contenu.md')   # film (page 12)
 SRC13 = os.path.join(ROOT, 'outils', 'silo', '13-brigade-criminelle-contenu.md')   # Brigade criminelle (page 13, hors du dossier Bâtonnier : /brigade-criminelle/)
 SRC14 = os.path.join(ROOT, 'outils', 'silo', '14-ministre-justice-contenu.md')   # ministre de la Justice (page 14, hors du dossier Bâtonnier : /ministre-justice/)
+SRC16 = os.path.join(ROOT, 'outils', 'silo', '16-partie-civile-contenu.md')   # plainte avec constitution de partie civile (page 16, /plainte-partie-civile/)
 SRC15 = os.path.join(ROOT, 'outils', 'silo', '15-cas-pratique-enquete-contenu.md')   # second cas pratique (page 15)
 CAS2 = '/batonnier-hounkpatin/cas-pratique-enquete-confusions-deontologie/'
 LETTRES = '/batonnier-hounkpatin/lettres-de-demande-de-communication/'
-HORS_HUB = {13: 'Brigade criminelle', 14: 'Ministre de la Justice'}   # pages publiées à la racine du site
-VIDEOS = {12: ('classement', 'classement'), 13: ('enquete', 'enquete'), 14: ('ministre', 'ministre')}   # dossier vidéo, préfixe des fichiers
+HORS_HUB = {13: 'Brigade criminelle', 14: 'Ministre de la Justice', 16: 'Plainte avec constitution de partie civile'}   # pages publiées à la racine du site
+VIDEOS = {12: ('classement', 'classement'), 13: ('enquete', 'enquete'), 14: ('ministre', 'ministre'), 16: ('partie-civile', 'partie-civile')}   # dossier vidéo, préfixe des fichiers
 OUT = os.path.join(ROOT, 'batonnier-hounkpatin')
 SITE = 'https://wadagni2026-verite.com'
 DATE = '2026-10-14'
@@ -99,6 +100,8 @@ PIECES = [
     ('Courriel « a/s ta maison » : en-tête du fil du 7 août 2007 et message de Lise Féliho (2 pages ; annotations de l\u2019éditeur)', 'août 2007', 2, 'pieces/procedures-benin/courriel-lise-feliho-ta-maison-2007-08.pdf', '13fe063d841199e69a0666ca37b500db94d1156198f27acc06859ed3fc8276ec', True, None),
     ('Décret n° 2018-356 portant code d\u2019éthique et de déontologie de la Police républicaine (texte de référence)', '25 juil. 2018', 9, 'pieces/decret-2018-356-code-deontologie-police-republicaine.pdf', None, False, None),
     ('Courriel de Me Samba Sidibé à Gilles Féliho : « Lettre au Procureur Spécial » (capture, 1 page)', '24 nov. 2025', 1, 'pieces/procedures-benin/courriel-conseil-transmission-lettre-procureur-special-2025-11-24.pdf', '9fd0e0af02a9c4a96a0ccf5647937af90b2a4053c074abd1fc05f3282c59e62e', True, None),
+    ('Plainte avec constitution de partie civile au Doyen des juges d\u2019instruction de Cotonou (14 pages ; p. 1 : photographie de la page déposée)', '29 sept. 2025', 14, 'pieces/procedures-benin/plainte-partie-civile-doyen-juges-instruction-cotonou-2025-09-29.pdf', '184abf157487875bb0f40d8b2b606cabb03c91977c1fdbc1d2e0b88b545e880e', True, None),
+    ('Récépissé n° 25036294-026G de la Direction générale du Trésor : « PLAINTE », 3 000 FCFA (photographie)', '29 sept. 2025', 1, 'pieces/procedures-benin/recepisse-tresor-plainte-3000-fcfa-2025-09-29.pdf', 'fba4ac257e1538b7889d31c1b008bdd901216027ac4c6c67fc083a9a41739a8a', False, None),
     ('Lettre n° 0049/MJL/SP-C du ministre de la Justice Yvon Détchénou', '14 janv. 2026', 1, 'pieces/procedures-benin/reponse-ministre-justice-2026-01-14.pdf', None, False, None),
     ('Lettre de Gilles Féliho au ministre de la Justice (4 pages)', '6 févr. 2026', 4, 'pieces/procedures-benin/lettre-ministre-justice-faits-precis-2026-02-06.pdf', 'c100ef4247d748d4a7a62d4bca98795eaa4fb584ff53b830d66873b754c62367', True, None),
     ('Procès-verbal d\u2019audition n° 2 (pages 1, 2/5 et 5/5)', '19 mars 2025', 3, 'pieces/bac-pv-audition-2-2025-03-19.pdf', 'd3590116e5ad9de9e87f2accdf55426224571efac2ec668b87e969ae3a83f478', True, None),
@@ -275,6 +278,16 @@ def jsonld(p, pages, canonical, og, html_body):
                           "uploadDate": DATE + "T08:00:00+02:00", "duration": f"PT{int(sec // 60)}M{int(round(sec % 60))}S", "inLanguage": "fr",
                           "contentUrl": SITE + "/video/enquete/enquete-16-9.mp4", "thumbnailUrl": SITE + "/video/enquete/enquete-vignette.jpg",
                           "publisher": {"@id": SITE + "/#editeur"}})
+    if n == 16:
+        vf = os.path.join(ROOT, 'video', 'partie-civile', 'partie-civile-16-9.mp4')
+        if os.path.exists(vf):
+            import subprocess
+            sec = float(subprocess.check_output(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', vf], text=True))
+            graph.append({"@type": "VideoObject", "name": "La quittance sans suite — la voie indiquée, déjà empruntée : la plainte avec constitution de partie civile du 29 septembre 2025",
+                          "description": "Chronologie documentée : classement sans suite du 3 juillet 2025, plainte avec constitution de partie civile déposée au Doyen des juges d'instruction de Cotonou le 29 septembre 2025 contre récépissé du Trésor, lettre du ministre de la Justice du 14 janvier 2026, absence de suite.",
+                          "uploadDate": DATE + "T08:00:00+02:00", "duration": f"PT{int(sec // 60)}M{int(round(sec % 60))}S", "inLanguage": "fr",
+                          "contentUrl": SITE + "/video/partie-civile/partie-civile-16-9.mp4", "thumbnailUrl": SITE + "/video/partie-civile/partie-civile-vignette.jpg",
+                          "publisher": {"@id": SITE + "/#editeur"}})
     if n == 14:
         vf = os.path.join(ROOT, 'video', 'ministre', 'ministre-16-9.mp4')
         if os.path.exists(vf):
@@ -314,7 +327,7 @@ def jsonld(p, pages, canonical, og, html_body):
         qa = re.findall(r'^\*\*([^\n]+\?)\*\*\n(.+?)(?=\n\n\*\*|\n\n###|\Z)', p['md'], re.M | re.S)
         graph.append({"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": strip_md(q), "acceptedAnswer": {"@type": "Answer", "text": strip_md(a)}} for q, a in qa]})
     crumbs = [("Accueil", SITE + "/")] + ([(HORS_HUB[n], canonical)] if n in HORS_HUB else [("Dossier Bâtonnier", SITE + HUB)])
-    if n not in (0, 13, 14):
+    if n not in (0, 13, 14, 16):
         crumbs.append((p['h1'], canonical))
     graph.append({"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": c[0], "item": c[1]} for i, c in enumerate(crumbs)]})
     return json.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False, indent=2)
@@ -323,6 +336,7 @@ EXERCICE = (0, 5, 6, 9)   # pages qui renvoient vers le cas pratique
 LETTRES_PAGES = (0, 6, 9)   # pages qui renvoient vers les modèles de lettres
 FILM = '/batonnier-hounkpatin/decision-rendue-decision-non-recue/'
 MINISTRE = '/ministre-justice/'
+PARTIE_CIVILE = '/plainte-partie-civile/'
 FILM_PAGES = (0, 2)   # pages qui renvoient vers le film
 
 def render(p, pages):
@@ -341,6 +355,8 @@ def render(p, pages):
         md = md.rstrip() + f"\n\n**Modèles de lettres.** [Quatre lettres de demande de communication]({LETTRES}) : Bâtonnier, Procureur Général, Cour constitutionnelle, Procureur spécial de la CRIET, avec version PDF.\n"
     if p['num'] in FILM_PAGES:
         md = md.rstrip() + f"\n\n**Le film.** [Décision rendue, décision non reçue]({FILM}) : les dates de la procédure, de la saisine du 11 septembre 2023 au classement du 3 juillet 2025, sur pièces.\n"
+    if p['num'] in (0, 13, 14):
+        md = md.rstrip() + f"\n\n**La plainte avec constitution de partie civile.** [La voie indiquée, déjà empruntée]({PARTIE_CIVILE}) : la plainte déposée au Doyen des juges d'instruction de Cotonou le 29 septembre 2025, 107 jours avant la lettre du ministre de la Justice, et les pièces.\n"
     if p['num'] in (0, 12, 13):
         md = md.rstrip() + f"\n\n**Le ministre de la Justice.** [Faits précis demandés, faits précis fournis]({MINISTRE}) : la lettre du ministre Yvon Détchénou du 14 janvier 2026 (« aucun fait précis allégué »), la lettre du plaignant du 6 février 2026 et les pièces.\n"
     md = md.replace('<details class="correspondance">', '<details class="correspondance" markdown="1">')
@@ -371,9 +387,9 @@ def render(p, pages):
 
 def main():
     os.makedirs(os.path.join(OUT, 'assets'), exist_ok=True)
-    text = open(SRC, encoding='utf-8').read() + '\n' + open(SRC10, encoding='utf-8').read() + '\n' + open(SRC11, encoding='utf-8').read() + '\n' + open(SRC12, encoding='utf-8').read() + '\n' + open(SRC13, encoding='utf-8').read() + '\n' + open(SRC14, encoding='utf-8').read() + '\n' + open(SRC15, encoding='utf-8').read()
+    text = open(SRC, encoding='utf-8').read() + '\n' + open(SRC10, encoding='utf-8').read() + '\n' + open(SRC11, encoding='utf-8').read() + '\n' + open(SRC12, encoding='utf-8').read() + '\n' + open(SRC13, encoding='utf-8').read() + '\n' + open(SRC14, encoding='utf-8').read() + '\n' + open(SRC15, encoding='utf-8').read() + '\n' + open(SRC16, encoding='utf-8').read()
     pages = parse_pages(text)
-    assert len(pages) == 16, len(pages)
+    assert len(pages) == 17, len(pages)
     liste = []
     for p in pages:
         out, slug = render(p, pages)
