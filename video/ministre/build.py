@@ -53,8 +53,8 @@ SEQ = {
    ("Elle est adressée à Maître Victorien Olatundji Fade, « mandataire » de Gilles Féliho, à la suite de l'adjudication de constructions sur la parcelle B du lot 923, à Gbégamey.",
     "Elle est adressée à Maître Victorien Olatundji Fade, mandataire de Gilles Féliho, à la suite de l'adjudication de constructions sur la parcelle B du lot neuf cent vingt-trois, à Gbégamey."),
    ("Cette lettre ne concerne pas le testament.", "Cette lettre ne concerne pas le testamant."),
-   ("Selon la lettre du 6 février, Maître Fade apparaît ensuite comme avocat des cohéritiers, dans l'instance qui produit le jugement de 2014, puis comme auteur de la signification du jugement en France.",
-    "Selon la lettre du six février, Maître Fade apparaît ensuite comme avocat des cohéritiers, dans l'instance qui produit le jugement de deux mille quatorze, puis comme auteur de la signification du jugement en France."),
+   ("Selon la lettre du 6 février, Maître Fade apparaît ensuite comme avocat des cohéritiers, dans l'instance qui produit le jugement de 2014, puis dans la signification du jugement en France.",
+    "Selon la lettre du six février, Maître Fade apparaît ensuite comme avocat des cohéritiers, dans l'instance qui produit le jugement de deux mille quatorze, puis dans la signification du jugement en France."),
    ("Le plaignant écrit : « triple conflit d'intérêts non déclaré ».", "Le plaignant écrit : triple conflit d'intérêts non déclaré.")]),
  8: dict(speed=1.12, gap=0.4, lead=0.9, tail=1.4, s=[
    ("Le ministre invite à agir par citation directe ou constitution de partie civile.", "Le ministre invite à agir par citation directe ou constitution de partie civile."),
@@ -242,7 +242,7 @@ pic('g-tete.png', 80, 150, 840, W(7, 0)[0] - 0.3, b, "Lettre de Me Denise Ehouzo
 pic('g-dest.png', 80, 300, 420, W(7, 1)[0] - 0.3, b, "Destinataire : Maître Victorien Fade, avocat à la Cour", cls='p7')
 pic('g-corps.png', 80, 480, 840, W(7, 1)[0] + 0.4, b, "Même lettre : « Suite à l'adjudication […] sur la parcelle « B » du lot 923 […] au profit de Monsieur Gilles Sixte FELIHO, dont vous êtes le mandataire »", hl=((3, 38, 94, 38),), cls='p7')
 text("<b>Cette lettre ne concerne pas le testament.</b>", 1000, 150, 840, W(7, 2)[0] - 0.3, b, 'quote')
-for i, tx in enumerate(["<b>2007</b> — mandataire de Gilles Féliho (lettre du notaire)", "<b>2014</b> — avocat des cohéritiers dans l'instance (jugement n° 114/14, p. 1)", "<b>2015</b> — auteur de la signification du jugement en France (selon la lettre du 6 février)"]):
+for i, tx in enumerate(["<b>2007</b> — mandataire de Gilles Féliho (lettre du notaire)", "<b>2014</b> — avocat des cohéritiers dans l'instance (jugement n° 114/14, p. 1)", "<b>2015</b> — avocat des cohéritiers dans la signification du jugement en France (selon la lettre du 6 février)"]):
     text(tx, 1000, 290 + i * 130, 840, W(7, 3)[0] + i * 1.3, b, 'nm')
 text("« Triple conflit d'intérêts non déclaré »<br><span class='cap2'>Lettre du plaignant du 6 février 2026</span>", 1000, 700, 840, W(7, 4)[0] - 0.3, b, 'quote')
 

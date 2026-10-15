@@ -94,7 +94,7 @@ Pièces jointes de la lettre : 1. le jugement ; 2. sa signification ; 3. le proc
 
 La lettre du 19 septembre 2007 de Me Denise Ehouzou Gangnito est adressée à Me Victorien Olatundji Fade, « mandataire » de Gilles Féliho, à la suite de l'adjudication de constructions sur la parcelle B du lot 923 de Gbégamey, au profit de Gilles Sixte Féliho. Elle ne concerne pas le testament et ne mentionne pas la parcelle B du lot 488 visée par le jugement. Selon l'éditeur, la parcelle du lot 923 a depuis été radiée ; aucune pièce n'est publiée à ce stade sur ce point.
 
-Selon la lettre du 6 février 2026, Me Fade apparaît ensuite comme avocat des cohéritiers dans l'instance qui produit le jugement (le jugement le dit « assisté de Maître Victorien Olatoundji FADE », p. 1), puis comme auteur de la [signification du jugement](/pieces/procedures-benin/plainte-fade-piece-2-signification-jugement-2015-03-09.pdf) en France le 9 mars 2015. Le plaignant parle d'un « triple conflit d'intérêts non déclaré ».
+Selon la lettre du 6 février 2026, Me Fade apparaît ensuite comme avocat des cohéritiers dans l'instance qui produit le jugement (le jugement le dit « assisté de Maître Victorien Olatoundji FADE », p. 1), puis dans la [signification du jugement](/pieces/procedures-benin/plainte-fade-piece-2-signification-jugement-2015-03-09.pdf) en France le 9 mars 2015, acte d'huissier. Le plaignant parle d'un « triple conflit d'intérêts non déclaré ».
 
 La lettre est publiée : [PDF](/pieces/lettre-notaire-gangnito-a-me-fade-2007-09-19.pdf).
 
