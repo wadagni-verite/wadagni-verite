@@ -240,7 +240,7 @@ el("Ce film présente des pièces publiées sur le site : procès-verbaux, lettr
 # --- 1 : la plainte arrive
 a, b = Q(1); W1 = [W(1, i) for i in range(4)]
 text("PLAINTE À L'AUTORITÉ DE PROTECTION DES DONNÉES PERSONNELLES", 80, 62, 1760, a + 0.3, b, 'colhead wide')
-pic('plainte-p1.png', 80, 140, 840, a + 0.4, b, "Plainte du 2 octobre 2023, p. 1 (coordonnées occultées)", h=780, find=("Objet : Plainte contre le notaire Félix A. BALLEY",), cls='p1')
+pic('plainte-p1.png', 80, 140, 840, a + 0.4, b, "Plainte du 2 octobre 2023, p. 1 (coordonnées occultées)", h=780, cls='p1')
 card(3, 'OCT.', 2023, 1000, 160, W1[0][0] - 0.2, b, 'big', 'reçue le 3 octobre 2023')
 text("Autorité de Protection des Données Personnelles<br>Cotonou", 1450, 190, 400, W1[0][0] + 0.2, b, 'ctext')
 text("Plainte contre le notaire <b>Félix A. Balley</b>", 1000, 640, 840, W1[1][0] - 0.2, b, 'quote')
@@ -279,7 +279,7 @@ tick_t = W4[2][0] + 1.4
 # --- 5 : l'accusé de réception
 a, b = Q(5); W5 = [W(5, i) for i in range(4)]
 heads(a + 0.2, b, 'ACCUSÉ DE RÉCEPTION · 14 DÉCEMBRE 2023', 'CE QUI EST ÉCRIT')
-pic('ar1.png', 80, 140, 840, a + 0.4, b, "APDP, lettre n° 2023-1793 du 14 décembre 2023 (coordonnées du plaignant occultées)", h=800, find=("Accusé de réception", "une suite vous sera donnée incessamment"), cls='p5')
+pic('ar1.png', 80, 140, 840, a + 0.4, b, "APDP, lettre n° 2023-1793 du 14 décembre 2023 (coordonnées occultées)", h=730, cls='p5')
 counter(72, 'JOURS', 1000, 140, W5[0][0] - 0.2, b, W5[0][0] + 0.4, W5[0][0] + 1.8, w=840, size=150, sub="du 3 octobre au 14 décembre 2023")
 text("« <b>une suite vous sera donnée incessamment</b> »", 1000, 470, 840, W5[1][0] - 0.2, b, 'quote')
 text("Le même jour : <b>mise en demeure du notaire</b>, huit jours, pour produire les autorisations et consentements", 1000, 620, 840, W5[2][0] - 0.2, b, 'quote')
@@ -288,11 +288,11 @@ text("<b>27 décembre</b> : réponse du notaire, « les devoirs que la loi met �
 # --- 6 : 19 juin 2024
 a, b = Q(6); W6 = [W(6, i) for i in range(5)]
 heads(a + 0.2, b, 'PREMIÈRE SÉANCE · 19 JUIN 2024', 'LE PROCÈS-VERBAL')
-pic('pv-06-19-p1.png', 80, 140, 840, a + 0.4, W6[3][0] - 0.3, "APDP, procès-verbal de séance du 19 juin 2024, p. 1", h=800, find=("sous la présidence de Monsieur Claude Dieu Donné MONTCHO", "Monsieur Luciano HOUNKPONOU, Président", "Monsieur Amouda ABOU SEYDOU, Rapporteur"), cls='p6')
-pic('pv-06-19-p3.png', 80, 140, 840, W6[3][0] - 0.3, b, "APDP, procès-verbal de séance du 19 juin 2024, p. 3", h=800, find=("s'est excusé au nom de son client quant à l'ignorance de l'obligation légale de mise en conformité", "pour le 24 juillet 2024 à 16 heures 30 minutes"), cls='p6')
+pic('pv-06-19-p1.png', 80, 140, 840, a + 0.4, W6[3][0] - 0.3, "APDP, procès-verbal de séance du 19 juin 2024, p. 1", h=730, cls='p6')
+pic('pv-06-19-p3.png', 80, 140, 840, W6[3][0] - 0.3, b, "APDP, procès-verbal de séance du 19 juin 2024, p. 3", h=730, cls='p6')
 counter(260, 'JOURS', 1000, 140, a + 0.4, b, W6[0][0] + 0.4, W6[0][0] + 2.2, w=840, size=150, sub="du 3 octobre 2023 au 19 juin 2024 : de la plainte à la première séance")
 text("Présidence : <b>Claude Dieu Donné Montcho</b><br>Bureau : <b>Luciano Hounkponou</b>, président · <b>Amouda Abou Seydou</b>, rapporteur", 1000, 470, 840, W6[1][0] - 0.2, b, 'quote')
-text("Le notaire : <b>assisté de son avocat</b><br>Le plaignant : <b>absent</b>", 1000, 650, 840, W6[2][0] - 0.2, b, 'quote')
+text("Le notaire : <b>assisté de son avocat</b><br>Le plaignant : <b>absent</b>", 1000, 650, 840, W6[2][0] - 0.2, W6[3][0] - 0.3, 'quote')
 text("Son avocat « s'est excusé au nom de son client quant à l'ignorance de l'obligation légale de mise en conformité »", 1000, 640, 840, W6[3][0] - 0.2, b, 'quote ocrebox')
 text("<b>Délibéré : 24 juillet 2024</b>", 1000, 830, 840, W6[4][0] - 0.2, b, 'bigtext')
 
@@ -301,8 +301,8 @@ a, b = Q(7); W7 = [W(7, i) for i in range(4)]
 heads(a + 0.2, b, 'JUILLET · AOÛT 2024', 'LA DEMANDE DU RAPPORT D\'INSTRUCTION')
 mail('23/07/2024', 'votre requête', "<p>Faisant suite à votre requête, pour l'obtention d'une copie du rapport d'instruction notifié au défendeur dans la procédure en cours auprès de l'Autorité, je vous invite à formuler expressément votre demande en session plénière du 24 juillet 2024 à laquelle vous avez été invité. Le lien pour participer à ladite session vous sera envoyé 30 minutes avant l'appel du dossier.</p><p>Le Rapporteur de l'APDP</p>", 80, 150, 840, a + 0.4, W7[1][0] - 0.3)
 mail('24/07/2024', 'Lien pour la Session contentieuse', "<p>Voici le lien pour la sessions contentieuse. Mercredi, 24 juillet. Google Meet. Nous attendons que vous soyez connecté.</p><div class='rep'><b>Réponse de Gilles Féliho :</b> « Je n'ai pas accès » (capture d'écran jointe)<br><i>« Vous ne pouvez pas participer à cet appel vidéo. »</i></div>", 80, 150, 840, W7[1][0] - 0.3, W7[2][0] - 0.3)
-pic('pv-07-24-p1.png', 80, 140, 840, W7[2][0] - 0.3, W7[3][0] - 0.3, "APDP, procès-verbal de séance du 24 juillet 2024, p. 1", h=800, find=("Gilles Sixte FELIHO, plaignant (Participant en ligne)",), cls='p7')
-pic('pv-08-28-p2.png', 80, 140, 840, W7[3][0] - 0.3, b, "APDP, procès-verbal de séance du 28 août 2024, p. 2", h=800, find=("la Plénière ne peut faire suite à sa demande de mise à disposition du rapport d'instruction adressé à Monsieur Félix BALLEY",), cls='p7')
+pic('pv-07-24-p1.png', 80, 140, 840, W7[2][0] - 0.3, W7[3][0] - 0.3, "APDP, procès-verbal de séance du 24 juillet 2024, p. 1", h=730, cls='p7')
+pic('pv-08-28-c.png', 80, 140, 840, W7[3][0] - 0.3, b, "APDP, procès-verbal de séance du 28 août 2024, p. 2", h=730, cls='p7')
 for i, (dd, mm, lb, ta, tb) in enumerate([(23, 'JUIL.', "Le rapporteur : « formuler expressément votre demande en session plénière »", W7[0][0], W7[1][0] - 0.3), (24, 'JUIL.', "Le plaignant : « Je n'ai pas accès »", W7[1][0], W7[2][0] - 0.3),
                                          (24, 'JUIL.', "Procès-verbal : le plaignant est « Participant en ligne »", W7[2][0], W7[3][0] - 0.3), (28, 'AOÛT', "Procès-verbal : la Plénière « ne peut faire suite » à sa demande du rapport d'instruction adressé au notaire", W7[3][0], b)]):
     card(dd, mm, 2024, 1000, 160, ta - 0.2, tb, 'big')
@@ -311,7 +311,7 @@ for i, (dd, mm, lb, ta, tb) in enumerate([(23, 'JUIL.', "Le rapporteur : « form
 # --- 8 : 25 septembre → 23 octobre
 a, b = Q(8); W8 = [W(8, i) for i in range(3)]
 heads(a + 0.2, b, 'LA LETTRE D\'INVITATION DU 10 OCTOBRE 2024', 'LE CONTRADICTOIRE')
-pic('inv-oct.png', 80, 140, 840, a + 0.4, b, "APDP, lettre d'invitation n° 2024-… du 10 octobre 2024 (coordonnées du plaignant occultées)", h=800, find=("le délibéré du dossier a été rabattu pour", "principe du contradictoire", "article 457"), cls='p8')
+pic('inv-oct.png', 80, 140, 840, a + 0.4, b, "APDP, lettre d'invitation du 10 octobre 2024 (coordonnées du plaignant occultées)", h=730, cls='p8')
 card(25, 'SEPT.', 2024, 1000, 160, W8[0][0] - 0.2, b, '', 'séance')
 arrow(W8[1][0] - 0.2, b, 1255, 210)
 card(23, 'OCT.', 2024, 1360, 160, W8[1][0] - 0.2, b, '', 'renvoi')
@@ -320,9 +320,9 @@ text("Lettre du <b>10 octobre 2024</b>, signée du rapporteur <b>Amouda Abou Sey
 
 # --- 9 : les observations du 21 octobre
 a, b = Q(9); W9 = [W(9, i) for i in range(3)]
-heads(a + 0.2, b, 'OBSERVATIONS DU PLAIGNANT · 21 OCTOBRE 2024', 'TROIS VERSIONS DU NOTAIRE')
-pic('obs-p1.png', 80, 140, 840, a + 0.4, W9[2][0] - 0.3, "Observations et prétentions du plaignant, p. 1 (coordonnées occultées)", h=800, find=("trois versions différentes et contradictoires des faits",), cls='p9')
-pic('obs-p2.png', 80, 140, 840, W9[2][0] - 0.3, b, "Observations et prétentions du plaignant, p. 2", h=800, find=("sous astreinte de 50 000 FCFA par jour de retard", "Informer sans délai Monsieur le Procureur de la République"), cls='p9')
+heads(a + 0.2, b, 'OBSERVATIONS · 21 OCTOBRE 2024', 'TROIS VERSIONS DU NOTAIRE')
+pic('obs-p1-c.png', 80, 140, 840, a + 0.4, W9[2][0] - 0.3, "Observations et prétentions du plaignant, p. 1 (coordonnées occultées)", h=730, cls='p9')
+pic('obs-p2-c.png', 80, 140, 840, W9[2][0] - 0.3, b, "Observations et prétentions du plaignant, p. 2", h=730, cls='p9')
 for i, tx in enumerate(["<b>20 octobre 2016</b> · un mandat auprès de la direction des domaines", "<b>7 septembre 2023</b> · « pas partie aux actes » de son répertoire", "<b>19 juin 2024</b> · une décision de justice devenue exécutoire"]):
     text(tx, 1000, 150 + i * 130, 840, W9[1][0] + i * 5.0, W9[2][0] - 0.3, 'nm')
 text("<b>Demandes</b> : sanctions · suppression des données sous astreinte de <b>50 000 FCFA par jour</b> · publication · information du Procureur", 1000, 200, 840, W9[2][0] - 0.2, b, 'quote')
@@ -330,8 +330,8 @@ text("<b>Demandes</b> : sanctions · suppression des données sous astreinte de 
 # --- 10 : novembre, décembre
 a, b = Q(10); W10 = [W(10, i) for i in range(4)]
 heads(a + 0.2, b, 'OCTOBRE · DÉCEMBRE 2024', 'L\'ÉCHANGE DU 13 AU 16 DÉCEMBRE')
-pic('echange-p1.png', 80, 140, 840, a + 0.4, W10[3][0] - 0.3, "Courriels du 16 et du 13 décembre 2024 (adresses occultées)", h=800, find=("est mis en délibéré pour le 19 décembre prochain", "vous répondrez de vos actes en temps opportun"), cls='p10')
-pic('echange-p6.png', 80, 140, 840, W10[3][0] - 0.3, b, "Courriel du plaignant, 13 décembre 2024 (extrait)", h=800, find=("Mes deux boussoles sont : la loi et la vérité",), cls='p10')
+pic('echange-p1.png', 80, 140, 840, a + 0.4, W10[3][0] - 0.3, "Courriels du 16 et du 13 décembre 2024 (adresses occultées)", h=730, cls='p10')
+pic('echange-p6.png', 80, 140, 840, W10[3][0] - 0.3, b, "Courriel du plaignant, 13 décembre 2024 (extrait)", h=730, cls='p10')
 for i, (dd, mm) in enumerate([(23, 'OCT.'), (27, 'NOV.'), (19, 'DÉC.')]):
     card(dd, mm, 2024, 1000 + i * 290, 150, W10[0][0] + i * 1.2 - 0.2, b, 'sm', ('séance', 'séance', 'renvoi')[i])
 text("<b>13 décembre</b> · le plaignant informe l'Autorité, par courtoisie, du communiqué de presse qu'il entend publier", 1000, 440, 840, W10[1][0] - 0.2, b, 'quote')
