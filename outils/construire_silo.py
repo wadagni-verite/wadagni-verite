@@ -16,6 +16,8 @@ SRC11 = os.path.join(ROOT, 'outils', 'silo', '11-lettres-de-demande-contenu.md')
 SRC12 = os.path.join(ROOT, 'outils', 'silo', '12-film-classement-contenu.md')   # film (page 12)
 SRC13 = os.path.join(ROOT, 'outils', 'silo', '13-brigade-criminelle-contenu.md')   # Brigade criminelle (page 13, hors du dossier Bâtonnier : /brigade-criminelle/)
 SRC14 = os.path.join(ROOT, 'outils', 'silo', '14-ministre-justice-contenu.md')   # ministre de la Justice (page 14, hors du dossier Bâtonnier : /ministre-justice/)
+SRC15 = os.path.join(ROOT, 'outils', 'silo', '15-cas-pratique-enquete-contenu.md')   # second cas pratique (page 15)
+CAS2 = '/batonnier-hounkpatin/cas-pratique-enquete-confusions-deontologie/'
 LETTRES = '/batonnier-hounkpatin/lettres-de-demande-de-communication/'
 HORS_HUB = {13: 'Brigade criminelle', 14: 'Ministre de la Justice'}   # pages publiées à la racine du site
 VIDEOS = {12: ('classement', 'classement'), 13: ('enquete', 'enquete'), 14: ('ministre', 'ministre')}   # dossier vidéo, préfixe des fichiers
@@ -93,6 +95,8 @@ PIECES = [
     ('Avis de classement du Procureur spécial près la CRIET', '3 juil. 2025', 1, 'pieces/avis-de-classement-criet-2025-07-03.pdf', None, False, None),
     ('Demande de réouverture d\u2019enquête au Procureur spécial près la CRIET (5 pages ; p. 1 : copie reçue avec le cachet d\u2019arrivée ; l\u2019empreinte de l\u2019original est celle du fichier d\u2019origine des pages 2 à 5)', 'lettre du 24 sept. 2025, arrivée le 25 nov. 2025', 5, 'pieces/procedures-benin/demande-reouverture-procureur-special-criet-2025-11-25.pdf', 'cccbfd1395e02de7b38b7da58285d056180b7f87364b732ae1c244057388be9b', True, None),
     ('Lettre de Me Samba Sidibé au ministre de la Justice (4 pages)', '5 janv. 2026', 4, 'pieces/procedures-benin/lettre-conseil-ministre-justice-2026-01-05.pdf', '0f6599a7f4adfba8d949569158c3b3b2c0ce4eddaa355f1f57c97c928370f281', True, None),
+    ('Attestation d\u2019appel du greffier en chef (photographie, 1 page)', '17 nov. 2014', 1, 'pieces/procedures-benin/attestation-appel-jugement-114-14-2014-11-17.pdf', 'f12663031baad99bd55e4eb3af2eda9350ade4eeb40f0bcd09964433c296b6c4', False, None),
+    ('Courriel de Lise Féliho à Gilles Féliho, « ta maison » (non daté ; annotations de l\u2019éditeur)', 'sans date', 1, 'pieces/procedures-benin/courriel-lise-feliho-ta-maison-sans-date.pdf', '13fe063d841199e69a0666ca37b500db94d1156198f27acc06859ed3fc8276ec', True, None),
     ('Courriel de Me Samba Sidibé à Gilles Féliho : « Lettre au Procureur Spécial » (capture, 1 page)', '24 nov. 2025', 1, 'pieces/procedures-benin/courriel-conseil-transmission-lettre-procureur-special-2025-11-24.pdf', '9fd0e0af02a9c4a96a0ccf5647937af90b2a4053c074abd1fc05f3282c59e62e', True, None),
     ('Lettre n° 0049/MJL/SP-C du ministre de la Justice Yvon Détchénou', '14 janv. 2026', 1, 'pieces/procedures-benin/reponse-ministre-justice-2026-01-14.pdf', None, False, None),
     ('Lettre de Gilles Féliho au ministre de la Justice (4 pages)', '6 févr. 2026', 4, 'pieces/procedures-benin/lettre-ministre-justice-faits-precis-2026-02-06.pdf', 'c100ef4247d748d4a7a62d4bca98795eaa4fb584ff53b830d66873b754c62367', True, None),
@@ -246,6 +250,13 @@ def jsonld(p, pages, canonical, og, html_body):
         art["mentions"] = [{"@type": "Person", "name": "Victorien Olatundji Fade", "jobTitle": "Avocat près la Cour d'appel de Cotonou"},
                            {"@type": "Person", "name": "Gilles Sixte Féliho"}]
     graph.append(art)
+    if n == 15:
+        graph.append({"@type": "LearningResource", "@id": canonical + "#cas-pratique", "name": p['h1'], "description": p['desc'], "inLanguage": "fr",
+                      "learningResourceType": "Cas pratique", "educationalUse": "Exercice", "educationalLevel": "Enseignement supérieur (droit, procédure pénale, déontologie des professions juridiques)",
+                      "teaches": ["Acte authentique et acte privé", "Rapports du civil et du pénal", "Effet d'un testament", "Faux en écriture publique : définition et éléments constitutifs",
+                                  "Témoin et personne soupçonnée", "Rôle de l'enquêteur : fait, intention, qualification", "Conflit d'intérêts de l'avocat", "Déontologie du notaire et de l'enquêteur", "Délai raisonnable (article 7-1 d de la Charte africaine)"],
+                      "isAccessibleForFree": True, "creator": {"@id": SITE + "/#editeur"}, "datePublished": DATE,
+                      "encoding": {"@type": "MediaObject", "contentUrl": SITE + CAS2 + "cas-pratique-enquete-confusions-deontologie.pdf", "encodingFormat": "application/pdf"}})
     if n == 10:
         graph.append({"@type": "LearningResource", "@id": canonical + "#cas-pratique", "name": p['h1'], "description": p['desc'], "inLanguage": "fr",
                       "learningResourceType": "Cas pratique", "educationalUse": "Exercice", "educationalLevel": "Enseignement supérieur (droit, déontologie des professions juridiques)",
@@ -323,6 +334,8 @@ def render(p, pages):
     md = md.replace('### Chapô\n\n', '')
     if p['num'] in EXERCICE:
         md = md.rstrip() + f"\n\n**Pour s'exercer.** [Cas pratique : le traitement d'une plainte déontologique par un ordre d'avocats]({CAS}) — sept questions, pistes de réponse et grille de correction, en version PDF.\n"
+    if p['num'] in (0, 10, 13):
+        md = md.rstrip() + f"\n\n**Second cas pratique.** [Les confusions d'une enquête pénale et les règles déontologiques à l'épreuve des pièces]({CAS2}) : onze questions, pistes de réponse et grille de correction, en version PDF.\n"
     if p['num'] in LETTRES_PAGES:
         md = md.rstrip() + f"\n\n**Modèles de lettres.** [Quatre lettres de demande de communication]({LETTRES}) : Bâtonnier, Procureur Général, Cour constitutionnelle, Procureur spécial de la CRIET, avec version PDF.\n"
     if p['num'] in FILM_PAGES:
@@ -331,7 +344,7 @@ def render(p, pages):
         md = md.rstrip() + f"\n\n**Le ministre de la Justice.** [Faits précis demandés, faits précis fournis]({MINISTRE}) : la lettre du ministre Yvon Détchénou du 14 janvier 2026 (« aucun fait précis allégué »), la lettre du plaignant du 6 février 2026 et les pièces.\n"
     md = md.replace('<details class="correspondance">', '<details class="correspondance" markdown="1">')
     md = re.sub(r'^### ', '## ', md, flags=re.M)
-    exts = ['tables', 'sane_lists', 'md_in_html'] + (['nl2br'] if p['num'] in (10, 11) else [])
+    exts = ['tables', 'sane_lists', 'md_in_html'] + (['nl2br'] if p['num'] in (10, 11, 15) else [])
     body = markdown.markdown(md, extensions=exts)
     if p['num'] in VIDEOS:   # transcription du film (sous-titres regroupés), comme sur les premières vidéos du site
         tl = os.path.join(ROOT, 'video', VIDEOS[p['num']][0], 'timeline.json')
@@ -357,9 +370,9 @@ def render(p, pages):
 
 def main():
     os.makedirs(os.path.join(OUT, 'assets'), exist_ok=True)
-    text = open(SRC, encoding='utf-8').read() + '\n' + open(SRC10, encoding='utf-8').read() + '\n' + open(SRC11, encoding='utf-8').read() + '\n' + open(SRC12, encoding='utf-8').read() + '\n' + open(SRC13, encoding='utf-8').read() + '\n' + open(SRC14, encoding='utf-8').read()
+    text = open(SRC, encoding='utf-8').read() + '\n' + open(SRC10, encoding='utf-8').read() + '\n' + open(SRC11, encoding='utf-8').read() + '\n' + open(SRC12, encoding='utf-8').read() + '\n' + open(SRC13, encoding='utf-8').read() + '\n' + open(SRC14, encoding='utf-8').read() + '\n' + open(SRC15, encoding='utf-8').read()
     pages = parse_pages(text)
-    assert len(pages) == 15, len(pages)
+    assert len(pages) == 16, len(pages)
     liste = []
     for p in pages:
         out, slug = render(p, pages)

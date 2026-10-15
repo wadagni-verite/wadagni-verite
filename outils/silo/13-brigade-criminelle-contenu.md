@@ -69,6 +69,7 @@ Votre navigateur ne lit pas cette vidéo.
 
 - *Ce qu'écrit le mémoire* (p. 4) : « Cette décision de justice ayant autorité de la chose jugée est non assorti de recours ».
 - *Ce que dit le jugement* (dispositif) : « en premier ressort » ; « Ordonne l'exécution provisoire de la décision sur minute » ; « Délai d'appel : 01 mois ».
+- *Ce qu'atteste le greffe.* Le 17 novembre 2014, le greffier en chef du tribunal de première instance de première classe de Cotonou « certifie et atteste que le jugement précité est frappé d'appel » : appel n° 015/2014/3ème EP/GTC, en date du 31 octobre 2014 (le jour du jugement), formé par Me Michel Christian Agbinko au nom de Gilles Féliho ([attestation d'appel](/pieces/procedures-benin/attestation-appel-jugement-114-14-2014-11-17.pdf)). L'attestation dit le contraire de ce qu'écrit le mémoire. Elle ne renseigne pas sur la suite de l'appel.
 - La Brigade criminelle tranche ainsi une question de droit civil. Dans sa réplique du 2 juin 2025 à la Cour constitutionnelle ([pièce](/pieces/procedures-benin/replique-brigade-criminelle-cour-constitutionnelle-2025-06-02.pdf)), le plaignant dénonce « une usurpation des prérogatives judiciaires, sans aucune garantie procédurale ».
 
 **8. Une intention rapportée, sans acte d'enquête**
@@ -97,6 +98,8 @@ Votre navigateur ne lit pas cette vidéo.
 - *Ce qu'écrit Gilles Féliho* (7 août 2007, p. 1) : « Concernant le titre de propriété de la maison. J'ai effectivement dit que je m'en chargeais […] je vais m'occuper de ce volet. »
 - *Ce que les pièces établissent.* Ces courriels datent de trois ans avant le décès de Jean Florentin Féliho (3 décembre 2010). Six semaines plus tard, le 19 septembre 2007, le notaire transmet à Maître Fade les pièces de l'adjudication de constructions sur la parcelle B du lot 923 de Gbégamey, au profit de Gilles Féliho. Les courriels ne nomment pas la parcelle. Lise Féliho est la deuxième des six personnes dont la sommation exige la convocation ; aucune convocation à son nom n'est produite.
 
+- *Un second courriel de Lise Féliho, non daté* ([pièce](/pieces/procedures-benin/courriel-lise-feliho-ta-maison-sans-date.pdf), annotations de l'éditeur) porte lui aussi sur « ta maison » : les locataires, les loyers, le notaire, le « permis d'habiter », le « titre foncier », le « nouveau propriétaire ». Elle y écrit avoir appris que, « en se séparant de Papa », Me Fade « lui aurait demandé à continuer de gérer les dossiers dont il avait la charge, mais Papa aurait refusé », puis propose de « trouver les coordonnées de FADE, et le remettre sur le dossier, moyennant rétribution » : « maîtrisant le dossier pour l'avoir suivi à son début, il fera l'affaire ». Aucune date n'apparaît sur l'extrait : il n'est pas rattaché ici à une chronologie.
+
 ### Les durées
 
 | Durée | Calcul | Pièces |
@@ -118,6 +121,8 @@ Votre navigateur ne lit pas cette vidéo.
 | Procès-verbal de compulsion du 19 décembre 2017 | [PDF](/pieces/pv-compulsion-parcelle-b-lot-488-2017-12.pdf) |
 | Avis de classement du 3 juillet 2025 | [PDF](/pieces/avis-de-classement-criet-2025-07-03.pdf) |
 | Lettre du notaire Denise Ehouzou Gangnito à Maître Victorien Fade, 19 septembre 2007 | [PDF](/pieces/lettre-notaire-gangnito-a-me-fade-2007-09-19.pdf) |
+| Attestation d'appel du 17 novembre 2014 | [PDF](/pieces/procedures-benin/attestation-appel-jugement-114-14-2014-11-17.pdf) — photographie ; appel n° 015/2014/3ème EP/GTC |
+| Courriel non daté de Lise Féliho (« ta maison ») | [PDF](/pieces/procedures-benin/courriel-lise-feliho-ta-maison-sans-date.pdf) — adresse électronique de l'expéditrice occultée ; annotations de l'éditeur |
 | Courriels de Gilles et Lise Féliho des 6 et 7 août 2007 | [PDF, 2 pages](/pieces/courriel-lise-gilles-feliho-2007-08-07.pdf) — adresses électroniques, adresse IP et compte bancaire occultés |
 
 Les empreintes SHA-256 de ces fichiers figurent sur la page [Sources et pièces vérifiables](/batonnier-hounkpatin/sources-et-pieces-verifiables/).

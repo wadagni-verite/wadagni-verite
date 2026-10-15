@@ -72,6 +72,16 @@ SEQ = {
     "Lise Féliho figure parmi les six personnes que la sommation du trois avril deux mille vingt-quatre exige de convoquer. Aucune convocation à son nom n'est produite."),
    ("Six semaines plus tard, le 19 septembre 2007, le notaire transmet à Maître Fade les pièces de l'adjudication de constructions à Gbégamey, au profit de Gilles Féliho.",
     "Six semaines plus tard, le dix-neuf septembre deux mille sept, le notaire transmet à Maître Fade les pièces de l'adjudication de constructions à Gbégamey, au profit de Gilles Féliho.")]),
+ 8.3: dict(speed=1.14, gap=0.3, lead=0.9, tail=1.2, s=[
+   ("Un second courriel de Lise Féliho, non daté, porte lui aussi sur « ta maison ».", "Un second courriel de Lise Féliho, non daté, porte lui aussi sur ta maison."),
+   ("Elle écrit avoir appris qu'en se séparant de leur père, Maître Fade lui aurait demandé à continuer de gérer les dossiers dont il avait la charge, mais que leur père aurait refusé.",
+    "Elle écrit avoir appris qu'en se séparant de leur père, Maître Fade lui aurait demandé à continuer de gérer les dossiers dont il avait la charge, mais que leur père aurait refusé."),
+   ("Elle propose de « trouver les coordonnées de FADE, et le remettre sur le dossier, moyennant rétribution » : « maîtrisant le dossier pour l'avoir suivi à son début, il fera l'affaire ».",
+    "Elle propose de trouver les coordonnées de Fade, et le remettre sur le dossier, moyennant rétribution : maîtrisant le dossier pour l'avoir suivi à son début, il fera l'affaire."),
+   ("Il se chargerait de récupérer auprès du notaire les pièces juridiques de vente, y compris le permis d'habiter, pour obtenir le titre foncier.",
+    "Il se chargerait de récupérer auprès du notaire les pièces juridiques de vente, y compris le permis d'habiter, pour obtenir le titre foncier."),
+   ("Aucune date n'apparaît sur cet extrait, publié tel que reçu. Lise Féliho y désigne Maître Fade comme l'avocat qui a suivi le dossier de cette maison dès son début.",
+    "Aucune date n'apparaît sur cet extrait, publié tel que reçu. Lise Féliho y désigne Maître Fade comme l'avocat qui a suivi le dossier de cette maison dès son début.")]),
  8.5: dict(speed=1.14, gap=0.3, lead=0.9, tail=1.0, s=[
    ("Le 19 septembre 2007, le notaire Denise Ehouzou Gangnito écrit à Maître Victorien Olatundji Fade.", "Le dix-neuf septembre deux mille sept, le notaire Denise Ehouzou Gangnito écrit à Maître Victorien Olatundji Fade."),
    ("Suite à l'adjudication de constructions sur la parcelle B du lot 923 de Gbégamey, au profit de Gilles Sixte Féliho, « dont vous êtes le mandataire ».",
@@ -95,8 +105,13 @@ SEQ = {
    ("Un achat n'est pas un legs. Une acquisition n'est pas une disposition. Et le testament ne figure pas parmi les pièces jointes au mémoire.",
     "Un achat n'est pas un legs. Une acquisition n'est pas une disposition. Et le testament ne figure pas parmi les pièces jointes au mémoire."),
    ("Faire dire au testament ce qu'un testament ne peut pas dire.", "Faire dire au testament ce qu'un testament ne peut pas dire.")]),
- 10: dict(speed=1.14, gap=0.3, lead=0.9, tail=1.2, s=[
+ 9.8: dict(speed=1.14, gap=0.3, lead=0.9, tail=1.4, s=[
    ("Le mémoire écrit que ce jugement, ayant autorité de la chose jugée, est non assorti de recours.", "Le mémoire écrit que ce jugement, ayant autorité de la chose jugée, est non assorti de recours."),
+   ("Le 17 novembre 2014, le greffier en chef du tribunal de Cotonou atteste que le jugement est frappé d'appel.", "Le dix-sept novembre deux mille quatorze, le greffier en chef du tribunal de Cotonou atteste que le jugement est frappé d'appel."),
+   ("L'appel porte le numéro 015 de 2014. Il est formé le 31 octobre 2014, jour du jugement, par Maître Michel Christian Agbinko, au nom de Gilles Féliho.",
+    "L'appel porte le numéro quinze de l'année deux mille quatorze. Il est formé le trente et un octobre deux mille quatorze, jour du jugement, par Maître Michel Christian Agbinko, au nom de Gilles Féliho."),
+   ("Une attestation du greffe dit le contraire de ce que le mémoire écrit.", "Une attestation du greffe dit le contraire de ce que le mémoire écrit.")]),
+ 10: dict(speed=1.14, gap=0.3, lead=0.9, tail=1.2, s=[
    ("Le jugement dit : en premier ressort. Exécution provisoire. Délai d'appel : un mois.", "Le jugement dit : en premier ressort. Exécution provisoire. Délai d'appel : un mois."),
    ("La Brigade criminelle tranche ainsi une question de droit civil, qui n'est pas la sienne.", "La Brigade criminelle tranche ainsi une question de droit civil, qui n'est pas la sienne."),
    ("Devant la Cour constitutionnelle, le plaignant dénonce une usurpation des prérogatives judiciaires, sans aucune garantie procédurale.",
@@ -317,6 +332,13 @@ pic('l-gilles.png', 80, 470, 840, W(8.2, 2)[0] - 0.3, b, "Réponse de Gilles Fé
 text("Lise Féliho — sommation du 3 avril 2024 : personne à convoquer n° 2.<br>Convocations produites : n° 141 (Maître Fade), n° 142 (Maître Balley).<br><span class='ocre'>Aucune convocation à son nom.</span>", 1000, 200, 840, W(8.2, 3)[0] - 0.3, b, 'quote')
 pic('g-tete.png', 1000, 470, 840, W(8.2, 4)[0] - 0.3, b, "Lettre du notaire Denise Ehouzou Gangnito à Maître Victorien Fade, 19 septembre 2007 : adjudication au profit de Gilles Sixte Féliho", cls='p82')
 
+# --- 8.3 : le second courriel de Lise (« ta maison », sans date)
+a, b = Q(8.3)
+text("COURRIEL DE LISE FÉLIHO À GILLES FÉLIHO — « ta maison » — SANS DATE", 80, 62, 1760, a + 0.2, b, 'colhead wide')
+pic('t-mail-a.png', 80, 150, 1700, W(8.3, 1)[0] - 0.3, b, "Courriel non daté, 1ʳᵉ partie (adresse électronique de l'expéditrice occultée)", find=("Fade est quelque peu difficile", "il lui aurait demandé à continuer de gérer les dossiers dont il avait la charge, mais Papa aurait refusé"), cls='p83')
+pic('t-mail-b.png', 80, 470, 1700, W(8.3, 2)[0] - 0.3, b, "Même courriel, 2ᵉ partie : « Ce que je propose, c'est de trouver les coordonnées de FADE […] »", find=("trouver les coordonnées de FADE, et le remettre sur le dossier", "maîtrisant le dossier pour l'avoir suivi à son début, il fera l'affaire", "pièces juridiques de ventes y compris le permis d'habiter"), cls='p83')
+text("Aucune date n'apparaît sur cet extrait, publié tel que reçu.", 80, 800, 1700, W(8.3, 4)[0] - 0.3, b, 'quote ocrebox')
+
 # --- 8.5 : Maître Fade, mandataire de Gilles Féliho en 2007
 a, b = Q(8.5)
 heads(a + 0.2, b, 'CE QUE LE NOTAIRE ÉCRIT (2007)', 'CE QUE DIT LE JUGEMENT (2014)')
@@ -341,15 +363,23 @@ pic('m3-achete.png', 1000, 360, 840, W(9, 5)[0] - 0.3, b, "Mémoire du 29 avril 
 text("Un achat n'est pas un legs.<br>Une acquisition n'est pas une disposition.<br>Le testament n'est pas dans les pièces.", 80, 660, 840, W(9, 6)[0] - 0.2, W(9, 7)[0] - 0.2, 'bigtext')
 text("Faire dire au testament<br>ce qu'un testament ne peut pas dire.", 80, 660, 1760, W(9, 7)[0] - 0.2, b, 'bigtext ocretext')
 
-# --- 10 : « non assorti de recours » et l'usurpation
-a, b = Q(10)
-heads(a + 0.2, b, 'CE QUE DIT LE JUGEMENT', 'CE QU\'ÉCRIT LE MÉMOIRE')
-pic('jg8a.png', 80, 150, 840, W(10, 1)[0] - 0.3, b, "Jugement du 31 octobre 2014, dispositif : « en premier ressort »", find=("en premier ressort",), cls='p10')
-pic('jg8b.png', 80, 600, 840, W(10, 1)[0] + 0.6, b, "Même dispositif : « Ordonne l'exécution provisoire » ; « Délai d'appel : 01 mois »", find=("Ordonne l'exécution provisoire", "Délai d'appel : 01 mois"), cls='p10')
-pic('m4-chose.png', 1000, 150, 840, W(10, 0)[0] - 0.3, b, "Mémoire du 29 avril 2025, p. 4 — signé Sabi Fulbert Konto", find=("autorité de la chose jugée est non assorti de recours",), cls='p10')
-text("« Une usurpation des prérogatives judiciaires, sans aucune garantie procédurale »<br><span class='cap2'>Réplique du plaignant à la Cour constitutionnelle, 2 juin 2025</span>", 1000, 640, 840, W(10, 3)[0] - 0.3, b, 'quote ocrebox')
+# --- 9.8 : « non assorti de recours » et l'attestation d'appel
+a, b = Q(9.8)
+heads(a + 0.2, b, 'CE QU\'ÉCRIT LE MÉMOIRE', 'CE QU\'ATTESTE LE GREFFE')
+pic('m4-chose.png', 80, 150, 840, W(9.8, 0)[0] - 0.3, b, "Mémoire du 29 avril 2025, p. 4 — signé Sabi Fulbert Konto", find=("autorité de la chose jugée est non assorti de recours",), cls='p98')
+pic('ap-attestation.png', 1000, 140, 720, W(9.8, 1)[0] - 0.3, b, "Attestation d'appel du 17 novembre 2014, tribunal de première instance de première classe de Cotonou", find=("Vu l'appel n° 015/2014/3ème EP/GTC en date du 31 Octobre 2014", "Certifie et Atteste que le jugement précité est frappé d'appel"), cls='p98')
+card(31, 'OCT.', 2014, 80, 530, W(9.8, 2)[0] - 0.2, b, 'sm', 'Jugement et appel n° 015/2014')
+card(17, 'NOV.', 2014, 400, 530, W(9.8, 1)[0] - 0.2, b, 'sm', 'Attestation du greffier en chef')
+text("L'attestation du greffe dit le contraire de ce que le mémoire écrit.", 80, 790, 840, W(9.8, 3)[0] - 0.3, b, 'quote ocrebox')
 
-text("Faire dire au testament ce qu'il ne peut pas dire.<br>Faire dire au jugement ce qu'il ne dit pas.", 1000, 830, 840, W(10, 4)[0] - 0.2, b, 'quote ocretext')
+# --- 10 : l'usurpation
+a, b = Q(10)
+heads(a + 0.2, b, 'CE QUE DIT LE JUGEMENT', 'CE QU\'EN FAIT LA BRIGADE')
+pic('jg8a.png', 80, 150, 840, W(10, 0)[0] - 0.3, b, "Jugement du 31 octobre 2014, dispositif : « en premier ressort »", find=("en premier ressort",), cls='p10')
+pic('jg8b.png', 80, 600, 840, W(10, 0)[0] + 0.6, b, "Même dispositif : « Ordonne l'exécution provisoire » ; « Délai d'appel : 01 mois »", find=("Ordonne l'exécution provisoire", "Délai d'appel : 01 mois"), cls='p10')
+text("« Une usurpation des prérogatives judiciaires, sans aucune garantie procédurale »<br><span class='cap2'>Réplique du plaignant à la Cour constitutionnelle, 2 juin 2025</span>", 1000, 250, 840, W(10, 2)[0] - 0.3, b, 'quote ocrebox')
+
+text("Faire dire au testament ce qu'il ne peut pas dire.<br>Faire dire au jugement ce qu'il ne dit pas.", 1000, 520, 840, W(10, 3)[0] - 0.2, b, 'quote ocretext')
 
 # --- 11 : l'intention prêtée
 a, b = Q(11)
@@ -399,7 +429,7 @@ a, b = SQ[15]
 text('wadagni2026-verite.com', 0, 300, 1920, a + 0.6, b, 'url', 0.8)
 text('Les pièces reproduites dans ce film sont publiées dans leur intégralité sur le site, avec leurs empreintes numériques.', 0, 400, 1920, a + 1.6, b, 'finsmall', 0.8)
 text("Les extraits reproduits sont des copies partielles. Les annotations rouges des originaux ont été effacées des recadrages ; les coordonnées personnelles sont occultées.<br>"
-     "Le chef de la Brigade criminelle d'avril 2024 est désigné par la lettre du 29 avril 2025 comme « le Chef d'alors », sans être nommé. Le testament est daté du 16 juillet 2009 dans le procès-verbal de compulsion et du 19 juillet 2009 dans le jugement.", 160, 560, 1600, a + 2.6, b, 'precis', 0.8)
+     "Le chef de la Brigade criminelle d'avril 2024 est désigné par la lettre du 29 avril 2025 comme « le Chef d'alors », sans être nommé. Le testament est daté du 16 juillet 2009 dans le procès-verbal de compulsion et du 19 juillet 2009 dans le jugement. Le second courriel de Lise Féliho (« ta maison ») ne porte pas de date.", 160, 560, 1600, a + 2.6, b, 'precis', 0.8)
 
 CSS = '''
 :root{--navy:#0a1f44;--gold:#d4af37;--ink:#f8fafc;--mute:#94a3b8}
