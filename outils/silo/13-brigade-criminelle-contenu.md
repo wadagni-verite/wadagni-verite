@@ -84,6 +84,12 @@ Votre navigateur ne lit pas cette vidéo.
 - *Ce que dit le jugement* (p. 1) : les héritiers demandeurs sont « tous assistés de Maître Victorien Olatoundji FADE, Avocat à la cour ». Il vise la « parcelle bâtie sise au lot 488 de Cotonou, quartier Gbégamey » (p. 5).
 - *Ce que les pièces établissent.* En 2007, avant le décès de Jean Florentin Féliho, Maître Fade est le mandataire de Gilles Féliho pour une parcelle de Gbégamey, le lot 923. Le jugement de 2014 vise le lot 488. La seule pièce produite par le plaignant sur un bien à Gbégamey est cette lettre de 2007.
 
+**11. Lise Féliho, en 2007 : « ta maison », « le notaire », « la main levée »**
+
+- *Ce qu'écrit Lise Féliho* (courriel du 6 août 2007, [pièce](/pieces/courriel-lise-gilles-feliho-2007-08-07.pdf), p. 2) : « Il faudra prévoir écrire au notaire pour dder la main levée, mais également en tant que new propriétaire les documents légaux. » Elle y décrit aussi les locataires, les loyers perçus et les cautions de « ta maison », et écrit au sujet du notaire : « je voulais confier ça à FADE et tu as refusé ».
+- *Ce qu'écrit Gilles Féliho* (7 août 2007, p. 1) : « Concernant le titre de propriété de la maison. J'ai effectivement dit que je m'en chargeais […] je vais m'occuper de ce volet. »
+- *Ce que les pièces établissent.* Ces courriels datent de trois ans avant le décès de Jean Florentin Féliho (3 décembre 2010). Six semaines plus tard, le 19 septembre 2007, le notaire transmet à Maître Fade les pièces de l'adjudication de constructions sur la parcelle B du lot 923 de Gbégamey, au profit de Gilles Féliho. Les courriels ne nomment pas la parcelle. Lise Féliho est la deuxième des six personnes dont la sommation exige la convocation ; aucune convocation à son nom n'est produite.
+
 ### Les durées
 
 | Durée | Calcul | Pièces |
@@ -105,6 +111,7 @@ Votre navigateur ne lit pas cette vidéo.
 | Procès-verbal de compulsion du 19 décembre 2017 | [PDF](/pieces/pv-compulsion-parcelle-b-lot-488-2017-12.pdf) |
 | Avis de classement du 3 juillet 2025 | [PDF](/pieces/avis-de-classement-criet-2025-07-03.pdf) |
 | Lettre du notaire Denise Ehouzou Gangnito à Maître Victorien Fade, 19 septembre 2007 | [PDF](/pieces/lettre-notaire-gangnito-a-me-fade-2007-09-19.pdf) |
+| Courriels de Gilles et Lise Féliho des 6 et 7 août 2007 | [PDF, 2 pages](/pieces/courriel-lise-gilles-feliho-2007-08-07.pdf) — adresses électroniques, adresse IP et compte bancaire occultés |
 
 Les empreintes SHA-256 de ces fichiers figurent sur la page [Sources et pièces vérifiables](/batonnier-hounkpatin/sources-et-pieces-verifiables/).
 
