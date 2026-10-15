@@ -171,13 +171,13 @@ _r.seed(5)
 DUST = '<svg width="520" height="420" viewBox="0 0 520 420">' + ''.join(
     f'<circle cx="{_r.randint(10,510)}" cy="{_r.randint(30,410)}" r="{_r.choice([1.5,2,2.5,3,4])}" fill="#d6c9a8" opacity="{_r.choice([.35,.5,.65,.8])}"/>' for _ in range(160)) + '</svg>'
 CAL = ["SEPTEMBRE 2025", "OCTOBRE", "NOVEMBRE", "DÉCEMBRE", "JANVIER 2026", "FÉVRIER", "MARS", "AVRIL", "MAI", "JUIN", "JUILLET", "AOÛT", "SEPTEMBRE 2026", "OCTOBRE 2026"]
-RWIN = 'left:960px;top:60px;width:900px;height:940px;overflow:hidden;border:4px solid var(--gold);border-radius:8px;background:#0b1630'
+RWIN = 'left:960px;top:60px;width:900px;height:880px;overflow:hidden;border:4px solid var(--gold);border-radius:8px;background:#0b1630'
 IMGR = '<img src="img/recepisse-full.jpg" style="width:810px;height:1080px;display:block">'
 def rzoom(a, b, W1, extra=''):
     # fenêtre du récépissé : ajuster, QR, montant, date, puis retour
     s0, s1, s2, s3, s4 = [W1[i][0] for i in range(5)]
-    keys = [[a, 97, 0, .87], [s0, 97, 0, .87], [s0 + 1.4, 18, -1104, 3.2], [s1 - 0.5, 18, -1104, 3.2], [s1 + 0.6, 97, 0, .87],
-            [s2 - 0.2, 97, 0, .87], [s2 + 0.9, -990, -394, 2.4], [s3 - 0.3, -990, -394, 2.4], [s3 + 0.8, -1370, 0, 2.8], [s4 - 0.2, -1370, 0, 2.8], [s4 + 1.0, 97, 0, .87]]
+    keys = [[a, 122, 2, .81], [s0, 122, 2, .81], [s0 + 1.4, 18, -1134, 3.2], [s1 - 0.5, 18, -1134, 3.2], [s1 + 0.6, 122, 2, .81],
+            [s2 - 0.2, 122, 2, .81], [s2 + 0.9, -990, -424, 2.4], [s3 - 0.3, -990, -424, 2.4], [s3 + 0.8, -1370, -30, 2.8], [s4 - 0.2, -1370, -30, 2.8], [s4 + 1.0, 122, 2, .81]]
     return keys
 
 el("Aucune infraction n'est imputée aux personnes citées : ce film présente une plainte et des pièces publiées. Les qualifications pénales relèvent des juridictions compétentes. Droit de réponse ouvert.", 0, TOTAL, 0.6, 'bandeau')
@@ -279,13 +279,13 @@ FOLDC = ('<div style="width:320px;height:230px;background:#cfc3a1;border:3px sol
 el(FOLDC, a + 0.3, b, 0.8, '', 'left:1000px;top:200px;width:520px;height:420px')
 el(kf(DUST, [[a, 0, 0, 1, 0], [W10[1][0], 0, 0, 1, .25], [W10[2][0], 0, 0, 1, .9]], ''), a + 0.3, b, 0.2, '', 'left:1000px;top:200px;width:520px;height:420px')
 text("Aucune convocation<br>Aucune notification<br>Aucune décision<br><span class='cap2'>reçue par le plaignant</span>", 1000, 650, 840, W10[2][0] - 0.2, b, 'quote ocrebox')
-counter(381, 'JOURS', 80, 830, W10[3][0] - 0.2, b, W10[3][0], W10[3][0] + 2.6, w=840, size=120, sub="du 29 septembre 2025 au 15 octobre 2026 : aucune suite connue")
+counter(381, 'JOURS', 80, 800, W10[3][0] - 0.2, b, W10[3][0], W10[3][0] + 2.6, w=840, size=100, sub="du 29 septembre 2025 au 15 octobre 2026 : aucune suite connue")
 
 # --- 11 : le contraste
 a, b = Q(11)
 W11 = [W(11, i) for i in range(3)]
 text("CE QUI A ÉTÉ FAIT", 80, 62, 840, a + 0.2, b, 'colhead'); text("CE QUI N'A PAS SUIVI (à la connaissance du plaignant)", 1000, 62, 840, a + 0.2, b, 'colhead')
-el('', a, b, 0.5, 'vbar', 'left:959px;top:56px;height:880px')
+el('', a, b, 0.5, 'vbar', 'left:959px;top:56px;height:740px')
 for i, tx in enumerate(["Une quittance payée", "Une plainte déposée", "Des pièces jointes"]):
     text(tx, 80, 170 + i * 120, 840, W11[0][0] + i * 0.9, b, 'nm')
 el('<div style="width:840px;height:640px;border:4px dashed rgba(199,210,254,.45);border-radius:10px"></div>', W11[1][0] - 0.3, b, 0.6, '', 'left:1000px;top:150px;width:840px;height:640px')
@@ -296,8 +296,8 @@ text("Une quittance est une pièce.<br>L'absence de suite est une constatation d
 # --- 12 : les questions, la quittance
 a, b = Q(12)
 W12 = [W(12, i) for i in range(5)]
-el(kf(IMGR, [[a, 97, 0, .87]], 'width:810px;height:1080px'), a + 0.2, b, 0.8, '', RWIN)
-el('<div class="pulse" style="position:absolute;left:1060px;top:515px;width:110px;height:110px;border:6px solid #c0392b;border-radius:10px"></div>', a + 0.4, b, 0.4, '', 'left:0;top:0;width:1920px;height:1080px')
+el(kf(IMGR, [[a, 122, 2, .81]], 'width:810px;height:1080px'), a + 0.2, b, 0.8, '', RWIN)
+el('<div class="pulse" style="position:absolute;left:1140px;top:410px;width:110px;height:110px;border:6px solid #c0392b;border-radius:10px"></div>', a + 0.4, b, 0.4, '', 'left:0;top:0;width:1920px;height:1080px')
 QS = ["Quelle suite a été donnée à la plainte reçue le 29 septembre 2025 ?", "Une consignation a-t-elle été fixée, comme la plainte le demande ?",
       "Un juge d'instruction a-t-il été saisi ?", "Où les notifications adressées au domicile élu doivent-elles parvenir, et en existe-t-il ?"]
 for i, q in enumerate(QS):
@@ -307,7 +307,7 @@ text("Le plaignant a payé la quittance.<br>Il attend une réponse.", 80, 380, 8
 # --- 13 : la conclusion
 a, b = Q(13)
 W13 = [W(13, i) for i in range(2)]
-el(kf(IMGR, [[a, 97, 0, .87, 1], [a + 2.0, 97, 0, .87, 1], [a + 4.5, 97, 0, .87, 0]], 'width:810px;height:1080px'), a, b, 0.2, '', RWIN)
+el(kf(IMGR, [[a, 122, 2, .81, 1], [a + 2.0, 122, 2, .81, 1], [a + 4.5, 122, 2, .81, 0]], 'width:810px;height:1080px'), a, a + 4.8, 0.3, '', RWIN)
 text("La quittance est payée.<br>Aucune suite connue du plaignant.", 80, 300, 840, W13[0][0] - 0.2, b, 'title2')
 text("Ce n'est pas une opinion : ce sont des pièces.", 80, 620, 840, W13[1][0] - 0.2, b, 'quote ocretext')
 text("Gilles Sixte FELIHO — plaignant, partie civile", 80, 780, 840, W13[1][0] + 1.4, b, 'ctext')
@@ -360,7 +360,7 @@ html,body{width:1920px;height:1080px;overflow:hidden;background:#050d1f;font-fam
 .url{font-size:64px;text-align:center;font-family:'DejaVu Serif',serif;color:#fff}.finsmall{font-size:30px;text-align:center;color:var(--mute)}
 .precis{font-size:24px;line-height:1.6;color:#cbd5e1}
 .bandeau{left:0;bottom:0;width:1920px;height:88px;background:rgba(0,0,0,.7);color:#fff;font-size:26px;line-height:1.3;padding:12px 60px;z-index:50}
-.trow{min-height:128px;align-items:start;display:grid;grid-template-columns:250px 1fr 230px;gap:18px;font-size:24px;line-height:1.3;background:rgba(255,255,255,.07);border-left:6px solid var(--gold);padding:12px 16px}.trow.thead{background:none;border:0;font-size:20px;letter-spacing:.08em;color:var(--gold);padding-top:0;padding-bottom:0}\n.title2{font-family:'DejaVu Serif',serif;font-size:56px;line-height:1.25;font-weight:700}\n.kf{position:absolute;left:0;top:0}\n.gap{text-align:center;font-size:20px;white-space:nowrap}\n.date3.ret{border:4px solid var(--gold);padding:14px;color:var(--gold)}\n.p6,.p4,.p5,.p7,.p3{}\nbody.fin #stage{background:#000}
+.trow{min-height:128px;align-items:start;display:grid;grid-template-columns:250px 1fr 230px;gap:18px;font-size:24px;line-height:1.3;background:rgba(255,255,255,.07);border-left:6px solid var(--gold);padding:12px 16px}.trow.thead{background:none;border:0;font-size:20px;letter-spacing:.08em;color:var(--gold);padding-top:0;padding-bottom:0}\n.title2{font-family:'DejaVu Serif',serif;font-size:56px;line-height:1.25;font-weight:700}\n.kf{position:absolute;left:0;top:0;transform-origin:0 0}\n.gap{text-align:center;font-size:20px;white-space:nowrap}\n.date3.ret{border:4px solid var(--gold);padding:14px;color:var(--gold)}\n.p6,.p4,.p5,.p7,.p3{}\nbody.fin #stage{background:#000}
 '''
 JS = '''
 const ELS=[...document.querySelectorAll('.el')],CNS=[...document.querySelectorAll('.cn')],KFS=[...document.querySelectorAll('.kf')],PUL=[...document.querySelectorAll('.pulse')];
@@ -383,7 +383,7 @@ window.seek=function(t){
 };
 seek(0);
 ''' % (TOTAL, SQ[15][0] - 0.3)
-html = f'<!doctype html><html lang="fr"><head><meta charset="utf-8"><title>La voie indiquée, déjà empruntée</title><style>{CSS}</style></head><body><div id="stage">\n' + '\n'.join(EL) + f'\n</div><script>{JS}</script></body></html>'
+html = f'<!doctype html><html lang="fr"><head><meta charset="utf-8"><title>La quittance sans suite</title><style>{CSS}</style></head><body><div id="stage">\n' + '\n'.join(EL) + f'\n</div><script>{JS}</script></body></html>'
 open(os.path.join(here, 'motion.html'), 'w', encoding='utf-8').write(html)
 json.dump({'total': TOTAL, 'sequences': {str(k_): v for k_, v in SQ.items()}, 'cues': cues}, open(os.path.join(out, 'timeline.json'), 'w'), ensure_ascii=False, indent=1)
 print('durée totale', round(TOTAL, 1), 's ; séquences', {k_: (round(a_, 1), round(b_, 1)) for k_, (a_, b_) in SQ.items()})
