@@ -190,7 +190,7 @@ text("Depuis le dépôt : <span class='ocre'>aucune suite connue.</span>", 160, 
 a, b = Q(3)
 heads(a + 0.2, b, 'LE DÉPÔT', 'LE RÉCÉPISSÉ DU TRÉSOR PUBLIC')
 pic('pc-objet.png', 80, 140, 840, a + 0.4, b, "Plainte avec constitution de partie civile, p. 1 : destinataire, objet (coordonnées du plaignant occultées)", find=("Madame, Monsieur le Doyen des Juges d'Instruction", "Plainte avec Constitution de Partie Civile"), cls='p3')
-pic('pc-cachet.png', 80, 470, 560, W(3, 1)[0] - 0.3, b, "Même page : cachet du tribunal de première instance de Cotonou, mention manuscrite non datée", hl=((38, 4, 52, 70),), cls='p3')
+pic('pc-cachet.png', 80, 470, 560, W(3, 1)[0] - 0.3, b, "Même page : cachet du tribunal de première instance de Cotonou, mention manuscrite non datée", cls='p3')
 pic('recepisse.png', 1000, 140, 840, W(3, 2)[0] - 0.3, b, "Récépissé n° 25036294-026G, Direction générale du Trésor : « PLAINTE », 3 000 FCFA, en espèces", find=("TRIBUNAL DE PREMIERE INSTANCE DE 1ERE CLASSE DE COTONOU", "PLAINTE"), cls='p3')
 text("29 SEPTEMBRE 2025<br><small>récépissé : nature « PLAINTE » · 3 000 FCFA</small>", 1000, 640, 840, W(3, 3)[0] - 0.3, b, 'date3 ret')
 
@@ -226,11 +226,11 @@ text("Plainte avec constitution de partie civile, pp. 9 à 11 — les termes son
 # --- 7 : le bordereau
 a, b = Q(7)
 heads(a + 0.2, b, 'LE BORDEREAU DES PIÈCES JOINTES', 'DES PIÈCES PUBLIÉES SUR LE SITE')
-pic('pc-bordereau.png', 80, 140, 640, a + 0.4, b, "Plainte, p. 12 : bordereau des dix pièces jointes", find=("Copie du Jugement", "Certificat d'appel en date du 17 novembre 2014", "Lettre de transmission du 19 septembre 2007"), cls='p7')
-text("<b>Pièce n° 2</b> · le jugement du 31 octobre 2014<br><b>Pièce n° 3</b> · sa signification, 9 mars 2015<br><b>Pièce n° 4</b> · le procès-verbal de compulsion, 19 décembre 2017", 800, 150, 1040, W(7, 1)[0] - 0.3, b, 'quote')
-text("<b>Pièce n° 5</b> · la décision de classement du 3 juillet 2025, reçue le 26 septembre", 800, 420, 1040, W(7, 1)[0] + 1.5, b, 'quote')
-text("<b>Pièce n° 9</b> · le certificat d'appel du 17 novembre 2014", 800, 550, 1040, W(7, 2)[0] - 0.3, b, 'quote')
-text("<b>Pièce n° 10</b> · la lettre du notaire Gangnito à Me Fade, 19 septembre 2007", 800, 680, 1040, W(7, 3)[0] - 0.3, b, 'quote')
+pic('pc-bordereau.png', 80, 140, 840, a + 0.4, b, "Plainte, p. 12 : bordereau des dix pièces jointes", find=("Copie du Jugement", "Certificat d'appel en date du 17 novembre 2014", "Lettre de transmission du 19 septembre 2007"), cls='p7')
+text("<b>Pièce n° 2</b> · le jugement du 31 octobre 2014<br><b>Pièce n° 3</b> · sa signification, 9 mars 2015<br><b>Pièce n° 4</b> · le procès-verbal de compulsion, 19 décembre 2017", 1000, 150, 840, W(7, 1)[0] - 0.3, b, 'quote')
+text("<b>Pièce n° 5</b> · la décision de classement du 3 juillet 2025, reçue le 26 septembre", 1000, 420, 840, W(7, 1)[0] + 1.5, b, 'quote')
+text("<b>Pièce n° 9</b> · le certificat d'appel du 17 novembre 2014", 1000, 550, 840, W(7, 2)[0] - 0.3, b, 'quote')
+text("<b>Pièce n° 10</b> · la lettre du notaire Gangnito à Me Fade, 19 septembre 2007", 1000, 680, 840, W(7, 3)[0] - 0.3, b, 'quote')
 
 # --- 8 : les durées
 a, b = Q(8)
