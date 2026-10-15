@@ -41,14 +41,16 @@ SEQ = {
       ("Le même jour, elle met le notaire en demeure de produire, sous huit jours, les autorisations et consentements.", "Le même jour, elle met le notaire en demeure de produire, sous huit jours, les autorisations et consentements."),
       ("Il répond le 27 décembre, en invoquant les devoirs de son office.", "Il répond le vingt-sept décembre, en invoquant les devoirs de son office.")),
  6: Z(1.14, 0.9, 1.6,
-      ("Le 19 juin 2024, deux cent soixante jours après la plainte : première séance contentieuse.", "Le dix-neuf juin deux mille vingt-quatre, deux cent soixante jours après la plainte : première séance contentieuse."),
+      ("Le 21 mai 2024, l'Autorité invite le plaignant à une séance le 28 mai, à 18 heures.", "Le vingt et un mai deux mille vingt-quatre, l'Autorité invite le plaignant à une séance le vingt-huit mai, à dix-huit heures."),
+      ("Le 24 mai, il pose trois questions : comment assister à distance, s'il doit produire un mémoire, et si les échanges sont contradictoires, car il a cru comprendre que le notaire a fourni des pièces dont il n'a pas connaissance.", "Le vingt-quatre mai, il pose trois questions : comment assister à distance, s'il doit produire un mémoire, et si les échanges sont contradictoires, car il a cru comprendre que le notaire a fourni des pièces dont il n'a pas connaissance."),
+      ("Le 19 juin 2024, deux cent soixante jours après la plainte : séance contentieuse.", "Le dix-neuf juin deux mille vingt-quatre, deux cent soixante jours après la plainte : séance contentieuse."),
       ("La séance est présidée par Claude Dieu Donné Montcho, en présence du président Luciano Hounkponou et du rapporteur Amouda Abou Seydou.", "La séance est présidée par Claude Dieu Donné Montcho, en présence du président Luciano Hounkponou et du rapporteur Amouda Abou Seydou."),
       ("Le notaire est assisté de son avocat. Le plaignant est absent.", "Le notaire est assisté de son avocat. Le plaignant est absent."),
       ("Son avocat s'excuse, au nom de son client, de l'ignorance de l'obligation légale de mise en conformité.", "Son avocat s'excuse, au nom de son client, de l'ignorance de l'obligation légale de mise en conformité."),
       ("Délibéré au 24 juillet, pour audition du plaignant.", "Délibéré au vingt-quatre juillet, pour audition du plaignant.")),
  7: Z(1.14, 0.9, 1.6,
       ("Le 23 juillet, le rapporteur écrit au plaignant : pour obtenir le rapport d'instruction notifié au défendeur, il doit formuler sa demande en séance plénière.", "Le vingt-trois juillet, le rapporteur écrit au plaignant : pour obtenir le rapport d'instruction notifié au défendeur, il doit formuler sa demande en séance plénière."),
-      ("Le 24 juillet, l'Autorité envoie le lien de la séance. Réponse du plaignant : « Je n'ai pas accès ».", "Le vingt-quatre juillet, l'Autorité envoie le lien de la séance. Réponse du plaignant : « Je n'ai pas accès »."),
+      ("Le 24 juillet, le plaignant écrit : « J'attends le lien de participation annoncé ». L'Autorité envoie le lien. Réponse : « Je n'ai pas accès ».", "Le vingt-quatre juillet, le plaignant écrit : « J'attends le lien de participation annoncé ». L'Autorité envoie le lien. Réponse : « Je n'ai pas accès »."),
       ("Le procès-verbal le mentionne ensuite « participant en ligne ».", "Le procès-verbal le mentionne ensuite « participant en ligne »."),
       ("Le 28 août, le procès-verbal consigne que la plénière ne peut faire suite à sa demande de mise à disposition du rapport d'instruction adressé au notaire.", "Le vingt-huit août, le procès-verbal consigne que la plénière ne peut faire suite à sa demande de mise à disposition du rapport d'instruction adressé au notaire.")),
  8: Z(1.14, 0.9, 1.6,
@@ -285,26 +287,37 @@ text("« <b>une suite vous sera donnée incessamment</b> »", 1000, 470, 840, W5
 text("Le même jour : <b>mise en demeure du notaire</b>, huit jours, pour produire les autorisations et consentements", 1000, 620, 840, W5[2][0] - 0.2, b, 'quote')
 text("<b>27 décembre</b> : réponse du notaire, « les devoirs que la loi met à sa charge en raison de son office »", 1000, 800, 840, W5[3][0] - 0.2, b, 'quote')
 
-# --- 6 : 19 juin 2024
-a, b = Q(6); W6 = [W(6, i) for i in range(5)]
-heads(a + 0.2, b, 'PREMIÈRE SÉANCE · 19 JUIN 2024', 'LE PROCÈS-VERBAL')
-pic('pv-06-19-p1.png', 80, 140, 840, a + 0.4, W6[3][0] - 0.3, "APDP, procès-verbal de séance du 19 juin 2024, p. 1", h=730, cls='p6')
-pic('pv-06-19-p3.png', 80, 140, 840, W6[3][0] - 0.3, b, "APDP, procès-verbal de séance du 19 juin 2024, p. 3", h=730, cls='p6')
-counter(260, 'JOURS', 1000, 140, a + 0.4, b, W6[0][0] + 0.4, W6[0][0] + 2.2, w=840, size=150, sub="du 3 octobre 2023 au 19 juin 2024 : de la plainte à la première séance")
-text("Présidence : <b>Claude Dieu Donné Montcho</b><br>Bureau : <b>Luciano Hounkponou</b>, président · <b>Amouda Abou Seydou</b>, rapporteur", 1000, 470, 840, W6[1][0] - 0.2, b, 'quote')
-text("Le notaire : <b>assisté de son avocat</b><br>Le plaignant : <b>absent</b>", 1000, 650, 840, W6[2][0] - 0.2, W6[3][0] - 0.3, 'quote')
-text("Son avocat « s'est excusé au nom de son client quant à l'ignorance de l'obligation légale de mise en conformité »", 1000, 640, 840, W6[3][0] - 0.2, b, 'quote ocrebox')
-text("<b>Délibéré : 24 juillet 2024</b>", 1000, 830, 840, W6[4][0] - 0.2, b, 'bigtext')
+# --- 6 : mai, puis 19 juin 2024
+a, b = Q(6); W6 = [W(6, i) for i in range(7)]
+heads(a + 0.2, b, 'MAI · JUIN 2024', 'DU COURRIEL AU PROCÈS-VERBAL')
+pic('mail-24-05.jpg', 80, 140, 840, a + 0.4, W6[2][0] - 0.3, "Courriel du plaignant à l'APDP, 24 mai 2024 (coordonnées occultées)", h=730, cls='p6')
+pic('pv-06-19-p1.png', 80, 140, 840, W6[2][0] - 0.3, W6[5][0] - 0.3, "APDP, procès-verbal de séance du 19 juin 2024, p. 1", h=730, cls='p6')
+pic('pv-06-19-p3.png', 80, 140, 840, W6[5][0] - 0.3, b, "APDP, procès-verbal de séance du 19 juin 2024, p. 3", h=730, cls='p6')
+card(21, 'MAI', 2024, 1000, 160, W6[0][0] - 0.2, W6[1][0] - 0.3, 'big', 'invitation : séance du 28 mai, 18 h')
+card(24, 'MAI', 2024, 1000, 160, W6[1][0] - 0.2, W6[2][0] - 0.3, 'big', 'trois questions')
+for i, tx in enumerate(["Comment assister <b>à distance</b> ?", "Dois-je produire <b>un mémoire</b> ?", "Les échanges sont-ils <b>contradictoires</b> ?"]):
+    text(tx, 1000, 560 + i * 110, 840, W6[1][0] + 1.5 + i * 3.0, W6[2][0] - 0.3, 'nm')
+counter(260, 'JOURS', 1000, 140, W6[2][0] - 0.2, b, W6[2][0] + 0.4, W6[2][0] + 2.2, w=840, size=150, sub="du 3 octobre 2023 au 19 juin 2024 : de la plainte à la séance")
+text("Présidence : <b>Claude Dieu Donné Montcho</b><br>Bureau : <b>Luciano Hounkponou</b>, président · <b>Amouda Abou Seydou</b>, rapporteur", 1000, 470, 840, W6[3][0] - 0.2, b, 'quote')
+text("Le notaire : <b>assisté de son avocat</b><br>Le plaignant : <b>absent</b>", 1000, 650, 840, W6[4][0] - 0.2, W6[5][0] - 0.3, 'quote')
+text("Son avocat « s'est excusé au nom de son client quant à l'ignorance de l'obligation légale de mise en conformité »", 1000, 640, 840, W6[5][0] - 0.2, b, 'quote ocrebox')
+text("<b>Délibéré : 24 juillet 2024</b>", 1000, 830, 840, W6[6][0] - 0.2, b, 'bigtext')
 
 # --- 7 : les courriels de juillet, le rapport d'instruction
 a, b = Q(7); W7 = [W(7, i) for i in range(4)]
 heads(a + 0.2, b, 'JUILLET · AOÛT 2024', 'LA DEMANDE DU RAPPORT D\'INSTRUCTION')
-mail('23/07/2024', 'votre requête', "<p>Faisant suite à votre requête, pour l'obtention d'une copie du rapport d'instruction notifié au défendeur dans la procédure en cours auprès de l'Autorité, je vous invite à formuler expressément votre demande en session plénière du 24 juillet 2024 à laquelle vous avez été invité. Le lien pour participer à ladite session vous sera envoyé 30 minutes avant l'appel du dossier.</p><p>Le Rapporteur de l'APDP</p>", 80, 150, 840, a + 0.4, W7[1][0] - 0.3)
-mail('24/07/2024', 'Lien pour la Session contentieuse', "<p>Voici le lien pour la sessions contentieuse. Mercredi, 24 juillet. Google Meet. Nous attendons que vous soyez connecté.</p><div class='rep'><b>Réponse de Gilles Féliho :</b> « Je n'ai pas accès » (capture d'écran jointe)<br><i>« Vous ne pouvez pas participer à cet appel vidéo. »</i></div>", 80, 150, 840, W7[1][0] - 0.3, W7[2][0] - 0.3)
+d1 = W7[1][1] - W7[1][0]; t1 = W7[1][0]
+PH = [('mail-23-07.jpg', "Courriel de l'APDP, 23 juillet 2024", 23, 'JUIL.', "Le rapporteur : « formuler expressément votre demande en session plénière »", a + 0.4, W7[1][0] - 0.3),
+      ('mail-24-07-attente.jpg', "Courriel du plaignant, 24 juillet 2024 (coordonnées occultées)", 24, 'JUIL.', "Le plaignant : « J'attends le lien de participation annoncé »", W7[1][0] - 0.3, t1 + d1 * 0.38),
+      ('mail-24-07-lien.jpg', "Courriel de l'APDP, 24 juillet 2024 (coordonnées de l'agent occultées)", 24, 'JUIL.', "L'Autorité : le lien de la séance", t1 + d1 * 0.38, t1 + d1 * 0.62),
+      ('mail-24-07-acces.jpg', "Réponse du plaignant, 24 juillet 2024 (coordonnées occultées)", 24, 'JUIL.', "Le plaignant : « Je n'ai pas accès »", t1 + d1 * 0.62, W7[2][0] - 0.3)]
+for im, cap, dd, mm, lb, ta, tb in PH:
+    pic(im, 80, 140, 840, ta, tb, cap, h=730, cls='p7')
+    card(dd, mm, 2024, 1000, 160, ta + 0.2, tb, 'big')
+    text(lb, 1450, 200, 400, ta + 0.6, tb, 'ctext')
 pic('pv-07-24-p1.png', 80, 140, 840, W7[2][0] - 0.3, W7[3][0] - 0.3, "APDP, procès-verbal de séance du 24 juillet 2024, p. 1", h=730, cls='p7')
 pic('pv-08-28-c.png', 80, 140, 840, W7[3][0] - 0.3, b, "APDP, procès-verbal de séance du 28 août 2024, p. 2", h=730, cls='p7')
-for i, (dd, mm, lb, ta, tb) in enumerate([(23, 'JUIL.', "Le rapporteur : « formuler expressément votre demande en session plénière »", W7[0][0], W7[1][0] - 0.3), (24, 'JUIL.', "Le plaignant : « Je n'ai pas accès »", W7[1][0], W7[2][0] - 0.3),
-                                         (24, 'JUIL.', "Procès-verbal : le plaignant est « Participant en ligne »", W7[2][0], W7[3][0] - 0.3), (28, 'AOÛT', "Procès-verbal : la Plénière « ne peut faire suite » à sa demande du rapport d'instruction adressé au notaire", W7[3][0], b)]):
+for dd, mm, lb, ta, tb in [(24, 'JUIL.', "Procès-verbal : le plaignant est « Participant en ligne »", W7[2][0], W7[3][0] - 0.3), (28, 'AOÛT', "Procès-verbal : la Plénière « ne peut faire suite » à sa demande du rapport d'instruction adressé au notaire", W7[3][0], b)]:
     card(dd, mm, 2024, 1000, 160, ta - 0.2, tb, 'big')
     text(lb, 1450, 200, 400, ta + 0.2, tb, 'ctext')
 
@@ -343,7 +356,7 @@ a, b = Q(11); W11 = [W(11, i) for i in range(3)]
 text("SEPT SÉANCES · 2024", 80, 62, 1760, a + 0.2, b, 'colhead wide')
 SD = [(19, 'JUIN'), (24, 'JUIL.'), (28, 'AOÛT'), (25, 'SEPT.'), (23, 'OCT.'), (27, 'NOV.'), (19, 'DÉC.')]
 for i, (dd, mm) in enumerate(SD):
-    card(dd, mm, 2024, 80 + i * 252, 190, W11[0][0] + 0.2 + i * 1.15, b, '', f'séance {i + 1}')
+    card(dd, mm, 2024, 80 + i * 252, 190, W11[0][0] + 0.2 + i * 1.15, b, '', '')
 text("<b>19 décembre 2024</b> · le dossier est mis en délibéré", 160, 560, 1600, W11[1][0] - 0.2, b, 'quote ocretext')
 text("Depuis : <span class='ocre'>rien.</span>", 160, 760, 1600, W11[2][0] - 0.2, b, 'title2')
 
@@ -387,7 +400,7 @@ text("Gilles Féliho — plaignant", 1000, 780, 840, W15[1][0] + 1.6, b, 'ctext'
 a, b = SQ[16]
 text('wadagni2026-verite.com', 0, 300, 1920, a + 0.6, b, 'url', 0.8)
 text('Les pièces reproduites dans ce film sont publiées sur le site, avec leurs empreintes numériques.', 0, 400, 1920, a + 1.6, b, 'finsmall', 0.8)
-text("Les extraits reproduits sont des copies partielles ; les coordonnées personnelles sont occultées. Les courriels des 23 et 24 juillet 2024 sont reproduits par leur texte. "
+text("Les extraits reproduits sont des copies partielles ; les coordonnées personnelles sont occultées. "
      "Les références et les articles sont ceux qui figurent dans les pièces et dans le Code du numérique. Le calendrier, le dossier et la poussière sont des illustrations.", 160, 560, 1600, a + 2.6, b, 'precis', 0.8)
 
 CSS = '''

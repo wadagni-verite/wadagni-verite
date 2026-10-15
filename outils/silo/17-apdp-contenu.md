@@ -31,17 +31,19 @@ Votre navigateur ne lit pas cette vidéo.
 | **3 octobre 2023** | **Réception de la plainte par l'APDP** | [Procès-verbaux](/pieces/procedures-benin/apdp-pv-audience-2024-06-19.pdf) : « reçue au secrétariat […] le 03 octobre 2023 » |
 | 14 décembre 2023 | Accusé de réception n° 2023-1793 : « une suite vous sera donnée incessamment » ; interpellation et mise en demeure du notaire (huit jours) | [Accusé de réception](/pieces/procedures-benin/apdp-accuse-reception-2023-12-14.pdf) |
 | 27 décembre 2023 | Réponse du notaire, qui invoque « les devoirs que la loi met à sa charge en raison de son office » | Procès-verbaux |
-| 19 juin 2024 | 1ʳᵉ séance contentieuse ; plaignant absent ; délibéré au 24 juillet | [PV](/pieces/procedures-benin/apdp-pv-audience-2024-06-19.pdf) |
-| 23 juillet 2024 | Le rapporteur invite le plaignant à formuler sa demande de rapport d'instruction en séance plénière | Courriel (texte reproduit dans le film) |
-| 24 juillet 2024 | 2ᵉ séance ; lien de la séance ; plaignant « Participant en ligne » | [PV](/pieces/procedures-benin/apdp-pv-audience-2024-07-24.pdf) |
-| 28 août 2024 | 3ᵉ séance ; la plénière « ne peut faire suite » à la demande de mise à disposition du rapport d'instruction adressé au notaire | [PV](/pieces/procedures-benin/apdp-pv-audience-2024-08-28.pdf) |
-| 25 septembre 2024 | 4ᵉ séance ; délibéré rabattu « afin de garantir le principe du contradictoire » ; renvoi au 23 octobre | [Lettre d'invitation](/pieces/procedures-benin/apdp-invitation-session-2024-10-10.pdf) |
+| 21 mai 2024 | Le Rapporteur de l'APDP invite le plaignant à la séance du 28 mai 2024, à 18 heures | [Courriels](/pieces/procedures-benin/apdp-courriels-2024.pdf), p. 1 |
+| 24 mai 2024 | Le plaignant pose trois questions : assister à distance ? produire un mémoire ? les échanges sont-ils contradictoires, des pièces du notaire lui étant inconnues ? | [Courriels](/pieces/procedures-benin/apdp-courriels-2024.pdf), p. 1 |
+| 19 juin 2024 | Séance contentieuse ; plaignant absent ; délibéré au 24 juillet | [PV](/pieces/procedures-benin/apdp-pv-audience-2024-06-19.pdf) |
+| 23 juillet 2024 | Le rapporteur invite le plaignant à formuler sa demande de rapport d'instruction en séance plénière | [Courriels](/pieces/procedures-benin/apdp-courriels-2024.pdf), p. 2 |
+| 24 juillet 2024 | Séance ; le plaignant attend le lien annoncé, l'APDP l'envoie, réponse « Je n'ai pas accès » ; le procès-verbal le mentionne « Participant en ligne » | [Courriels](/pieces/procedures-benin/apdp-courriels-2024.pdf), pp. 3 à 5 ; [PV](/pieces/procedures-benin/apdp-pv-audience-2024-07-24.pdf) |
+| 28 août 2024 | Séance ; la plénière « ne peut faire suite » à la demande de mise à disposition du rapport d'instruction adressé au notaire | [PV](/pieces/procedures-benin/apdp-pv-audience-2024-08-28.pdf) |
+| 25 septembre 2024 | Séance ; délibéré rabattu « afin de garantir le principe du contradictoire » ; renvoi au 23 octobre | [Lettre d'invitation](/pieces/procedures-benin/apdp-invitation-session-2024-10-10.pdf) |
 | 10 octobre 2024 | Lettre d'invitation à la séance du 23 octobre (article 457) | [Lettre](/pieces/procedures-benin/apdp-invitation-session-2024-10-10.pdf) |
 | 21 octobre 2024 | Observations et prétentions du plaignant | [Observations](/pieces/procedures-benin/apdp-observations-2024-10-21.pdf) |
-| 23 octobre 2024 | 5ᵉ séance ; lien envoyé au plaignant | Courriel (texte reproduit dans le film) |
-| 27 novembre 2024 | 6ᵉ séance ; dossier renvoyé au 19 décembre | [Lettre d'invitation n° 2024-3691 du 5 décembre](/pieces/procedures-benin/apdp-invitation-session-2024-12-05.pdf) |
+| 23 octobre 2024 | Séance ; lien envoyé au plaignant | [Courriels](/pieces/procedures-benin/apdp-courriels-2024.pdf), p. 6 |
+| 27 novembre 2024 | Séance ; dossier renvoyé au 19 décembre | [Lettre d'invitation n° 2024-3691 du 5 décembre](/pieces/procedures-benin/apdp-invitation-session-2024-12-05.pdf) |
 | 13 et 16 décembre 2024 | Le plaignant informe l'APDP du communiqué de presse qu'il entend publier ; l'APDP répond : dossier « mis en délibéré pour le 19 décembre prochain » | [Échange de courriels](/pieces/procedures-benin/apdp-echange-communique-2024-12.pdf) |
-| **19 décembre 2024** | **7ᵉ séance : dossier mis en délibéré** | Lettre du 5 décembre 2024 ; échange de courriels |
+| **19 décembre 2024** | **Séance : dossier mis en délibéré** | Lettre du 5 décembre 2024 ; échange de courriels |
 | depuis le 19 décembre 2024 | Aucune décision notifiée au plaignant | — |
 
 ### Ce que contient la plainte
@@ -81,7 +83,7 @@ Votre navigateur ne lit pas cette vidéo.
 **4. Le contradictoire**
 
 - *Ce que contiennent les pièces.* Le 25 septembre 2024, « le délibéré du dossier a été rabattu pour envoi des procès-verbaux des sessions précédentes au plaignant afin de garantir le principe du contradictoire » (lettre d'invitation du 10 octobre 2024). Le plaignant dépose ses observations le 21 octobre 2024, au vu des trois procès-verbaux.
-- *Ce que les pièces établissent.* Entre la première séance et la mise en délibéré, il s'écoule 183 jours (du 19 juin au 19 décembre 2024).
+- *Ce que les pièces établissent.* Entre la séance du 19 juin et la mise en délibéré, il s'écoule 183 jours (du 19 juin au 19 décembre 2024). Le 24 mai 2024 déjà, le plaignant demandait si les échanges étaient contradictoires, des pièces du notaire lui étant inconnues.
 
 **5. L'information du Procureur**
 
@@ -93,7 +95,7 @@ Votre navigateur ne lit pas cette vidéo.
 | Durée | Calcul | Pièces |
 |---|---|---|
 | **72 jours** | 3 octobre → 14 décembre 2023 : de la plainte à l'accusé de réception | Procès-verbaux ; accusé de réception |
-| **260 jours** | 3 octobre 2023 → 19 juin 2024 : de la plainte à la première séance | Procès-verbal du 19 juin 2024 |
+| **260 jours** | 3 octobre 2023 → 19 juin 2024 : de la plainte à la séance du 19 juin | Procès-verbal du 19 juin 2024 |
 | **443 jours** | 3 octobre 2023 → 19 décembre 2024 : de la plainte à la dernière séance | Lettre du 5 décembre 2024 ; courriels |
 | **665 jours** | 19 décembre 2024 → 15 octobre 2026 : depuis la dernière séance | Courriels ; confirmation de l'éditeur |
 | **1 108 jours** | 3 octobre 2023 → 15 octobre 2026 : depuis la plainte | Procès-verbaux ; confirmation de l'éditeur |
@@ -104,6 +106,7 @@ Votre navigateur ne lit pas cette vidéo.
 |---|---|
 | Plainte du 2 octobre 2023 contre le notaire Félix A. Balley, avec ses pièces | [PDF, 10 pages](/pieces/procedures-benin/apdp-plainte-notaire-balley-2023-10-02.pdf) |
 | Accusé de réception n° 2023-1793 du 14 décembre 2023 et accusé de réception du courriel du 2 octobre 2023 | [PDF, 2 pages](/pieces/procedures-benin/apdp-accuse-reception-2023-12-14.pdf) |
+| Courriels échangés avec l'APDP en 2024 (24 mai, 23 et 24 juillet, 23 octobre) | [PDF, 6 pages](/pieces/procedures-benin/apdp-courriels-2024.pdf) |
 | Procès-verbal de séance contentieuse du 19 juin 2024 | [PDF](/pieces/procedures-benin/apdp-pv-audience-2024-06-19.pdf) |
 | Procès-verbal de séance contentieuse du 24 juillet 2024 | [PDF](/pieces/procedures-benin/apdp-pv-audience-2024-07-24.pdf) |
 | Procès-verbal de séance contentieuse du 28 août 2024 | [PDF](/pieces/procedures-benin/apdp-pv-audience-2024-08-28.pdf) |
@@ -126,7 +129,6 @@ Les empreintes SHA-256 de ces fichiers figurent sur la page [Sources et pièces 
 
 - Cette page reproduit des procès-verbaux, des lettres et des courriels de l'Autorité de Protection des Données Personnelles et une plainte. Aucune infraction n'est imputée par cette page aux personnes citées ; les qualifications relèvent des juridictions compétentes. Les personnes citées, et l'Autorité, peuvent demander l'exercice de leur droit de réponse : [procédure](/batonnier-hounkpatin/droit-de-reponse-et-mises-au-point/).
 - Les noms de Luciano Hounkponou (président), Claude Dieu Donné Montcho (président de séance), Amouda Abou Seydou (rapporteur) et des conseillers figurent dans les procès-verbaux ; les adresses, téléphones et courriels du plaignant et du notaire sont occultés, les coordonnées de l'institution restent visibles.
-- Les courriels des 23 et 24 juillet 2024 et du 23 octobre 2024 sont reproduits par leur texte dans le film.
 
 ### Appel à témoignages
 

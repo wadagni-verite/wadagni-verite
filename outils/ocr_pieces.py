@@ -26,6 +26,7 @@ CIBLES = [
     'pieces/procedures-benin/recepisse-tresor-plainte-3000-fcfa-2025-09-29.pdf',
     'pieces/procedures-benin/apdp-plainte-notaire-balley-2023-10-02.pdf',
     'pieces/procedures-benin/apdp-accuse-reception-2023-12-14.pdf',
+    'pieces/procedures-benin/apdp-courriels-2024.pdf',
     'pieces/procedures-benin/apdp-pv-audience-2024-06-19.pdf',
     'pieces/procedures-benin/apdp-pv-audience-2024-07-24.pdf',
     'pieces/procedures-benin/apdp-pv-audience-2024-08-28.pdf',
