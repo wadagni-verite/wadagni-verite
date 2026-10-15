@@ -68,7 +68,7 @@ La demande de réouverture porte la date du 24 septembre 2025 ; le cachet d'arri
 
 - *Ce qui est écrit.* Le ministre Yvon Détchénou invite à agir « par citation directe ou constitution de partie civile ».
 - *Ce que dit la plainte.* Elle vise le faux en écriture publique, l'usage de faux et la complicité, sous les articles 303, 305 et 22 du Code pénal. L'article 303 prévoit la réclusion criminelle à perpétuité.
-- *Ce qui en résulte.* Le faux en écriture publique est, au Bénin, une infraction de nature criminelle : la citation directe n'est pas ouverte pour un crime. Reste la plainte avec constitution de partie civile, qui fera l'objet d'une prochaine page.
+- *Ce qui en résulte.* Le faux en écriture publique est, au Bénin, une infraction de nature criminelle : la citation directe n'est pas ouverte pour un crime. Reste la plainte avec constitution de partie civile : elle a été déposée le 29 septembre 2025, 107 jours avant la lettre du ministre ([voir la page](/plainte-partie-civile/)).
 
 **3. Les faits précis, fournis le 6 février 2026**
 
