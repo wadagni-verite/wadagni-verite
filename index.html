@@ -1806,6 +1806,23 @@
                 </div>
             </article>
 
+            <article class="doc-featured" id="apdp">
+                <div class="doc-featured-icon">🛡️</div>
+                <div class="doc-featured-body">
+                    <span class="doc-featured-tag">Dossier · Autorité de Protection des Données Personnelles</span>
+                    <h3>Sept séances, aucune décision : la plainte du 3 octobre 2023 devant l'APDP</h3>
+                    <p>
+                        Le 3 octobre 2023, l'Autorité de Protection des Données Personnelles du Bénin, présidée par Luciano Hounkponou, reçoit une plainte contre un notaire.
+                        La plénière siégeant en contentieux tient sept séances en 2024 et met le dossier en délibéré le 19 décembre 2024.
+                        Au 15 octobre 2026, aucune décision n'a été notifiée au plaignant. Un film de 5 minutes 34, la chronologie, les procès-verbaux et les lettres.
+                    </p>
+                    <p style="font-weight:700;color:var(--navy)" id="counter-apdp">⏰ Plus de 1100 jours depuis la plainte à l'APDP, plus de 660 jours depuis la dernière séance, sans décision notifiée</p>
+                    <div class="doc-featured-actions">
+                        <a href="/apdp/" class="btn">🎬 Voir le film et les pièces</a>
+                    </div>
+                </div>
+            </article>
+
             <div class="docs-grid">
                 <div class="doc-card">
                     <div class="doc-icon">📄</div>
@@ -1885,6 +1902,14 @@
             if (!el) return;
             const jours = Math.floor((new Date() - new Date('2025-09-29')) / 86400000);
             el.textContent = `⏰ ${jours} jours depuis le dépôt de la plainte avec constitution de partie civile, sans suite connue`;
+        })();
+
+        (function () {
+            const el = document.getElementById('counter-apdp');
+            if (!el) return;
+            const j1 = Math.floor((new Date() - new Date('2023-10-03')) / 86400000);
+            const j2 = Math.floor((new Date() - new Date('2024-12-19')) / 86400000);
+            el.textContent = `⏰ ${j1} jours depuis la plainte à l'APDP, ${j2} jours depuis la dernière séance, sans décision notifiée`;
         })();
 
         (function () {

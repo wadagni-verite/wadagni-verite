@@ -17,11 +17,12 @@ SRC12 = os.path.join(ROOT, 'outils', 'silo', '12-film-classement-contenu.md')   
 SRC13 = os.path.join(ROOT, 'outils', 'silo', '13-brigade-criminelle-contenu.md')   # Brigade criminelle (page 13, hors du dossier Bâtonnier : /brigade-criminelle/)
 SRC14 = os.path.join(ROOT, 'outils', 'silo', '14-ministre-justice-contenu.md')   # ministre de la Justice (page 14, hors du dossier Bâtonnier : /ministre-justice/)
 SRC16 = os.path.join(ROOT, 'outils', 'silo', '16-partie-civile-contenu.md')   # plainte avec constitution de partie civile (page 16, /plainte-partie-civile/)
+SRC17 = os.path.join(ROOT, 'outils', 'silo', '17-apdp-contenu.md')   # Autorité de Protection des Données Personnelles (page 17, /apdp/)
 SRC15 = os.path.join(ROOT, 'outils', 'silo', '15-cas-pratique-enquete-contenu.md')   # second cas pratique (page 15)
 CAS2 = '/batonnier-hounkpatin/cas-pratique-enquete-confusions-deontologie/'
 LETTRES = '/batonnier-hounkpatin/lettres-de-demande-de-communication/'
-HORS_HUB = {13: 'Brigade criminelle', 14: 'Ministre de la Justice', 16: 'Plainte avec constitution de partie civile'}   # pages publiées à la racine du site
-VIDEOS = {12: ('classement', 'classement'), 13: ('enquete', 'enquete'), 14: ('ministre', 'ministre'), 16: ('partie-civile', 'partie-civile')}   # dossier vidéo, préfixe des fichiers
+HORS_HUB = {13: 'Brigade criminelle', 14: 'Ministre de la Justice', 16: 'Plainte avec constitution de partie civile', 17: 'Autorité de Protection des Données Personnelles'}   # pages publiées à la racine du site
+VIDEOS = {12: ('classement', 'classement'), 13: ('enquete', 'enquete'), 14: ('ministre', 'ministre'), 16: ('partie-civile', 'partie-civile'), 17: ('apdp', 'apdp')}   # dossier vidéo, préfixe des fichiers
 OUT = os.path.join(ROOT, 'batonnier-hounkpatin')
 SITE = 'https://wadagni2026-verite.com'
 DATE = '2026-10-14'
@@ -102,6 +103,17 @@ PIECES = [
     ('Courriel de Me Samba Sidibé à Gilles Féliho : « Lettre au Procureur Spécial » (capture, 1 page)', '24 nov. 2025', 1, 'pieces/procedures-benin/courriel-conseil-transmission-lettre-procureur-special-2025-11-24.pdf', '9fd0e0af02a9c4a96a0ccf5647937af90b2a4053c074abd1fc05f3282c59e62e', True, None),
     ('Plainte avec constitution de partie civile adressée au Doyen des juges d\u2019instruction de Cotonou et déposée auprès du Président du tribunal (14 pages ; p. 1 : photographie de la page déposée)', '29 sept. 2025', 14, 'pieces/procedures-benin/plainte-partie-civile-doyen-juges-instruction-cotonou-2025-09-29.pdf', '184abf157487875bb0f40d8b2b606cabb03c91977c1fdbc1d2e0b88b545e880e', True, None),
     ('Récépissé n° 25036294-026G de la Direction générale du Trésor : « PLAINTE », 3 000 FCFA (photographie)', '29 sept. 2025', 1, 'pieces/procedures-benin/recepisse-tresor-plainte-3000-fcfa-2025-09-29.pdf', 'fba4ac257e1538b7889d31c1b008bdd901216027ac4c6c67fc083a9a41739a8a', False, None),
+    ('Plainte à l\u2019APDP contre le notaire Félix A. Balley, avec ses pièces (10 pages ; extrait du fichier d\u2019origine : pages 1 à 10)', '2 oct. 2023', 10, 'pieces/procedures-benin/apdp-plainte-notaire-balley-2023-10-02.pdf', 'b81c649ff31456771c5564770d389f165cf6d830060f9cef773414aa019559bd', True, None),
+    ('APDP : accusé de réception n° 2023-1793 et accusé de réception du courriel du 2 octobre 2023 (2 pages ; extrait du fichier d\u2019origine : pages 11 et 12)', '14 déc. 2023', 2, 'pieces/procedures-benin/apdp-accuse-reception-2023-12-14.pdf', 'b81c649ff31456771c5564770d389f165cf6d830060f9cef773414aa019559bd', True, None),
+    ('Courriels échangés avec l\u2019APDP : 24 mai, 23 et 24 juillet, 23 octobre 2024 (6 pages ; captures d\u2019écran)', '24 mai-23 oct. 2024', 6, 'pieces/procedures-benin/apdp-courriels-2024.pdf', None, True, None),
+    ('APDP : procès-verbal de séance contentieuse du 19 juin 2024 (3 pages)', '19 juin 2024', 3, 'pieces/procedures-benin/apdp-pv-audience-2024-06-19.pdf', '40ca2e3c20012c256b0386eef5680bc9d9e73a036cdb7386286d59eed1b51dfb', False, None),
+    ('APDP : procès-verbal de séance contentieuse du 24 juillet 2024 (3 pages)', '24 juil. 2024', 3, 'pieces/procedures-benin/apdp-pv-audience-2024-07-24.pdf', '38f18313500c2678a7ac9cae9522d0bb5991f6b81572797b5ed1da5d8e643542', True, None),
+    ('APDP : procès-verbal de séance contentieuse du 28 août 2024 (3 pages)', '28 août 2024', 3, 'pieces/procedures-benin/apdp-pv-audience-2024-08-28.pdf', '7936f66a36737e4175bd761cace219d70bab84a72e1930ea4f2e9599d13f9aad', True, None),
+    ('APDP : lettre d\u2019invitation à la séance du 23 octobre 2024', '10 oct. 2024', 1, 'pieces/procedures-benin/apdp-invitation-session-2024-10-10.pdf', 'a86d199b72e1bf48ea6e2a47c11f69ff15ea6d10f50c9288f3b64cd95c1d3320', True, None),
+    ('Observations et prétentions du plaignant à l\u2019APDP (2 pages ; extrait du fichier d\u2019origine)', '21 oct. 2024', 2, 'pieces/procedures-benin/apdp-observations-2024-10-21.pdf', '0d334f3fcaa09cfd28fe5de352fbf11be4e7d10d9973431be7f51d15f14dd6df', True, None),
+    ('APDP : lettre d\u2019invitation n° 2024-3691 à la séance du 19 décembre 2024 (page 2 du fichier d\u2019origine)', '5 déc. 2024', 1, 'pieces/procedures-benin/apdp-invitation-session-2024-12-05.pdf', '52f34a5a9cc8c4d36e1100206bc6060f96acdf9770c9479feee43a8548efdbdb', True, None),
+    ('Échange de courriels avec l\u2019APDP sur le communiqué de presse (9 pages ; fichier d\u2019origine)', '6-16 déc. 2024', 9, 'pieces/procedures-benin/apdp-echange-communique-2024-12.pdf', '52f34a5a9cc8c4d36e1100206bc6060f96acdf9770c9479feee43a8548efdbdb', True, None),
+    ('Code du numérique du Bénin : loi n° 2017-20 du 20 avril 2018 modifiée par la loi n° 2020-35 du 6 janvier 2021 (texte de référence)', '2018-2021', 211, 'pieces/code-du-numerique-benin-loi-2017-20-modifiee-2020-35.pdf', None, False, None),
     ('Lettre n° 0049/MJL/SP-C du ministre de la Justice Yvon Détchénou', '14 janv. 2026', 1, 'pieces/procedures-benin/reponse-ministre-justice-2026-01-14.pdf', None, False, None),
     ('Lettre de Gilles Féliho au ministre de la Justice (4 pages)', '6 févr. 2026', 4, 'pieces/procedures-benin/lettre-ministre-justice-faits-precis-2026-02-06.pdf', 'c100ef4247d748d4a7a62d4bca98795eaa4fb584ff53b830d66873b754c62367', True, None),
     ('Procès-verbal d\u2019audition n° 2 (pages 1, 2/5 et 5/5)', '19 mars 2025', 3, 'pieces/bac-pv-audition-2-2025-03-19.pdf', 'd3590116e5ad9de9e87f2accdf55426224571efac2ec668b87e969ae3a83f478', True, None),
@@ -278,6 +290,16 @@ def jsonld(p, pages, canonical, og, html_body):
                           "uploadDate": DATE + "T08:00:00+02:00", "duration": f"PT{int(sec // 60)}M{int(round(sec % 60))}S", "inLanguage": "fr",
                           "contentUrl": SITE + "/video/enquete/enquete-16-9.mp4", "thumbnailUrl": SITE + "/video/enquete/enquete-vignette.jpg",
                           "publisher": {"@id": SITE + "/#editeur"}})
+    if n == 17:
+        vf = os.path.join(ROOT, 'video', 'apdp', 'apdp-16-9.mp4')
+        if os.path.exists(vf):
+            import subprocess
+            sec = float(subprocess.check_output(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', vf], text=True))
+            graph.append({"@type": "VideoObject", "name": "Sept séances, aucune décision — la plainte du 3 octobre 2023 devant l'Autorité de Protection des Données Personnelles du Bénin",
+                          "description": "Chronologie documentée : plainte reçue le 3 octobre 2023 par l'Autorité de Protection des Données Personnelles (APDP) contre un notaire, accusé de réception du 14 décembre 2023, sept séances contentieuses du 19 juin au 19 décembre 2024, dossier mis en délibéré le 19 décembre 2024, aucune décision notifiée au plaignant au 15 octobre 2026, sur pièces.",
+                          "uploadDate": DATE + "T08:00:00+02:00", "duration": f"PT{int(sec // 60)}M{int(round(sec % 60))}S", "inLanguage": "fr",
+                          "contentUrl": SITE + "/video/apdp/apdp-16-9.mp4", "thumbnailUrl": SITE + "/video/apdp/apdp-vignette.jpg",
+                          "publisher": {"@id": SITE + "/#editeur"}})
     if n == 16:
         vf = os.path.join(ROOT, 'video', 'partie-civile', 'partie-civile-16-9.mp4')
         if os.path.exists(vf):
@@ -327,7 +349,7 @@ def jsonld(p, pages, canonical, og, html_body):
         qa = re.findall(r'^\*\*([^\n]+\?)\*\*\n(.+?)(?=\n\n\*\*|\n\n###|\Z)', p['md'], re.M | re.S)
         graph.append({"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": strip_md(q), "acceptedAnswer": {"@type": "Answer", "text": strip_md(a)}} for q, a in qa]})
     crumbs = [("Accueil", SITE + "/")] + ([(HORS_HUB[n], canonical)] if n in HORS_HUB else [("Dossier Bâtonnier", SITE + HUB)])
-    if n not in (0, 13, 14, 16):
+    if n not in (0, 13, 14, 16, 17):
         crumbs.append((p['h1'], canonical))
     graph.append({"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": c[0], "item": c[1]} for i, c in enumerate(crumbs)]})
     return json.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False, indent=2)
@@ -337,6 +359,7 @@ LETTRES_PAGES = (0, 6, 9)   # pages qui renvoient vers les modèles de lettres
 FILM = '/batonnier-hounkpatin/decision-rendue-decision-non-recue/'
 MINISTRE = '/ministre-justice/'
 PARTIE_CIVILE = '/plainte-partie-civile/'
+APDP = '/apdp/'
 FILM_PAGES = (0, 2)   # pages qui renvoient vers le film
 
 def render(p, pages):
@@ -357,6 +380,8 @@ def render(p, pages):
         md = md.rstrip() + f"\n\n**Le film.** [Décision rendue, décision non reçue]({FILM}) : les dates de la procédure, de la saisine du 11 septembre 2023 au classement du 3 juillet 2025, sur pièces.\n"
     if p['num'] in (0, 13, 14):
         md = md.rstrip() + f"\n\n**La plainte avec constitution de partie civile.** [La voie indiquée, déjà empruntée]({PARTIE_CIVILE}) : la plainte déposée auprès du Président du tribunal de Cotonou, adressée au Doyen des juges d'instruction, le 29 septembre 2025, 107 jours avant la lettre du ministre de la Justice, et les pièces.\n"
+    if p['num'] in (0, 13, 14, 16):
+        md = md.rstrip() + f"\n\n**L'Autorité de Protection des Données Personnelles.** [Sept séances, aucune décision]({APDP}) : la plainte du 3 octobre 2023 contre un notaire, les sept séances contentieuses de 2024, le dossier mis en délibéré le 19 décembre 2024, et les pièces.\n"
     if p['num'] in (0, 12, 13):
         md = md.rstrip() + f"\n\n**Le ministre de la Justice.** [Faits précis demandés, faits précis fournis]({MINISTRE}) : la lettre du ministre Yvon Détchénou du 14 janvier 2026 (« aucun fait précis allégué »), la lettre du plaignant du 6 février 2026 et les pièces.\n"
     md = md.replace('<details class="correspondance">', '<details class="correspondance" markdown="1">')
@@ -387,9 +412,9 @@ def render(p, pages):
 
 def main():
     os.makedirs(os.path.join(OUT, 'assets'), exist_ok=True)
-    text = open(SRC, encoding='utf-8').read() + '\n' + open(SRC10, encoding='utf-8').read() + '\n' + open(SRC11, encoding='utf-8').read() + '\n' + open(SRC12, encoding='utf-8').read() + '\n' + open(SRC13, encoding='utf-8').read() + '\n' + open(SRC14, encoding='utf-8').read() + '\n' + open(SRC15, encoding='utf-8').read() + '\n' + open(SRC16, encoding='utf-8').read()
+    text = open(SRC, encoding='utf-8').read() + '\n' + open(SRC10, encoding='utf-8').read() + '\n' + open(SRC11, encoding='utf-8').read() + '\n' + open(SRC12, encoding='utf-8').read() + '\n' + open(SRC13, encoding='utf-8').read() + '\n' + open(SRC14, encoding='utf-8').read() + '\n' + open(SRC15, encoding='utf-8').read() + '\n' + open(SRC16, encoding='utf-8').read() + '\n' + open(SRC17, encoding='utf-8').read()
     pages = parse_pages(text)
-    assert len(pages) == 17, len(pages)
+    assert len(pages) == 18, len(pages)
     liste = []
     for p in pages:
         out, slug = render(p, pages)

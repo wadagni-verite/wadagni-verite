@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /archives-privees/
 
 Sitemap: https://wadagni2026-verite.com/sitemap.xml
