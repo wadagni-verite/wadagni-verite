@@ -1,5 +1,5 @@
 {
- "total": 343.40666666666635,
+ "total": 384.5866666666663,
  "sequences": {
   "1": [
    0.0,
@@ -29,37 +29,41 @@
    140.7533333333333,
    169.62266666666665
   ],
-  "8.5": [
+  "8.2": [
    169.62266666666665,
-   204.9773333333333
+   210.80266666666665
+  ],
+  "8.5": [
+   210.80266666666665,
+   246.1573333333333
   ],
   "9": [
-   204.9773333333333,
-   247.21199999999996
+   246.1573333333333,
+   288.39199999999994
   ],
   "10": [
-   247.21199999999996,
-   271.01199999999994
+   288.39199999999994,
+   312.1919999999999
   ],
   "11": [
-   271.01199999999994,
-   287.8466666666666
+   312.1919999999999,
+   329.02666666666653
   ],
   "12": [
-   287.8466666666666,
-   306.57599999999985
+   329.02666666666653,
+   347.7559999999998
   ],
   "13": [
-   306.57599999999985,
-   329.99199999999973
+   347.7559999999998,
+   371.1719999999997
   ],
   "14": [
-   329.99199999999973,
-   337.40666666666635
+   371.1719999999997,
+   378.5866666666663
   ],
   "15": [
-   337.40666666666635,
-   343.40666666666635
+   378.5866666666663,
+   384.5866666666663
   ]
  },
  "cues": [
@@ -185,122 +189,147 @@
   ],
   [
    170.52266666666665,
-   176.75199999999998,
+   179.52533333333332,
+   "Les 6 et 7 août 2007, trois ans avant le décès de leur père, Gilles et Lise Féliho échangent des courriels sur « ta maison » : loyers, cautions, contrats, titre de propriété."
+  ],
+  [
+   179.82533333333333,
+   187.484,
+   "Lise Féliho écrit : « Il faudra prévoir écrire au notaire pour [demander] la main levée, mais également en tant que new propriétaire les documents légaux. »"
+  ],
+  [
+   187.784,
+   191.47466666666665,
+   "Gilles Féliho répond qu'il va s'occuper du titre de propriété de la maison."
+  ],
+  [
+   191.77466666666666,
+   200.13733333333332,
+   "Lise Féliho figure parmi les six personnes que la sommation du 3 avril 2024 exige de convoquer. Aucune convocation à son nom n'est produite."
+  ],
+  [
+   200.43733333333333,
+   209.80266666666665,
+   "Six semaines plus tard, le 19 septembre 2007, le notaire transmet à Maître Fade les pièces de l'adjudication de constructions à Gbégamey, au profit de Gilles Féliho."
+  ],
+  [
+   211.70266666666666,
+   217.932,
    "Le 19 septembre 2007, le notaire Denise Ehouzou Gangnito écrit à Maître Victorien Olatundji Fade."
   ],
   [
-   177.052,
-   185.26533333333333,
+   218.232,
+   226.44533333333334,
    "Suite à l'adjudication de constructions sur la parcelle B du lot 923 de Gbégamey, au profit de Gilles Sixte Féliho, « dont vous êtes le mandataire »."
   ],
   [
-   185.5653333333333,
-   192.75466666666665,
+   226.74533333333332,
+   233.93466666666666,
    "En 2007, Maître Fade est le mandataire de Gilles Féliho. En 2014, le jugement le désigne comme l'avocat de ses cohéritiers."
   ],
   [
-   193.05466666666663,
-   203.9773333333333,
+   234.23466666666664,
+   245.1573333333333,
    "Le jugement vise le lot 488. Cette lettre vise le lot 923. La seule pièce que le plaignant produit sur un bien à Gbégamey date de 2007, avant le décès de son père."
   ],
   [
-   205.8773333333333,
-   215.79733333333328,
+   247.0573333333333,
+   256.9773333333333,
    "Le jugement du 31 octobre 2014 constate que Gilles Féliho a même déjà disposé de l'immeuble, et qu'il a exécuté les dispositions testamentaires de manière volontaire."
   ],
   [
-   216.0973333333333,
-   221.51599999999996,
+   257.27733333333333,
+   262.696,
    "Or un testament ne prend effet qu'au décès de son auteur. Le décès est du 3 décembre 2010."
   ],
   [
-   221.81599999999997,
-   227.66133333333332,
+   262.996,
+   268.8413333333333,
    "Un testament daté de juillet 2009 ne peut constater aucun acte postérieur à la mort de son auteur."
   ],
   [
-   227.9613333333333,
-   234.78799999999995,
+   269.1413333333333,
+   275.96799999999996,
    "Le mémoire du commissaire principal Konto écrit : « à la lecture du testament, son père a déclaré lui avoir acheté la parcelle »."
   ],
   [
-   235.08799999999997,
-   241.8293333333333,
+   276.268,
+   283.0093333333333,
    "Un achat n'est pas un legs. Une acquisition n'est pas une disposition. Et le testament ne figure pas parmi les pièces jointes au mémoire."
   ],
   [
-   242.1293333333333,
-   246.01199999999997,
+   283.3093333333333,
+   287.192,
    "Le jugement ne cite ni date, ni acte de disposition. Le mémoire non plus."
   ],
   [
-   248.11199999999997,
-   253.03999999999996,
+   289.2919999999999,
+   294.2199999999999,
    "Le mémoire écrit que ce jugement, ayant autorité de la chose jugée, est non assorti de recours."
   ],
   [
-   253.33999999999997,
-   257.756,
+   294.5199999999999,
+   298.9359999999999,
    "Le jugement dit : en premier ressort. Exécution provisoire. Délai d'appel : un mois."
   ],
   [
-   258.056,
-   262.32266666666663,
+   299.23599999999993,
+   303.5026666666666,
    "La Brigade criminelle tranche ainsi une question de droit civil, qui n'est pas la sienne."
   ],
   [
-   262.62266666666665,
-   269.81199999999995,
+   303.8026666666666,
+   310.9919999999999,
    "Devant la Cour constitutionnelle, le plaignant dénonce une usurpation des prérogatives judiciaires, sans aucune garantie procédurale."
   ],
   [
-   271.9119999999999,
-   280.40266666666656,
+   313.09199999999987,
+   321.5826666666665,
    "Interrogé sur les obstacles que poserait le plaignant, le notaire répond : « son objectif principal est de faire échec à l'exécution des dispositions du testament »."
   ],
   [
-   280.7026666666666,
-   286.8466666666666,
+   321.8826666666665,
+   328.02666666666653,
    "Le mémoire du commissaire principal Konto rapporte cette déclaration. Aucun acte d'enquête n'est cité à son appui."
   ],
   [
-   288.74666666666656,
-   296.36266666666654,
+   329.9266666666665,
+   337.5426666666665,
    "En 2017, un huissier consigne que la mairie de Cotonou indique, pour la parcelle B du lot 488, une superficie : néant."
   ],
   [
-   296.66266666666655,
-   300.8013333333332,
+   337.8426666666665,
+   341.98133333333317,
    "Et que l'Institut géographique national ne dispose d'aucun document afférent."
   ],
   [
-   301.10133333333323,
-   305.1759999999999,
+   342.2813333333332,
+   346.3559999999998,
    "Ce procès-verbal ne figure pas dans le mémoire du commissaire principal Konto."
   ],
   [
-   307.47599999999983,
-   312.4039999999998,
+   348.6559999999998,
+   353.5839999999998,
    "Cinq cent soixante-trois jours entre la plainte et la notification de la Cour constitutionnelle."
   ],
   [
-   312.70399999999984,
-   317.18399999999986,
+   353.8839999999998,
+   358.3639999999998,
    "Cinquante-quatre jours, de cette notification au mémoire du commissaire principal Konto."
   ],
   [
-   317.4839999999998,
-   324.28933333333316,
+   358.66399999999976,
+   365.4693333333331,
    "Le 3 juillet 2025, le parquet de la CRIET classe sans suite : « je n'ai pas estimé opportun d'engager des poursuites »."
   ],
   [
-   324.5893333333331,
-   328.7919999999998,
+   365.76933333333307,
+   369.97199999999975,
    "Douze jours plus tard, le 15 juillet, la Cour constitutionnelle tient audience."
   ],
   [
-   330.8919999999997,
-   335.6066666666664,
+   372.07199999999966,
+   376.78666666666635,
    "Six questions pour le commissaire principal Sabi Fulbert Konto. Les réponses seront publiées."
   ]
  ]
