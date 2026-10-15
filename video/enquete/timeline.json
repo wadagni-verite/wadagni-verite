@@ -1,5 +1,5 @@
 {
- "total": 412.12733333333296,
+ "total": 465.1099999999996,
  "sequences": {
   "1": [
    0.0,
@@ -53,17 +53,21 @@
    356.5673333333332,
    375.29666666666645
   ],
-  "13": [
+  "12.5": [
    375.29666666666645,
-   398.71266666666634
+   428.2793333333331
+  ],
+  "13": [
+   428.2793333333331,
+   451.695333333333
   ],
   "14": [
-   398.71266666666634,
-   406.12733333333296
+   451.695333333333,
+   459.1099999999996
   ],
   "15": [
-   406.12733333333296,
-   412.12733333333296
+   459.1099999999996,
+   465.1099999999996
   ]
  },
  "cues": [
@@ -324,27 +328,57 @@
   ],
   [
    376.19666666666643,
-   381.1246666666664,
+   387.9513333333331,
+   "Le faux en écriture publique : l'article 303 du Code pénal punit de la réclusion criminelle à perpétuité tout fonctionnaire ou officier public qui constate comme vrais des faits faux, ou comme avérés des faits qui ne l'étaient pas."
+  ],
+  [
+   388.3513333333331,
+   394.64466666666647,
+   "L'article 305 punit celui qui a fait usage des actes faux. L'article 22 définit la complicité."
+  ],
+  [
+   395.04466666666644,
+   404.3246666666664,
+   "L'ancien Code pénal, dit Code Bouvenet, vise de même le faux commis par un officier public, la constatation comme vrais de faits qui sont faux, et l'usage conscient d'un acte faux."
+  ],
+  [
+   404.72466666666645,
+   412.42599999999976,
+   "Le jugement constate que Gilles Féliho a même déjà disposé de la parcelle bâtie sise au lot 488 de Cotonou, quartier Gbégamey."
+  ],
+  [
+   412.8259999999998,
+   419.5673333333331,
+   "L'enquête ne rapporte ni la preuve de l'existence de cette parcelle, ni la preuve d'un acte de disposition postérieur au décès."
+  ],
+  [
+   419.9673333333331,
+   426.8793333333331,
+   "Les neuf pièces jointes au mémoire n'établissent ni l'une ni l'autre. Le procès-verbal de 2017 consigne : superficie, néant."
+  ],
+  [
+   429.1793333333331,
+   434.1073333333331,
    "Cinq cent soixante-trois jours entre la plainte et la notification de la Cour constitutionnelle."
   ],
   [
-   381.42466666666644,
-   385.90466666666646,
+   434.4073333333331,
+   438.8873333333331,
    "Cinquante-quatre jours, de cette notification au mémoire du commissaire principal Konto."
   ],
   [
-   386.2046666666664,
-   393.00999999999976,
+   439.1873333333331,
+   445.9926666666664,
    "Le 3 juillet 2025, le parquet de la CRIET classe sans suite : « je n'ai pas estimé opportun d'engager des poursuites »."
   ],
   [
-   393.3099999999997,
-   397.5126666666664,
+   446.2926666666664,
+   450.49533333333306,
    "Douze jours plus tard, le 15 juillet, la Cour constitutionnelle tient audience."
   ],
   [
-   399.6126666666663,
-   404.327333333333,
+   452.595333333333,
+   457.30999999999966,
    "Six questions pour le commissaire principal Sabi Fulbert Konto. Les réponses seront publiées."
   ]
  ]
