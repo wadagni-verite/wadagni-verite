@@ -1,5 +1,5 @@
 {
- "total": 308.05199999999974,
+ "total": 343.40666666666635,
  "sequences": {
   "1": [
    0.0,
@@ -29,33 +29,37 @@
    140.7533333333333,
    169.62266666666665
   ],
-  "9": [
+  "8.5": [
    169.62266666666665,
-   211.85733333333332
+   204.9773333333333
+  ],
+  "9": [
+   204.9773333333333,
+   247.21199999999996
   ],
   "10": [
-   211.85733333333332,
-   235.6573333333333
+   247.21199999999996,
+   271.01199999999994
   ],
   "11": [
-   235.6573333333333,
-   252.49199999999993
+   271.01199999999994,
+   287.8466666666666
   ],
   "12": [
-   252.49199999999993,
-   271.22133333333323
+   287.8466666666666,
+   306.57599999999985
   ],
   "13": [
-   271.22133333333323,
-   294.6373333333331
+   306.57599999999985,
+   329.99199999999973
   ],
   "14": [
-   294.6373333333331,
-   302.05199999999974
+   329.99199999999973,
+   337.40666666666635
   ],
   "15": [
-   302.05199999999974,
-   308.05199999999974
+   337.40666666666635,
+   343.40666666666635
   ]
  },
  "cues": [
@@ -181,102 +185,122 @@
   ],
   [
    170.52266666666665,
-   180.44266666666664,
+   176.75199999999998,
+   "Le 19 septembre 2007, le notaire Denise Ehouzou Gangnito écrit à Maître Victorien Olatundji Fade."
+  ],
+  [
+   177.052,
+   185.26533333333333,
+   "Suite à l'adjudication de constructions sur la parcelle B du lot 923 de Gbégamey, au profit de Gilles Sixte Féliho, « dont vous êtes le mandataire »."
+  ],
+  [
+   185.5653333333333,
+   192.75466666666665,
+   "En 2007, Maître Fade est le mandataire de Gilles Féliho. En 2014, le jugement le désigne comme l'avocat de ses cohéritiers."
+  ],
+  [
+   193.05466666666663,
+   203.9773333333333,
+   "Le jugement vise le lot 488. Cette lettre vise le lot 923. La seule pièce que le plaignant produit sur un bien à Gbégamey date de 2007, avant le décès de son père."
+  ],
+  [
+   205.8773333333333,
+   215.79733333333328,
    "Le jugement du 31 octobre 2014 constate que Gilles Féliho a même déjà disposé de l'immeuble, et qu'il a exécuté les dispositions testamentaires de manière volontaire."
   ],
   [
-   180.74266666666665,
-   186.16133333333332,
+   216.0973333333333,
+   221.51599999999996,
    "Or un testament ne prend effet qu'au décès de son auteur. Le décès est du 3 décembre 2010."
   ],
   [
-   186.46133333333333,
-   192.30666666666667,
+   221.81599999999997,
+   227.66133333333332,
    "Un testament daté de juillet 2009 ne peut constater aucun acte postérieur à la mort de son auteur."
   ],
   [
-   192.60666666666665,
-   199.4333333333333,
+   227.9613333333333,
+   234.78799999999995,
    "Le mémoire du commissaire principal Konto écrit : « à la lecture du testament, son père a déclaré lui avoir acheté la parcelle »."
   ],
   [
-   199.73333333333332,
-   206.47466666666665,
+   235.08799999999997,
+   241.8293333333333,
    "Un achat n'est pas un legs. Une acquisition n'est pas une disposition. Et le testament ne figure pas parmi les pièces jointes au mémoire."
   ],
   [
-   206.77466666666666,
-   210.65733333333333,
+   242.1293333333333,
+   246.01199999999997,
    "Le jugement ne cite ni date, ni acte de disposition. Le mémoire non plus."
   ],
   [
-   212.75733333333332,
-   217.68533333333332,
+   248.11199999999997,
+   253.03999999999996,
    "Le mémoire écrit que ce jugement, ayant autorité de la chose jugée, est non assorti de recours."
   ],
   [
-   217.98533333333333,
-   222.40133333333333,
+   253.33999999999997,
+   257.756,
    "Le jugement dit : en premier ressort. Exécution provisoire. Délai d'appel : un mois."
   ],
   [
-   222.70133333333334,
-   226.96800000000002,
+   258.056,
+   262.32266666666663,
    "La Brigade criminelle tranche ainsi une question de droit civil, qui n'est pas la sienne."
   ],
   [
-   227.268,
-   234.45733333333334,
+   262.62266666666665,
+   269.81199999999995,
    "Devant la Cour constitutionnelle, le plaignant dénonce une usurpation des prérogatives judiciaires, sans aucune garantie procédurale."
   ],
   [
-   236.5573333333333,
-   245.04799999999997,
+   271.9119999999999,
+   280.40266666666656,
    "Interrogé sur les obstacles que poserait le plaignant, le notaire répond : « son objectif principal est de faire échec à l'exécution des dispositions du testament »."
   ],
   [
-   245.34799999999996,
-   251.49199999999996,
+   280.7026666666666,
+   286.8466666666666,
    "Le mémoire du commissaire principal Konto rapporte cette déclaration. Aucun acte d'enquête n'est cité à son appui."
   ],
   [
-   253.39199999999994,
-   261.0079999999999,
+   288.74666666666656,
+   296.36266666666654,
    "En 2017, un huissier consigne que la mairie de Cotonou indique, pour la parcelle B du lot 488, une superficie : néant."
   ],
   [
-   261.30799999999994,
-   265.4466666666666,
+   296.66266666666655,
+   300.8013333333332,
    "Et que l'Institut géographique national ne dispose d'aucun document afférent."
   ],
   [
-   265.7466666666666,
-   269.82133333333326,
+   301.10133333333323,
+   305.1759999999999,
    "Ce procès-verbal ne figure pas dans le mémoire du commissaire principal Konto."
   ],
   [
-   272.1213333333332,
-   277.0493333333332,
+   307.47599999999983,
+   312.4039999999998,
    "Cinq cent soixante-trois jours entre la plainte et la notification de la Cour constitutionnelle."
   ],
   [
-   277.3493333333332,
-   281.82933333333324,
+   312.70399999999984,
+   317.18399999999986,
    "Cinquante-quatre jours, de cette notification au mémoire du commissaire principal Konto."
   ],
   [
-   282.1293333333332,
-   288.93466666666654,
+   317.4839999999998,
+   324.28933333333316,
    "Le 3 juillet 2025, le parquet de la CRIET classe sans suite : « je n'ai pas estimé opportun d'engager des poursuites »."
   ],
   [
-   289.2346666666665,
-   293.4373333333332,
+   324.5893333333331,
+   328.7919999999998,
    "Douze jours plus tard, le 15 juillet, la Cour constitutionnelle tient audience."
   ],
   [
-   295.5373333333331,
-   300.2519999999998,
+   330.8919999999997,
+   335.6066666666664,
    "Six questions pour le commissaire principal Sabi Fulbert Konto. Les réponses seront publiées."
   ]
  ]
