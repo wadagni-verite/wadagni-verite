@@ -16,13 +16,16 @@ PHRASES = ["60, rue Gustave EIFFEL", "94000 CRÉTEIL", "feliho@me.com", "feliho@
 class P: mots = []
 
 def lignes_ocr(p):
-    tp = p.get_textpage_ocr(language='fra', dpi=200, full=True)
     L = {}
     P.mots = []
-    for x0, y0, x1, y1, w, b, l, _ in p.get_text('words', textpage=tp):
-        if ('@' in w or re.search(r'icloud|f[eé]liho', w, re.I)) and 'apdp' not in w.lower(): P.mots.append(pymupdf.Rect(x0 - 2, y0 - 1.5, x1 + 2, y1 + 1.5))
-        k = (b, l); r = L.setdefault(k, [x0, y0, x1, y1, []])
-        r[0] = min(r[0], x0); r[1] = min(r[1], y0); r[2] = max(r[2], x1); r[3] = max(r[3], y1); r[4].append(w)
+    for dpi in (200, 150, 300):
+        tp = p.get_textpage_ocr(language='fra', dpi=dpi, full=True)
+        for x0, y0, x1, y1, w, b, l, _ in p.get_text('words', textpage=tp):
+            if ('@' in w or re.search(r'icloud|f[eé]li[l]?ho@|yahoo|vahoo|hotmail|outlook', w, re.I)) and not re.search(r'ap[dg]?[pdo]|apapb|spdp', w, re.I):
+                P.mots.append(pymupdf.Rect(x0 - 2, y0 - 1.5, x1 + 2, y1 + 1.5))
+            if dpi != 200: continue
+            k = (b, l); r = L.setdefault(k, [x0, y0, x1, y1, []])
+            r[0] = min(r[0], x0); r[1] = min(r[1], y0); r[2] = max(r[2], x1); r[3] = max(r[3], y1); r[4].append(w)
     return [(pymupdf.Rect(r[0] - 2, r[1] - 1.5, r[2] + 2, r[3] + 1.5), ' '.join(r[4])) for r in L.values()]
 
 def occulter(p):
