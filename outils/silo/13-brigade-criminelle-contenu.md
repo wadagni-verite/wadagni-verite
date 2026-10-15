@@ -78,6 +78,12 @@ Votre navigateur ne lit pas cette vidéo.
 
 - Le [procès-verbal de compulsion du 19 décembre 2017](/pieces/pv-compulsion-parcelle-b-lot-488-2017-12.pdf) consigne : Mairie de Cotonou, « SUPERFICIE : néant » ; Institut géographique national : « ne dispose d'aucun document afférent à la parcelle B du lot 488 ». Il ne figure pas dans le mémoire du 29 avril 2025.
 
+**10. Maître Fade, mandataire de Gilles Féliho en 2007, avocat de ses cohéritiers en 2014**
+
+- *Ce qu'écrit le notaire* (lettre de Me Denise Ehouzou Gangnito, [19 septembre 2007](/pieces/lettre-notaire-gangnito-a-me-fade-2007-09-19.pdf)) : « Suite à l'adjudication des installations ou constructions existant sur la parcelle « B » du lot 923 du lotissement de COTONOU GBEGAMEY au profit de Monsieur Gilles Sixte FELIHO, dont vous êtes le mandataire, je vous transmets les pièces ci-après ». Elle est adressée à Maître Victorien Fade.
+- *Ce que dit le jugement* (p. 1) : les héritiers demandeurs sont « tous assistés de Maître Victorien Olatoundji FADE, Avocat à la cour ». Il vise la « parcelle bâtie sise au lot 488 de Cotonou, quartier Gbégamey » (p. 5).
+- *Ce que les pièces établissent.* En 2007, avant le décès de Jean Florentin Féliho, Maître Fade est le mandataire de Gilles Féliho pour une parcelle de Gbégamey, le lot 923. Le jugement de 2014 vise le lot 488. La seule pièce produite par le plaignant sur un bien à Gbégamey est cette lettre de 2007.
+
 ### Les durées
 
 | Durée | Calcul | Pièces |
@@ -98,6 +104,7 @@ Votre navigateur ne lit pas cette vidéo.
 | Jugement n° 114/14/3ᵉ CH-EP du 31 octobre 2014 | [PDF](/jugement-succession-feliho-2014.pdf) |
 | Procès-verbal de compulsion du 19 décembre 2017 | [PDF](/pieces/pv-compulsion-parcelle-b-lot-488-2017-12.pdf) |
 | Avis de classement du 3 juillet 2025 | [PDF](/pieces/avis-de-classement-criet-2025-07-03.pdf) |
+| Lettre du notaire Denise Ehouzou Gangnito à Maître Victorien Fade, 19 septembre 2007 | [PDF](/pieces/lettre-notaire-gangnito-a-me-fade-2007-09-19.pdf) |
 
 Les empreintes SHA-256 de ces fichiers figurent sur la page [Sources et pièces vérifiables](/batonnier-hounkpatin/sources-et-pieces-verifiables/).
 

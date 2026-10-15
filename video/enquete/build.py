@@ -62,6 +62,14 @@ SEQ = {
     "Aucune convocation n'est produite pour les quatre autres personnes, dont la magistrate qui a signé le jugement."),
    ("Le 25 mars, le commissaire principal Konto écrit que Maître Fade a été convoqué pour le 19 mars et ne s'est pas présenté.",
     "Le vingt-cinq mars, le commissaire principal Konto écrit que Maître Fade a été convoqué pour le dix-neuf mars et ne s'est pas présenté.")]),
+ 8.5: dict(speed=1.14, gap=0.3, lead=0.9, tail=1.0, s=[
+   ("Le 19 septembre 2007, le notaire Denise Ehouzou Gangnito écrit à Maître Victorien Olatundji Fade.", "Le dix-neuf septembre deux mille sept, le notaire Denise Ehouzou Gangnito écrit à Maître Victorien Olatundji Fade."),
+   ("Suite à l'adjudication de constructions sur la parcelle B du lot 923 de Gbégamey, au profit de Gilles Sixte Féliho, « dont vous êtes le mandataire ».",
+    "Suite à l'adjudication de constructions sur la parcelle B du lot neuf cent vingt-trois de Gbégamey, au profit de Gilles Sixte Féliho, dont vous êtes le mandataire."),
+   ("En 2007, Maître Fade est le mandataire de Gilles Féliho. En 2014, le jugement le désigne comme l'avocat de ses cohéritiers.",
+    "En deux mille sept, Maître Fade est le mandataire de Gilles Féliho. En deux mille quatorze, le jugement le désigne comme l'avocat de ses cohéritiers."),
+   ("Le jugement vise le lot 488. Cette lettre vise le lot 923. La seule pièce que le plaignant produit sur un bien à Gbégamey date de 2007, avant le décès de son père.",
+    "Le jugement vise le lot quatre cent quatre-vingt-huit. Cette lettre vise le lot neuf cent vingt-trois. La seule pièce que le plaignant produit sur un bien à Gbégamey date de deux mille sept, avant le décès de son père.")]),
  9: dict(speed=1.14, gap=0.3, lead=0.9, tail=1.2, s=[
    ("Le jugement du 31 octobre 2014 constate que Gilles Féliho a même déjà disposé de l'immeuble, et qu'il a exécuté les dispositions testamentaires de manière volontaire.",
     "Le jugement du trente et un octobre deux mille quatorze constate que Gilles Féliho a même déjà disposé de l'immeuble, et qu'il a exécuté les dispositions testamentaires de manière volontaire."),
@@ -268,6 +276,15 @@ text("Sommation du 3 avril 2024 : « les convocations au nom des mis en cause su
 pic('q-conv141.png', 1000, 150, 400, W(8, 1)[0] - 0.3, b, "Convocation n° 141 du 12 mars 2025 : Maître Fade", h=380, cls='p8')
 pic('q-conv142.png', 1440, 150, 400, W(8, 1)[0] + 0.6, b, "Convocation n° 142 : Maître Balley", h=380, cls='p8')
 pic('q-relance.png', 1000, 560, 840, W(8, 3)[0] - 0.3, b, "Relance de convocation du 25 mars 2025 : signée Sabi Fulbert Konto", h=390, find=("il a été convoqué pour le mercredi 19 mars 2025 mais il ne s'est pas présenté",), cls='p8')
+
+# --- 8.5 : Maître Fade, mandataire de Gilles Féliho en 2007
+a, b = Q(8.5)
+heads(a + 0.2, b, 'CE QUE LE NOTAIRE ÉCRIT (2007)', 'CE QUE DIT LE JUGEMENT (2014)')
+pic('g-tete.png', 80, 150, 840, W(8.5, 0)[0] - 0.3, b, "Lettre de Me Denise Ehouzou Gangnito, notaire, du 19 septembre 2007", cls='p85')
+pic('g-dest.png', 80, 300, 420, W(8.5, 0)[0] + 0.2, b, "Destinataire : Maître Victorien Fade, avocat à la Cour", cls='p85')
+pic('g-corps.png', 80, 480, 840, W(8.5, 1)[0] - 0.3, b, "Même lettre : « Suite à l'adjudication […] sur la parcelle « B » du lot 923 […] au profit de Monsieur Gilles Sixte FELIHO, dont vous êtes le mandataire »", hl=((3, 38, 94, 38),), cls='p85')
+pic('jg1-fade.png', 1000, 150, 840, W(8.5, 2)[0] - 0.3, b, "Jugement n° 114/14/3ème CH-EP du 31 octobre 2014, p. 1 : « tous assistés de Maître Victorien Olatoundji FADE, Avocat à la cour »", hl=((0, 5, 100, 90),), cls='p85')
+pic('jg5.png', 1000, 340, 840, W(8.5, 3)[0] - 0.3, b, "Même jugement, p. 5 : « la parcelle bâtie sise au lot 488 de Cotonou, quartier Gbégamey »", find=("la parcelle bâtie sise au lot 488 de Cotonou",), cls='p85')
 
 # --- 9 : le jugement, le testament, la disposition « constatée »
 a, b = Q(9)
