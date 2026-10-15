@@ -176,16 +176,16 @@ card(11, 'SEPT.', 2023, 120, 290, c[0][0] - 0.2, s2[1]); dot(9, 11, 2023, c[0][0
 card(4, 'OCT.', 2023, 380, 290, c[1][0] - 0.2, s2[1]); dot(10, 4, 2023, c[1][0] - 0.2, s2[1])
 card(17, 'NOV.', 2023, 640, 290, c[3][0] - 0.2, s2[1]); dot(11, 17, 2023, c[3][0] - 0.2, s2[1])
 pic('p18-top.png', 960, 290, 860, c[0][0], c[1][0] + 0.1, 'Référence du soit-transmis du 11 septembre 2023 : n° 2239-2023/MJL/CRIET/PS/SA (citée dans la lettre de la Brigade criminelle du 11 mars 2025)', hl=((0, 80, 100, 10),), cls='p2')
-pic('p3-oct.png', 960, 290, 860, c[1][0], c[3][0] + 0.1, 'Réponse n° 269/2025 de la Brigade criminelle, p. 2 : saisine du 4 octobre 2023', hl=((0, 6, 100, 50),), cls='p2')
-pic('p3-nov.png', 960, 290, 860, c[3][0], s2[1], 'Réponse n° 269/2025, p. 2 : « il est tenu d\'informer le bâtonnier […] par le biais du Procureur Général »', hl=((0, 52, 100, 45),), cls='p2')
+pic('p3-oct.png', 960, 290, 860, c[1][0], c[3][0] + 0.1, 'Réponse n° 268/2025 de la Brigade criminelle, p. 2 : saisine du 4 octobre 2023', hl=((0, 6, 100, 50),), cls='p2')
+pic('p3-nov.png', 960, 290, 860, c[3][0], s2[1], 'Réponse n° 268/2025, p. 2 : « il est tenu d\'informer le bâtonnier […] par le biais du Procureur Général »', hl=((0, 52, 100, 45),), cls='p2')
 
 # --- séquence 3 : la mise en instance
 d = [T[(3, i)] for i in range(3)]
 card(3, 'AVR.', 2024, 120, 290, d[0][0] - 0.2, s3[1]); dot(4, 3, 2024, d[0][0] - 0.2, s3[1])
 card(27, 'OCT.', 2024, 380, 290, d[1][0] - 0.2, s3[1]); dot(10, 27, 2024, d[1][0] - 0.2, s3[1])
 card(6, 'MARS', 2025, 640, 290, d[2][0] - 0.2, s3[1]); dot(3, 6, 2025, d[2][0] - 0.2, s3[1])
-pic('p4-instance.png', 960, 290, 860, d[0][0], d[2][0] + 0.1, 'Réponse n° 269/2025, p. 3 : « en mettant le dossier en instance tel qu\'il a inscrit là-dessus » ; décès à Abidjan le 27 octobre 2024', hl=((0, 20, 100, 38),), cls='p3')
-pic('p4-notif.png', 960, 290, 860, d[2][0], s3[1], 'Réponse n° 269/2025, p. 3 : « À la suite de la notification […] du 06 mars 2025, la fouille des documents […] a permis de retrouver le soit transmis »', hl=((0, 8, 70, 30),), cls='p3')
+pic('p4-instance.png', 960, 290, 860, d[0][0], d[2][0] + 0.1, 'Réponse n° 268/2025, p. 3 : « en mettant le dossier en instance tel qu\'il a inscrit là-dessus » ; décès à Abidjan le 27 octobre 2024', hl=((0, 20, 100, 38),), cls='p3')
+pic('p4-notif.png', 960, 290, 860, d[2][0], s3[1], 'Réponse n° 268/2025, p. 3 : « À la suite de la notification […] du 06 mars 2025, la fouille des documents […] a permis de retrouver le soit transmis »', hl=((0, 8, 70, 30),), cls='p3')
 el(f'<div class="seg grow" data-ga="{d[2][0]:.2f}" data-gb="{s3[1]-1.0:.2f}" style="left:{X(4,3,2024):.0f}px;top:{FY-5}px;width:{X(3,6,2025)-X(4,3,2024):.0f}px"></div>', d[2][0] - 0.1, s3[1], 0.4)
 counter(11, 'MOIS', 120, 560, d[2][0], s3[1], d[2][0] + 0.2, s3[1] - 0.8)
 

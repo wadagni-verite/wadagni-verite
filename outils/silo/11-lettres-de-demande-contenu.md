@@ -43,7 +43,7 @@ Quatre lettres demandent à quatre autorités béninoises les actes et les infor
 >
 > Par lettre du 20 juin 2024, je vous ai demandé de bien vouloir me faire connaître l'état d'avancement de ce dossier ainsi que la suite que vous entendiez lui donner, quelle qu'elle fût. Cette demande est, à ma connaissance, demeurée sans réponse.
 >
-> Le 17 mars 2025, une correspondance portant la référence `0082/COA/BAT/AAH/2024/MP`, revêtue du cachet de l'Ordre et de la mention « A. HOUNKPATIN », a été adressée à Monsieur le Procureur Général près la Cour d'appel de Cotonou, à l'occasion de la convocation de Me FADE par la Brigade criminelle. Elle indique que « la cause est déjà en instruction » et que Me FADE « a déjà déféré » à l'invitation de produire ses observations. Elle porte le cachet d'arrivée du Parquet Général du 19 mars 2025, a été transmise au chef de la Brigade criminelle le 27 mars 2025 et est annexée à la réponse n° 269/2025 du 29 avril 2025 au greffier en chef de la Cour constitutionnelle.
+> Le 17 mars 2025, une correspondance portant la référence `0082/COA/BAT/AAH/2024/MP`, revêtue du cachet de l'Ordre et de la mention « A. HOUNKPATIN », a été adressée à Monsieur le Procureur Général près la Cour d'appel de Cotonou, à l'occasion de la convocation de Me FADE par la Brigade criminelle. Elle indique que « la cause est déjà en instruction » et que Me FADE « a déjà déféré » à l'invitation de produire ses observations. Elle porte le cachet d'arrivée du Parquet Général du 19 mars 2025, a été transmise au chef de la Brigade criminelle le 27 mars 2025 et est annexée à la réponse n° 268/2025 du 29 avril 2025 au greffier en chef de la Cour constitutionnelle.
 >
 > Je n'ai reçu, à ce jour, aucune notification relative à cette instruction ni aux observations de Me FADE.
 >
@@ -89,7 +89,7 @@ Quatre lettres demandent à quatre autorités béninoises les actes et les infor
 >
 > Le 17 mars 2025, le Bâtonnier a adressé à votre parquet une correspondance portant la référence `0082/COA/BAT/AAH/2024/MP`, sollicitant l'exercice de sa prérogative de consultation préalable à toute audition d'avocat, sur le fondement de l'article 6, alinéa 2 (tel que cité dans cette correspondance), du Règlement n° 05/CM/UEMOA du 25 septembre 2014. Elle indique que « la cause est déjà en instruction » et que Me FADE « a déjà déféré » à l'invitation de produire ses observations.
 >
-> La copie de cette correspondance en ma possession porte un cachet d'arrivée de votre secrétariat daté du 19 mars 2025. Elle a été transmise au chef de la Brigade criminelle par votre correspondance du 27 mars 2025, et annexée à la réponse n° 269/2025 que ce dernier a adressée, le 29 avril 2025, au greffier en chef de la Cour constitutionnelle du Bénin.
+> La copie de cette correspondance en ma possession porte un cachet d'arrivée de votre secrétariat daté du 19 mars 2025. Elle a été transmise au chef de la Brigade criminelle par votre correspondance du 27 mars 2025, et annexée à la réponse n° 268/2025 que ce dernier a adressée, le 29 avril 2025, au greffier en chef de la Cour constitutionnelle du Bénin.
 >
 > Ma plainte déontologique auprès du Bâtonnier étant, à ma connaissance, demeurée sans réponse depuis le 2 avril 2023, ces mentions me sont nécessaires pour connaître l'état exact de la procédure.
 >
@@ -183,7 +183,7 @@ Quatre lettres demandent à quatre autorités béninoises les actes et les infor
 >
 > **Gilles Sixte FELIHO**
 
-**Pièces jointes :** 1) [copie partielle du PV n° 2 du 19 mars 2025](/pieces/bac-pv-audition-2-2025-03-19.pdf) (pages 1, 2/5 et 5/5) ; 2) [réponse n° 269/2025 de la Brigade criminelle du 29 avril 2025](/pieces/procedures-benin/observations-brigade-criminelle-cour-constitutionnelle-2025-allege.pdf) (version allégée).
+**Pièces jointes :** 1) [copie partielle du PV n° 2 du 19 mars 2025](/pieces/bac-pv-audition-2-2025-03-19.pdf) (pages 1, 2/5 et 5/5) ; 2) [réponse n° 268/2025 de la Brigade criminelle du 29 avril 2025](/pieces/procedures-benin/observations-brigade-criminelle-cour-constitutionnelle-2025-allege.pdf) (version allégée).
 
 ### Règle de conduite
 

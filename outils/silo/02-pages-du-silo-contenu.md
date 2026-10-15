@@ -54,7 +54,7 @@ Ces questions sont posées ici parce qu'elles sont vérifiables. Elles sont pos�
 | 11 sept. 2023 → 29 avr. 2025 | Procédure d'enquête préliminaire (CRIET, Brigade criminelle) | 30 pages |
 | 17 mars 2025 | Lettre du cabinet du Bâtonnier au Procureur Général | Réf. 0082/COA/BAT/AAH/2024/mp |
 | 19 mars 2025 | Procès-verbal n° 2, audition de Me Félix Balley | PV n° 2 |
-| 29 avr. 2025 | Réponse n° 269/2025 de la Brigade criminelle au greffier en chef | 9 pièces jointes |
+| 29 avr. 2025 | Réponse n° 268/2025 de la Brigade criminelle au greffier en chef | 9 pièces jointes |
 | 28 mai 2025 | Requête devant la Cour constitutionnelle | N° 1471/331/REC-25 |
 | 5 août 2025 | Notification de date d'audience | N° 3081/CC/GEC |
 
@@ -62,7 +62,7 @@ Ces questions sont posées ici parce qu'elles sont vérifiables. Elles sont pos�
 
 - [La plainte déontologique du 2 avril 2023, pièce par pièce](/batonnier-hounkpatin/plainte-deontologique-fade-2023/)
 - [Que dit la lettre du 17 mars 2025 ?](/batonnier-hounkpatin/lettre-batonnier-procureur-general-17-mars-2025/)
-- [La réponse n° 269/2025 et ses neuf pièces](/batonnier-hounkpatin/brigade-criminelle-reponse-29-avril-2025/)
+- [La réponse n° 268/2025 et ses neuf pièces](/batonnier-hounkpatin/brigade-criminelle-reponse-29-avril-2025/)
 - [Le recours n° 1471/331/REC-25 devant la Cour constitutionnelle](/batonnier-hounkpatin/recours-cour-constitutionnelle-1471-331-rec-25/)
 - [Ce que l'article 7-1 d) impose à une instance déontologique](/batonnier-hounkpatin/article-7-1-d-cadhp-delai-raisonnable/)
 - [Comment saisir le Bâtonnier et la Cour constitutionnelle au Bénin](/batonnier-hounkpatin/recours-contre-le-batonnier-benin-mode-emploi/)
@@ -116,7 +116,7 @@ Le raisonnement exposé est le suivant : le jugement n° 114/14/3ᵉ CH-EP du 31
 | 20 juin 2024 | Relance adressée au Bâtonnier, demandant l'état d'avancement et la suite envisagée | Aucune réponse connue |
 | 19 mars 2025 | Convocation de Me Fade par la Brigade criminelle ; non-comparution | Lettre de relance de la Brigade criminelle |
 | 17 mars 2025 | Lettre du cabinet du Bâtonnier au Procureur Général, réf. `0082/COA/BAT/AAH/2024/mp` | Transmise à la Brigade criminelle |
-| 29 avr. 2025 | La Brigade criminelle annexe cette lettre à sa réponse n° 269/2025 | Pièce jointe n° 7 de la réponse |
+| 29 avr. 2025 | La Brigade criminelle annexe cette lettre à sa réponse n° 268/2025 | Pièce jointe n° 7 de la réponse |
 
 **Lecture.** Entre le 2 avril 2023 et le 28 mai 2025, aucune pièce produite ne manifeste une décision ou une notification adressée au plaignant. C'est un constat de fait, tiré des pièces versées : il ne préjuge ni de l'existence d'un dossier interne à l'Ordre, ni de son contenu.
 
@@ -158,7 +158,7 @@ Elle invoque ensuite l'article 6, alinéa 2 (tel que cité dans la lettre), du R
 
 ### Ce que la Brigade criminelle en rapporte
 
-Dans sa réponse n° 269/2025 du 29 avril 2025 au greffier en chef de la Cour constitutionnelle, la Brigade criminelle reprend ce passage :
+Dans sa réponse n° 268/2025 du 29 avril 2025 au greffier en chef de la Cour constitutionnelle, la Brigade criminelle reprend ce passage :
 
 > « Par ailleurs, suite à la convocation de Maître FADE O. Victorien, avocat à la cour, le Procureur Général a transmis au chef de la Brigade criminelle une correspondance du bâtonnier qui l'avise que le plaignant Gilles sixte FELIHO l'a déjà saisi de son différend et **la cause est déjà en instruction** pour avoir invité Maître FADE Victorien Olatoundji à lui produire ses observations sur sa plainte **et ce à quoi il aurait déjà déféré**. »
 
@@ -169,7 +169,7 @@ Dans sa réponse n° 269/2025 du 29 avril 2025 au greffier en chef de la Cour co
 | 2 avr. 2023 | [Plainte](/pieces/procedures-benin/plainte-deontologique-fade-2023-04-02.pdf) | Dépôt de la plainte déontologique |
 | 20 oct. 2023 | Avis de réception, [dossier complet](/pieces/procedures-benin/plainte-deontologique-fade-dossier-complet-relance-2024-06-20.pdf), p. 3 | Cachet de l'Ordre et cachet postal de cette date |
 | 20 juin 2024 | [Relance](/pieces/procedures-benin/relance-batonnier-2024-06-20.pdf) | Le plaignant demande l'état d'avancement ; aucune réponse connue |
-| 12 mars 2025 | Convocation, réponse n° 269/2025, p. 19-20 | Me Fade est convoqué par la Brigade criminelle pour le 19 mars 2025 à 9 h |
+| 12 mars 2025 | Convocation, réponse n° 268/2025, p. 19-20 | Me Fade est convoqué par la Brigade criminelle pour le 19 mars 2025 à 9 h |
 | 17 mars 2025 | [Lettre du Bâtonnier](/pieces/procedures-benin/lettre-batonnier-procureur-general-2025-03-17.pdf) | « La cause est déjà en instruction » ; « il a déjà déféré » |
 | 19 mars 2025 | Même lettre, cachet du Parquet Général | Cachet d'arrivée « 19/03/25 » et visa « copie au chef Brigade criminelle » : la lettre est enregistrée le jour fixé pour l'audition |
 | 19 mars 2025 | [Relance de convocation](/pieces/procedures-benin/relance-convocation-brigade-criminelle-2025-03-25.pdf) | La Brigade criminelle écrit que Me Fade « a été convoqué pour le mercredi 19 mars 2025 mais il ne s'est pas présenté » |
@@ -184,17 +184,13 @@ Dans sa réponse n° 269/2025 du 29 avril 2025 au greffier en chef de la Cour co
 
 ### Ce que Me Fade pouvait produire
 
-La plainte ne repose pas sur une théorie juridique, mais sur un fait matériel vérifiable. Le jugement n° 114/14/3ᵉ CH-EP du 31 octobre 2014 écrit (pages 5 et 8) que Gilles Sixte Féliho « a même déjà disposé » de la parcelle bâtie du lot 488 de Cotonou, quartier Gbégamey, et qu'il a « exécuté les dispositions testamentaires de manière volontaire ». Or le [procès-verbal de compulsion](/pieces/pv-compulsion-parcelle-b-lot-488-2017-12.pdf) dressé par l'huissier de justice le 19 décembre 2017 consigne que l'Institut Géographique National « ne dispose d'aucun document afférent à la parcelle B du lot 488 » et que la direction des affaires juridiques et du foncier de la mairie de Cotonou « ne trouve pas davantage de trace » d'une telle disposition. La Brigade criminelle a elle-même requis la mairie, le 12 mars 2025, de mettre à sa disposition le registre foncier de cette parcelle (pièces 5 et 6 de la réponse n° 269/2025). Le contenu de la réponse de la mairie n'est pas commenté ici.
+La plainte ne repose pas sur une théorie juridique, mais sur un fait matériel vérifiable. Le jugement n° 114/14/3ᵉ CH-EP du 31 octobre 2014 écrit (pages 5 et 8) que Gilles Sixte Féliho « a même déjà disposé » de la parcelle bâtie du lot 488 de Cotonou, quartier Gbégamey, et qu'il a « exécuté les dispositions testamentaires de manière volontaire ». Or le [procès-verbal de compulsion](/pieces/pv-compulsion-parcelle-b-lot-488-2017-12.pdf) dressé par l'huissier de justice le 19 décembre 2017 consigne que l'Institut Géographique National « ne dispose d'aucun document afférent à la parcelle B du lot 488 » et que la direction des affaires juridiques et du foncier de la mairie de Cotonou « ne trouve pas davantage de trace » d'une telle disposition. La Brigade criminelle a elle-même requis la mairie, le 12 mars 2025, de mettre à sa disposition le registre foncier de cette parcelle (pièces 5 et 6 de la réponse n° 268/2025). Le contenu de la réponse de la mairie n'est pas commenté ici.
 
 Dans ces conditions, une observation écrite adressée au Bâtonnier ne pouvait être satisfaisante qu'à une condition : produire le document, introuvable à l'Institut Géographique National et à la mairie de Cotonou, par lequel Gilles Sixte Féliho aurait disposé de cette parcelle. Aucun document de cette nature n'est produit au dossier.
 
 ### Ce que les pièces établissent
 
 Les pièces établissent la date de la plainte, sa réception par l'Ordre, la date et les termes de la lettre, son enregistrement au Parquet Général le 19 mars 2025 et la non-comparution rapportée par la Brigade criminelle. Elles n'établissent ni la date d'ouverture de l'instruction, ni l'existence ou le contenu d'observations de l'avocat. Cette absence est un fait documentaire : chacun peut le vérifier en consultant les pièces.
-
-### Observation documentaire
-
-Le greffier en chef de la Cour constitutionnelle, dans sa lettre n° 3081/CC/GEC, désigne la pièce jointe comme la « Lettre n°268/2025 de la Brigade Criminelle du 29 avril 2025 », tandis que le document lui-même porte le numéro `n°269/2025` sur son en-tête. Cet écart de numérotation est signalé ici comme une observation à vérifier auprès de l'émetteur ; il n'est pas interprété.
 
 ### Quatre questions vérifiables
 
@@ -207,7 +203,7 @@ Les trois premières font l'objet d'une demande écrite à l'Ordre des avocats d
 
 ### Poursuivre
 
-- [La réponse n° 269/2025 et ses neuf pièces](/batonnier-hounkpatin/brigade-criminelle-reponse-29-avril-2025/)
+- [La réponse n° 268/2025 et ses neuf pièces](/batonnier-hounkpatin/brigade-criminelle-reponse-29-avril-2025/)
 - [La plainte déontologique du 2 avril 2023](/batonnier-hounkpatin/plainte-deontologique-fade-2023/)
 - [Les pièces, leurs références et leurs empreintes](/batonnier-hounkpatin/sources-et-pieces-verifiables/)
 
@@ -217,8 +213,8 @@ Les trois premières font l'objet d'une demande écrite à l'Ordre des avocats d
 
 **URL :** `/batonnier-hounkpatin/brigade-criminelle-reponse-29-avril-2025/`
 **Title :** Réponse de la Brigade criminelle — 29 avril 2025 | Dossier
-**Meta description :** La lettre n° 269/2025 de la Brigade criminelle du 29 avril 2025 et ses neuf pièces jointes : chronologie de la procédure, audition de Me Balley, points en suspens.
-**H1 :** La réponse n° 269/2025 et ses neuf pièces
+**Meta description :** La lettre n° 268/2025 de la Brigade criminelle du 29 avril 2025 et ses neuf pièces jointes : chronologie de la procédure, audition de Me Balley, points en suspens.
+**H1 :** La réponse n° 268/2025 et ses neuf pièces
 **Balisage :** `Article`
 
 ### Chapô
@@ -321,7 +317,7 @@ La saisine de la Cour constitutionnelle constitue la voie interne qu'il convient
 
 - [Ce que l'article 7-1 d) impose à une instance déontologique](/batonnier-hounkpatin/article-7-1-d-cadhp-delai-raisonnable/)
 - [Comment saisir le Bâtonnier et la Cour constitutionnelle](/batonnier-hounkpatin/recours-contre-le-batonnier-benin-mode-emploi/)
-- [La réponse n° 269/2025 de la Brigade criminelle](/batonnier-hounkpatin/brigade-criminelle-reponse-29-avril-2025/)
+- [La réponse n° 268/2025 de la Brigade criminelle](/batonnier-hounkpatin/brigade-criminelle-reponse-29-avril-2025/)
 
 ---
 
@@ -451,7 +447,7 @@ Chaque pièce porte son empreinte SHA-256 du fichier mis en ligne. Toute modific
 | Relance au Bâtonnier | 20 juin 2024 | 1 | `b28f60453ce57dbd33ce5401aeb9f40a5064be0aceca6d4002989e36aefc8aea` |
 | Requête Cour constitutionnelle | 28 mai 2025 | 3 | `ea75eddae5ab8a2a25918d8a407780f854f35758ed4efb87575379e4ed01d7d1` |
 | Notification de convocation | 5 août 2025 | 1 | `ff7ea59bdfa7de4f56449652ca4869fac6e4928a9a8e9b064ded6d69c40ff7cf` |
-| Réponse BAC n° 269/2025 et annexes | 29 avr. 2025 | 30 | `1e3685fba3d692f8a6b4da201a57cd526bb0d86d84a2494d23b69d1e7857a3d6` |
+| Réponse BAC n° 268/2025 et annexes | 29 avr. 2025 | 30 | `1e3685fba3d692f8a6b4da201a57cd526bb0d86d84a2494d23b69d1e7857a3d6` |
 | Jugement n° 114/14/3ᵉ CH-EP | 31 oct. 2014 | 8 | `81f38a3b6459bfe09335ec8b49a0330d5c4d4fc8daca750ad25dd2ea077c5d06` |
 | Signification du jugement | 9 mars 2015 | 3 | `5946ebe64458bd2939af16ebc7ff8d4e08759f1b787a8e0e928b9f761d5fe978` |
 | Procès-verbal de compulsion | 19 déc. 2017 | 3 | `be038ee0706cfc627722ff667748bf334f0246996848b4af8d9b4552da21d3dd` |

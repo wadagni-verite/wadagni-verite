@@ -23,20 +23,20 @@ Votre navigateur ne lit pas cette vidéo.
 
 | Date | Fait | Pièce |
 |---|---|---|
-| 11 sept. 2023 | Soit-transmis n° 2239-2023/MJL/CRIET/PS/SA : le Procureur spécial près la CRIET saisit la Brigade criminelle | Citée dans la [réponse n° 269/2025](/pieces/procedures-benin/observations-brigade-criminelle-cour-constitutionnelle-2025-allege.pdf), p. 2 |
-| 4 oct. 2023 | La Brigade criminelle est saisie de la plainte formulée contre X ; l'avocat et le notaire sont nommés | Réponse n° 269/2025, p. 2 |
-| 17 nov. 2023 | L'enquêteur informe le mandataire du plaignant qu'il est tenu d'informer le bâtonnier et le président de la chambre des notaires par le biais du Procureur Général | Réponse n° 269/2025, p. 2 |
-| 3 avr. 2024 | Le chef de la Brigade criminelle dessaisit l'enquêteur et met le dossier « en instance, tel qu'il a inscrit là-dessus » | Réponse n° 269/2025, p. 3 |
-| 27 oct. 2024 | Décès du chef de la Brigade criminelle, à Abidjan, alors qu'il était en mission | Réponse n° 269/2025, p. 3 |
-| 6 mars 2025 | Notification de la date d'audience par le greffier en chef de la Cour constitutionnelle ; le dossier est retrouvé | Réponse n° 269/2025, p. 3 |
-| 11 mars 2025 | Réquisition au directeur des affaires domaniales de la mairie de Cotonou | Réponse n° 269/2025 (pièces jointes) |
-| 12 mars 2025 | Convocations de Me Fade et de Me Balley pour le 19 mars 2025 à 9 h | Réponse n° 269/2025 (pièces jointes) |
+| 11 sept. 2023 | Soit-transmis n° 2239-2023/MJL/CRIET/PS/SA : le Procureur spécial près la CRIET saisit la Brigade criminelle | Citée dans la [réponse n° 268/2025](/pieces/procedures-benin/observations-brigade-criminelle-cour-constitutionnelle-2025-allege.pdf), p. 2 |
+| 4 oct. 2023 | La Brigade criminelle est saisie de la plainte formulée contre X ; l'avocat et le notaire sont nommés | Réponse n° 268/2025, p. 2 |
+| 17 nov. 2023 | L'enquêteur informe le mandataire du plaignant qu'il est tenu d'informer le bâtonnier et le président de la chambre des notaires par le biais du Procureur Général | Réponse n° 268/2025, p. 2 |
+| 3 avr. 2024 | Le chef de la Brigade criminelle dessaisit l'enquêteur et met le dossier « en instance, tel qu'il a inscrit là-dessus » | Réponse n° 268/2025, p. 3 |
+| 27 oct. 2024 | Décès du chef de la Brigade criminelle, à Abidjan, alors qu'il était en mission | Réponse n° 268/2025, p. 3 |
+| 6 mars 2025 | Notification de la date d'audience par le greffier en chef de la Cour constitutionnelle ; le dossier est retrouvé | Réponse n° 268/2025, p. 3 |
+| 11 mars 2025 | Réquisition au directeur des affaires domaniales de la mairie de Cotonou | Réponse n° 268/2025 (pièces jointes) |
+| 12 mars 2025 | Convocations de Me Fade et de Me Balley pour le 19 mars 2025 à 9 h | Réponse n° 268/2025 (pièces jointes) |
 | 14 mars 2025 | Le Procureur Général transmet au Bâtonnier la convocation de Me Fade | Référence citée dans la [lettre du 17 mars](/pieces/procedures-benin/lettre-batonnier-procureur-general-2025-03-17.pdf) |
 | 17 mars 2025 | Lettre du Bâtonnier au Procureur Général | [Lettre du 17 mars 2025](/pieces/procedures-benin/lettre-batonnier-procureur-general-2025-03-17.pdf) |
 | 19 mars 2025 | Cachet d'arrivée du Parquet Général sur la lettre ; audition du notaire ; l'avocat ne se présente pas | Lettre ; [PV d'audition n° 2](/pieces/bac-pv-audition-2-2025-03-19.pdf) ; [relance du 25 mars](/pieces/procedures-benin/relance-convocation-brigade-criminelle-2025-03-25.pdf) |
 | 27 mars 2025 | Le Procureur Général transmet la lettre du Bâtonnier à la Brigade criminelle | [Transmission du 27 mars 2025](/pieces/procedures-benin/transmission-procureur-general-brigade-2025-03-27.pdf) |
 | **3 juil. 2025** | **Avis de classement sans suite (inopportunité de poursuite)** | **[Avis de classement](/pieces/avis-de-classement-criet-2025-07-03.pdf)** |
-| 15 juil. 2025 | Audience du recours n° 0268/079/REC-25 devant la Cour constitutionnelle (renvoyée à cette date par la lettre du greffier en chef du 20 mai 2025) | Réponse n° 269/2025, p. 1 (report d'audience) |
+| 15 juil. 2025 | Audience du recours n° 0268/079/REC-25 devant la Cour constitutionnelle (renvoyée à cette date par la lettre du greffier en chef du 20 mai 2025) | Réponse n° 268/2025, p. 1 (report d'audience) |
 | 25 sept. 2025 | Le mandataire du plaignant apprend le classement à la Brigade criminelle | Message du mandataire, conservé par le plaignant |
 | **26 sept. 2025** | **Réception par le plaignant** | Mention « Reçu le 26 septembre 2025 » portée par le plaignant sur sa copie de l'avis |
 | 30 sept. 2025 | Audience dans le recours n° 1471/331/REC-25 | [Convocation n° 3081/CC/GEC](/pieces/procedures-benin/convocation-cour-constitutionnelle-recours-1471-331-2025-08-05.pdf) |
@@ -45,10 +45,10 @@ Votre navigateur ne lit pas cette vidéo.
 
 | Durée | Calcul | Pièces |
 |---|---|---|
-| **11 mois** | 3 avril 2024 → 6 mars 2025 (11 mois et 3 jours) : du retrait du dossier à sa redécouverte | Réponse n° 269/2025 |
+| **11 mois** | 3 avril 2024 → 6 mars 2025 (11 mois et 3 jours) : du retrait du dossier à sa redécouverte | Réponse n° 268/2025 |
 | **8 jours** | 19 mars → 27 mars 2025 : du cachet d'arrivée de la lettre du Bâtonnier au Parquet Général à sa transmission à la Brigade criminelle | Lettre ; transmission du 27 mars |
 | **85 jours** | 3 juillet → 26 septembre 2025 : de la date de la décision à sa réception par le plaignant | Avis de classement |
-| **12 jours** | 3 juillet → 15 juillet 2025 : du classement à l'audience du 15 juillet | Avis de classement ; réponse n° 269/2025, p. 1 |
+| **12 jours** | 3 juillet → 15 juillet 2025 : du classement à l'audience du 15 juillet | Avis de classement ; réponse n° 268/2025, p. 1 |
 
 ### Les cinq questions
 
