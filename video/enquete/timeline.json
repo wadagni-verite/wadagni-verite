@@ -1,5 +1,5 @@
 {
- "total": 384.5866666666663,
+ "total": 412.12733333333296,
  "sequences": {
   "1": [
    0.0,
@@ -39,31 +39,31 @@
   ],
   "9": [
    246.1573333333333,
-   288.39199999999994
+   311.38733333333323
   ],
   "10": [
-   288.39199999999994,
-   312.1919999999999
+   311.38733333333323,
+   339.73266666666655
   ],
   "11": [
-   312.1919999999999,
-   329.02666666666653
+   339.73266666666655,
+   356.5673333333332
   ],
   "12": [
-   329.02666666666653,
-   347.7559999999998
+   356.5673333333332,
+   375.29666666666645
   ],
   "13": [
-   347.7559999999998,
-   371.1719999999997
+   375.29666666666645,
+   398.71266666666634
   ],
   "14": [
-   371.1719999999997,
-   378.5866666666663
+   398.71266666666634,
+   406.12733333333296
   ],
   "15": [
-   378.5866666666663,
-   384.5866666666663
+   406.12733333333296,
+   412.12733333333296
   ]
  },
  "cues": [
@@ -234,102 +234,117 @@
   ],
   [
    247.0573333333333,
-   256.9773333333333,
+   257.212,
    "Le jugement du 31 octobre 2014 constate que Gilles Féliho a même déjà disposé de l'immeuble, et qu'il a exécuté les dispositions testamentaires de manière volontaire."
   ],
   [
-   257.27733333333333,
-   262.696,
-   "Or un testament ne prend effet qu'au décès de son auteur. Le décès est du 3 décembre 2010."
+   257.56199999999995,
+   263.4926666666666,
+   "Le juge constate. Il ne dit pas l'avoir lu dans le testament : il constate un fait, sans date, sans acte, sans pièce."
   ],
   [
-   262.996,
-   268.8413333333333,
-   "Un testament daté de juillet 2009 ne peut constater aucun acte postérieur à la mort de son auteur."
+   263.8426666666666,
+   275.29866666666663,
+   "Or le testament est de juillet 2009. Gilles Féliho n'a pu en hériter qu'au décès de son père, le 3 décembre 2010. Un testament est un acte unilatéral qui produit son effet à la mort de son auteur."
   ],
   [
-   269.1413333333333,
-   275.96799999999996,
+   275.6486666666666,
+   287.3179999999999,
+   "Un testament ne peut pas constater un acte postérieur au décès. Il ne peut constater ni une disposition de l'immeuble par le légataire, ni l'exécution volontaire de ses clauses, puisque ces actes sont par nature postérieurs."
+  ],
+  [
+   287.66799999999995,
+   292.34,
+   "On ne peut pas déduire l'exécution des dispositions testamentaires du testament lui-même."
+  ],
+  [
+   292.68999999999994,
+   299.66599999999994,
    "Le mémoire du commissaire principal Konto écrit : « à la lecture du testament, son père a déclaré lui avoir acheté la parcelle »."
   ],
   [
-   276.268,
-   283.0093333333333,
+   300.01599999999996,
+   306.9706666666666,
    "Un achat n'est pas un legs. Une acquisition n'est pas une disposition. Et le testament ne figure pas parmi les pièces jointes au mémoire."
   ],
   [
-   283.3093333333333,
-   287.192,
-   "Le jugement ne cite ni date, ni acte de disposition. Le mémoire non plus."
+   307.3206666666666,
+   309.9873333333333,
+   "Faire dire au testament ce qu'un testament ne peut pas dire."
   ],
   [
-   289.2919999999999,
-   294.2199999999999,
+   312.2873333333332,
+   317.2153333333332,
    "Le mémoire écrit que ce jugement, ayant autorité de la chose jugée, est non assorti de recours."
   ],
   [
-   294.5199999999999,
-   298.9359999999999,
+   317.5153333333332,
+   321.9313333333332,
    "Le jugement dit : en premier ressort. Exécution provisoire. Délai d'appel : un mois."
   ],
   [
-   299.23599999999993,
-   303.5026666666666,
+   322.2313333333332,
+   326.4979999999999,
    "La Brigade criminelle tranche ainsi une question de droit civil, qui n'est pas la sienne."
   ],
   [
-   303.8026666666666,
-   310.9919999999999,
+   326.7979999999999,
+   333.9873333333332,
    "Devant la Cour constitutionnelle, le plaignant dénonce une usurpation des prérogatives judiciaires, sans aucune garantie procédurale."
   ],
   [
-   313.09199999999987,
-   321.5826666666665,
+   334.2873333333332,
+   338.53266666666656,
+   "Faire dire au testament ce qu'il ne peut pas dire. Faire dire au jugement ce qu'il ne dit pas."
+  ],
+  [
+   340.6326666666665,
+   349.12333333333316,
    "Interrogé sur les obstacles que poserait le plaignant, le notaire répond : « son objectif principal est de faire échec à l'exécution des dispositions du testament »."
   ],
   [
-   321.8826666666665,
-   328.02666666666653,
+   349.4233333333332,
+   355.5673333333332,
    "Le mémoire du commissaire principal Konto rapporte cette déclaration. Aucun acte d'enquête n'est cité à son appui."
   ],
   [
-   329.9266666666665,
-   337.5426666666665,
+   357.46733333333316,
+   365.08333333333314,
    "En 2017, un huissier consigne que la mairie de Cotonou indique, pour la parcelle B du lot 488, une superficie : néant."
   ],
   [
-   337.8426666666665,
-   341.98133333333317,
+   365.38333333333316,
+   369.5219999999998,
    "Et que l'Institut géographique national ne dispose d'aucun document afférent."
   ],
   [
-   342.2813333333332,
-   346.3559999999998,
+   369.82199999999983,
+   373.8966666666665,
    "Ce procès-verbal ne figure pas dans le mémoire du commissaire principal Konto."
   ],
   [
-   348.6559999999998,
-   353.5839999999998,
+   376.19666666666643,
+   381.1246666666664,
    "Cinq cent soixante-trois jours entre la plainte et la notification de la Cour constitutionnelle."
   ],
   [
-   353.8839999999998,
-   358.3639999999998,
+   381.42466666666644,
+   385.90466666666646,
    "Cinquante-quatre jours, de cette notification au mémoire du commissaire principal Konto."
   ],
   [
-   358.66399999999976,
-   365.4693333333331,
+   386.2046666666664,
+   393.00999999999976,
    "Le 3 juillet 2025, le parquet de la CRIET classe sans suite : « je n'ai pas estimé opportun d'engager des poursuites »."
   ],
   [
-   365.76933333333307,
-   369.97199999999975,
+   393.3099999999997,
+   397.5126666666664,
    "Douze jours plus tard, le 15 juillet, la Cour constitutionnelle tient audience."
   ],
   [
-   372.07199999999966,
-   376.78666666666635,
+   399.6126666666663,
+   404.327333333333,
    "Six questions pour le commissaire principal Sabi Fulbert Konto. Les réponses seront publiées."
   ]
  ]
