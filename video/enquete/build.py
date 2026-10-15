@@ -112,6 +112,19 @@ SEQ = {
     "En deux mille dix-sept, un huissier consigne que la mairie de Cotonou indique, pour la parcelle B du lot quatre cent quatre-vingt-huit, une superficie : néant."),
    ("Et que l'Institut géographique national ne dispose d'aucun document afférent.", "Et que l'Institut géographique national ne dispose d'aucun document afférent."),
    ("Ce procès-verbal ne figure pas dans le mémoire du commissaire principal Konto.", "Ce procès-verbal ne figure pas dans le mémoire du commissaire principal Konto.")]),
+ 12.5: dict(speed=1.12, gap=0.4, lead=0.9, tail=1.4, s=[
+   ("Le faux en écriture publique : l'article 303 du Code pénal punit de la réclusion criminelle à perpétuité tout fonctionnaire ou officier public qui constate comme vrais des faits faux, ou comme avérés des faits qui ne l'étaient pas.",
+    "Le faux en écriture publique : l'article trois cent trois du Code pénal punit de la réclusion criminelle à perpétuité tout fonctionnaire ou officier public qui constate comme vrais des faits faux, ou comme avérés des faits qui ne l'étaient pas."),
+   ("L'article 305 punit celui qui a fait usage des actes faux. L'article 22 définit la complicité.",
+    "L'article trois cent cinq punit celui qui a fait usage des actes faux. L'article vingt-deux définit la complicité."),
+   ("L'ancien Code pénal, dit Code Bouvenet, vise de même le faux commis par un officier public, la constatation comme vrais de faits qui sont faux, et l'usage conscient d'un acte faux.",
+    "L'ancien Code pénal, dit Code Bouvenet, vise de même le faux commis par un officier public, la constatation comme vrais de faits qui sont faux, et l'usage conscient d'un acte faux."),
+   ("Le jugement constate que Gilles Féliho a même déjà disposé de la parcelle bâtie sise au lot 488 de Cotonou, quartier Gbégamey.",
+    "Le jugement constate que Gilles Féliho a même déjà disposé de la parcelle bâtie sise au lot quatre cent quatre-vingt-huit de Cotonou, quartier Gbégamey."),
+   ("L'enquête ne rapporte ni la preuve de l'existence de cette parcelle, ni la preuve d'un acte de disposition postérieur au décès.",
+    "L'enquête ne rapporte ni la preuve de l'existence de cette parcelle, ni la preuve d'un acte de disposition postérieur au décès."),
+   ("Les neuf pièces jointes au mémoire n'établissent ni l'une ni l'autre. Le procès-verbal de 2017 consigne : superficie, néant.",
+    "Les neuf pièces jointes au mémoire n'établissent ni l'une ni l'autre. Le procès-verbal de deux mille dix-sept consigne : superficie, néant.")]),
  13: dict(speed=1.14, gap=0.3, lead=0.9, tail=1.2, s=[
    ("Cinq cent soixante-trois jours entre la plainte et la notification de la Cour constitutionnelle.", "Cinq cent soixante-trois jours entre la plainte et la notification de la Cour constitutionnelle."),
    ("Cinquante-quatre jours, de cette notification au mémoire du commissaire principal Konto.", "Cinquante-quatre jours, de cette notification au mémoire du commissaire principal Konto."),
@@ -347,6 +360,17 @@ pic('pc2c.png', 80, 150, 840, W(12, 0)[0] - 0.3, b, "Procès-verbal de compulsio
 pic('pc3c.png', 80, 580, 840, W(12, 1)[0] - 0.3, b, "Même procès-verbal, p. 3 — IGN : « L'IGN ne dispose d'aucun document afférent à la parcelle B »", hl=((8, 44, 86, 38),), cls='p12')
 el('<div class="vide">non mentionné dans le mémoire du 29 avril 2025</div>', W(12, 2)[0] - 0.3, b, 0.6, '', 'left:1000px;top:260px;width:840px;height:480px')
 
+# --- 12.5 : la loi, le jugement, ce que l'enquête ne rapporte pas
+a, b = Q(12.5)
+heads(a + 0.2, b, 'CE QUE LA LOI DÉFINIT', 'CE QUE LE DOSSIER RAPPORTE')
+text("<b>Code pénal, art. 303</b> : « Est puni de la réclusion criminelle à perpétuité tout fonctionnaire ou officier public qui, en rédigeant des actes de son ministère, en a frauduleusement dénaturé la substance ou les circonstances, […] soit en constatant comme vrais des faits faux ou comme avérés des faits qui ne l'étaient pas. »", 80, 150, 840, W(12.5, 0)[0] - 0.2, b, 'quote wide')
+text("<b>Art. 305</b> : « celui qui a fait usage des actes faux est puni de la réclusion criminelle à temps de dix ans (10) à vingt (20) ans ». <b>Art. 22</b> : la complicité.", 80, 520, 840, W(12.5, 1)[0] - 0.2, b, 'quote wide')
+text("<b>Ancien Code pénal (Code Bouvenet), art. 145, 146 et 148</b> : faux commis par un officier public ; constatation comme vrais de faits qui sont faux ; usage conscient d'un acte faux.<br><span class='cap2'>Articles à vérifier sur le texte officiel.</span>", 80, 700, 840, W(12.5, 2)[0] - 0.2, b, 'quote wide')
+text("<b>Jugement n° 114/14/3ème CH-EP</b> : « Qu'il a été légué à Gilles Sixte FELIHO, une part successorale dont fait partie la parcelle bâtie sise au lot 488 de Cotonou, quartier Gbégamey ; Que Gilles Sixte FELIHO a même déjà disposé de cet immeuble »", 1000, 150, 840, W(12.5, 3)[0] - 0.2, b, 'quote wide')
+el('<div class="vide2">Preuve de l\'existence de la parcelle<br><b>non rapportée par l\'enquête</b></div>', W(12.5, 4)[0] - 0.2, b, 0.5, '', 'left:1000px;top:440px;width:840px')
+el('<div class="vide2">Preuve d\'un acte de disposition postérieur au décès<br><b>non rapportée par l\'enquête</b></div>', W(12.5, 4)[0] + 1.4, b, 0.5, '', 'left:1000px;top:600px;width:840px')
+text("Neuf pièces jointes au mémoire du 29 avril 2025 : aucune n'établit l'une ou l'autre. Procès-verbal de compulsion de 2017 : « SUPERFICIE : néant ».", 1000, 780, 840, W(12.5, 5)[0] - 0.2, b, 'ctext small')
+
 # --- 13 : les durées et le classement
 a, b = Q(13)
 counter(563, 'JOURS', 80, 150, W(13, 0)[0] - 0.2, W(13, 2)[0] - 0.2, W(13, 0)[0], W(13, 0)[0] + 2.2, w=840, size=170, sub="de la plainte (21 août 2023) à la notification de la Cour (6 mars 2025)")
@@ -408,7 +432,7 @@ html,body{width:1920px;height:1080px;overflow:hidden;background:#050d1f;font-fam
 .date3{font-family:'DejaVu Serif',serif;font-size:44px;font-weight:700;text-align:center;line-height:1.2}.date3 small{font-size:24px;font-weight:400;color:var(--mute);font-family:'DejaVu Sans'}
 .date3.vide{border:4px dashed rgba(199,210,254,.6);padding:10px;font-size:90px;color:var(--gold)}.date3.vide small{color:#cbd5e1}
 .frl2{height:3px;background:#c7d2fe}
-.ocretext{color:#d4af37}
+.ocretext{color:#d4af37}\n.vide2{border:4px dashed rgba(199,210,254,.6);color:#e2e8f0;font-size:30px;text-align:center;padding:22px;line-height:1.4}.vide2 b{color:#d4af37}
 .bigtext{font-family:'DejaVu Serif',serif;font-size:42px;line-height:1.3;font-weight:700}
 .quest{font-family:'DejaVu Serif',serif;font-size:40px;line-height:1.25}
 .url{font-size:64px;text-align:center;font-family:'DejaVu Serif',serif;color:#fff}.finsmall{font-size:30px;text-align:center;color:var(--mute)}
