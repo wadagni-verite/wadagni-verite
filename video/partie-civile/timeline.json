@@ -1,0 +1,197 @@
+{
+ "total": 196.7086666666667,
+ "sequences": {
+  "1": [
+   0.0,
+   15.657333333333332
+  ],
+  "2": [
+   15.657333333333332,
+   41.748000000000005
+  ],
+  "3": [
+   41.748000000000005,
+   65.51333333333334
+  ],
+  "4": [
+   65.51333333333334,
+   97.32200000000002
+  ],
+  "5": [
+   97.32200000000002,
+   125.29000000000003
+  ],
+  "6": [
+   125.29000000000003,
+   147.7966666666667
+  ],
+  "7": [
+   147.7966666666667,
+   166.14333333333335
+  ],
+  "8": [
+   166.14333333333335,
+   183.358
+  ],
+  "9": [
+   183.358,
+   190.7086666666667
+  ],
+  "15": [
+   190.7086666666667,
+   196.7086666666667
+  ]
+ },
+ "cues": [
+  [
+   1.4,
+   3.0853333333333333,
+   "La voie indiquée, déjà empruntée."
+  ],
+  [
+   3.3853333333333335,
+   14.457333333333333,
+   "Le 14 janvier 2026, le ministre de la Justice, Yvon Détchénou, invite à agir par citation directe ou constitution de partie civile. Cette voie a été empruntée 107 jours plus tôt."
+  ],
+  [
+   16.557333333333332,
+   21.613333333333333,
+   "Le 3 juillet 2025, le parquet spécial de la CRIET classe la plainte sans suite."
+  ],
+  [
+   21.913333333333334,
+   24.793333333333333,
+   "Le 26 septembre, le plaignant en prend connaissance."
+  ],
+  [
+   25.093333333333334,
+   31.514666666666667,
+   "Le 29 septembre 2025, trois jours plus tard, il dépose une plainte avec constitution de partie civile."
+  ],
+  [
+   31.814666666666668,
+   40.348,
+   "Le 14 janvier 2026, le ministre de la Justice, Yvon Détchénou, invite à agir par citation directe ou constitution de partie civile."
+  ],
+  [
+   42.648,
+   48.06666666666667,
+   "La plainte est adressée au Doyen des juges d'instruction du tribunal de première instance de Cotonou."
+  ],
+  [
+   48.36666666666667,
+   50.82,
+   "La page déposée porte le cachet du tribunal."
+  ],
+  [
+   51.12,
+   60.44266666666667,
+   "Le même jour, le Trésor public délivre un récépissé : nature, plainte ; montant, 3 000 francs CFA ; poste, tribunal de première instance de première classe de Cotonou."
+  ],
+  [
+   60.742666666666665,
+   64.11333333333333,
+   "Date du récépissé : le 29 septembre 2025."
+  ],
+  [
+   66.41333333333334,
+   76.86666666666667,
+   "Pourquoi la constitution de partie civile ? L'article 85 du Code de procédure pénale, tel que cité dans la plainte : l'instruction préparatoire est obligatoire en matière de crime."
+  ],
+  [
+   77.21666666666667,
+   85.046,
+   "Le faux en écriture publique, visé par l'article 303 du Code pénal, est puni de la réclusion criminelle à perpétuité : c'est un crime."
+  ],
+  [
+   85.396,
+   89.684,
+   "L'information judiciaire est donc la voie. La citation directe n'est pas ouverte."
+  ],
+  [
+   90.034,
+   95.92200000000001,
+   "La plainte avec constitution de partie civile provoque cette information judiciaire lorsque le parquet classe."
+  ],
+  [
+   98.22200000000002,
+   104.34466666666668,
+   "Elle vise X, quatre cohéritiers, Maître Victorien Olatundji Fade, et toutes autres personnes que l'instruction révélerait."
+  ],
+  [
+   104.6446666666667,
+   108.50600000000003,
+   "Faux en écriture publique, usage de faux en écriture publique et recel."
+  ],
+  [
+   108.80600000000003,
+   117.85133333333336,
+   "Elle demande de saisir sans délai un juge d'instruction, d'ouvrir une information judiciaire, et d'ordonner tous les actes utiles, dont l'audition des personnes mises en cause."
+  ],
+  [
+   118.15133333333335,
+   123.89000000000001,
+   "Elle s'engage à consigner la somme demandée, et élit domicile chez Maître Narcisse Atoun pour les notifications."
+  ],
+  [
+   126.19000000000004,
+   133.2726666666667,
+   "La plainte reproche à l'enquête préliminaire d'avoir ignoré le procès-verbal de compulsion du 19 décembre 2017."
+  ],
+  [
+   133.57266666666672,
+   137.09266666666673,
+   "De ne pas avoir entendu le juge signataire du jugement, ni l'avocat."
+  ],
+  [
+   137.3926666666667,
+   140.2726666666667,
+   "D'avoir mené des auditions sans en informer le plaignant."
+  ],
+  [
+   140.57266666666672,
+   146.39666666666673,
+   "Et de s'être concentrée sur le notaire, que la plainte du 17 août 2023 ne visait pas comme auteur."
+  ],
+  [
+   148.69666666666672,
+   149.8913333333334,
+   "Dix pièces sont jointes."
+  ],
+  [
+   150.19133333333338,
+   155.05533333333338,
+   "Le jugement, sa signification, le procès-verbal de compulsion, la décision de classement."
+  ],
+  [
+   155.35533333333336,
+   160.85933333333335,
+   "Le certificat d'appel du 17 novembre 2014, qui atteste que le jugement est frappé d'appel."
+  ],
+  [
+   161.15933333333336,
+   164.74333333333337,
+   "La lettre du notaire Gangnito, du 19 septembre 2007."
+  ],
+  [
+   167.04333333333335,
+   169.77400000000003,
+   "88 jours, du classement au dépôt de la plainte."
+  ],
+  [
+   170.074,
+   174.02066666666667,
+   "107 jours, du dépôt de la plainte à la lettre du ministre Yvon Détchénou."
+  ],
+  [
+   174.32066666666668,
+   181.95800000000003,
+   "381 jours, du 29 septembre 2025 au 15 octobre 2026, date de ce film : aucune suite connue."
+  ],
+  [
+   184.258,
+   188.90866666666668,
+   "Quatre questions pour le Doyen des juges d'instruction de Cotonou. Les réponses seront publiées."
+  ]
+ ]
+}
