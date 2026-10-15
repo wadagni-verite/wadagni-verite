@@ -75,137 +75,145 @@ Le même jour, elle met le notaire en demeure de produire, sous huit jours, les 
 Il répond le 27 décembre, en invoquant les devoirs de son office.
 
 20
-00:01:47,153 --> 00:01:53,084
-Le 19 juin 2024, deux cent soixante jours après la plainte : première séance contentieuse.
+00:01:47,153 --> 00:01:53,169
+Le 21 mai 2024, l'Autorité invite le plaignant à une séance le 28 mai, à 18 heures.
 
 21
-00:01:53,384 --> 00:02:01,085
-La séance est présidée par Claude Dieu Donné Montcho, en présence du président Luciano Hounkponou et du rapporteur Amouda Abou Seydou.
+00:01:53,469 --> 00:02:04,904
+Le 24 mai, il pose trois questions : comment assister à distance, s'il doit produire un mémoire, et si les échanges sont contradictoires, car il a cru comprendre que le notaire a fourni des pièces dont il n'a pas connaissance.
 
 22
-00:02:01,385 --> 00:02:04,543
-Le notaire est assisté de son avocat. Le plaignant est absent.
+00:02:05,204 --> 00:02:10,623
+Le 19 juin 2024, deux cent soixante jours après la plainte : séance contentieuse.
 
 23
-00:02:04,843 --> 00:02:10,325
-Son avocat s'excuse, au nom de son client, de l'ignorance de l'obligation légale de mise en conformité.
+00:02:10,923 --> 00:02:18,624
+La séance est présidée par Claude Dieu Donné Montcho, en présence du président Luciano Hounkponou et du rapporteur Amouda Abou Seydou.
 
 24
-00:02:10,625 --> 00:02:13,505
-Délibéré au 24 juillet, pour audition du plaignant.
+00:02:18,924 --> 00:02:22,081
+Le notaire est assisté de son avocat. Le plaignant est absent.
 
 25
-00:02:16,005 --> 00:02:24,645
-Le 23 juillet, le rapporteur écrit au plaignant : pour obtenir le rapport d'instruction notifié au défendeur, il doit formuler sa demande en séance plénière.
+00:02:22,381 --> 00:02:27,864
+Son avocat s'excuse, au nom de son client, de l'ignorance de l'obligation légale de mise en conformité.
 
 26
-00:02:24,945 --> 00:02:30,172
-Le 24 juillet, l'Autorité envoie le lien de la séance. Réponse du plaignant : « Je n'ai pas accès ».
+00:02:28,164 --> 00:02:31,044
+Délibéré au 24 juillet, pour audition du plaignant.
 
 27
-00:02:30,472 --> 00:02:33,608
-Le procès-verbal le mentionne ensuite « participant en ligne ».
+00:02:33,544 --> 00:02:42,184
+Le 23 juillet, le rapporteur écrit au plaignant : pour obtenir le rapport d'instruction notifié au défendeur, il doit formuler sa demande en séance plénière.
 
 28
-00:02:33,908 --> 00:02:42,313
-Le 28 août, le procès-verbal consigne que la plénière ne peut faire suite à sa demande de mise à disposition du rapport d'instruction adressé au notaire.
+00:02:42,484 --> 00:02:49,865
+Le 24 juillet, le plaignant écrit : « J'attends le lien de participation annoncé ». L'Autorité envoie le lien. Réponse : « Je n'ai pas accès ».
 
 29
-00:02:44,813 --> 00:02:53,453
-Le 25 septembre : nouvelle séance. Le délibéré est rabattu pour envoyer les procès-verbaux au plaignant, « afin de garantir le principe du contradictoire ».
+00:02:50,165 --> 00:02:53,301
+Le procès-verbal le mentionne ensuite « participant en ligne ».
 
 30
-00:02:53,753 --> 00:02:56,100
-Le dossier est renvoyé au 23 octobre.
+00:02:53,601 --> 00:03:02,007
+Le 28 août, le procès-verbal consigne que la plénière ne peut faire suite à sa demande de mise à disposition du rapport d'instruction adressé au notaire.
 
 31
-00:02:56,400 --> 00:03:01,989
-La lettre d'invitation du 10 octobre, signée du rapporteur, vise l'article 457.
+00:03:04,507 --> 00:03:13,147
+Le 25 septembre : nouvelle séance. Le délibéré est rabattu pour envoyer les procès-verbaux au plaignant, « afin de garantir le principe du contradictoire ».
 
 32
-00:03:04,489 --> 00:03:07,711
-Le 21 octobre, le plaignant dépose ses observations.
+00:03:13,447 --> 00:03:15,793
+Le dossier est renvoyé au 23 octobre.
 
 33
-00:03:08,011 --> 00:03:19,573
-Il relève trois versions du notaire : un mandat, le 20 octobre 2016 ; « pas partie aux actes », le 7 septembre 2023 ; une décision de justice exécutoire, le 19 juin 2024.
+00:03:16,093 --> 00:03:21,683
+La lettre d'invitation du 10 octobre, signée du rapporteur, vise l'article 457.
 
 34
-00:03:19,873 --> 00:03:28,236
-Il demande des sanctions, la suppression de ses données sous astreinte de cinquante mille francs CFA par jour, la publication, et l'information du Procureur.
+00:03:24,183 --> 00:03:27,404
+Le 21 octobre, le plaignant dépose ses observations.
 
 35
-00:03:30,736 --> 00:03:36,496
-Séance du 23 octobre. Séance du 27 novembre : le dossier est renvoyé au 19 décembre.
+00:03:27,704 --> 00:03:39,267
+Il relève trois versions du notaire : un mandat, le 20 octobre 2016 ; « pas partie aux actes », le 7 septembre 2023 ; une décision de justice exécutoire, le 19 juin 2024.
 
 36
-00:03:36,796 --> 00:03:42,492
-Le 13 décembre, par courtoisie, le plaignant informe l'Autorité du communiqué de presse qu'il entend publier.
+00:03:39,567 --> 00:03:47,929
+Il demande des sanctions, la suppression de ses données sous astreinte de cinquante mille francs CFA par jour, la publication, et l'information du Procureur.
 
 37
-00:03:42,792 --> 00:03:50,323
-Le 16 décembre, l'Autorité répond : dossier « mis en délibéré pour le 19 décembre prochain ». « Vous répondrez de vos actes en temps opportun. »
+00:03:50,429 --> 00:03:56,189
+Séance du 23 octobre. Séance du 27 novembre : le dossier est renvoyé au 19 décembre.
 
 38
-00:03:50,623 --> 00:03:53,737
-Réponse du plaignant : « Mes deux boussoles sont : la loi et la vérité. »
+00:03:56,489 --> 00:04:02,185
+Le 13 décembre, par courtoisie, le plaignant informe l'Autorité du communiqué de presse qu'il entend publier.
 
 39
-00:03:56,437 --> 00:04:05,909
-Sept séances : les 19 juin, 24 juillet, 28 août, 25 septembre, 23 octobre, 27 novembre et 19 décembre 2024.
+00:04:02,485 --> 00:04:10,016
+Le 16 décembre, l'Autorité répond : dossier « mis en délibéré pour le 19 décembre prochain ». « Vous répondrez de vos actes en temps opportun. »
 
 40
-00:04:06,209 --> 00:04:09,921
-Le 19 décembre 2024, le dossier est mis en délibéré.
+00:04:10,316 --> 00:04:13,431
+Réponse du plaignant : « Mes deux boussoles sont : la loi et la vérité. »
 
 41
-00:04:10,221 --> 00:04:11,181
-Depuis : rien.
+00:04:16,131 --> 00:04:25,603
+Sept séances : les 19 juin, 24 juillet, 28 août, 25 septembre, 23 octobre, 27 novembre et 19 décembre 2024.
 
 42
-00:04:13,881 --> 00:04:17,209
-443 jours entre la plainte et la dernière séance.
+00:04:25,903 --> 00:04:29,615
+Le 19 décembre 2024, le dossier est mis en délibéré.
 
 43
-00:04:17,509 --> 00:04:19,835
-665 jours depuis cette séance.
+00:04:29,915 --> 00:04:30,875
+Depuis : rien.
 
 44
-00:04:20,135 --> 00:04:21,948
-1 108 jours depuis la plainte.
+00:04:33,575 --> 00:04:36,903
+443 jours entre la plainte et la dernière séance.
 
 45
-00:04:24,448 --> 00:04:28,224
-Depuis le 19 décembre 2024, le calendrier avance.
+00:04:37,203 --> 00:04:39,528
+665 jours depuis cette séance.
 
 46
-00:04:28,524 --> 00:04:30,657
-Aucune décision. Aucune notification.
+00:04:39,828 --> 00:04:41,641
+1 108 jours depuis la plainte.
 
 47
-00:04:30,957 --> 00:04:33,027
-Rien depuis décembre 2024.
+00:04:44,141 --> 00:04:47,917
+Depuis le 19 décembre 2024, le calendrier avance.
 
 48
-00:04:35,927 --> 00:04:40,897
-Une décision a-t-elle été prise à l'issue du délibéré du 19 décembre 2024 ?
+00:04:48,217 --> 00:04:50,351
+Aucune décision. Aucune notification.
 
 49
-00:04:41,397 --> 00:04:45,557
-Le plaignant en sera-t-il informé, comme l'article 448 le prévoit ?
+00:04:50,651 --> 00:04:52,720
+Rien depuis décembre 2024.
 
 50
-00:04:46,057 --> 00:04:51,220
-Le Procureur de la République a-t-il été informé, article 483, point 9 ?
+00:04:55,620 --> 00:05:00,591
+Une décision a-t-elle été prise à l'issue du délibéré du 19 décembre 2024 ?
 
 51
-00:04:51,720 --> 00:04:55,667
-La demande de suppression des données sur le certificat a-t-elle été examinée ?
+00:05:01,091 --> 00:05:05,251
+Le plaignant en sera-t-il informé, comme l'article 448 le prévoit ?
 
 52
-00:04:58,567 --> 00:05:02,492
-Une plainte, sept séances, un délibéré. Aucune décision connue du plaignant.
+00:05:05,751 --> 00:05:10,913
+Le Procureur de la République a-t-il été informé, article 483, point 9 ?
 
 53
-00:05:02,792 --> 00:05:06,099
+00:05:11,413 --> 00:05:15,360
+La demande de suppression des données sur le certificat a-t-elle été examinée ?
+
+54
+00:05:18,260 --> 00:05:22,185
+Une plainte, sept séances, un délibéré. Aucune décision connue du plaignant.
+
+55
+00:05:22,485 --> 00:05:25,792
 Ce ne sont pas des opinions : ce sont des procès-verbaux et des lettres.
