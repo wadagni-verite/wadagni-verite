@@ -1,0 +1,129 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><title>Faits précis demandés, faits précis fournis</title><style>
+:root{--navy:#0a1f44;--gold:#d4af37;--ink:#f8fafc;--mute:#94a3b8}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1920px;height:1080px;overflow:hidden;background:#050d1f;font-family:'DejaVu Sans',sans-serif;color:var(--ink)}
+#stage{position:relative;width:1920px;height:1080px;background:radial-gradient(ellipse at 30% 20%,#12306b 0%,#0a1f44 45%,#050d1f 100%)}
+.el{position:absolute;opacity:0}
+.title{font-family:'DejaVu Serif',serif;font-size:100px;line-height:1.15;font-weight:700}
+.subtitle{font-family:'DejaVu Serif',serif;font-size:44px;color:var(--gold);font-style:italic}
+.colhead{font-size:30px;letter-spacing:.1em;color:var(--gold);text-transform:uppercase}.colhead.wide{text-align:center}
+.vbar{width:2px;background:rgba(199,210,254,.5)}
+.attente{font-size:90px;color:var(--mute);text-align:center}
+.card{width:230px;text-align:center;background:rgba(255,255,255,.07);border:3px solid var(--gold);border-radius:16px;padding:12px 8px}
+.card .dd{font-size:72px;font-weight:800;line-height:1.0}.card .mm{font-size:30px;letter-spacing:.08em;color:var(--gold);margin-top:4px}.card .yy{font-size:28px;color:var(--mute)}.card .lb{font-size:22px;color:#e2e8f0;margin-top:8px;line-height:1.2}
+.card.sm{width:250px}
+.card.big{width:420px;padding:30px 10px}.card.big .dd{font-size:180px}.card.big .mm{font-size:60px}.card.big .yy{font-size:56px}
+.pic{position:relative;background:#fff;border:4px solid var(--gold);border-radius:6px;overflow:hidden;box-shadow:0 14px 40px rgba(0,0,0,.6)}
+.pic img{display:block;width:100%}
+.hl{position:absolute;background:rgba(212,175,55,.35);border:2px solid rgba(212,175,55,.9)}
+.cap{font-size:21px;line-height:1.3;color:var(--mute);margin-top:10px}.cap2{font-size:22px;color:var(--mute)}
+.counter{font-weight:800;color:var(--gold);text-align:center;white-space:nowrap}
+.counter .cu{font-size:56px;margin-left:20px;color:#fff;font-weight:600;letter-spacing:.06em}
+.csub{font-size:26px;color:#cbd5e1;font-weight:400;white-space:normal;margin-top:6px}
+.quote{font-family:'DejaVu Serif',serif;font-size:34px;line-height:1.3;background:rgba(255,255,255,.07);border-left:6px solid var(--gold);padding:14px 22px}
+.quote.wide{font-size:30px}
+.num{color:var(--gold);font-weight:700}
+.ocre{color:var(--gold)}
+.ocrebox{border-left-color:#ef4444}
+.ctext{font-size:28px;line-height:1.4;color:#e2e8f0}.ctext.small{font-size:24px;color:var(--mute)}
+.nm{font-size:34px;font-family:'DejaVu Serif',serif;padding:8px 14px;background:rgba(255,255,255,.07);border-left:6px solid var(--gold)}
+.trait{position:absolute;height:4px;background:var(--gold);transform-origin:left}
+.grow{transform-origin:left}
+.vide{border:4px dashed rgba(199,210,254,.6);color:var(--mute);font-size:38px;display:flex;align-items:center;justify-content:center;text-align:center;padding:30px}
+.date3{font-family:'DejaVu Serif',serif;font-size:44px;font-weight:700;text-align:center;line-height:1.2}.date3 small{font-size:24px;font-weight:400;color:var(--mute);font-family:'DejaVu Sans'}
+.date3.vide{border:4px dashed rgba(199,210,254,.6);padding:10px;font-size:90px;color:var(--gold)}.date3.vide small{color:#cbd5e1}
+.frl2{height:3px;background:#c7d2fe}
+.ocretext{color:#d4af37}
+.vide2{border:4px dashed rgba(199,210,254,.6);color:#e2e8f0;font-size:30px;text-align:center;padding:22px;line-height:1.4}.vide2 b{color:#d4af37}
+.bigtext{font-family:'DejaVu Serif',serif;font-size:42px;line-height:1.3;font-weight:700}
+.quest{font-family:'DejaVu Serif',serif;font-size:40px;line-height:1.25}
+.url{font-size:64px;text-align:center;font-family:'DejaVu Serif',serif;color:#fff}.finsmall{font-size:30px;text-align:center;color:var(--mute)}
+.precis{font-size:24px;line-height:1.6;color:#cbd5e1}
+.bandeau{left:0;bottom:0;width:1920px;height:88px;background:rgba(0,0,0,.7);color:#fff;font-size:26px;line-height:1.3;padding:12px 60px;z-index:50}
+.trow{min-height:128px;align-items:start;display:grid;grid-template-columns:250px 1fr 230px;gap:18px;font-size:24px;line-height:1.3;background:rgba(255,255,255,.07);border-left:6px solid var(--gold);padding:12px 16px}.trow.thead{background:none;border:0;font-size:20px;letter-spacing:.08em;color:var(--gold);padding-top:0;padding-bottom:0}
+.gap{text-align:center;font-size:20px;white-space:nowrap}
+.date3.ret{border:4px solid var(--gold);padding:14px;color:var(--gold)}
+.p6,.p4,.p5,.p7,.p3{}
+body.fin #stage{background:#000}
+</style></head><body><div id="stage">
+<div class="el bandeau" data-a="0.00" data-b="228.60" data-f="0.6" style="">Aucune infraction n'est imputée au ministre de la Justice : ce film met en regard une lettre et des pièces publiées. Les personnes citées peuvent exercer leur droit de réponse.</div>
+<div class="el title" data-a="0.60" data-b="13.93" data-f="1.0" style="left:160px;top:280px;width:1600px">FAITS PRÉCIS<br>DEMANDÉS, FOURNIS</div>
+<div class="el subtitle" data-a="2.40" data-b="13.93" data-f="1.0" style="left:160px;top:640px;width:1600px">Le ministre de la Justice Yvon Détchénou — sa lettre du 14 janvier 2026</div>
+<div class="el trait grow" data-a="14.13" data-b="39.34" data-f="0.2" style="left:80px;top:250px;width:1760px;--ga:14.13;--gb:15.13"></div>
+<div class="el card sm" data-a="14.63" data-b="39.34" data-f="0.4" style="left:90px;top:320px"><div class="dd">3</div><div class="mm">JUILLET</div><div class="yy">2025</div><div class="lb">Classement sans suite (CRIET)</div></div>
+<div class="el card sm" data-a="19.99" data-b="39.34" data-f="0.4" style="left:450px;top:320px"><div class="dd">25</div><div class="mm">NOV.</div><div class="yy">2025</div><div class="lb">Demande de réouverture reçue</div></div>
+<div class="el card sm" data-a="26.17" data-b="39.34" data-f="0.4" style="left:810px;top:320px"><div class="dd">5</div><div class="mm">JANV.</div><div class="yy">2026</div><div class="lb">Lettre de l'avocat au ministre</div></div>
+<div class="el card sm" data-a="32.00" data-b="39.34" data-f="0.4" style="left:1170px;top:320px"><div class="dd">14</div><div class="mm">JANV.</div><div class="yy">2026</div><div class="lb">Réponse du ministre Yvon Détchénou</div></div>
+<div class="el card sm" data-a="35.22" data-b="39.34" data-f="0.4" style="left:1530px;top:320px"><div class="dd">6</div><div class="mm">FÉV.</div><div class="yy">2026</div><div class="lb">Lettre du plaignant</div></div>
+<div class="el ctext small gap" data-a="19.99" data-b="39.34" data-f="0.6" style="left:340px;top:380px;width:110px"><span class='ocre'>145 jours</span></div>
+<div class="el ctext small gap" data-a="26.17" data-b="39.34" data-f="0.6" style="left:700px;top:380px;width:110px"><span class='ocre'>41 jours</span></div>
+<div class="el ctext small gap" data-a="32.00" data-b="39.34" data-f="0.6" style="left:1060px;top:380px;width:110px"><span class='ocre'>9 jours</span></div>
+<div class="el ctext small gap" data-a="35.22" data-b="39.34" data-f="0.6" style="left:1420px;top:380px;width:110px"><span class='ocre'>23 jours</span></div>
+<div class="el bigtext" data-a="38.14" data-b="39.34" data-f="0.6" style="left:160px;top:700px;width:1600px">Depuis : <span class='ocre'>aucune réponse du ministre.</span></div>
+<div class="el piece p3" data-a="39.64" data-b="58.19" data-f="0.5" style="left:80px;top:150px;width:1000px"><div class="pic" style=""><img src="img/c-stamp.png"><div class="hl" style="left:13.5%;top:8%;width:26.5%;height:34%"></div><div class="hl" style="left:55.618776671408256%;top:27.976190476190478%;width:27.09815078236131%;height:14.583333333333334%"></div></div><div class="cap">Demande de réouverture au Procureur spécial près la CRIET : date de la lettre et cachet « COURRIER ARRIVÉ »</div></div>
+<div class="el piece p3" data-a="52.29" data-b="58.19" data-f="0.5" style="left:80px;top:560px;width:1000px"><div class="pic" style=""><img src="img/c-plainte.png"><div class="hl" style="left:44.38122332859175%;top:36.734693877551024%;width:32.64580369843528%;height:44.89795918367347%"></div></div><div class="cap">Même lettre, p. 1 : la plainte du 17 août 2023</div></div>
+<div class="el date3" data-a="39.94" data-b="58.19" data-f="0.6" style="left:1150px;top:150px;width:700px">24 SEPTEMBRE 2025<br><small>date portée par la lettre</small></div>
+<div class="el date3" data-a="46.55" data-b="58.19" data-f="0.6" style="left:1150px;top:330px;width:700px">25 NOVEMBRE 2025<br><small>date d'arrivée : cachet du parquet spécial</small></div>
+<div class="el date3 ret" data-a="52.29" data-b="58.19" data-f="0.6" style="left:1150px;top:560px;width:700px">DATE RETENUE<br>25 NOVEMBRE 2025</div>
+<div class="el colhead" data-a="58.39" data-b="83.19" data-f="0.6" style="left:80px;top:62px;width:840px">LA LETTRE DU 14 JANVIER 2026</div>
+<div class="el colhead" data-a="58.39" data-b="83.19" data-f="0.6" style="left:1000px;top:62px;width:840px">CE QU'ELLE DIT</div>
+<div class="el vbar" data-a="58.39" data-b="83.19" data-f="0.5" style="left:959px;top:56px;height:880px"></div>
+<div class="el piece p4" data-a="58.79" data-b="83.19" data-f="0.5" style="left:80px;top:130px;width:800px"><div class="pic" style=""><img src="img/m-reponse.png"><div class="hl" style="left:17.617689015691866%;top:54.112903225806456%;width:40.727532097004286%;height:3.064516129032258%"></div><div class="hl" style="left:65.47788873038516%;top:57.983870967741936%;width:24.53637660485021%;height:3.1451612903225805%"></div><div class="hl" style="left:11.768901569186877%;top:62.016129032258064%;width:24.53637660485021%;height:3.1451612903225805%"></div><div class="hl" style="left:63.338088445078455%;top:65.96774193548387%;width:24.893009985734665%;height:3.1451612903225805%"></div></div><div class="cap">Lettre n° 0049/MJL/SP-C du 14 janvier 2026, signée Yvon Détchénou, à Me Samba Sidibé</div></div>
+<div class="el quote" data-a="66.75" data-b="83.19" data-f="0.6" style="left:960px;top:150px;width:880px"><span class="num">①</span> « J'accuse bonne réception de votre demande citée en objet. »</div>
+<div class="el quote" data-a="70.03" data-b="83.19" data-f="0.6" style="left:960px;top:290px;width:880px"><span class="num">②</span> « Je vous invite en l'état d'un classement sans suite à agir par citation directe ou constitution de partie civile pour la défense de vos intérêts. »</div>
+<div class="el quote" data-a="77.48" data-b="83.19" data-f="0.6" style="left:960px;top:510px;width:880px"><span class="num">③</span> « Pour le reste, votre présente lettre n'est appuyée d'aucun fait précis allégué à l'appui des éléments concrets de nature à en motiver la prise en considération à mon niveau administratif. »</div>
+<div class="el colhead" data-a="83.39" data-b="106.19" data-f="0.6" style="left:80px;top:62px;width:840px">LA LETTRE DE L'AVOCAT, 5 JANVIER 2026</div>
+<div class="el colhead" data-a="83.39" data-b="106.19" data-f="0.6" style="left:1000px;top:62px;width:840px">LA DEMANDE DU 25 NOVEMBRE 2025</div>
+<div class="el vbar" data-a="83.39" data-b="106.19" data-f="0.5" style="left:959px;top:56px;height:880px"></div>
+<div class="el piece p5" data-a="83.79" data-b="106.19" data-f="0.5" style="left:80px;top:130px;width:840px"><div class="pic" style=""><img src="img/j-top.png"><div class="hl" style="left:12.608069164265128%;top:55.93023255813954%;width:54.46685878962536%;height:4.651162790697675%"></div></div><div class="cap">Lettre de Me Samba Sidibé au ministre de la Justice, 5 janvier 2026, p. 1</div></div>
+<div class="el piece p5" data-a="92.67" data-b="106.19" data-f="0.5" style="left:960px;top:130px;width:880px"><div class="pic" style=""><img src="img/c-plainte.png"><div class="hl" style="left:44.38122332859175%;top:36.734693877551024%;width:32.64580369843528%;height:44.89795918367347%"></div></div><div class="cap">Demande du 25 novembre 2025, p. 1 : la plainte du 17 août 2023 ; classement du 3 juillet 2025</div></div>
+<div class="el piece p5" data-a="94.17" data-b="106.19" data-f="0.5" style="left:960px;top:330px;width:880px"><div class="pic" style="max-height:560px;"><img src="img/c-demandes.png"></div><div class="cap">Même demande, p. 4 : « Demandes précises et motivées », au nombre de quatre</div></div>
+<div class="el quote ocrebox" data-a="101.35" data-b="106.19" data-f="0.6" style="left:80px;top:700px;width:840px">Lettre du 5 janvier 2026 au ministre : <span class='ocre'>aucune pièce jointe mentionnée.</span></div>
+<div class="el colhead" data-a="106.39" data-b="130.06" data-f="0.6" style="left:80px;top:62px;width:760px">LA LETTRE DU 6 FÉVRIER 2026</div>
+<div class="el colhead" data-a="106.39" data-b="130.06" data-f="0.6" style="left:880px;top:62px;width:980px">SON TABLEAU DE « FAITS PRÉCIS »</div>
+<div class="el piece p6" data-a="106.79" data-b="130.06" data-f="0.5" style="left:80px;top:130px;width:760px"><div class="pic" style=""><img src="img/f-intro.png"><div class="hl" style="left:22.214532871972317%;top:92.88888888888889%;width:51.76470588235295%;height:3.111111111111111%"></div></div><div class="cap">Lettre de Gilles Féliho au ministre de la Justice, 6 février 2026, p. 1 (adresse et courriel occultés)</div></div>
+<div class="el trow thead" data-a="118.65" data-b="130.06" data-f="0.4" style="left:880px;top:130px;width:980px"><span>DOCUMENT ET DATE</span><span>FAIT MATÉRIEL CONTRADICTOIRE</span><span>ACTEUR CONCERNÉ</span></div>
+<div class="el trow" data-a="119.55" data-b="130.06" data-f="0.5" style="left:880px;top:190px;width:980px"><span>Jugement n° 114/14/3ᵉ CH-EP<br>31 oct. 2014</span><span>Constate la parcelle B lot 488 léguée, dont le légataire a disposé. Contradiction : parcelle inexistante ; absence d'acte de disposition.</span><span>Magistrat signataire du jugement</span></div>
+<div class="el trow" data-a="120.65" data-b="130.06" data-f="0.5" style="left:880px;top:340px;width:980px"><span>Procès-verbal de compulsion<br>19 déc. 2017</span><span>Même parcelle « inexistante » : le jugement constate des faits matériellement inexacts.</span><span>Huissier de justice</span></div>
+<div class="el trow" data-a="121.75" data-b="130.06" data-f="0.5" style="left:880px;top:490px;width:980px"><span>Certificat d'acquit de droit<br>20 oct. 2016</span><span>Décès au 10 juin 2016 ; l'acte de décès indique le 3 déc. 2010 : six ans d'écart.</span><span>Notaire Félix A. Balley</span></div>
+<div class="el trow" data-a="122.85" data-b="130.06" data-f="0.5" style="left:880px;top:640px;width:980px"><span>Même certificat</span><span>Mandat de Gilles Féliho au notaire : « inexistant », selon le plaignant.</span><span>Notaire Balley</span></div>
+<div class="el trow" data-a="123.95" data-b="130.06" data-f="0.5" style="left:880px;top:790px;width:980px"><span>Lettre du notaire Gangnito<br>19 sept. 2007</span><span>Fait nouveau : triple conflit d'intérêts non déclaré de l'avocat Fade.</span><span>Avocat Fade</span></div>
+<div class="el colhead" data-a="130.26" data-b="164.84" data-f="0.6" style="left:80px;top:62px;width:840px">LA LETTRE DU NOTAIRE (2007)</div>
+<div class="el colhead" data-a="130.26" data-b="164.84" data-f="0.6" style="left:1000px;top:62px;width:840px">SELON LA LETTRE DU 6 FÉVRIER</div>
+<div class="el vbar" data-a="130.26" data-b="164.84" data-f="0.5" style="left:959px;top:56px;height:880px"></div>
+<div class="el piece p7" data-a="130.66" data-b="164.84" data-f="0.5" style="left:80px;top:150px;width:840px"><div class="pic" style=""><img src="img/g-tete.png"></div><div class="cap">Lettre de Me Denise Ehouzou Gangnito, notaire, du 19 septembre 2007</div></div>
+<div class="el piece p7" data-a="136.19" data-b="164.84" data-f="0.5" style="left:80px;top:300px;width:420px"><div class="pic" style=""><img src="img/g-dest.png"></div><div class="cap">Destinataire : Maître Victorien Fade, avocat à la Cour</div></div>
+<div class="el piece p7" data-a="136.89" data-b="164.84" data-f="0.5" style="left:80px;top:480px;width:840px"><div class="pic" style=""><img src="img/g-corps.png"><div class="hl" style="left:3%;top:38%;width:94%;height:38%"></div></div><div class="cap">Même lettre : « Suite à l'adjudication […] sur la parcelle « B » du lot 923 […] au profit de Monsieur Gilles Sixte FELIHO, dont vous êtes le mandataire »</div></div>
+<div class="el quote" data-a="146.63" data-b="164.84" data-f="0.6" style="left:1000px;top:150px;width:840px"><b>Cette lettre ne concerne pas le testament.</b></div>
+<div class="el nm" data-a="149.35" data-b="164.84" data-f="0.6" style="left:1000px;top:290px;width:840px"><b>2007</b> — mandataire de Gilles Féliho (lettre du notaire)</div>
+<div class="el nm" data-a="150.65" data-b="164.84" data-f="0.6" style="left:1000px;top:420px;width:840px"><b>2014</b> — avocat des cohéritiers dans l'instance (jugement n° 114/14, p. 1)</div>
+<div class="el nm" data-a="151.95" data-b="164.84" data-f="0.6" style="left:1000px;top:550px;width:840px"><b>2015</b> — auteur de la signification du jugement en France (selon la lettre du 6 février)</div>
+<div class="el quote" data-a="160.24" data-b="164.84" data-f="0.6" style="left:1000px;top:700px;width:840px">« Triple conflit d'intérêts non déclaré »<br><span class='cap2'>Lettre du plaignant du 6 février 2026</span></div>
+<div class="el quote wide" data-a="165.44" data-b="192.49" data-f="0.6" style="left:160px;top:110px;width:1600px"><b>Ministre de la Justice Yvon Détchénou, 14 janvier 2026</b><br>« agir par citation directe ou constitution de partie civile »</div>
+<div class="el quote wide" data-a="170.53" data-b="192.49" data-f="0.6" style="left:160px;top:300px;width:1600px"><b>Code pénal, art. 303</b> (cité dans la plainte) : le faux en écriture publique est puni de la réclusion criminelle à perpétuité</div>
+<div class="el quote wide" data-a="178.38" data-b="192.49" data-f="0.6" style="left:160px;top:490px;width:1600px"><b>Infraction de nature criminelle : la citation directe n'est pas ouverte.</b><br><span class='cap2'>Analyse de l'éditeur, à vérifier sur les textes.</span></div>
+<div class="el quote wide ocrebox" data-a="185.88" data-b="192.49" data-f="0.6" style="left:160px;top:710px;width:1600px"><b>Reste : la plainte avec constitution de partie civile</b><br><span class='cap2'>Objet d'une prochaine page.</span></div>
+<div class="el counter" data-a="193.19" data-b="215.34" data-f="0.6" style="left:40px;top:330px;width:600px;font-size:130px"><span class="cn" data-ca="193.39" data-cb="194.59" data-to="9">0</span><span class="cu">JOURS</span><div class="csub">du 5 au 14 janvier 2026 : de la lettre de l'avocat à la réponse du ministre</div></div>
+<div class="el counter" data-a="199.91" data-b="215.34" data-f="0.6" style="left:660px;top:330px;width:600px;font-size:130px"><span class="cn" data-ca="200.11" data-cb="201.51" data-to="23">0</span><span class="cu">JOURS</span><div class="csub">du 14 janvier au 6 février 2026 : de la réponse à la lettre du plaignant</div></div>
+<div class="el counter" data-a="206.21" data-b="215.34" data-f="0.6" style="left:1280px;top:330px;width:600px;font-size:130px"><span class="cn" data-ca="206.41" data-cb="208.81" data-to="251">0</span><span class="cu">JOURS</span><div class="csub">du 6 février au 15 octobre 2026 (date de ce film) : aucune réponse</div></div>
+<div class="el quest" data-a="215.94" data-b="222.10" data-f="0.6" style="left:160px;top:120px;width:1600px">Quels faits précis supplémentaires le ministre de la Justice Yvon Détchénou attendait-il, que la lettre du 6 février 2026 ne lui fournit pas ?</div>
+<div class="el quest" data-a="217.34" data-b="222.10" data-f="0.6" style="left:160px;top:320px;width:1600px">La lettre du 6 février 2026 a-t-elle reçu une suite ?</div>
+<div class="el quest" data-a="218.74" data-b="222.10" data-f="0.6" style="left:160px;top:520px;width:1600px">Quelle voie le ministre Yvon Détchénou indique-t-il pour un faux en écriture publique, infraction criminelle, alors que la citation directe n'est pas ouverte ?</div>
+<div class="el quest" data-a="220.14" data-b="222.10" data-f="0.6" style="left:160px;top:720px;width:1600px">Quelle suite a été donnée à la demande de réouverture d'enquête reçue le 25 novembre 2025 ?</div>
+<div class="el url" data-a="223.20" data-b="228.60" data-f="0.8" style="left:0px;top:300px;width:1920px">wadagni2026-verite.com</div>
+<div class="el finsmall" data-a="224.20" data-b="228.60" data-f="0.8" style="left:0px;top:400px;width:1920px">Les pièces reproduites dans ce film sont publiées sur le site, avec leurs empreintes numériques.</div>
+<div class="el precis" data-a="225.20" data-b="228.60" data-f="0.8" style="left:160px;top:560px;width:1600px">Les extraits reproduits sont des copies partielles ; les coordonnées personnelles sont occultées. La lettre de réouverture porte la date du 24 septembre 2025 et le cachet d'arrivée du 25 novembre 2025 : la date retenue est celle de la réception. La lettre du ministre est adressée à l'avocat du plaignant. L'analyse selon laquelle la citation directe n'est pas ouverte pour une infraction criminelle est celle de l'éditeur, à vérifier sur les textes. Le tableau du 6 février 2026 est celui de la lettre du plaignant : il expose les allégations de celui-ci.</div>
+</div><script>
+const ELS=[...document.querySelectorAll('.el')],CNS=[...document.querySelectorAll('.cn')];
+const cl=x=>Math.max(0,Math.min(1,x));
+window.TOTAL=228.60;
+window.seek=function(t){
+  for(const e of ELS){const a=+e.dataset.a,b=+e.dataset.b,f=+e.dataset.f;const i=cl((t-a)/f);
+    e.style.opacity=i*cl((b-t)/f);
+    if(e.classList.contains('trait')){e.style.transform=`scaleX(${cl((t-a)/1.0)})`;}
+    else if(e.classList.contains('card')||e.classList.contains('piece')) e.style.transform=`translateY(${(1-i)*14}px)`;}
+  for(const c of CNS){const a=+c.dataset.ca,b=+c.dataset.cb,to=+c.dataset.to;c.textContent=Math.round(to*cl((t-a)/(b-a)));}
+  document.body.classList.toggle('fin',t>=222.30);
+};
+seek(0);
+</script></body></html>

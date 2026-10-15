@@ -1771,6 +1771,23 @@
                 </div>
             </article>
 
+            <article class="doc-featured" id="ministre-justice">
+                <div class="doc-featured-icon">⚖️</div>
+                <div class="doc-featured-body">
+                    <span class="doc-featured-tag">Dossier · Ministre de la Justice</span>
+                    <h3>Faits précis demandés, faits précis fournis : le ministre de la Justice Yvon Détchénou</h3>
+                    <p>
+                        Le 14 janvier 2026, le ministre de la Justice Yvon Détchénou répond à l'avocat du plaignant par une lettre de trois phrases, dont la dernière écrit :
+                        « votre présente lettre n'est appuyée d'aucun fait précis allégué ». Le 6 février 2026, le plaignant lui fournit ces faits précis, avec identification des auteurs ou signataires et sept pièces jointes.
+                        Un film de {DUREE}, la chronologie, les lettres et leurs empreintes.
+                    </p>
+                    <p style="font-weight:700;color:var(--navy)" id="counter-ministre">⏰ Plus de 250 jours depuis la lettre du plaignant du 6 février 2026, sans réponse du ministre</p>
+                    <div class="doc-featured-actions">
+                        <a href="/ministre-justice/" class="btn">🎬 Voir le film et les pièces</a>
+                    </div>
+                </div>
+            </article>
+
             <div class="docs-grid">
                 <div class="doc-card">
                     <div class="doc-icon">📄</div>
@@ -1844,6 +1861,13 @@
             }
         }
         updateCounter();
+
+        (function () {
+            const el = document.getElementById('counter-ministre');
+            if (!el) return;
+            const jours = Math.floor((new Date() - new Date('2026-02-06')) / 86400000);
+            el.textContent = `⏰ ${jours} jours depuis la lettre du plaignant du 6 février 2026, sans réponse du ministre`;
+        })();
 
         (function () {
             const el = document.getElementById('counter-plainte');

@@ -1,0 +1,221 @@
+{
+ "total": 228.60266666666666,
+ "sequences": {
+  "1": [
+   0.0,
+   13.929333333333332
+  ],
+  "2": [
+   13.929333333333332,
+   39.33866666666667
+  ],
+  "3": [
+   39.33866666666667,
+   58.188
+  ],
+  "4": [
+   58.188,
+   83.19066666666667
+  ],
+  "5": [
+   83.19066666666667,
+   106.18666666666668
+  ],
+  "6": [
+   106.18666666666668,
+   130.05866666666668
+  ],
+  "7": [
+   130.05866666666668,
+   164.84133333333332
+  ],
+  "8": [
+   164.84133333333332,
+   192.49066666666667
+  ],
+  "9": [
+   192.49066666666667,
+   215.33733333333333
+  ],
+  "10": [
+   215.33733333333333,
+   222.60266666666666
+  ],
+  "15": [
+   222.60266666666666,
+   228.60266666666666
+  ]
+ },
+ "cues": [
+  [
+   1.4,
+   3.5546666666666664,
+   "Faits précis demandés. Faits précis fournis."
+  ],
+  [
+   3.8546666666666662,
+   12.729333333333333,
+   "Le 14 janvier 2026, le ministre de la Justice, Yvon Détchénou, écrit : « aucun fait précis allégué ». Ce film remet les dates et les pièces dans l'ordre."
+  ],
+  [
+   14.829333333333333,
+   19.88533333333333,
+   "Le 3 juillet 2025, le parquet spécial de la CRIET classe la plainte sans suite."
+  ],
+  [
+   20.185333333333332,
+   26.07333333333333,
+   "Le 25 novembre 2025, la demande de réouverture de l'enquête arrive au parquet spécial."
+  ],
+  [
+   26.37333333333333,
+   31.898666666666664,
+   "Le 5 janvier 2026, l'avocat du plaignant écrit au ministre de la Justice, Yvon Détchénou."
+  ],
+  [
+   32.19866666666667,
+   35.12133333333333,
+   "Le 14 janvier, le ministre Yvon Détchénou répond."
+  ],
+  [
+   35.42133333333334,
+   37.93866666666667,
+   "Le 6 février, le plaignant lui écrit à son tour."
+  ],
+  [
+   40.23866666666667,
+   46.553333333333335,
+   "Sur la demande de réouverture, deux dates. Le 24 septembre 2025 : la date portée par la lettre."
+  ],
+  [
+   46.85333333333333,
+   52.29333333333333,
+   "Le 25 novembre 2025 : la date d'arrivée, portée par le cachet du parquet spécial."
+  ],
+  [
+   52.593333333333334,
+   56.988,
+   "La date retenue est celle de la réception : le 25 novembre 2025."
+  ],
+  [
+   59.088,
+   66.74666666666667,
+   "Le 14 janvier 2026, le ministre de la Justice Yvon Détchénou répond à l'avocat du plaignant par une lettre de trois phrases."
+  ],
+  [
+   67.04666666666667,
+   70.03333333333333,
+   "Première phrase : « J'accuse bonne réception de votre demande »."
+  ],
+  [
+   70.33333333333333,
+   77.47999999999999,
+   "Deuxième phrase : « Je vous invite en l'état d'un classement sans suite à agir par citation directe ou constitution de partie civile »."
+  ],
+  [
+   77.78,
+   81.79066666666667,
+   "Troisième phrase : « votre présente lettre n'est appuyée d'aucun fait précis allégué »."
+  ],
+  [
+   84.09066666666668,
+   92.66666666666669,
+   "La lettre de l'avocat, du 5 janvier 2026, renvoie à la demande déposée le 25 novembre 2025 auprès du Procureur spécial."
+  ],
+  [
+   92.96666666666668,
+   101.35066666666668,
+   "Cette demande, de cinq pages, vise la plainte du 17 août 2023 et le classement du 3 juillet 2025. Elle formule quatre demandes."
+  ],
+  [
+   101.65066666666668,
+   104.78666666666668,
+   "La lettre adressée au ministre ne mentionne aucune pièce jointe."
+  ],
+  [
+   107.08666666666669,
+   112.91066666666669,
+   "Le 6 février 2026, le plaignant, Gilles Féliho, répond au ministre de la Justice Yvon Détchénou."
+  ],
+  [
+   113.21066666666668,
+   118.65066666666668,
+   "Il écrit qu'il porte à sa connaissance « les faits précis » réclamés dans sa correspondance du 14 janvier."
+  ],
+  [
+   118.95066666666668,
+   124.19866666666668,
+   "Un tableau : cinq documents, leurs dates, le fait matériel contradictoire, la personne concernée."
+  ],
+  [
+   124.49866666666668,
+   128.65866666666668,
+   "Un magistrat, un huissier de justice, un notaire, un avocat. Sept pièces jointes."
+  ],
+  [
+   130.9586666666667,
+   136.14266666666668,
+   "Le fait nouveau : la lettre du notaire Denise Ehouzou Gangnito, du 19 septembre 2007."
+  ],
+  [
+   136.49266666666668,
+   146.58333333333334,
+   "Elle est adressée à Maître Victorien Olatundji Fade, « mandataire » de Gilles Féliho, à la suite de l'adjudication de constructions sur la parcelle B du lot 923, à Gbégamey."
+  ],
+  [
+   146.93333333333334,
+   149.00266666666667,
+   "Cette lettre ne concerne pas le testament."
+  ],
+  [
+   149.35266666666666,
+   160.19,
+   "Selon la lettre du 6 février, Maître Fade apparaît ensuite comme avocat des cohéritiers, dans l'instance qui produit le jugement de 2014, puis comme auteur de la signification du jugement en France."
+  ],
+  [
+   160.54,
+   163.44133333333332,
+   "Le plaignant écrit : « triple conflit d'intérêts non déclaré »."
+  ],
+  [
+   165.74133333333333,
+   170.43466666666666,
+   "Le ministre invite à agir par citation directe ou constitution de partie civile."
+  ],
+  [
+   170.83466666666666,
+   178.28,
+   "L'article 303 du Code pénal, cité dans la plainte, punit le faux en écriture publique de la réclusion criminelle à perpétuité."
+  ],
+  [
+   178.68,
+   185.78400000000002,
+   "Pour une infraction de nature criminelle, la citation directe n'est pas ouverte : c'est l'analyse de l'éditeur, à vérifier sur les textes."
+  ],
+  [
+   186.184,
+   191.09066666666666,
+   "Reste la plainte avec constitution de partie civile, qui fera l'objet d'une prochaine page."
+  ],
+  [
+   193.39066666666668,
+   199.812,
+   "Neuf jours, du 5 au 14 janvier 2026 : de la lettre de l'avocat à la réponse du ministre Yvon Détchénou."
+  ],
+  [
+   200.112,
+   206.10666666666665,
+   "Vingt-trois jours, du 14 janvier au 6 février : de cette réponse à la lettre du plaignant, qui fournit les faits précis."
+  ],
+  [
+   206.40666666666667,
+   213.93733333333333,
+   "Deux cent cinquante et un jours, du 6 février au 15 octobre 2026, date de ce film : aucune réponse du ministre Yvon Détchénou."
+  ],
+  [
+   216.23733333333334,
+   220.80266666666668,
+   "Quatre questions pour le ministre de la Justice, Yvon Détchénou. Les réponses seront publiées."
+  ]
+ ]
+}
