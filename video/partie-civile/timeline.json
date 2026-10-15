@@ -1,5 +1,5 @@
 {
- "total": 253.11066666666667,
+ "total": 270.7973333333333,
  "sequences": {
   "1": [
    0.0,
@@ -7,55 +7,55 @@
   ],
   "2": [
    20.106666666666662,
-   29.58666666666666
+   32.18933333333332
   ],
   "3": [
-   29.58666666666666,
-   55.67733333333333
+   32.18933333333332,
+   58.279999999999994
   ],
   "4": [
-   55.67733333333333,
-   66.14933333333333
+   58.279999999999994,
+   80.35866666666666
   ],
   "5": [
-   66.14933333333333,
-   97.95800000000001
+   80.35866666666666,
+   112.16733333333335
   ],
   "6": [
-   97.95800000000001,
-   125.92600000000003
+   112.16733333333335,
+   140.13533333333336
   ],
   "7": [
-   125.92600000000003,
-   148.4326666666667
+   140.13533333333336,
+   162.64200000000002
   ],
   "8": [
-   148.4326666666667,
-   166.77933333333334
+   162.64200000000002,
+   180.98866666666666
   ],
   "9": [
-   166.77933333333334,
-   176.05666666666667
+   180.98866666666666,
+   190.266
   ],
   "10": [
-   176.05666666666667,
-   198.09733333333335
+   190.266,
+   212.30666666666667
   ],
   "11": [
-   198.09733333333335,
-   214.228
+   212.30666666666667,
+   228.43733333333333
   ],
   "12": [
-   214.228,
-   237.9226666666667
+   228.43733333333333,
+   255.60933333333332
   ],
   "13": [
-   237.9226666666667,
-   247.11066666666667
+   255.60933333333332,
+   264.7973333333333
   ],
   "15": [
-   247.11066666666667,
-   253.11066666666667
+   264.7973333333333,
+   270.7973333333333
   ]
  },
  "cues": [
@@ -86,202 +86,207 @@
   ],
   [
    21.00666666666666,
-   24.97466666666666,
-   "La plainte et ses pièces sont déposées au Doyen des juges d'instruction de Cotonou."
+   27.57733333333333,
+   "La plainte est déposée auprès du Président du tribunal de première instance de Cotonou, pour le Doyen des juges d'instruction."
   ],
   [
-   25.27466666666666,
-   27.386666666666663,
+   27.877333333333326,
+   29.989333333333327,
    "Le dossier entre dans le circuit judiciaire."
   ],
   [
-   30.486666666666657,
-   35.542666666666655,
+   33.08933333333332,
+   38.14533333333332,
    "Le 3 juillet 2025, le parquet spécial de la CRIET classe la plainte sans suite."
   ],
   [
-   35.84266666666666,
-   38.72266666666666,
+   38.44533333333332,
+   41.325333333333326,
    "Le 26 septembre, le plaignant en prend connaissance."
   ],
   [
-   39.02266666666666,
-   45.44399999999999,
+   41.62533333333332,
+   48.04666666666665,
    "Le 29 septembre 2025, trois jours plus tard, il dépose une plainte avec constitution de partie civile."
   ],
   [
-   45.74399999999999,
-   54.277333333333324,
+   48.34666666666666,
+   56.87999999999999,
    "Le 14 janvier 2026, le ministre de la Justice, Yvon Détchénou, invite à agir par citation directe ou constitution de partie civile."
   ],
   [
-   56.57733333333333,
-   61.995999999999995,
-   "La plainte est adressée au Doyen des juges d'instruction du tribunal de première instance de Cotonou."
+   59.17999999999999,
+   68.35333333333332,
+   "La plainte est adressée au Doyen des juges d'instruction, et déposée auprès du Président du tribunal de première instance de Cotonou, comme le prévoit l'article 90."
   ],
   [
-   62.29599999999999,
-   64.74933333333333,
-   "La page déposée porte le cachet du tribunal."
+   68.65333333333332,
+   73.60266666666665,
+   "La page déposée porte le cachet du tribunal de première instance de Cotonou : le Président."
   ],
   [
-   67.04933333333334,
-   77.50266666666667,
+   73.90266666666666,
+   78.95866666666666,
+   "Le récépissé du Trésor public porte la même date : le 29 septembre 2025."
+  ],
+  [
+   81.25866666666667,
+   91.712,
    "Pourquoi la constitution de partie civile ? L'article 85 du Code de procédure pénale, tel que cité dans la plainte : l'instruction préparatoire est obligatoire en matière de crime."
   ],
   [
-   77.85266666666666,
-   85.682,
+   92.062,
+   99.89133333333334,
    "Le faux en écriture publique, visé par l'article 303 du Code pénal, est puni de la réclusion criminelle à perpétuité : c'est un crime."
   ],
   [
-   86.032,
-   90.32,
+   100.24133333333333,
+   104.52933333333333,
    "L'information judiciaire est donc la voie. La citation directe n'est pas ouverte."
   ],
   [
-   90.67,
-   96.558,
+   104.87933333333334,
+   110.76733333333334,
    "La plainte avec constitution de partie civile provoque cette information judiciaire lorsque le parquet classe."
   ],
   [
-   98.85800000000002,
-   104.98066666666668,
+   113.06733333333335,
+   119.19000000000001,
    "Elle vise X, quatre cohéritiers, Maître Victorien Olatundji Fade, et toutes autres personnes que l'instruction révélerait."
   ],
   [
-   105.28066666666669,
-   109.14200000000002,
+   119.49000000000002,
+   123.35133333333336,
    "Faux en écriture publique, usage de faux en écriture publique et recel."
   ],
   [
-   109.44200000000002,
-   118.48733333333335,
+   123.65133333333335,
+   132.6966666666667,
    "Elle demande de saisir sans délai un juge d'instruction, d'ouvrir une information judiciaire, et d'ordonner tous les actes utiles, dont l'audition des personnes mises en cause."
   ],
   [
-   118.78733333333335,
-   124.52600000000001,
+   132.9966666666667,
+   138.73533333333336,
    "Elle s'engage à consigner la somme demandée, et élit domicile chez Maître Narcisse Atoun pour les notifications."
   ],
   [
-   126.82600000000004,
-   133.9086666666667,
+   141.03533333333337,
+   148.11800000000002,
    "La plainte reproche à l'enquête préliminaire d'avoir ignoré le procès-verbal de compulsion du 19 décembre 2017."
   ],
   [
-   134.20866666666672,
-   137.72866666666673,
+   148.41800000000003,
+   151.93800000000005,
    "De ne pas avoir entendu le juge signataire du jugement, ni l'avocat."
   ],
   [
-   138.0286666666667,
-   140.9086666666667,
+   152.23800000000003,
+   155.11800000000002,
    "D'avoir mené des auditions sans en informer le plaignant."
   ],
   [
-   141.20866666666672,
-   147.03266666666673,
+   155.41800000000003,
+   161.24200000000005,
    "Et de s'être concentrée sur le notaire, que la plainte du 17 août 2023 ne visait pas comme auteur."
   ],
   [
-   149.3326666666667,
-   150.5273333333334,
+   163.54200000000003,
+   164.7366666666667,
    "Dix pièces sont jointes."
   ],
   [
-   150.82733333333337,
-   155.69133333333338,
+   165.0366666666667,
+   169.9006666666667,
    "Le jugement, sa signification, le procès-verbal de compulsion, la décision de classement."
   ],
   [
-   155.99133333333336,
-   161.49533333333335,
+   170.20066666666668,
+   175.70466666666667,
    "Le certificat d'appel du 17 novembre 2014, qui atteste que le jugement est frappé d'appel."
   ],
   [
-   161.79533333333336,
-   165.37933333333336,
+   176.00466666666668,
+   179.58866666666668,
    "La lettre du notaire Gangnito, du 19 septembre 2007."
   ],
   [
-   167.67933333333335,
-   170.41000000000003,
+   181.88866666666667,
+   184.61933333333334,
    "88 jours, du classement au dépôt de la plainte."
   ],
   [
-   170.71,
-   174.65666666666667,
+   184.91933333333333,
+   188.86599999999999,
    "107 jours, du dépôt de la plainte à la lettre du ministre Yvon Détchénou."
   ],
   [
-   176.95666666666668,
-   180.79666666666668,
+   191.166,
+   195.006,
    "Depuis le 29 septembre 2025, le calendrier avance."
   ],
   [
-   181.14666666666668,
-   186.416,
+   195.356,
+   200.62533333333332,
    "Octobre, novembre, décembre. Janvier, février, mars. Avril, mai, juin. Juillet, août, septembre."
   ],
   [
-   186.76600000000002,
-   191.6726666666667,
+   200.97533333333334,
+   205.882,
    "Aucune convocation, aucune notification, aucune décision n'a été reçue par le plaignant."
   ],
   [
-   192.02266666666668,
-   196.09733333333335,
+   206.232,
+   210.30666666666667,
    "381 jours, au 15 octobre 2026, date de ce film."
   ],
   [
-   198.99733333333336,
-   202.77333333333337,
+   213.20666666666668,
+   216.9826666666667,
    "Ce qui a été fait : une quittance payée, une plainte déposée, des pièces jointes."
   ],
   [
-   203.12333333333336,
-   207.53933333333336,
+   217.33266666666668,
+   221.74866666666668,
    "Ce qui n'a pas suivi, à la connaissance du plaignant : aucune réponse, aucune explication."
   ],
   [
-   207.88933333333335,
-   212.02800000000002,
+   222.09866666666667,
+   226.23733333333334,
    "Une quittance est une pièce. L'absence de suite est une constatation du plaignant."
   ],
   [
-   215.12800000000001,
-   219.544,
+   229.33733333333333,
+   233.75333333333333,
    "Quelle suite a été donnée à la plainte reçue le 29 septembre 2025 ?"
   ],
   [
-   220.044,
-   223.30800000000002,
+   234.25333333333333,
+   237.51733333333334,
    "Une consignation a-t-elle été fixée, comme la plainte le demande ?"
   ],
   [
-   223.80800000000002,
-   225.85600000000002,
-   "Un juge d'instruction a-t-il été saisi ?"
+   238.01733333333334,
+   243.54266666666666,
+   "La plainte a-t-elle été transmise au Doyen des juges d'instruction, et un juge d'instruction a-t-il été saisi ?"
   ],
   [
-   226.35600000000002,
-   230.77200000000002,
+   244.04266666666666,
+   248.45866666666666,
    "Où les notifications adressées au domicile élu doivent-elles parvenir, et en existe-t-il ?"
   ],
   [
-   231.27200000000002,
-   235.9226666666667,
+   248.95866666666666,
+   253.60933333333332,
    "Quatre questions pour le Doyen des juges d'instruction de Cotonou. Les réponses seront publiées."
   ],
   [
-   238.8226666666667,
-   241.48933333333335,
+   256.5093333333333,
+   259.176,
    "La quittance est payée. Aucune suite connue du plaignant."
   ],
   [
-   241.88933333333335,
-   245.11066666666667,
+   259.57599999999996,
+   262.7973333333333,
    "Ce n'est pas une opinion : ce sont des pièces, publiées sur le site."
   ]
  ]

@@ -19,161 +19,165 @@ Date : le 29 septembre 2025.
 Le 29 septembre 2025, une plainte est déposée. La quittance est payée.
 
 6
-00:00:21,007 --> 00:00:24,975
-La plainte et ses pièces sont déposées au Doyen des juges d'instruction de Cotonou.
+00:00:21,007 --> 00:00:27,577
+La plainte est déposée auprès du Président du tribunal de première instance de Cotonou, pour le Doyen des juges d'instruction.
 
 7
-00:00:25,275 --> 00:00:27,387
+00:00:27,877 --> 00:00:29,989
 Le dossier entre dans le circuit judiciaire.
 
 8
-00:00:30,487 --> 00:00:35,543
+00:00:33,089 --> 00:00:38,145
 Le 3 juillet 2025, le parquet spécial de la CRIET classe la plainte sans suite.
 
 9
-00:00:35,843 --> 00:00:38,723
+00:00:38,445 --> 00:00:41,325
 Le 26 septembre, le plaignant en prend connaissance.
 
 10
-00:00:39,023 --> 00:00:45,444
+00:00:41,625 --> 00:00:48,047
 Le 29 septembre 2025, trois jours plus tard, il dépose une plainte avec constitution de partie civile.
 
 11
-00:00:45,744 --> 00:00:54,277
+00:00:48,347 --> 00:00:56,880
 Le 14 janvier 2026, le ministre de la Justice, Yvon Détchénou, invite à agir par citation directe ou constitution de partie civile.
 
 12
-00:00:56,577 --> 00:01:01,996
-La plainte est adressée au Doyen des juges d'instruction du tribunal de première instance de Cotonou.
+00:00:59,180 --> 00:01:08,353
+La plainte est adressée au Doyen des juges d'instruction, et déposée auprès du Président du tribunal de première instance de Cotonou, comme le prévoit l'article 90.
 
 13
-00:01:02,296 --> 00:01:04,749
-La page déposée porte le cachet du tribunal.
+00:01:08,653 --> 00:01:13,603
+La page déposée porte le cachet du tribunal de première instance de Cotonou : le Président.
 
 14
-00:01:07,049 --> 00:01:17,503
-Pourquoi la constitution de partie civile ? L'article 85 du Code de procédure pénale, tel que cité dans la plainte : l'instruction préparatoire est obligatoire en matière de crime.
+00:01:13,903 --> 00:01:18,959
+Le récépissé du Trésor public porte la même date : le 29 septembre 2025.
 
 15
-00:01:17,853 --> 00:01:25,682
-Le faux en écriture publique, visé par l'article 303 du Code pénal, est puni de la réclusion criminelle à perpétuité : c'est un crime.
+00:01:21,259 --> 00:01:31,712
+Pourquoi la constitution de partie civile ? L'article 85 du Code de procédure pénale, tel que cité dans la plainte : l'instruction préparatoire est obligatoire en matière de crime.
 
 16
-00:01:26,032 --> 00:01:30,320
-L'information judiciaire est donc la voie. La citation directe n'est pas ouverte.
+00:01:32,062 --> 00:01:39,891
+Le faux en écriture publique, visé par l'article 303 du Code pénal, est puni de la réclusion criminelle à perpétuité : c'est un crime.
 
 17
-00:01:30,670 --> 00:01:36,558
-La plainte avec constitution de partie civile provoque cette information judiciaire lorsque le parquet classe.
+00:01:40,241 --> 00:01:44,529
+L'information judiciaire est donc la voie. La citation directe n'est pas ouverte.
 
 18
-00:01:38,858 --> 00:01:44,981
-Elle vise X, quatre cohéritiers, Maître Victorien Olatundji Fade, et toutes autres personnes que l'instruction révélerait.
+00:01:44,879 --> 00:01:50,767
+La plainte avec constitution de partie civile provoque cette information judiciaire lorsque le parquet classe.
 
 19
-00:01:45,281 --> 00:01:49,142
-Faux en écriture publique, usage de faux en écriture publique et recel.
+00:01:53,067 --> 00:01:59,190
+Elle vise X, quatre cohéritiers, Maître Victorien Olatundji Fade, et toutes autres personnes que l'instruction révélerait.
 
 20
-00:01:49,442 --> 00:01:58,487
-Elle demande de saisir sans délai un juge d'instruction, d'ouvrir une information judiciaire, et d'ordonner tous les actes utiles, dont l'audition des personnes mises en cause.
+00:01:59,490 --> 00:02:03,351
+Faux en écriture publique, usage de faux en écriture publique et recel.
 
 21
-00:01:58,787 --> 00:02:04,526
-Elle s'engage à consigner la somme demandée, et élit domicile chez Maître Narcisse Atoun pour les notifications.
+00:02:03,651 --> 00:02:12,697
+Elle demande de saisir sans délai un juge d'instruction, d'ouvrir une information judiciaire, et d'ordonner tous les actes utiles, dont l'audition des personnes mises en cause.
 
 22
-00:02:06,826 --> 00:02:13,909
-La plainte reproche à l'enquête préliminaire d'avoir ignoré le procès-verbal de compulsion du 19 décembre 2017.
+00:02:12,997 --> 00:02:18,735
+Elle s'engage à consigner la somme demandée, et élit domicile chez Maître Narcisse Atoun pour les notifications.
 
 23
-00:02:14,209 --> 00:02:17,729
-De ne pas avoir entendu le juge signataire du jugement, ni l'avocat.
+00:02:21,035 --> 00:02:28,118
+La plainte reproche à l'enquête préliminaire d'avoir ignoré le procès-verbal de compulsion du 19 décembre 2017.
 
 24
-00:02:18,029 --> 00:02:20,909
-D'avoir mené des auditions sans en informer le plaignant.
+00:02:28,418 --> 00:02:31,938
+De ne pas avoir entendu le juge signataire du jugement, ni l'avocat.
 
 25
-00:02:21,209 --> 00:02:27,033
-Et de s'être concentrée sur le notaire, que la plainte du 17 août 2023 ne visait pas comme auteur.
+00:02:32,238 --> 00:02:35,118
+D'avoir mené des auditions sans en informer le plaignant.
 
 26
-00:02:29,333 --> 00:02:30,527
-Dix pièces sont jointes.
+00:02:35,418 --> 00:02:41,242
+Et de s'être concentrée sur le notaire, que la plainte du 17 août 2023 ne visait pas comme auteur.
 
 27
-00:02:30,827 --> 00:02:35,691
-Le jugement, sa signification, le procès-verbal de compulsion, la décision de classement.
+00:02:43,542 --> 00:02:44,737
+Dix pièces sont jointes.
 
 28
-00:02:35,991 --> 00:02:41,495
-Le certificat d'appel du 17 novembre 2014, qui atteste que le jugement est frappé d'appel.
+00:02:45,037 --> 00:02:49,901
+Le jugement, sa signification, le procès-verbal de compulsion, la décision de classement.
 
 29
-00:02:41,795 --> 00:02:45,379
-La lettre du notaire Gangnito, du 19 septembre 2007.
+00:02:50,201 --> 00:02:55,705
+Le certificat d'appel du 17 novembre 2014, qui atteste que le jugement est frappé d'appel.
 
 30
-00:02:47,679 --> 00:02:50,410
-88 jours, du classement au dépôt de la plainte.
+00:02:56,005 --> 00:02:59,589
+La lettre du notaire Gangnito, du 19 septembre 2007.
 
 31
-00:02:50,710 --> 00:02:54,657
-107 jours, du dépôt de la plainte à la lettre du ministre Yvon Détchénou.
+00:03:01,889 --> 00:03:04,619
+88 jours, du classement au dépôt de la plainte.
 
 32
-00:02:56,957 --> 00:03:00,797
-Depuis le 29 septembre 2025, le calendrier avance.
+00:03:04,919 --> 00:03:08,866
+107 jours, du dépôt de la plainte à la lettre du ministre Yvon Détchénou.
 
 33
-00:03:01,147 --> 00:03:06,416
-Octobre, novembre, décembre. Janvier, février, mars. Avril, mai, juin. Juillet, août, septembre.
+00:03:11,166 --> 00:03:15,006
+Depuis le 29 septembre 2025, le calendrier avance.
 
 34
-00:03:06,766 --> 00:03:11,673
-Aucune convocation, aucune notification, aucune décision n'a été reçue par le plaignant.
+00:03:15,356 --> 00:03:20,625
+Octobre, novembre, décembre. Janvier, février, mars. Avril, mai, juin. Juillet, août, septembre.
 
 35
-00:03:12,023 --> 00:03:16,097
-381 jours, au 15 octobre 2026, date de ce film.
+00:03:20,975 --> 00:03:25,882
+Aucune convocation, aucune notification, aucune décision n'a été reçue par le plaignant.
 
 36
-00:03:18,997 --> 00:03:22,773
-Ce qui a été fait : une quittance payée, une plainte déposée, des pièces jointes.
+00:03:26,232 --> 00:03:30,307
+381 jours, au 15 octobre 2026, date de ce film.
 
 37
-00:03:23,123 --> 00:03:27,539
-Ce qui n'a pas suivi, à la connaissance du plaignant : aucune réponse, aucune explication.
+00:03:33,207 --> 00:03:36,983
+Ce qui a été fait : une quittance payée, une plainte déposée, des pièces jointes.
 
 38
-00:03:27,889 --> 00:03:32,028
-Une quittance est une pièce. L'absence de suite est une constatation du plaignant.
+00:03:37,333 --> 00:03:41,749
+Ce qui n'a pas suivi, à la connaissance du plaignant : aucune réponse, aucune explication.
 
 39
-00:03:35,128 --> 00:03:39,544
-Quelle suite a été donnée à la plainte reçue le 29 septembre 2025 ?
+00:03:42,099 --> 00:03:46,237
+Une quittance est une pièce. L'absence de suite est une constatation du plaignant.
 
 40
-00:03:40,044 --> 00:03:43,308
-Une consignation a-t-elle été fixée, comme la plainte le demande ?
+00:03:49,337 --> 00:03:53,753
+Quelle suite a été donnée à la plainte reçue le 29 septembre 2025 ?
 
 41
-00:03:43,808 --> 00:03:45,856
-Un juge d'instruction a-t-il été saisi ?
+00:03:54,253 --> 00:03:57,517
+Une consignation a-t-elle été fixée, comme la plainte le demande ?
 
 42
-00:03:46,356 --> 00:03:50,772
-Où les notifications adressées au domicile élu doivent-elles parvenir, et en existe-t-il ?
+00:03:58,017 --> 00:04:03,543
+La plainte a-t-elle été transmise au Doyen des juges d'instruction, et un juge d'instruction a-t-il été saisi ?
 
 43
-00:03:51,272 --> 00:03:55,923
-Quatre questions pour le Doyen des juges d'instruction de Cotonou. Les réponses seront publiées.
+00:04:04,043 --> 00:04:08,459
+Où les notifications adressées au domicile élu doivent-elles parvenir, et en existe-t-il ?
 
 44
-00:03:58,823 --> 00:04:01,489
-La quittance est payée. Aucune suite connue du plaignant.
+00:04:08,959 --> 00:04:13,609
+Quatre questions pour le Doyen des juges d'instruction de Cotonou. Les réponses seront publiées.
 
 45
-00:04:01,889 --> 00:04:05,111
+00:04:16,509 --> 00:04:19,176
+La quittance est payée. Aucune suite connue du plaignant.
+
+46
+00:04:19,576 --> 00:04:22,797
 Ce n'est pas une opinion : ce sont des pièces, publiées sur le site.
