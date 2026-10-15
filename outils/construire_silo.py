@@ -283,7 +283,7 @@ def jsonld(p, pages, canonical, og, html_body):
         if os.path.exists(vf):
             import subprocess
             sec = float(subprocess.check_output(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', vf], text=True))
-            graph.append({"@type": "VideoObject", "name": "La voie indiquée, déjà empruntée — la plainte avec constitution de partie civile du 29 septembre 2025",
+            graph.append({"@type": "VideoObject", "name": "La quittance sans suite — la voie indiquée, déjà empruntée : la plainte avec constitution de partie civile du 29 septembre 2025",
                           "description": "Chronologie documentée : classement sans suite du 3 juillet 2025, plainte avec constitution de partie civile déposée au Doyen des juges d'instruction de Cotonou le 29 septembre 2025 contre récépissé du Trésor, lettre du ministre de la Justice du 14 janvier 2026, absence de suite.",
                           "uploadDate": DATE + "T08:00:00+02:00", "duration": f"PT{int(sec // 60)}M{int(round(sec % 60))}S", "inLanguage": "fr",
                           "contentUrl": SITE + "/video/partie-civile/partie-civile-16-9.mp4", "thumbnailUrl": SITE + "/video/partie-civile/partie-civile-vignette.jpg",

@@ -8,7 +8,7 @@
 
 ### Chapô
 
-Le 14 janvier 2026, le ministre de la Justice Yvon Détchénou invite le conseil du plaignant, « en l'état d'un classement sans suite », à agir « par citation directe ou constitution de partie civile ». Cette dernière voie a été empruntée **107 jours plus tôt** : le 29 septembre 2025, Gilles Féliho dépose au Doyen des juges d'instruction du tribunal de première instance de première classe de Cotonou une plainte avec constitution de partie civile, avec ses pièces, contre un récépissé du Trésor public de 3 000 FCFA. Au 15 octobre 2026, soit **381 jours** après le dépôt, le plaignant n'a reçu aucune suite. Ce film et cette page mettent les dates et les pièces dans l'ordre.
+Le 14 janvier 2026, le ministre de la Justice Yvon Détchénou invite le conseil du plaignant, « en l'état d'un classement sans suite », à agir « par citation directe ou constitution de partie civile ». Cette dernière voie a été empruntée **107 jours plus tôt** : le 29 septembre 2025, Gilles Féliho dépose au Doyen des juges d'instruction du tribunal de première instance de première classe de Cotonou une plainte avec constitution de partie civile, avec ses pièces, contre un récépissé du Trésor public de 3 000 FCFA. Au 15 octobre 2026, soit **381 jours** après le dépôt, le plaignant n'a reçu aucune suite. Le film, « La quittance sans suite », et cette page mettent les dates et les pièces dans l'ordre.
 
 <figure class="video-dossier">
 <video controls preload="metadata" playsinline poster="/video/partie-civile/partie-civile-vignette.jpg" width="1920" height="1080" style="width:100%;height:auto;background:#000">
@@ -16,7 +16,7 @@ Le 14 janvier 2026, le ministre de la Justice Yvon Détchénou invite le conseil
 <track kind="subtitles" src="/video/partie-civile/partie-civile-fr.vtt" srclang="fr" label="Français">
 Votre navigateur ne lit pas cette vidéo.
 </video>
-<figcaption>La voie indiquée, déjà empruntée. <a href="/video/partie-civile/partie-civile-16-9.mp4">Télécharger le MP4</a> · <a href="/video/partie-civile/partie-civile-fr.srt">Sous-titres (SRT)</a> · <a href="/video/partie-civile/partie-civile-fr.vtt">Sous-titres (VTT)</a></figcaption>
+<figcaption>La quittance sans suite. <a href="/video/partie-civile/partie-civile-16-9.mp4">Télécharger le MP4</a> · <a href="/video/partie-civile/partie-civile-fr.srt">Sous-titres (SRT)</a> · <a href="/video/partie-civile/partie-civile-fr.vtt">Sous-titres (VTT)</a></figcaption>
 </figure>
 
 ### La chronologie
@@ -64,7 +64,7 @@ Votre navigateur ne lit pas cette vidéo.
 **1. Une voie indiquée le 14 janvier 2026, empruntée le 29 septembre 2025**
 
 - *Ce qui est écrit.* Le ministre de la Justice Yvon Détchénou : « Je vous invite en l'état d'un classement sans suite à agir par citation directe ou constitution de partie civile pour la défense de vos intérêts. » (lettre du 14 janvier 2026).
-- *Ce que contiennent les pièces.* La plainte avec constitution de partie civile est datée du 29 septembre 2025, jour du récépissé du Trésor public ; elle vise le classement du 3 juillet 2025. Les trois lettres adressées aux autorités après cette date (demande de réouverture reçue le 25 novembre 2025, lettre au ministre du 5 janvier 2026, lettre du 6 février 2026) ne la mentionnent pas.
+- *Ce que contiennent les pièces.* La plainte avec constitution de partie civile est datée du 29 septembre 2025, jour du récépissé du Trésor public ; elle vise le classement du 3 juillet 2025.
 - *Ce que les pièces établissent.* Entre le dépôt de la plainte et la lettre du ministre, il s'écoule **107 jours**. Le dépôt intervient 88 jours après le classement et 3 jours après que le plaignant en a eu connaissance.
 
 **2. Pourquoi la constitution de partie civile, et non la citation directe**
@@ -129,6 +129,10 @@ Les empreintes SHA-256 de ces fichiers figurent sur la page [Sources et pièces 
 - La plainte est datée du 17 août 2023 ; la sommation du 3 avril 2024 la mentionne au 21 août 2023 : l'écart est signalé, non interprété.
 - Aucune infraction n'est imputée par cette page aux personnes citées : elle reproduit une plainte et des pièces. Les qualifications pénales relèvent des juridictions compétentes. Les personnes citées peuvent demander l'exercice de leur droit de réponse : [procédure](/batonnier-hounkpatin/droit-de-reponse-et-mises-au-point/).
 - Les noms de Me Narcisse Atoun et de Me Victorien Olatundji Fade figurent dans les pièces ; les domiciles, naissances et coordonnées des personnes mises en cause et du plaignant sont occultés.
+
+### Appel à témoignages
+
+Vous avez déposé une plainte avec constitution de partie civile, ou une plainte pénale, restée sans suite ? Écrivez à [contact@eji2.org](mailto:contact@eji2.org) en indiquant la juridiction, la date de dépôt et les pièces dont vous disposez (récépissé, bordereau, réponses éventuelles). Les témoignages ne sont publiés qu'avec l'accord de leur auteur, pièces à l'appui et coordonnées personnelles occultées, comme sur cette page.
 
 ### Poursuivre
 
