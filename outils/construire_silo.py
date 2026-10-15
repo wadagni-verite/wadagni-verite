@@ -100,7 +100,7 @@ PIECES = [
     ('Courriel « a/s ta maison » : en-tête du fil du 7 août 2007 et message de Lise Féliho (2 pages ; annotations de l\u2019éditeur)', 'août 2007', 2, 'pieces/procedures-benin/courriel-lise-feliho-ta-maison-2007-08.pdf', '13fe063d841199e69a0666ca37b500db94d1156198f27acc06859ed3fc8276ec', True, None),
     ('Décret n° 2018-356 portant code d\u2019éthique et de déontologie de la Police républicaine (texte de référence)', '25 juil. 2018', 9, 'pieces/decret-2018-356-code-deontologie-police-republicaine.pdf', None, False, None),
     ('Courriel de Me Samba Sidibé à Gilles Féliho : « Lettre au Procureur Spécial » (capture, 1 page)', '24 nov. 2025', 1, 'pieces/procedures-benin/courriel-conseil-transmission-lettre-procureur-special-2025-11-24.pdf', '9fd0e0af02a9c4a96a0ccf5647937af90b2a4053c074abd1fc05f3282c59e62e', True, None),
-    ('Plainte avec constitution de partie civile au Doyen des juges d\u2019instruction de Cotonou (14 pages ; p. 1 : photographie de la page déposée)', '29 sept. 2025', 14, 'pieces/procedures-benin/plainte-partie-civile-doyen-juges-instruction-cotonou-2025-09-29.pdf', '184abf157487875bb0f40d8b2b606cabb03c91977c1fdbc1d2e0b88b545e880e', True, None),
+    ('Plainte avec constitution de partie civile adressée au Doyen des juges d\u2019instruction de Cotonou et déposée auprès du Président du tribunal (14 pages ; p. 1 : photographie de la page déposée)', '29 sept. 2025', 14, 'pieces/procedures-benin/plainte-partie-civile-doyen-juges-instruction-cotonou-2025-09-29.pdf', '184abf157487875bb0f40d8b2b606cabb03c91977c1fdbc1d2e0b88b545e880e', True, None),
     ('Récépissé n° 25036294-026G de la Direction générale du Trésor : « PLAINTE », 3 000 FCFA (photographie)', '29 sept. 2025', 1, 'pieces/procedures-benin/recepisse-tresor-plainte-3000-fcfa-2025-09-29.pdf', 'fba4ac257e1538b7889d31c1b008bdd901216027ac4c6c67fc083a9a41739a8a', False, None),
     ('Lettre n° 0049/MJL/SP-C du ministre de la Justice Yvon Détchénou', '14 janv. 2026', 1, 'pieces/procedures-benin/reponse-ministre-justice-2026-01-14.pdf', None, False, None),
     ('Lettre de Gilles Féliho au ministre de la Justice (4 pages)', '6 févr. 2026', 4, 'pieces/procedures-benin/lettre-ministre-justice-faits-precis-2026-02-06.pdf', 'c100ef4247d748d4a7a62d4bca98795eaa4fb584ff53b830d66873b754c62367', True, None),
@@ -284,7 +284,7 @@ def jsonld(p, pages, canonical, og, html_body):
             import subprocess
             sec = float(subprocess.check_output(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', vf], text=True))
             graph.append({"@type": "VideoObject", "name": "La quittance sans suite — la voie indiquée, déjà empruntée : la plainte avec constitution de partie civile du 29 septembre 2025",
-                          "description": "Chronologie documentée : classement sans suite du 3 juillet 2025, plainte avec constitution de partie civile déposée au Doyen des juges d'instruction de Cotonou le 29 septembre 2025 contre récépissé du Trésor, lettre du ministre de la Justice du 14 janvier 2026, absence de suite.",
+                          "description": "Chronologie documentée : classement sans suite du 3 juillet 2025, plainte avec constitution de partie civile déposée auprès du Président du tribunal de Cotonou, adressée au Doyen des juges d'instruction, le 29 septembre 2025 contre récépissé du Trésor, lettre du ministre de la Justice du 14 janvier 2026, absence de suite.",
                           "uploadDate": DATE + "T08:00:00+02:00", "duration": f"PT{int(sec // 60)}M{int(round(sec % 60))}S", "inLanguage": "fr",
                           "contentUrl": SITE + "/video/partie-civile/partie-civile-16-9.mp4", "thumbnailUrl": SITE + "/video/partie-civile/partie-civile-vignette.jpg",
                           "publisher": {"@id": SITE + "/#editeur"}})
@@ -356,7 +356,7 @@ def render(p, pages):
     if p['num'] in FILM_PAGES:
         md = md.rstrip() + f"\n\n**Le film.** [Décision rendue, décision non reçue]({FILM}) : les dates de la procédure, de la saisine du 11 septembre 2023 au classement du 3 juillet 2025, sur pièces.\n"
     if p['num'] in (0, 13, 14):
-        md = md.rstrip() + f"\n\n**La plainte avec constitution de partie civile.** [La voie indiquée, déjà empruntée]({PARTIE_CIVILE}) : la plainte déposée au Doyen des juges d'instruction de Cotonou le 29 septembre 2025, 107 jours avant la lettre du ministre de la Justice, et les pièces.\n"
+        md = md.rstrip() + f"\n\n**La plainte avec constitution de partie civile.** [La voie indiquée, déjà empruntée]({PARTIE_CIVILE}) : la plainte déposée auprès du Président du tribunal de Cotonou, adressée au Doyen des juges d'instruction, le 29 septembre 2025, 107 jours avant la lettre du ministre de la Justice, et les pièces.\n"
     if p['num'] in (0, 12, 13):
         md = md.rstrip() + f"\n\n**Le ministre de la Justice.** [Faits précis demandés, faits précis fournis]({MINISTRE}) : la lettre du ministre Yvon Détchénou du 14 janvier 2026 (« aucun fait précis allégué »), la lettre du plaignant du 6 février 2026 et les pièces.\n"
     md = md.replace('<details class="correspondance">', '<details class="correspondance" markdown="1">')
