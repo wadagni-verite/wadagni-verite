@@ -64,7 +64,12 @@ k = 595.28 / 1760   # coordonnées relevées en pixels sur la capture (1760 px d
 rects(pg, [(235 * k, 1170 * k, 1120 * k, 1450 * k)])
 finir(d, OUT + 'courriel-conseil-transmission-lettre-procureur-special-2025-11-24.pdf', "Courriel de Me Samba Sidibé à Gilles Féliho du 24 novembre 2025 : « Lettre au Procureur Spécial »")
 
-# 7. courriel de Lise Féliho (« ta maison », sans date) : nom d'usage et adresse électronique de l'expéditrice occultés (annotations de l'éditeur conservées)
-d = pymupdf.open(U + 'f164c86d-TaMaison.pdf.pdf')
-rects(d[0], [(8, 69, 162, 84)])
-finir(d, OUT + 'courriel-lise-feliho-ta-maison-sans-date.pdf', "Courriel de Lise Féliho à Gilles Féliho, « ta maison » (non daté)")
+# 7. courriel de Lise Féliho (« ta maison ») : p. 1 = en-tête du fil (« Mardi 7 août 2007 13h51 »), p. 2 = message ; adresses, IP, nom d'usage, URL occultés (annotations de l'éditeur conservées)
+d = pymupdf.open(); img = pymupdf.open(IMG + '34.jpg')
+pg = d.new_page(width=595.28, height=595.28 * 853 / 1871); pg.insert_image(pg.rect, filename=IMG + '34.jpg')
+k = 595.28 / 1871   # coordonnées relevées en pixels sur la capture (1871 px de large)
+rects(pg, [(1020 * k, 30 * k, 1871 * k, 70 * k), (490 * k, 358 * k, 1410 * k, 388 * k), (625 * k, 447 * k, 880 * k, 475 * k),
+           (490 * k, 536 * k, 790 * k, 566 * k), (490 * k, 580 * k, 980 * k, 610 * k), (700 * k, 672 * k, 1110 * k, 700 * k)])
+src = pymupdf.open(U + 'f164c86d-TaMaison.pdf.pdf'); rects(src[0], [(8, 69, 162, 84)])
+d.insert_pdf(src)
+finir(d, OUT + 'courriel-lise-feliho-ta-maison-2007-08.pdf', "Courriel « a/s ta maison » : en-tête du fil du 7 août 2007 et message de Lise Féliho à Gilles Féliho")

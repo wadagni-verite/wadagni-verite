@@ -73,15 +73,15 @@ SEQ = {
    ("Six semaines plus tard, le 19 septembre 2007, le notaire transmet à Maître Fade les pièces de l'adjudication de constructions à Gbégamey, au profit de Gilles Féliho.",
     "Six semaines plus tard, le dix-neuf septembre deux mille sept, le notaire transmet à Maître Fade les pièces de l'adjudication de constructions à Gbégamey, au profit de Gilles Féliho.")]),
  8.3: dict(speed=1.14, gap=0.3, lead=0.9, tail=1.2, s=[
-   ("Un second courriel de Lise Féliho, non daté, porte lui aussi sur « ta maison ».", "Un second courriel de Lise Féliho, non daté, porte lui aussi sur ta maison."),
+   ("Un autre message de Lise Féliho, du même fil « a/s ta maison », porte lui aussi sur « ta maison ».", "Un autre message de Lise Féliho, du même fil, a s ta maison, porte lui aussi sur ta maison."),
    ("Elle écrit avoir appris qu'en se séparant de leur père, Maître Fade lui aurait demandé à continuer de gérer les dossiers dont il avait la charge, mais que leur père aurait refusé.",
     "Elle écrit avoir appris qu'en se séparant de leur père, Maître Fade lui aurait demandé à continuer de gérer les dossiers dont il avait la charge, mais que leur père aurait refusé."),
    ("Elle propose de « trouver les coordonnées de FADE, et le remettre sur le dossier, moyennant rétribution » : « maîtrisant le dossier pour l'avoir suivi à son début, il fera l'affaire ».",
     "Elle propose de trouver les coordonnées de Fade, et le remettre sur le dossier, moyennant rétribution : maîtrisant le dossier pour l'avoir suivi à son début, il fera l'affaire."),
    ("Il se chargerait de récupérer auprès du notaire les pièces juridiques de vente, y compris le permis d'habiter, pour obtenir le titre foncier.",
     "Il se chargerait de récupérer auprès du notaire les pièces juridiques de vente, y compris le permis d'habiter, pour obtenir le titre foncier."),
-   ("Aucune date n'apparaît sur cet extrait, publié tel que reçu. Lise Féliho y désigne Maître Fade comme l'avocat qui a suivi le dossier de cette maison dès son début.",
-    "Aucune date n'apparaît sur cet extrait, publié tel que reçu. Lise Féliho y désigne Maître Fade comme l'avocat qui a suivi le dossier de cette maison dès son début.")]),
+   ("L'en-tête du fil porte la date du mardi 7 août 2007. Lise Féliho y désigne Maître Fade comme l'avocat qui a suivi le dossier de cette maison dès son début.",
+    "L'en-tête du fil porte la date du mardi sept août deux mille sept. Lise Féliho y désigne Maître Fade comme l'avocat qui a suivi le dossier de cette maison dès son début.")]),
  8.5: dict(speed=1.14, gap=0.3, lead=0.9, tail=1.0, s=[
    ("Le 19 septembre 2007, le notaire Denise Ehouzou Gangnito écrit à Maître Victorien Olatundji Fade.", "Le dix-neuf septembre deux mille sept, le notaire Denise Ehouzou Gangnito écrit à Maître Victorien Olatundji Fade."),
    ("Suite à l'adjudication de constructions sur la parcelle B du lot 923 de Gbégamey, au profit de Gilles Sixte Féliho, « dont vous êtes le mandataire ».",
@@ -334,10 +334,11 @@ pic('g-tete.png', 1000, 470, 840, W(8.2, 4)[0] - 0.3, b, "Lettre du notaire Deni
 
 # --- 8.3 : le second courriel de Lise (« ta maison », sans date)
 a, b = Q(8.3)
-text("COURRIEL DE LISE FÉLIHO À GILLES FÉLIHO — « ta maison » — SANS DATE", 80, 62, 1760, a + 0.2, b, 'colhead wide')
-pic('t-mail-a.png', 80, 150, 1700, W(8.3, 1)[0] - 0.3, b, "Courriel non daté, 1ʳᵉ partie (adresse électronique de l'expéditrice occultée)", find=("Fade est quelque peu difficile", "il lui aurait demandé à continuer de gérer les dossiers dont il avait la charge, mais Papa aurait refusé"), cls='p83')
+text("COURRIEL DE LISE FÉLIHO À GILLES FÉLIHO — « a/s ta maison » — FIL DU 7 AOÛT 2007", 80, 62, 1760, a + 0.2, b, 'colhead wide')
+pic('t-mail-a.png', 80, 150, 1700, W(8.3, 1)[0] - 0.3, b, "Message de Lise Féliho, fil « a/s ta maison » (en-tête : mardi 7 août 2007) — 1ʳᵉ partie", find=("Fade est quelque peu difficile", "il lui aurait demandé à continuer de gérer les dossiers dont il avait la charge, mais Papa aurait refusé"), cls='p83')
 pic('t-mail-b.png', 80, 470, 1700, W(8.3, 2)[0] - 0.3, b, "Même courriel, 2ᵉ partie : « Ce que je propose, c'est de trouver les coordonnées de FADE […] »", find=("trouver les coordonnées de FADE, et le remettre sur le dossier", "maîtrisant le dossier pour l'avoir suivi à son début, il fera l'affaire", "pièces juridiques de ventes y compris le permis d'habiter"), cls='p83')
-text("Aucune date n'apparaît sur cet extrait, publié tel que reçu.", 80, 800, 1700, W(8.3, 4)[0] - 0.3, b, 'quote ocrebox')
+pic('t-mail-tete.png', 80, 690, 820, W(8.3, 4)[0] - 0.3, b, "En-tête du fil « a/s ta maison » (adresses et adresse IP occultées)", find=("Mardi 7 août 2007 13h51",), cls='p83')
+text("En-tête du fil : « Re : RE : a/s ta maison », mardi 7 août 2007, 13h51.", 980, 700, 800, W(8.3, 4)[0] - 0.3, b, 'quote ocrebox')
 
 # --- 8.5 : Maître Fade, mandataire de Gilles Féliho en 2007
 a, b = Q(8.5)
@@ -429,7 +430,7 @@ a, b = SQ[15]
 text('wadagni2026-verite.com', 0, 300, 1920, a + 0.6, b, 'url', 0.8)
 text('Les pièces reproduites dans ce film sont publiées dans leur intégralité sur le site, avec leurs empreintes numériques.', 0, 400, 1920, a + 1.6, b, 'finsmall', 0.8)
 text("Les extraits reproduits sont des copies partielles. Les annotations rouges des originaux ont été effacées des recadrages ; les coordonnées personnelles sont occultées.<br>"
-     "Le chef de la Brigade criminelle d'avril 2024 est désigné par la lettre du 29 avril 2025 comme « le Chef d'alors », sans être nommé. Le testament est daté du 16 juillet 2009 dans le procès-verbal de compulsion et du 19 juillet 2009 dans le jugement. Le second courriel de Lise Féliho (« ta maison ») ne porte pas de date.", 160, 560, 1600, a + 2.6, b, 'precis', 0.8)
+     "Le chef de la Brigade criminelle d'avril 2024 est désigné par la lettre du 29 avril 2025 comme « le Chef d'alors », sans être nommé. Le testament est daté du 16 juillet 2009 dans le procès-verbal de compulsion et du 19 juillet 2009 dans le jugement.", 160, 560, 1600, a + 2.6, b, 'precis', 0.8)
 
 CSS = '''
 :root{--navy:#0a1f44;--gold:#d4af37;--ink:#f8fafc;--mute:#94a3b8}
