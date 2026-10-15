@@ -18,6 +18,10 @@ CIBLES = [
     'pieces/procedures-benin/relance-convocation-brigade-criminelle-2025-03-25.pdf',
     'pieces/procedures-benin/observations-brigade-criminelle-cour-constitutionnelle-2025-allege.pdf',
     'pieces/procedures-benin/plainte-fade-piece-2-signification-jugement-2015-03-09.pdf',
+    'pieces/procedures-benin/demande-reouverture-procureur-special-criet-2025-11-25.pdf',
+    'pieces/procedures-benin/lettre-conseil-ministre-justice-2026-01-05.pdf',
+    'pieces/procedures-benin/reponse-ministre-justice-2026-01-14.pdf',
+    'pieces/procedures-benin/attestation-appel-jugement-114-14-2014-11-17.pdf',
 ]
 # lignes écartées du calque de texte : courriels et numéros de téléphone (même d'institutions), pour qu'aucune coordonnée
 # ne soit indexée par les moteurs de recherche, y compris lorsqu'elle est lisible sur l'image d'origine
@@ -47,5 +51,5 @@ def ocr(path):
         os.replace(path + '.tmp', path)
     print(f"{os.path.basename(path)} : {n} page(s) océrisée(s), {len(pymupdf.open(path)[0].get_text())} car. page 1")
 
-for c in CIBLES:
+for c in (sys.argv[1:] or CIBLES):
     ocr(os.path.join(ROOT, c))
