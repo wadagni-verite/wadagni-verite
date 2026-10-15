@@ -125,7 +125,7 @@ Les empreintes SHA-256 de ces fichiers figurent sur la page [Sources et pièces 
 ### Précisions
 
 - Le récépissé du Trésor porte la nature « PLAINTE » et le montant de 3 000 FCFA ; la plainte demande au Doyen d'ordonner la consignation. Aucune ordonnance de consignation n'est connue : le récépissé n'est pas présenté ici comme la consignation.
-- La première page du PDF est la photographie de la page déposée : elle porte le cachet « Tribunal de 1ère instance de Cotonou — Le Président » et une mention manuscrite (« OK SP »), non datée et non interprétée. Le film y consacre un zoom.
+- La première page du PDF est la photographie de la page déposée : elle porte le cachet « Tribunal de 1ère instance de Cotonou — Le Président ».
 - La plainte est datée du 17 août 2023 ; la sommation du 3 avril 2024 la mentionne au 21 août 2023 : l'écart est signalé, non interprété.
 - Aucune infraction n'est imputée par cette page aux personnes citées : elle reproduit une plainte et des pièces. Les qualifications pénales relèvent des juridictions compétentes. Les personnes citées peuvent demander l'exercice de leur droit de réponse : [procédure](/batonnier-hounkpatin/droit-de-reponse-et-mises-au-point/).
 - Les noms de Me Narcisse Atoun et de Me Victorien Olatundji Fade figurent dans les pièces ; les domiciles, naissances et coordonnées des personnes mises en cause et du plaignant sont occultés.
