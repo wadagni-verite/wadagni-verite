@@ -43,7 +43,7 @@ Votre navigateur ne lit pas cette vidéo.
 
 **3. L'objet de la plainte**
 
-- *Ce qui a été fait.* La sommation rappelle que le plaignant a déposé, le 21 août 2023, une plainte pour « faux et usage de faux en écriture publique, relativement au jugement n° 114/14/3ème CH-EP du 31 octobre 2014 ».
+- *Ce qui a été fait.* La sommation rappelle que le plaignant a déposé une plainte (la sommation la date du 21 août 2023 ; la plainte est datée du 17 août 2023 : l'écart est signalé, non interprété) pour « faux et usage de faux en écriture publique, relativement au jugement n° 114/14/3ème CH-EP du 31 octobre 2014 ».
 - *Ce qui a été écrit.* Le mémoire (p. 2) : « Dans ladite plainte, Gilles Sixte conteste le testament laissé par son feu père ».
 - *Ce que les pièces établissent.* La plainte porte sur un faux dans un jugement. Le mémoire lui donne un autre objet, le testament, et c'est de cette seconde lecture que découle la suite de son raisonnement.
 
@@ -103,7 +103,7 @@ Votre navigateur ne lit pas cette vidéo.
 |---|---|---|
 | **11 mois** | 3 avril 2024 → 6 mars 2025 : de la sommation à la redécouverte du dossier | Sommation ; mémoire, p. 3 |
 | **6 jours** | 6 mars → 12 mars 2025 : de la notification de la Cour aux convocations | Mémoire, p. 3 ; convocations n° 141 et 142 |
-| **563 jours** | 21 août 2023 → 6 mars 2025 : de la plainte à la notification de la Cour | Sommation ; mémoire, p. 3 |
+| **567 jours** | 17 août 2023 → 6 mars 2025 : de la plainte à la notification de la Cour | Plainte datée du 17 août 2023 ; mémoire, p. 3 |
 | **54 jours** | 6 mars → 29 avril 2025 : de la notification de la Cour au mémoire | Mémoire |
 | **12 jours** | 3 juillet → 15 juillet 2025 : du classement sans suite à l'audience de la Cour | [Avis de classement](/pieces/avis-de-classement-criet-2025-07-03.pdf) ; lettre du greffier en chef du 20 mai 2025 |
 

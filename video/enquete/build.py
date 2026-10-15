@@ -42,8 +42,8 @@ SEQ = {
    ("La mairie répond le 27 mars en joignant une page de répertoire : la couverture du registre, déjà décrite dans le procès-verbal de 2017. Elle ne mentionne aucune parcelle.",
     "La mairie répond le vingt-sept mars en joignant une page de répertoire : la couverture du registre, déjà décrite dans le procès-verbal de deux mille dix-sept. Elle ne mentionne aucune parcelle.")]),
  6: dict(speed=1.14, gap=0.3, lead=0.9, tail=1.0, s=[
-   ("La plainte déposée le 21 août 2023 porte sur un faux en écriture publique, dans un jugement.",
-    "La plainte déposée le vingt et un août deux mille vingt-trois porte sur un faux en écriture publique, dans un jugement."),
+   ("La plainte, datée du 17 août 2023, porte sur un faux en écriture publique, dans un jugement.",
+    "La plainte, datée du dix-sept août deux mille vingt-trois, porte sur un faux en écriture publique, dans un jugement."),
    ("Le mémoire du commissaire principal Konto écrit : « Dans ladite plainte, Gilles Sixte conteste le testament. »",
     "Le mémoire du commissaire principal Konto écrit : dans ladite plainte, Gilles Sixte conteste le testament."),
    ("Toute la suite du raisonnement part de cette seconde lecture.", "Toute la suite du raisonnement part de cette seconde lecture.")]),
@@ -126,7 +126,7 @@ SEQ = {
    ("Les neuf pièces jointes au mémoire n'établissent ni l'une ni l'autre. Le procès-verbal de 2017 consigne : superficie, néant.",
     "Les neuf pièces jointes au mémoire n'établissent ni l'une ni l'autre. Le procès-verbal de deux mille dix-sept consigne : superficie, néant.")]),
  13: dict(speed=1.14, gap=0.3, lead=0.9, tail=1.2, s=[
-   ("Cinq cent soixante-trois jours entre la plainte et la notification de la Cour constitutionnelle.", "Cinq cent soixante-trois jours entre la plainte et la notification de la Cour constitutionnelle."),
+   ("Cinq cent soixante-sept jours entre la plainte et la notification de la Cour constitutionnelle.", "Cinq cent soixante-sept jours entre la plainte et la notification de la Cour constitutionnelle."),
    ("Cinquante-quatre jours, de cette notification au mémoire du commissaire principal Konto.", "Cinquante-quatre jours, de cette notification au mémoire du commissaire principal Konto."),
    ("Le 3 juillet 2025, le parquet de la CRIET classe sans suite : « je n'ai pas estimé opportun d'engager des poursuites ».",
     "Le trois juillet deux mille vingt-cinq, le parquet de la Criet classe sans suite : je n'ai pas estimé opportun d'engager des poursuites."),
@@ -134,6 +134,10 @@ SEQ = {
  14: dict(speed=1.14, gap=0.3, lead=0.9, tail=1.8, s=[
    ("Six questions pour le commissaire principal Sabi Fulbert Konto. Les réponses seront publiées.", "Six questions pour le commissaire principal Sabi Fulbert Konto. Les réponses seront publiées.")]),
 }
+
+import re as _re
+for _q in SEQ.values():   # prononciation : « testament » est lu « testam » par la voix ; graphie phonétique dans le texte lu uniquement
+    _q['s'] = [(a_, _re.sub(r'\btestament\b', 'testamant', b_)) for a_, b_ in _q['s']]
 
 k = Kokoro(os.path.join(models, 'kokoro.onnx'), os.path.join(models, 'voices.bin'))
 t = 0.0
@@ -281,7 +285,7 @@ text("Mairie de Cotonou, 27 mars 2025 :<br>« je vous informe que la copie du r�
 # --- 6 : l'objet de la plainte
 a, b = Q(6)
 heads(a + 0.2, b)
-pic('s1-plainte.png', 80, 200, 840, W(6, 0)[0] - 0.3, b, "Sommation du 3 avril 2024 : la plainte du 21 août 2023, « relativement au jugement n°114/14/3ème CH-EP du 31 octobre 2014 »", find=("faux et usage de faux en écriture publique, relativement au jugement",), cls='p6')
+pic('s1-plainte.png', 80, 200, 840, W(6, 0)[0] - 0.3, b, "Sommation du 3 avril 2024 : la plainte « relativement au jugement n°114/14/3ème CH-EP du 31 octobre 2014 » (la sommation la date du 21 août 2023 ; la plainte est datée du 17 août 2023)", find=("faux et usage de faux en écriture publique, relativement au jugement",), cls='p6')
 pic('m2-plainte.png', 1000, 200, 840, W(6, 1)[0] - 0.3, b, "Mémoire du 29 avril 2025, p. 2 — signé Sabi Fulbert Konto", find=("Gilles Sixte conteste le testament",), cls='p6')
 trait(W(6, 2)[0], b, 640)
 
@@ -373,7 +377,7 @@ text("Neuf pièces jointes au mémoire du 29 avril 2025 : aucune n'établit l'un
 
 # --- 13 : les durées et le classement
 a, b = Q(13)
-counter(563, 'JOURS', 80, 150, W(13, 0)[0] - 0.2, W(13, 2)[0] - 0.2, W(13, 0)[0], W(13, 0)[0] + 2.2, w=840, size=170, sub="de la plainte (21 août 2023) à la notification de la Cour (6 mars 2025)")
+counter(567, 'JOURS', 80, 150, W(13, 0)[0] - 0.2, W(13, 2)[0] - 0.2, W(13, 0)[0], W(13, 0)[0] + 2.2, w=840, size=170, sub="de la plainte (17 août 2023) à la notification de la Cour (6 mars 2025)")
 counter(54, 'JOURS', 1000, 150, W(13, 1)[0] - 0.2, W(13, 2)[0] - 0.2, W(13, 1)[0], W(13, 1)[0] + 1.6, w=840, size=170, sub="de cette notification au mémoire du 29 avril 2025")
 pic('classement.png', 1200, 60, 560, W(13, 2)[0] - 0.3, b, '', hl=((17, 50.4, 69, 6.4),), cls='p13')
 card(3, 'JUILLET', 2025, 160, 220, W(13, 2)[0] - 0.2, b, 'big')

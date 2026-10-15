@@ -49,8 +49,17 @@ p = d[0]
 rects(p, [r for t in ("60, rue Gustave EIFFEL", "94000 CRÉTEIL", "E-mail : feliho@me.com") for r in p.search_for(t)])
 finir(d, OUT + 'lettre-ministre-justice-faits-precis-2026-02-06.pdf', "Lettre au ministre de la Justice du 6 février 2026 : faits précis")
 
-# 5. attestation d'appel du 17 novembre 2014 (photo -> PDF)
-d = pymupdf.open(); img = pymupdf.open(IMG + '31.jpg'); r = img[0].rect
-pg = d.new_page(width=595.28, height=595.28 * r.height / r.width); pg.insert_image(pg.rect, filename=IMG + '31.jpg')
-d.set_metadata({'title': "Attestation d'appel du 17 novembre 2014 (appel n° 015/2014/3ème EP/GTC contre le jugement n° 114/14)", 'author': 'Éthique Juridique 2.0 Internationale'})
-d.save(OUT + 'attestation-appel-jugement-114-14-2014-11-17.pdf', garbage=4, deflate=True); print('-> attestation-appel...')
+# 5. attestation d'appel du 17 novembre 2014 (photo -> PDF) : non publiée tant que son intégration n'est pas décidée (AVEC_ATTESTATION=1)
+if os.environ.get('AVEC_ATTESTATION'):
+    d = pymupdf.open(); img = pymupdf.open(IMG + '31.jpg'); r = img[0].rect
+    pg = d.new_page(width=595.28, height=595.28 * r.height / r.width); pg.insert_image(pg.rect, filename=IMG + '31.jpg')
+    d.set_metadata({'title': "Attestation d'appel du 17 novembre 2014 (appel n° 015/2014/3ème EP/GTC contre le jugement n° 114/14)", 'author': 'Éthique Juridique 2.0 Internationale'})
+    d.save(OUT + 'attestation-appel-jugement-114-14-2014-11-17.pdf', garbage=4, deflate=True); print('-> attestation-appel...')
+
+
+# 6. courriel de Me Sidibé du 24/11/2025 (capture d'écran -> PDF) : bloc de signature (adresse, téléphones, courriels, site) occulté
+d = pymupdf.open(); img = pymupdf.open(IMG + '32.jpg'); r = img[0].rect
+pg = d.new_page(width=595.28, height=595.28 * r.height / r.width); pg.insert_image(pg.rect, filename=IMG + '32.jpg')
+k = 595.28 / 1760   # coordonnées relevées en pixels sur la capture (1760 px de large)
+rects(pg, [(235 * k, 1170 * k, 1120 * k, 1450 * k)])
+finir(d, OUT + 'courriel-conseil-transmission-lettre-procureur-special-2025-11-24.pdf', "Courriel de Me Samba Sidibé à Gilles Féliho du 24 novembre 2025 : « Lettre au Procureur Spécial »")

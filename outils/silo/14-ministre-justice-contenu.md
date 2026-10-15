@@ -46,13 +46,14 @@ La lettre est signée « Yvon DETCHENOU » et porte le cachet « Le Ministre ».
 |---|---|---|
 | 17 août 2023 | Plainte pour faux en écriture publique (plainte n° 2023/2180), selon la demande de réouverture | [Demande de réouverture](/pieces/procedures-benin/demande-reouverture-procureur-special-criet-2025-11-25.pdf), p. 1 |
 | 3 juillet 2025 | Classement sans suite par le Procureur spécial près la CRIET | [Avis de classement](/pieces/avis-de-classement-criet-2025-07-03.pdf) |
+| 24 novembre 2025 | Me Samba Sidibé transmet à Gilles Féliho, par courriel, la lettre au Procureur spécial | [Courriel](/pieces/procedures-benin/courriel-conseil-transmission-lettre-procureur-special-2025-11-24.pdf) |
 | 25 novembre 2025 | Arrivée au parquet spécial de la demande de réouverture d'enquête (cachet « COURRIER ARRIVÉ 25-11-25 ») | [Demande de réouverture](/pieces/procedures-benin/demande-reouverture-procureur-special-criet-2025-11-25.pdf), 5 pages |
 | 5 janvier 2026 | Lettre de Me Samba Sidibé au ministre de la Justice Yvon Détchénou | [PDF, 4 pages](/pieces/procedures-benin/lettre-conseil-ministre-justice-2026-01-05.pdf) |
 | 14 janvier 2026 | Réponse du ministre Yvon Détchénou à l'avocat | [PDF, 1 page](/pieces/procedures-benin/reponse-ministre-justice-2026-01-14.pdf) |
 | 6 février 2026 | Lettre de Gilles Féliho au ministre Yvon Détchénou : « faits précis », tableau, sept pièces jointes | [PDF, 4 pages](/pieces/procedures-benin/lettre-ministre-justice-faits-precis-2026-02-06.pdf) |
 | depuis le 6 février 2026 | Aucune réponse du ministre reçue par le plaignant | — |
 
-La demande de réouverture porte la date du 24 septembre 2025 ; le cachet d'arrivée porte celle du 25 novembre 2025. La date retenue ici est celle de la réception, le 25 novembre 2025, que la lettre du 5 janvier 2026 reprend (« Le 25 novembre 2025, j'ai saisi le Procureur Spécial près la CRIET »).
+La demande de réouverture porte la date du 24 septembre 2025 ; le cachet d'arrivée porte celle du 25 novembre 2025. Le courriel par lequel Me Sidibé transmet cette lettre à Gilles Féliho est daté du 24 novembre 2025, la veille du cachet. La date retenue ici est celle de la réception, le 25 novembre 2025, que la lettre du 5 janvier 2026 reprend (« Le 25 novembre 2025, j'ai saisi le Procureur Spécial près la CRIET »).
 
 ### Les mises en regard
 
@@ -67,7 +68,7 @@ La demande de réouverture porte la date du 24 septembre 2025 ; le cachet d'arri
 
 - *Ce qui est écrit.* Le ministre Yvon Détchénou invite à agir « par citation directe ou constitution de partie civile ».
 - *Ce que dit la plainte.* Elle vise le faux en écriture publique, l'usage de faux et la complicité, sous les articles 303, 305 et 22 du Code pénal. L'article 303 prévoit la réclusion criminelle à perpétuité.
-- *L'analyse de l'éditeur.* Le faux en écriture publique est, au Bénin, une infraction de nature criminelle : la citation directe n'est pas ouverte pour un crime. Cette analyse est à vérifier sur les textes officiels. Reste la plainte avec constitution de partie civile, qui fera l'objet d'une prochaine page.
+- *Ce qui en résulte.* Le faux en écriture publique est, au Bénin, une infraction de nature criminelle : la citation directe n'est pas ouverte pour un crime. Reste la plainte avec constitution de partie civile, qui fera l'objet d'une prochaine page.
 
 **3. Les faits précis, fournis le 6 février 2026**
 
@@ -112,6 +113,7 @@ La lettre est publiée : [PDF](/pieces/lettre-notaire-gangnito-a-me-fade-2007-09
 | Pièce | Où la lire |
 |---|---|
 | Demande de réouverture d'enquête au Procureur spécial près la CRIET | [PDF, 5 pages](/pieces/procedures-benin/demande-reouverture-procureur-special-criet-2025-11-25.pdf) — page 1 : copie reçue avec le cachet d'arrivée ; nom d'en-tête et coordonnées du cabinet occultés |
+| Courriel de Me Samba Sidibé à Gilles Féliho, 24 novembre 2025 | [PDF, 1 page](/pieces/procedures-benin/courriel-conseil-transmission-lettre-procureur-special-2025-11-24.pdf) — capture d'écran ; coordonnées du cabinet occultées |
 | Lettre de Me Samba Sidibé au ministre de la Justice, 5 janvier 2026 | [PDF, 4 pages](/pieces/procedures-benin/lettre-conseil-ministre-justice-2026-01-05.pdf) — nom d'en-tête et coordonnées du cabinet occultés |
 | Lettre n° 0049/MJL/SP-C du ministre de la Justice Yvon Détchénou, 14 janvier 2026 | [PDF, 1 page](/pieces/procedures-benin/reponse-ministre-justice-2026-01-14.pdf) |
 | Lettre de Gilles Féliho au ministre de la Justice, 6 février 2026 | [PDF, 4 pages](/pieces/procedures-benin/lettre-ministre-justice-faits-precis-2026-02-06.pdf) — adresse et courriel occultés |
@@ -133,7 +135,7 @@ Les empreintes SHA-256 de ces fichiers figurent sur la page [Sources et pièces 
 
 - Aucune infraction n'est imputée au ministre de la Justice. Cette page met en regard une lettre et des pièces publiées. Le ministre Yvon Détchénou peut demander la publication d'une réponse : [procédure](/batonnier-hounkpatin/droit-de-reponse-et-mises-au-point/).
 - Le nom du ministre est orthographié « DETCHENOU » sur sa lettre ; il est écrit ici « Détchénou ».
-- La plainte est datée du 17 août 2023 dans la demande de réouverture. La sommation interpellative du 3 avril 2024 la mentionne au 21 août 2023 (date reprise sur la page [Brigade criminelle](/brigade-criminelle/)) : l'écart est signalé, non interprété.
+- La plainte est datée du 17 août 2023 (« Fait, le 17 août 2023 », plainte n° 2023/2180). La sommation interpellative du 3 avril 2024 la mentionne au 21 août 2023 : l'écart est signalé, non interprété.
 - La demande de réouverture est reproduite en cinq pages : la page 1 est la copie reçue, avec le cachet d'arrivée ; les pages 2 à 5 sont le fichier d'origine.
 - Les noms de Me Samba Sidibé et de Me Narcisse Atoun restent visibles dans le corps et les signatures des lettres ; seuls le nom d'en-tête du papier à lettres et les coordonnées du cabinet sont occultés.
 - Les extraits reproduits dans le film sont des copies partielles ; les pièces intégrales sont publiées sur le site.

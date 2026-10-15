@@ -60,8 +60,7 @@ SEQ = {
    ("Le ministre invite à agir par citation directe ou constitution de partie civile.", "Le ministre invite à agir par citation directe ou constitution de partie civile."),
    ("L'article 303 du Code pénal, cité dans la plainte, punit le faux en écriture publique de la réclusion criminelle à perpétuité.",
     "L'article trois cent trois du Code pénal, cité dans la plainte, punit le faux en écriture publique de la réclusion criminelle à perpétuité."),
-   ("Pour une infraction de nature criminelle, la citation directe n'est pas ouverte : c'est l'analyse de l'éditeur, à vérifier sur les textes.",
-    "Pour une infraction de nature criminelle, la citation directe n'est pas ouverte : c'est l'analyse de l'éditeur, à vérifier sur les textes."),
+   ("Pour une infraction de nature criminelle, la citation directe n'est pas ouverte.", "Pour une infraction de nature criminelle, la citation directe n'est pas ouverte."),
    ("Reste la plainte avec constitution de partie civile, qui fera l'objet d'une prochaine page.", "Reste la plainte avec constitution de partie civile, qui fera l'objet d'une prochaine page.")]),
  9: dict(speed=1.14, gap=0.3, lead=0.9, tail=1.4, s=[
    ("Neuf jours, du 5 au 14 janvier 2026 : de la lettre de l'avocat à la réponse du ministre Yvon Détchénou.", "Neuf jours, du cinq au quatorze janvier deux mille vingt-six : de la lettre de l'avocat à la réponse du ministre Yvon Détchénou."),
@@ -251,7 +250,7 @@ text("« Triple conflit d'intérêts non déclaré »<br><span class='cap2'>Lett
 a, b = Q(8)
 text("<b>Ministre de la Justice Yvon Détchénou, 14 janvier 2026</b><br>« agir par citation directe ou constitution de partie civile »", 160, 110, 1600, W(8, 0)[0] - 0.3, b, 'quote wide')
 text("<b>Code pénal, art. 303</b> (cité dans la plainte) : le faux en écriture publique est puni de la réclusion criminelle à perpétuité", 160, 300, 1600, W(8, 1)[0] - 0.3, b, 'quote wide')
-text("<b>Infraction de nature criminelle : la citation directe n'est pas ouverte.</b><br><span class='cap2'>Analyse de l'éditeur, à vérifier sur les textes.</span>", 160, 490, 1600, W(8, 2)[0] - 0.3, b, 'quote wide')
+text("<b>Infraction de nature criminelle : la citation directe n'est pas ouverte.</b>", 160, 490, 1600, W(8, 2)[0] - 0.3, b, 'quote wide')
 text("<b>Reste : la plainte avec constitution de partie civile</b><br><span class='cap2'>Objet d'une prochaine page.</span>", 160, 710, 1600, W(8, 3)[0] - 0.3, b, 'quote wide ocrebox')
 
 # --- 9 : les durées
@@ -274,7 +273,7 @@ a, b = SQ[15]
 text('wadagni2026-verite.com', 0, 300, 1920, a + 0.6, b, 'url', 0.8)
 text('Les pièces reproduites dans ce film sont publiées sur le site, avec leurs empreintes numériques.', 0, 400, 1920, a + 1.6, b, 'finsmall', 0.8)
 text("Les extraits reproduits sont des copies partielles ; les coordonnées personnelles sont occultées. La lettre de réouverture porte la date du 24 septembre 2025 et le cachet d'arrivée du 25 novembre 2025 : la date retenue est celle de la réception. "
-     "La lettre du ministre est adressée à l'avocat du plaignant. L'analyse selon laquelle la citation directe n'est pas ouverte pour une infraction criminelle est celle de l'éditeur, à vérifier sur les textes. "
+     "La lettre du ministre est adressée à l'avocat du plaignant. "
      "Le tableau du 6 février 2026 est celui de la lettre du plaignant : il expose les allégations de celui-ci.", 160, 560, 1600, a + 2.6, b, 'precis', 0.8)
 
 CSS = '''
