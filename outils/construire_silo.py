@@ -17,11 +17,12 @@ SRC12 = os.path.join(ROOT, 'outils', 'silo', '12-film-classement-contenu.md')   
 SRC13 = os.path.join(ROOT, 'outils', 'silo', '13-brigade-criminelle-contenu.md')   # Brigade criminelle (page 13, hors du dossier Bâtonnier : /brigade-criminelle/)
 SRC14 = os.path.join(ROOT, 'outils', 'silo', '14-ministre-justice-contenu.md')   # ministre de la Justice (page 14, hors du dossier Bâtonnier : /ministre-justice/)
 SRC16 = os.path.join(ROOT, 'outils', 'silo', '16-partie-civile-contenu.md')   # plainte avec constitution de partie civile (page 16, /plainte-partie-civile/)
+SRC17 = os.path.join(ROOT, 'outils', 'silo', '17-apdp-contenu.md')   # Autorité de Protection des Données Personnelles (page 17, /apdp/)
 SRC15 = os.path.join(ROOT, 'outils', 'silo', '15-cas-pratique-enquete-contenu.md')   # second cas pratique (page 15)
 CAS2 = '/batonnier-hounkpatin/cas-pratique-enquete-confusions-deontologie/'
 LETTRES = '/batonnier-hounkpatin/lettres-de-demande-de-communication/'
-HORS_HUB = {13: 'Brigade criminelle', 14: 'Ministre de la Justice', 16: 'Plainte avec constitution de partie civile'}   # pages publiées à la racine du site
-VIDEOS = {12: ('classement', 'classement'), 13: ('enquete', 'enquete'), 14: ('ministre', 'ministre'), 16: ('partie-civile', 'partie-civile')}   # dossier vidéo, préfixe des fichiers
+HORS_HUB = {13: 'Brigade criminelle', 14: 'Ministre de la Justice', 16: 'Plainte avec constitution de partie civile', 17: 'Autorité de Protection des Données Personnelles'}   # pages publiées à la racine du site
+VIDEOS = {12: ('classement', 'classement'), 13: ('enquete', 'enquete'), 14: ('ministre', 'ministre'), 16: ('partie-civile', 'partie-civile'), 17: ('apdp', 'apdp')}   # dossier vidéo, préfixe des fichiers
 OUT = os.path.join(ROOT, 'batonnier-hounkpatin')
 SITE = 'https://wadagni2026-verite.com'
 DATE = '2026-10-14'
@@ -278,6 +279,16 @@ def jsonld(p, pages, canonical, og, html_body):
                           "uploadDate": DATE + "T08:00:00+02:00", "duration": f"PT{int(sec // 60)}M{int(round(sec % 60))}S", "inLanguage": "fr",
                           "contentUrl": SITE + "/video/enquete/enquete-16-9.mp4", "thumbnailUrl": SITE + "/video/enquete/enquete-vignette.jpg",
                           "publisher": {"@id": SITE + "/#editeur"}})
+    if n == 17:
+        vf = os.path.join(ROOT, 'video', 'apdp', 'apdp-16-9.mp4')
+        if os.path.exists(vf):
+            import subprocess
+            sec = float(subprocess.check_output(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', vf], text=True))
+            graph.append({"@type": "VideoObject", "name": "Sept séances, aucune décision — la plainte du 3 octobre 2023 devant l'Autorité de Protection des Données Personnelles du Bénin",
+                          "description": "Chronologie documentée : plainte reçue le 3 octobre 2023 par l'Autorité de Protection des Données Personnelles (APDP) contre un notaire, accusé de réception du 14 décembre 2023, sept séances contentieuses du 19 juin au 19 décembre 2024, dossier mis en délibéré le 19 décembre 2024, aucune décision notifiée au plaignant au 15 octobre 2026, sur pièces.",
+                          "uploadDate": DATE + "T08:00:00+02:00", "duration": f"PT{int(sec // 60)}M{int(round(sec % 60))}S", "inLanguage": "fr",
+                          "contentUrl": SITE + "/video/apdp/apdp-16-9.mp4", "thumbnailUrl": SITE + "/video/apdp/apdp-vignette.jpg",
+                          "publisher": {"@id": SITE + "/#editeur"}})
     if n == 16:
         vf = os.path.join(ROOT, 'video', 'partie-civile', 'partie-civile-16-9.mp4')
         if os.path.exists(vf):
@@ -327,7 +338,7 @@ def jsonld(p, pages, canonical, og, html_body):
         qa = re.findall(r'^\*\*([^\n]+\?)\*\*\n(.+?)(?=\n\n\*\*|\n\n###|\Z)', p['md'], re.M | re.S)
         graph.append({"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": strip_md(q), "acceptedAnswer": {"@type": "Answer", "text": strip_md(a)}} for q, a in qa]})
     crumbs = [("Accueil", SITE + "/")] + ([(HORS_HUB[n], canonical)] if n in HORS_HUB else [("Dossier Bâtonnier", SITE + HUB)])
-    if n not in (0, 13, 14, 16):
+    if n not in (0, 13, 14, 16, 17):
         crumbs.append((p['h1'], canonical))
     graph.append({"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": c[0], "item": c[1]} for i, c in enumerate(crumbs)]})
     return json.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False, indent=2)
@@ -337,6 +348,7 @@ LETTRES_PAGES = (0, 6, 9)   # pages qui renvoient vers les modèles de lettres
 FILM = '/batonnier-hounkpatin/decision-rendue-decision-non-recue/'
 MINISTRE = '/ministre-justice/'
 PARTIE_CIVILE = '/plainte-partie-civile/'
+APDP = '/apdp/'
 FILM_PAGES = (0, 2)   # pages qui renvoient vers le film
 
 def render(p, pages):
@@ -357,6 +369,8 @@ def render(p, pages):
         md = md.rstrip() + f"\n\n**Le film.** [Décision rendue, décision non reçue]({FILM}) : les dates de la procédure, de la saisine du 11 septembre 2023 au classement du 3 juillet 2025, sur pièces.\n"
     if p['num'] in (0, 13, 14):
         md = md.rstrip() + f"\n\n**La plainte avec constitution de partie civile.** [La voie indiquée, déjà empruntée]({PARTIE_CIVILE}) : la plainte déposée auprès du Président du tribunal de Cotonou, adressée au Doyen des juges d'instruction, le 29 septembre 2025, 107 jours avant la lettre du ministre de la Justice, et les pièces.\n"
+    if p['num'] in (0, 13, 14, 16):
+        md = md.rstrip() + f"\n\n**L'Autorité de Protection des Données Personnelles.** [Sept séances, aucune décision]({APDP}) : la plainte du 3 octobre 2023 contre un notaire, les sept séances contentieuses de 2024, le dossier mis en délibéré le 19 décembre 2024, et les pièces.\n"
     if p['num'] in (0, 12, 13):
         md = md.rstrip() + f"\n\n**Le ministre de la Justice.** [Faits précis demandés, faits précis fournis]({MINISTRE}) : la lettre du ministre Yvon Détchénou du 14 janvier 2026 (« aucun fait précis allégué »), la lettre du plaignant du 6 février 2026 et les pièces.\n"
     md = md.replace('<details class="correspondance">', '<details class="correspondance" markdown="1">')
@@ -387,9 +401,9 @@ def render(p, pages):
 
 def main():
     os.makedirs(os.path.join(OUT, 'assets'), exist_ok=True)
-    text = open(SRC, encoding='utf-8').read() + '\n' + open(SRC10, encoding='utf-8').read() + '\n' + open(SRC11, encoding='utf-8').read() + '\n' + open(SRC12, encoding='utf-8').read() + '\n' + open(SRC13, encoding='utf-8').read() + '\n' + open(SRC14, encoding='utf-8').read() + '\n' + open(SRC15, encoding='utf-8').read() + '\n' + open(SRC16, encoding='utf-8').read()
+    text = open(SRC, encoding='utf-8').read() + '\n' + open(SRC10, encoding='utf-8').read() + '\n' + open(SRC11, encoding='utf-8').read() + '\n' + open(SRC12, encoding='utf-8').read() + '\n' + open(SRC13, encoding='utf-8').read() + '\n' + open(SRC14, encoding='utf-8').read() + '\n' + open(SRC15, encoding='utf-8').read() + '\n' + open(SRC16, encoding='utf-8').read() + '\n' + open(SRC17, encoding='utf-8').read()
     pages = parse_pages(text)
-    assert len(pages) == 17, len(pages)
+    assert len(pages) == 18, len(pages)
     liste = []
     for p in pages:
         out, slug = render(p, pages)

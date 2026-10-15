@@ -21,7 +21,7 @@ def lignes_ocr(p):
     for dpi in (200, 150, 300):
         tp = p.get_textpage_ocr(language='fra', dpi=dpi, full=True)
         for x0, y0, x1, y1, w, b, l, _ in p.get_text('words', textpage=tp):
-            if ('@' in w or re.search(r'icloud|f[eé]li[l]?ho@|yahoo|vahoo|hotmail|outlook', w, re.I)) and not re.search(r'ap[dg]?[pdo]|apapb|spdp', w, re.I):
+            if ('@' in w or re.search(r'icloud|f[eé]li[l]?ho@|yahoo|vahoo|hotmail|outlook', w, re.I)) and not re.search(r'ap[dg]?[pdo]|apapb|spdp|contact@|gcontact|n\.issa|issa@', w, re.I):
                 P.mots.append(pymupdf.Rect(x0 - 2, y0 - 1.5, x1 + 2, y1 + 1.5))
             if dpi != 200: continue
             k = (b, l); r = L.setdefault(k, [x0, y0, x1, y1, []])
@@ -33,8 +33,15 @@ def occulter(p):
     texte = len(p.get_text().strip()) >= 80
     rects = []
     for ph in PHRASES: rects += p.search_for(ph)
+    L = lignes_ocr(p)   # OCR aussi sur les pages à couche texte : les en-têtes de courriels sont des images
+    tw = [pymupdf.Rect(w[:4]) for w in p.get_text('words') if w[4].strip()]
+    EXCL = re.compile(r'ap[dg]?[pdo]|apapb|spdp|contact@|gcontact|n\.issa|issa@', re.I)
+    for w in p.get_text('words'):   # adresses de la couche texte
+        if '@' in w[4] and not EXCL.search(w[4]): rects.append(pymupdf.Rect(w[:4]) + (-2, -1.5, 2, 1.5))
+    # mots OCR : sur une page à couche texte, seulement ceux qui tombent hors du texte (images : en-têtes de courriels)
+    rects += [r for r in P.mots if not texte or not any((r & t).get_area() > 0.25 * t.get_area() for t in tw)]
     if not texte:
-        rects += [r for r, t in lignes_ocr(p) if PAT_LIGNE.search(t) and 'apdp' not in t.lower()] + P.mots
+        rects += [r for r, t in L if PAT_LIGNE.search(t) and 'apdp' not in t.lower()]
     for r in rects: p.add_redact_annot(pymupdf.Rect(r), fill=(0, 0, 0))
     if rects: p.apply_redactions(images=pymupdf.PDF_REDACT_IMAGE_PIXELS, graphics=pymupdf.PDF_REDACT_LINE_ART_NONE)
     return len(rects)

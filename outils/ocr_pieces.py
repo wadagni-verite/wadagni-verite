@@ -24,6 +24,15 @@ CIBLES = [
     'pieces/procedures-benin/attestation-appel-jugement-114-14-2014-11-17.pdf',
     'pieces/procedures-benin/plainte-partie-civile-doyen-juges-instruction-cotonou-2025-09-29.pdf',
     'pieces/procedures-benin/recepisse-tresor-plainte-3000-fcfa-2025-09-29.pdf',
+    'pieces/procedures-benin/apdp-plainte-notaire-balley-2023-10-02.pdf',
+    'pieces/procedures-benin/apdp-accuse-reception-2023-12-14.pdf',
+    'pieces/procedures-benin/apdp-pv-audience-2024-06-19.pdf',
+    'pieces/procedures-benin/apdp-pv-audience-2024-07-24.pdf',
+    'pieces/procedures-benin/apdp-pv-audience-2024-08-28.pdf',
+    'pieces/procedures-benin/apdp-invitation-session-2024-10-10.pdf',
+    'pieces/procedures-benin/apdp-invitation-session-2024-12-05.pdf',
+    'pieces/procedures-benin/apdp-observations-2024-10-21.pdf',
+    'pieces/procedures-benin/apdp-echange-communique-2024-12.pdf',
 ]
 # lignes écartées du calque de texte : courriels et numéros de téléphone (même d'institutions), pour qu'aucune coordonnée
 # ne soit indexée par les moteurs de recherche, y compris lorsqu'elle est lisible sur l'image d'origine
