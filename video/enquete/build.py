@@ -62,6 +62,16 @@ SEQ = {
     "Aucune convocation n'est produite pour les quatre autres personnes, dont la magistrate qui a signé le jugement."),
    ("Le 25 mars, le commissaire principal Konto écrit que Maître Fade a été convoqué pour le 19 mars et ne s'est pas présenté.",
     "Le vingt-cinq mars, le commissaire principal Konto écrit que Maître Fade a été convoqué pour le dix-neuf mars et ne s'est pas présenté.")]),
+ 8.2: dict(speed=1.14, gap=0.3, lead=0.9, tail=1.0, s=[
+   ("Les 6 et 7 août 2007, trois ans avant le décès de leur père, Gilles et Lise Féliho échangent des courriels sur « ta maison » : loyers, cautions, contrats, titre de propriété.",
+    "Les six et sept août deux mille sept, trois ans avant le décès de leur père, Gilles et Lise Féliho échangent des courriels sur ta maison : loyers, cautions, contrats, titre de propriété."),
+   ("Lise Féliho écrit : « Il faudra prévoir écrire au notaire pour [demander] la main levée, mais également en tant que new propriétaire les documents légaux. »",
+    "Lise Féliho écrit : il faudra prévoir écrire au notaire pour demander la main levée, mais également, en tant que nouveau propriétaire, les documents légaux."),
+   ("Gilles Féliho répond qu'il va s'occuper du titre de propriété de la maison.", "Gilles Féliho répond qu'il va s'occuper du titre de propriété de la maison."),
+   ("Lise Féliho figure parmi les six personnes que la sommation du 3 avril 2024 exige de convoquer. Aucune convocation à son nom n'est produite.",
+    "Lise Féliho figure parmi les six personnes que la sommation du trois avril deux mille vingt-quatre exige de convoquer. Aucune convocation à son nom n'est produite."),
+   ("Six semaines plus tard, le 19 septembre 2007, le notaire transmet à Maître Fade les pièces de l'adjudication de constructions à Gbégamey, au profit de Gilles Féliho.",
+    "Six semaines plus tard, le dix-neuf septembre deux mille sept, le notaire transmet à Maître Fade les pièces de l'adjudication de constructions à Gbégamey, au profit de Gilles Féliho.")]),
  8.5: dict(speed=1.14, gap=0.3, lead=0.9, tail=1.0, s=[
    ("Le 19 septembre 2007, le notaire Denise Ehouzou Gangnito écrit à Maître Victorien Olatundji Fade.", "Le dix-neuf septembre deux mille sept, le notaire Denise Ehouzou Gangnito écrit à Maître Victorien Olatundji Fade."),
    ("Suite à l'adjudication de constructions sur la parcelle B du lot 923 de Gbégamey, au profit de Gilles Sixte Féliho, « dont vous êtes le mandataire ».",
@@ -276,6 +286,15 @@ text("Sommation du 3 avril 2024 : « les convocations au nom des mis en cause su
 pic('q-conv141.png', 1000, 150, 400, W(8, 1)[0] - 0.3, b, "Convocation n° 141 du 12 mars 2025 : Maître Fade", h=380, cls='p8')
 pic('q-conv142.png', 1440, 150, 400, W(8, 1)[0] + 0.6, b, "Convocation n° 142 : Maître Balley", h=380, cls='p8')
 pic('q-relance.png', 1000, 560, 840, W(8, 3)[0] - 0.3, b, "Relance de convocation du 25 mars 2025 : signée Sabi Fulbert Konto", h=390, find=("il a été convoqué pour le mercredi 19 mars 2025 mais il ne s'est pas présenté",), cls='p8')
+
+# --- 8.2 : le courriel de Lise (2007)
+a, b = Q(8.2)
+heads(a + 0.2, b, 'LES COURRIELS DES 6 ET 7 AOÛT 2007', 'CE QUE LA PROCÉDURE PRODUIT')
+pic('l-tete.png', 80, 150, 840, W(8.2, 0)[0] - 0.3, b, "Courriel de Gilles Féliho à Lise Féliho, 7 août 2007 — « a/s ta maison » (adresses électroniques occultées)", cls='p82')
+pic('l-notaire.png', 80, 300, 840, W(8.2, 1)[0] - 0.3, b, "Message de Lise Féliho du 6 août 2007, p. 2", find=("la main levée, mais également en tant que new propriétaire les documents légaux",), cls='p82')
+pic('l-gilles.png', 80, 470, 840, W(8.2, 2)[0] - 0.3, b, "Réponse de Gilles Féliho du 7 août 2007, p. 1 : « Concernant le titre de propriété de la maison […] je vais m'occuper de ce volet »", find=("Je te confirme donc que je vais m'occuper de ce volet",), cls='p82')
+text("Lise Féliho — sommation du 3 avril 2024 : personne à convoquer n° 2.<br>Convocations produites : n° 141 (Maître Fade), n° 142 (Maître Balley).<br><span class='ocre'>Aucune convocation à son nom.</span>", 1000, 200, 840, W(8.2, 3)[0] - 0.3, b, 'quote')
+pic('g-tete.png', 1000, 470, 840, W(8.2, 4)[0] - 0.3, b, "Lettre du notaire Denise Ehouzou Gangnito à Maître Victorien Fade, 19 septembre 2007 : adjudication au profit de Gilles Sixte Féliho", cls='p82')
 
 # --- 8.5 : Maître Fade, mandataire de Gilles Féliho en 2007
 a, b = Q(8.5)

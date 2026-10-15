@@ -86,6 +86,7 @@ PIECES = [
     ('Relance de convocation de Me Fade par la Brigade criminelle (extrait, p. 21)', '25 mars 2025', 1, 'pieces/procedures-benin/relance-convocation-brigade-criminelle-2025-03-25.pdf', None, False, None),
     ('Sommation interpellative n° 048/2024-RY (3 pages)', '3 avr. 2024', 3, 'pieces/procedures-benin/sommation-interpellative-2024-04-03.pdf', 'c3f972315fb5e05e433772bd230b4d8f84c93dfd39053dd4f1cbd4e40d8ac94f', True, None),
     ('Réplique du plaignant à la Cour constitutionnelle (6 pages)', '2 juin 2025', 6, 'pieces/procedures-benin/replique-brigade-criminelle-cour-constitutionnelle-2025-06-02.pdf', 'cdcc0902fcbb0bcb0aadbe6e0541d6d22638c033050e2ed57cd3bc62a3a9fdcb', True, None),
+    ('Courriels de Gilles et Lise Féliho (2 pages)', '6-7 août 2007', 2, 'pieces/courriel-lise-gilles-feliho-2007-08-07.pdf', 'd270c9b978614fb88291d077944816b47bec99f7afbf8dd5ef9f650553c05b31', True, None),
     ('Avis de classement du Procureur spécial près la CRIET', '3 juil. 2025', 1, 'pieces/avis-de-classement-criet-2025-07-03.pdf', None, False, None),
     ('Procès-verbal d\u2019audition n° 2 (pages 1, 2/5 et 5/5)', '19 mars 2025', 3, 'pieces/bac-pv-audition-2-2025-03-19.pdf', 'd3590116e5ad9de9e87f2accdf55426224571efac2ec668b87e969ae3a83f478', True, None),
     ('Jugement n° 114/14/3ᵉ CH-EP', '31 oct. 2014', 8, 'jugement-succession-feliho-2014.pdf', '81f38a3b6459bfe09335ec8b49a0330d5c4d4fc8daca750ad25dd2ea077c5d06', True, None),
@@ -311,6 +312,12 @@ def render(p, pages):
     md = re.sub(r'^### ', '## ', md, flags=re.M)
     exts = ['tables', 'sane_lists', 'md_in_html'] + (['nl2br'] if p['num'] in (10, 11) else [])
     body = markdown.markdown(md, extensions=exts)
+    if p['num'] in (12, 13):   # transcription du film (sous-titres regroupés), comme sur les premières vidéos du site
+        tl = os.path.join(ROOT, 'video', 'classement' if p['num'] == 12 else 'enquete', 'timeline.json')
+        if os.path.exists(tl):
+            cues = json.load(open(tl, encoding='utf-8'))['cues']
+            paras = ''.join(f'<p>{html.escape(c[2])}</p>' for c in cues)
+            body = body.replace('</figure>', f'</figure>\n<details class="video-transcript"><summary>Lire la transcription</summary>{paras}</details>', 1)
     body = body.replace('<table>', '<div class="tw"><table>').replace('</table>', '</table></div>')
     if p['num'] == 13:
         crumbs = '<nav class="fil" aria-label="Fil d\'Ariane"><a href="/">Accueil</a> › <span>Brigade criminelle</span></nav>'

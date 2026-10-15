@@ -9,6 +9,7 @@ import os, re, sys, pymupdf
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CIBLES = [
     'jugement-succession-feliho-2014.pdf',
+    'pieces/courriel-lise-gilles-feliho-2007-08-07.pdf',
     'pieces/procedures-benin/sommation-interpellative-2024-04-03.pdf',
     'pieces/bac-pv-audition-2-2025-03-19.pdf',
     'pieces/pv-compulsion-parcelle-b-lot-488-2017-12.pdf',
