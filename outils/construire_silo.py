@@ -272,7 +272,7 @@ def jsonld(p, pages, canonical, og, html_body):
             sec = float(subprocess.check_output(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', vf], text=True))
             graph.append({"@type": "VideoObject", "name": "L'enquête contre elle-même — les actes et les écrits de la Brigade criminelle de Cotonou",
                           "description": "Mise en regard, pièce par pièce, des actes de la Brigade criminelle (sommation du 3 avril 2024, réquisition et convocations de mars 2025) et du mémoire signé du commissaire principal Sabi Fulbert Konto le 29 avril 2025.",
-                          "uploadDate": DATE, "duration": f"PT{int(sec // 60)}M{int(round(sec % 60))}S", "inLanguage": "fr",
+                          "uploadDate": DATE + "T08:00:00+02:00", "duration": f"PT{int(sec // 60)}M{int(round(sec % 60))}S", "inLanguage": "fr",
                           "contentUrl": SITE + "/video/enquete/enquete-16-9.mp4", "thumbnailUrl": SITE + "/video/enquete/enquete-vignette.jpg",
                           "publisher": {"@id": SITE + "/#editeur"}})
     if n == 14:
@@ -282,7 +282,7 @@ def jsonld(p, pages, canonical, og, html_body):
             sec = float(subprocess.check_output(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', vf], text=True))
             graph.append({"@type": "VideoObject", "name": "Faits précis demandés, faits précis fournis — le ministre de la Justice Yvon Détchénou",
                           "description": "Mise en regard de la lettre du 14 janvier 2026 du ministre de la Justice Yvon Détchénou (« aucun fait précis allégué »), de la demande de réouverture du 25 novembre 2025 et de la lettre du plaignant du 6 février 2026, restée sans réponse.",
-                          "uploadDate": DATE, "duration": f"PT{int(sec // 60)}M{int(round(sec % 60))}S", "inLanguage": "fr",
+                          "uploadDate": DATE + "T08:00:00+02:00", "duration": f"PT{int(sec // 60)}M{int(round(sec % 60))}S", "inLanguage": "fr",
                           "contentUrl": SITE + "/video/ministre/ministre-16-9.mp4", "thumbnailUrl": SITE + "/video/ministre/ministre-vignette.jpg",
                           "publisher": {"@id": SITE + "/#editeur"}})
     if n == 12:
@@ -293,7 +293,7 @@ def jsonld(p, pages, canonical, og, html_body):
             iso = f"PT{int(sec // 60)}M{int(round(sec % 60))}S"
             graph.append({"@type": "VideoObject", "name": "Décision rendue, décision non reçue — chronologie établie par les pièces",
                           "description": "Chronologie documentée : saisine de la Brigade criminelle le 11 septembre 2023, mise en instance du dossier le 3 avril 2024, redécouverte en mars 2025, transmissions de mars 2025, classement sans suite du 3 juillet 2025, réception par le plaignant le 26 septembre 2025.",
-                          "uploadDate": DATE, "duration": iso, "inLanguage": "fr",
+                          "uploadDate": DATE + "T08:00:00+02:00", "duration": iso, "inLanguage": "fr",
                           "contentUrl": SITE + "/video/classement/classement-16-9.mp4", "thumbnailUrl": SITE + "/video/classement/classement-vignette.jpg",
                           "publisher": {"@id": SITE + "/#editeur"}})
     if n == 6:
