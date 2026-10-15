@@ -278,7 +278,7 @@ def jsonld(p, pages, canonical, og, html_body):
     if n == 18:
         graph.append({"@type": "LearningResource", "@id": canonical + "#cas-pratique", "name": p['h1'], "description": p['desc'], "inLanguage": "fr",
                       "learningResourceType": "Cas pratique", "educationalUse": "Exercice", "educationalLevel": "Enseignement supérieur (droit public, procédure, droit du numérique)",
-                      "teaches": ["Convocation et invitation", "Citation, assignation, sommation", "Comparution et audition", "Renvoi et délibéré", "Principe du contradictoire",
+                      "teaches": ["Convocation et invitation", "Obligation d'informer sans délai le Procureur de la République (Code du numérique, article 483, points 8 et 9)", "Citation, assignation, sommation", "Comparution et audition", "Renvoi et délibéré", "Principe du contradictoire",
                                   "Droits du plaignant et du responsable du traitement (Code du numérique, articles 448, 449, 454 et 457)", "Rédaction d'une convocation et d'une invitation"],
                       "isAccessibleForFree": True, "creator": {"@id": SITE + "/#editeur"}, "datePublished": DATE,
                       "encoding": {"@type": "MediaObject", "contentUrl": SITE + CAS3 + "cas-pratique-convocation-invitation-code-du-numerique.pdf", "encodingFormat": "application/pdf"}})
@@ -384,7 +384,7 @@ def render(p, pages):
     if p['num'] in (0, 10, 13):
         md = md.rstrip() + f"\n\n**Second cas pratique.** [Les confusions d'une enquête pénale et les règles déontologiques à l'épreuve des pièces]({CAS2}) : onze questions, pistes de réponse et grille de correction, en version PDF.\n"
     if p['num'] in (0, 10, 15, 17):
-        md = md.rstrip() + f"\n\n**Troisième cas pratique.** [Convocation ou invitation ? Le Code du numérique, la comparution et le contradictoire]({CAS3}) : dix questions, pistes de réponse et grille de correction, en version PDF.\n"
+        md = md.rstrip() + f"\n\n**Troisième cas pratique.** [Convocation ou invitation ? Le Code du numérique, la comparution et le contradictoire]({CAS3}) : treize questions, dont l'obligation d'informer sans délai le Procureur, pistes de réponse et grille de correction, en version PDF.\n"
     if p['num'] in LETTRES_PAGES:
         md = md.rstrip() + f"\n\n**Modèles de lettres.** [Quatre lettres de demande de communication]({LETTRES}) : Bâtonnier, Procureur Général, Cour constitutionnelle, Procureur spécial de la CRIET, avec version PDF.\n"
     if p['num'] in FILM_PAGES:

@@ -2,13 +2,13 @@
 
 **URL :** `/batonnier-hounkpatin/cas-pratique-convocation-invitation-code-du-numerique/`
 **Title :** Cas pratique : convocation ou invitation ? Le Code du numérique
-**Meta description :** Cas pratique : convocation, invitation, comparution et contradictoire devant l'autorité de protection des données (Code du numérique du Bénin). Dix questions, pistes de réponse, grille.
+**Meta description :** Cas pratique : convocation, invitation, comparution et contradictoire devant l'autorité de protection des données (Code du numérique du Bénin). Treize questions, pistes de réponse, grille.
 **H1 :** Cas pratique : convocation ou invitation ? Le Code du numérique, la comparution et le contradictoire
 **Balisage :** `LearningResource`
 
 ### Chapô
 
-Une autorité de protection des données examine une plainte contre un notaire. Elle adresse au plaignant des lettres intitulées « Invitation à la session plénière », qui l'« invitent à comparaître » tout en lui rappelant qu'il lui est « loisible » d'assister ou de se faire représenter ; le dossier est renvoyé « pour comparution ou audition » du plaignant. D'autres autorités, dans le même dossier, adressent des actes intitulés « convocation ». Ce cas pratique, fondé sur des pièces publiées et sur le texte du Code du numérique, propose dix questions : **les notions** (convocation, invitation, citation, comparution), **les textes** (ce que le Code du numérique permet, et à l'égard de qui), puis **les pièces** (ce que disent les actes, ce qu'ils produisent, comment les rédiger).
+Une autorité de protection des données examine une plainte contre un notaire. Elle adresse au plaignant des lettres intitulées « Invitation à la session plénière », qui l'« invitent à comparaître » tout en lui rappelant qu'il lui est « loisible » d'assister ou de se faire représenter ; le dossier est renvoyé « pour comparution ou audition » du plaignant. D'autres autorités, dans le même dossier, adressent des actes intitulés « convocation ». Ce cas pratique, fondé sur des pièces publiées et sur le texte du Code du numérique, propose treize questions : **les notions** (convocation, invitation, citation, comparution), **l'obligation d'informer sans délai le Procureur de la République** (article 483, points 8 et 9, du Code du numérique : ce que dit le texte, quelles infractions, quelles voies quand l'information n'est pas faite), **les textes sur la convocation et l'assistance aux séances** (ce que le Code permet, et à l'égard de qui), puis **les pièces** (ce que disent les actes, ce qu'ils produisent, comment les rédiger).
 
 > **Télécharger :** [la version PDF du cas pratique](/batonnier-hounkpatin/cas-pratique-convocation-invitation-code-du-numerique/cas-pratique-convocation-invitation-code-du-numerique.pdf) (à imprimer ou à distribuer). Les pièces visées sont publiées sur la page [Sources et pièces vérifiables](/batonnier-hounkpatin/sources-et-pieces-verifiables/) et sur la page du dossier [Autorité de Protection des Données Personnelles](/apdp/). Les deux cas pratiques précédents : [plainte déontologique](/batonnier-hounkpatin/cas-pratique-plainte-deontologique/) et [enquête et déontologie](/batonnier-hounkpatin/cas-pratique-enquete-confusions-deontologie/).
 
@@ -24,20 +24,23 @@ Une autorité de protection des données examine une plainte contre un notaire. 
 | Comparution et audition | Comparaître, c'est se présenter devant une juridiction ou une autorité. Une audition est le recueil de la parole de la personne : elle peut être obligatoire (témoin) ou facultative (partie qui souhaite s'expliquer). |
 | Renvoi et délibéré | Un renvoi reporte l'examen d'une affaire à une séance ultérieure. Un délibéré est le temps pendant lequel l'autorité élabore sa décision, après la clôture des débats ; sa date est celle du prononcé ou de l'examen final. |
 | Contradictoire | Principe selon lequel chaque partie connaît les arguments et les pièces de l'autre et peut y répondre avant la décision. Le Code du numérique l'invoque pour les sanctions (article 454). |
+| Information du parquet (article 483, points 8 et 9) | Mission de l'Autorité d'informer « sans délai » l'autorité judiciaire et le procureur de la République des violations du Livre V constitutives d'infractions pénales, conformément au code de procédure pénale. Elle est distincte du pouvoir de sanction administrative (articles 452 à 456), qui suit un rapport et le contradictoire. |
 | Plaignant et responsable du traitement | Le plaignant est l'auteur d'une réclamation (article 448). Le responsable du traitement est la personne mise en cause ; c'est à lui que l'article 457 reconnaît le droit d'assister aux séances et de se faire représenter. |
 
 ### 1. Les faits
 
 | Date | Fait | Pièce |
 |---|---|---|
-| 2-3 oct. 2023 | Plainte à l'Autorité de Protection des Données Personnelles contre un notaire, qui cite l'article 448 du Code du numérique (information du plaignant sur le suivi) ; reçue le 3 octobre 2023. | [Plainte](/pieces/procedures-benin/apdp-plainte-notaire-balley-2023-10-02.pdf) |
+| 2-3 oct. 2023 | Plainte à l'Autorité de Protection des Données Personnelles contre un notaire, qui cite l'article 448 du Code du numérique (information du plaignant sur le suivi) ; reçue le 3 octobre 2023. Elle demande l'information « sans délai » du Procureur de la République (article 483, point 9) et invoque l'article 460, points 2, 11 et 12. | [Plainte](/pieces/procedures-benin/apdp-plainte-notaire-balley-2023-10-02.pdf) |
 | 14 déc. 2023 | Accusé de réception ; le même jour, interpellation et mise en demeure du notaire (huit jours, articles 452, alinéa 2, 487 et 488). | [Accusé de réception](/pieces/procedures-benin/apdp-accuse-reception-2023-12-14.pdf) ; [procès-verbaux](/pieces/procedures-benin/apdp-pv-audience-2024-06-19.pdf) |
 | 21-24 mai 2024 | Le rapporteur adresse au plaignant une lettre ; le plaignant « accuse réception de l'invitation pour le mardi 28 mai 2024 à 18 heures » et demande comment assister à distance, s'il doit produire un mémoire, et si les échanges sont contradictoires. | [Courriels](/pieces/procedures-benin/apdp-courriels-2024.pdf), p. 1 |
 | 19 juin 2024 | Séance contentieuse : le notaire, assisté de son avocat, est entendu ; le plaignant est « absent à l'audience ». Le dossier est « mis en délibéré pour le 24 juillet 2024 […] pour comparution ou audition » du plaignant. | [Procès-verbal](/pieces/procedures-benin/apdp-pv-audience-2024-06-19.pdf), pp. 1 et 3 |
 | 23-24 juil. 2024 | Le rapporteur invite le plaignant à « formuler expressément » sa demande de rapport d'instruction « en session plénière du 24 juillet 2024 à laquelle vous avez été invité » ; lien de la séance envoyé le 24 juillet ; réponse du plaignant : « Je n'ai pas accès ». | [Courriels](/pieces/procedures-benin/apdp-courriels-2024.pdf), pp. 2 à 5 |
 | 28 août 2024 | Le procès-verbal consigne que la plénière « ne peut faire suite » à la demande de mise à disposition du rapport d'instruction adressé au notaire. | [Procès-verbal](/pieces/procedures-benin/apdp-pv-audience-2024-08-28.pdf), p. 2 |
 | 10 oct. 2024 | Lettre « Invitation à la session Plénière siégeant en contentieux » : le plaignant « a été invité à comparaître à 16 heures » le 25 septembre ; le délibéré est « rabattu » pour envoyer les procès-verbaux « afin de garantir le principe du contradictoire » ; renvoi au 23 octobre ; « il vous est loisible d'assister en personne à cette session […] ou vous faire représenter » (article 457). | [Lettre](/pieces/procedures-benin/apdp-invitation-session-2024-10-10.pdf) |
+| 21 oct. 2024 | Observations du plaignant : il demande de nouveau que le Procureur soit informé « sans délai », en application de l'article 483, point 9. | [Observations](/pieces/procedures-benin/apdp-observations-2024-10-21.pdf), p. 2 |
 | 5 déc. 2024 | Lettre de même intitulé pour la séance du 19 décembre 2024, après celle du 27 novembre, « à laquelle vous avez été invité à comparaître à 16 heures ». | [Lettre n° 2024-3691](/pieces/procedures-benin/apdp-invitation-session-2024-12-05.pdf) |
+| 13 déc. 2024 et suivants | Le plaignant informe l'Autorité du communiqué qu'il entend publier, qui rappelle l'obligation de l'article 483, point 9 ; l'Autorité répond, le 16 décembre, que le dossier est « mis en délibéré pour le 19 décembre prochain » ; dans sa réponse, le plaignant écrit que l'Autorité a « choisi de ne pas saisir le Procureur de la République ». | [Échange de courriels](/pieces/procedures-benin/apdp-echange-communique-2024-12.pdf) |
 | 12 mars 2025 | Convocations n° 141 et 142 de la Brigade criminelle de Cotonou, « pour les nécessités d'une enquête judiciaire » : le chef de la brigade « invite » les personnes visées « à se présenter à la Brigade criminelle ». | [Mémoire et annexes](/pieces/procedures-benin/observations-brigade-criminelle-cour-constitutionnelle-2025-allege.pdf) |
 | 25 mars 2025 | « Relance convocation » : une personne convoquée le 19 mars 2025 « ne s'est pas présentée » ; « une nouvelle convocation » est acheminée. | [Relance](/pieces/procedures-benin/relance-convocation-brigade-criminelle-2025-03-25.pdf) |
 | 5 août 2025 | Lettre de la Cour constitutionnelle intitulée « Notification de date d'audience - Convocation » : le requérant « est invité à assister à cette audience ou à se faire représenter ». | [Lettre](/pieces/procedures-benin/convocation-cour-constitutionnelle-recours-1471-331-2025-08-05.pdf) |
@@ -56,56 +59,73 @@ La convocation de la Brigade criminelle « invite » à se présenter ; la lettr
 Les lettres des 10 octobre et 5 décembre 2024 écrivent que le plaignant « a été invité à comparaître à 16 heures ». Que signifie comparaître ? Peut-on être invité à comparaître ? Quelle lecture retenir quand un même acte emploie un mot de faculté et un mot d'obligation ?
 *Piste.* Lire la lettre entière : l'objet, l'intitulé, la phrase « il vous est loisible d'assister en personne à cette session […] ou vous faire représenter ». Chercher quelle lecture donne un sens à toutes les phrases à la fois. Se demander quelle lecture protège le mieux la personne destinataire, et ce que l'autorité aurait dû écrire pour l'exclure.
 
-### 3. Deuxième partie : les textes
+### 3. Deuxième partie : l'obligation d'informer, sans délai, le Procureur de la République
 
-**Question 4 · Ce que le Code du numérique permet de « convoquer »**
+**Question 4 · L'obligation d'informer le Procureur de la République « sans délai »**
+Article 483 du Code du numérique : l'Autorité est « en charge […] 8- d'informer sans délai l'autorité judiciaire pour certains types d'infractions dont elle a connaissance ; 9- d'informer, sans délai, le procureur de la République, conformément aux dispositions du code de procédure pénale, des violations des dispositions du présent Livre, constitutives d'infractions pénales ». S'agit-il d'une faculté ou d'une obligation ? À partir de quand « sans délai » court-il ? Cette obligation attend-elle l'issue de la procédure de sanction, la comparution du plaignant ou la réponse du notaire ? Qui l'a demandée, et quand ?
+*Piste.* Lire le texte mot à mot : « est en charge » (une mission), « sans délai » (deux fois, aux points 8 et 9), « dont elle a connaissance » (le point de départ est la connaissance, non la décision), « constitutives d'infractions pénales » (la condition), « conformément aux dispositions du code de procédure pénale » (un renvoi, à rechercher sur le texte en vigueur). Distinguer deux pouvoirs que le Code sépare : la sanction administrative (articles 452 à 456, prononcée après un rapport et dans le respect du contradictoire, articles 454 et 457) et l'information du parquet (article 483), qui ne figure pas parmi les sanctions. Relever que l'information du Procureur est demandée dès la plainte (2 octobre 2023, point 9 de l'article 483), puis dans les observations du 21 octobre 2024, puis rappelée dans le communiqué du 12 décembre 2024 et dans la réponse du plaignant à l'Autorité. Rapprocher les durées : 260 jours jusqu'à la séance du 19 juin 2024, 443 jours jusqu'au 19 décembre 2024, 1 108 jours au 15 octobre 2026. Chercher, dans les procès-verbaux et les lettres publiés, une mention de cette information : aucune pièce publiée n'en fait état. Se demander ce qui devrait figurer au dossier si elle avait eu lieu (lettre au parquet, information du plaignant « des suites données », article 483, point 6).
+
+**Question 5 · Des manquements « constitutifs d'infractions pénales » : quels faits, quelles qualifications ?**
+L'article 460 liste les infractions du Livre V, notamment : « 2- toute personne […] qui, sans droit même par négligence, procède ou fait procéder à des traitements de données à caractère personnel sans avoir respecté les formalités préalables » ; « 6- le fait de collecter des données à caractère personnel par un moyen frauduleux, déloyal ou illicite » ; « 11- le fait de ne pas respecter les dispositions du présent Livre relatives à l'information des personnes » ; « 12- […] relatives aux droits d'accès ». La plainte invoque les points 2, 11 et 12. Le procès-verbal du 19 juin 2024 consigne que l'avocat du notaire « s'est excusé au nom de son client quant à l'ignorance de l'obligation légale de mise en conformité ». Que doit apprécier l'Autorité avant d'informer le parquet ? Que revient au Procureur et à la juridiction ?
+*Piste.* Distinguer la constatation (ce que les pièces et les débats établissent), la qualification (le texte de l'article 460) et l'opportunité des poursuites (le parquet). Relever que le point 2 vise le traitement sans formalités préalables « même par négligence », et que les points 11 et 12 visent l'information et l'accès (lettre du notaire du 7 septembre 2023, refus de communiquer). Se demander si l'Autorité doit être certaine de l'infraction pour informer le Procureur, ou si le texte (« violations […] constitutives d'infractions pénales », « dont elle a connaissance ») appelle un autre seuil. Ne pas conclure à une infraction : la qualification relève des juridictions.
+
+**Question 6 · Quand l'information n'est pas faite : quelles voies ?**
+Le plaignant demande depuis plus de trois ans que le Procureur soit informé. Que prévoit le Code pour l'auteur d'une réclamation qui n'est pas informé ? L'absence d'information du parquet par l'Autorité l'empêche-t-elle de saisir lui-même le Procureur ?
+*Piste.* Relever l'article 448 (l'Autorité informe l'auteur de la réclamation de l'état d'avancement et de l'issue, « sans préjudice de tout autre recours administratif ou juridictionnel »), l'article 449 (recours devant la juridiction administrative après quatre-vingt-dix jours sans traitement ni information), l'article 483, points 6 et 7 (informer les auteurs « des suites données » ; informer la personne concernée du résultat des enquêtes « dans un délai raisonnable »), les articles 450 et 451 (recours et réparation contre le responsable du traitement, invoqués par la plainte). Distinguer l'obligation de l'Autorité et le droit du plaignant : aucun texte du Livre V cité ici n'interdit au plaignant de saisir le parquet ; les modalités (plainte, plainte avec constitution de partie civile, voir la page sur [la plainte avec constitution de partie civile](/plainte-partie-civile/)) sont à rechercher dans le Code de procédure pénale.
+
+### 4. Troisième partie : les textes sur la convocation et l'assistance aux séances
+
+**Question 7 · Ce que le Code du numérique permet de « convoquer »**
 L'article 167 du Code du numérique, relatif à l'Autorité de régulation (instruction des pratiques anticoncurrentielles), dispose qu'elle « peut demander la communication de toutes pièces ou documents et convoquer toute personne ou toute entreprise » ; en cas de « refus de se rendre à une convocation », elle peut prononcer une astreinte (article 172) ou une sanction pécuniaire. Que montre ce texte sur le sens que le législateur donne au mot ? Le Livre V (données à caractère personnel) contient-il une disposition comparable ?
 *Piste.* Relever que le pouvoir de convoquer est écrit en toutes lettres et assorti d'une conséquence au refus. Parcourir ensuite les articles 448 à 459 et 483 à 489 : relever ce que l'Autorité peut enjoindre (article 487 : « enjoindre aux responsables de fichiers de lui communiquer toutes informations utiles »), ce qu'elle peut exiger (article 488 : obligation de coopération), ce qu'elle peut faire contrôler (articles 486 et 489). Chercher si un texte prévoit la convocation du plaignant ; à défaut, se demander à quel texte, notamment au règlement intérieur (article 471), s'adresser.
 
-**Question 5 · Qui peut assister aux séances, et à quel titre ?**
+**Question 8 · Qui peut assister aux séances, et à quel titre ?**
 Article 457 : les sanctions « sont prononcées sur la base d'un rapport établi par l'Autorité. Ce rapport est notifié au responsable du traitement, qui peut faire des observations écrites ou orales dans un délai de quinze (15) jours dès la réception de la notification de l'Autorité et qui peut assister ou se faire représenter aux séances à l'issue desquelles l'Autorité statue. » À qui le texte reconnaît-il cette faculté ? Les lettres d'invitation adressées au plaignant citent cet article : que peut-on en déduire ?
 *Piste.* Lire le texte mot à mot : le sujet de « peut assister ou se faire représenter » est le responsable du traitement. Chercher ce que le Code dit du plaignant : l'article 448 (droit d'introduire une réclamation et d'être informé de son avancement et de son issue) et l'article 449 (recours devant la juridiction administrative si l'Autorité ne traite pas la réclamation ou n'informe pas la personne concernée dans les quatre-vingt-dix jours). Distinguer ce que le texte accorde, ce qu'il n'interdit pas, et ce qu'il n'impose pas.
 
-**Question 6 · Le contradictoire : un droit d'être entendu, ou une obligation de comparaître ?**
+**Question 9 · Le contradictoire : un droit d'être entendu, ou une obligation de comparaître ?**
 L'article 454 prévoit que l'Autorité prononce ses sanctions « dans le respect du principe du contradictoire » ; l'article 471 charge le règlement intérieur de fixer les règles « relatives à l'instruction, à la présentation des dossiers, au traitement des plaintes et aux procédures contradictoires ». Le 10 octobre 2024, l'Autorité rabat un délibéré pour envoyer les procès-verbaux au plaignant « afin de garantir le principe du contradictoire ». Le droit d'être entendu est-il la même chose que l'obligation de se présenter ? Qui, du plaignant ou du notaire, a accès au rapport d'instruction ?
 *Piste.* Distinguer : droit de présenter des observations, droit d'accéder aux pièces, obligation de se présenter en personne. Relever que l'article 457 vise la notification du rapport au responsable du traitement, et que le procès-verbal du 28 août 2024 consigne la réponse faite à la demande du plaignant. Se demander ce que le plaignant pouvait faire sans comparaître (observations écrites du 21 octobre 2024, par exemple).
 
-### 4. Troisième partie : les pièces
+### 5. Quatrième partie : les pièces
 
-**Question 7 · « Pour comparution ou audition » : quel effet attacher à l'absence ?**
+**Question 10 · « Pour comparution ou audition » : quel effet attacher à l'absence ?**
 Le 19 juin 2024, le plaignant est « absent à l'audience » et le dossier est mis « en délibéré pour le 24 juillet 2024 à 16 heures 30 minutes pour comparution ou audition » du plaignant. Si la présence est facultative, quel effet peut avoir l'absence ? Si elle est obligatoire, sur quel texte, et avec quelle conséquence ? Que devient le délai de traitement de la plainte pendant ces renvois ?
 *Piste.* Distinguer un renvoi (report de l'examen) et un délibéré (temps de la décision). Relever que le Code du numérique prévoit, pour le responsable du traitement, une mise en demeure de huit jours au plus (article 452) ; comparer ce délai aux 260 jours écoulés du 3 octobre 2023 au 19 juin 2024, puis aux 443 jours jusqu'au 19 décembre 2024. Se demander ce que l'article 448 (« état d'avancement » de la réclamation) et l'article 449 (quatre-vingt-dix jours) attachent au temps.
 
-**Question 8 · Ce que doit contenir une convocation ou une invitation utile**
+**Question 11 · Ce que doit contenir une convocation ou une invitation utile**
 Comparer les trois actes : mention du texte qui fonde l'acte, de l'objet de la séance, de la date, de l'heure, du lieu ou du lien de connexion, de la qualité de la personne, de la faculté de se faire représenter, des conséquences de l'absence. Que contient chaque acte, que manque-t-il ?
 *Piste.* Relever, pour la lettre du rapporteur du 21 mai 2024 et le courriel du 23 juillet 2024, la date et l'heure, la modalité de connexion (« le lien […] vous sera envoyé 30 minutes avant l'appel du dossier »), et l'objet. Relever, dans l'échange du 24 juillet 2024, ce qu'a provoqué l'envoi du lien le jour même (« Je n'ai pas accès »). Se demander comment une autorité garantit qu'une personne à distance peut effectivement participer.
 
-**Question 9 · Qui signe quoi ?**
+**Question 12 · Qui signe quoi ?**
 La lettre d'invitation est signée du rapporteur ; le procès-verbal est signé du président de séance et du secrétaire de séance ; le délibéré est mis par le président de séance « après consultation des Conseillers ». Quels actes relèvent de chaque fonction ? La fonction de rapporteur permet-elle de convoquer ?
 *Piste.* Relire les articles 470 (le Président préside les réunions de l'Autorité en ses différentes formations) et 471 (règlement intérieur), puis les mentions du procès-verbal (composition, bureau de l'Autorité, secrétaires qui « ne prennent pas part aux délibérations »). Distinguer instruction, décision et notification.
 
-**Question 10 · Rédiger : la même séance, deux rédactions**
+**Question 13 · Rédiger : la même séance, deux rédactions**
 Rédiger deux lettres pour la séance du 19 décembre 2024 : une invitation facultative et une convocation obligatoire. Pour chacune : le texte invoqué, la formulation, la faculté de se faire représenter, les conséquences de l'absence.
 *Piste.* Invitation : « Vous êtes invité à assister à cette séance, ou à vous y faire représenter ; votre absence n'empêchera pas l'examen de l'affaire. » Convocation : citer le texte qui permet de convoquer, l'objet, la date, l'heure, le lieu, la qualité (partie, témoin), et la conséquence de l'absence prévue par ce texte. Vérifier que l'intitulé, le verbe et la conséquence disent la même chose.
 
-### 5. Questions de synthèse
+### 6. Questions de synthèse
 
 - **Un acte intitulé « invitation » peut-il produire des effets d'une convocation ?** Qu'est-ce qui doit rester cohérent : l'intitulé, le fondement, les effets ?
 - **Quel intérêt la personne destinataire a-t-elle à connaître la nature de l'acte ?** Doit-elle se présenter, faire valoir ses observations par écrit, se faire représenter ?
 - **Qui doit connaître le rapport d'instruction ?** Le plaignant, le responsable du traitement, les deux ?
 - **Que prévoit le texte quand l'autorité ne se prononce pas ?** Rapprocher les articles 448 et 449, et les faits : dossier mis en délibéré le 19 décembre 2024, aucune décision notifiée au 15 octobre 2026.
+- **L'obligation d'informer le Procureur dépend-elle de l'issue de la procédure de sanction ?** Qu'est-ce qui, dans le texte de l'article 483, point 9, répond à cette question : « sans délai », « dont elle a connaissance » ?
+- **Quel est le rôle de chacun ?** L'Autorité (informer), le Procureur (apprécier les poursuites), la juridiction (juger), le plaignant (saisir lui-même s'il l'estime nécessaire).
 - **Quelle différence entre informer d'une séance et informer de l'état d'avancement d'une réclamation ?** Une invitation à une séance suffit-elle à satisfaire l'article 448 ?
 
-### 6. Grille de correction (20 points)
+### 7. Grille de correction (20 points)
 
 | Compétence | Points | Critère |
 |---|---|---|
-| Distinction des notions | 6 | Convocation, invitation, citation, comparution, audition, renvoi et délibéré ; critères de distinction (intitulé, fondement, conséquence). |
-| Lecture des textes | 6 | Exactitude des citations des articles 167, 448, 449, 452, 454, 457, 470, 471, 487 et 488 ; identification du sujet de chaque disposition (responsable du traitement, plaignant, Autorité). |
-| Application aux pièces | 5 | Rapprochement précis de chaque lettre et du texte qui l'éclaire ; exactitude des dates et des durées. |
-| Esprit critique et rédaction | 3 | Pas de qualification hâtive ; hypothèses alternatives ; rédaction cohérente des deux actes de la question 10. |
+| Distinction des notions | 4 | Convocation, invitation, citation, comparution, audition, renvoi et délibéré ; critères de distinction (intitulé, fondement, conséquence). |
+| Lecture des textes | 5 | Exactitude des citations des articles 167, 448, 449, 452, 454, 457, 470, 471, 487 et 488 ; identification du sujet de chaque disposition (responsable du traitement, plaignant, Autorité). |
+| Obligation d'informer le Procureur | 5 | Lecture de l'article 483, points 6 à 9 (mission, « sans délai », point de départ) ; distinction entre sanction administrative et information du parquet ; distinction constatation, qualification (article 460), opportunité des poursuites ; voies du plaignant (articles 448, 449). |
+| Application aux pièces | 4 | Rapprochement précis de chaque lettre et du texte qui l'éclaire ; exactitude des dates et des durées. |
+| Esprit critique et rédaction | 2 | Pas de qualification hâtive ; hypothèses alternatives ; rédaction cohérente des deux actes de la question 10. |
 
-### 7. Pour aller plus loin
+### 8. Pour aller plus loin
 
 - [Sept séances, aucune décision : la plainte du 3 octobre 2023 devant l'Autorité de Protection des Données Personnelles](/apdp/) : le film, la chronologie, les pièces
 - [L'enquête contre elle-même : la Brigade criminelle de Cotonou](/brigade-criminelle/) : les convocations de mars 2025
@@ -115,9 +135,9 @@ Rédiger deux lettres pour la séance du 19 décembre 2024 : une invitation facu
 
 ### Textes de référence
 
-- **Code du numérique du Bénin** (loi n° 2017-20 du 20 avril 2018, modifiée par la loi n° 2020-35 du 6 janvier 2021) : articles 167 et 172 (Autorité de régulation : communication de pièces et convocation, astreinte) ; articles 448 et 449 (réclamation, suivi, recours) ; articles 452 à 456 (avertissement, mise en demeure, sanctions, injonction) ; article 457 (rapport, observations, assistance aux séances) ; articles 470 et 471 (président, règlement intérieur) ; article 483, point 9 (information du Procureur de la République) ; articles 486 à 489 (investigation, demande d'information, coopération, accès aux locaux) ([texte](/pieces/code-du-numerique-benin-loi-2017-20-modifiee-2020-35.pdf)).
+- **Code du numérique du Bénin** (loi n° 2017-20 du 20 avril 2018, modifiée par la loi n° 2020-35 du 6 janvier 2021) : articles 167 et 172 (Autorité de régulation : communication de pièces et convocation, astreinte) ; articles 448 et 449 (réclamation, suivi, recours) ; article 460 (infractions pénales du Livre V) et article 461 (peines) ; articles 452 à 456 (avertissement, mise en demeure, sanctions, injonction) ; article 457 (rapport, observations, assistance aux séances) ; articles 470 et 471 (président, règlement intérieur) ; article 483, points 6 à 9 (informer les auteurs des suites données, informer sans délai l'autorité judiciaire et le procureur de la République) ; articles 486 à 489 (investigation, demande d'information, coopération, accès aux locaux) ([texte](/pieces/code-du-numerique-benin-loi-2017-20-modifiee-2020-35.pdf)).
 - **Règlement intérieur de l'Autorité de Protection des Données Personnelles** : règles relatives à l'instruction, à la présentation des dossiers, au traitement des plaintes et aux procédures contradictoires (article 471 du Code du numérique) : à rechercher.
-- **Code de procédure pénale béninois** : dispositions sur la convocation et la comparution des témoins et des personnes soupçonnées devant les officiers de police judiciaire : à rechercher sur le texte en vigueur.
+- **Code de procédure pénale béninois** : dispositions auxquelles l'article 483, point 9, renvoie (information du Procureur de la République) et dispositions sur la convocation et la comparution des témoins et des personnes soupçonnées devant les officiers de police judiciaire : à rechercher sur le texte en vigueur.
 
 *Les numéros d'articles et les délais doivent être vérifiés sur le texte en vigueur au jour des faits.*
 
