@@ -1,0 +1,336 @@
+{
+ "total": 314.0986666666666,
+ "sequences": {
+  "1": [
+   0.0,
+   18.257333333333328
+  ],
+  "2": [
+   18.257333333333328,
+   43.46
+  ],
+  "3": [
+   43.46,
+   67.276
+  ],
+  "4": [
+   67.276,
+   86.128
+  ],
+  "5": [
+   86.128,
+   106.25333333333333
+  ],
+  "6": [
+   106.25333333333333,
+   135.10533333333333
+  ],
+  "7": [
+   135.10533333333333,
+   163.91333333333333
+  ],
+  "8": [
+   163.91333333333333,
+   183.58933333333331
+  ],
+  "9": [
+   183.58933333333331,
+   209.83599999999996
+  ],
+  "10": [
+   209.83599999999996,
+   235.53733333333332
+  ],
+  "11": [
+   235.53733333333332,
+   252.9813333333333
+  ],
+  "12": [
+   252.9813333333333,
+   263.548
+  ],
+  "13": [
+   263.548,
+   275.02666666666664
+  ],
+  "14": [
+   275.02666666666664,
+   297.66666666666663
+  ],
+  "15": [
+   297.66666666666663,
+   308.0986666666666
+  ],
+  "16": [
+   308.0986666666666,
+   314.0986666666666
+  ]
+ },
+ "cues": [
+  [
+   1.6,
+   7.722666666666667,
+   "Le 3 octobre 2023, une plainte parvient à l'Autorité de Protection des Données Personnelles, à Cotonou."
+  ],
+  [
+   8.022666666666666,
+   10.134666666666666,
+   "Elle vise un notaire, Maître Félix Balley."
+  ],
+  [
+   10.434666666666665,
+   13.314666666666664,
+   "L'Autorité est présidée par Luciano Hounkponou."
+  ],
+  [
+   13.614666666666665,
+   16.85733333333333,
+   "Trois ans plus tard, aucune décision n'a été notifiée au plaignant."
+  ],
+  [
+   19.157333333333327,
+   24.405333333333328,
+   "Le plaignant, Gilles Féliho, découvre un certificat d'acquit de droit daté du 20 octobre 2016."
+  ],
+  [
+   24.70533333333333,
+   28.395999999999994,
+   "Le notaire y agit « en qualité de mandataire et au nom des héritiers », dont lui."
+  ],
+  [
+   28.695999999999994,
+   31.767999999999994,
+   "Il ne connaît pas ce notaire. Il ne lui a jamais donné de mandat."
+  ],
+  [
+   32.068,
+   41.86,
+   "Un huissier signifie un procès-verbal de compulsion le 4 août 2023. Le notaire refuse, le 7 septembre, de lui communiquer les traitements opérés sur ses données."
+  ],
+  [
+   44.36,
+   48.712,
+   "La plainte invoque le droit d'accès, article 437 du Code du numérique."
+  ],
+  [
+   49.012,
+   55.51866666666667,
+   "Elle demande une mise en demeure sous huit jours, des sanctions, la suppression des données sur le certificat, et leur publication."
+  ],
+  [
+   55.818666666666665,
+   60.64,
+   "Et l'information du Procureur de la République, article 483, point 9."
+  ],
+  [
+   60.94,
+   65.676,
+   "Le plaignant cite lui-même l'article 448 : être tenu informé du suivi."
+  ],
+  [
+   68.176,
+   75.94133333333333,
+   "Que dit la loi ? Article 448 : l'Autorité informe l'auteur de la réclamation de l'état d'avancement et de l'issue de sa réclamation."
+  ],
+  [
+   76.24133333333333,
+   78.88666666666666,
+   "Article 449 : quatre-vingt-dix jours."
+  ],
+  [
+   79.18666666666667,
+   84.328,
+   "Quatre-vingt-dix jours après le 3 octobre 2023 : le 1er janvier 2024."
+  ],
+  [
+   87.028,
+   92.80933333333334,
+   "Le 14 décembre 2023, soixante-douze jours après la plainte, l'Autorité accuse réception."
+  ],
+  [
+   93.10933333333334,
+   94.98666666666668,
+   "« Une suite vous sera donnée incessamment. »"
+  ],
+  [
+   95.28666666666668,
+   100.59866666666667,
+   "Le même jour, elle met le notaire en demeure de produire, sous huit jours, les autorisations et consentements."
+  ],
+  [
+   100.89866666666667,
+   104.65333333333334,
+   "Il répond le 27 décembre, en invoquant les devoirs de son office."
+  ],
+  [
+   107.15333333333334,
+   113.084,
+   "Le 19 juin 2024, deux cent soixante jours après la plainte : première séance contentieuse."
+  ],
+  [
+   113.384,
+   121.08533333333334,
+   "La séance est présidée par Claude Dieu Donné Montcho, en présence du président Luciano Hounkponou et du rapporteur Amouda Abou Seydou."
+  ],
+  [
+   121.38533333333334,
+   124.54266666666666,
+   "Le notaire est assisté de son avocat. Le plaignant est absent."
+  ],
+  [
+   124.84266666666667,
+   130.32533333333333,
+   "Son avocat s'excuse, au nom de son client, de l'ignorance de l'obligation légale de mise en conformité."
+  ],
+  [
+   130.62533333333334,
+   133.50533333333334,
+   "Délibéré au 24 juillet, pour audition du plaignant."
+  ],
+  [
+   136.00533333333334,
+   144.64533333333333,
+   "Le 23 juillet, le rapporteur écrit au plaignant : pour obtenir le rapport d'instruction notifié au défendeur, il doit formuler sa demande en séance plénière."
+  ],
+  [
+   144.94533333333334,
+   150.172,
+   "Le 24 juillet, l'Autorité envoie le lien de la séance. Réponse du plaignant : « Je n'ai pas accès »."
+  ],
+  [
+   150.472,
+   153.608,
+   "Le procès-verbal le mentionne ensuite « participant en ligne »."
+  ],
+  [
+   153.90800000000002,
+   162.31333333333336,
+   "Le 28 août, le procès-verbal consigne que la plénière ne peut faire suite à sa demande de mise à disposition du rapport d'instruction adressé au notaire."
+  ],
+  [
+   164.81333333333333,
+   173.45333333333332,
+   "Le 25 septembre : nouvelle séance. Le délibéré est rabattu pour envoyer les procès-verbaux au plaignant, « afin de garantir le principe du contradictoire »."
+  ],
+  [
+   173.75333333333333,
+   176.1,
+   "Le dossier est renvoyé au 23 octobre."
+  ],
+  [
+   176.4,
+   181.98933333333335,
+   "La lettre d'invitation du 10 octobre, signée du rapporteur, vise l'article 457."
+  ],
+  [
+   184.48933333333332,
+   187.71066666666664,
+   "Le 21 octobre, le plaignant dépose ses observations."
+  ],
+  [
+   188.01066666666665,
+   199.57333333333332,
+   "Il relève trois versions du notaire : un mandat, le 20 octobre 2016 ; « pas partie aux actes », le 7 septembre 2023 ; une décision de justice exécutoire, le 19 juin 2024."
+  ],
+  [
+   199.8733333333333,
+   208.23599999999996,
+   "Il demande des sanctions, la suppression de ses données sous astreinte de cinquante mille francs CFA par jour, la publication, et l'information du Procureur."
+  ],
+  [
+   210.73599999999996,
+   216.49599999999995,
+   "Séance du 23 octobre. Séance du 27 novembre : le dossier est renvoyé au 19 décembre."
+  ],
+  [
+   216.79599999999996,
+   222.49199999999996,
+   "Le 13 décembre, par courtoisie, le plaignant informe l'Autorité du communiqué de presse qu'il entend publier."
+  ],
+  [
+   222.79199999999997,
+   230.32266666666663,
+   "Le 16 décembre, l'Autorité répond : dossier « mis en délibéré pour le 19 décembre prochain ». « Vous répondrez de vos actes en temps opportun. »"
+  ],
+  [
+   230.62266666666665,
+   233.7373333333333,
+   "Réponse du plaignant : « Mes deux boussoles sont : la loi et la vérité. »"
+  ],
+  [
+   236.43733333333333,
+   245.90933333333334,
+   "Sept séances : les 19 juin, 24 juillet, 28 août, 25 septembre, 23 octobre, 27 novembre et 19 décembre 2024."
+  ],
+  [
+   246.20933333333332,
+   249.9213333333333,
+   "Le 19 décembre 2024, le dossier est mis en délibéré."
+  ],
+  [
+   250.22133333333332,
+   251.18133333333333,
+   "Depuis : rien."
+  ],
+  [
+   253.88133333333332,
+   257.2093333333333,
+   "443 jours entre la plainte et la dernière séance."
+  ],
+  [
+   257.5093333333333,
+   259.83466666666664,
+   "665 jours depuis cette séance."
+  ],
+  [
+   260.13466666666665,
+   261.948,
+   "1 108 jours depuis la plainte."
+  ],
+  [
+   264.448,
+   268.224,
+   "Depuis le 19 décembre 2024, le calendrier avance."
+  ],
+  [
+   268.524,
+   270.6573333333333,
+   "Aucune décision. Aucune notification."
+  ],
+  [
+   270.95733333333334,
+   273.0266666666667,
+   "Rien depuis décembre 2024."
+  ],
+  [
+   275.9266666666666,
+   280.8973333333333,
+   "Une décision a-t-elle été prise à l'issue du délibéré du 19 décembre 2024 ?"
+  ],
+  [
+   281.3973333333333,
+   285.5573333333333,
+   "Le plaignant en sera-t-il informé, comme l'article 448 le prévoit ?"
+  ],
+  [
+   286.0573333333333,
+   291.21999999999997,
+   "Le Procureur de la République a-t-il été informé, article 483, point 9 ?"
+  ],
+  [
+   291.71999999999997,
+   295.66666666666663,
+   "La demande de suppression des données sur le certificat a-t-elle été examinée ?"
+  ],
+  [
+   298.5666666666666,
+   302.49199999999996,
+   "Une plainte, sept séances, un délibéré. Aucune décision connue du plaignant."
+  ],
+  [
+   302.7919999999999,
+   306.0986666666666,
+   "Ce ne sont pas des opinions : ce sont des procès-verbaux et des lettres."
+  ]
+ ]
+}
