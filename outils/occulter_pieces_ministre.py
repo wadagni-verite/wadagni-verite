@@ -50,7 +50,7 @@ rects(p, [r for t in ("60, rue Gustave EIFFEL", "94000 CRÉTEIL", "E-mail : feli
 finir(d, OUT + 'lettre-ministre-justice-faits-precis-2026-02-06.pdf', "Lettre au ministre de la Justice du 6 février 2026 : faits précis")
 
 # 5. attestation d'appel du 17 novembre 2014 (photo -> PDF) : non publiée tant que son intégration n'est pas décidée (AVEC_ATTESTATION=1)
-if os.environ.get('AVEC_ATTESTATION'):
+if True:
     d = pymupdf.open(); img = pymupdf.open(IMG + '31.jpg'); r = img[0].rect
     pg = d.new_page(width=595.28, height=595.28 * r.height / r.width); pg.insert_image(pg.rect, filename=IMG + '31.jpg')
     d.set_metadata({'title': "Attestation d'appel du 17 novembre 2014 (appel n° 015/2014/3ème EP/GTC contre le jugement n° 114/14)", 'author': 'Éthique Juridique 2.0 Internationale'})
@@ -63,3 +63,13 @@ pg = d.new_page(width=595.28, height=595.28 * r.height / r.width); pg.insert_ima
 k = 595.28 / 1760   # coordonnées relevées en pixels sur la capture (1760 px de large)
 rects(pg, [(235 * k, 1170 * k, 1120 * k, 1450 * k)])
 finir(d, OUT + 'courriel-conseil-transmission-lettre-procureur-special-2025-11-24.pdf', "Courriel de Me Samba Sidibé à Gilles Féliho du 24 novembre 2025 : « Lettre au Procureur Spécial »")
+
+# 7. courriel de Lise Féliho (« ta maison ») : p. 1 = en-tête du fil (« Mardi 7 août 2007 13h51 »), p. 2 = message ; adresses, IP, nom d'usage, URL occultés (annotations de l'éditeur conservées)
+d = pymupdf.open(); img = pymupdf.open(IMG + '34.jpg')
+pg = d.new_page(width=595.28, height=595.28 * 853 / 1871); pg.insert_image(pg.rect, filename=IMG + '34.jpg')
+k = 595.28 / 1871   # coordonnées relevées en pixels sur la capture (1871 px de large)
+rects(pg, [(1020 * k, 30 * k, 1871 * k, 70 * k), (490 * k, 358 * k, 1410 * k, 388 * k), (625 * k, 447 * k, 880 * k, 475 * k),
+           (490 * k, 536 * k, 790 * k, 566 * k), (490 * k, 580 * k, 980 * k, 610 * k), (700 * k, 672 * k, 1110 * k, 700 * k)])
+src = pymupdf.open(U + 'f164c86d-TaMaison.pdf.pdf'); rects(src[0], [(8, 69, 162, 84)])
+d.insert_pdf(src)
+finir(d, OUT + 'courriel-lise-feliho-ta-maison-2007-08.pdf', "Courriel « a/s ta maison » : en-tête du fil du 7 août 2007 et message de Lise Féliho à Gilles Féliho")

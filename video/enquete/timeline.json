@@ -1,5 +1,5 @@
 {
- "total": 465.8139999999996,
+ "total": 531.0219999999996,
  "sequences": {
   "1": [
    0.0,
@@ -33,41 +33,49 @@
    169.55866666666665,
    210.73866666666663
   ],
-  "8.5": [
+  "8.3": [
    210.73866666666663,
-   246.09333333333328
+   252.7159999999999
+  ],
+  "8.5": [
+   252.7159999999999,
+   288.0706666666665
   ],
   "9": [
-   246.09333333333328,
-   311.8139999999999
+   288.0706666666665,
+   353.7913333333331
+  ],
+  "9.8": [
+   353.7913333333331,
+   382.2499999999997
   ],
   "10": [
-   311.8139999999999,
-   340.26599999999985
+   382.2499999999997,
+   405.47399999999965
   ],
   "11": [
-   340.26599999999985,
-   357.2713333333332
+   405.47399999999965,
+   422.479333333333
   ],
   "12": [
-   357.2713333333332,
-   376.00066666666646
+   422.479333333333,
+   441.20866666666626
   ],
   "12.5": [
-   376.00066666666646,
-   428.9833333333331
+   441.20866666666626,
+   494.1913333333329
   ],
   "13": [
-   428.9833333333331,
-   452.399333333333
+   494.1913333333329,
+   517.6073333333329
   ],
   "14": [
-   452.399333333333,
-   459.8139999999996
+   517.6073333333329,
+   525.0219999999996
   ],
   "15": [
-   459.8139999999996,
-   465.8139999999996
+   525.0219999999996,
+   531.0219999999996
   ]
  },
  "cues": [
@@ -218,167 +226,207 @@
   ],
   [
    211.63866666666664,
-   217.86799999999997,
+   216.4813333333333,
+   "Un autre message de Lise Féliho, du même fil « a/s ta maison », porte lui aussi sur « ta maison »."
+  ],
+  [
+   216.7813333333333,
+   225.78399999999996,
+   "Elle écrit avoir appris qu'en se séparant de leur père, Maître Fade lui aurait demandé à continuer de gérer les dossiers dont il avait la charge, mais que leur père aurait refusé."
+  ],
+  [
+   226.08399999999995,
+   235.08666666666662,
+   "Elle propose de « trouver les coordonnées de FADE, et le remettre sur le dossier, moyennant rétribution » : « maîtrisant le dossier pour l'avoir suivi à son début, il fera l'affaire »."
+  ],
+  [
+   235.3866666666666,
+   242.46933333333325,
+   "Il se chargerait de récupérer auprès du notaire les pièces juridiques de vente, y compris le permis d'habiter, pour obtenir le titre foncier."
+  ],
+  [
+   242.76933333333326,
+   251.51599999999993,
+   "L'en-tête du fil porte la date du mardi 7 août 2007. Lise Féliho y désigne Maître Fade comme l'avocat qui a suivi le dossier de cette maison dès son début."
+  ],
+  [
+   253.6159999999999,
+   259.84533333333326,
    "Le 19 septembre 2007, le notaire Denise Ehouzou Gangnito écrit à Maître Victorien Olatundji Fade."
   ],
   [
-   218.16799999999998,
-   226.38133333333332,
+   260.1453333333332,
+   268.3586666666665,
    "Suite à l'adjudication de constructions sur la parcelle B du lot 923 de Gbégamey, au profit de Gilles Sixte Féliho, « dont vous êtes le mandataire »."
   ],
   [
-   226.6813333333333,
-   233.87066666666664,
+   268.65866666666653,
+   275.84799999999984,
    "En 2007, Maître Fade est le mandataire de Gilles Féliho. En 2014, le jugement le désigne comme l'avocat de ses cohéritiers."
   ],
   [
-   234.17066666666662,
-   245.09333333333328,
+   276.14799999999985,
+   287.0706666666665,
    "Le jugement vise le lot 488. Cette lettre vise le lot 923. La seule pièce que le plaignant produit sur un bien à Gbégamey date de 2007, avant le décès de son père."
   ],
   [
-   246.99333333333328,
-   257.14799999999997,
+   288.9706666666665,
+   299.1253333333332,
    "Le jugement du 31 octobre 2014 constate que Gilles Féliho a même déjà disposé de l'immeuble, et qu'il a exécuté les dispositions testamentaires de manière volontaire."
   ],
   [
-   257.49799999999993,
-   263.5566666666666,
+   299.47533333333314,
+   305.5339999999998,
    "Le juge constate. Il ne dit pas l'avoir lu dans le testament : il constate un fait, sans date, sans acte, sans pièce."
   ],
   [
-   263.9066666666666,
-   275.51199999999994,
+   305.8839999999998,
+   317.4893333333331,
    "Or le testament est de juillet 2009. Gilles Féliho n'a pu en hériter qu'au décès de son père, le 3 décembre 2010. Un testament est un acte unilatéral qui produit son effet à la mort de son auteur."
   ],
   [
-   275.8619999999999,
-   287.53133333333324,
+   317.8393333333331,
+   329.50866666666644,
    "Un testament ne peut pas constater un acte postérieur au décès. Il ne peut constater ni une disposition de l'immeuble par le légataire, ni l'exécution volontaire de ses clauses, puisque ces actes sont par nature postérieurs."
   ],
   [
-   287.88133333333326,
-   292.5533333333333,
+   329.85866666666647,
+   334.5306666666665,
    "On ne peut pas déduire l'exécution des dispositions testamentaires du testament lui-même."
   ],
   [
-   292.90333333333325,
-   299.87933333333325,
+   334.88066666666646,
+   341.85666666666646,
    "Le mémoire du commissaire principal Konto écrit : « à la lecture du testament, son père a déclaré lui avoir acheté la parcelle »."
   ],
   [
-   300.2293333333333,
-   307.1839999999999,
+   342.2066666666665,
+   349.1613333333331,
    "Un achat n'est pas un legs. Une acquisition n'est pas une disposition. Et le testament ne figure pas parmi les pièces jointes au mémoire."
   ],
   [
-   307.53399999999993,
-   310.41399999999993,
+   349.51133333333314,
+   352.39133333333314,
    "Faire dire au testament ce qu'un testament ne peut pas dire."
   ],
   [
-   312.7139999999999,
-   317.6419999999999,
+   354.6913333333331,
+   359.6193333333331,
    "Le mémoire écrit que ce jugement, ayant autorité de la chose jugée, est non assorti de recours."
   ],
   [
-   317.9419999999999,
-   322.3579999999999,
+   359.9193333333331,
+   366.74599999999975,
+   "Le 17 novembre 2014, le greffier en chef du tribunal de Cotonou atteste que le jugement est frappé d'appel."
+  ],
+  [
+   367.04599999999976,
+   377.0726666666664,
+   "L'appel porte le numéro 015 de 2014. Il est formé le 31 octobre 2014, jour du jugement, par Maître Michel Christian Agbinko, au nom de Gilles Féliho."
+  ],
+  [
+   377.3726666666664,
+   380.84999999999974,
+   "Une attestation du greffe dit le contraire de ce que le mémoire écrit."
+  ],
+  [
+   383.1499999999997,
+   387.5659999999997,
    "Le jugement dit : en premier ressort. Exécution provisoire. Délai d'appel : un mois."
   ],
   [
-   322.6579999999999,
-   326.92466666666655,
+   387.8659999999997,
+   392.13266666666635,
    "La Brigade criminelle tranche ainsi une question de droit civil, qui n'est pas la sienne."
   ],
   [
-   327.22466666666656,
-   334.4139999999999,
+   392.43266666666636,
+   399.6219999999997,
    "Devant la Cour constitutionnelle, le plaignant dénonce une usurpation des prérogatives judiciaires, sans aucune garantie procédurale."
   ],
   [
-   334.7139999999999,
-   339.06599999999986,
+   399.9219999999997,
+   404.27399999999966,
    "Faire dire au testament ce qu'il ne peut pas dire. Faire dire au jugement ce qu'il ne dit pas."
   ],
   [
-   341.1659999999998,
-   349.8273333333332,
+   406.3739999999996,
+   415.03533333333297,
    "Interrogé sur les obstacles que poserait le plaignant, le notaire répond : « son objectif principal est de faire échec à l'exécution des dispositions du testament »."
   ],
   [
-   350.1273333333332,
-   356.2713333333332,
+   415.335333333333,
+   421.479333333333,
    "Le mémoire du commissaire principal Konto rapporte cette déclaration. Aucun acte d'enquête n'est cité à son appui."
   ],
   [
-   358.17133333333317,
-   365.78733333333315,
+   423.37933333333297,
+   430.99533333333295,
    "En 2017, un huissier consigne que la mairie de Cotonou indique, pour la parcelle B du lot 488, une superficie : néant."
   ],
   [
-   366.08733333333316,
-   370.22599999999983,
+   431.29533333333296,
+   435.4339999999996,
    "Et que l'Institut géographique national ne dispose d'aucun document afférent."
   ],
   [
-   370.52599999999984,
-   374.6006666666665,
+   435.73399999999964,
+   439.8086666666663,
    "Ce procès-verbal ne figure pas dans le mémoire du commissaire principal Konto."
   ],
   [
-   376.90066666666644,
-   388.6553333333331,
+   442.10866666666624,
+   453.8633333333329,
    "Le faux en écriture publique : l'article 303 du Code pénal punit de la réclusion criminelle à perpétuité tout fonctionnaire ou officier public qui constate comme vrais des faits faux, ou comme avérés des faits qui ne l'étaient pas."
   ],
   [
-   389.0553333333331,
-   395.3486666666665,
+   454.2633333333329,
+   460.5566666666663,
    "L'article 305 punit celui qui a fait usage des actes faux. L'article 22 définit la complicité."
   ],
   [
-   395.74866666666645,
-   405.0286666666664,
+   460.95666666666625,
+   470.2366666666662,
    "L'ancien Code pénal, dit Code Bouvenet, vise de même le faux commis par un officier public, la constatation comme vrais de faits qui sont faux, et l'usage conscient d'un acte faux."
   ],
   [
-   405.42866666666646,
-   413.12999999999977,
+   470.63666666666626,
+   478.33799999999957,
    "Le jugement constate que Gilles Féliho a même déjà disposé de la parcelle bâtie sise au lot 488 de Cotonou, quartier Gbégamey."
   ],
   [
-   413.5299999999998,
-   420.27133333333313,
+   478.7379999999996,
+   485.47933333333293,
    "L'enquête ne rapporte ni la preuve de l'existence de cette parcelle, ni la preuve d'un acte de disposition postérieur au décès."
   ],
   [
-   420.6713333333331,
-   427.5833333333331,
+   485.8793333333329,
+   492.7913333333329,
    "Les neuf pièces jointes au mémoire n'établissent ni l'une ni l'autre. Le procès-verbal de 2017 consigne : superficie, néant."
   ],
   [
-   429.8833333333331,
-   434.8113333333331,
+   495.0913333333329,
+   500.0193333333329,
    "Cinq cent soixante-sept jours entre la plainte et la notification de la Cour constitutionnelle."
   ],
   [
-   435.1113333333331,
-   439.5913333333331,
+   500.3193333333329,
+   504.7993333333329,
    "Cinquante-quatre jours, de cette notification au mémoire du commissaire principal Konto."
   ],
   [
-   439.8913333333331,
-   446.69666666666643,
+   505.0993333333329,
+   511.90466666666623,
    "Le 3 juillet 2025, le parquet de la CRIET classe sans suite : « je n'ai pas estimé opportun d'engager des poursuites »."
   ],
   [
-   446.9966666666664,
-   451.1993333333331,
+   512.2046666666662,
+   516.4073333333329,
    "Douze jours plus tard, le 15 juillet, la Cour constitutionnelle tient audience."
   ],
   [
-   453.299333333333,
-   458.01399999999967,
+   518.5073333333329,
+   523.2219999999995,
    "Six questions pour le commissaire principal Sabi Fulbert Konto. Les réponses seront publiées."
   ]
  ]
