@@ -58,11 +58,12 @@ Votre navigateur ne lit pas cette vidéo.
 - *Ce qui a été demandé.* La sommation exige les convocations de six personnes : Maître Victorien Olatundji Fade, avocat ; Lise, Albin, Florentin-Lin et Nina Féliho ; Olivia Aubierge Hungbo épouse Kploca, magistrate ; « et toute autre personne que l'enquête révélera ».
 - *Ce qui a été fait.* Deux convocations sont produites, n° 141 (Maître Fade) et n° 142 (Maître Balley, qui n'est pas dans la liste), datées du 12 mars 2025 pour le 19 mars à 9 h. Aucune convocation n'est produite pour les quatre autres personnes. Le 25 mars 2025, le commissaire principal Sabi Fulbert Konto écrit que Maître Fade « a été convoqué pour le mercredi 19 mars 2025 mais il ne s'est pas présenté ».
 
-**6. Un jugement qui « constate » une disposition postérieure au décès, sans date ni acte**
+**6. Un jugement qui « constate » une disposition postérieure au décès, un testament qui ne peut pas la prouver**
 
-- *Ce qu'écrit le jugement* ([pièce](/jugement-succession-feliho-2014.pdf), p. 5 et dispositif) : « Que Gilles Sixte FELIHO a même déjà disposé de cet immeuble » ; « Constate que Gilles Sixte FELIHO a exécuté les dispositions testamentaires de manière volontaire ».
-- *Ce que cela suppose.* Un testament ne prend effet qu'au décès de son auteur, ici le 3 décembre 2010. Le testament est daté de juillet 2009. Il ne peut constater ni une disposition, ni une exécution, nécessairement postérieures. Le jugement ne cite aucune date et aucun acte de disposition.
+- *Ce qu'écrit le jugement* ([pièce](/jugement-succession-feliho-2014.pdf), p. 5 et dispositif) : « Que Gilles Sixte FELIHO a même déjà disposé de cet immeuble » ; « Constate que Gilles Sixte FELIHO a exécuté les dispositions testamentaires de manière volontaire ». **Le juge constate : il ne dit pas l'avoir lu dans le testament.** Il énonce un fait, sans date, sans acte, sans pièce.
+- *Ce qu'un testament peut établir.* **Un testament ne peut pas constater un acte postérieur au décès.** C'est un acte unilatéral qui produit son effet à la mort de son auteur : il ne peut constater ni une disposition de l'immeuble par le légataire, ni l'exécution volontaire de ses clauses, puisque ces actes sont par nature postérieurs. **On ne peut pas déduire l'exécution des dispositions testamentaires du testament lui-même.** Le testament est daté de juillet 2009 ; le décès est du 3 décembre 2010.
 - *Ce qu'écrit le mémoire* (p. 3) : « à la lecture du testament […] son père a déclaré : lui avoir acheté la parcelle sise au lot 488 ». Un achat n'est pas un legs ; une acquisition n'est pas une disposition. Le testament ne figure pas parmi les neuf pièces jointes au mémoire.
+- *Ce que les pièces établissent.* Faire dire au testament ce qu'un testament ne peut pas dire ; faire dire au jugement ce qu'il ne dit pas (point 7).
 
 **7. « Non assorti de recours »**
 
