@@ -51,197 +51,197 @@ Le même service requiert le registre du domaine, et suppose que le plaignant d�
 La mairie répond le 27 mars en joignant une page de répertoire : la couverture du registre, déjà décrite dans le procès-verbal de 2017. Elle ne mentionne aucune parcelle.
 
 14
-00:01:42,775 --> 00:01:48,599
-La plainte déposée le 21 août 2023 porte sur un faux en écriture publique, dans un jugement.
+00:01:42,775 --> 00:01:48,300
+La plainte, datée du 17 août 2023, porte sur un faux en écriture publique, dans un jugement.
 
 15
-00:01:48,899 --> 00:01:54,488
+00:01:48,600 --> 00:01:54,424
 Le mémoire du commissaire principal Konto écrit : « Dans ladite plainte, Gilles Sixte conteste le testament. »
 
 16
-00:01:54,788 --> 00:01:57,540
+00:01:54,724 --> 00:01:57,476
 Toute la suite du raisonnement part de cette seconde lecture.
 
 17
-00:01:59,440 --> 00:02:07,056
+00:01:59,376 --> 00:02:06,992
 Le notaire, Maître Félix Awé Balley, est entendu le 19 mars 2025. Le procès-verbal est intitulé : audition de témoin.
 
 18
-00:02:07,356 --> 00:02:09,937
+00:02:07,292 --> 00:02:09,873
 Son en-tête le range parmi les personnes soupçonnées.
 
 19
-00:02:10,237 --> 00:02:14,333
+00:02:10,173 --> 00:02:14,269
 Le mémoire du commissaire principal Konto écrit que la plainte vise Maître Balley.
 
 20
-00:02:14,633 --> 00:02:19,753
+00:02:14,569 --> 00:02:19,689
 La sommation du 3 avril 2024, qui désigne les personnes à convoquer, ne le nomme pas.
 
 21
-00:02:21,653 --> 00:02:29,419
+00:02:21,589 --> 00:02:29,355
 La sommation désignait six personnes. Deux convocations sont produites, datées du 12 mars 2025, au nom du commissaire principal Konto.
 
 22
-00:02:29,719 --> 00:02:35,287
+00:02:29,655 --> 00:02:35,223
 L'une pour Maître Victorien Olatundji Fade. L'autre pour Maître Félix Awé Balley, qui n'est pas dans la liste.
 
 23
-00:02:35,587 --> 00:02:41,091
+00:02:35,523 --> 00:02:41,027
 Aucune convocation n'est produite pour les quatre autres personnes, dont la magistrate qui a signé le jugement.
 
 24
-00:02:41,391 --> 00:02:48,623
+00:02:41,327 --> 00:02:48,559
 Le 25 mars, le commissaire principal Konto écrit que Maître Fade a été convoqué pour le 19 mars et ne s'est pas présenté.
 
 25
-00:02:50,523 --> 00:02:59,525
+00:02:50,459 --> 00:02:59,461
 Les 6 et 7 août 2007, trois ans avant le décès de leur père, Gilles et Lise Féliho échangent des courriels sur « ta maison » : loyers, cautions, contrats, titre de propriété.
 
 26
-00:02:59,825 --> 00:03:07,484
+00:02:59,761 --> 00:03:07,420
 Lise Féliho écrit : « Il faudra prévoir écrire au notaire pour [demander] la main levée, mais également en tant que new propriétaire les documents légaux. »
 
 27
-00:03:07,784 --> 00:03:11,475
+00:03:07,720 --> 00:03:11,411
 Gilles Féliho répond qu'il va s'occuper du titre de propriété de la maison.
 
 28
-00:03:11,775 --> 00:03:20,137
+00:03:11,711 --> 00:03:20,073
 Lise Féliho figure parmi les six personnes que la sommation du 3 avril 2024 exige de convoquer. Aucune convocation à son nom n'est produite.
 
 29
-00:03:20,437 --> 00:03:29,803
+00:03:20,373 --> 00:03:29,739
 Six semaines plus tard, le 19 septembre 2007, le notaire transmet à Maître Fade les pièces de l'adjudication de constructions à Gbégamey, au profit de Gilles Féliho.
 
 30
-00:03:31,703 --> 00:03:37,932
+00:03:31,639 --> 00:03:37,868
 Le 19 septembre 2007, le notaire Denise Ehouzou Gangnito écrit à Maître Victorien Olatundji Fade.
 
 31
-00:03:38,232 --> 00:03:46,445
+00:03:38,168 --> 00:03:46,381
 Suite à l'adjudication de constructions sur la parcelle B du lot 923 de Gbégamey, au profit de Gilles Sixte Féliho, « dont vous êtes le mandataire ».
 
 32
-00:03:46,745 --> 00:03:53,935
+00:03:46,681 --> 00:03:53,871
 En 2007, Maître Fade est le mandataire de Gilles Féliho. En 2014, le jugement le désigne comme l'avocat de ses cohéritiers.
 
 33
-00:03:54,235 --> 00:04:05,157
+00:03:54,171 --> 00:04:05,093
 Le jugement vise le lot 488. Cette lettre vise le lot 923. La seule pièce que le plaignant produit sur un bien à Gbégamey date de 2007, avant le décès de son père.
 
 34
-00:04:07,057 --> 00:04:17,212
+00:04:06,993 --> 00:04:17,148
 Le jugement du 31 octobre 2014 constate que Gilles Féliho a même déjà disposé de l'immeuble, et qu'il a exécuté les dispositions testamentaires de manière volontaire.
 
 35
-00:04:17,562 --> 00:04:23,493
+00:04:17,498 --> 00:04:23,557
 Le juge constate. Il ne dit pas l'avoir lu dans le testament : il constate un fait, sans date, sans acte, sans pièce.
 
 36
-00:04:23,843 --> 00:04:35,299
+00:04:23,907 --> 00:04:35,512
 Or le testament est de juillet 2009. Gilles Féliho n'a pu en hériter qu'au décès de son père, le 3 décembre 2010. Un testament est un acte unilatéral qui produit son effet à la mort de son auteur.
 
 37
-00:04:35,649 --> 00:04:47,318
+00:04:35,862 --> 00:04:47,531
 Un testament ne peut pas constater un acte postérieur au décès. Il ne peut constater ni une disposition de l'immeuble par le légataire, ni l'exécution volontaire de ses clauses, puisque ces actes sont par nature postérieurs.
 
 38
-00:04:47,668 --> 00:04:52,340
+00:04:47,881 --> 00:04:52,553
 On ne peut pas déduire l'exécution des dispositions testamentaires du testament lui-même.
 
 39
-00:04:52,690 --> 00:04:59,666
+00:04:52,903 --> 00:04:59,879
 Le mémoire du commissaire principal Konto écrit : « à la lecture du testament, son père a déclaré lui avoir acheté la parcelle ».
 
 40
-00:05:00,016 --> 00:05:06,971
+00:05:00,229 --> 00:05:07,184
 Un achat n'est pas un legs. Une acquisition n'est pas une disposition. Et le testament ne figure pas parmi les pièces jointes au mémoire.
 
 41
-00:05:07,321 --> 00:05:09,987
+00:05:07,534 --> 00:05:10,414
 Faire dire au testament ce qu'un testament ne peut pas dire.
 
 42
-00:05:12,287 --> 00:05:17,215
+00:05:12,714 --> 00:05:17,642
 Le mémoire écrit que ce jugement, ayant autorité de la chose jugée, est non assorti de recours.
 
 43
-00:05:17,515 --> 00:05:21,931
+00:05:17,942 --> 00:05:22,358
 Le jugement dit : en premier ressort. Exécution provisoire. Délai d'appel : un mois.
 
 44
-00:05:22,231 --> 00:05:26,498
+00:05:22,658 --> 00:05:26,925
 La Brigade criminelle tranche ainsi une question de droit civil, qui n'est pas la sienne.
 
 45
-00:05:26,798 --> 00:05:33,987
+00:05:27,225 --> 00:05:34,414
 Devant la Cour constitutionnelle, le plaignant dénonce une usurpation des prérogatives judiciaires, sans aucune garantie procédurale.
 
 46
-00:05:34,287 --> 00:05:38,533
+00:05:34,714 --> 00:05:39,066
 Faire dire au testament ce qu'il ne peut pas dire. Faire dire au jugement ce qu'il ne dit pas.
 
 47
-00:05:40,633 --> 00:05:49,123
+00:05:41,166 --> 00:05:49,827
 Interrogé sur les obstacles que poserait le plaignant, le notaire répond : « son objectif principal est de faire échec à l'exécution des dispositions du testament ».
 
 48
-00:05:49,423 --> 00:05:55,567
+00:05:50,127 --> 00:05:56,271
 Le mémoire du commissaire principal Konto rapporte cette déclaration. Aucun acte d'enquête n'est cité à son appui.
 
 49
-00:05:57,467 --> 00:06:05,083
+00:05:58,171 --> 00:06:05,787
 En 2017, un huissier consigne que la mairie de Cotonou indique, pour la parcelle B du lot 488, une superficie : néant.
 
 50
-00:06:05,383 --> 00:06:09,522
+00:06:06,087 --> 00:06:10,226
 Et que l'Institut géographique national ne dispose d'aucun document afférent.
 
 51
-00:06:09,822 --> 00:06:13,897
+00:06:10,526 --> 00:06:14,601
 Ce procès-verbal ne figure pas dans le mémoire du commissaire principal Konto.
 
 52
-00:06:16,197 --> 00:06:27,951
+00:06:16,901 --> 00:06:28,655
 Le faux en écriture publique : l'article 303 du Code pénal punit de la réclusion criminelle à perpétuité tout fonctionnaire ou officier public qui constate comme vrais des faits faux, ou comme avérés des faits qui ne l'étaient pas.
 
 53
-00:06:28,351 --> 00:06:34,645
+00:06:29,055 --> 00:06:35,349
 L'article 305 punit celui qui a fait usage des actes faux. L'article 22 définit la complicité.
 
 54
-00:06:35,045 --> 00:06:44,325
+00:06:35,749 --> 00:06:45,029
 L'ancien Code pénal, dit Code Bouvenet, vise de même le faux commis par un officier public, la constatation comme vrais de faits qui sont faux, et l'usage conscient d'un acte faux.
 
 55
-00:06:44,725 --> 00:06:52,426
+00:06:45,429 --> 00:06:53,130
 Le jugement constate que Gilles Féliho a même déjà disposé de la parcelle bâtie sise au lot 488 de Cotonou, quartier Gbégamey.
 
 56
-00:06:52,826 --> 00:06:59,567
+00:06:53,530 --> 00:07:00,271
 L'enquête ne rapporte ni la preuve de l'existence de cette parcelle, ni la preuve d'un acte de disposition postérieur au décès.
 
 57
-00:06:59,967 --> 00:07:06,879
+00:07:00,671 --> 00:07:07,583
 Les neuf pièces jointes au mémoire n'établissent ni l'une ni l'autre. Le procès-verbal de 2017 consigne : superficie, néant.
 
 58
-00:07:09,179 --> 00:07:14,107
-Cinq cent soixante-trois jours entre la plainte et la notification de la Cour constitutionnelle.
+00:07:09,883 --> 00:07:14,811
+Cinq cent soixante-sept jours entre la plainte et la notification de la Cour constitutionnelle.
 
 59
-00:07:14,407 --> 00:07:18,887
+00:07:15,111 --> 00:07:19,591
 Cinquante-quatre jours, de cette notification au mémoire du commissaire principal Konto.
 
 60
-00:07:19,187 --> 00:07:25,993
+00:07:19,891 --> 00:07:26,697
 Le 3 juillet 2025, le parquet de la CRIET classe sans suite : « je n'ai pas estimé opportun d'engager des poursuites ».
 
 61
-00:07:26,293 --> 00:07:30,495
+00:07:26,997 --> 00:07:31,199
 Douze jours plus tard, le 15 juillet, la Cour constitutionnelle tient audience.
 
 62
-00:07:32,595 --> 00:07:37,310
+00:07:33,299 --> 00:07:38,014
 Six questions pour le commissaire principal Sabi Fulbert Konto. Les réponses seront publiées.
