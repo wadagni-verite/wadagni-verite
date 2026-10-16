@@ -90,6 +90,12 @@ Votre navigateur ne lit pas cette vidéo.
 - *Ce que dit la loi.* Article 483, point 9 : l'Autorité est en charge « d'informer, sans délai, le procureur de la République, conformément aux dispositions du » code de procédure pénale.
 - *Ce que contiennent les pièces.* La plainte et les observations du 21 octobre 2024 demandent cette information. Aucune pièce ne la mentionne.
 
+**6. Protéger ou menacer**
+
+- *Ce que dit la loi.* Article 483 du Code du numérique : l'Autorité « s'assure que les technologies de l'information et de la communication ne comportent pas de menace au regard des libertés publiques et de la vie privée » et est chargée « d'informer les personnes concernées […] de leurs droits et obligations » (point 3). Article 448 : « toute personne concernée a le droit d'introduire une réclamation auprès de l'Autorité ».
+- *Ce que contiennent les pièces.* Le 13 décembre 2024, le plaignant informe l'Autorité, par courtoisie, du communiqué qu'il entend publier. Le 16 décembre 2024, l'Autorité répond : « Il vous est loisible de publier votre communiqué, l'APDP se réserve le droit d'agir convenablement et vous répondrez de vos actes en temps opportun. » Le plaignant écrit en retour : « C'est vous dire que je ne crains pas vos menaces, ni intimidations. Mes deux boussoles sont : la loi et la vérité. »
+- *Ce que les pièces établissent.* Le courriel annonce une action possible contre l'auteur de la réclamation ; il ne cite aucun texte, ne dit rien de l'état d'avancement de la plainte ni de l'information du Procureur, que la plainte demande depuis le 2 octobre 2023. L'institution chargée de protéger y annonce qu'elle se réserve le droit d'agir contre la personne qu'elle doit protéger. Voir le [cas pratique](/batonnier-hounkpatin/cas-pratique-convocation-invitation-code-du-numerique/), question 7.
+
 ### Les durées
 
 | Durée | Calcul | Pièces |
