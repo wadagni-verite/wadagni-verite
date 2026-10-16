@@ -94,7 +94,8 @@ Votre navigateur ne lit pas cette vidéo.
 
 - *Ce que dit la loi.* Article 483 du Code du numérique : l'Autorité « s'assure que les technologies de l'information et de la communication ne comportent pas de menace au regard des libertés publiques et de la vie privée » et est chargée « d'informer les personnes concernées […] de leurs droits et obligations » (point 3). Article 448 : « toute personne concernée a le droit d'introduire une réclamation auprès de l'Autorité ».
 - *Ce que contiennent les pièces.* Le 13 décembre 2024, le plaignant informe l'Autorité, par courtoisie, du communiqué qu'il entend publier. Le 16 décembre 2024, l'Autorité répond : « Il vous est loisible de publier votre communiqué, l'APDP se réserve le droit d'agir convenablement et vous répondrez de vos actes en temps opportun. » Le plaignant écrit en retour : « C'est vous dire que je ne crains pas vos menaces, ni intimidations. Mes deux boussoles sont : la loi et la vérité. »
-- *Ce que les pièces établissent.* Le courriel annonce une action possible contre l'auteur de la réclamation ; il ne cite aucun texte, ne dit rien de l'état d'avancement de la plainte ni de l'information du Procureur, que la plainte demande depuis le 2 octobre 2023. L'institution chargée de protéger y annonce qu'elle se réserve le droit d'agir contre la personne qu'elle doit protéger. Voir le [cas pratique](/batonnier-hounkpatin/cas-pratique-convocation-invitation-code-du-numerique/), question 7.
+- *Ce que les pièces établissent.* Le courriel annonce une action possible contre l'auteur de la réclamation ; il ne cite aucun texte, ne dit rien de l'état d'avancement de la plainte ni de l'information du Procureur, que la plainte demande depuis le 2 octobre 2023. L'institution chargée de protéger y annonce qu'elle se réserve le droit d'agir contre la personne qu'elle doit protéger.
+- *La promptitude comparée.* Le plaignant écrit le vendredi 13 décembre 2024 à 10 h 18 ; l'Autorité répond le lundi 16 décembre 2024 à 7 h 58 : **2 jours 21 h 40**, un week-end compris, à la première heure du premier jour ouvré. Dans le même temps, la plainte du 3 octobre 2023 est sans décision contre le notaire mis en cause depuis **440 jours** (plus de douze mois), et aucune pièce publiée ne mentionne l'information du Procureur « sans délai ». Voir le [cas pratique](/batonnier-hounkpatin/cas-pratique-convocation-invitation-code-du-numerique/), question 7.
 
 ### Les durées
 
@@ -102,6 +103,8 @@ Votre navigateur ne lit pas cette vidéo.
 |---|---|---|
 | **72 jours** | 3 octobre → 14 décembre 2023 : de la plainte à l'accusé de réception | Procès-verbaux ; accusé de réception |
 | **260 jours** | 3 octobre 2023 → 19 juin 2024 : de la plainte à la séance du 19 juin | Procès-verbal du 19 juin 2024 |
+| **2 jours 21 h 40** | 13 décembre 2024, 10 h 18 → 16 décembre 2024, 7 h 58 : du courriel de courtoisie du plaignant à la réponse de l'Autorité (« vous répondrez de vos actes ») | Échange de courriels |
+| **440 jours** | 3 octobre 2023 → 16 décembre 2024 : de la plainte à la réponse de l'Autorité, sans décision contre le notaire | Procès-verbaux ; échange de courriels |
 | **443 jours** | 3 octobre 2023 → 19 décembre 2024 : de la plainte à la dernière séance | Lettre du 5 décembre 2024 ; courriels |
 | **665 jours** | 19 décembre 2024 → 15 octobre 2026 : depuis la dernière séance | Courriels ; confirmation de l'éditeur |
 | **1 108 jours** | 3 octobre 2023 → 15 octobre 2026 : depuis la plainte | Procès-verbaux ; confirmation de l'éditeur |
