@@ -1824,6 +1824,23 @@
                 </div>
             </article>
 
+            <article class="doc-featured" id="avocat-fade">
+                <div class="doc-featured-icon">⚖️</div>
+                <div class="doc-featured-body">
+                    <span class="doc-featured-tag">Dossier · Me Victorien Fade</span>
+                    <h3>Où est l'acte ? Le jugement du 31 octobre 2014 et la parcelle qui n'existe pas</h3>
+                    <p>
+                        Le tribunal de Cotonou constate qu'un héritier « a même déjà disposé » d'une parcelle bâtie, sans citer aucun acte ; les registres de la mairie répondent « néant ».
+                        La vente est invoquée par les héritiers, assistés de Me Victorien Fade, qui fut en 2007 le mandataire de l'héritier visé. S'il existe, l'acte de disposition est entre ses mains : qu'il le montre.
+                        Un film de 4 minutes 11, la chronologie, la règle sur le conflit d'intérêts et les pièces.
+                    </p>
+                    <p style="font-weight:700;color:var(--navy)" id="counter-fade">⏰ Plus de 4300 jours depuis le jugement, aucun acte de disposition produit</p>
+                    <div class="doc-featured-actions">
+                        <a href="/avocat-fade/" class="btn">🎬 Voir le film et les pièces</a>
+                    </div>
+                </div>
+            </article>
+
             <div class="docs-grid">
                 <div class="doc-card">
                     <div class="doc-icon">📄</div>
@@ -1903,6 +1920,14 @@
             if (!el) return;
             const jours = Math.floor((new Date() - new Date('2025-09-29')) / 86400000);
             el.textContent = `⏰ ${jours} jours depuis le dépôt de la plainte avec constitution de partie civile, sans suite connue`;
+        })();
+
+        (function () {
+            const el = document.getElementById('counter-fade');
+            if (!el) return;
+            const j1 = Math.floor((new Date() - new Date('2014-10-31')) / 86400000);
+            const j2 = Math.floor((new Date() - new Date('2023-04-02')) / 86400000);
+            el.textContent = `⏰ ${j1} jours depuis le jugement, aucun acte de disposition produit ; ${j2} jours depuis la plainte déontologique, sans décision connue`;
         })();
 
         (function () {

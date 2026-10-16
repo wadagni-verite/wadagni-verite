@@ -34,11 +34,14 @@ CIBLES = [
     'pieces/procedures-benin/apdp-invitation-session-2024-12-05.pdf',
     'pieces/procedures-benin/apdp-observations-2024-10-21.pdf',
     'pieces/procedures-benin/apdp-echange-communique-2024-12.pdf',
+    'pieces/procedures-benin/citation-directe-diffamation-heritiers-2013-06.pdf',
+    'pieces/reglement-interieur-harmonise-uemoa-2023.pdf',
+    'pieces/loi-1965-06-organisation-du-barreau-dahomey-extrait-art-18-50.pdf',
 ]
 # lignes écartées du calque de texte : courriels et numéros de téléphone (même d'institutions), pour qu'aucune coordonnée
 # ne soit indexée par les moteurs de recherche, y compris lorsqu'elle est lisible sur l'image d'origine
 COORDONNEES = re.compile(r'@|(?:\+\(?\d{2,3}\)?|\b)\d{2}[\s.\-]?\d{2}[\s.\-]\d{2}[\s.\-]\d{2}\b|\bt[ée]l\b|\be-?mail\b', re.I)
-SEUIL = 80   # caractères : en dessous, la page est considérée comme une image pure
+SEUIL = int(os.environ.get('SEUIL', 80))   # caractères : en dessous, la page est considérée comme une image pure
 
 def ocr(path):
     d = pymupdf.open(path)
