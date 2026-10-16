@@ -1,0 +1,256 @@
+{
+ "total": 242.79999999999995,
+ "sequences": {
+  "1": [
+   0.0,
+   18.733333333333334
+  ],
+  "2": [
+   18.733333333333334,
+   38.18266666666667
+  ],
+  "3": [
+   38.18266666666667,
+   56.92933333333333
+  ],
+  "4": [
+   56.92933333333333,
+   79.54666666666668
+  ],
+  "5": [
+   79.54666666666668,
+   109.80133333333335
+  ],
+  "6": [
+   109.80133333333335,
+   136.95333333333335
+  ],
+  "7": [
+   136.95333333333335,
+   171.01866666666666
+  ],
+  "8": [
+   171.01866666666666,
+   206.25733333333332
+  ],
+  "9": [
+   206.25733333333332,
+   225.868
+  ],
+  "10": [
+   225.868,
+   236.79999999999995
+  ],
+  "16": [
+   236.79999999999995,
+   242.79999999999995
+  ]
+ },
+ "cues": [
+  [
+   1.6,
+   8.768,
+   "Le 31 octobre 2014, le tribunal de Cotonou constate que Gilles Féliho a exécuté volontairement le testament."
+  ],
+  [
+   9.068,
+   14.123999999999999,
+   "La raison : il aurait « même déjà disposé » de la parcelle bâtie du lot 488."
+  ],
+  [
+   14.424,
+   17.133333333333333,
+   "Disposé par quel acte ? Le jugement n'en cite aucun."
+  ],
+  [
+   19.633333333333333,
+   25.073333333333334,
+   "Le 19 décembre 2017, à la demande de Gilles Féliho, un huissier compulse les registres."
+  ],
+  [
+   25.373333333333335,
+   30.024,
+   "Mairie de Cotonou : superficie « néant ». Institut géographique national : aucun document."
+  ],
+  [
+   30.324,
+   36.382666666666665,
+   "Gilles Féliho l'avait dit : soit quelqu'un a vendu à sa place, soit la parcelle n'existe pas. Les registres répondent : néant."
+  ],
+  [
+   39.08266666666667,
+   42.02666666666667,
+   "Qui a invoqué cette vente ? Les héritiers, dans leurs conclusions."
+  ],
+  [
+   42.32666666666667,
+   45.548,
+   "Ils sont assistés de Maître Victorien Olatundji Fade, avocat à la Cour."
+  ],
+  [
+   45.848,
+   51.16,
+   "Leurs conclusions écrivent : « en vendant la parcelle bâtie du lot 488, quartier Godomey »."
+  ],
+  [
+   51.46,
+   55.129333333333335,
+   "Le jugement écrit : quartier Gbégamey. Deux quartiers pour une seule parcelle."
+  ],
+  [
+   57.82933333333333,
+   62.82133333333333,
+   "Dans une procédure où l'avocat est obligatoire, seuls les avocats des parties déposent les pièces."
+  ],
+  [
+   63.12133333333333,
+   66.364,
+   "Et ces pièces sont débattues contradictoirement, rappelle le plaignant."
+  ],
+  [
+   66.664,
+   70.71733333333333,
+   "Si un acte de disposition existe, il est donc entre les mains de Maître Fade."
+  ],
+  [
+   71.01733333333334,
+   73.57733333333334,
+   "Qu'il le montre : une date, un officier, un acquéreur."
+  ],
+  [
+   73.87733333333334,
+   77.54666666666667,
+   "Près de douze ans après le jugement, aucun acte n'a été montré au plaignant."
+  ],
+  [
+   80.44666666666669,
+   85.50266666666668,
+   "Le 19 septembre 2007, le notaire écrit à Maître Fade, « mandataire » de Gilles Féliho."
+  ],
+  [
+   85.80266666666668,
+   91.88266666666668,
+   "Août 2007 : sa sœur écrit que Maître Fade « fera l'affaire », « maîtrisant le dossier pour l'avoir suivi à son début »."
+  ],
+  [
+   92.18266666666668,
+   97.58000000000001,
+   "Juin 2013 : Maître Fade assiste trois héritiers qui citent Gilles Féliho comme « complice » de diffamation."
+  ],
+  [
+   97.88000000000001,
+   104.57866666666668,
+   "2014 : il assiste les héritiers contre lui dans l'affaire du testament. Mars 2015 : il fait signifier le jugement."
+  ],
+  [
+   104.87866666666667,
+   107.80133333333335,
+   "Le mandataire d'hier, l'adversaire d'aujourd'hui."
+  ],
+  [
+   110.70133333333335,
+   118.70133333333335,
+   "La règle que la profession s'est donnée en mai 2023 : pas d'affaire d'un nouveau client si la connaissance des affaires de l'ancien client le favoriserait."
+  ],
+  [
+   119.00133333333335,
+   125.01733333333335,
+   "En cas de conflit d'intérêts, l'avocat ne peut être le conseil ou le défenseur de plus d'un client dans une même affaire."
+  ],
+  [
+   125.31733333333335,
+   130.52266666666668,
+   "Le 2 avril 2023, le plaignant dépose une plainte déontologique devant le Bâtonnier."
+  ],
+  [
+   130.8226666666667,
+   135.15333333333336,
+   "Complicité de faux en écriture publique. Usage de faux en écriture publique."
+  ],
+  [
+   137.85333333333335,
+   143.9546666666667,
+   "Le 12 mars 2025, la Brigade criminelle convoque Maître Fade pour le 19 mars, à 9 heures."
+  ],
+  [
+   144.25466666666668,
+   153.62,
+   "La convocation rappelle l'article 56 du Code de procédure pénale : les personnes convoquées sont tenues de comparaître, sous peine d'y être contraintes par la force publique."
+  ],
+  [
+   153.92000000000002,
+   159.57333333333335,
+   "Le 17 mars, le Bâtonnier invoque sa « prérogative de consultation » auprès du procureur général."
+  ],
+  [
+   159.87333333333333,
+   166.48666666666668,
+   "Le 19 mars, Maître Fade « ne s'est pas présenté ». Le notaire, lui, est entendu de 9 h 14 à 10 h 52."
+  ],
+  [
+   166.78666666666666,
+   169.21866666666665,
+   "Une convocation oblige. Une invitation, non."
+  ],
+  [
+   171.91866666666667,
+   178.25466666666668,
+   "2 avril 2023 : plainte déontologique. 20 juin 2024 : relance. Aucune décision connue."
+  ],
+  [
+   178.55466666666666,
+   186.74666666666667,
+   "Loi sur le barreau, article 30 : sans décision du conseil de discipline dans les trois mois, le procureur général peut saisir directement la Cour d'appel."
+  ],
+  [
+   187.04666666666665,
+   194.3853333333333,
+   "Le 14 mars 2025, le procureur général écrit au Bâtonnier. Le 17 mars : « la cause est déjà en instruction »."
+  ],
+  [
+   194.68533333333332,
+   200.9573333333333,
+   "1 293 jours depuis la plainte. 581 jours depuis la lettre du procureur général."
+  ],
+  [
+   201.25733333333332,
+   204.4573333333333,
+   "Le pouvoir de saisir la Cour d'appel existe. Qui l'exerce ?"
+  ],
+  [
+   207.15733333333333,
+   211.33866666666665,
+   "À Maître Fade : où est l'acte de disposition ? Quelle date, quel officier, quel acquéreur ?"
+  ],
+  [
+   211.83866666666665,
+   216.42533333333333,
+   "À Maître Fade : pourquoi ne pas vous être présenté à la convocation de la Brigade criminelle ?"
+  ],
+  [
+   216.92533333333333,
+   220.21066666666667,
+   "Au Bâtonnier : où est la décision sur la plainte de 2023 ?"
+  ],
+  [
+   220.71066666666667,
+   223.868,
+   "Au procureur général : pourquoi ne pas saisir la Cour d'appel ?"
+  ],
+  [
+   226.768,
+   228.00533333333334,
+   "Une seule pièce suffit."
+  ],
+  [
+   228.30533333333332,
+   229.94799999999998,
+   "Si l'acte existe, qu'il le montre."
+  ],
+  [
+   230.248,
+   234.6,
+   "Tant qu'il ne le montre pas, le constat du jugement repose sur un acte que personne n'a vu."
+  ]
+ ]
+}

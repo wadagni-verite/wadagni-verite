@@ -1,8 +1,8 @@
 ## PAGE 19 — Où est l'acte ? Me Victorien Fade
 
 **URL :** `/avocat-fade/`
-**Title :** Où est l'acte ? Me Victorien Fade, le jugement du 31 octobre 2014 et la parcelle B du lot 488
-**Meta description :** Le jugement du 31 octobre 2014 constate qu'un héritier a « disposé » d'une parcelle que les registres ne connaissent pas. Qui a invoqué la vente, qui peut produire l'acte, et pourquoi l'avocat des héritiers ne le montre pas.
+**Title :** Où est l'acte ? Me Fade et la parcelle B du lot 488
+**Meta description :** Le jugement du 31 octobre 2014 constate qu'un héritier a « disposé » d'une parcelle que les registres ne connaissent pas. Qui a invoqué la vente ? Qui peut produire l'acte ?
 **H1 :** Où est l'acte ? Le jugement du 31 octobre 2014, la parcelle B du lot 488 et Me Victorien Olatundji Fade
 **Balisage :** `VideoObject`
 
