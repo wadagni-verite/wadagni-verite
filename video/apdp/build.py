@@ -57,6 +57,21 @@ SEQ = {
       ("Le 25 septembre : nouvelle séance. Le délibéré est rabattu pour envoyer les procès-verbaux au plaignant, « afin de garantir le principe du contradictoire ».", "Le vingt-cinq septembre : nouvelle séance. Le délibéré est rabattu pour envoyer les procès-verbaux au plaignant, « afin de garantir le principe du contradictoire »."),
       ("Le dossier est renvoyé au 23 octobre.", "Le dossier est renvoyé au vingt-trois octobre."),
       ("La lettre d'invitation du 10 octobre, signée du rapporteur, vise l'article 457.", "La lettre d'invitation du dix octobre, signée du rapporteur, vise l'article quatre cent cinquante-sept.")),
+ 8.5: Z(1.14, 0.9, 2.2,
+      ("Le contradictoire est garanti : article 454 pour les sanctions, article 457 pour le rapport d'instruction.", "Le contradictoire est garanti : article quatre cent cinquante-quatre pour les sanctions, article quatre cent cinquante-sept pour le rapport d'instruction."),
+      ("Pourtant, le 24 mai, le plaignant doit demander si les échanges sont contradictoires.", "Pourtant, le vingt-quatre mai, le plaignant doit demander si les échanges sont contradictoires."),
+      ("Le 23 juillet, on lui répond de formuler sa demande de rapport en séance. Le 24 juillet : « Je n'ai pas accès ».", "Le vingt-trois juillet, on lui répond de formuler sa demande de rapport en séance. Le vingt-quatre juillet : « Je n'ai pas accès »."),
+      ("Le 28 août, la plénière ne peut faire suite à sa demande. Le rapport, lui, a été notifié au notaire.", "Le vingt-huit août, la plénière ne peut faire suite à sa demande. Le rapport, lui, a été notifié au notaire."),
+      ("Le 25 septembre, le délibéré est rabattu « afin de garantir le principe du contradictoire ».", "Le vingt-cinq septembre, le délibéré est rabattu « afin de garantir le principe du contradictoire »."),
+      ("124 jours après sa première question. 98 jours après la séance du 19 juin, il accuse réception des procès-verbaux.", "Cent vingt-quatre jours après sa première question. Quatre-vingt-dix-huit jours après la séance du dix-neuf juin, il accuse réception des procès-verbaux."),
+      ("Le plaignant a dû batailler pour obtenir ce que la loi garantit.", "Le plaignant a dû batailler pour obtenir ce que la loi garantit.")),
+ 10.5: Z(1.14, 0.9, 2.2,
+      ("L'Autorité est chargée de protéger : l'article 483 lui demande de s'assurer qu'aucune menace ne pèse sur les libertés publiques et la vie privée.", "L'Autorité est chargée de protéger : l'article quatre cent quatre-vingt-trois lui demande de s'assurer qu'aucune menace ne pèse sur les libertés publiques et la vie privée."),
+      ("Vendredi 13 décembre 2024, 10 heures 18 : le plaignant l'informe, par courtoisie, de son communiqué.", "Vendredi treize décembre deux mille vingt-quatre, dix heures dix-huit : le plaignant l'informe, par courtoisie, de son communiqué."),
+      ("Lundi 16 décembre, 7 heures 58 : « Vous répondrez de vos actes en temps opportun. »", "Lundi seize décembre, sept heures cinquante-huit : « Vous répondrez de vos actes en temps opportun. »"),
+      ("Deux jours, vingt et une heures, quarante minutes pour brandir la menace.", "Deux jours, vingt et une heures, quarante minutes pour brandir la menace."),
+      ("440 jours sans décision contre le notaire. Aucune mention de l'information du Procureur, que la loi demande sans délai.", "Quatre cent quarante jours sans décision contre le notaire. Aucune mention de l'information du Procureur, que la loi demande sans délai."),
+      ("Une institution chargée de protéger, qui menace.", "Une institution chargée de protéger, qui menace.")),
  9: Z(1.14, 0.9, 1.6,
       ("Le 21 octobre, le plaignant dépose ses observations.", "Le vingt et un octobre, le plaignant dépose ses observations."),
       ("Il relève trois versions du notaire : un mandat, le 20 octobre 2016 ; « pas partie aux actes », le 7 septembre 2023 ; une décision de justice exécutoire, le 19 juin 2024.", "Il relève trois versions du notaire : un mandat, le vingt octobre deux mille seize ; « pas partie aux actes », le sept septembre deux mille vingt-trois ; une décision de justice exécutoire, le dix-neuf juin deux mille vingt-quatre."),
@@ -82,7 +97,8 @@ SEQ = {
       ("Une décision a-t-elle été prise à l'issue du délibéré du 19 décembre 2024 ?", "Une décision a-t-elle été prise à l'issue du délibéré du dix-neuf décembre deux mille vingt-quatre ?"),
       ("Le plaignant en sera-t-il informé, comme l'article 448 le prévoit ?", "Le plaignant en sera-t-il informé, comme l'article quatre cent quarante-huit le prévoit ?"),
       ("Le Procureur de la République a-t-il été informé, article 483, point 9 ?", "Le Procureur de la République a-t-il été informé, article quatre cent quatre-vingt-trois, point neuf ?"),
-      ("La demande de suppression des données sur le certificat a-t-elle été examinée ?", "La demande de suppression des données sur le certificat a-t-elle été examinée ?"), gap=0.5),
+      ("La demande de suppression des données sur le certificat a-t-elle été examinée ?", "La demande de suppression des données sur le certificat a-t-elle été examinée ?"),
+      ("Pourquoi deux jours pour menacer, et 440 jours sans décision ?", "Pourquoi deux jours pour menacer, et quatre cent quarante jours sans décision ?"), gap=0.5),
  15: Z(1.12, 0.9, 2.0,
       ("Une plainte, sept séances, un délibéré. Aucune décision connue du plaignant.", "Une plainte, sept séances, un délibéré. Aucune décision connue du plaignant."),
       ("Ce ne sont pas des opinions : ce sont des procès-verbaux et des lettres.", "Ce ne sont pas des opinions : ce sont des procès-verbaux et des lettres.")),
@@ -145,11 +161,17 @@ def tick(at, amp=0.25):
     i = int(at * SR); sfx[i:i + m] += y[:max(0, min(m, n_ - i))]
 def heart(at, amp=0.55):
     thud(at, 0.35, 62, amp); thud(at + 0.34, 0.35, 55, amp * 0.8)
-for sq in (4, 6, 9, 12):                      # souffles secs
+for sq in (4, 6, 8.5, 9, 10.5, 12):                      # souffles secs
     burst(SEQT[sq][0] + 0.1, 0.4, 10 ** (-18 / 20), 400, 2500)
 thud(SEQT[1][0] + 1.0, 0.4, 120, 0.35)         # tampon : réception de la plainte
 for i in range(7):                             # une séance, un coup
     thud(T[(11, 0)][0] + 0.2 + i * 1.15, 0.4, 100, 0.3)
+for i in range(4):                             # les demandes du plaignant, une à une
+    thud(T[(8.5, 1 + i)][0] + 0.1, 0.4, 100, 0.3)
+thud(T[(10.5, 1)][0] + 0.2, 0.4, 110, 0.35); thud(T[(10.5, 2)][0] + 0.2, 0.5, 90, 0.5)   # vendredi, lundi
+_tt = T[(10.5, 3)][0]
+while _tt < T[(10.5, 3)][0] + 2.0:             # chronomètre
+    tick(_tt, 0.3); _tt += 0.12
 _tt = T[(4, 2)][0] + 0.2; _iv = 0.5            # le délai de quatre-vingt-dix jours qui s'écoule
 while _tt < T[(4, 2)][1] + 1.0:
     tick(_tt); _tt += _iv; _iv *= 1.06
@@ -331,6 +353,34 @@ card(23, 'OCT.', 2024, 1360, 160, W8[1][0] - 0.2, b, '', 'renvoi')
 text("« le délibéré du dossier a été rabattu pour envoi des procès-verbaux des sessions précédentes au plaignant <b>afin de garantir le principe du contradictoire</b> »", 1000, 470, 840, W8[0][0] + 2.0, b, 'quote')
 text("Lettre du <b>10 octobre 2024</b>, signée du rapporteur <b>Amouda Abou Seydou</b> · article 457 du Code du numérique", 1000, 740, 840, W8[2][0] - 0.2, b, 'quote')
 
+# --- 8.5 : le contradictoire arraché
+a, b = Q(8.5); W85 = [W(8.5, i) for i in range(7)]
+heads(a + 0.2, b, 'CE QUE LA LOI GARANTIT', 'CE QUE LE PLAIGNANT A DÛ OBTENIR')
+text("<b>Art. 454</b> · sanctions prononcées « dans le respect du principe du contradictoire »", 80, 150, 840, W85[0][0] - 0.2, b, 'quote')
+text("<b>Art. 457</b> · le rapport est notifié au responsable du traitement, qui peut faire des observations et assister aux séances", 80, 330, 840, W85[0][0] + 3.2, b, 'quote')
+for i, (tx, ta, cls) in enumerate([("<b>24 mai</b> · il demande si les échanges sont contradictoires", W85[1][0], 'nm'), ("<b>23 juillet</b> · réponse : formuler sa demande de rapport en séance<br><b>24 juillet</b> · « Je n'ai pas accès »", W85[2][0], 'nm'),
+                                    ("<b>28 août</b> · la plénière « ne peut faire suite » à sa demande ; le rapport a été notifié au notaire", W85[3][0], 'nm'),
+                                    ("<b>25 septembre</b> · délibéré rabattu « afin de garantir le principe du contradictoire »", W85[4][0], 'nm ocrebox')]):
+    text(tx, 1000, 150 + i * 165, 840, ta - 0.2, b, cls)
+counter(124, 'JOURS', 80, 560, W85[5][0] - 0.2, b, W85[5][0], W85[5][0] + 1.6, w=840, size=120, sub="du 24 mai au 25 septembre 2024 : de la première question au délibéré rabattu")
+text("<b>98 jours</b> après la séance du 19 juin : le plaignant accuse réception des procès-verbaux", 80, 800, 840, W85[5][0] + 2.2, b, 'nm')
+text("Il a fallu <span class='ocre'>batailler</span> pour obtenir<br>ce que la loi garantit.", 1000, 830, 840, W85[6][0] - 0.2, b, 'bigtext')
+
+# --- 10.5 : protéger ou menacer
+a, b = Q(10.5); W105 = [W(10.5, i) for i in range(6)]
+heads(a + 0.2, b, 'CE QUE LA LOI CONFIE À L\'AUTORITÉ', 'CE QU\'ELLE A FAIT')
+text("<b>Art. 483</b> · l'Autorité « s'assure que les technologies […] ne comportent pas de menace au regard des libertés publiques et de la vie privée »", 80, 150, 840, W105[0][0] - 0.2, b, 'quote')
+card(13, 'DÉC.', 2024, 1000, 150, W105[1][0] - 0.2, b, 'sm', 'vendredi · 10 h 18')
+arrow(W105[2][0] - 0.2, b, 1265, 200)
+card(16, 'DÉC.', 2024, 1340, 150, W105[2][0] - 0.2, b, 'sm', 'lundi · 7 h 58')
+text("« l'APDP se réserve le droit d'agir convenablement et <b>vous répondrez de vos actes</b> en temps opportun »", 1000, 440, 840, W105[2][0] + 1.0, b, 'quote ocrebox')
+for i, (num, un) in enumerate([(2, 'J'), (21, 'H'), (40, 'MIN')]):
+    counter(num, un, 1000 + i * 290, 640, W105[3][0] - 0.2, b, W105[3][0] + i * 0.5, W105[3][0] + 1.4 + i * 0.5, w=280, size=90)
+text("pour brandir la menace", 1000, 770, 840, W105[3][0] + 2.0, b, 'ctext')
+counter(440, 'JOURS', 80, 430, W105[4][0] - 0.2, b, W105[4][0], W105[4][0] + 2.4, w=840, size=130, sub="sans décision contre le notaire : du 3 octobre 2023 au 16 décembre 2024")
+text("Information du Procureur « sans délai » : <b>aucune mention</b>", 80, 720, 840, W105[4][0] + 3.0, b, 'nm ocrebox')
+text("Protéger ?<br><span class='ocre'>Menacer.</span>", 1000, 830, 840, W105[5][0] - 0.2, b, 'bigtext')
+
 # --- 9 : les observations du 21 octobre
 a, b = Q(9); W9 = [W(9, i) for i in range(3)]
 heads(a + 0.2, b, 'OBSERVATIONS · 21 OCTOBRE 2024', 'TROIS VERSIONS DU NOTAIRE')
@@ -379,13 +429,13 @@ text("Aucune décision<br>Aucune notification<br><span class='cap2'>reçue par l
 counter(665, 'JOURS', 80, 830, W13[2][0] - 0.2, b, W13[0][0], W13[2][1], w=840, size=100, sub="du 19 décembre 2024 au 15 octobre 2026")
 
 # --- 14 : les questions
-a, b = Q(14); W14 = [W(14, i) for i in range(4)]
+a, b = Q(14); W14 = [W(14, i) for i in range(5)]
 card(19, 'DÉC.', 2024, 1100, 220, a + 0.3, b, 'big', 'mis en délibéré')
 el('<div class="pulse" style="position:absolute;left:1085px;top:205px;width:450px;height:420px;border:6px solid #c0392b;border-radius:18px"></div>', a + 0.5, b, 0.4, '', 'left:0;top:0;width:1920px;height:1080px')
 QS = ["Une décision a-t-elle été prise à l'issue du délibéré du 19 décembre 2024 ?", "Le plaignant en sera-t-il informé, comme l'article 448 le prévoit ?",
-      "Le Procureur de la République a-t-il été informé, article 483, point 9 ?", "La demande de suppression des données sur le certificat a-t-elle été examinée ?"]
+      "Le Procureur de la République a-t-il été informé, article 483, point 9 ?", "La demande de suppression des données sur le certificat a-t-elle été examinée ?", "Pourquoi deux jours pour menacer, et 440 jours sans décision ?"]
 for i, q in enumerate(QS):
-    text(q, 80, 330, 900, W14[i][0] - 0.2, (W14[i + 1][0] - 0.3) if i < 3 else b, 'quest')
+    text(q, 80, 330, 900, W14[i][0] - 0.2, (W14[i + 1][0] - 0.3) if i < 4 else b, 'quest')
 
 # --- 15 : la conclusion
 a, b = Q(15); W15 = [W(15, i) for i in range(2)]

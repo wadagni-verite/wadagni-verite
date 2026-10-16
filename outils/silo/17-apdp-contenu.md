@@ -80,10 +80,11 @@ Votre navigateur ne lit pas cette vidéo.
 
 À l'audience du 19 juin 2024, l'avocat du notaire « s'est excusé au nom de son client quant à l'ignorance de l'obligation légale de mise en conformité » (procès-verbal, p. 3).
 
-**4. Le contradictoire**
+**4. Le contradictoire, obtenu de haute lutte**
 
-- *Ce que contiennent les pièces.* Le 25 septembre 2024, « le délibéré du dossier a été rabattu pour envoi des procès-verbaux des sessions précédentes au plaignant afin de garantir le principe du contradictoire » (lettre d'invitation du 10 octobre 2024). Le plaignant dépose ses observations le 21 octobre 2024, au vu des trois procès-verbaux.
-- *Ce que les pièces établissent.* Entre la séance du 19 juin et la mise en délibéré, il s'écoule 183 jours (du 19 juin au 19 décembre 2024). Le 24 mai 2024 déjà, le plaignant demandait si les échanges étaient contradictoires, des pièces du notaire lui étant inconnues.
+- *Ce que dit la loi.* Article 454 : les sanctions sont prononcées « dans le respect du principe du contradictoire ». Article 457 : le rapport est notifié au responsable du traitement, qui peut faire des observations et assister aux séances.
+- *Ce que contiennent les pièces.* Le 24 mai 2024, le plaignant demande à l'Autorité si les échanges sont contradictoires, des pièces du notaire lui étant inconnues, et s'il doit produire un mémoire. Le 23 juillet 2024, le rapporteur lui répond de « formuler expressément » sa demande de copie du rapport d'instruction « en session plénière ». Le 24 juillet, il écrit « J'attends le lien de participation annoncé », puis « Je n'ai pas accès ». Le 28 août 2024, le procès-verbal consigne que la plénière « ne peut faire suite à sa demande de mise à disposition du rapport d'instruction adressé à Monsieur Félix BALLEY ». Le 25 septembre 2024, le délibéré est « rabattu pour envoi des procès-verbaux des sessions précédentes au plaignant afin de garantir le principe du contradictoire » (lettre du 10 octobre 2024). Le plaignant accuse réception des procès-verbaux « au 25 septembre 2024 » et dépose ses observations le 21 octobre 2024, « en réponse à celles de M. BALLEY ».
+- *Ce que les pièces établissent.* Il s'écoule **124 jours** entre la première question du plaignant sur le contradictoire (24 mai 2024) et le délibéré rabattu pour le garantir (25 septembre 2024), et **98 jours** entre la séance du 19 juin et l'accusé de réception des procès-verbaux. Le rapport d'instruction a été notifié au notaire ; la demande du plaignant de l'obtenir est consignée comme ne pouvant recevoir suite. Le plaignant a dû demander, relancer et attendre pour obtenir ce que le texte garantit.
 
 **5. L'information du Procureur**
 
@@ -103,6 +104,8 @@ Votre navigateur ne lit pas cette vidéo.
 |---|---|---|
 | **72 jours** | 3 octobre → 14 décembre 2023 : de la plainte à l'accusé de réception | Procès-verbaux ; accusé de réception |
 | **260 jours** | 3 octobre 2023 → 19 juin 2024 : de la plainte à la séance du 19 juin | Procès-verbal du 19 juin 2024 |
+| **124 jours** | 24 mai → 25 septembre 2024 : de la première question du plaignant sur le contradictoire au délibéré rabattu « afin de garantir le principe du contradictoire » | Courriels ; lettre du 10 octobre 2024 |
+| **98 jours** | 19 juin → 25 septembre 2024 : de la séance du 19 juin à l'accusé de réception des procès-verbaux par le plaignant | Observations du 21 octobre 2024 |
 | **2 jours 21 h 40** | 13 décembre 2024, 10 h 18 → 16 décembre 2024, 7 h 58 : du courriel de courtoisie du plaignant à la réponse de l'Autorité (« vous répondrez de vos actes ») | Échange de courriels |
 | **440 jours** | 3 octobre 2023 → 16 décembre 2024 : de la plainte à la réponse de l'Autorité, sans décision contre le notaire | Procès-verbaux ; échange de courriels |
 | **443 jours** | 3 octobre 2023 → 19 décembre 2024 : de la plainte à la dernière séance | Lettre du 5 décembre 2024 ; courriels |
