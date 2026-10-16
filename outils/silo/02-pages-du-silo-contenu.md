@@ -42,6 +42,8 @@ Trois questions, adressables par écrit à l'Ordre des avocats du Bénin :
 
 Ces questions sont posées ici parce qu'elles sont vérifiables. Elles sont posées sans qualification : c'est aux pièces de parler.
 
+Quatre questions de plus, tirées du Règlement n° 05/CM/UEMOA et du règlement intérieur harmonisé, sont posées sur la page [Ce que disent les textes de l'UEMOA sur le traitement d'une plainte contre un avocat](/batonnier-hounkpatin/reglement-uemoa-plainte-contre-un-avocat/).
+
 ### Les pièces, dans l'ordre
 
 | Date | Acte | Pièce |
@@ -65,6 +67,7 @@ Ces questions sont posées ici parce qu'elles sont vérifiables. Elles sont pos�
 - [La réponse n° 268/2025 et ses neuf pièces](/batonnier-hounkpatin/brigade-criminelle-reponse-29-avril-2025/)
 - [Le recours n° 1471/331/REC-25 devant la Cour constitutionnelle](/batonnier-hounkpatin/recours-cour-constitutionnelle-1471-331-rec-25/)
 - [Ce que l'article 7-1 d) impose à une instance déontologique](/batonnier-hounkpatin/article-7-1-d-cadhp-delai-raisonnable/)
+- [Ce que disent les textes de l'UEMOA sur le traitement d'une plainte contre un avocat](/batonnier-hounkpatin/reglement-uemoa-plainte-contre-un-avocat/)
 - [Comment saisir le Bâtonnier et la Cour constitutionnelle au Bénin](/batonnier-hounkpatin/recours-contre-le-batonnier-benin-mode-emploi/)
 - [Les pièces, leurs références et leurs empreintes](/batonnier-hounkpatin/sources-et-pieces-verifiables/)
 - [Droit de réponse](/batonnier-hounkpatin/droit-de-reponse-et-mises-au-point/)
@@ -204,6 +207,7 @@ Les trois premières font l'objet d'une demande écrite à l'Ordre des avocats d
 ### Poursuivre
 
 - [La réponse n° 268/2025 et ses neuf pièces](/batonnier-hounkpatin/brigade-criminelle-reponse-29-avril-2025/)
+- [Ce que disent les textes de l'UEMOA sur le traitement d'une plainte contre un avocat](/batonnier-hounkpatin/reglement-uemoa-plainte-contre-un-avocat/)
 - [La plainte déontologique du 2 avril 2023](/batonnier-hounkpatin/plainte-deontologique-fade-2023/)
 - [Les pièces, leurs références et leurs empreintes](/batonnier-hounkpatin/sources-et-pieces-verifiables/)
 

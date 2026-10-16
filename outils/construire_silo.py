@@ -19,6 +19,7 @@ SRC14 = os.path.join(ROOT, 'outils', 'silo', '14-ministre-justice-contenu.md')  
 SRC16 = os.path.join(ROOT, 'outils', 'silo', '16-partie-civile-contenu.md')   # plainte avec constitution de partie civile (page 16, /plainte-partie-civile/)
 SRC18 = os.path.join(ROOT, 'outils', 'silo', '18-cas-pratique-convocation-contenu.md')   # troisième cas pratique (page 18)
 SRC17 = os.path.join(ROOT, 'outils', 'silo', '17-apdp-contenu.md')   # Autorité de Protection des Données Personnelles (page 17, /apdp/)
+SRC19 = os.path.join(ROOT, 'outils', 'silo', '19-reglement-uemoa-contenu.md')   # règlement UEMOA et plainte contre un avocat (page 19)
 SRC15 = os.path.join(ROOT, 'outils', 'silo', '15-cas-pratique-enquete-contenu.md')   # second cas pratique (page 15)
 CAS2 = '/batonnier-hounkpatin/cas-pratique-enquete-confusions-deontologie/'
 CAS3 = '/batonnier-hounkpatin/cas-pratique-convocation-invitation-code-du-numerique/'
@@ -28,6 +29,7 @@ VIDEOS = {12: ('classement', 'classement'), 13: ('enquete', 'enquete'), 14: ('mi
 OUT = os.path.join(ROOT, 'batonnier-hounkpatin')
 SITE = 'https://wadagni2026-verite.com'
 DATE = '2026-10-14'
+DATES = {0: '2026-10-16', 2: '2026-10-16', 7: '2026-10-16', 19: '2026-10-16'}   # pages créées ou modifiées après le 14 octobre
 HUB = '/batonnier-hounkpatin/'
 ANCRE_HUB = 'Ancien bâtonnier Angelo Hounkpatin — le dossier des pièces'
 CONTACT = 'contact@eji2.org'
@@ -122,6 +124,8 @@ PIECES = [
     ('Jugement n° 114/14/3ᵉ CH-EP', '31 oct. 2014', 8, 'jugement-succession-feliho-2014.pdf', '81f38a3b6459bfe09335ec8b49a0330d5c4d4fc8daca750ad25dd2ea077c5d06', True, None),
     ('Signification du jugement', '9 mars 2015', 3, 'pieces/procedures-benin/plainte-fade-piece-2-signification-jugement-2015-03-09.pdf', '5946ebe64458bd2939af16ebc7ff8d4e08759f1b787a8e0e928b9f761d5fe978', True, None),
     ('Procès-verbal de compulsion', '19 déc. 2017', 3, 'pieces/pv-compulsion-parcelle-b-lot-488-2017-12.pdf', 'be038ee0706cfc627722ff667748bf334f0246996848b4af8d9b4552da21d3dd', True, None),
+    ('Règlement n° 05/CM/UEMOA du 25 septembre 2014 relatif à l\u2019harmonisation des règles régissant la profession d\u2019avocat (copie du ministère de la Justice du Sénégal ; texte de référence)', '25 sept. 2014', 23, 'pieces/reglement-05-cm-uemoa-2014-profession-avocat.pdf', None, False, None),
+    ('Règlement intérieur harmonisé des barreaux de l\u2019espace UEMOA (fait à Dakar le 5 mai 2023 ; page 30 : signature pour le Barreau du Bénin)', '5 mai 2023', 30, 'pieces/reglement-interieur-harmonise-uemoa-2023.pdf', None, False, None),
     ('Dossier complet (correspondances et plainte)', '2023–2025', 13, DOSSIER, '4b9eb7bcb4bc0ab914bc8c0119b15b45dba7b11a677dcededee7677e81ad6d40', True, None),
 ]
 
@@ -255,7 +259,7 @@ def jsonld(p, pages, canonical, og, html_body):
            "identifier": "RNA W941020107",
            "address": {"@type": "PostalAddress", "streetAddress": "11 quai A. France", "postalCode": "75007", "addressLocality": "Paris", "addressCountry": "FR"}}
     art = {"@type": "Article", "@id": canonical + "#article", "headline": p['h1'][:110], "description": p['desc'],
-           "datePublished": DATE, "dateModified": DATE, "inLanguage": "fr", "mainEntityOfPage": canonical, "image": og,
+           "datePublished": DATES.get(p['num'], DATE) if p['num'] == 19 else DATE, "dateModified": DATES.get(p['num'], DATE), "inLanguage": "fr", "mainEntityOfPage": canonical, "image": og,
            "author": {"@id": SITE + "/#editeur"}, "publisher": {"@id": SITE + "/#editeur"}, "isAccessibleForFree": True}
     graph = []
     n = p['num']
@@ -423,9 +427,9 @@ def render(p, pages):
 
 def main():
     os.makedirs(os.path.join(OUT, 'assets'), exist_ok=True)
-    text = open(SRC, encoding='utf-8').read() + '\n' + open(SRC10, encoding='utf-8').read() + '\n' + open(SRC11, encoding='utf-8').read() + '\n' + open(SRC12, encoding='utf-8').read() + '\n' + open(SRC13, encoding='utf-8').read() + '\n' + open(SRC14, encoding='utf-8').read() + '\n' + open(SRC15, encoding='utf-8').read() + '\n' + open(SRC16, encoding='utf-8').read() + '\n' + open(SRC17, encoding='utf-8').read() + '\n' + open(SRC18, encoding='utf-8').read()
+    text = open(SRC, encoding='utf-8').read() + '\n' + open(SRC10, encoding='utf-8').read() + '\n' + open(SRC11, encoding='utf-8').read() + '\n' + open(SRC12, encoding='utf-8').read() + '\n' + open(SRC13, encoding='utf-8').read() + '\n' + open(SRC14, encoding='utf-8').read() + '\n' + open(SRC15, encoding='utf-8').read() + '\n' + open(SRC16, encoding='utf-8').read() + '\n' + open(SRC17, encoding='utf-8').read() + '\n' + open(SRC18, encoding='utf-8').read() + '\n' + open(SRC19, encoding='utf-8').read()
     pages = parse_pages(text)
-    assert len(pages) == 19, len(pages)
+    assert len(pages) == 20, len(pages)
     liste = []
     for p in pages:
         out, slug = render(p, pages)
