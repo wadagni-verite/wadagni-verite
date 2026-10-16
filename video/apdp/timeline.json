@@ -1,5 +1,5 @@
 {
- "total": 333.79199999999986,
+ "total": 420.46399999999966,
  "sequences": {
   "1": [
    0.0,
@@ -33,37 +33,45 @@
    183.60666666666665,
    203.28266666666664
   ],
-  "9": [
+  "8.5": [
    203.28266666666664,
-   229.52933333333328
+   248.41733333333326
+  ],
+  "9": [
+   248.41733333333326,
+   274.66399999999993
   ],
   "10": [
-   229.52933333333328,
-   255.23066666666665
+   274.66399999999993,
+   300.36533333333324
+  ],
+  "10.5": [
+   300.36533333333324,
+   337.79733333333314
   ],
   "11": [
-   255.23066666666665,
-   272.6746666666666
+   337.79733333333314,
+   355.2413333333331
   ],
   "12": [
-   272.6746666666666,
-   283.2413333333333
+   355.2413333333331,
+   365.80799999999977
   ],
   "13": [
-   283.2413333333333,
-   294.7199999999999
+   365.80799999999977,
+   377.2866666666664
   ],
   "14": [
-   294.7199999999999,
-   317.3599999999999
+   377.2866666666664,
+   404.0319999999997
   ],
   "15": [
-   317.3599999999999,
-   327.79199999999986
+   404.0319999999997,
+   414.46399999999966
   ],
   "16": [
-   327.79199999999986,
-   333.79199999999986
+   414.46399999999966,
+   420.46399999999966
   ]
  },
  "cues": [
@@ -234,112 +242,182 @@
   ],
   [
    204.18266666666665,
-   207.40399999999997,
+   211.84133333333332,
+   "Le contradictoire est garanti : article 454 pour les sanctions, article 457 pour le rapport d'instruction."
+  ],
+  [
+   212.1413333333333,
+   216.70666666666665,
+   "Pourtant, le 24 mai, le plaignant doit demander si les échanges sont contradictoires."
+  ],
+  [
+   217.00666666666663,
+   223.3853333333333,
+   "Le 23 juillet, on lui répond de formuler sa demande de rapport en séance. Le 24 juillet : « Je n'ai pas accès »."
+  ],
+  [
+   223.6853333333333,
+   229.35999999999996,
+   "Le 28 août, la plénière ne peut faire suite à sa demande. Le rapport, lui, a été notifié au notaire."
+  ],
+  [
+   229.65999999999997,
+   235.01466666666664,
+   "Le 25 septembre, le délibéré est rabattu « afin de garantir le principe du contradictoire »."
+  ],
+  [
+   235.31466666666662,
+   242.90933333333328,
+   "124 jours après sa première question. 98 jours après la séance du 19 juin, il accuse réception des procès-verbaux."
+  ],
+  [
+   243.2093333333333,
+   246.2173333333333,
+   "Le plaignant a dû batailler pour obtenir ce que la loi garantit."
+  ],
+  [
+   249.31733333333327,
+   252.5386666666666,
    "Le 21 octobre, le plaignant dépose ses observations."
   ],
   [
-   207.70399999999998,
-   219.26666666666665,
+   252.8386666666666,
+   264.40133333333324,
    "Il relève trois versions du notaire : un mandat, le 20 octobre 2016 ; « pas partie aux actes », le 7 septembre 2023 ; une décision de justice exécutoire, le 19 juin 2024."
   ],
   [
-   219.56666666666663,
-   227.9293333333333,
+   264.70133333333325,
+   273.0639999999999,
    "Il demande des sanctions, la suppression de ses données sous astreinte de cinquante mille francs CFA par jour, la publication, et l'information du Procureur."
   ],
   [
-   230.4293333333333,
-   236.18933333333328,
+   275.5639999999999,
+   281.3239999999999,
    "Séance du 23 octobre. Séance du 27 novembre : le dossier est renvoyé au 19 décembre."
   ],
   [
-   236.4893333333333,
-   242.1853333333333,
+   281.6239999999999,
+   287.31999999999994,
    "Le 13 décembre, par courtoisie, le plaignant informe l'Autorité du communiqué de presse qu'il entend publier."
   ],
   [
-   242.4853333333333,
-   250.01599999999996,
+   287.6199999999999,
+   295.15066666666655,
    "Le 16 décembre, l'Autorité répond : dossier « mis en délibéré pour le 19 décembre prochain ». « Vous répondrez de vos actes en temps opportun. »"
   ],
   [
-   250.31599999999997,
-   253.43066666666664,
+   295.45066666666656,
+   298.56533333333323,
    "Réponse du plaignant : « Mes deux boussoles sont : la loi et la vérité. »"
   ],
   [
-   256.1306666666666,
-   265.6026666666666,
+   301.2653333333332,
+   310.11866666666657,
+   "L'Autorité est chargée de protéger : l'article 483 lui demande de s'assurer qu'aucune menace ne pèse sur les libertés publiques et la vie privée."
+  ],
+  [
+   310.4186666666665,
+   316.9253333333332,
+   "Vendredi 13 décembre 2024, 10 heures 18 : le plaignant l'informe, par courtoisie, de son communiqué."
+  ],
+  [
+   317.2253333333332,
+   321.9399999999999,
+   "Lundi 16 décembre, 7 heures 58 : « Vous répondrez de vos actes en temps opportun. »"
+  ],
+  [
+   322.23999999999984,
+   325.69599999999986,
+   "Deux jours, vingt et une heures, quarante minutes pour brandir la menace."
+  ],
+  [
+   325.9959999999998,
+   332.8866666666665,
+   "440 jours sans décision contre le notaire. Aucune mention de l'information du Procureur, que la loi demande sans délai."
+  ],
+  [
+   333.1866666666665,
+   335.59733333333315,
+   "Une institution chargée de protéger, qui menace."
+  ],
+  [
+   338.6973333333331,
+   348.1693333333331,
    "Sept séances : les 19 juin, 24 juillet, 28 août, 25 septembre, 23 octobre, 27 novembre et 19 décembre 2024."
   ],
   [
-   265.9026666666666,
-   269.6146666666666,
+   348.4693333333331,
+   352.1813333333331,
    "Le 19 décembre 2024, le dossier est mis en délibéré."
   ],
   [
-   269.9146666666666,
-   270.8746666666666,
+   352.4813333333331,
+   353.4413333333331,
    "Depuis : rien."
   ],
   [
-   273.5746666666666,
-   276.90266666666656,
+   356.1413333333331,
+   359.46933333333305,
    "443 jours entre la plainte et la dernière séance."
   ],
   [
-   277.2026666666666,
-   279.5279999999999,
+   359.76933333333307,
+   362.0946666666664,
    "665 jours depuis cette séance."
   ],
   [
-   279.8279999999999,
-   281.64133333333325,
+   362.3946666666664,
+   364.20799999999974,
    "1 108 jours depuis la plainte."
   ],
   [
-   284.14133333333325,
-   287.91733333333326,
+   366.70799999999974,
+   370.48399999999975,
    "Depuis le 19 décembre 2024, le calendrier avance."
   ],
   [
-   288.2173333333333,
-   290.3506666666666,
+   370.78399999999976,
+   372.9173333333331,
    "Aucune décision. Aucune notification."
   ],
   [
-   290.6506666666666,
-   292.71999999999997,
+   373.2173333333331,
+   375.28666666666646,
    "Rien depuis décembre 2024."
   ],
   [
-   295.6199999999999,
-   300.59066666666655,
+   378.1866666666664,
+   383.15733333333304,
    "Une décision a-t-elle été prise à l'issue du délibéré du 19 décembre 2024 ?"
   ],
   [
-   301.09066666666655,
-   305.2506666666666,
+   383.65733333333304,
+   387.81733333333307,
    "Le plaignant en sera-t-il informé, comme l'article 448 le prévoit ?"
   ],
   [
-   305.7506666666666,
-   310.91333333333324,
+   388.31733333333307,
+   393.47999999999973,
    "Le Procureur de la République a-t-il été informé, article 483, point 9 ?"
   ],
   [
-   311.41333333333324,
-   315.3599999999999,
+   393.97999999999973,
+   397.9266666666664,
    "La demande de suppression des données sur le certificat a-t-elle été examinée ?"
   ],
   [
-   318.2599999999999,
-   322.18533333333323,
+   398.4266666666664,
+   402.0319999999997,
+   "Pourquoi deux jours pour menacer, et 440 jours sans décision ?"
+  ],
+  [
+   404.9319999999997,
+   408.85733333333303,
    "Une plainte, sept séances, un délibéré. Aucune décision connue du plaignant."
   ],
   [
-   322.4853333333332,
-   325.79199999999986,
+   409.157333333333,
+   412.46399999999966,
    "Ce ne sont pas des opinions : ce sont des procès-verbaux et des lettres."
   ]
  ]

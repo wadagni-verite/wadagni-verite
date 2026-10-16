@@ -3,6 +3,7 @@ const {chromium}=require('playwright');const path=require('path');
 const root=path.resolve(__dirname,'..');
 const PAGES=[['cas-pratique-plainte-deontologique','cas-pratique-plainte-deontologique','EJI 2.0 — Cas pratique de déontologie'],
              ['cas-pratique-enquete-confusions-deontologie','cas-pratique-enquete-confusions-deontologie','EJI 2.0 — Cas pratique : enquête et déontologie'],
+             ['cas-pratique-convocation-invitation-code-du-numerique','cas-pratique-convocation-invitation-code-du-numerique','EJI 2.0 — Cas pratique : convocation ou invitation ?'],
              ['lettres-de-demande-de-communication','lettres-de-demande-de-communication','EJI 2.0 — Lettres de demande de communication']];
 (async()=>{const b=await chromium.launch({executablePath:process.env.PW_CHROMIUM||'/opt/pw-browsers/chromium'});
 for(const [d,f,titre] of PAGES){const dir='batonnier-hounkpatin/'+d;const p=await b.newPage();

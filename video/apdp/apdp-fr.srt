@@ -131,89 +131,145 @@ Le dossier est renvoyé au 23 octobre.
 La lettre d'invitation du 10 octobre, signée du rapporteur, vise l'article 457.
 
 34
-00:03:24,183 --> 00:03:27,404
-Le 21 octobre, le plaignant dépose ses observations.
+00:03:24,183 --> 00:03:31,841
+Le contradictoire est garanti : article 454 pour les sanctions, article 457 pour le rapport d'instruction.
 
 35
-00:03:27,704 --> 00:03:39,267
-Il relève trois versions du notaire : un mandat, le 20 octobre 2016 ; « pas partie aux actes », le 7 septembre 2023 ; une décision de justice exécutoire, le 19 juin 2024.
+00:03:32,141 --> 00:03:36,707
+Pourtant, le 24 mai, le plaignant doit demander si les échanges sont contradictoires.
 
 36
-00:03:39,567 --> 00:03:47,929
-Il demande des sanctions, la suppression de ses données sous astreinte de cinquante mille francs CFA par jour, la publication, et l'information du Procureur.
+00:03:37,007 --> 00:03:43,385
+Le 23 juillet, on lui répond de formuler sa demande de rapport en séance. Le 24 juillet : « Je n'ai pas accès ».
 
 37
-00:03:50,429 --> 00:03:56,189
-Séance du 23 octobre. Séance du 27 novembre : le dossier est renvoyé au 19 décembre.
+00:03:43,685 --> 00:03:49,360
+Le 28 août, la plénière ne peut faire suite à sa demande. Le rapport, lui, a été notifié au notaire.
 
 38
-00:03:56,489 --> 00:04:02,185
-Le 13 décembre, par courtoisie, le plaignant informe l'Autorité du communiqué de presse qu'il entend publier.
+00:03:49,660 --> 00:03:55,015
+Le 25 septembre, le délibéré est rabattu « afin de garantir le principe du contradictoire ».
 
 39
-00:04:02,485 --> 00:04:10,016
-Le 16 décembre, l'Autorité répond : dossier « mis en délibéré pour le 19 décembre prochain ». « Vous répondrez de vos actes en temps opportun. »
+00:03:55,315 --> 00:04:02,909
+124 jours après sa première question. 98 jours après la séance du 19 juin, il accuse réception des procès-verbaux.
 
 40
-00:04:10,316 --> 00:04:13,431
-Réponse du plaignant : « Mes deux boussoles sont : la loi et la vérité. »
+00:04:03,209 --> 00:04:06,217
+Le plaignant a dû batailler pour obtenir ce que la loi garantit.
 
 41
-00:04:16,131 --> 00:04:25,603
-Sept séances : les 19 juin, 24 juillet, 28 août, 25 septembre, 23 octobre, 27 novembre et 19 décembre 2024.
+00:04:09,317 --> 00:04:12,539
+Le 21 octobre, le plaignant dépose ses observations.
 
 42
-00:04:25,903 --> 00:04:29,615
-Le 19 décembre 2024, le dossier est mis en délibéré.
+00:04:12,839 --> 00:04:24,401
+Il relève trois versions du notaire : un mandat, le 20 octobre 2016 ; « pas partie aux actes », le 7 septembre 2023 ; une décision de justice exécutoire, le 19 juin 2024.
 
 43
-00:04:29,915 --> 00:04:30,875
-Depuis : rien.
+00:04:24,701 --> 00:04:33,064
+Il demande des sanctions, la suppression de ses données sous astreinte de cinquante mille francs CFA par jour, la publication, et l'information du Procureur.
 
 44
-00:04:33,575 --> 00:04:36,903
-443 jours entre la plainte et la dernière séance.
+00:04:35,564 --> 00:04:41,324
+Séance du 23 octobre. Séance du 27 novembre : le dossier est renvoyé au 19 décembre.
 
 45
-00:04:37,203 --> 00:04:39,528
-665 jours depuis cette séance.
+00:04:41,624 --> 00:04:47,320
+Le 13 décembre, par courtoisie, le plaignant informe l'Autorité du communiqué de presse qu'il entend publier.
 
 46
-00:04:39,828 --> 00:04:41,641
-1 108 jours depuis la plainte.
+00:04:47,620 --> 00:04:55,151
+Le 16 décembre, l'Autorité répond : dossier « mis en délibéré pour le 19 décembre prochain ». « Vous répondrez de vos actes en temps opportun. »
 
 47
-00:04:44,141 --> 00:04:47,917
-Depuis le 19 décembre 2024, le calendrier avance.
+00:04:55,451 --> 00:04:58,565
+Réponse du plaignant : « Mes deux boussoles sont : la loi et la vérité. »
 
 48
-00:04:48,217 --> 00:04:50,351
-Aucune décision. Aucune notification.
+00:05:01,265 --> 00:05:10,119
+L'Autorité est chargée de protéger : l'article 483 lui demande de s'assurer qu'aucune menace ne pèse sur les libertés publiques et la vie privée.
 
 49
-00:04:50,651 --> 00:04:52,720
-Rien depuis décembre 2024.
+00:05:10,419 --> 00:05:16,925
+Vendredi 13 décembre 2024, 10 heures 18 : le plaignant l'informe, par courtoisie, de son communiqué.
 
 50
-00:04:55,620 --> 00:05:00,591
-Une décision a-t-elle été prise à l'issue du délibéré du 19 décembre 2024 ?
+00:05:17,225 --> 00:05:21,940
+Lundi 16 décembre, 7 heures 58 : « Vous répondrez de vos actes en temps opportun. »
 
 51
-00:05:01,091 --> 00:05:05,251
-Le plaignant en sera-t-il informé, comme l'article 448 le prévoit ?
+00:05:22,240 --> 00:05:25,696
+Deux jours, vingt et une heures, quarante minutes pour brandir la menace.
 
 52
-00:05:05,751 --> 00:05:10,913
-Le Procureur de la République a-t-il été informé, article 483, point 9 ?
+00:05:25,996 --> 00:05:32,887
+440 jours sans décision contre le notaire. Aucune mention de l'information du Procureur, que la loi demande sans délai.
 
 53
-00:05:11,413 --> 00:05:15,360
-La demande de suppression des données sur le certificat a-t-elle été examinée ?
+00:05:33,187 --> 00:05:35,597
+Une institution chargée de protéger, qui menace.
 
 54
-00:05:18,260 --> 00:05:22,185
-Une plainte, sept séances, un délibéré. Aucune décision connue du plaignant.
+00:05:38,697 --> 00:05:48,169
+Sept séances : les 19 juin, 24 juillet, 28 août, 25 septembre, 23 octobre, 27 novembre et 19 décembre 2024.
 
 55
-00:05:22,485 --> 00:05:25,792
+00:05:48,469 --> 00:05:52,181
+Le 19 décembre 2024, le dossier est mis en délibéré.
+
+56
+00:05:52,481 --> 00:05:53,441
+Depuis : rien.
+
+57
+00:05:56,141 --> 00:05:59,469
+443 jours entre la plainte et la dernière séance.
+
+58
+00:05:59,769 --> 00:06:02,095
+665 jours depuis cette séance.
+
+59
+00:06:02,395 --> 00:06:04,208
+1 108 jours depuis la plainte.
+
+60
+00:06:06,708 --> 00:06:10,484
+Depuis le 19 décembre 2024, le calendrier avance.
+
+61
+00:06:10,784 --> 00:06:12,917
+Aucune décision. Aucune notification.
+
+62
+00:06:13,217 --> 00:06:15,287
+Rien depuis décembre 2024.
+
+63
+00:06:18,187 --> 00:06:23,157
+Une décision a-t-elle été prise à l'issue du délibéré du 19 décembre 2024 ?
+
+64
+00:06:23,657 --> 00:06:27,817
+Le plaignant en sera-t-il informé, comme l'article 448 le prévoit ?
+
+65
+00:06:28,317 --> 00:06:33,480
+Le Procureur de la République a-t-il été informé, article 483, point 9 ?
+
+66
+00:06:33,980 --> 00:06:37,927
+La demande de suppression des données sur le certificat a-t-elle été examinée ?
+
+67
+00:06:38,427 --> 00:06:42,032
+Pourquoi deux jours pour menacer, et 440 jours sans décision ?
+
+68
+00:06:44,932 --> 00:06:48,857
+Une plainte, sept séances, un délibéré. Aucune décision connue du plaignant.
+
+69
+00:06:49,157 --> 00:06:52,464
 Ce ne sont pas des opinions : ce sont des procès-verbaux et des lettres.

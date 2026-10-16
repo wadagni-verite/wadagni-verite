@@ -17,9 +17,11 @@ SRC12 = os.path.join(ROOT, 'outils', 'silo', '12-film-classement-contenu.md')   
 SRC13 = os.path.join(ROOT, 'outils', 'silo', '13-brigade-criminelle-contenu.md')   # Brigade criminelle (page 13, hors du dossier Bâtonnier : /brigade-criminelle/)
 SRC14 = os.path.join(ROOT, 'outils', 'silo', '14-ministre-justice-contenu.md')   # ministre de la Justice (page 14, hors du dossier Bâtonnier : /ministre-justice/)
 SRC16 = os.path.join(ROOT, 'outils', 'silo', '16-partie-civile-contenu.md')   # plainte avec constitution de partie civile (page 16, /plainte-partie-civile/)
+SRC18 = os.path.join(ROOT, 'outils', 'silo', '18-cas-pratique-convocation-contenu.md')   # troisième cas pratique (page 18)
 SRC17 = os.path.join(ROOT, 'outils', 'silo', '17-apdp-contenu.md')   # Autorité de Protection des Données Personnelles (page 17, /apdp/)
 SRC15 = os.path.join(ROOT, 'outils', 'silo', '15-cas-pratique-enquete-contenu.md')   # second cas pratique (page 15)
 CAS2 = '/batonnier-hounkpatin/cas-pratique-enquete-confusions-deontologie/'
+CAS3 = '/batonnier-hounkpatin/cas-pratique-convocation-invitation-code-du-numerique/'
 LETTRES = '/batonnier-hounkpatin/lettres-de-demande-de-communication/'
 HORS_HUB = {13: 'Brigade criminelle', 14: 'Ministre de la Justice', 16: 'Plainte avec constitution de partie civile', 17: 'Autorité de Protection des Données Personnelles'}   # pages publiées à la racine du site
 VIDEOS = {12: ('classement', 'classement'), 13: ('enquete', 'enquete'), 14: ('ministre', 'ministre'), 16: ('partie-civile', 'partie-civile'), 17: ('apdp', 'apdp')}   # dossier vidéo, préfixe des fichiers
@@ -273,6 +275,13 @@ def jsonld(p, pages, canonical, og, html_body):
                                   "Témoin et personne soupçonnée", "Rôle de l'enquêteur : fait, intention, qualification", "Conflit d'intérêts de l'avocat", "Déontologie du notaire et de l'enquêteur", "Délai raisonnable (article 7-1 d de la Charte africaine)"],
                       "isAccessibleForFree": True, "creator": {"@id": SITE + "/#editeur"}, "datePublished": DATE,
                       "encoding": {"@type": "MediaObject", "contentUrl": SITE + CAS2 + "cas-pratique-enquete-confusions-deontologie.pdf", "encodingFormat": "application/pdf"}})
+    if n == 18:
+        graph.append({"@type": "LearningResource", "@id": canonical + "#cas-pratique", "name": p['h1'], "description": p['desc'], "inLanguage": "fr",
+                      "learningResourceType": "Cas pratique", "educationalUse": "Exercice", "educationalLevel": "Enseignement supérieur (droit public, procédure, droit du numérique)",
+                      "teaches": ["Convocation et invitation", "Mission de protection de l'autorité et contraste avec la menace envers le plaignant (Code du numérique, article 483)", "Obligation d'informer sans délai le Procureur de la République (Code du numérique, article 483, points 8 et 9)", "Citation, assignation, sommation", "Comparution et audition", "Renvoi et délibéré", "Principe du contradictoire",
+                                  "Droits du plaignant et du responsable du traitement (Code du numérique, articles 448, 449, 454 et 457)", "Rédaction d'une convocation et d'une invitation"],
+                      "isAccessibleForFree": True, "creator": {"@id": SITE + "/#editeur"}, "datePublished": DATE,
+                      "encoding": {"@type": "MediaObject", "contentUrl": SITE + CAS3 + "cas-pratique-convocation-invitation-code-du-numerique.pdf", "encodingFormat": "application/pdf"}})
     if n == 10:
         graph.append({"@type": "LearningResource", "@id": canonical + "#cas-pratique", "name": p['h1'], "description": p['desc'], "inLanguage": "fr",
                       "learningResourceType": "Cas pratique", "educationalUse": "Exercice", "educationalLevel": "Enseignement supérieur (droit, déontologie des professions juridiques)",
@@ -374,6 +383,8 @@ def render(p, pages):
         md = md.rstrip() + f"\n\n**Pour s'exercer.** [Cas pratique : le traitement d'une plainte déontologique par un ordre d'avocats]({CAS}) — sept questions, pistes de réponse et grille de correction, en version PDF.\n"
     if p['num'] in (0, 10, 13):
         md = md.rstrip() + f"\n\n**Second cas pratique.** [Les confusions d'une enquête pénale et les règles déontologiques à l'épreuve des pièces]({CAS2}) : onze questions, pistes de réponse et grille de correction, en version PDF.\n"
+    if p['num'] in (0, 10, 15, 17):
+        md = md.rstrip() + f"\n\n**Troisième cas pratique.** [Convocation ou invitation ? Le Code du numérique, la comparution et le contradictoire]({CAS3}) : quatorze questions, dont l'obligation d'informer sans délai le Procureur, pistes de réponse et grille de correction, en version PDF.\n"
     if p['num'] in LETTRES_PAGES:
         md = md.rstrip() + f"\n\n**Modèles de lettres.** [Quatre lettres de demande de communication]({LETTRES}) : Bâtonnier, Procureur Général, Cour constitutionnelle, Procureur spécial de la CRIET, avec version PDF.\n"
     if p['num'] in FILM_PAGES:
@@ -412,9 +423,9 @@ def render(p, pages):
 
 def main():
     os.makedirs(os.path.join(OUT, 'assets'), exist_ok=True)
-    text = open(SRC, encoding='utf-8').read() + '\n' + open(SRC10, encoding='utf-8').read() + '\n' + open(SRC11, encoding='utf-8').read() + '\n' + open(SRC12, encoding='utf-8').read() + '\n' + open(SRC13, encoding='utf-8').read() + '\n' + open(SRC14, encoding='utf-8').read() + '\n' + open(SRC15, encoding='utf-8').read() + '\n' + open(SRC16, encoding='utf-8').read() + '\n' + open(SRC17, encoding='utf-8').read()
+    text = open(SRC, encoding='utf-8').read() + '\n' + open(SRC10, encoding='utf-8').read() + '\n' + open(SRC11, encoding='utf-8').read() + '\n' + open(SRC12, encoding='utf-8').read() + '\n' + open(SRC13, encoding='utf-8').read() + '\n' + open(SRC14, encoding='utf-8').read() + '\n' + open(SRC15, encoding='utf-8').read() + '\n' + open(SRC16, encoding='utf-8').read() + '\n' + open(SRC17, encoding='utf-8').read() + '\n' + open(SRC18, encoding='utf-8').read()
     pages = parse_pages(text)
-    assert len(pages) == 18, len(pages)
+    assert len(pages) == 19, len(pages)
     liste = []
     for p in pages:
         out, slug = render(p, pages)
