@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Film « Où est l'acte ? » : le jugement du 31 octobre 2014, la parcelle B du lot 488, Me Victorien Olatundji Fade et le silence de l'Ordre.
+"""Film « Où est l'acte ? » : le jugement du 31 octobre 2014, le lot 488, Me Victorien Olatundji Fade et le silence de l'Ordre.
 Usage : python3 build.py <dossier_modèles_kokoro> <dossier_sortie>   (voix Kokoro ff_siwis ; cache des phrases dans <sortie>/cache)
 Écrit : motion.html (rendu par render.js), <sortie>/audio.wav, film.fr.srt, film.fr.vtt, timeline.json.
 Chaque image provient d'une pièce publiée sur le site (pieces/, pieces/procedures-benin/) ; les recadrages sont dans img/.
@@ -25,15 +25,15 @@ SEQ = {
       ("Mairie de Cotonou : superficie « néant ». Institut géographique national : aucun document.", "Mairie de Cotonou : superficie « néant ». Institut géographique national : aucun document."),
       ("Gilles Féliho l'avait dit : soit quelqu'un a vendu à sa place, soit la parcelle n'existe pas. Les registres répondent : néant.", "Gilles Féliho l'avait dit : soit quelqu'un a vendu à sa place, soit la parcelle n'existe pas. Les registres répondent : néant.")),
  3: Z(1.14, 0.9, 1.8,
-      ("Qui a invoqué cette vente ? Les héritiers, dans leurs conclusions.", "Qui a invoqué cette vente ? Les héritiers, dans leurs conclusions."),
-      ("Ils sont assistés de Maître Victorien Olatundji Fade, avocat à la Cour.", "Ils sont assistés de Maître Victorien Fade, avocat à la Cour."),
-      ("Leurs conclusions écrivent : « en vendant la parcelle bâtie du lot 488, quartier Godomey ».", "Leurs conclusions écrivent : « en vendant la parcelle bâtie du lot quatre cent quatre-vingt-huit, quartier Godomey »."),
-      ("Le jugement écrit : quartier Gbégamey. Deux quartiers pour une seule parcelle.", "Le jugement écrit : quartier Gbégamey. Deux quartiers pour une seule parcelle.")),
+      ("Les héritiers sont assistés de Maître Victorien Olatundji Fade, avocat à la Cour.", "Les héritiers sont assistés de Maître Victorien Fade, avocat à la Cour."),
+      ("Le jugement vise « la parcelle bâtie sise au lot 488 de Cotonou, quartier Gbégamey ».", "Le jugement vise « la parcelle bâtie sise au lot quatre cent quatre-vingt-huit de Cotonou, quartier Gbégamey »."),
+      ("Une autre parcelle, elle aussi à Gbégamey, figure au dossier : la parcelle B du lot 923, adjugée en 2007 au profit de Gilles Féliho.", "Une autre parcelle, elle aussi à Gbégamey, figure au dossier : la parcelle B du lot neuf cent vingt-trois, adjugée en deux mille sept au profit de Gilles Féliho."),
+      ("Deux parcelles, deux lots, un même quartier. Le jugement ne vise que le lot 488, et n'y cite aucun acte de disposition.", "Deux parcelles, deux lots, un même quartier. Le jugement ne vise que le lot quatre cent quatre-vingt-huit, et n'y cite aucun acte de disposition.")),
  4: Z(1.12, 0.9, 2.0,
       ("Dans une procédure où l'avocat est obligatoire, seuls les avocats des parties déposent les pièces.", "Dans une procédure où l'avocat est obligatoire, seuls les avocats des parties déposent les pièces."),
-      ("Et ces pièces sont débattues contradictoirement, rappelle le plaignant.", "Et ces pièces sont débattues contradictoirement, rappelle le plaignant."),
+      ("Et ces pièces sont débattues contradictoirement.", "Et ces pièces sont débattues contradictoirement."),
       ("Si un acte de disposition existe, il est donc entre les mains de Maître Fade.", "Si un acte de disposition existe, il est donc entre les mains de Maître Fade."),
-      ("Qu'il le montre : une date, un officier, un acquéreur.", "Qu'il le montre : une date, un officier, un acquéreur."),
+      ("Qu'il le montre : une date, un officier, un acquéreur, un prix.", "Qu'il le montre : une date, un officier, un acquéreur, un prix."),
       ("Près de douze ans après le jugement, aucun acte n'a été montré au plaignant.", "Près de douze ans après le jugement, aucun acte n'a été montré au plaignant.")),
  5: Z(1.14, 0.9, 2.0,
       ("Le 19 septembre 2007, le notaire écrit à Maître Fade, « mandataire » de Gilles Féliho.", "Le dix-neuf septembre deux mille sept, le notaire écrit à Maître Fade, « mandataire » de Gilles Féliho."),
@@ -59,7 +59,7 @@ SEQ = {
       ("1 293 jours depuis la plainte. 581 jours depuis la lettre du procureur général.", "Mille deux cent quatre-vingt-treize jours depuis la plainte. Cinq cent quatre-vingt-un jours depuis la lettre du procureur général."),
       ("Le pouvoir de saisir la Cour d'appel existe. Qui l'exerce ?", "Le pouvoir de saisir la Cour d'appel existe. Qui l'exerce ?")),
  9: Z(1.14, 0.9, 2.0,
-      ("À Maître Fade : où est l'acte de disposition ? Quelle date, quel officier, quel acquéreur ?", "À Maître Fade : où est l'acte de disposition ? Quelle date, quel officier, quel acquéreur ?"),
+      ("À Maître Fade : où est l'acte de disposition ? Quelle date, quel officier, quel acquéreur, quel prix ?", "À Maître Fade : où est l'acte de disposition ? Quelle date, quel officier, quel acquéreur, quel prix ?"),
       ("À Maître Fade : pourquoi ne pas vous être présenté à la convocation de la Brigade criminelle ?", "À Maître Fade : pourquoi ne pas vous être présenté à la convocation de la Brigade criminelle ?"),
       ("Au Bâtonnier : où est la décision sur la plainte de 2023 ?", "Au Bâtonnier : où est la décision sur la plainte de deux mille vingt-trois ?"),
       ("Au procureur général : pourquoi ne pas saisir la Cour d'appel ?", "Au procureur général : pourquoi ne pas saisir la Cour d'appel ?"), gap=0.5),
@@ -248,27 +248,26 @@ text("Mairie de Cotonou · superficie : <b>néant</b>", 1000, 560, 840, W2[1][0]
 text("Institut géographique national · <b>aucun document</b>", 1000, 660, 840, W2[1][0] + 2.4, b, 'nm')
 text("Soit quelqu'un a vendu à sa place.<br>Soit la parcelle n'existe pas.", 1000, 790, 840, W2[2][0] + 1.0, b, 'bigtext')
 
-# --- 3 : qui a invoqué la vente
+# --- 3 : le lot 488, le lot 923
 a, b = Q(3); W3 = [W(3, i) for i in range(4)]
-heads(a + 0.2, b, 'LES PARTIES ET LEUR AVOCAT', 'QUI A ALLÉGUÉ LA VENTE ?')
-pic('j1c.png', 80, 140, 840, a + 0.4, W3[2][0] - 0.3, "Jugement, p. 1 : « tous assistés de Maître Victorien Olatoundji Fade »", h=640, cls='f3')
-pic('j4c.png', 80, 140, 840, W3[2][0] - 0.3, b, "Jugement, p. 4 : les conclusions des héritiers", h=640, cls='f3')
-text("<b>Les héritiers</b>, dans leurs conclusions", 1000, 150, 840, W3[0][0] - 0.2, b, 'quote')
-text("<b>Assistés de Me Victorien Olatundji Fade</b>, avocat à la Cour", 1000, 270, 840, W3[1][0] - 0.2, b, 'quote ocrebox')
-text("Conclusions des héritiers : quartier <b>Godomey</b>", 1000, 440, 840, W3[2][0] - 0.2, b, 'nm')
-text("Jugement : quartier <b>Gbégamey</b>", 1000, 540, 840, W3[3][0] - 0.2, b, 'nm')
-text("Procès-verbal de 2017 : lotissement de <b>Gbégamey</b>", 1000, 640, 840, W3[3][0] + 1.4, b, 'nm')
-text("Deux quartiers pour une seule parcelle.", 1000, 780, 840, W3[3][0] + 3.0, b, 'bigtext')
+heads(a + 0.2, b, 'LE JUGEMENT ET SES PARTIES', 'DEUX PARCELLES, DEUX LOTS')
+pic('j1c.png', 80, 140, 840, a + 0.4, W3[1][0] - 0.3, "Jugement, p. 1 : « tous assistés de Maître Victorien Olatoundji Fade »", h=640, cls='f3')
+pic('j5c.png', 80, 140, 840, W3[1][0] - 0.3, W3[2][0] - 0.3, "Jugement, p. 5 : « la parcelle bâtie sise au lot 488 de Cotonou, quartier Gbégamey »", h=640, cls='f3')
+pic('gang.png', 80, 140, 840, W3[2][0] - 0.3, b, "Lettre du notaire à Me Fade, 19 septembre 2007 : « la parcelle « B » du lot 923 », « au profit de Monsieur Gilles Sixte Féliho »", h=640, cls='f3')
+text("<b>Assistés de Me Victorien Olatundji Fade</b>, avocat à la Cour", 1000, 150, 840, W3[0][0] - 0.2, b, 'quote ocrebox')
+el('<div style="border:4px solid var(--gold);border-radius:12px;padding:16px 22px;background:rgba(255,255,255,.07)"><div style="font:800 64px DejaVu Sans;color:var(--gold)">LOT 488</div><div style="font-size:26px;color:#e2e8f0;line-height:1.3">Le jugement : « la parcelle bâtie sise au lot 488 de Cotonou, quartier Gbégamey »</div></div>', W3[1][0] - 0.2, b, 0.5, '', 'left:1000px;top:300px;width:840px')
+el('<div style="border:4px solid #94a3b8;border-radius:12px;padding:16px 22px;background:rgba(255,255,255,.07)"><div style="font:800 64px DejaVu Sans;color:#cbd5e1">LOT 923</div><div style="font-size:26px;color:#e2e8f0;line-height:1.3">La lettre du notaire (2007) : « la parcelle « B » du lot 923 », lotissement de Cotonou Gbégamey, adjugée au profit de Gilles Sixte Féliho</div></div>', W3[2][0] - 0.2, b, 0.5, '', 'left:1000px;top:520px;width:840px')
+text("Le jugement ne vise que le <span class='ocre'>lot 488</span>.<br>Pas un acte de disposition n'y est cité.", 1000, 790, 840, W3[3][0] + 1.0, b, 'bigtext')
 
 # --- 4 : l'acte, s'il existe
 a, b = Q(4); W4 = [W(4, i) for i in range(5)]
 text("L'ACTE DE DISPOSITION", 80, 62, 840, a + 0.2, b, 'colhead'); text("QUI PEUT LE PRODUIRE ?", 1000, 62, 840, a + 0.2, b, 'colhead')
 el('', a, b, 0.5, 'vbar', 'left:959px;top:56px;height:880px')
 FR = ('<div style="width:840px;height:760px;border:5px dashed rgba(199,210,254,.5);border-radius:14px;padding:30px 36px;font:700 34px DejaVu Serif;color:#e2e8f0;line-height:1.3">'
-      'ACTE DE DISPOSITION<br><span style="font-size:26px;color:#94a3b8;font-weight:400">de la parcelle B du lot 488, après le décès du 3 décembre 2010</span></div>')
+      'ACTE DE DISPOSITION<br><span style="font-size:26px;color:#94a3b8;font-weight:400">de la parcelle bâtie sise au lot 488, après le décès du 3 décembre 2010</span></div>')
 el(FR, a + 0.3, b, 0.6, '', 'left:80px;top:140px;width:840px;height:760px')
-for i, (lb, ta) in enumerate([("DATE", W4[3][0] - 0.2), ("OFFICIER", W4[3][0] + 0.9), ("ACQUÉREUR", W4[3][0] + 1.8)]):
-    text(f"<span style='color:#94a3b8;font-size:30px'>{lb}</span> <span class='qa' style='font-size:90px'>?</span>", 120, 330 + i * 170, 760, ta, b, '')
+for i, (lb, ta) in enumerate([("DATE", W4[3][0] - 0.2), ("OFFICIER", W4[3][0] + 0.9), ("ACQUÉREUR", W4[3][0] + 1.8), ("PRIX", W4[3][0] + 2.7)]):
+    text(f"<span style='color:#94a3b8;font-size:30px'>{lb}</span> <span class='qa' style='font-size:80px'>?</span>", 120, 340 + i * 140, 760, ta, b, '')
 text("Avocat obligatoire : <b>seuls les avocats des parties déposent les pièces</b>", 1000, 150, 840, W4[0][0] - 0.2, b, 'quote')
 text("Ces pièces sont <b>débattues contradictoirement</b>", 1000, 300, 840, W4[1][0] - 0.2, b, 'quote')
 text("Si l'acte existe, <b>il est entre les mains de Me Fade</b>", 1000, 430, 840, W4[2][0] - 0.2, b, 'quote ocrebox')
@@ -327,7 +326,7 @@ text("Le pouvoir existe.<br><span class='ocre'>Qui l'exerce ?</span>", 1000, 890
 
 # --- 9 : les questions
 a, b = Q(9); W9 = [W(9, i) for i in range(4)]
-QS = [("À ME FADE", "Où est <b>l'acte de disposition</b> ? Quelle date, quel officier, quel acquéreur ?"),
+QS = [("À ME FADE", "Où est <b>l'acte de disposition</b> ? Quelle date, quel officier, quel acquéreur, quel prix ?"),
       ("À ME FADE", "Pourquoi ne pas vous être présenté <b>à la convocation</b> de la Brigade criminelle ?"),
       ("AU BÂTONNIER", "Où est <b>la décision</b> sur la plainte du 2 avril 2023 ?"),
       ("AU PROCUREUR GÉNÉRAL", "Pourquoi ne pas <b>saisir la Cour d'appel</b> ?")]

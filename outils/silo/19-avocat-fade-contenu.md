@@ -1,14 +1,14 @@
 ## PAGE 19 — Où est l'acte ? Me Victorien Fade
 
 **URL :** `/avocat-fade/`
-**Title :** Où est l'acte ? Me Fade et la parcelle B du lot 488
+**Title :** Où est l'acte ? Me Fade et le lot 488
 **Meta description :** Le jugement du 31 octobre 2014 constate qu'un héritier a « disposé » d'une parcelle que les registres ne connaissent pas. Qui a invoqué la vente ? Qui peut produire l'acte ?
-**H1 :** Où est l'acte ? Le jugement du 31 octobre 2014, la parcelle B du lot 488 et Me Victorien Olatundji Fade
+**H1 :** Où est l'acte ? Le jugement du 31 octobre 2014, le lot 488 et Me Victorien Olatundji Fade
 **Balisage :** `VideoObject`
 
 ### Chapô
 
-Le 31 octobre 2014, le tribunal de première instance de Cotonou « constate que Gilles Sixte Féliho a exécuté les dispositions testamentaires de manière volontaire », parce qu'il « a même déjà disposé » de la parcelle bâtie du lot 488. Aucun acte de disposition n'est cité. Le 19 décembre 2017, un huissier compulse les registres : la mairie de Cotonou indique une superficie « néant » ; l'Institut géographique national n'a aucun document. La vente a été invoquée dans les conclusions des héritiers, **assistés de Me Victorien Olatundji Fade**, avocat à la Cour, qui avait été en 2007 le « mandataire » de Gilles Féliho, a cité celui-ci comme « complice » de diffamation en 2013, puis a fait signifier le jugement en 2015. Dans une procédure où l'avocat est obligatoire, rappelle le plaignant, seuls les avocats des parties déposent des pièces, soumises au débat contradictoire : **si l'acte de disposition existe, il est entre les mains de Me Fade, qui doit le montrer.** Au 16 octobre 2026, soit **4 368 jours** après le jugement, aucun acte de ce type n'a été montré au plaignant. Convoqué par la Brigade criminelle pour le 19 mars 2025, Me Fade « ne s'est pas présenté » ; la plainte déontologique du 2 avril 2023 devant le Bâtonnier est sans décision connue, **1 293 jours** plus tard.
+Le 31 octobre 2014, le tribunal de première instance de Cotonou « constate que Gilles Sixte Féliho a exécuté les dispositions testamentaires de manière volontaire », parce qu'il « a même déjà disposé » de « la parcelle bâtie sise au lot 488 de Cotonou, quartier Gbégamey ». Aucun acte de disposition n'est cité. Le 19 décembre 2017, un huissier compulse les registres : la mairie de Cotonou indique une superficie « néant » ; l'Institut géographique national n'a aucun document. Les héritiers sont **assistés de Me Victorien Olatundji Fade**, avocat à la Cour, qui avait été en 2007 le « mandataire » de Gilles Féliho, l'a cité comme « complice » de diffamation en 2013, puis a fait signifier le jugement en 2015 : un conflit d'intérêts que la règle de la profession décrit en toutes lettres (ancien client devenu adversaire). Dans une procédure où l'avocat est obligatoire, seuls les avocats des parties déposent des pièces, soumises au débat contradictoire : **si l'acte de disposition existe, il est entre les mains de Me Fade, qui doit le montrer.** Au 16 octobre 2026, soit **4 368 jours** après le jugement, aucun acte de ce type n'a été montré au plaignant. Convoqué par la Brigade criminelle pour le 19 mars 2025, Me Fade « ne s'est pas présenté » ; la plainte déontologique du 2 avril 2023 devant le Bâtonnier est sans décision connue, **1 293 jours** plus tard.
 
 <figure class="video-dossier">
 <video controls preload="metadata" playsinline poster="/video/fade/fade-vignette.jpg" width="1920" height="1080" style="width:100%;height:auto;background:#000">
@@ -21,7 +21,7 @@ Votre navigateur ne lit pas cette vidéo.
 
 ### La question posée à Me Fade
 
-**Où est l'acte de disposition de la parcelle B du lot 488, postérieur au décès du 3 décembre 2010 ? Quelle date, quel officier, quel acquéreur ?** Une seule pièce suffit : si elle existe, sa production permet de vérifier les faits et de lever l'accusation de faux ; si elle n'existe pas, le constat du jugement repose sur un acte que personne n'a vu, et Gilles Féliho n'a pas à passer pour un bénéficiaire de mauvaise foi.
+**Où est l'acte de disposition de la parcelle bâtie sise au lot 488, postérieur au décès du 3 décembre 2010 ? Quelle date, quel officier, quel acquéreur, quel prix ?** Une seule pièce suffit : si elle existe, sa production permet de vérifier les faits et de lever l'accusation de faux ; si elle n'existe pas, le constat du jugement repose sur un acte que personne n'a vu, et Gilles Féliho n'a pas à passer pour un bénéficiaire de mauvaise foi.
 
 ### La chronologie
 
@@ -34,7 +34,7 @@ Votre navigateur ne lit pas cette vidéo.
 | **31 octobre 2014** | Jugement n° 114/14/3ᵉ CH-EP : les héritiers, « tous assistés de Maître Victorien Olatoundji FADE » ; le tribunal constate que Gilles Féliho « a même déjà disposé » de la parcelle bâtie du lot 488 et « a exécuté les dispositions testamentaires de manière volontaire » | [Jugement](/jugement-succession-feliho-2014.pdf) |
 | 17 novembre 2014 | Attestation du greffier en chef : jugement « frappé d'appel » | [Attestation](/pieces/procedures-benin/attestation-appel-jugement-114-14-2014-11-17.pdf) |
 | 9 mars 2015 | Signification du jugement avec commandement, à la requête des héritiers « assistés de Maître Victorien O. FADE » ; copie remise au secrétariat du parquet, le requis étant à l'extérieur | [Signification](/pieces/procedures-benin/plainte-fade-piece-2-signification-jugement-2015-03-09.pdf) |
-| **19 décembre 2017** | Procès-verbal de compulsion : la mairie de Cotonou indique, pour la parcelle B du lot 488, une superficie « néant » ; l'Institut géographique national ne dispose d'aucun document | [Procès-verbal](/pieces/pv-compulsion-parcelle-b-lot-488-2017-12.pdf) |
+| **19 décembre 2017** | Procès-verbal de compulsion : la mairie de Cotonou indique, pour la « parcelle B du lot 488 » visée par le procès-verbal, une superficie « néant » ; l'Institut géographique national ne dispose d'aucun document | [Procès-verbal](/pieces/pv-compulsion-parcelle-b-lot-488-2017-12.pdf) |
 | **2 avril 2023** | Plainte déontologique au Bâtonnier contre Me Fade (article 56 du règlement intérieur du Barreau du Bénin ; complicité et usage de faux en écriture publique) | [Plainte](/pieces/procedures-benin/plainte-deontologique-fade-2023-04-02.pdf) |
 | 20 juin 2024 | Relance au Bâtonnier | [Relance](/pieces/procedures-benin/relance-batonnier-2024-06-20.pdf) |
 | 12 mars 2025 | Convocation n° 141/DGPR/DPJ/BC/2025 de la Brigade criminelle pour le 19 mars à 9 heures, avec rappel de l'article 56 du Code de procédure pénale | [Mémoire et annexes](/pieces/procedures-benin/observations-brigade-criminelle-cour-constitutionnelle-2025-allege.pdf), p. 19 |
@@ -52,21 +52,21 @@ Votre navigateur ne lit pas cette vidéo.
 - *Ce que contiennent les pièces.* Aucune des huit pages du jugement ne cite un acte de disposition : ni date, ni officier public, ni acquéreur. Le procès-verbal de compulsion du 19 décembre 2017 rapporte que le plaignant « n'a jamais aliéné à quelque titre que ce soit ladite parcelle » et qu'« soit quelqu'un l'a vendue en ses lieux et place, soit cette parcelle n'existe pas » ; les registres de la mairie répondent « néant » et l'Institut géographique national n'a aucun document.
 - *Ce que les pièces établissent.* Entre le constat et la vérification des registres, il s'écoule 1 145 jours ; depuis, 3 223 jours. Le constat n'est appuyé sur aucun acte cité ; les registres ne connaissent pas la parcelle.
 
-**2. Qui a invoqué la vente, et dans quels termes**
+**2. Deux parcelles à Gbégamey, deux lots : le jugement ne vise que le lot 488**
 
-- *Ce que contiennent les pièces.* L'exposé des prétentions des héritiers, tel que le jugement le reproduit (p. 4), écrit : « ayant commencé l'exécution dudit testament **en vendant la parcelle bâtie du lot 488 de Cotonou, quartier Godomey** […], son action doit être déclarée irrecevable sur le fondement de l'article 915 du Code des personnes et de la famille ». Les héritiers sont « tous assistés de Maître Victorien Olatoundji FADE, Avocat à la cour » (p. 1). Le jugement écrit ensuite : « parcelle bâtie sise au lot 488 de Cotonou, quartier **Gbégamey** » (p. 5) ; le procès-verbal de 2017 vise le « lotissement de GBEGAMEY ».
-- *Ce que les pièces établissent.* La vente est alléguée par les héritiers, par la plume de leur conseil ; le quartier cité diffère (Godomey, Gbégamey) entre l'exposé des héritiers et le jugement.
+- *Ce que contiennent les pièces.* Le jugement (p. 5) écrit : « Qu'il a été légué à Gilles Sixte FELIHO, une part successorale dont fait partie **la parcelle bâtie sise au lot 488 de Cotonou, quartier Gbégamey** ; Que Gilles Sixte FELIHO a même déjà disposé de cet immeuble ». Une autre parcelle, elle aussi à Gbégamey, figure au dossier : par lettre du 19 septembre 2007, le notaire transmet à Me Fade les pièces relatives à l'adjudication des installations ou constructions existant sur **la parcelle « B » du lot 923** du lotissement de Cotonou-Gbégamey « au profit de Monsieur Gilles Sixte FELIHO », avec le permis d'habiter du 19 juillet 2007. Le procès-verbal de compulsion de 2017 vise, lui, la « parcelle B du lot 488 sise dans le lotissement de GBEGAMEY ».
+- *Ce que les pièces établissent.* Deux parcelles, deux numéros de lot, un même quartier. La seule parcelle visée par le constat du juge est celle du **lot 488** ; pour elle, aucun acte de disposition n'est cité, et les registres répondent « néant ». La parcelle du lot 923 est celle dont Me Fade a eu à connaître en 2007, comme mandataire.
 
 **3. Qui peut produire l'acte**
 
-- *Ce que rappelle le plaignant.* Dans une procédure où la représentation par avocat est obligatoire, comme en matière de succession, seuls les avocats des parties sont habilités à déposer des pièces auprès du juge, et ces pièces font l'objet d'un débat contradictoire. Une constatation d'exécution volontaire suppose donc qu'un élément de preuve ait été versé au dossier et débattu.
-- *Ce que les pièces établissent.* Les héritiers avaient pour avocat Me Fade (jugement, p. 1 ; signification de 2015). L'acte, s'il existe, a été produit par lui ou n'a jamais existé. Qu'il le produise : l'acte permettrait de vérifier les faits et de lever l'accusation de faux. Le refus de se présenter à la convocation de l'officier de police judiciaire renforce, pour le plaignant, la thèse de l'inexistence de cet acte.
+- *Le raisonnement.* Dans une procédure où la représentation par avocat est obligatoire, comme en matière de succession, seuls les avocats des parties sont habilités à déposer des pièces auprès du juge, et ces pièces font l'objet d'un débat contradictoire. Une constatation d'exécution volontaire suppose donc qu'un élément de preuve ait été versé au dossier et débattu.
+- *Ce que les pièces établissent.* Les héritiers avaient pour avocat Me Fade (jugement, p. 1 ; signification de 2015). L'acte, s'il existe, a été produit par lui ou n'a jamais existé. Qu'il le produise : l'acte permettrait de vérifier les faits et de lever l'accusation de faux. Le refus de se présenter à la convocation de l'officier de police judiciaire renforce la thèse de l'inexistence de cet acte.
 
 **4. Mandataire en 2007, adversaire en 2013, 2014 et 2015**
 
 - *Ce que contiennent les pièces.* En 2007, Me Fade est le « mandataire » de Gilles Féliho (lettre du notaire du 19 septembre 2007) ; sa sœur écrit alors qu'il « fera l'affaire » car il maîtrise le dossier « pour l'avoir suivi à son début ». En juin 2013, il assiste trois héritiers qui citent Gilles Féliho comme « complice » de diffamation. En octobre 2014, il assiste les héritiers contre lui, dans l'affaire du testament ; en mars 2015, il fait signifier le jugement.
 - *Ce que dit la règle.* Le règlement intérieur harmonisé des barreaux de l'espace UEMOA (signé à Dakar le 5 mai 2023, postérieur aux faits de 2007 à 2015) écrit, à l'article 24.1 : l'avocat « ne peut accepter l'affaire d'un nouveau client si le secret des informations données par un ancien client risque d'être violé ou lorsque la connaissance par l'avocat des affaires de l'ancien client favoriserait le nouveau client » ; en cas de conflit d'intérêts, il « ne peut être ni le conseil ni le représentant ou le défenseur de plus d'un client dans une même affaire ». L'article 56 du règlement intérieur du Barreau du Bénin, invoqué par la plainte, n'est pas publié ici. La loi d'avril 1965 sur le barreau (article 44) interdit aux avocats associés d'« assister ni représenter des parties ayant des intérêts différents ».
-- *Ce que les pièces établissent.* Me Fade a successivement été le mandataire de Gilles Féliho (2007), puis le conseil de ses adversaires à plusieurs reprises : 2 085 jours entre la lettre du notaire et la citation directe, 2 599 jours jusqu'au jugement.
+- *Ce que les pièces établissent.* Les trois éléments de la règle sont réunis dans les pièces : **un ancien client** (Gilles Féliho, dont Me Fade est le « mandataire » en 2007) ; **la connaissance de ses affaires** (le dossier de la maison, l'adjudication, le permis d'habiter, le titre foncier, que sa sœur dit en 2007 qu'il maîtrise « pour l'avoir suivi à son début ») ; **un nouveau client adverse** (les héritiers, en 2013, 2014 et 2015). Entre la lettre du notaire et la citation directe, 2 085 jours ; jusqu'au jugement, 2 599 jours. Le conflit d'intérêts n'est pas une hypothèse : il se lit sur les dates et sur les noms des pièces.
 
 **5. Une convocation que l'on ne peut pas ignorer**
 
@@ -116,10 +116,10 @@ Les empreintes SHA-256 de ces fichiers figurent sur la page [Sources et pièces 
 
 **À Me Victorien Olatundji Fade**
 
-1. Où est l'acte de disposition de la parcelle B du lot 488, postérieur au décès du 3 décembre 2010 ? Quelle date, quel officier, quel acquéreur ?
+1. Où est l'acte de disposition de la parcelle bâtie sise au lot 488, postérieur au décès du 3 décembre 2010 ? Quelle date, quel officier, quel acquéreur, quel prix ?
 2. Quelle pièce a été versée au dossier et débattue contradictoirement pour que le jugement constate que Gilles Féliho « a même déjà disposé de cet immeuble » ?
 3. Pourquoi ne pas vous être présenté à la convocation de la Brigade criminelle du 19 mars 2025, alors que l'article 56 du Code de procédure pénale tient les personnes convoquées « de comparaître » ?
-4. Mandataire de Gilles Féliho en 2007, pourquoi être devenu en 2013, 2014 et 2015 le conseil de ses adversaires dans les mêmes affaires de famille ?
+4. Mandataire de Gilles Féliho en 2007 et dépositaire de ses affaires (parcelle du lot 923, permis d'habiter, titre foncier), pourquoi avoir accepté, en 2013, 2014 et 2015, d'agir contre lui pour ses adversaires ?
 
 **Au Bâtonnier**
 
@@ -133,7 +133,7 @@ Les empreintes SHA-256 de ces fichiers figurent sur la page [Sources et pièces 
 ### Précisions
 
 - Cette page reproduit un jugement, des procès-verbaux, des lettres, des courriels et une plainte. Aucune infraction n'est imputée par cette page aux personnes citées ; les qualifications pénales et disciplinaires relèvent des juridictions et de l'Ordre compétents. Me Fade, l'Ordre et le parquet général peuvent demander l'exercice de leur droit de réponse : [procédure](/batonnier-hounkpatin/droit-de-reponse-et-mises-au-point/).
-- La règle de la représentation obligatoire par avocat et du dépôt des pièces par les seuls avocats des parties est celle que rappelle le plaignant ; le Code de procédure civile béninois n'est pas publié ici.
+- Le Code de procédure civile béninois, dont relèvent la représentation obligatoire par avocat et le dépôt des pièces par les seuls avocats des parties, n'est pas publié ici.
 - Le règlement intérieur harmonisé de l'UEMOA, signé le 5 mai 2023, est postérieur aux faits de 2007 à 2015 ; il est cité comme la règle que la profession s'est donnée par écrit. Le règlement intérieur du Barreau du Bénin, invoqué par la plainte, n'est pas publié ici, le site du Barreau étant en chantier.
 - Les adresses, téléphones et courriels du plaignant, des parties et des officiers ministériels sont occultés.
 
