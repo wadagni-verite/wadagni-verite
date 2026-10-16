@@ -9,6 +9,7 @@
 ## Sources de chaque affirmation à l'écran
 | À l'écran | Pièce |
 |---|---|
+| Président de l'APDP : Luciano Hounkponou | page `/apdp/` du site (procès-verbaux de l'APDP) ; nom fourni par l'éditeur |
 | Article 483, points 7 à 9 | Code du numérique (loi n° 2017-20 modifiée), `pieces/code-du-numerique-benin-loi-2017-20-modifiee-2020-35.pdf` |
 | Plainte du 2 octobre 2023, demande d'informer le Procureur | `pieces/procedures-benin/apdp-plainte-notaire-balley-2023-10-02.pdf`, p. 2 |
 | Accusé de réception du 14 décembre 2023 | `pieces/procedures-benin/apdp-accuse-reception-2023-12-14.pdf` |
@@ -22,5 +23,5 @@
 
 ## À faire écouter / confirmer par l'éditeur
 - Prononciation des noms (Féliho, Balley) et des chiffres : l'audio n'a pas pu être écouté.
+- Le dernier rapport d'activité affiché sur le site de l'APDP du Bénin date de 2019 (indication de l'éditeur) : l'article de presse reste la seule « version publique » 2025 disponible.
 - Le rapport d'activité 2024 du dépôt (`Rapport-dactivite-annuel-2024-16eme-rapport-public.pdf`) est celui de l'APDP de **Monaco** : il n'a pas été utilisé pour la « version officielle » de l'APDP du Bénin.
-- Remplacer l'article de presse par le rapport d'activité 2025 de l'APDP du Bénin dès qu'il est disponible.
