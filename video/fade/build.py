@@ -34,7 +34,8 @@ SEQ = {
       ("Et ces pièces sont débattues contradictoirement.", "Et ces pièces sont débattues contradictoirement."),
       ("Si un acte de disposition existe, il est donc entre les mains de Maître Fade.", "Si un acte de disposition existe, il est donc entre les mains de Maître Fade."),
       ("Qu'il le montre : une date, un officier, un acquéreur, un prix.", "Qu'il le montre : une date, un officier, un acquéreur, un prix."),
-      ("Près de douze ans après le jugement, aucun acte n'a été montré au plaignant.", "Près de douze ans après le jugement, aucun acte n'a été montré au plaignant.")),
+      ("L'enquête de la Brigade criminelle n'en cite aucun non plus : elle suppose que Gilles Féliho détient les documents.", "L'enquête de la Brigade criminelle n'en cite aucun non plus : elle suppose que Gilles Féliho détient les documents."),
+      ("Près de douze ans après le jugement, aucun acte n'a été produit.", "Près de douze ans après le jugement, aucun acte n'a été produit.")),
  5: Z(1.14, 0.9, 2.0,
       ("Le 19 septembre 2007, le notaire écrit à Maître Fade, « mandataire » de Gilles Féliho.", "Le dix-neuf septembre deux mille sept, le notaire écrit à Maître Fade, « mandataire » de Gilles Féliho."),
       ("Août 2007 : sa sœur écrit que Maître Fade « fera l'affaire », « maîtrisant le dossier pour l'avoir suivi à son début ».", "Août deux mille sept : sa sœur écrit que Maître Fade « fera l'affaire », « maîtrisant le dossier pour l'avoir suivi à son début »."),
@@ -134,8 +135,8 @@ thud(T[(2, 1)][0] + 0.2, 0.5, 100, 0.5)          # « néant »
 for i, tm in enumerate((T[(5, 0)][0], T[(5, 2)][0], T[(5, 3)][0])):
     thud(tm + 0.1, 0.4, 105, 0.35)
 thud(T[(7, 1)][0] + 0.2, 0.7, 70, 0.7)           # force publique
-_tt = T[(4, 4)][0]; _iv = 0.4                    # le compteur de jours, de plus en plus lent
-while _tt < T[(4, 4)][1] + 2.5:
+_tt = T[(4, 5)][0]; _iv = 0.4                    # le compteur de jours, de plus en plus lent
+while _tt < T[(4, 5)][1] + 2.5:
     tick(_tt, 0.28); _tt += _iv; _iv *= 1.07
 _tt = T[(8, 3)][0]; _iv = 0.3
 while _tt < T[(8, 3)][1] + 1.5:
@@ -260,7 +261,7 @@ el('<div style="border:4px solid #94a3b8;border-radius:12px;padding:16px 22px;ba
 text("Le jugement ne vise que le <span class='ocre'>lot 488</span>.<br>Pas un acte de disposition n'y est cité.", 1000, 790, 840, W3[3][0] + 1.0, b, 'bigtext')
 
 # --- 4 : l'acte, s'il existe
-a, b = Q(4); W4 = [W(4, i) for i in range(5)]
+a, b = Q(4); W4 = [W(4, i) for i in range(6)]
 text("L'ACTE DE DISPOSITION", 80, 62, 840, a + 0.2, b, 'colhead'); text("QUI PEUT LE PRODUIRE ?", 1000, 62, 840, a + 0.2, b, 'colhead')
 el('', a, b, 0.5, 'vbar', 'left:959px;top:56px;height:880px')
 FR = ('<div style="width:840px;height:760px;border:5px dashed rgba(199,210,254,.5);border-radius:14px;padding:30px 36px;font:700 34px DejaVu Serif;color:#e2e8f0;line-height:1.3">'
@@ -272,7 +273,8 @@ text("Avocat obligatoire : <b>seuls les avocats des parties déposent les pièce
 text("Ces pièces sont <b>débattues contradictoirement</b>", 1000, 300, 840, W4[1][0] - 0.2, b, 'quote')
 text("Si l'acte existe, <b>il est entre les mains de Me Fade</b>", 1000, 430, 840, W4[2][0] - 0.2, b, 'quote ocrebox')
 text("Qu'il le montre.", 1000, 590, 840, W4[3][0] - 0.2, b, 'bigtext')
-counter(4368, 'JOURS', 1000, 690, W4[4][0] - 0.2, b, W4[4][0], W4[4][0] + 3.2, w=840, size=120, sub="du 31 octobre 2014 au 16 octobre 2026 : aucun acte montré au plaignant")
+text("Mémoire de la Brigade criminelle : « il est <b>supposé détenir</b> les documents relatifs à ladite parcelle » ; <b>aucun acte cité</b>", 1000, 660, 840, W4[4][0] - 0.2, b, 'quote ocrebox')
+counter(4368, 'JOURS', 1000, 810, W4[5][0] - 0.2, b, W4[5][0], W4[5][0] + 3.2, w=840, size=100, sub="du 31 octobre 2014 au 16 octobre 2026 : aucun acte produit")
 
 # --- 5 : mandataire, puis adversaire
 a, b = Q(5); W5 = [W(5, i) for i in range(5)]
