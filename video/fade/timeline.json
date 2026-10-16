@@ -1,5 +1,5 @@
 {
- "total": 256.8173333333333,
+ "total": 251.11999999999995,
  "sequences": {
   "1": [
    0.0,
@@ -15,35 +15,35 @@
   ],
   "4": [
    66.03866666666666,
-   93.17999999999999
+   87.48266666666667
   ],
   "5": [
-   93.17999999999999,
-   123.43466666666666
+   87.48266666666667,
+   117.73733333333334
   ],
   "6": [
-   123.43466666666666,
-   150.58666666666667
+   117.73733333333334,
+   144.88933333333333
   ],
   "7": [
-   150.58666666666667,
-   184.652
+   144.88933333333333,
+   178.95466666666664
   ],
   "8": [
-   184.652,
-   219.89066666666665
+   178.95466666666664,
+   214.1933333333333
   ],
   "9": [
-   219.89066666666665,
-   239.88533333333334
+   214.1933333333333,
+   234.188
   ],
   "10": [
-   239.88533333333334,
-   250.8173333333333
+   234.188,
+   245.11999999999995
   ],
   "16": [
-   250.8173333333333,
-   256.8173333333333
+   245.11999999999995,
+   251.11999999999995
   ]
  },
  "cues": [
@@ -119,142 +119,137 @@
   ],
   [
    82.34666666666666,
-   87.744,
-   "L'enquête de la Brigade criminelle n'en cite aucun non plus : elle suppose que Gilles Féliho détient les documents."
-  ],
-  [
-   88.044,
-   91.17999999999999,
+   85.48266666666666,
    "Près de douze ans après le jugement, aucun acte n'a été produit."
   ],
   [
-   94.08,
-   99.136,
+   88.38266666666668,
+   93.43866666666668,
    "Le 19 septembre 2007, le notaire écrit à Maître Fade, « mandataire » de Gilles Féliho."
   ],
   [
-   99.43599999999999,
-   105.51599999999999,
+   93.73866666666667,
+   99.81866666666667,
    "Août 2007 : sa sœur écrit que Maître Fade « fera l'affaire », « maîtrisant le dossier pour l'avoir suivi à son début »."
   ],
   [
-   105.81599999999999,
-   111.21333333333332,
+   100.11866666666667,
+   105.516,
    "Juin 2013 : Maître Fade assiste trois héritiers qui citent Gilles Féliho comme « complice » de diffamation."
   ],
   [
-   111.51333333333332,
-   118.21199999999999,
+   105.816,
+   112.51466666666667,
    "2014 : il assiste les héritiers contre lui dans l'affaire du testament. Mars 2015 : il fait signifier le jugement."
   ],
   [
-   118.51199999999999,
-   121.43466666666666,
+   112.81466666666667,
+   115.73733333333334,
    "Le mandataire d'hier, l'adversaire d'aujourd'hui."
   ],
   [
-   124.33466666666666,
-   132.33466666666666,
+   118.63733333333334,
+   126.63733333333334,
    "La règle que la profession s'est donnée en mai 2023 : pas d'affaire d'un nouveau client si la connaissance des affaires de l'ancien client le favoriserait."
   ],
   [
-   132.63466666666667,
-   138.65066666666667,
+   126.93733333333334,
+   132.95333333333335,
    "En cas de conflit d'intérêts, l'avocat ne peut être le conseil ou le défenseur de plus d'un client dans une même affaire."
   ],
   [
-   138.95066666666668,
-   144.156,
+   133.25333333333333,
+   138.45866666666666,
    "Le 2 avril 2023, le plaignant dépose une plainte déontologique devant le Bâtonnier."
   ],
   [
-   144.45600000000002,
-   148.7866666666667,
+   138.75866666666667,
+   143.08933333333334,
    "Complicité de faux en écriture publique. Usage de faux en écriture publique."
   ],
   [
-   151.48666666666668,
-   157.58800000000002,
+   145.78933333333333,
+   151.89066666666668,
    "Le 12 mars 2025, la Brigade criminelle convoque Maître Fade pour le 19 mars, à 9 heures."
   ],
   [
-   157.888,
-   167.25333333333333,
+   152.19066666666666,
+   161.55599999999998,
    "La convocation rappelle l'article 56 du Code de procédure pénale : les personnes convoquées sont tenues de comparaître, sous peine d'y être contraintes par la force publique."
   ],
   [
-   167.55333333333334,
-   173.20666666666668,
+   161.856,
+   167.50933333333333,
    "Le 17 mars, le Bâtonnier invoque sa « prérogative de consultation » auprès du procureur général."
   ],
   [
-   173.50666666666666,
-   180.12,
+   167.8093333333333,
+   174.42266666666666,
    "Le 19 mars, Maître Fade « ne s'est pas présenté ». Le notaire, lui, est entendu de 9 h 14 à 10 h 52."
   ],
   [
-   180.42,
-   182.85199999999998,
+   174.72266666666664,
+   177.15466666666663,
    "Une convocation oblige. Une invitation, non."
   ],
   [
-   185.552,
-   191.888,
+   179.85466666666665,
+   186.19066666666666,
    "2 avril 2023 : plainte déontologique. 20 juin 2024 : relance. Aucune décision connue."
   ],
   [
-   192.188,
-   200.38,
+   186.49066666666664,
+   194.68266666666665,
    "Loi sur le barreau, article 30 : sans décision du conseil de discipline dans les trois mois, le procureur général peut saisir directement la Cour d'appel."
   ],
   [
-   200.67999999999998,
-   208.01866666666663,
+   194.98266666666663,
+   202.32133333333329,
    "Le 14 mars 2025, le procureur général écrit au Bâtonnier. Le 17 mars : « la cause est déjà en instruction »."
   ],
   [
-   208.31866666666664,
-   214.59066666666664,
+   202.6213333333333,
+   208.8933333333333,
    "1 293 jours depuis la plainte. 581 jours depuis la lettre du procureur général."
   ],
   [
-   214.89066666666665,
-   218.09066666666664,
+   209.1933333333333,
+   212.3933333333333,
    "Le pouvoir de saisir la Cour d'appel existe. Qui l'exerce ?"
   ],
   [
-   220.79066666666665,
-   225.356,
+   215.0933333333333,
+   219.65866666666665,
    "À Maître Fade : où est l'acte de disposition ? Quelle date, quel officier, quel acquéreur, quel prix ?"
   ],
   [
-   225.856,
-   230.44266666666667,
+   220.15866666666665,
+   224.74533333333332,
    "À Maître Fade : pourquoi ne pas vous être présenté à la convocation de la Brigade criminelle ?"
   ],
   [
-   230.94266666666667,
-   234.228,
+   225.24533333333332,
+   228.53066666666666,
    "Au Bâtonnier : où est la décision sur la plainte de 2023 ?"
   ],
   [
-   234.728,
-   237.88533333333334,
+   229.03066666666666,
+   232.188,
    "Au procureur général : pourquoi ne pas saisir la Cour d'appel ?"
   ],
   [
-   240.78533333333334,
-   242.02266666666668,
+   235.088,
+   236.32533333333333,
    "Une seule pièce suffit."
   ],
   [
-   242.32266666666666,
-   243.96533333333332,
+   236.62533333333332,
+   238.26799999999997,
    "Si l'acte existe, qu'il le montre."
   ],
   [
-   244.26533333333333,
-   248.61733333333333,
+   238.56799999999998,
+   242.92,
    "Tant qu'il ne le montre pas, le constat du jugement repose sur un acte que personne n'a vu."
   ]
  ]
