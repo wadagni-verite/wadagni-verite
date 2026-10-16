@@ -6,7 +6,7 @@ import os, subprocess, pymupdf
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, 'video', 'fade', 'img'); os.makedirs(OUT, exist_ok=True)
 P = 'pieces/procedures-benin/'
-RI = 'pieces/reglement-interieur-harmonise-barreaux-uemoa-2023-05-05.pdf'
+RI = 'pieces/reglement-interieur-harmonise-uemoa-2023.pdf'
 L65 = 'pieces/loi-1965-06-organisation-du-barreau-dahomey-extrait-art-18-50.pdf'
 # nom : (pdf, page (0 = première), recadrage, surlignages)
 SPEC = {

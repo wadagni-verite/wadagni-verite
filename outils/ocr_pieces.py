@@ -35,7 +35,7 @@ CIBLES = [
     'pieces/procedures-benin/apdp-observations-2024-10-21.pdf',
     'pieces/procedures-benin/apdp-echange-communique-2024-12.pdf',
     'pieces/procedures-benin/citation-directe-diffamation-heritiers-2013-06.pdf',
-    'pieces/reglement-interieur-harmonise-barreaux-uemoa-2023-05-05.pdf',
+    'pieces/reglement-interieur-harmonise-uemoa-2023.pdf',
     'pieces/loi-1965-06-organisation-du-barreau-dahomey-extrait-art-18-50.pdf',
 ]
 # lignes écartées du calque de texte : courriels et numéros de téléphone (même d'institutions), pour qu'aucune coordonnée
