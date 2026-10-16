@@ -17,14 +17,15 @@ SRC12 = os.path.join(ROOT, 'outils', 'silo', '12-film-classement-contenu.md')   
 SRC13 = os.path.join(ROOT, 'outils', 'silo', '13-brigade-criminelle-contenu.md')   # Brigade criminelle (page 13, hors du dossier Bâtonnier : /brigade-criminelle/)
 SRC14 = os.path.join(ROOT, 'outils', 'silo', '14-ministre-justice-contenu.md')   # ministre de la Justice (page 14, hors du dossier Bâtonnier : /ministre-justice/)
 SRC16 = os.path.join(ROOT, 'outils', 'silo', '16-partie-civile-contenu.md')   # plainte avec constitution de partie civile (page 16, /plainte-partie-civile/)
+SRC19 = os.path.join(ROOT, 'outils', 'silo', '19-avocat-fade-contenu.md')   # Me Victorien Fade : où est l'acte ? (page 19, /avocat-fade/)
 SRC18 = os.path.join(ROOT, 'outils', 'silo', '18-cas-pratique-convocation-contenu.md')   # troisième cas pratique (page 18)
 SRC17 = os.path.join(ROOT, 'outils', 'silo', '17-apdp-contenu.md')   # Autorité de Protection des Données Personnelles (page 17, /apdp/)
 SRC15 = os.path.join(ROOT, 'outils', 'silo', '15-cas-pratique-enquete-contenu.md')   # second cas pratique (page 15)
 CAS2 = '/batonnier-hounkpatin/cas-pratique-enquete-confusions-deontologie/'
 CAS3 = '/batonnier-hounkpatin/cas-pratique-convocation-invitation-code-du-numerique/'
 LETTRES = '/batonnier-hounkpatin/lettres-de-demande-de-communication/'
-HORS_HUB = {13: 'Brigade criminelle', 14: 'Ministre de la Justice', 16: 'Plainte avec constitution de partie civile', 17: 'Autorité de Protection des Données Personnelles'}   # pages publiées à la racine du site
-VIDEOS = {12: ('classement', 'classement'), 13: ('enquete', 'enquete'), 14: ('ministre', 'ministre'), 16: ('partie-civile', 'partie-civile'), 17: ('apdp', 'apdp')}   # dossier vidéo, préfixe des fichiers
+HORS_HUB = {13: 'Brigade criminelle', 14: 'Ministre de la Justice', 16: 'Plainte avec constitution de partie civile', 17: 'Autorité de Protection des Données Personnelles', 19: 'Me Victorien Fade : où est l\'acte ?'}   # pages publiées à la racine du site
+VIDEOS = {12: ('classement', 'classement'), 13: ('enquete', 'enquete'), 14: ('ministre', 'ministre'), 16: ('partie-civile', 'partie-civile'), 17: ('apdp', 'apdp'), 19: ('fade', 'fade')}   # dossier vidéo, préfixe des fichiers
 OUT = os.path.join(ROOT, 'batonnier-hounkpatin')
 SITE = 'https://wadagni2026-verite.com'
 DATE = '2026-10-14'
@@ -116,6 +117,9 @@ PIECES = [
     ('APDP : lettre d\u2019invitation n° 2024-3691 à la séance du 19 décembre 2024 (page 2 du fichier d\u2019origine)', '5 déc. 2024', 1, 'pieces/procedures-benin/apdp-invitation-session-2024-12-05.pdf', '52f34a5a9cc8c4d36e1100206bc6060f96acdf9770c9479feee43a8548efdbdb', True, None),
     ('Échange de courriels avec l\u2019APDP sur le communiqué de presse (9 pages ; fichier d\u2019origine)', '6-16 déc. 2024', 9, 'pieces/procedures-benin/apdp-echange-communique-2024-12.pdf', '52f34a5a9cc8c4d36e1100206bc6060f96acdf9770c9479feee43a8548efdbdb', True, None),
     ('Code du numérique du Bénin : loi n° 2017-20 du 20 avril 2018 modifiée par la loi n° 2020-35 du 6 janvier 2021 (texte de référence)', '2018-2021', 211, 'pieces/code-du-numerique-benin-loi-2017-20-modifiee-2020-35.pdf', None, False, None),
+    ('Citation directe en diffamation : héritiers assistés de Me Victorien Fade contre le directeur de publication de La Nation et Gilles Féliho (5 pages)', '4 et 7 juin 2013', 5, 'pieces/procedures-benin/citation-directe-diffamation-heritiers-2013-06.pdf', '508a477b2216285aad44759bacba43b267ba17200346c3234c421a44c80ee068', True, None),
+    ('Loi d\u2019avril 1965 sur le barreau, articles 18 à 50 (copie du site du Secrétariat général du gouvernement)', 'avr. 1965', 11, 'pieces/loi-1965-06-organisation-du-barreau-dahomey-extrait-art-18-50.pdf', None, False, None),
+    ('Règlement intérieur harmonisé des barreaux de l\u2019espace UEMOA (texte de référence)', '5 mai 2023', 30, 'pieces/reglement-interieur-harmonise-barreaux-uemoa-2023-05-05.pdf', None, False, None),
     ('Lettre n° 0049/MJL/SP-C du ministre de la Justice Yvon Détchénou', '14 janv. 2026', 1, 'pieces/procedures-benin/reponse-ministre-justice-2026-01-14.pdf', None, False, None),
     ('Lettre de Gilles Féliho au ministre de la Justice (4 pages)', '6 févr. 2026', 4, 'pieces/procedures-benin/lettre-ministre-justice-faits-precis-2026-02-06.pdf', 'c100ef4247d748d4a7a62d4bca98795eaa4fb584ff53b830d66873b754c62367', True, None),
     ('Procès-verbal d\u2019audition n° 2 (pages 1, 2/5 et 5/5)', '19 mars 2025', 3, 'pieces/bac-pv-audition-2-2025-03-19.pdf', 'd3590116e5ad9de9e87f2accdf55426224571efac2ec668b87e969ae3a83f478', True, None),
@@ -299,6 +303,16 @@ def jsonld(p, pages, canonical, og, html_body):
                           "uploadDate": DATE + "T08:00:00+02:00", "duration": f"PT{int(sec // 60)}M{int(round(sec % 60))}S", "inLanguage": "fr",
                           "contentUrl": SITE + "/video/enquete/enquete-16-9.mp4", "thumbnailUrl": SITE + "/video/enquete/enquete-vignette.jpg",
                           "publisher": {"@id": SITE + "/#editeur"}})
+    if n == 19:
+        vf = os.path.join(ROOT, 'video', 'fade', 'fade-16-9.mp4')
+        if os.path.exists(vf):
+            import subprocess
+            sec = float(subprocess.check_output(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', vf], text=True))
+            graph.append({"@type": "VideoObject", "name": "Où est l'acte ? — le jugement du 31 octobre 2014, la parcelle B du lot 488 et Me Victorien Olatundji Fade",
+                          "description": "Mise en regard, pièce par pièce, du jugement du 31 octobre 2014 (« a même déjà disposé »), du procès-verbal de compulsion du 19 décembre 2017 (superficie « néant »), des écritures des héritiers assistés de Me Fade, de la lettre du notaire de 2007 (« mandataire »), de la convocation de la Brigade criminelle du 12 mars 2025 et de la plainte déontologique du 2 avril 2023 sans décision connue.",
+                          "uploadDate": DATE + "T08:00:00+02:00", "duration": f"PT{int(sec // 60)}M{int(round(sec % 60))}S", "inLanguage": "fr",
+                          "contentUrl": SITE + "/video/fade/fade-16-9.mp4", "thumbnailUrl": SITE + "/video/fade/fade-vignette.jpg",
+                          "publisher": {"@id": SITE + "/#editeur"}})
     if n == 17:
         vf = os.path.join(ROOT, 'video', 'apdp', 'apdp-16-9.mp4')
         if os.path.exists(vf):
@@ -358,7 +372,7 @@ def jsonld(p, pages, canonical, og, html_body):
         qa = re.findall(r'^\*\*([^\n]+\?)\*\*\n(.+?)(?=\n\n\*\*|\n\n###|\Z)', p['md'], re.M | re.S)
         graph.append({"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": strip_md(q), "acceptedAnswer": {"@type": "Answer", "text": strip_md(a)}} for q, a in qa]})
     crumbs = [("Accueil", SITE + "/")] + ([(HORS_HUB[n], canonical)] if n in HORS_HUB else [("Dossier Bâtonnier", SITE + HUB)])
-    if n not in (0, 13, 14, 16, 17):
+    if n not in (0, 13, 14, 16, 17, 19):
         crumbs.append((p['h1'], canonical))
     graph.append({"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": c[0], "item": c[1]} for i, c in enumerate(crumbs)]})
     return json.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False, indent=2)
@@ -369,6 +383,7 @@ FILM = '/batonnier-hounkpatin/decision-rendue-decision-non-recue/'
 MINISTRE = '/ministre-justice/'
 PARTIE_CIVILE = '/plainte-partie-civile/'
 APDP = '/apdp/'
+FADE = '/avocat-fade/'
 FILM_PAGES = (0, 2)   # pages qui renvoient vers le film
 
 def render(p, pages):
@@ -391,6 +406,8 @@ def render(p, pages):
         md = md.rstrip() + f"\n\n**Le film.** [Décision rendue, décision non reçue]({FILM}) : les dates de la procédure, de la saisine du 11 septembre 2023 au classement du 3 juillet 2025, sur pièces.\n"
     if p['num'] in (0, 13, 14):
         md = md.rstrip() + f"\n\n**La plainte avec constitution de partie civile.** [La voie indiquée, déjà empruntée]({PARTIE_CIVILE}) : la plainte déposée auprès du Président du tribunal de Cotonou, adressée au Doyen des juges d'instruction, le 29 septembre 2025, 107 jours avant la lettre du ministre de la Justice, et les pièces.\n"
+    if p['num'] in (0, 13, 14, 16, 17):
+        md = md.rstrip() + f"\n\n**Me Victorien Fade.** [Où est l'acte ?]({FADE}) : le jugement du 31 octobre 2014, la parcelle B du lot 488 que les registres ne connaissent pas, l'avocat des héritiers, la convocation de la Brigade criminelle et la plainte déontologique sans décision, sur pièces.\n"
     if p['num'] in (0, 13, 14, 16):
         md = md.rstrip() + f"\n\n**L'Autorité de Protection des Données Personnelles.** [Sept séances, aucune décision]({APDP}) : la plainte du 3 octobre 2023 contre un notaire, les sept séances contentieuses de 2024, le dossier mis en délibéré le 19 décembre 2024, et les pièces.\n"
     if p['num'] in (0, 12, 13):
@@ -423,9 +440,9 @@ def render(p, pages):
 
 def main():
     os.makedirs(os.path.join(OUT, 'assets'), exist_ok=True)
-    text = open(SRC, encoding='utf-8').read() + '\n' + open(SRC10, encoding='utf-8').read() + '\n' + open(SRC11, encoding='utf-8').read() + '\n' + open(SRC12, encoding='utf-8').read() + '\n' + open(SRC13, encoding='utf-8').read() + '\n' + open(SRC14, encoding='utf-8').read() + '\n' + open(SRC15, encoding='utf-8').read() + '\n' + open(SRC16, encoding='utf-8').read() + '\n' + open(SRC17, encoding='utf-8').read() + '\n' + open(SRC18, encoding='utf-8').read()
+    text = open(SRC, encoding='utf-8').read() + '\n' + open(SRC10, encoding='utf-8').read() + '\n' + open(SRC11, encoding='utf-8').read() + '\n' + open(SRC12, encoding='utf-8').read() + '\n' + open(SRC13, encoding='utf-8').read() + '\n' + open(SRC14, encoding='utf-8').read() + '\n' + open(SRC15, encoding='utf-8').read() + '\n' + open(SRC16, encoding='utf-8').read() + '\n' + open(SRC17, encoding='utf-8').read() + '\n' + open(SRC18, encoding='utf-8').read() + '\n' + open(SRC19, encoding='utf-8').read()
     pages = parse_pages(text)
-    assert len(pages) == 19, len(pages)
+    assert len(pages) == 20, len(pages)
     liste = []
     for p in pages:
         out, slug = render(p, pages)
