@@ -382,6 +382,44 @@ def jsonld(p, pages, canonical, og, html_body):
     graph.append({"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": c[0], "item": c[1]} for i, c in enumerate(crumbs)]})
     return json.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False, indent=2)
 
+def cta(n, titre, url, pdf, desc):
+    """Encadré visible vers un cas pratique : numéro, titre, description, boutons PDF et lecture en ligne."""
+    return (f'\n\n<div class="cta"><div class="cta-k">Cas pratique n° {n} · version PDF</div>'
+            f'<a class="cta-t" href="{url}">{titre}</a><p>{desc}</p>'
+            f'<p class="cta-b"><a class="b1" href="{url}{pdf}" download>Télécharger le PDF</a><a class="b2" href="{url}">Lire en ligne</a></p></div>\n')
+
+def cartes(md):
+    """Page 15 : chaque « **Question N · Titre** » devient une carte (étiquette, question, textes et pièces, piste repliable)."""
+    lines = md.split('\n'); out = []; i = 0
+    head = re.compile(r'^\*\*(Question [0-9a-z ]+?) · (.+)\*\*$')
+    stop = re.compile(r'^(\*\*Question [0-9a-z ]+? · .+\*\*$|##+ )')
+    while i < len(lines):
+        m = head.match(lines[i])
+        if not m:
+            out.append(lines[i]); i += 1; continue
+        j = i + 1
+        while j < len(lines) and not stop.match(lines[j]):
+            j += 1
+        blk = lines[i + 1:j]
+        while blk and not blk[0].strip(): blk.pop(0)
+        while blk and not blk[-1].strip(): blk.pop()
+        qq = blk.pop(0)
+        tx = ''
+        if blk and blk[0].startswith('Textes et pièces :'):
+            tx = blk.pop(0)
+        rest = '\n'.join(blk).strip('\n')
+        vis, hid = (rest.split('<!--piste-->', 1) if '<!--piste-->' in rest else ('', rest))
+        cl = 'qq long' if len(qq) > 300 else 'qq'
+        card = [f'<div class="q" markdown="1">', f'<div class="n" markdown="span">{m.group(1)} · {m.group(2)}</div>',
+                f'<div class="{cl}" markdown="span">{qq}</div>']
+        if tx: card.append(f'<div class="tx" markdown="span">{tx}</div>')
+        if vis.strip(): card += ['', vis.strip('\n'), '']
+        if hid.strip(): card += ['', '<details markdown="1"><summary>Piste de réponse</summary>', '', hid.strip('\n'), '', '</details>', '']
+        card.append('</div>')
+        out += [''] + card + ['']
+        i = j
+    return '\n'.join(out)
+
 EXERCICE = (0, 5, 6, 9)   # pages qui renvoient vers le cas pratique
 LETTRES_PAGES = (0, 6, 9)   # pages qui renvoient vers les modèles de lettres
 FILM = '/batonnier-hounkpatin/decision-rendue-decision-non-recue/'
@@ -400,11 +438,11 @@ def render(p, pages):
         md = re.sub(r'\| Pièce \| Date \| Pages \| Empreinte SHA-256 \|.*?(?=\n\n\*Les empreintes du tableau)', lambda m: sources_table(), md, flags=re.S)
     md = md.replace('### Chapô\n\n', '')
     if p['num'] in EXERCICE:
-        md = md.rstrip() + f"\n\n**Pour s'exercer.** [Cas pratique : le traitement d'une plainte déontologique par un ordre d'avocats]({CAS}) — sept questions, pistes de réponse et grille de correction, en version PDF.\n"
+        md = md.rstrip() + cta(1, "Le traitement d'une plainte déontologique par un ordre d'avocats", CAS, 'cas-pratique-plainte-deontologique.pdf', "Sept questions, pistes de réponse et grille de correction.")
     if p['num'] in (0, 10, 13):
-        md = md.rstrip() + f"\n\n**Second cas pratique.** [Les confusions d'une enquête pénale et les règles déontologiques à l'épreuve des pièces]({CAS2}) : onze questions, pistes de réponse et grille de correction, en version PDF.\n"
+        md = md.rstrip() + cta(2, "Les confusions d'une enquête pénale et les règles déontologiques à l'épreuve des pièces", CAS2, 'cas-pratique-enquete-confusions-deontologie.pdf', "Onze questions (et deux questions bis), l'atelier sur le testament et le juge, pistes de réponse et grille de correction.")
     if p['num'] in (0, 10, 15, 17):
-        md = md.rstrip() + f"\n\n**Troisième cas pratique.** [Convocation ou invitation ? Le Code du numérique, la comparution et le contradictoire]({CAS3}) : quatorze questions, dont l'obligation d'informer sans délai le Procureur, pistes de réponse et grille de correction, en version PDF.\n"
+        md = md.rstrip() + cta(3, "Convocation ou invitation ? Le Code du numérique, la comparution et le contradictoire", CAS3, 'cas-pratique-convocation-invitation-code-du-numerique.pdf', "Quatorze questions, dont l'obligation d'informer sans délai le Procureur, pistes de réponse et grille de correction.")
     if p['num'] in LETTRES_PAGES:
         md = md.rstrip() + f"\n\n**Modèles de lettres.** [Quatre lettres de demande de communication]({LETTRES}) : Bâtonnier, Procureur Général, Cour constitutionnelle, Procureur spécial de la CRIET, avec version PDF.\n"
     if p['num'] in FILM_PAGES:
@@ -419,6 +457,8 @@ def render(p, pages):
         md = md.rstrip() + f"\n\n**Le ministre de la Justice.** [Faits précis demandés, faits précis fournis]({MINISTRE}) : la lettre du ministre Yvon Détchénou du 14 janvier 2026 (« aucun fait précis allégué »), la lettre du plaignant du 6 février 2026 et les pièces.\n"
     md = md.replace('<details class="correspondance">', '<details class="correspondance" markdown="1">')
     md = re.sub(r'^### ', '## ', md, flags=re.M)
+    if p['num'] == 15:
+        md = cartes(md)
     exts = ['tables', 'sane_lists', 'md_in_html'] + (['nl2br'] if p['num'] in (10, 11, 15) else [])
     body = markdown.markdown(md, extensions=exts)
     if p['num'] in VIDEOS:   # transcription du film (sous-titres regroupés), comme sur les premières vidéos du site
