@@ -8,6 +8,7 @@ const PAGES=[['cas-pratique-plainte-deontologique','cas-pratique-plainte-deontol
 (async()=>{const b=await chromium.launch({executablePath:process.env.PW_CHROMIUM||'/opt/pw-browsers/chromium'});
 for(const [d,f,titre] of PAGES){const dir='batonnier-hounkpatin/'+d;const p=await b.newPage();
 await p.goto('file://'+path.join(root,dir,'index.html'),{waitUntil:'load'});
+await p.addStyleTag({content:require('fs').readFileSync(path.join(root,'batonnier-hounkpatin/assets/silo.css'),'utf8').split('\n').filter(l=>l.startsWith('.versions')||l.startsWith(':root')).join('\n')});
 await p.addStyleTag({content:'.cadre{display:none}.droit,.retour,nav.fil{display:none}.wrap{max-width:none}h2.nouvelle-page{break-before:page}blockquote{break-inside:auto}'});
 await p.evaluate((d)=>{const q=document.querySelector('article blockquote');if(q&&/Télécharger/.test(q.textContent))q.remove();
  document.querySelectorAll('details').forEach(x=>x.open=true);
