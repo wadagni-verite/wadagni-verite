@@ -120,7 +120,7 @@ Appliqué au dossier : le testament de 2009 est le « mot » ; l'acte de disposi
 
 ### 3. Seconde partie : les règles à l'épreuve des pièces
 
-Les questions 7 à 10 mettent chaque règle professionnelle en regard des faits documentés. Elles ne concluent à aucun manquement : la qualification d'un manquement déontologique relève de l'instance compétente, après débat contradictoire. La question 11 porte, par contraste, sur ce qui n'est pas de la déontologie.
+Les questions 7 à 10 (dont la question 8 bis sur le notaire) mettent chaque règle professionnelle en regard des faits documentés. Elles ne concluent à aucun manquement : la qualification d'un manquement déontologique relève de l'instance compétente, après débat contradictoire. La question 11 porte, par contraste, sur ce qui n'est pas de la déontologie.
 
 **Question 7 · L'avocat : l'ancien mandataire devenu avocat adverse**
 Une lettre du notaire Gangnito du 19 septembre 2007 est adressée à Me Fade, « mandataire » de Gilles Féliho pour une adjudication de constructions sur la parcelle B du lot 923. En 2014, le jugement dit les cohéritiers « assistés de Maître Victorien Olatoundji FADE » dans l'instance qui oppose ceux-ci à Gilles Féliho ; la signification du jugement en France mentionne la même assistance. Quelles règles déontologiques régissent la situation d'un avocat qui a été le mandataire d'une personne puis assiste ses adversaires ?
@@ -129,6 +129,30 @@ Une lettre du notaire Gangnito du 19 septembre 2007 est adressée à Me Fade, «
 **Question 8 · L'avocat : faire signifier un jugement contesté**
 L'avocat qui assiste une partie dans la signification d'un jugement dont des mentions sont ensuite dénoncées comme fausses a-t-il une obligation de vérification ? À quel moment la connaissance de la fausseté est-elle exigée pour l'infraction d'usage de faux, et quel est le rôle de la déontologie, distincte du droit pénal ?
 *Piste.* Distinguer l'élément intentionnel (connaissance de la fausseté au moment de l'usage), propre à l'infraction, et le devoir de prudence et de probité de l'avocat, propre à la déontologie. Se demander quelles pièces le plaignant produit à l'appui de l'élément intentionnel (lettre du notaire du 19 septembre 2007, fil de courriels « a/s ta maison » d'août 2007) et ce qu'elles établissent ou non.
+
+**Question 8 bis · Le notaire : une version selon l'interlocuteur**
+Le notaire chargé de la succession s'est exprimé devant quatre interlocuteurs différents. Le tableau les place côte à côte ; chaque ligne reprend les mots de la pièce.
+
+| Interlocuteur et date | Ce que dit le notaire | Pièce |
+|---|---|---|
+| L'inspecteur de l'enregistrement, 20 octobre 2016 | La déclaration de mutation par décès est souscrite par lui « agissant en qualité de mandataire et au nom des héritiers », parmi lesquels le plaignant. | [Certificat d'acquit de droit](/pieces/certificat-acquit-de-droit-2016-10-20.pdf) |
+| L'huissier du plaignant (héritier), 7 septembre 2023 | Les demandes portent sur des actes « auxquels il n'est pas partie » ; en raison de « la confidentialité attachée aux actes notariés », pas de suite « en l'absence d'une ordonnance judiciaire ». | [Lettre](/pieces/lettre-balley-2023-09-07.pdf) |
+| L'APDP, 19 juin 2024 | Son action « fait suite à une décision de justice devenue exécutoire ». | [PV du 19 juin 2024](/pieces/procedures-benin/apdp-pv-audience-2024-06-19.pdf), p. 3 |
+| La Brigade criminelle, 19 mars 2025 | Le dossier lui a été « transmis par l'ensemble de la succession sauf lui » (le plaignant) ; il a été « saisi d'une exécution partielle » du testament ; le testament « a été confirmé par le jugement » de 2014 ; le plaignant a été « débouté » devant l'APDP. | [PV d'audition](/pieces/bac-pv-audition-2-2025-03-19.pdf), p. 2 et 3 |
+
+Quelles dispositions du statut du notariat (loi n° 2002-015) mesurent ces quatre versions ? Sont-elles respectées ?
+*Dispositions à confronter.*
+- **Article 33 · le serment** : « Je jure de remplir mes fonctions avec exactitude et probité. » L'exactitude de ce que le notaire déclare est-elle la même d'un interlocuteur à l'autre ?
+- **Article 61 · le mandat** : les procurations sont annexées à l'acte ou déposées au rang des minutes, avec mention dans l'acte. Où est le mandat « au nom des héritiers » invoqué en 2016, dont le plaignant ? Le dossier publié ne montre pas qu'il ait été produit.
+- **Article 82 · la communication** : l'ordonnance du président du tribunal n'est requise que pour des personnes « autres que celles intéressées en nom direct, héritiers ou ayants droit ». Le plaignant est héritier ; le motif « pas partie aux actes » entre-t-il dans le texte ? (Voir aussi la question 4 du [cas pratique sur la succession](/cas-pratique-succession-feliho.html).)
+- **Article 70 · la foi en justice** : les actes notariés « feront foi en justice ». Ce texte vise les actes reçus par le notaire ; des déclarations faites à une autorité ne bénéficient pas de cette foi, et se vérifient.
+- **Articles 112, 113 et 117 · la discipline** : rappel à l'ordre, censure, suspension, destitution ; les infractions à la discipline sont poursuivies par le procureur général, après avis de la Chambre nationale des notaires.
+*Piste.* Rapprocher les versions deux à deux, en citant la pièce.
+1. **2016 et 2025** : le notaire déclare agir en 2016 au nom des héritiers, dont le plaignant ; en 2025, le dossier lui a été transmis par tous « sauf lui ». Les deux énoncés sont-ils compatibles ? Quel mandat, produit à quelle date ?
+2. **2016 et 2023** : le notaire a souscrit pour le plaignant en 2016 ; en 2023, il lui oppose qu'il n'est pas « partie aux actes ». Comparer avec l'article 82 : le texte écarte l'ordonnance pour les héritiers.
+3. **2024 et 2025** : devant l'APDP, une « décision de justice devenue exécutoire » ; devant la Brigade criminelle, « une exécution partielle » du testament. Une décision de justice et un testament sont deux fondements différents. Le jugement de 2014 est assorti d'une exécution provisoire (voir la question 2) : le mot « exécutoire » n'est donc pas à écarter ; mais le notaire ne désigne ni la décision, ni sa date, et le dossier publié ne montre pas qu'elle ait été produite devant l'APDP. Comparer ce que le dispositif dit réellement (demande d'annulation déclarée irrecevable) avec « confirmé par le jugement ».
+4. **2025 et le dossier APDP** : le notaire dit que le plaignant a été « débouté » devant l'APDP ; aucune pièce publiée ne montre de décision notifiée au plaignant. Voir la [page sur l'APDP](/apdp/).
+*Qualification à examiner.* Si les énoncés sont inexacts, la disposition la plus directement en cause est l'article 33 (exactitude et probité), et, en l'absence du mandat, l'article 61 ; la sanction relève de la voie disciplinaire des articles 112 à 117. L'élément intentionnel se déduit de l'accumulation des contradictions et de l'absence de rectification spontanée, appréciées conjointement. Le code de déontologie propre aux notaires béninois ne figure pas au dépôt : il est à rechercher auprès de la Chambre nationale des notaires. Ces qualifications sont proposées pour être discutées ; la décision appartient à l'autorité compétente, après débat contradictoire.
 
 **Question 9 · L'ordre : la prérogative de consultation et le devoir de réponse**
 Le cabinet du Bâtonnier invoque, dans une lettre au Procureur Général, la « prérogative de consultation » avant toute audition d'avocat et écrit que « la cause est déjà en instruction », sans date ni référence d'acte. Une prérogative de consultation suspend-elle une enquête pénale ? Quelles obligations subsistent envers le plaignant dont la plainte déontologique n'a reçu aucune réponse connue ?
@@ -156,6 +180,7 @@ Un plaignant n'exerce pas une profession réglementée : il n'est tenu, en cette
 - **Un message cité dans un fil de courriels est-il daté par le fil ?** Que prouve l'en-tête, et que ne prouve-t-il pas du contenu des messages qui y sont rapportés ?
 - **Un plaignant est-il tenu par une déontologie ?** Qu'est-ce qui distingue une règle déontologique, propre à une profession, d'une règle de droit qui s'impose à tous ?
 - **L'absence de la preuve d'une parcelle prouve-t-elle son inexistence ?** Quelle différence entre « non produite à ce stade » et « inexistante » ?
+- **Un notaire peut-il donner quatre versions à quatre interlocuteurs ?** Qu'est-ce qui, dans l'article 33, interdit que l'exactitude varie selon la personne à qui l'on parle ?
 - **Une règle déontologique violée est-elle une infraction ?** Que se passe-t-il si les deux voies sont ouvertes en même temps ?
 
 ### 5. Grille de correction (20 points)
@@ -182,7 +207,7 @@ Un plaignant n'exerce pas une profession réglementée : il n'est tenu, en cette
 - **Code de procédure pénale béninois** : dispositions sur l'enquête préliminaire, la qualité de témoin et de personne soupçonnée, le classement sans suite et sa réouverture (article 53, tel que cité dans la demande de réouverture ; à vérifier sur le texte).
 - **Code de procédure pénale béninois (loi n° 2012-15)** : articles 5 à 9 sur l'action publique et la prescription ; **loi n° 2020-23** puis **loi n° 2021-11 du 20 décembre 2021** (art. 4) modifiant l'article 8 (crimes : 20 ans à compter de la découverte ; délits : 6 ans) ; **Code pénal de 2018 (loi n° 2018-16)**, articles 302 à 305 (faux en écriture publique ou authentique : réclusion criminelle) ; à vérifier sur le texte officiel, en particulier la loi pénale applicable à des faits de 2014.
 - **Code des personnes et de la famille** : article 915, tel que cité dans la réplique (annulation d'un testament ; à vérifier sur le texte).
-- **Statut du notariat, loi n° 2002-015 du 30 décembre 2002** : article 33 (serment : « exactitude et probité ») et article 61 (procurations annexées à l'acte).
+- **Statut du notariat, loi n° 2002-015 du 30 décembre 2002** : article 33 (serment : « exactitude et probité »), article 61 (procurations annexées à l'acte), article 70 (foi en justice des actes notariés), article 82 (communication des actes) et articles 112, 113 et 117 (discipline).
 - **Règlement intérieur du Barreau de la République du Bénin** : article 56 (devoirs invoqués par la plainte) ; règles sur le conflit d'intérêts à rechercher dans le règlement intérieur.
 - **Règlement n° 05/CM/UEMOA du 25 septembre 2014** relatif à l'harmonisation des règles régissant la profession d'avocat dans l'espace UEMOA : règles de loyauté, de délicatesse et de conflit d'intérêts à rechercher dans le texte.
 - **Charte africaine des droits de l'homme et des peuples** : article 7-1 d (délai raisonnable).
