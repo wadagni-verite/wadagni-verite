@@ -129,6 +129,7 @@ PIECES = [
     ('Procès-verbal de compulsion', '19 déc. 2017', 3, 'pieces/pv-compulsion-parcelle-b-lot-488-2017-12.pdf', 'be038ee0706cfc627722ff667748bf334f0246996848b4af8d9b4552da21d3dd', True, None),
     ('Règlement n° 05/CM/UEMOA du 25 septembre 2014 relatif à l\u2019harmonisation des règles régissant la profession d\u2019avocat (copie du ministère de la Justice du Sénégal ; texte de référence)', '25 sept. 2014', 23, 'pieces/reglement-05-cm-uemoa-2014-profession-avocat.pdf', None, False, None),
     ('Règlement intérieur harmonisé des barreaux de l\u2019espace UEMOA (fait à Dakar le 5 mai 2023 ; page 30 : signature pour le Barreau du Bénin)', '5 mai 2023', 30, 'pieces/reglement-interieur-harmonise-uemoa-2023.pdf', None, False, None),
+    ('Règlement intérieur de la Chambre nationale des notaires du Bénin (arrêté n° 0971/MJLDH du 24 décembre 2004 ; texte de référence)', '24 déc. 2004', 8, 'pieces/reglement-interieur-chambre-nationale-notaires-2004.pdf', None, False, None),
     ('Dossier complet (correspondances et plainte)', '2023–2025', 13, DOSSIER, '4b9eb7bcb4bc0ab914bc8c0119b15b45dba7b11a677dcededee7677e81ad6d40', True, None),
 ]
 
