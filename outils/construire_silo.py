@@ -442,7 +442,7 @@ def render(p, pages):
     if p['num'] in (0, 10, 13):
         md = md.rstrip() + cta(2, "Les confusions d'une enquête pénale et les règles déontologiques à l'épreuve des pièces", CAS2, 'cas-pratique-enquete-confusions-deontologie.pdf', "Onze questions (et deux questions bis), l'atelier sur le testament et le juge, pistes de réponse et grille de correction.")
     if p['num'] in (0, 10, 15, 17):
-        md = md.rstrip() + cta(3, "Convocation ou invitation ? Le Code du numérique, la comparution et le contradictoire", CAS3, 'cas-pratique-convocation-invitation-code-du-numerique.pdf', "Quatorze questions, dont l'obligation d'informer sans délai le Procureur, pistes de réponse et grille de correction.")
+        md = md.rstrip() + cta(3, "Convocation ou invitation ? Le Code du numérique, la comparution et le contradictoire", CAS3, 'cas-pratique-convocation-invitation-code-du-numerique.pdf', "Quinze questions, dont l'obligation d'informer sans délai le Procureur, pistes de réponse et grille de correction.")
     if p['num'] in LETTRES_PAGES:
         md = md.rstrip() + f"\n\n**Modèles de lettres.** [Quatre lettres de demande de communication]({LETTRES}) : Bâtonnier, Procureur Général, Cour constitutionnelle, Procureur spécial de la CRIET, avec version PDF.\n"
     if p['num'] in FILM_PAGES:
@@ -457,9 +457,9 @@ def render(p, pages):
         md = md.rstrip() + f"\n\n**Le ministre de la Justice.** [Faits précis demandés, faits précis fournis]({MINISTRE}) : la lettre du ministre Yvon Détchénou du 14 janvier 2026 (« aucun fait précis allégué »), la lettre du plaignant du 6 février 2026 et les pièces.\n"
     md = md.replace('<details class="correspondance">', '<details class="correspondance" markdown="1">')
     md = re.sub(r'^### ', '## ', md, flags=re.M)
-    if p['num'] == 15:
+    if p['num'] in (10, 15, 18):
         md = cartes(md)
-    exts = ['tables', 'sane_lists', 'md_in_html'] + (['nl2br'] if p['num'] in (10, 11, 15) else [])
+    exts = ['tables', 'sane_lists', 'md_in_html'] + (['nl2br'] if p['num'] in (10, 11, 15, 18) else [])
     body = markdown.markdown(md, extensions=exts)
     if p['num'] in VIDEOS:   # transcription du film (sous-titres regroupés), comme sur les premières vidéos du site
         tl = os.path.join(ROOT, 'video', VIDEOS[p['num']][0], 'timeline.json')

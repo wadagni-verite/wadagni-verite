@@ -56,30 +56,37 @@ La plainte qualifie les faits de **complicité de faux en écriture publique** e
 
 **Question 1 · Le devoir d'information du plaignant**
 Un ordre d'avocats saisi d'une plainte doit-il en accuser réception, l'instruire et informer le plaignant de la suite donnée ? Sur quels fondements (règlement intérieur, règlement UEMOA, principes généraux, article 7 de la Charte africaine) ?
+Textes et pièces : Règlement intérieur du Barreau ; Règlement n° 05/CM/UEMOA ; Charte africaine des droits de l'homme et des peuples, art. 7.
 *Piste.* Distinguer l'obligation d'instruire, l'obligation de décider et l'obligation d'informer. Rechercher dans le Règlement intérieur les dispositions sur l'instruction des plaintes. L'absence de texte exprès sur l'information du plaignant exclut-elle toute obligation ?
 
 **Question 2 · Le délai raisonnable**
 La notion de délai raisonnable, tirée de l'article 7-1 d) de la Charte, s'applique-t-elle à une instance déontologique qui n'est pas une juridiction ? Comment apprécier la durée écoulée : 14 mois à la relance, 25 mois à la saisine de la Cour, 42 mois au 14 octobre 2026 ?
+Textes et pièces : Charte africaine, art. 7-1 d ; plainte et relance ; saisine de la Cour constitutionnelle.
 *Piste.* Les trois critères classiques : complexité de l'affaire, comportement du plaignant, comportement des autorités. Discuter la qualification d'« instance » et la portée de l'article 7. Quelle est la date à retenir pour faire courir le délai ?
 
 **Question 3 · La preuve de l'envoi et de la réception**
 Que prouve un courriel ? Que prouve un avis de réception postal revêtu du cachet du destinataire ? À qui incombe la preuve de la saisine ?
+Textes et pièces : Plainte, courriel et avis de réception postal versés au dossier.
 *Piste.* Comparer la force probante des deux modes d'envoi. Examiner l'avis de réception versé au dossier (cachets, date, signataire). Que se passe-t-il lorsque le destinataire ne délivre aucun accusé de réception de la plainte ?
 
 **Question 4 · La consultation préalable du bâtonnier et la preuve d'une instruction**
 L'article 6, alinéa 2 (tel que cité dans la lettre), du Règlement n° 05/CM/UEMOA permet-il au bâtonnier de demander à être consulté avant l'audition d'un avocat ? Cette prérogative suspend-elle une enquête pénale ? La mention « la cause est déjà en instruction », affirmée dans la lettre sans date ni référence d'un acte, prouve-t-elle l'existence d'une instruction ?
+Textes et pièces : Règlement n° 05/CM/UEMOA, art. 6, alinéa 2 (tel que cité dans la lettre) ; lettre du cabinet du Bâtonnier au Procureur Général.
 *Piste.* Distinguer les rapports entre autorités (bâtonnier, parquet, police judiciaire) des obligations envers le plaignant. Identifier ce qui est une constatation de l'auteur de la lettre et ce qui est un propos rapporté par un tiers (ici, la Brigade criminelle qui cite la lettre). Quelles pièces permettraient de corroborer ou d'infirmer l'énoncé ?
 
 **Question 5 · Faute déontologique et infraction pénale**
 La plainte invoque des qualifications pénales (articles 22 et 303 à 305 du Code pénal). Un bâtonnier peut-il en connaître ? L'instance déontologique doit-elle attendre l'issue de la procédure pénale ?
+Textes et pièces : Code pénal, art. 22 et 303 à 305 (tels que cités par la plainte) ; règlement intérieur du Barreau.
 *Piste.* Séparer le manquement aux obligations de la profession (règlement intérieur) et l'infraction (juridictions pénales). Rechercher les textes sur la procédure disciplinaire et sur ses rapports avec l'action pénale. Rappeler que la qualification relève du juge et que la présomption d'innocence s'applique.
 
 **Question 6 · Les voies de recours**
 Quelles voies s'offrent au plaignant dont la plainte reste sans réponse : relance, Cour constitutionnelle (article 114 de la Constitution), Commission africaine des droits de l'homme et des peuples, plainte pénale ? Dans quel ordre ? À quelles conditions ?
+Textes et pièces : Constitution, art. 114 ; Charte africaine, art. 56, point 5 (à vérifier sur le texte).
 *Piste.* La saisine de la Commission africaine suppose en principe l'épuisement des recours internes, sauf procédure anormalement prolongée (article 56, point 5, de la Charte, à vérifier sur le texte). Quels sont les pouvoirs de la Cour constitutionnelle : constater, enjoindre, transmettre ? Un renvoi d'audience est-il une décision ?
 
 **Question 7 · Publier un dossier sans le travestir**
 Un plaignant publie sur internet les pièces d'une procédure qu'il tient pour restée sans réponse. À quelles conditions peut-il le faire sans méconnaître la présomption d'innocence, la protection des données personnelles et le droit de réponse ?
+Textes et pièces : Page sur le droit de réponse et les mises au point ; pièces publiées, données personnelles occultées.
 *Piste.* Distinguer faits, pièces et qualifications. Examiner les garde-fous : citation de la pièce à l'appui de chaque phrase, mention de l'absence de condamnation, occultation des coordonnées personnelles, procédure de droit de réponse, publication des pièces qui manquent. Les comparer à ceux du dossier étudié ([droit de réponse](/batonnier-hounkpatin/droit-de-reponse-et-mises-au-point/)).
 
 ### 3. Pièges pédagogiques (sous forme de questions)
