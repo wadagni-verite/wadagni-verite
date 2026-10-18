@@ -2,13 +2,13 @@
 
 **URL :** `/batonnier-hounkpatin/cas-pratique-enquete-confusions-deontologie/`
 **Title :** Cas pratique : enquête pénale, confusions et déontologie
-**Meta description :** Cas pratique : civil et pénal, testament et jugement, témoin et personne soupçonnée, conflit d'intérêts. Onze questions, pistes de réponse, grille.
+**Meta description :** Cas pratique : civil et pénal, testament et jugement, témoin et personne soupçonnée, conflit d'intérêts. Onze questions, atelier sur le testament et le juge, pistes, grille.
 **H1 :** Cas pratique : les confusions d'une enquête pénale et les règles déontologiques à l'épreuve des pièces
 **Balisage :** `LearningResource`
 
 ### Chapô
 
-Une plainte vise des mentions d'un jugement tenues pour fausses. La brigade chargée de l'enquête rend un mémoire à la Cour constitutionnelle ; le plaignant y répond par une réplique qui relève des confusions et des éléments hors du débat. Ce cas pratique, fondé sur des pièces publiées, propose onze questions en deux parties : **les confusions** (un acte privé et un acte authentique, le civil et le pénal, un legs et un achat, l'exercice d'un droit et un « comportement », un témoin et une personne soupçonnée, un fait et une qualification), puis **les règles déontologiques** que les faits documentés mettent à l'épreuve (l'avocat, le notaire, l'enquêteur, l'ordre professionnel), et, pour finir, la différence entre une déontologie professionnelle et les règles de droit qui s'imposent à tout éditeur. Les personnes sont désignées par leur rôle ; la table de correspondance se trouve en fin de page.
+Une plainte vise des mentions d'un jugement tenues pour fausses. La brigade chargée de l'enquête rend un mémoire à la Cour constitutionnelle ; le plaignant y répond par une réplique qui relève des confusions et des éléments hors du débat. Ce cas pratique, fondé sur des pièces publiées, propose onze questions en deux parties (et un atelier qui montre pourquoi le testament ne peut pas venir au secours d'un jugement) : **les confusions** (un acte privé et un acte authentique, le civil et le pénal, un legs et un achat, l'exercice d'un droit et un « comportement », un témoin et une personne soupçonnée, un fait et une qualification), puis **les règles déontologiques** que les faits documentés mettent à l'épreuve (l'avocat, le notaire, l'enquêteur, l'ordre professionnel), et, pour finir, la différence entre une déontologie professionnelle et les règles de droit qui s'imposent à tout éditeur. Les personnes sont désignées par leur rôle ; la table de correspondance se trouve en fin de page.
 
 > **Télécharger :** [la version PDF du cas pratique](/batonnier-hounkpatin/cas-pratique-enquete-confusions-deontologie/cas-pratique-enquete-confusions-deontologie.pdf) (à imprimer ou à distribuer). Les pièces visées sont publiées sur la page [Sources et pièces vérifiables](/batonnier-hounkpatin/sources-et-pieces-verifiables/). Le cas pratique précédent porte sur le traitement d'une plainte par un ordre : [plainte déontologique](/batonnier-hounkpatin/cas-pratique-plainte-deontologique/).
 
@@ -21,6 +21,9 @@ Une plainte vise des mentions d'un jugement tenues pour fausses. La brigade char
 | Acte authentique et acte privé | Un jugement est un acte authentique, dressé par un officier public. Un testament olographe est un acte privé et unilatéral. La plainte pour faux en écriture publique vise le premier, non le second. |
 | Civil et pénal | L'action civile (nullité d'un testament, partage d'une succession) et l'action pénale (faux en écriture publique) n'ont ni le même objet, ni les mêmes règles de preuve, ni le même juge. |
 | Effet d'un testament | Un testament produit son effet au décès de son auteur. Un acte postérieur au décès (disposition de l'immeuble par le légataire, exécution volontaire des clauses) ne peut pas être constaté par le testament lui-même. |
+| Ce que « constate » un jugement | Quand un jugement écrit « constate que… », il présente un fait comme établi par les pièces et les débats : l'héritier a signé un acte de vente, a reçu un prix, a remis les clés. Ce fait doit venir d'une preuve, et l'auteur du jugement répond de ce qu'il écrit dans un acte public. Ce n'est pas la même chose que « lire » un testament, qui montre seulement ce que son auteur a écrit. |
+| Exécution volontaire d'un testament | C'est un comportement de l'héritier, postérieur au décès, accompli en connaissance de cause (par exemple vendre, remettre, payer, en sachant que le testament existe). Un testament, écrit avant le décès, ne peut pas décrire ce que l'héritier fera après : il ne prouve donc pas lui-même qu'il a été exécuté. |
+| Qui répond de quoi | Le testateur répond de ce qu'il a écrit et déclaré, dans les limites du droit civil : il peut se tromper, et ses déclarations se vérifient. Le juge, lui, répond de ce qu'il constate dans son jugement : si une mention est inexacte et si l'intention est établie, c'est la qualification de faux en écriture publique qui est discutée, devant les juridictions compétentes. |
 | Faux en écriture publique | Constatation, dans un acte public, comme vrais de faits qui sont faux (texte rappelé dans le [cas pratique précédent](/batonnier-hounkpatin/cas-pratique-plainte-deontologique/), avec les articles 303, 305 et 22 du Code pénal tels que cités dans la plainte). |
 | Témoin et personne soupçonnée | Le témoin dépose sur des faits, sans être mis en cause ; une personne soupçonnée bénéficie de garanties propres. Le statut doit se lire sur l'acte (intitulé, en-tête). |
 | Enquêteur et juge | L'officier de police judiciaire constate des faits et les consigne. L'appréciation de l'intention et la qualification juridique relèvent de la juridiction. |
@@ -52,11 +55,36 @@ Le mémoire écrit que, « dans ladite plainte », le plaignant « conteste le t
 
 **Question 2 · Civil et pénal : « non assorti de recours »**
 Le mémoire écrit que le jugement, « ayant autorité de la chose jugée, est non assorti de recours ». Cette affirmation est-elle exacte au regard du dispositif du jugement et de l'attestation d'appel ? Et, si elle l'était, aurait-elle une incidence sur une enquête pour faux en écriture publique ?
-*Piste.* Lire le dispositif (« en premier ressort », exécution provisoire, délai d'appel d'un mois) et l'attestation du 17 novembre 2014 (appel n° 015/2014 formé le jour du jugement). Rechercher la règle qui régit les rapports entre une décision civile devenue définitive et une poursuite pénale pour faux dans cette même décision. Quel est l'effet de l'exécution provisoire sur la force de chose jugée ?
+
+*Sous-question 2 a · Que dit le dispositif ?* Le dispositif (p. 8) porte trois mentions : le jugement est rendu « en premier ressort » ; il « ordonne l'exécution provisoire » ; il indique « délai d'appel : 01 mois ». Un jugement rendu « en premier ressort » est, par définition, susceptible d'appel : la mention du délai d'appel le confirme.
+*Sous-question 2 b · Que dit l'attestation d'appel ?* Le 17 novembre 2014, le greffier en chef atteste que le jugement est « frappé d'appel » : l'appel n° 015/2014/3ᵉ EP/GTC a été formé le 31 octobre 2014, jour même du jugement. Le délai d'un mois n'avait donc pas à être attendu : l'appel était déjà formé. La pièce établit l'appel ; elle ne dit pas ce qu'est devenu cet appel ensuite.
+*Sous-question 2 c · L'exécution provisoire rend-elle le jugement définitif ?* Non. L'exécution provisoire autorise à exécuter le jugement sans attendre l'appel ; elle ne supprime ni l'appel ni le risque que la décision soit modifiée. Un jugement exécutoire n'est pas pour autant un jugement devenu définitif. Distinguer « on peut l'exécuter » et « il ne peut plus être discuté ».
+*Sous-question 2 d · Et si le jugement était définitif ?* Même alors, une décision civile devenue définitive n'empêche pas, par principe, de poursuivre pénalement un faux commis dans cette décision : le faux en écriture publique ne conteste pas la solution du litige, il vise la véracité de certaines mentions. Rechercher la règle sur les rapports entre le civil et le pénal (à vérifier sur le texte).
+*Piste.* Lire le dispositif et l'attestation d'appel ; ne retenir de l'attestation que ce qu'elle dit. Relever que l'affirmation « non assorti de recours » figure dans le mémoire, sans pièce à l'appui, et qu'elle est en contradiction avec le dispositif lu ci-dessus. Cette inexactitude concerne le mémoire, pas le plaignant.
+
+*Les deux délais à ne pas confondre.*
+
+| | Délai d'appel | Prescription de l'action pénale pour faux en écriture publique |
+|---|---|---|
+| À quoi il sert | Laisser à une partie le temps de contester le jugement devant la cour d'appel. | Fixer le temps pendant lequel le parquet ou un plaignant peut déclencher des poursuites. |
+| Ce que la pièce indique | Dispositif p. 8 : « délai d'appel : 01 mois » ; appel formé le jour même (31 oct. 2014). Signification du jugement en France : 9 mars 2015. | Article 8 du Code de procédure pénale béninois, modifié par la loi n° 2020-23 : 20 ans pour un crime, 6 ans pour un délit (10 et 3 ans dans la rédaction initiale) ; articles 8 et 9 sur le point de départ, l'interruption et la suspension. À vérifier sur le texte officiel. |
+| Point de départ | La signification du jugement, en principe (à vérifier). | Le jour des faits, ici le jugement du 31 octobre 2014 (à vérifier), sauf interruption par un acte de poursuite. |
+| Rapport avec la plainte | Aucun : la plainte (17 août 2023) n'est pas un appel. | La plainte du 17 août 2023 est antérieure au 31 octobre 2024, terme de la rédaction initiale (10 ans) ; et, sous la loi de 2020, le terme serait le 31 octobre 2034 (20 ans), à vérifier selon la qualification retenue (crime ou délit). |
+
+Retenir : le délai d'appel concerne les parties au procès civil ; la prescription concerne l'action pénale. Un jugement peut être appelé sans qu'une plainte soit prescrite, et une plainte peut être déposée sans qu'un appel soit possible.
 
 **Question 3 · Un legs, un achat, un acte postérieur au décès**
 Le jugement constate que l'héritier « a même déjà disposé » de l'immeuble et exécuté les dispositions testamentaires de manière volontaire. Le mémoire écrit qu'« à la lecture du testament », le père a déclaré avoir acheté la parcelle. Que peut constater un testament ? Un achat est-il un legs ? D'où le juge tire-t-il l'exécution volontaire ?
-*Piste.* Dater le testament (2009) et le décès (2010). Identifier la nature des actes invoqués (disposition de l'immeuble, exécution volontaire) et leur date possible. Chercher dans le dossier la pièce qui porte la disposition. Distinguer « le juge constate un fait » et « le juge dit l'avoir lu dans un acte ».
+
+*Sous-question 3 a · Que peut constater un testament ?* Un testament n'établit que ce que son auteur a voulu et écrit à une date donnée. Il ne peut pas décrire ce qui se passera après la mort. Ici : testament de 2009, décès le 3 décembre 2010. Tout acte de l'héritier (vendre, remettre, encaisser) est donc postérieur au décès, et postérieur au testament.
+*Sous-question 3 b · Un achat est-il un legs ?* Non. Acheter est un acte accompli de son vivant : on paie un prix, on reçoit un bien. Léguer, c'est décider qu'un bien sera transmis au décès. Si le mémoire écrit que, « à la lecture du testament », le père dit avoir acheté la parcelle, il rapporte une déclaration d'achat, non un legs ; et la parcelle déclarée achetée n'est pas la parcelle léguée par seule vertu de cette phrase.
+*Sous-question 3 c · Qu'est-ce qu'une exécution volontaire ?* C'est le fait, pour l'héritier, d'accomplir après le décès, en connaissance de cause, ce que le testament prévoit : par exemple vendre la parcelle léguée, remettre le bien au bénéficiaire, ou payer ce qu'il impose. Trois éléments : un acte matériel de l'héritier, postérieur au décès, accompli en sachant qu'il exécute un testament. L'article 915 du Code des personnes et de la famille, tel que cité par le jugement, évoque l'exécution volontaire d'un testament que l'héritier « savait nul » (à vérifier sur le texte) : la connaissance compte.
+*Sous-question 3 d · D'où le juge tire-t-il l'exécution volontaire ?* Elle ne peut venir du testament lui-même : celui-ci date d'avant le décès. Elle doit venir de faits postérieurs, établis par des pièces et débattus : un acte de vente signé par l'héritier, un prix reçu, des clés remises, une inscription au registre foncier. Le jugement cite, pour sa part, le procès-verbal n° 010/2011 de lecture du testament : une lecture montre qu'un testament existe et ce qu'il dit, pas ce que l'héritier a ensuite fait. Dans le dossier publié, la pièce portant l'acte de disposition de la parcelle n'est pas produite à ce stade (à ne pas confondre avec : n'existe pas).
+*Piste.* Dater le testament (2009) et le décès (2010). Identifier la nature des actes invoqués (disposition de l'immeuble, exécution volontaire) et leur date possible. Chercher dans le dossier la pièce qui porte la disposition. Distinguer « le juge constate un fait » et « le juge dit l'avoir lu dans un acte ». Se demander ce qu'un notaire, une mairie ou le registre foncier devrait pouvoir produire si l'héritier avait vraiment disposé de la parcelle.
+
+**Question 3 bis · Le testateur peut-il se tromper ? Et qui répond de quoi ?**
+Le testateur est un particulier : il peut se tromper, par exemple sur l'identité d'une parcelle, sur sa superficie ou sur la façon dont il l'a acquise. Le juge ou l'enquêteur doivent-ils prendre pour acquises toutes les énonciations d'un testament, sans la moindre vérification ? Si une erreur du testateur est reprise par le jugement comme un fait constaté, qui doit en répondre ?
+*Piste.* Séparer trois niveaux : (1) ce que le testateur a écrit, qui reste son affirmation et peut être vérifiée (titre foncier, acte de vente, mention au registre foncier) ; (2) ce que l'héritier a fait ensuite, qui doit être prouvé par des actes postérieurs ; (3) ce que le juge écrit dans son jugement, qui engage son auteur : le juge n'est pas tenu de croire un testament sur parole, et ne peut pas, dans un acte public, présenter comme constaté un fait qu'il n'a pas vérifié. Aucune de ces propositions n'établit que la mention du jugement est fausse : elle indique seulement vers qui se tourne la question si elle l'était. Le testateur a pu se tromper de bonne foi sans commettre de faux ; l'erreur du testateur ne dispense jamais le juge de vérifier ce qu'il constate. Si une mention inexacte est relevée et si l'élément intentionnel est établi, c'est la qualification de faux en écriture publique (articles 22, 303 et 305 du Code pénal, tels que cités par la plainte) qui est discutée, devant la juridiction compétente.
 
 **Question 4 · L'exercice d'un droit et un « comportement »**
 Le mémoire qualifie de « comportement de l'huissier » une sommation interpellative, justifiant que le chef de la brigade dessaisisse l'enquêteur et mette le dossier en instance. Une sommation est un acte d'huissier régulier. Quelle différence entre l'exercice d'un droit de se constituer une preuve et un « comportement » qui justifierait un retrait de dossier ? Quelle conséquence sur le délai ?
@@ -69,6 +97,25 @@ Le notaire est entendu sur un procès-verbal intitulé « audition de témoin »
 **Question 6 · L'enquêteur, le fait et la qualification**
 Le mémoire prête au plaignant « un objectif principal de faire échec à l'exécution des dispositions du testament », sans citer d'acte d'enquête à l'appui ; il suppose le plaignant « détenir » les titres de la parcelle que la brigade a elle-même réquisitionnés au registre foncier. Que peut faire un officier de police judiciaire ? Qui apprécie l'intention ? Qui doit prouver l'existence de la parcelle et du legs, et que dit la présomption d'innocence ?
 *Piste.* Séparer la constatation (ce que la pièce établit), l'intention (appréciation de la juridiction) et la qualification (article 303). Examiner les deux argumentations : celle de la réplique (les mis en cause doivent démontrer l'existence de la parcelle, du legs et de l'acte de disposition) et celle de la présomption d'innocence, qui s'applique à toute personne soupçonnée. Qui a la charge de la preuve dans une enquête pour faux ? Les neuf pièces jointes au mémoire établissent-elles l'existence de la parcelle ?
+
+### Atelier : le testament peut-il venir au secours du juge ?
+
+Cet atelier reprend les questions 2 et 3 en cinq étapes, avec une image : un élève rédige, avant les vacances, un petit mot disant « mon vélo ira à Paul si je pars ». Pendant les vacances, Paul vend le vélo. Le professeur écrit ensuite dans le cahier : « Paul a vendu le vélo volontairement ».
+
+1. **Qui écrit quoi, et quand ?** Le mot de l'élève date d'avant les vacances. La vente date de pendant les vacances. Le mot ne peut pas raconter ce qui se passera plus tard.
+2. **Que peut prouver le mot ?** Que l'élève voulait donner son vélo à Paul. Pas que Paul l'a vendu, ni qu'il l'a fait en sachant que le mot existait.
+3. **Que faut-il pour écrire « Paul a vendu volontairement » ?** Une preuve de la vente (facture, reçu, témoin) et de la connaissance du mot par Paul. Ces preuves viennent après, et sont montrées à tous avant d'écrire.
+4. **Et si l'élève s'était trompé ?** Si l'élève croyait que le vélo était à lui alors qu'il l'avait emprunté, son mot reste son affirmation : il faut la vérifier. Le professeur ne peut pas la recopier comme un fait certain.
+5. **Qui répond du cahier ?** Du mot, l'élève répond. De la phrase écrite dans le cahier, le professeur répond. Si la phrase est inexacte, on ne remonte pas au mot pour excuser le cahier.
+
+Appliqué au dossier : le testament de 2009 est le « mot » ; l'acte de disposition de la parcelle est la « vente » ; la mention « constate que… exécuté les dispositions testamentaires de manière volontaire » est la phrase du cahier. **Le testament ne peut pas remplacer la preuve de l'exécution, parce qu'il lui est antérieur ; et ce n'est pas le testateur qui a écrit le jugement.** Le dossier ne permet pas, à ce stade, de dire si la mention est exacte ou non : il permet de dire quelle pièce la justifierait, et vers qui se tourne la question si elle ne la trouvait pas.
+
+| Ce qu'on lit | Ce que cela peut établir | Ce que cela ne peut pas établir |
+|---|---|---|
+| Le testament (2009) | La volonté de son auteur à cette date ; ce qu'il déclare (à vérifier). | Un acte de l'héritier après le décès ; l'exécution volontaire. |
+| Le procès-verbal de lecture (n° 010/2011, cité par le jugement) | Qu'un testament a été lu, et ce qu'il contient. | Que l'héritier a agi en conséquence. |
+| Un acte signé par l'héritier, un prix reçu, des clés remises | Un acte matériel de disposition, daté et attribuable à l'héritier. | Seul, il ne dit rien de la volonté du défunt (il faut le rapprocher du testament). |
+| La mention « constate que… » du jugement | Ce que l'auteur du jugement présente comme établi, sous sa responsabilité. | Elle ne prouve pas elle-même le fait : elle renvoie à la preuve qui la fonde. |
 
 ### 3. Seconde partie : les règles à l'épreuve des pièces
 
@@ -97,6 +144,8 @@ Un plaignant n'exerce pas une profession réglementée : il n'est tenu, en cette
 ### 4. Pièges pédagogiques (sous forme de questions)
 
 - **Un jugement « frappé d'appel » est-il un jugement « non assorti de recours » ?** Qu'établit l'attestation d'appel, et que ne dit-elle pas de la suite de l'appel ?
+- **Le testament peut-il prouver qu'il a été exécuté ?** Pourquoi un écrit antérieur au décès ne peut-il pas établir un comportement postérieur ?
+- **Qui répond d'une erreur du testateur reprise dans un jugement ?** Le testateur, qui a écrit, ou l'auteur du jugement, qui a « constaté » ?
 - **Une date de plainte, deux dates dans les pièces : laquelle retenir ?** Quelle est la date de la plainte, quelle est celle de sa réception ou de son enregistrement, et que faut-il écrire en l'absence d'explication ?
 - **Un message cité dans un fil de courriels est-il daté par le fil ?** Que prouve l'en-tête, et que ne prouve-t-il pas du contenu des messages qui y sont rapportés ?
 - **Un plaignant est-il tenu par une déontologie ?** Qu'est-ce qui distingue une règle déontologique, propre à une profession, d'une règle de droit qui s'impose à tous ?
@@ -125,6 +174,7 @@ Un plaignant n'exerce pas une profession réglementée : il n'est tenu, en cette
 
 - **Code pénal béninois** : articles 22 et 303 à 305, tels qu'invoqués par la plainte.
 - **Code de procédure pénale béninois** : dispositions sur l'enquête préliminaire, la qualité de témoin et de personne soupçonnée, le classement sans suite et sa réouverture (article 53, tel que cité dans la demande de réouverture ; à vérifier sur le texte).
+- **Code de procédure pénale béninois (loi n° 2012-15)** : articles 5 à 9 sur l'action publique et la prescription ; **loi n° 2020-23** modifiant l'article 8 (crimes : 20 ans ; délits : 6 ans) ; à vérifier sur le texte officiel.
 - **Code des personnes et de la famille** : article 915, tel que cité dans la réplique (annulation d'un testament ; à vérifier sur le texte).
 - **Statut du notariat, loi n° 2002-015 du 30 décembre 2002** : article 33 (serment : « exactitude et probité ») et article 61 (procurations annexées à l'acte).
 - **Règlement intérieur du Barreau de la République du Bénin** : article 56 (devoirs invoqués par la plainte) ; règles sur le conflit d'intérêts à rechercher dans le règlement intérieur.
