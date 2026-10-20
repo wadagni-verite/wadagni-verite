@@ -440,7 +440,7 @@ def render(p, pages):
     if p['num'] in EXERCICE:
         md = md.rstrip() + cta(1, "Le traitement d'une plainte déontologique par un ordre d'avocats", CAS, 'cas-pratique-plainte-deontologique.pdf', "Sept questions, pistes de réponse et grille de correction.")
     if p['num'] in (0, 10, 13):
-        md = md.rstrip() + cta(2, "Les confusions d'une enquête pénale et les règles déontologiques à l'épreuve des pièces", CAS2, 'cas-pratique-enquete-confusions-deontologie.pdf', "Onze questions (et deux questions bis), l'atelier sur le testament et le juge, pistes de réponse et grille de correction.")
+        md = md.rstrip() + cta(2, "Les confusions d'une enquête pénale et les règles déontologiques à l'épreuve des pièces", CAS2, 'cas-pratique-enquete-confusions-deontologie.pdf', "Onze questions (et trois questions bis), l'atelier sur le testament et le juge, pistes de réponse et grille de correction.")
     if p['num'] in (0, 10, 15, 17):
         md = md.rstrip() + cta(3, "Convocation ou invitation ? Le Code du numérique, la comparution et le contradictoire", CAS3, 'cas-pratique-convocation-invitation-code-du-numerique.pdf', "Quinze questions, dont l'obligation d'informer sans délai le Procureur, pistes de réponse et grille de correction.")
     if p['num'] in LETTRES_PAGES:

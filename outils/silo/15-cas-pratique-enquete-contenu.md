@@ -1,8 +1,8 @@
 ## PAGE 15 — Cas pratique : enquête et déontologie
 
 **URL :** `/batonnier-hounkpatin/cas-pratique-enquete-confusions-deontologie/`
-**Title :** Cas pratique : enquête pénale, confusions et déontologie
-**Meta description :** Cas pratique : civil et pénal, testament et jugement, témoin et personne soupçonnée, conflit d'intérêts. Onze questions, atelier sur le testament et le juge, pistes, grille.
+**Title :** Cas pratique : enquête pénale, constater ou lire, déontologie
+**Meta description :** Cas pratique : faux en écriture publique, « constater » ou « lire », jugement 114/14, présidente HUNGBO KPLOCA, commissaire KONTO, Gilles FELIHO.
 **H1 :** Cas pratique : les confusions d'une enquête pénale et les règles déontologiques à l'épreuve des pièces
 **Balisage :** `LearningResource`
 
@@ -107,6 +107,25 @@ Le mémoire prête au plaignant « un objectif principal de faire échec à l'ex
 Textes et pièces : Mémoire n° 268/2025 ; réquisition du 12 mars 2025 ; Code pénal de 2018, art. 303.
 *Piste.* Séparer la constatation (ce que la pièce établit), l'intention (appréciation de la juridiction) et la qualification (article 303). Examiner les deux argumentations : celle de la réplique (les mis en cause doivent démontrer l'existence de la parcelle, du legs et de l'acte de disposition) et celle de la présomption d'innocence, qui s'applique à toute personne soupçonnée. Qui a la charge de la preuve dans une enquête pour faux ? Les neuf pièces jointes au mémoire établissent-elles l'existence de la parcelle ?
 
+**Question 6 bis · « Constater » ou « lire » : le commissaire principal Sabi Fulbert KONTO peut-il remplacer un constat par une lecture ?**
+L'article 303 du Code pénal de 2018 vise le fonctionnaire ou l'officier public qui, en rédigeant des actes de son ministère, en dénature la substance ou les circonstances, notamment « en constatant comme vrais des faits faux ou comme avérés des faits qui ne l'étaient pas » (la plainte de Gilles FELIHO cite les articles 22, 303 et 305). Le jugement n° 114/14 du 31 octobre 2014, rendu par la présidente Olivia Aubierge HUNGBO KPLOCA (troisième chambre, état des personnes, tribunal de première instance de première classe de Cotonou), « constate » que l'héritier a exécuté les dispositions testamentaires « de manière volontaire » et « a même déjà disposé » de l'immeuble. Le mémoire n° 268/2025 de la Brigade criminelle de Cotonou, signé du commissaire principal Sabi Fulbert KONTO, écrit au contraire que, « à la lecture du testament », le père a déclaré avoir acheté la parcelle du lot 488 et que Gilles Sixte FELIHO « est supposé détenir les documents ». « Constater » et « lire » expriment-ils la même action ? Que vise la plainte de Gilles FELIHO, et que lui répond le mémoire ?
+Textes et pièces : Code pénal de 2018, art. 22, 303 et 305 ; plainte du 17 août 2023 ; jugement n° 114/14 (p. 5 et dispositif, p. 8) ; mémoire n° 268/2025 du commissaire principal Sabi Fulbert KONTO (p. 4 et 5, pièces jointes 1 à 9) ; procès-verbal d'audition du notaire Félix BALLEY du 19 mars 2025 ; Décret n° 2018-356, art. 11.
+*Sous-question 6 bis a · Deux verbes, deux actions.* **Constater**, c'est établir un fait en s'appuyant sur une preuve : on voit l'acte de vente, on vérifie le prix reçu. **Lire**, c'est prendre connaissance de ce qu'un écrit dit. Lire un menu n'est pas goûter le plat : la lecture apprend ce que le texte annonce, pas que ce qu'il annonce est vrai.
+
+| | Constater | Lire |
+|---|---|---|
+| Ce que fait le verbe | Établir un fait par une preuve | Prendre connaissance d'un écrit |
+| Exemple | « Je constate que la parcelle est vendue : voici l'acte de vente. » | « J'ai lu dans le testament que le père a acheté la parcelle. » |
+| Ce que cela établit | Le fait lui-même, si la preuve est produite | Ce que l'écrit dit, non que c'est exact |
+| Qui en répond | L'auteur de l'acte public : le juge pour un jugement, le signataire pour un mémoire | Personne n'a encore prouvé le contenu |
+| Date possible | Un fait postérieur au décès (vente, remise des clés) | Un testament de 2009 ne peut parler que de ce qui s'est passé avant sa rédaction |
+
+*Sous-question 6 bis b · Où se situe le grief de Gilles FELIHO.* La plainte relève du faux en écriture publique : elle vise des mentions du jugement n° 114/14 du 31 octobre 2014, celles qui « constatent » une exécution volontaire et une disposition de l'immeuble (article 303 du Code pénal de 2018, « en constatant comme vrais des faits faux », à vérifier sur le texte officiel). L'article 303 désigne l'officier public qui rédige l'acte : pour un jugement, c'est son auteur, ici la présidente Olivia Aubierge HUNGBO KPLOCA, dont le nom figure en tête de la décision. La plainte ne vise pas le testament : un testament est un acte privé, non un acte public (question 1). Le verbe « constater » est celui du jugement ; le verbe « lire » est celui du mémoire du commissaire.
+*Sous-question 6 bis c · Ce que fait le mémoire du commissaire principal Sabi Fulbert KONTO.* Trois déplacements. (1) Il écrit que le plaignant « conteste le testament » : il change l'objet de la plainte (question 1). (2) Il écrit « à la lecture du testament » : il met une lecture là où le jugement met un constat. (3) Il en déduit que Gilles Sixte FELIHO « est supposé détenir les documents » : une supposition, tirée d'un écrit de 2009 dont le contenu n'est pas prouvé. Il ajoute que le jugement « a confirmé » le testament, alors que le dispositif déclare irrecevable la demande d'annulation (voir la question 2).
+*Sous-question 6 bis d · La pièce lue n'est pas jointe.* Le mémoire joint neuf pièces : le soit-transmis, le jugement, les convocations de deux officiers ministériels, la relance de convocation de Maître Victorien FADE, la relance de réquisition adressée à la mairie de Cotonou, l'ordre de mission, deux correspondances du 27 mars 2025 (parquet général et mairie) et le procès-verbal d'audition du notaire Félix BALLEY. **Le testament n'en fait pas partie.** Ce que le commissaire dit avoir « lu » n'est donc pas versé avec le mémoire, et le dossier publié ne montre pas qu'il l'ait été à l'enquête. Un fait ne se constate pas sur une pièce que l'on ne produit pas.
+*Sous-question 6 bis e · Qui répond de quoi.* Deux actes, deux auteurs. Du constat du jugement répond son auteur, la présidente Olivia Aubierge HUNGBO KPLOCA : c'est elle que vise l'article 303 si une mention est inexacte et si l'intention est établie, devant la juridiction compétente. De la formulation du mémoire répond son signataire, le commissaire principal Sabi Fulbert KONTO, et l'audition qu'il invoque a été conduite par l'officier de police judiciaire, le sous-brigadier major Chaffa Maurice BONI, qui a entendu le notaire Félix BALLEY (pièce n° 9 du mémoire). Le Décret n° 2018-356 exige que, dans les actes rédigés, « les faits ou événements soient relatés avec fidélité et précision » (article 11).
+*Piste.* Poser, dans l'ordre : le verbe employé (constater ou lire) ; l'objet réel de la plainte (les mentions du jugement, non le testament) ; la pièce invoquée (versée ou non) ; la date que cette pièce peut couvrir (2009, avant le décès du 3 décembre 2010) ; la conséquence pour la formule « est supposé détenir ». Qualification à examiner, si ces énoncés sont inexacts : pour le jugement, l'article 303 du Code pénal ; pour le mémoire, un manquement à l'article 11 du Décret n° 2018-356. L'élément intentionnel se déduit de l'accumulation des contradictions et de l'absence de rectification spontanée, appréciées conjointement. Ces qualifications sont proposées pour être discutées ; la décision appartient à l'autorité compétente, après débat contradictoire.
+
 ### Atelier : le testament peut-il venir au secours du juge ?
 
 Cet atelier reprend les questions 2 et 3 en cinq étapes, avec une image : un élève rédige, avant les vacances, un petit mot disant « mon vélo ira à Paul si je pars ». Pendant les vacances, Paul vend le vélo. Le professeur écrit ensuite dans le cahier : « Paul a vendu le vélo volontairement ».
@@ -201,6 +220,7 @@ Textes et pièces : Cas pratique sur la plainte déontologique (question 7) ; pa
 
 ### 4. Pièges pédagogiques (sous forme de questions)
 
+- **« Constater » et « lire » : même action ?** Lire un testament de 2009 permet-il de constater un fait de 2012, et qui répond de la formule employée dans un mémoire ?
 - **Un jugement « frappé d'appel » est-il un jugement « non assorti de recours » ?** Qu'établit l'attestation d'appel, et que ne dit-elle pas de la suite de l'appel ?
 - **Le testament peut-il prouver qu'il a été exécuté ?** Pourquoi un écrit antérieur au décès ne peut-il pas établir un comportement postérieur ?
 - **Qui répond d'une mention d'un jugement ?** Celui qui a écrit « constate que… » : sur quelle preuve repose-t-elle, et un écrit antérieur au décès peut-il la fonder ?
