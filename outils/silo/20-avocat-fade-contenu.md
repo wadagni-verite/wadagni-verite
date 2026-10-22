@@ -80,6 +80,45 @@ Votre navigateur ne lit pas cette vidéo.
 - *Ce que contiennent les pièces.* Plainte déontologique du 2 avril 2023 ; relance du 20 juin 2024 ; lettre du procureur général au Bâtonnier du 14 mars 2025 ; réponse du Bâtonnier du 17 mars 2025 : « la cause est déjà en instruction pour avoir déjà invité Maître Victorien Olatoundji FADE à me produire ses observations sur sa plainte et ce à quoi il a déjà déféré ». Aucune pièce produite ne manifeste une décision ou une notification adressée au plaignant.
 - *Ce que les pièces établissent.* **1 293 jours** après la plainte déontologique et **581 jours** après la lettre du procureur général, aucune décision n'est connue. Si la lettre du 14 mars 2025 vaut avis au sens de l'article 30, l'échéance de trois mois est le 14 juin 2025 : **489 jours** de dépassement au 16 octobre 2026. Le pouvoir de saisir directement la Cour d'appel existe ; le procureur général ne l'a pas exercé d'après les pièces.
 
+### Deux avocats convoqués, deux traitements ? L'égalité devant la loi : Me Magloire Yansunu et Me Victorien Fade
+
+La question n'est pas de savoir qui a raison dans chaque dossier, mais si une même règle s'applique de la même manière à deux avocats du barreau du Bénin, mis en cause devant la même juridiction spéciale. D'un côté, Me Magloire Yansunu, avocat chevronné, défenseur en mars 2025 du cyberactiviste Steve Amoussou ; de l'autre, Me Victorien Olatundji Fade, convoqué par la Brigade criminelle dans la procédure ouverte sur la plainte de Gilles Féliho.
+
+**Me Magloire Yansunu : ce que rapporte la presse**
+
+- *Le 10 mars 2025*, à l'issue d'une audience du procès de Steve Amoussou devant la CRIET, Me Yansunnu critique l'attitude de la cour, qui « essaie de biaiser et de ne pas répondre » à la question de l'identification de l'auteur des publications, et réclame d'« aller au fond » : « On n'a pas vu le plaignant » ([La Nouvelle Tribune, 11 mars 2025](https://lanouvelletribune.info/2025/03/dossier-steve-amoussou-au-benin-les-confidences-de-me-magloire-yansunnu/), consulté le 22 octobre 2026). Steve Amoussou, cyberactiviste en exil depuis 2019 et très critique du président Patrice Talon, a été condamné le 2 juin 2025 à deux ans de prison ferme, peine confirmée en appel le 15 décembre 2025, puis libéré en août 2026 ([MFWA](https://mfwa.org/country-highlights/benin-activist-steve-amoussou-sentenced-fined/) ; [Civicus Monitor](https://monitor.civicus.org/explore/benin-activist-living-in-exile-abducted-from-lom%C3%A9-brought-before-court-in-cotonou/) ; [RFI via allAfrica](https://fr.allafrica.com/stories/202512160185.html) ; [Africanews](https://africanews.com/2026/08/21/benin-cyberactivist-steve-amoussou-freed-after-two-year-sentence)).
+- *Le 13 avril 2026*, Me Yansunu est placé sous mandat de dépôt sur décision du parquet spécial de la CRIET, pour des faits présumés d'abus de confiance et d'escroquerie ([Bénin Web TV](https://beninwebtv.bj/benin-me-magloire-yansunnu-place-en-detention-provisoire/)). Deux anciens clients lui reprochent d'avoir conservé des fonds issus de procédures de licenciement. Avant la saisine de la justice pénale, le Bâtonnier avait examiné le litige et aurait proposé un partage des sommes ([Bénin Web TV](https://beninwebtv.bj/affaire-me-magloire-yansunnu-lavocat-condamne-a-7-ans-de-prison-ferme-par-la-criet/)).
+- *Le 27 avril 2026*, la CRIET rejette sa demande de liberté provisoire, malgré une consignation de 9 millions de francs CFA et une promesse d'hypothèque sur un immeuble évalué à 200 millions. La défense avait soutenu que ce litige relevait du bâtonnier et du président de la cour d'appel, en raison de sa qualité d'avocat : l'argument « n'a pas conduit la juridiction à suspendre la procédure » ([La Nouvelle Tribune, avril 2026](https://lanouvelletribune.info/2026/04/benin-la-criet-rejette-la-demande-de-liberte-provisoire-de-me-magloire-yansunu/)).
+- *Le 13 juillet 2026*, la CRIET le condamne à sept ans d'emprisonnement ferme et à 28 millions de francs CFA d'amende (environ 29 millions selon RFI) pour abus de confiance et blanchiment de capitaux, alors que le parquet avait requis vingt-quatre mois dont trois fermes ([La Nouvelle Tribune, juillet 2026](https://lanouvelletribune.info/2026/07/benin-la-criet-condamne-me-magloire-yansunnu-a-7-ans-de-prison-ferme/) ; [Le Matinal](https://lematinal.bj/criet-me-magloire-yansunu-condamne-a-7-ans-de-prison-ferme-et-28-millions-fcfa-damende/) ; [RFI via allAfrica](https://fr.allafrica.com/stories/202607140153.html)). Plusieurs avocats y voient une première au Bénin pour un avocat. Décision de première instance, susceptible d'appel dans les quinze jours ; ses avocats annoncent faire appel, et son barreau rappelle qu'il reste présumé innocent.
+
+**Me Victorien Fade : ce que contiennent les pièces**
+
+- La plainte de Gilles Féliho vise des mentions du jugement du 31 octobre 2014 ; le parquet spécial saisit la Brigade criminelle (soit-transmis n° 2239-2023).
+- Me Fade est convoqué le 12 mars 2025 pour le 19 mars à 9 heures (convocation n° 141), avec rappel de l'article 56 alinéa 2 du Code de procédure pénale : les personnes convoquées « sont tenues de comparaître et de déposer. Si elles ne satisfont pas à cette obligation, elles peuvent y être contraintes par la force publique ».
+- Le 17 mars 2025, le Bâtonnier écrit au procureur général qu'il invoque sa « prérogative de consultation » et que « la cause est déjà en instruction », sans date ni référence d'acte.
+- Le 19 mars 2025, Me Fade ne se présente pas. Le 25 mars, la Brigade criminelle écrit qu'il « a été convoqué pour le mercredi 19 mars 2025 mais il ne s'est pas présenté » et envoie une nouvelle convocation. Le mémoire du 29 avril 2025 ne mentionne aucune comparution ; il relaie la lettre du Bâtonnier.
+- Aucune pièce ne montre un recours à la force publique, ni un mandat à l'encontre de Me Fade. Le 3 juillet 2025, le parquet spécial classe l'affaire sans suite ([avis de classement](/pieces/avis-de-classement-criet-2025-07-03.pdf)).
+
+**Mises en regard**
+
+| | Me Magloire Yansunu | Me Victorien Fade |
+|---|---|---|
+| Juridiction | CRIET, parquet spécial | Parquet spécial de la CRIET, Brigade criminelle |
+| Origine | Plaintes de deux anciens clients | Plainte de Gilles Féliho (faux en écriture publique) |
+| Rôle du Bâtonnier | Tentative de partage avant la justice pénale ; l'argument tiré de sa compétence n'arrête pas la procédure | Lettre du 17 mars 2025 : « prérogative de consultation » ; la convocation du 19 mars n'est pas honorée |
+| Mesure de contrainte | Mandat de dépôt le 13 avril 2026 ; liberté provisoire refusée le 27 avril | Aucune pièce ne montre une contrainte par la force publique |
+| Issue | Sept ans ferme en première instance (13 juillet 2026) | Classement sans suite (3 juillet 2025) |
+
+**Ce que la comparaison établit.** Deux avocats, une même juridiction spéciale, deux manières de traiter l'invocation du rôle du Bâtonnier : écartée dans un cas, suivie dans l'autre d'une absence de contrainte. Selon la presse, la condamnation de Me Yansunu porte sur des fonds de clients, non sur ses déclarations de mars 2025 ; la page ne soutient pas de lien entre les deux.
+
+**Les questions que cette comparaison pose**
+
+1. Pourquoi l'argument tiré de la qualité d'avocat et du rôle du Bâtonnier n'a-t-il pas suspendu la procédure à l'égard de Me Yansunu, alors que, pour Me Fade, le Bâtonnier invoque sa « prérogative de consultation » avant toute audition ?
+2. L'article 56 alinéa 2 du Code de procédure pénale (« peuvent y être contraintes par la force publique ») s'applique-t-il à tous les avocats convoqués ? Pourquoi, d'après les pièces, ne l'a-t-il pas été le 19 mars 2025 ?
+3. L'article 26 de la Constitution dispose : « L'État assure à tous l'égalité devant la loi sans distinction d'origine, de race, de sexe, de religion, d'opinion politique ou de position sociale ». Comment se mesure cette égalité entre deux membres d'un même barreau ? (Voir la [question 15 du cas pratique sur la convocation](/batonnier-hounkpatin/cas-pratique-convocation-invitation-code-du-numerique/), consacrée à l'ignorance de la loi.)
+
+*Limites.* Les faits relatifs à Me Yansunu viennent de la presse, consultée le 22 octobre 2026 ; la décision elle-même n'a pas été lue et elle est susceptible d'appel. Cette page n'impute aucune infraction à Me Yansunu ni à Me Fade.
+
 ### Les durées
 
 | Durée | Calcul | Pièces |
