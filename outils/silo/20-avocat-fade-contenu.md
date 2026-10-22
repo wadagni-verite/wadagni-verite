@@ -97,7 +97,7 @@ La question n'est pas de savoir qui a raison dans chaque dossier, mais si une m�
 - Me Fade est convoqué le 12 mars 2025 pour le 19 mars à 9 heures (convocation n° 141), avec rappel de l'article 56 alinéa 2 du Code de procédure pénale : les personnes convoquées « sont tenues de comparaître et de déposer. Si elles ne satisfont pas à cette obligation, elles peuvent y être contraintes par la force publique ».
 - Le 17 mars 2025, le Bâtonnier écrit au procureur général qu'il invoque sa « prérogative de consultation » et que « la cause est déjà en instruction », sans date ni référence d'acte.
 - Le 19 mars 2025, Me Fade ne se présente pas. Le 25 mars, la Brigade criminelle écrit qu'il « a été convoqué pour le mercredi 19 mars 2025 mais il ne s'est pas présenté » et envoie une nouvelle convocation. Le mémoire du 29 avril 2025 ne mentionne aucune comparution ; il relaie la lettre du Bâtonnier.
-- Aucune pièce ne montre un recours à la force publique, ni un mandat à l'encontre de Me Fade. Le 3 juillet 2025, le parquet spécial classe l'affaire sans suite ([avis de classement](/pieces/avis-de-classement-criet-2025-07-03.pdf)).
+- Aucune pièce ne montre un recours à la force publique, ni un mandat à l'encontre de Me Fade. Le 3 juillet 2025, le parquet spécial classe l'affaire sans suite pour inopportunité des poursuites ([avis de classement](/pieces/avis-de-classement-criet-2025-07-03.pdf)).
 
 **Mises en regard**
 
@@ -107,17 +107,15 @@ La question n'est pas de savoir qui a raison dans chaque dossier, mais si une m�
 | Origine | Plaintes de deux anciens clients | Plainte de Gilles Féliho (faux en écriture publique) |
 | Rôle du Bâtonnier | Tentative de partage avant la justice pénale ; l'argument tiré de sa compétence n'arrête pas la procédure | Lettre du 17 mars 2025 : « prérogative de consultation » ; la convocation du 19 mars n'est pas honorée |
 | Mesure de contrainte | Mandat de dépôt le 13 avril 2026 ; liberté provisoire refusée le 27 avril | Aucune pièce ne montre une contrainte par la force publique |
-| Issue | Sept ans ferme en première instance (13 juillet 2026) | Classement sans suite (3 juillet 2025) |
+| Issue | Sept ans ferme en première instance (13 juillet 2026) | Classement sans suite pour inopportunité des poursuites (3 juillet 2025) |
 
-**Ce que la comparaison établit.** Deux avocats, une même juridiction spéciale, deux manières de traiter l'invocation du rôle du Bâtonnier : écartée dans un cas, suivie dans l'autre d'une absence de contrainte. Selon la presse, la condamnation de Me Yansunu porte sur des fonds de clients, non sur ses déclarations de mars 2025 ; la page ne soutient pas de lien entre les deux.
+**Ce que la comparaison établit.** Deux avocats, une même juridiction spéciale, deux manières de traiter l'invocation du rôle du Bâtonnier : écartée dans un cas, suivie dans l'autre d'une absence de contrainte.
 
 **Les questions que cette comparaison pose**
 
 1. Pourquoi l'argument tiré de la qualité d'avocat et du rôle du Bâtonnier n'a-t-il pas suspendu la procédure à l'égard de Me Yansunu, alors que, pour Me Fade, le Bâtonnier invoque sa « prérogative de consultation » avant toute audition ?
 2. L'article 56 alinéa 2 du Code de procédure pénale (« peuvent y être contraintes par la force publique ») s'applique-t-il à tous les avocats convoqués ? Pourquoi, d'après les pièces, ne l'a-t-il pas été le 19 mars 2025 ?
 3. L'article 26 de la Constitution dispose : « L'État assure à tous l'égalité devant la loi sans distinction d'origine, de race, de sexe, de religion, d'opinion politique ou de position sociale ». Comment se mesure cette égalité entre deux membres d'un même barreau ? (Voir la [question 15 du cas pratique sur la convocation](/batonnier-hounkpatin/cas-pratique-convocation-invitation-code-du-numerique/), consacrée à l'ignorance de la loi.)
-
-*Limites.* Les faits relatifs à Me Yansunu viennent de la presse, consultée le 22 octobre 2026 ; la décision elle-même n'a pas été lue et elle est susceptible d'appel. Cette page n'impute aucune infraction à Me Yansunu ni à Me Fade.
 
 ### Les durées
 
