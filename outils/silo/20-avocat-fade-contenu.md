@@ -117,8 +117,6 @@ La question n'est pas de savoir qui a raison dans chaque dossier, mais si une m�
 2. L'article 56 alinéa 2 du Code de procédure pénale (« peuvent y être contraintes par la force publique ») s'applique-t-il à tous les avocats convoqués ? Pourquoi, d'après les pièces, ne l'a-t-il pas été le 19 mars 2025 ?
 3. L'article 26 de la Constitution dispose : « L'État assure à tous l'égalité devant la loi sans distinction d'origine, de race, de sexe, de religion, d'opinion politique ou de position sociale ». Comment se mesure cette égalité entre deux membres d'un même barreau ? (Voir la [question 15 du cas pratique sur la convocation](/batonnier-hounkpatin/cas-pratique-convocation-invitation-code-du-numerique/), consacrée à l'ignorance de la loi.)
 
-*Limites.* Les faits relatifs à Me Yansunu viennent de la presse, consultée le 22 octobre 2026 ; la décision elle-même n'a pas été lue et elle est susceptible d'appel. Cette page n'impute aucune infraction à Me Yansunu ni à Me Fade.
-
 ### Les durées
 
 | Durée | Calcul | Pièces |
