@@ -56,3 +56,23 @@ details.correspondance summary{cursor:pointer;font-weight:700}
 .q details{margin-top:8px}.q summary{cursor:pointer;color:var(--blue);font-weight:700}
 .q details>*:not(summary){font-size:.95rem}
 @media print{.q{break-inside:auto}.cta{break-inside:avoid}}
+/* QCM : faits ou opinions (page 21). Règles sur une seule ligne, commençant par « .q » : le script de PDF les reprend. */
+.qcm{margin:22px 0}
+.qbar{display:none;position:sticky;top:0;z-index:20;align-items:center;gap:14px;background:var(--navy);color:#fff;border-radius:8px;padding:10px 16px;font-weight:700;font-size:.92rem;box-shadow:0 2px 6px rgba(10,31,68,.25)}
+.qcm.js .qbar{display:flex}
+.qjauge{flex:1;height:8px;background:rgba(255,255,255,.25);border-radius:4px;overflow:hidden}.qjauge i{display:block;height:100%;width:0;background:var(--gold);transition:width .25s}
+.qconsigne{font-size:.95rem;color:var(--gray)}
+.qsech{margin-top:34px}.qnature{font-size:.92rem;color:var(--gray)}.qpieces{font-size:.88rem}
+.qitem{border:1px solid var(--line);border-left:6px solid var(--gold);border-radius:10px;padding:14px 18px;margin:16px 0;background:#fff;break-inside:avoid}
+.qhead{display:flex;gap:10px;align-items:baseline;font-size:.76rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase}.qnum{color:var(--red)}.qref{color:var(--gray);font-weight:600;letter-spacing:0;text-transform:none}
+.qitem blockquote.qcit{margin:8px 0 10px;font-family:'Merriweather','Liberation Serif',Georgia,serif;font-size:.95rem;line-height:1.5}
+.qbtns{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0}.qcm:not(.js) .qbtns{display:none}
+.qbtn{font:inherit;font-size:.86rem;font-weight:700;padding:7px 13px;border:1px solid var(--navy);border-radius:999px;background:#fff;color:var(--navy);cursor:pointer}
+.qbtn:hover:not(:disabled){background:var(--navy);color:#fff}.qbtn:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.qbtn:disabled{cursor:default;opacity:.75}.qbtn.good{border-color:#14532d;background:#e8f3ec;color:#14532d;opacity:1}.qbtn.ko{border-color:var(--red);background:#fdecec;color:var(--red);opacity:1}.qbtn.ok{border-color:#14532d;background:#14532d;color:#fff;opacity:1}
+.qcm.js .qrep{display:none}.qcm.js .qitem.fait .qrep{display:block}
+.qrep{margin-top:8px;padding:10px 14px;border-radius:8px;background:var(--paper);font-size:.93rem}.qrep p{margin:5px 0}.qverdict{color:var(--navy)}.qpc{font-size:.88rem}.qmis{font-size:.82rem;color:var(--gray)}.qart{color:var(--gray)}
+.qitem.bon{border-left-color:#14532d}.qitem.mauvais{border-left-color:var(--red)}
+.qres{margin:26px 0;padding:18px 22px;border:2px solid var(--navy);border-radius:12px;background:var(--paper)}.qres h3{margin:0 0 8px}.qres table{width:100%}
+.qreset{text-align:center}
+@media print{.qbar,.qbtns,.qreset{display:none!important}.qitem{break-inside:avoid}.qrep{display:block!important}}

@@ -22,6 +22,9 @@ SRC18 = os.path.join(ROOT, 'outils', 'silo', '18-cas-pratique-convocation-conten
 SRC17 = os.path.join(ROOT, 'outils', 'silo', '17-apdp-contenu.md')   # Autorité de Protection des Données Personnelles (page 17, /apdp/)
 SRC19 = os.path.join(ROOT, 'outils', 'silo', '19-reglement-uemoa-contenu.md')   # règlement UEMOA et plainte contre un avocat (page 19)
 SRC15 = os.path.join(ROOT, 'outils', 'silo', '15-cas-pratique-enquete-contenu.md')   # second cas pratique (page 15)
+SRC21 = os.path.join(ROOT, 'outils', 'silo', '21-qcm-enquete-bac-contenu.md')   # QCM sur l'enquête de la Brigade criminelle (page 21)
+QCMJSON = os.path.join(ROOT, 'outils', 'silo', '21-qcm-enquete-bac-donnees.json')   # énoncés, catégories, explications et pièces du QCM
+QCM = '/batonnier-hounkpatin/qcm-enquete-brigade-criminelle/'
 CAS2 = '/batonnier-hounkpatin/cas-pratique-enquete-confusions-deontologie/'
 CAS3 = '/batonnier-hounkpatin/cas-pratique-convocation-invitation-code-du-numerique/'
 LETTRES = '/batonnier-hounkpatin/lettres-de-demande-de-communication/'
@@ -30,7 +33,7 @@ VIDEOS = {12: ('classement', 'classement'), 13: ('enquete', 'enquete'), 14: ('mi
 OUT = os.path.join(ROOT, 'batonnier-hounkpatin')
 SITE = 'https://wadagni2026-verite.com'
 DATE = '2026-10-14'
-DATES = {0: '2026-10-16', 2: '2026-10-16', 7: '2026-10-16', 19: '2026-10-16', 15: '2026-10-18', 10: '2026-10-18', 18: '2026-10-18', 20: '2026-10-22'}   # pages créées ou modifiées après le 14 octobre
+DATES = {0: '2026-10-16', 2: '2026-10-16', 7: '2026-10-16', 19: '2026-10-16', 15: '2026-10-18', 10: '2026-10-18', 18: '2026-10-18', 20: '2026-10-22', 21: '2026-10-29'}   # pages créées ou modifiées après le 14 octobre
 HUB = '/batonnier-hounkpatin/'
 ANCRE_HUB = 'Ancien bâtonnier Angelo Hounkpatin — le dossier des pièces'
 CONTACT = 'contact@eji2.org'
@@ -284,6 +287,14 @@ def jsonld(p, pages, canonical, og, html_body):
                                   "Témoin et personne soupçonnée", "Rôle de l'enquêteur : fait, intention, qualification", "Conflit d'intérêts de l'avocat", "Déontologie du notaire et de l'enquêteur", "Délai raisonnable (article 7-1 d de la Charte africaine)"],
                       "isAccessibleForFree": True, "creator": {"@id": SITE + "/#editeur"}, "datePublished": DATE,
                       "encoding": {"@type": "MediaObject", "contentUrl": SITE + CAS2 + "cas-pratique-enquete-confusions-deontologie.pdf", "encodingFormat": "application/pdf"}})
+    if n == 21:
+        graph.append({"@type": "LearningResource", "@id": canonical + "#qcm", "name": p['h1'], "description": p['desc'], "inLanguage": "fr",
+                      "learningResourceType": "Quiz", "interactivityType": "active", "educationalUse": "Exercice",
+                      "educationalLevel": "Enseignement supérieur (droit, procédure pénale, déontologie des professions juridiques) et grand public",
+                      "teaches": ["Distinguer un fait, une opinion et une qualification juridique", "Mission de l'officier de police judiciaire (CPP, articles 13, 14, 19, 56 et 76)",
+                                  "Valeur d'un procès-verbal d'audition", "Preuve d'un fait par une pièce", "Déontologie de la Police républicaine (décret n° 2018-356)"],
+                      "isAccessibleForFree": True, "creator": {"@id": SITE + "/#editeur"}, "datePublished": DATES.get(21, DATE),
+                      "encoding": {"@type": "MediaObject", "contentUrl": SITE + QCM + "qcm-enquete-brigade-criminelle.pdf", "encodingFormat": "application/pdf"}})
     if n == 18:
         graph.append({"@type": "LearningResource", "@id": canonical + "#cas-pratique", "name": p['h1'], "description": p['desc'], "inLanguage": "fr",
                       "learningResourceType": "Cas pratique", "educationalUse": "Exercice", "educationalLevel": "Enseignement supérieur (droit public, procédure, droit du numérique)",
@@ -388,6 +399,78 @@ def cta(n, titre, url, pdf, desc):
             f'<a class="cta-t" href="{url}">{titre}</a><p>{desc}</p>'
             f'<p class="cta-b"><a class="b1" href="{url}{pdf}" download>Télécharger le PDF</a><a class="b2" href="{url}">Lire en ligne</a></p></div>\n')
 
+def cta_qcm():
+    """Encadré visible vers le QCM interactif sur l'enquête de la Brigade criminelle."""
+    return (f'\n\n<div class="cta"><div class="cta-k">QCM interactif · version PDF</div>'
+            f'<a class="cta-t" href="{QCM}">Faits ou opinions ? Classer les énoncés de l\'enquête de la Brigade criminelle</a>'
+            f'<p>{qcm_stats(qcm_load())[0]} énoncés tirés du mémoire du 29 avril 2025, du procès-verbal d\'audition et des actes de la Brigade, classés selon la mission de l\'officier de police judiciaire.</p>'
+            f'<p class="cta-b"><a class="b1" href="{QCM}qcm-enquete-brigade-criminelle.pdf" download>Télécharger le PDF</a><a class="b2" href="{QCM}">Faire le QCM</a></p></div>\n')
+
+def qcm_load():
+    return json.load(open(QCMJSON, encoding='utf-8'))
+
+def qcm_stats(d):
+    cnt = {k: 0 for k in d['categories']}; n = 0
+    for s in d['sections']:
+        for it in s['items']:
+            cnt[it['c']] += 1; n += 1
+    return n, cnt
+
+def qcm_subst(txt, d):
+    n, cnt = qcm_stats(d)
+    return txt.replace('{{n}}', str(n)).replace('{{nF}}', str(cnt['F'])).replace('{{nNOQ}}', str(n - cnt['F']))
+
+def qcm_html(d):
+    """Module interactif : un bloc par énoncé. Sans JavaScript (ou en PDF), la réponse et l'explication sont affichées ; qcm.js ajoute les boutons."""
+    n, _ = qcm_stats(d)
+    e = html.escape
+    h = ['<div class="qcm" id="qcm">',
+         f'<div class="qbar" aria-live="polite"><span class="qtxt">0 / {n}</span><span class="qjauge"><i></i></span></div>',
+         '<p class="qconsigne">Pour chaque énoncé, choisissez la catégorie. La réponse, l\'explication et les pièces s\'affichent aussitôt.</p>']
+    for s in d['sections']:
+        h.append(f'<section class="qsec" id="qsec-{s["id"]}"><h2 class="qsech">{e(s["titre"])}</h2>')
+        h.append(f'<p class="qnature">{e(s["nature"])}</p>')
+        h.append('<p class="qpieces">Écrit : ' + ' · '.join(f'<a href="{u}">{e(l)}</a>' for l, u in s['pieces']) + '</p>')
+        for it in s['items']:
+            cat = d['categories'][it['c']]
+            pcs = ''
+            if it['pc']:
+                pcs = '<p class="qpc">Pièces : ' + ' · '.join(f'<a href="{u}">{e(l)}</a>' for l, u in it['pc']) + '</p>'
+            mis = ' · '.join(f'{e(d["missions"][m][0])} <span class="qart">({e(d["missions"][m][1])})</span>' for m in it['m'])
+            h.append(f'<div class="qitem" id="q-{it["id"]}" data-c="{it["c"]}">'
+                     f'<div class="qhead"><span class="qnum">{it["id"]}</span><span class="qref">{e(it["ref"])}</span></div>'
+                     f'<blockquote class="qcit">{e(it["q"])}</blockquote>'
+                     f'<div class="qbtns" role="group" aria-label="Catégorie de l\'énoncé {it["id"]}"></div>'
+                     f'<div class="qrep"><p class="qverdict"><b>Réponse : {e(cat)}.</b></p><p>{e(it["why"])}</p>{pcs}<p class="qmis">Mission en jeu : {mis}</p></div></div>')
+        h.append('</section>')
+    h.append('<div class="qres" tabindex="-1" hidden></div>')
+    h.append('<p class="qreset"><button type="button" class="qbtn" id="qreset" hidden>Recommencer le QCM</button></p>')
+    h.append('</div>')
+    return '\n'.join(h)
+
+def qcm_bilan(d):
+    """Deux tableaux de synthèse calculés sur les énoncés : par écrit, puis par mission de l'OPJ."""
+    e = html.escape
+    court = {'A': 'Mémoire du 29 avril 2025', 'B': "Procès-verbal d'audition du 19 mars 2025", 'C': 'Autres actes de la Brigade et réponse de la mairie'}
+    cats = list(d['categories'])
+    rows = ['<table><thead><tr><th>Écrit</th><th>Énoncés</th>' + ''.join(f'<th>{e(d["categories"][c])}</th>' for c in cats) + '</tr></thead><tbody>']
+    tot = {c: 0 for c in cats}; n = 0
+    for s in d['sections']:
+        cnt = {c: sum(1 for it in s['items'] if it['c'] == c) for c in cats}
+        rows.append(f'<tr><td>{e(court[s["id"]])}</td><td>{len(s["items"])}</td>' + ''.join(f'<td>{cnt[c]}</td>' for c in cats) + '</tr>')
+        for c in cats: tot[c] += cnt[c]
+        n += len(s['items'])
+    rows.append(f'<tr><td><b>Total</b></td><td><b>{n}</b></td>' + ''.join(f'<td><b>{tot[c]}</b></td>' for c in cats) + '</tr></tbody></table>')
+    t1 = '\n'.join(rows)
+    rows = ['<table><thead><tr><th>Mission de l\'OPJ</th><th>Énoncés en jeu</th><th>Faits étayés</th><th>Faits non étayés, opinions, qualifications</th></tr></thead><tbody>']
+    for k, (nom, art) in d['missions'].items():
+        its = [it for s in d['sections'] for it in s['items'] if k in it['m']]
+        f = sum(1 for it in its if it['c'] == 'F')
+        rows.append(f'<tr><td><b>{e(nom)}</b><br><small>{e(art)}</small></td><td>{len(its)}</td><td>{f}</td><td>{len(its) - f}</td></tr>')
+    rows.append('</tbody></table>')
+    t2 = '\n'.join(rows)
+    return ('<p>Les énoncés du QCM se répartissent ainsi, par écrit puis par mission. Un énoncé peut relever de plusieurs missions.</p>\n' + t1 + '\n' + t2)
+
 def cartes(md):
     """Page 15 : chaque « **Question N · Titre** » devient une carte (étiquette, question, textes et pièces, piste repliable)."""
     lines = md.split('\n'); out = []; i = 0
@@ -443,6 +526,8 @@ def render(p, pages):
         md = md.rstrip() + cta(2, "Les confusions d'une enquête pénale et les règles déontologiques à l'épreuve des pièces", CAS2, 'cas-pratique-enquete-confusions-deontologie.pdf', "Onze questions (et trois questions bis), l'atelier sur le testament et le juge, pistes de réponse et grille de correction.")
     if p['num'] in (0, 10, 15, 17):
         md = md.rstrip() + cta(3, "Convocation ou invitation ? Le Code du numérique, la comparution et le contradictoire", CAS3, 'cas-pratique-convocation-invitation-code-du-numerique.pdf', "Quinze questions, dont l'obligation d'informer sans délai le Procureur, pistes de réponse et grille de correction.")
+    if p['num'] in (0, 13, 15):
+        md = md.rstrip() + cta_qcm()
     if p['num'] in LETTRES_PAGES:
         md = md.rstrip() + f"\n\n**Modèles de lettres.** [Quatre lettres de demande de communication]({LETTRES}) : Bâtonnier, Procureur Général, Cour constitutionnelle, Procureur spécial de la CRIET, avec version PDF.\n"
     if p['num'] in FILM_PAGES:
@@ -461,6 +546,12 @@ def render(p, pages):
         md = cartes(md)
     exts = ['tables', 'sane_lists', 'md_in_html'] + (['nl2br'] if p['num'] in (10, 11, 15, 18) else [])
     body = markdown.markdown(md, extensions=exts)
+    if p['num'] == 21:
+        dq = qcm_load()
+        body = body.replace('<p>@@QCM@@</p>', qcm_html(dq)).replace('<p>@@BILAN@@</p>', qcm_bilan(dq))
+        assert '@@' not in body
+        body = body.replace('<h2>Ce que votre classement établit</h2>', '<h2 id="bilan">Ce que votre classement établit</h2>', 1)
+        assert 'id="bilan"' in body
     if p['num'] in VIDEOS:   # transcription du film (sous-titres regroupés), comme sur les premières vidéos du site
         tl = os.path.join(ROOT, 'video', VIDEOS[p['num']][0], 'timeline.json')
         if os.path.exists(tl):
@@ -480,14 +571,14 @@ def render(p, pages):
     page += f'<header class="h"><div class="wrap"><a class="site" href="/">Wadagni 2026 Vérité · Éthique Juridique 2.0</a><span class="kick">Dossier institutionnel</span><h1>{html.escape(p["h1"])}</h1></div></header>\n'
     page += f'<main class="wrap">\n{crumbs}\n<article>\n{body}\n</article>\n{retour}\n<aside class="droit">{DROIT}</aside>\n</main>\n'
     page += (f'<footer class="wrap">© 2026 Gilles FÉLIHO — Éthique Juridique 2.0 Internationale · <a href="/mentions-legales.html">Mentions légales</a> · '
-             f'<a href="{HUB}droit-de-reponse-et-mises-au-point/">Droit de réponse</a> · <a href="/">Accueil</a></footer>\n</body>\n</html>\n')
+             f'<a href="{HUB}droit-de-reponse-et-mises-au-point/">Droit de réponse</a> · <a href="/">Accueil</a></footer>\n' + ('<script src="/batonnier-hounkpatin/assets/qcm.js" defer></script>\n' if p['num'] == 21 else '') + '</body>\n</html>\n')
     return page, slug
 
 def main():
     os.makedirs(os.path.join(OUT, 'assets'), exist_ok=True)
-    text = open(SRC, encoding='utf-8').read() + '\n' + open(SRC10, encoding='utf-8').read() + '\n' + open(SRC11, encoding='utf-8').read() + '\n' + open(SRC12, encoding='utf-8').read() + '\n' + open(SRC13, encoding='utf-8').read() + '\n' + open(SRC14, encoding='utf-8').read() + '\n' + open(SRC15, encoding='utf-8').read() + '\n' + open(SRC16, encoding='utf-8').read() + '\n' + open(SRC17, encoding='utf-8').read() + '\n' + open(SRC18, encoding='utf-8').read() + '\n' + open(SRC19, encoding='utf-8').read() + '\n' + open(SRC20, encoding='utf-8').read()
+    text = open(SRC, encoding='utf-8').read() + '\n' + open(SRC10, encoding='utf-8').read() + '\n' + open(SRC11, encoding='utf-8').read() + '\n' + open(SRC12, encoding='utf-8').read() + '\n' + open(SRC13, encoding='utf-8').read() + '\n' + open(SRC14, encoding='utf-8').read() + '\n' + open(SRC15, encoding='utf-8').read() + '\n' + open(SRC16, encoding='utf-8').read() + '\n' + open(SRC17, encoding='utf-8').read() + '\n' + open(SRC18, encoding='utf-8').read() + '\n' + open(SRC19, encoding='utf-8').read() + '\n' + open(SRC20, encoding='utf-8').read() + '\n' + qcm_subst(open(SRC21, encoding='utf-8').read(), qcm_load())
     pages = parse_pages(text)
-    assert len(pages) == 21, len(pages)
+    assert len(pages) == 22, len(pages)
     liste = []
     for p in pages:
         out, slug = render(p, pages)
