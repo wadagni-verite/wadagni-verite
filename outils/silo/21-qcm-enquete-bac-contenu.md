@@ -83,3 +83,4 @@ Un raisonnement sérieux nomme aussi ce qui est étayé : {{nF}} énoncés sur {
 - [L'enquête contre elle-même : la Brigade criminelle](/brigade-criminelle/)
 - [Cas pratique n° 2 : les confusions d'une enquête pénale](/batonnier-hounkpatin/cas-pratique-enquete-confusions-deontologie/)
 - [La réponse de la Brigade criminelle du 29 avril 2025](/batonnier-hounkpatin/brigade-criminelle-reponse-29-avril-2025/)
+- [France – Bénin : un même jugement contesté, deux traitements](/batonnier-hounkpatin/france-benin-meme-jugement-deux-traitements/)
