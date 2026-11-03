@@ -25,6 +25,8 @@ SRC15 = os.path.join(ROOT, 'outils', 'silo', '15-cas-pratique-enquete-contenu.md
 SRC21 = os.path.join(ROOT, 'outils', 'silo', '21-qcm-enquete-bac-contenu.md')   # QCM sur l'enquête de la Brigade criminelle (page 21)
 QCMJSON = os.path.join(ROOT, 'outils', 'silo', '21-qcm-enquete-bac-donnees.json')   # énoncés, catégories, explications et pièces du QCM
 QCM = '/batonnier-hounkpatin/qcm-enquete-brigade-criminelle/'
+SRC22 = os.path.join(ROOT, 'outils', 'silo', '22-france-benin-contenu.md')   # même jugement, deux traitements : arrêt de la Cour d'appel de Paris (page 22)
+FRBJ = '/batonnier-hounkpatin/france-benin-meme-jugement-deux-traitements/'
 CAS2 = '/batonnier-hounkpatin/cas-pratique-enquete-confusions-deontologie/'
 CAS3 = '/batonnier-hounkpatin/cas-pratique-convocation-invitation-code-du-numerique/'
 LETTRES = '/batonnier-hounkpatin/lettres-de-demande-de-communication/'
@@ -33,7 +35,7 @@ VIDEOS = {12: ('classement', 'classement'), 13: ('enquete', 'enquete'), 14: ('mi
 OUT = os.path.join(ROOT, 'batonnier-hounkpatin')
 SITE = 'https://wadagni2026-verite.com'
 DATE = '2026-10-14'
-DATES = {0: '2026-10-16', 2: '2026-10-16', 7: '2026-10-16', 19: '2026-10-16', 15: '2026-10-18', 10: '2026-10-18', 18: '2026-10-18', 20: '2026-10-22', 21: '2026-10-29'}   # pages créées ou modifiées après le 14 octobre
+DATES = {0: '2026-10-16', 2: '2026-10-16', 7: '2026-10-16', 19: '2026-10-16', 15: '2026-10-18', 10: '2026-10-18', 18: '2026-10-18', 20: '2026-10-22', 21: '2026-10-29', 22: '2026-11-03'}   # pages créées ou modifiées après le 14 octobre
 HUB = '/batonnier-hounkpatin/'
 ANCRE_HUB = 'Ancien bâtonnier Angelo Hounkpatin — le dossier des pièces'
 CONTACT = 'contact@eji2.org'
@@ -107,6 +109,8 @@ PIECES = [
     ('Lettre de Me Samba Sidibé au ministre de la Justice (4 pages)', '5 janv. 2026', 4, 'pieces/procedures-benin/lettre-conseil-ministre-justice-2026-01-05.pdf', '0f6599a7f4adfba8d949569158c3b3b2c0ce4eddaa355f1f57c97c928370f281', True, None),
     ('Attestation d\u2019appel du greffier en chef (photographie, 1 page)', '17 nov. 2014', 1, 'pieces/procedures-benin/attestation-appel-jugement-114-14-2014-11-17.pdf', 'f12663031baad99bd55e4eb3af2eda9350ade4eeb40f0bcd09964433c296b6c4', False, None),
     ('Courriel « a/s ta maison » : en-tête du fil du 7 août 2007 et message de Lise Féliho (2 pages ; annotations de l\u2019éditeur)', 'août 2007', 2, 'pieces/procedures-benin/courriel-lise-feliho-ta-maison-2007-08.pdf', '13fe063d841199e69a0666ca37b500db94d1156198f27acc06859ed3fc8276ec', True, None),
+    ('Arrêt de la Cour d\u2019appel de Paris, pôle 3, chambre 1, RG n° 15/15518 : inscription de faux incidente contre le jugement n° 114/14 (6 pages ; dates de naissance et adresses occultées)', '15 févr. 2017', 6, 'pieces/ca-paris-arret-2017-02-15-inscription-faux.pdf', 'cd71e4f8e0e684979ef3ca10b39255698be39a741a865db2ec10af6fe86b2b5c', True, None),
+    ('Procès-verbal de plainte du CSP de Créteil, P.V. n° 2015/011797 : faux et usage de faux, plainte contre X (2 pages ; état civil, adresse et téléphone occultés)', '18 déc. 2015', 2, 'pieces/procedures-benin/pv-plainte-france-creteil-2015-12-18.pdf', '76739db00991f078870729f3b4752708633d36c0b149fc8d8711ab30e468ef23', True, None),
     ('Décret n° 2018-356 portant code d\u2019éthique et de déontologie de la Police républicaine (texte de référence)', '25 juil. 2018', 9, 'pieces/decret-2018-356-code-deontologie-police-republicaine.pdf', None, False, None),
     ('Courriel de Me Samba Sidibé à Gilles Féliho : « Lettre au Procureur Spécial » (capture, 1 page)', '24 nov. 2025', 1, 'pieces/procedures-benin/courriel-conseil-transmission-lettre-procureur-special-2025-11-24.pdf', '9fd0e0af02a9c4a96a0ccf5647937af90b2a4053c074abd1fc05f3282c59e62e', True, None),
     ('Plainte avec constitution de partie civile adressée au Doyen des juges d\u2019instruction de Cotonou et déposée auprès du Président du tribunal (14 pages ; p. 1 : photographie de la page déposée)', '29 sept. 2025', 14, 'pieces/procedures-benin/plainte-partie-civile-doyen-juges-instruction-cotonou-2025-09-29.pdf', '184abf157487875bb0f40d8b2b606cabb03c91977c1fdbc1d2e0b88b545e880e', True, None),
@@ -528,6 +532,8 @@ def render(p, pages):
         md = md.rstrip() + cta(3, "Convocation ou invitation ? Le Code du numérique, la comparution et le contradictoire", CAS3, 'cas-pratique-convocation-invitation-code-du-numerique.pdf', "Quinze questions, dont l'obligation d'informer sans délai le Procureur, pistes de réponse et grille de correction.")
     if p['num'] in (0, 13, 15):
         md = md.rstrip() + cta_qcm()
+    if p['num'] in (0, 13, 14, 16, 21):
+        md = md.rstrip() + f"\n\n**France – Bénin.** [Un même jugement contesté, deux traitements]({FRBJ}) : l'arrêt de la Cour d'appel de Paris du 15 février 2017, qui renvoie la contestation du jugement n° 114/14 aux autorités béninoises, mis en regard du traitement béninois de la plainte.\n"
     if p['num'] in LETTRES_PAGES:
         md = md.rstrip() + f"\n\n**Modèles de lettres.** [Quatre lettres de demande de communication]({LETTRES}) : Bâtonnier, Procureur Général, Cour constitutionnelle, Procureur spécial de la CRIET, avec version PDF.\n"
     if p['num'] in FILM_PAGES:
@@ -576,9 +582,9 @@ def render(p, pages):
 
 def main():
     os.makedirs(os.path.join(OUT, 'assets'), exist_ok=True)
-    text = open(SRC, encoding='utf-8').read() + '\n' + open(SRC10, encoding='utf-8').read() + '\n' + open(SRC11, encoding='utf-8').read() + '\n' + open(SRC12, encoding='utf-8').read() + '\n' + open(SRC13, encoding='utf-8').read() + '\n' + open(SRC14, encoding='utf-8').read() + '\n' + open(SRC15, encoding='utf-8').read() + '\n' + open(SRC16, encoding='utf-8').read() + '\n' + open(SRC17, encoding='utf-8').read() + '\n' + open(SRC18, encoding='utf-8').read() + '\n' + open(SRC19, encoding='utf-8').read() + '\n' + open(SRC20, encoding='utf-8').read() + '\n' + qcm_subst(open(SRC21, encoding='utf-8').read(), qcm_load())
+    text = open(SRC, encoding='utf-8').read() + '\n' + open(SRC10, encoding='utf-8').read() + '\n' + open(SRC11, encoding='utf-8').read() + '\n' + open(SRC12, encoding='utf-8').read() + '\n' + open(SRC13, encoding='utf-8').read() + '\n' + open(SRC14, encoding='utf-8').read() + '\n' + open(SRC15, encoding='utf-8').read() + '\n' + open(SRC16, encoding='utf-8').read() + '\n' + open(SRC17, encoding='utf-8').read() + '\n' + open(SRC18, encoding='utf-8').read() + '\n' + open(SRC19, encoding='utf-8').read() + '\n' + open(SRC20, encoding='utf-8').read() + '\n' + qcm_subst(open(SRC21, encoding='utf-8').read(), qcm_load()) + '\n' + open(SRC22, encoding='utf-8').read()
     pages = parse_pages(text)
-    assert len(pages) == 22, len(pages)
+    assert len(pages) == 23, len(pages)
     liste = []
     for p in pages:
         out, slug = render(p, pages)

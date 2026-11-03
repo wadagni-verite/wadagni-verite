@@ -22,6 +22,8 @@ CIBLES = [
     'pieces/procedures-benin/lettre-conseil-ministre-justice-2026-01-05.pdf',
     'pieces/procedures-benin/reponse-ministre-justice-2026-01-14.pdf',
     'pieces/procedures-benin/attestation-appel-jugement-114-14-2014-11-17.pdf',
+    'pieces/ca-paris-arret-2017-02-15-inscription-faux.pdf',
+    'pieces/procedures-benin/pv-plainte-france-creteil-2015-12-18.pdf',
     'pieces/procedures-benin/plainte-partie-civile-doyen-juges-instruction-cotonou-2025-09-29.pdf',
     'pieces/procedures-benin/recepisse-tresor-plainte-3000-fcfa-2025-09-29.pdf',
     'pieces/procedures-benin/apdp-plainte-notaire-balley-2023-10-02.pdf',
